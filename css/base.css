@@ -1,0 +1,53 @@
+/* Base reset and typography. Requires tokens.css. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--olx-font-family-sans);
+  font-size: var(--olx-font-size-md);
+  line-height: var(--olx-font-line-height-normal);
+  color: var(--olx-text);
+  background: var(--olx-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  margin: 0 0 var(--olx-space-3);
+  line-height: var(--olx-font-line-height-tight);
+  font-weight: var(--olx-font-weight-bold);
+}
+h1 { font-size: var(--olx-font-size-3xl); }
+h2 { font-size: var(--olx-font-size-2xl); }
+h3 { font-size: var(--olx-font-size-xl); }
+h4 { font-size: var(--olx-font-size-lg); }
+
+p { margin: 0 0 var(--olx-space-4); }
+
+a { color: var(--olx-link); text-underline-offset: 2px; }
+
+img { max-width: 100%; display: block; }
+
+code, pre { font-family: var(--olx-font-family-mono); font-size: 0.9em; }
+
+:focus-visible {
+  outline: 2px solid var(--olx-focus);
+  outline-offset: 2px;
+}
+
+.olx-text-muted { color: var(--olx-text-muted); }
+.olx-text-sm { font-size: var(--olx-font-size-sm); }
+.olx-text-xs { font-size: var(--olx-font-size-xs); }
+
+.olx-visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: 0ms !important; animation-duration: 0ms !important; }
+}

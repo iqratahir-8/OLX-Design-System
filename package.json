@@ -1,0 +1,25 @@
+{
+  "name": "olx-design-system",
+  "version": "0.1.0",
+  "description": "Design tokens and CSS components for the OLX Design System.",
+  "type": "module",
+  "main": "dist/tokens.js",
+  "exports": {
+    ".": "./dist/tokens.js",
+    "./tokens.json": "./tokens/tokens.json",
+    "./css/tokens.css": "./css/tokens.css",
+    "./css/base.css": "./css/base.css",
+    "./css/components.css": "./css/components.css",
+    "./css/olx.css": "./css/olx.css"
+  },
+  "files": [
+    "tokens",
+    "css",
+    "dist"
+  ],
+  "scripts": {
+    "build": "node scripts/build-tokens.mjs",
+    "preview": "npx --yes serve ."
+  },
+  "license": "UNLICENSED"
+}

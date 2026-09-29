@@ -1,0 +1,205 @@
+/* OLX components. Requires tokens.css (and base.css for typography). */
+
+/* ---------- Button ---------- */
+.olx-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--olx-space-2);
+  min-height: 48px;
+  padding: 0 var(--olx-space-5);
+  border: 2px solid transparent;
+  border-radius: var(--olx-radius-sm);
+  font: inherit;
+  font-weight: var(--olx-font-weight-bold);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background var(--olx-motion-duration-fast) var(--olx-motion-easing-standard),
+              border-color var(--olx-motion-duration-fast) var(--olx-motion-easing-standard),
+              color var(--olx-motion-duration-fast) var(--olx-motion-easing-standard);
+}
+.olx-btn--primary { background: var(--olx-primary); color: var(--olx-on-primary); }
+.olx-btn--primary:hover { background: var(--olx-primary-hover); }
+.olx-btn--secondary { background: transparent; color: var(--olx-text); border-color: var(--olx-border-strong); }
+.olx-btn--secondary:hover { box-shadow: inset 0 0 0 1px var(--olx-border-strong); }
+.olx-btn--accent { background: var(--olx-accent); color: var(--olx-on-accent); }
+.olx-btn--accent:hover { filter: brightness(0.95); }
+.olx-btn--ghost { background: transparent; color: var(--olx-text); text-decoration: underline; text-underline-offset: 3px; }
+.olx-btn--ghost:hover { background: var(--olx-bg-subtle); }
+.olx-btn--danger { background: var(--olx-danger); color: var(--olx-on-danger); }
+.olx-btn--sm { min-height: 36px; padding: 0 var(--olx-space-4); font-size: var(--olx-font-size-sm); }
+.olx-btn--block { width: 100%; }
+.olx-btn:disabled, .olx-btn[aria-disabled="true"] { opacity: 0.4; cursor: not-allowed; pointer-events: none; }
+
+/* ---------- Form fields ---------- */
+.olx-field { display: flex; flex-direction: column; gap: var(--olx-space-1); }
+.olx-label { font-size: var(--olx-font-size-sm); font-weight: var(--olx-font-weight-medium); }
+.olx-hint { font-size: var(--olx-font-size-xs); color: var(--olx-text-muted); }
+
+.olx-input, .olx-select, .olx-textarea {
+  width: 100%;
+  min-height: 48px;
+  padding: var(--olx-space-3) var(--olx-space-4);
+  border: 1px solid var(--olx-border-strong);
+  border-radius: var(--olx-radius-sm);
+  background: var(--olx-surface);
+  color: var(--olx-text);
+  font: inherit;
+}
+.olx-textarea { min-height: 120px; resize: vertical; }
+.olx-input::placeholder, .olx-textarea::placeholder { color: var(--olx-text-muted); }
+.olx-input:focus, .olx-select:focus, .olx-textarea:focus {
+  outline: none;
+  border-color: var(--olx-focus);
+  box-shadow: 0 0 0 1px var(--olx-focus);
+}
+.olx-field--error .olx-input,
+.olx-field--error .olx-select,
+.olx-field--error .olx-textarea { border-color: var(--olx-danger); }
+.olx-field--error .olx-hint { color: var(--olx-danger); }
+
+.olx-check { display: inline-flex; align-items: center; gap: var(--olx-space-2); cursor: pointer; }
+.olx-check input { width: 20px; height: 20px; accent-color: var(--olx-primary); margin: 0; }
+
+/* ---------- Search bar ---------- */
+.olx-search {
+  display: flex;
+  border: 2px solid var(--olx-border-strong);
+  border-radius: var(--olx-radius-sm);
+  background: var(--olx-surface);
+  overflow: hidden;
+}
+.olx-search input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  padding: 0 var(--olx-space-4);
+  background: transparent;
+  color: var(--olx-text);
+  font: inherit;
+  min-height: 48px;
+}
+.olx-search input:focus { outline: none; }
+.olx-search button {
+  border: 0;
+  padding: 0 var(--olx-space-5);
+  background: var(--olx-primary);
+  color: var(--olx-on-primary);
+  font: inherit;
+  font-weight: var(--olx-font-weight-bold);
+  cursor: pointer;
+}
+
+/* ---------- Badge / tag ---------- */
+.olx-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--olx-space-1);
+  padding: 2px var(--olx-space-2);
+  border-radius: var(--olx-radius-sm);
+  font-size: var(--olx-font-size-xs);
+  font-weight: var(--olx-font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  background: var(--olx-bg-subtle);
+  color: var(--olx-text);
+}
+.olx-badge--featured { background: var(--olx-highlight); color: var(--olx-color-petrol-900); }
+.olx-badge--info { background: var(--olx-info-bg); color: var(--olx-info); }
+.olx-badge--success { background: var(--olx-success-bg); color: var(--olx-success); }
+.olx-badge--danger { background: var(--olx-danger-bg); color: var(--olx-danger); }
+
+.olx-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 32px;
+  padding: 0 var(--olx-space-3);
+  border: 1px solid var(--olx-border);
+  border-radius: var(--olx-radius-pill);
+  background: var(--olx-surface);
+  color: var(--olx-text);
+  font: inherit;
+  font-size: var(--olx-font-size-sm);
+  cursor: pointer;
+}
+.olx-chip[aria-pressed="true"] { background: var(--olx-primary); color: var(--olx-on-primary); border-color: var(--olx-primary); }
+
+/* ---------- Card / listing card ---------- */
+.olx-card {
+  background: var(--olx-surface);
+  border: 1px solid var(--olx-border);
+  border-radius: var(--olx-radius-md);
+  overflow: hidden;
+}
+.olx-card--elevated { border-color: transparent; box-shadow: var(--olx-shadow-md); }
+
+.olx-listing {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+  transition: box-shadow var(--olx-motion-duration-base) var(--olx-motion-easing-standard);
+}
+.olx-listing:hover { box-shadow: var(--olx-shadow-md); }
+.olx-listing--featured { border-left: 4px solid var(--olx-highlight); }
+.olx-listing__media { aspect-ratio: 4 / 3; background: var(--olx-bg-subtle); object-fit: cover; width: 100%; }
+.olx-listing__body { display: flex; flex-direction: column; gap: var(--olx-space-1); padding: var(--olx-space-3) var(--olx-space-4) var(--olx-space-4); }
+.olx-listing__price { font-size: var(--olx-font-size-lg); font-weight: var(--olx-font-weight-bold); }
+.olx-listing__title { font-size: var(--olx-font-size-sm); color: var(--olx-text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.olx-listing__meta { display: flex; justify-content: space-between; gap: var(--olx-space-2); font-size: var(--olx-font-size-xs); color: var(--olx-text-muted); }
+.olx-listing__badge { position: absolute; top: var(--olx-space-2); left: var(--olx-space-2); }
+.olx-listing__fav {
+  position: absolute;
+  top: var(--olx-space-2);
+  right: var(--olx-space-2);
+  width: 40px; height: 40px;
+  display: grid; place-items: center;
+  border: 0; border-radius: 50%;
+  background: var(--olx-color-white);
+  color: var(--olx-color-petrol-900);
+  box-shadow: var(--olx-shadow-sm);
+  cursor: pointer;
+}
+.olx-listing__fav[aria-pressed="true"] svg { fill: currentColor; }
+
+/* ---------- Alert ---------- */
+.olx-alert {
+  display: flex;
+  gap: var(--olx-space-3);
+  padding: var(--olx-space-3) var(--olx-space-4);
+  border-radius: var(--olx-radius-sm);
+  border-left: 4px solid currentColor;
+  font-size: var(--olx-font-size-sm);
+}
+.olx-alert--info { background: var(--olx-info-bg); color: var(--olx-info); }
+.olx-alert--success { background: var(--olx-success-bg); color: var(--olx-success); }
+.olx-alert--warning { background: var(--olx-warning-bg); color: var(--olx-warning); border-left-color: var(--olx-highlight); }
+.olx-alert--danger { background: var(--olx-danger-bg); color: var(--olx-danger); }
+.olx-alert strong { display: block; }
+
+/* ---------- Header ---------- */
+.olx-header {
+  display: flex;
+  align-items: center;
+  gap: var(--olx-space-4);
+  padding: var(--olx-space-3) var(--olx-space-4);
+  background: var(--olx-bg-subtle);
+  border-bottom: 1px solid var(--olx-border);
+}
+.olx-header__logo { font-size: var(--olx-font-size-xl); font-weight: var(--olx-font-weight-bold); color: var(--olx-text); text-decoration: none; letter-spacing: -0.02em; }
+.olx-header__search { flex: 1; }
+.olx-header__actions { display: flex; align-items: center; gap: var(--olx-space-3); }
+
+@media (max-width: 767px) {
+  .olx-header { flex-wrap: wrap; }
+  .olx-header__search { order: 3; flex-basis: 100%; }
+  .olx-header__actions { margin-left: auto; }
+}
+
+/* ---------- Layout helpers ---------- */
+.olx-container { width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 var(--olx-space-4); }
+.olx-grid { display: grid; gap: var(--olx-space-4); grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.olx-stack { display: flex; flex-direction: column; gap: var(--olx-space-4); }
+.olx-cluster { display: flex; flex-wrap: wrap; align-items: center; gap: var(--olx-space-3); }
+.olx-divider { border: 0; border-top: 1px solid var(--olx-border); margin: var(--olx-space-5) 0; }

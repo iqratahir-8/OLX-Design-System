@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OLX Design System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="css/olx.css">
+  <style>
+    .docs-section { padding: var(--olx-space-6) 0; border-bottom: 1px solid var(--olx-border); }
+    .docs-section > h2 { margin-bottom: var(--olx-space-2); }
+    .docs-section > p { color: var(--olx-text-muted); max-width: 60ch; }
+    .swatches { display: grid; gap: var(--olx-space-3); grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .swatch { border: 1px solid var(--olx-border); border-radius: var(--olx-radius-md); overflow: hidden; font-size: var(--olx-font-size-xs); }
+    .swatch__chip { height: 64px; }
+    .swatch__label { padding: var(--olx-space-2); display: flex; flex-direction: column; }
+    .swatch__label code { color: var(--olx-text-muted); }
+    .scale-row { display: flex; align-items: center; gap: var(--olx-space-4); padding: var(--olx-space-2) 0; }
+    .scale-row code { width: 150px; flex: none; color: var(--olx-text-muted); font-size: var(--olx-font-size-xs); }
+    .space-bar { height: 16px; background: var(--olx-accent); border-radius: 2px; }
+    .radius-box, .shadow-box { width: 96px; height: 64px; background: var(--olx-bg-subtle); border: 1px solid var(--olx-border); }
+    .shadow-box { background: var(--olx-surface); border: 0; }
+    .demo-form { display: grid; gap: var(--olx-space-4); grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .theme-toggle { margin-left: auto; }
+  </style>
+</head>
+<body>
+  <header class="olx-header">
+    <a class="olx-header__logo" href="#">OLX&nbsp;DS</a>
+    <form class="olx-header__search olx-search" role="search" onsubmit="event.preventDefault()">
+      <label class="olx-visually-hidden" for="hdr-q">Search listings</label>
+      <input id="hdr-q" type="search" placeholder="Find cars, mobile phones and more…">
+      <button type="submit">Search</button>
+    </form>
+    <div class="olx-header__actions">
+      <button class="olx-btn olx-btn--ghost olx-btn--sm theme-toggle" id="theme-toggle" type="button">Toggle theme</button>
+      <a class="olx-btn olx-btn--accent olx-btn--sm" href="#components">+ Sell</a>
+    </div>
+  </header>
+
+  <main class="olx-container">
+    <section class="docs-section">
+      <h1>OLX Design System</h1>
+      <p>Design tokens, base styles and CSS components for building OLX interfaces. Everything is driven by <code>tokens/tokens.json</code> and exposed as <code>--olx-*</code> CSS custom properties, with light and dark themes.</p>
+    </section>
+
+    <section class="docs-section" id="colors">
+      <h2>Color</h2>
+      <p>Primitive palette. Components should use the semantic tokens below instead of these directly.</p>
+      <div class="swatches" id="primitive-swatches"></div>
+      <h3 style="margin-top: var(--olx-space-6)">Semantic</h3>
+      <p class="olx-text-muted">These switch automatically between light and dark themes.</p>
+      <div class="swatches" id="semantic-swatches"></div>
+    </section>
+
+    <section class="docs-section" id="typography">
+      <h2>Typography</h2>
+      <p>Inter, with a system-font fallback. Headings are bold with a tight line height.</p>
+      <div id="type-scale"></div>
+    </section>
+
+    <section class="docs-section" id="spacing">
+      <h2>Spacing, radius and elevation</h2>
+      <p>A 4px-based spacing scale.</p>
+      <div id="space-scale"></div>
+      <div class="olx-cluster" style="margin-top: var(--olx-space-5)">
+        <div class="radius-box" style="border-radius: var(--olx-radius-sm)"></div>
+        <div class="radius-box" style="border-radius: var(--olx-radius-md)"></div>
+        <div class="radius-box" style="border-radius: var(--olx-radius-lg)"></div>
+        <div class="radius-box" style="border-radius: var(--olx-radius-pill)"></div>
+      </div>
+      <div class="olx-cluster" style="margin-top: var(--olx-space-5); gap: var(--olx-space-6)">
+        <div class="shadow-box" style="box-shadow: var(--olx-shadow-sm)"></div>
+        <div class="shadow-box" style="box-shadow: var(--olx-shadow-md)"></div>
+        <div class="shadow-box" style="box-shadow: var(--olx-shadow-lg)"></div>
+      </div>
+    </section>
+
+    <section class="docs-section" id="components">
+      <h2>Buttons</h2>
+      <div class="olx-cluster">
+        <button class="olx-btn olx-btn--primary">Primary</button>
+        <button class="olx-btn olx-btn--secondary">Secondary</button>
+        <button class="olx-btn olx-btn--accent">Accent</button>
+        <button class="olx-btn olx-btn--ghost">Ghost</button>
+        <button class="olx-btn olx-btn--danger">Delete ad</button>
+        <button class="olx-btn olx-btn--primary" disabled>Disabled</button>
+        <button class="olx-btn olx-btn--primary olx-btn--sm">Small</button>
+      </div>
+    </section>
+
+    <section class="docs-section">
+      <h2>Form fields</h2>
+      <form class="demo-form" onsubmit="event.preventDefault()">
+        <div class="olx-field">
+          <label class="olx-label" for="f-title">Ad title</label>
+          <input class="olx-input" id="f-title" placeholder="e.g. iPhone 15 Pro, 256GB">
+          <span class="olx-hint">Mention the key features of your item.</span>
+        </div>
+        <div class="olx-field">
+          <label class="olx-label" for="f-cat">Category</label>
+          <select class="olx-select" id="f-cat">
+            <option>Mobiles</option><option>Vehicles</option><option>Property for sale</option><option>Electronics</option>
+          </select>
+        </div>
+        <div class="olx-field olx-field--error">
+          <label class="olx-label" for="f-price">Price</label>
+          <input class="olx-input" id="f-price" inputmode="numeric" aria-invalid="true" aria-describedby="f-price-err">
+          <span class="olx-hint" id="f-price-err">Please enter a price.</span>
+        </div>
+        <div class="olx-field" style="grid-column: 1 / -1">
+          <label class="olx-label" for="f-desc">Description</label>
+          <textarea class="olx-textarea" id="f-desc"></textarea>
+        </div>
+        <label class="olx-check"><input type="checkbox" checked> Negotiable</label>
+      </form>
+    </section>
+
+    <section class="docs-section">
+      <h2>Badges and chips</h2>
+      <div class="olx-cluster">
+        <span class="olx-badge olx-badge--featured">Featured</span>
+        <span class="olx-badge">Used</span>
+        <span class="olx-badge olx-badge--info">New</span>
+        <span class="olx-badge olx-badge--success">Verified</span>
+        <span class="olx-badge olx-badge--danger">Sold</span>
+      </div>
+      <div class="olx-cluster" style="margin-top: var(--olx-space-4)" id="chips">
+        <button class="olx-chip" aria-pressed="true">All</button>
+        <button class="olx-chip" aria-pressed="false">Cars</button>
+        <button class="olx-chip" aria-pressed="false">Mobiles</button>
+        <button class="olx-chip" aria-pressed="false">Property</button>
+      </div>
+    </section>
+
+    <section class="docs-section">
+      <h2>Alerts</h2>
+      <div class="olx-stack">
+        <div class="olx-alert olx-alert--info" role="status"><div><strong>Heads up</strong>Your ad is under review and will go live shortly.</div></div>
+        <div class="olx-alert olx-alert--success" role="status"><div><strong>Ad posted</strong>Your ad is now live.</div></div>
+        <div class="olx-alert olx-alert--warning" role="status"><div><strong>Stay safe</strong>Never pay in advance. Meet in a public place.</div></div>
+        <div class="olx-alert olx-alert--danger" role="alert"><div><strong>Something went wrong</strong>We couldn't upload your photos. Please try again.</div></div>
+      </div>
+    </section>
+
+    <section class="docs-section">
+      <h2>Listing cards</h2>
+      <div class="olx-grid" id="listings"></div>
+    </section>
+  </main>
+
+  <script>
+    // Theme toggle: cycles light / dark and overrides the OS preference.
+    const root = document.documentElement;
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+      const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark';
+    });
+
+    // Chips act as a single-select filter.
+    document.getElementById('chips').addEventListener('click', (e) => {
+      const chip = e.target.closest('.olx-chip');
+      if (!chip) return;
+      chip.parentElement.querySelectorAll('.olx-chip').forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+    });
+
+    import('./dist/tokens.js').then(({ tokens }) => {
+      const el = (html) => { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstChild; };
+      const swatch = (name, value) => el(`<div class="swatch"><div class="swatch__chip" style="background:${value}"></div><div class="swatch__label"><strong>${name}</strong><code>${value}</code></div></div>`);
+
+      const prim = document.getElementById('primitive-swatches');
+      for (const [family, shades] of Object.entries(tokens.color)) {
+        if (typeof shades === 'string') prim.append(swatch(family, shades));
+        else for (const [shade, hex] of Object.entries(shades)) prim.append(swatch(`${family}-${shade}`, hex));
+      }
+
+      const sem = document.getElementById('semantic-swatches');
+      for (const name of Object.keys(tokens.semantic.light)) {
+        const node = swatch(name, `var(--olx-${name})`);
+        node.querySelector('code').textContent = `--olx-${name}`;
+        sem.append(node);
+      }
+
+      const type = document.getElementById('type-scale');
+      for (const [name, size] of Object.entries(tokens.font.size).reverse()) {
+        type.append(el(`<div class="scale-row"><code>font-size-${name} · ${size}</code><span style="font-size:${size}">Buy and sell near you</span></div>`));
+      }
+
+      const space = document.getElementById('space-scale');
+      for (const [name, size] of Object.entries(tokens.space)) {
+        space.append(el(`<div class="scale-row"><code>space-${name} · ${size}</code><div class="space-bar" style="width:${size}"></div></div>`));
+      }
+    });
+
+    const listings = [
+      { price: 'Rs 285,000', title: 'iPhone 14 Pro 256GB, PTA approved', place: 'DHA Phase 6, Lahore', when: 'Today', featured: true },
+      { price: 'Rs 4,150,000', title: 'Toyota Corolla Altis 1.6 2021', place: 'Gulshan-e-Iqbal, Karachi', when: '2 days ago' },
+      { price: 'Rs 65,000', title: 'Sofa set, 7 seater, excellent condition', place: 'F-10, Islamabad', when: '3 days ago' },
+      { price: 'Rs 120,000', title: 'Honda CD 70 2023, first owner', place: 'Saddar, Rawalpindi', when: '1 week ago', featured: true },
+    ];
+    const heart = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.1 3.4 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.6 0 6 3.6 4.5 7.3C19.5 16.4 12 21 12 21z"/></svg>';
+    const grid = document.getElementById('listings');
+    for (const l of listings) {
+      grid.insertAdjacentHTML('beforeend', `
+        <article class="olx-card olx-listing${l.featured ? ' olx-listing--featured' : ''}">
+          <div class="olx-listing__media" role="img" aria-label="${l.title}"></div>
+          ${l.featured ? '<span class="olx-badge olx-badge--featured olx-listing__badge">Featured</span>' : ''}
+          <button class="olx-listing__fav" aria-pressed="false" aria-label="Save ${l.title}">${heart}</button>
+          <div class="olx-listing__body">
+            <span class="olx-listing__price">${l.price}</span>
+            <span class="olx-listing__title">${l.title}</span>
+            <span class="olx-listing__meta"><span>${l.place}</span><span>${l.when}</span></span>
+          </div>
+        </article>`);
+    }
+    grid.addEventListener('click', (e) => {
+      const fav = e.target.closest('.olx-listing__fav');
+      if (fav) fav.setAttribute('aria-pressed', String(fav.getAttribute('aria-pressed') !== 'true'));
+    });
+  </script>
+</body>
+</html>
