@@ -76,7 +76,7 @@ body { margin: 0; background: var(--olx-bg); color: var(--olx-text); font: 14px/
 .pt-sections p { margin: 0 0 var(--olx-space-3); color: var(--olx-text-muted); font-size: var(--olx-font-size-xs); }
 .pt-sec { display: flex; flex-direction: column; gap: var(--olx-space-1); margin-bottom: var(--olx-space-3); padding: var(--olx-space-2); border: 1px solid var(--olx-border-subtle); border-radius: var(--olx-radius-md); }
 .pt-sec button { padding: 0; border: 0; background: none; text-align: left; cursor: pointer; font: inherit; color: inherit; }
-.pt-sec__thumb { display: block; width: 100%; max-height: 120px; object-fit: contain; object-position: left top; background: var(--olx-bg-subtle); border-radius: var(--olx-radius-sm); }
+.pt-sec__thumb { display: block; width: 272px; max-width: 100%; background-color: #fff; background-repeat: no-repeat; border-radius: var(--olx-radius-sm); box-shadow: 0 0 0 1px var(--olx-border-subtle); }
 .pt-sec__name { font-weight: var(--olx-font-weight-semibold); }
 .pt-sec__meta { display: flex; gap: var(--olx-space-3); color: var(--olx-text-muted); font-size: var(--olx-font-size-xs); }
 .pt-sec__meta a { color: var(--olx-link); }

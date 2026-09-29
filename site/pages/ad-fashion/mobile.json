@@ -1,0 +1,521 @@
+{
+ "id": "ad-fashion",
+ "title": "Ad: Fashion & Beauty",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/we-buy-rolex-cartier-omega-hublot-chopard-audemars-piguet-bvlgari-rado-iid-1112909544",
+ "finalUrl": "https://www.olx.com.pk/item/we-buy-rolex-cartier-omega-hublot-chopard-audemars-piguet-bvlgari-rado-iid-1112909544",
+ "width": 390,
+ "height": 2296,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T13:13:23.303Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 146
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 439,
+    "width": 390,
+    "height": 51
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-details",
+   "name": "Details",
+   "rect": {
+    "x": 0,
+    "y": 489,
+    "width": 390,
+    "height": 151
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-description",
+   "name": "Description · عمران شاہ رولیکس ڈیلر · گھڑیوں کی ",
+   "rect": {
+    "x": 0,
+    "y": 659,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 800,
+    "width": 390,
+    "height": 193
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "07-related-ads-rs-18-lacs-rolex-buyer-carti",
+   "name": "Related ads · Rs 18 Lacs · Rolex Buyer - Cartier",
+   "rect": {
+    "x": 0,
+    "y": 1032,
+    "width": 390,
+    "height": 371
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "08-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1422,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "09-rolex-in-f-8-markaz-watches-in-f-8-marka",
+   "name": "Rolex in F-8 Markaz · Watches in F-8 Markaz · Wa",
+   "rect": {
+    "x": 8,
+    "y": 1705,
+    "width": 374,
+    "height": 27
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "10-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1731,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1777,
+    "width": 390,
+    "height": 519
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "12-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 2231,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": 123,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1170,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1560,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1950,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2340,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2730,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3120,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3510,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3900,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4290,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4680,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5070,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5460,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5850,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 171,
+   "y": 533,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970/q-rolex-watches",
+   "label": "Rolex"
+  },
+  {
+   "x": 171,
+   "y": 571,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970/q-mens-watches",
+   "label": "Men's Watches"
+  },
+  {
+   "x": 171,
+   "y": 609,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970/q-new-watches",
+   "label": "New"
+  },
+  {
+   "x": 16,
+   "y": 759,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 812,
+   "width": 354,
+   "height": 131,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-7725",
+   "label": "Posted byIMRAN SHAH SWISS WATCHES BUYER ROLEX OMEGA CARTIER RADO Member Since201"
+  },
+  {
+   "x": 142,
+   "y": 956,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 1067,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/rolex-buyer-cartier-omega-hublot-chopard-breitling-tag-heuer-rado-lv-iid-1118440770",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 1067,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/get-cash-your-watch-rolex-datejust-omega-seamaster-cartier-rado-iwc-iid-1119864030",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 1067,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/get-cash-rolex-cartier-omega-baume-mercier-chopard-audemars-piguet-iid-1119861496",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 1067,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/swiss-watches-buyer-rolex-cartier-omega-hublot-chopard-bvlgari-rado-iid-1119049553",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 1067,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/we-buy-rolex-cartier-omega-hublot-ulysse-nardin-frederique-constant-ap-iid-1119057338",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2244,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 138,
+   "y": 2244,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 260,
+   "y": 2244,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 278,
+   "y": 1710,
+   "width": 104,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad-f-8-markaz_g3318/rolex-watches_c1970?filter=brand_eq_rolex",
+   "label": "Rolex in F-8 Markaz"
+  },
+  {
+   "x": 128,
+   "y": 1710,
+   "width": 120,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad-f-8-markaz_g3318/watches_c1970",
+   "label": "Watches in F-8 Markaz"
+  },
+  {
+   "x": 19,
+   "y": 1710,
+   "width": 79,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/f-8_g5000982/watches_c1970",
+   "label": "Watches in F-8"
+  },
+  {
+   "x": -126,
+   "y": 1710,
+   "width": 115,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/watches_c1970",
+   "label": "Watches in Islamabad"
+  },
+  {
+   "x": -202,
+   "y": 1710,
+   "width": 46,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970",
+   "label": "Watches"
+  },
+  {
+   "x": -324,
+   "y": 1710,
+   "width": 92,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/fashion-beauty_c87",
+   "label": "Fashion & Beauty"
+  },
+  {
+   "x": -386,
+   "y": 1710,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 2076,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 2143,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 2143,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 2143,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 2143,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

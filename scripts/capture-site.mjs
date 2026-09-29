@@ -65,13 +65,14 @@ const SUB = [
   ['online-jobs', 'Online Jobs', '/online_c1737', 'jobs'],
 ];
 
-const MOBILE_HOME_STEPS = [{ click: 'text:Other address' }, { click: 'text:See all in Pakistan' }];
+// The first-visit location prompt only appears on some visits, so these steps are optional.
+const MOBILE_HOME_STEPS = [{ click: 'text:Other address', optional: true }, { click: 'text:See all in Pakistan', optional: true }];
 const home = (extra = {}) => ({ path: '/', steps: { mobile: [...MOBILE_HOME_STEPS, ...(extra.mobile ?? [])], desktop: extra.desktop ?? [] } });
 
 const PAGES = [
   { id: 'home', title: 'Home', ...home(), flows: ['browse', 'search', 'sell', 'account', 'location'] },
-  { id: 'location-prompt', title: 'Location prompt (first visit)', path: '/', only: ['mobile'], flows: ['first-visit'] },
-  { id: 'location-select', title: 'Choose location (first visit)', path: '/', only: ['mobile'], steps: { mobile: [{ click: 'text:Other address' }] }, flows: ['first-visit'] },
+  { id: 'location-prompt', title: 'Location prompt (first visit)', overlay: true, path: '/', only: ['mobile'], steps: { mobile: [{ expect: 'text:Other address' }] }, flows: ['first-visit'] },
+  { id: 'location-select', title: 'Choose location (first visit)', overlay: true, path: '/', only: ['mobile'], steps: { mobile: [{ click: 'text:Other address' }] }, flows: ['first-visit'] },
   { id: 'motors', title: 'Motors', path: '/motors/', flows: ['motors'] },
   { id: 'property', title: 'Property', path: '/properties/', flows: ['property'] },
   ...TOP.map(([slug, title, path]) => ({ id: `cat-${slug}`, title, path, cat: slug, flows: ['browse'] })),
@@ -85,18 +86,19 @@ const PAGES = [
   { id: 'sitemap', title: 'Sitemap', path: '/sitemap/most-popular', flows: [] },
 
   // Interaction states.
-  { id: 'login', title: 'Login options', overlay: true, ...home({ desktop: [{ click: 'label:Login' }], mobile: [{ click: 'text:Account' }] }), flows: ['account', 'sell'] },
-  { id: 'login-email', title: 'Login with email', overlay: true, ...home({ desktop: [{ click: 'label:Login' }, { click: 'text:Login with Email' }], mobile: [{ click: 'text:Account' }, { click: 'text:Login with Email' }] }), flows: ['account'] },
-  { id: 'login-phone', title: 'Login with phone', overlay: true, ...home({ desktop: [{ click: 'label:Login' }, { click: 'text:Login with Phone' }], mobile: [{ click: 'text:Account' }, { click: 'text:Login with Phone' }] }), flows: ['account', 'sell'] },
-  { id: 'signup', title: 'Create an account', overlay: true, ...home({ desktop: [{ click: 'label:Login' }, { click: 'text:New to OLX? Create an account' }], mobile: [{ click: 'text:Account' }, { click: 'text:New to OLX? Create an account' }] }), flows: ['account'] },
+  { id: 'account-menu', title: 'Account (logged out)', ...home({ mobile: [{ click: 'text:Account' }] }), only: ['mobile'], flows: ['account'] },
+  { id: 'login', title: 'Login options', overlay: true, ...home({ desktop: [{ click: 'label:Login' }], mobile: [{ click: 'text:Account' }, { click: 'text:Login or Sign up' }] }), flows: ['account', 'sell'] },
+  { id: 'login-email', title: 'Login with email', overlay: true, ...home({ desktop: [{ click: 'label:Login' }, { click: 'text:Login with Email' }], mobile: [{ click: 'text:Account' }, { click: 'text:Login or Sign up' }, { click: 'text:Login with Email' }] }), flows: ['account'] },
+  { id: 'login-phone', title: 'Login with phone', overlay: true, ...home({ desktop: [{ click: 'label:Login' }, { click: 'text:Login with Phone' }], mobile: [{ click: 'text:Account' }, { click: 'text:Login or Sign up' }, { click: 'text:Login with Phone' }] }), flows: ['account', 'sell'] },
+  { id: 'signup', title: 'Create an account', overlay: true, ...home({ desktop: [{ click: 'label:Login' }, { click: 'css:button:has-text("Create an account")' }], mobile: [{ click: 'text:Account' }, { click: 'text:Login or Sign up' }, { click: 'css:button:has-text("Create an account")' }] }), flows: ['account'] },
   { id: 'categories-menu', title: 'All categories menu', overlay: true, path: '/', only: ['desktop'], steps: { desktop: [{ click: 'text:All categories' }] }, flows: ['browse'] },
   { id: 'location-menu', title: 'Location menu', overlay: true, path: '/', only: ['desktop'], steps: { desktop: [{ click: 'label:Location input' }] }, flows: ['location'] },
   { id: 'search-suggestions', title: 'Search suggestions', overlay: true, ...home({ desktop: [{ click: 'css:input[placeholder*="Find"]' }, { type: 'iph' }], mobile: [{ click: 'text:Search for' }, { type: 'iph' }] }), flows: ['search'] },
   { id: 'sort-menu', title: 'Sort menu', overlay: true, path: '/mobile-phones_c1453', only: ['desktop'], steps: { desktop: [{ click: 'text:Most relevant' }] }, flows: ['search'] },
   { id: 'sorted-low-price', title: 'Sorted by lowest price', path: '/mobile-phones_c1453', only: ['desktop'], steps: { desktop: [{ click: 'text:Most relevant' }, { click: 'text:Lowest price' }] }, flows: ['search'] },
-  { id: 'filters-sheet', title: 'Filters', overlay: true, path: '/mobile-phones_c1453', only: ['mobile'], steps: { mobile: [{ click: 'css:[class] button:has(svg) >> nth=1' }] }, flows: ['search'] },
+  { id: 'filters-sheet', title: 'Filters', overlay: true, path: '/mobile-phones_c1453', only: ['mobile'], steps: { mobile: [{ tap: [37, 78] }] }, flows: ['search'] },
   { id: 'brand-sheet', title: 'Brand filter', overlay: true, path: '/mobile-phones_c1453', only: ['mobile'], steps: { mobile: [{ click: 'label:Make Quick Filter' }] }, flows: ['search'] },
-  { id: 'price-sheet', title: 'Price filter', overlay: true, path: '/mobile-phones_c1453', only: ['mobile'], steps: { mobile: [{ click: 'label:Price Quick Filter' }] }, flows: ['search'] },
+  { id: 'price-sheet', title: 'Price filter', overlay: true, path: '/mobile-phones_c1453', only: ['mobile'], steps: { mobile: [{ click: 'label:Price Quick Filter', force: true }] }, flows: ['search'] },
 ];
 
 // ---------------------------------------------------------------------------
@@ -117,13 +119,23 @@ async function dismissNotice(page) {
 function locate(page, target) {
   const [kind, value] = [target.slice(0, target.indexOf(':')), target.slice(target.indexOf(':') + 1)];
   if (kind === 'label') return page.locator(`[aria-label="${value}"]`).first();
-  if (kind === 'css') return page.locator(value).first();
-  return page.getByText(value, { exact: true }).first();
+  if (kind === 'css') return page.locator(value).filter({ visible: true }).first();
+  return page.getByText(value, { exact: true }).filter({ visible: true }).first();
 }
 
 async function runSteps(page, steps) {
   for (const step of steps) {
-    if (step.click) await locate(page, step.click).click({ timeout: 10_000 });
+    if (step.expect) await locate(page, step.expect).waitFor({ timeout: 8_000 });
+    if (step.click) {
+      try {
+        await locate(page, step.click).click({ timeout: step.optional ? 4_000 : 10_000, force: step.force });
+      } catch (err) {
+        if (step.optional) continue;
+        throw err;
+      }
+    }
+    // The filter icon on mobile has no label or text, so it is tapped by position.
+    if (step.tap) await page.mouse.click(...step.tap);
     if (step.type) await page.keyboard.type(step.type, { delay: 90 });
     await page.waitForTimeout(step.wait ?? 1800);
     await dismissNotice(page);
@@ -240,13 +252,20 @@ function measure({ overlay }) {
     }
   };
   if (overlay) {
-    // With a modal or menu open, the overlay itself is the section of interest.
+    // The overlay is whatever became visible because of the interaction: the
+    // outermost newly visible element with a real size. Fall back to the
+    // top-most positioned layer.
+    const fresh = [...document.querySelectorAll('body *')].filter((e) => !e.hasAttribute('data-cap-pre') && visible(e)
+      && e.getBoundingClientRect().width >= 120 && e.getBoundingClientRect().height >= 40
+      && !(e.parentElement && !e.parentElement.hasAttribute('data-cap-pre') && e.parentElement !== document.body && visible(e.parentElement)));
+    const area = (e) => { const r = e.getBoundingClientRect(); return r.width * r.height; };
+    const appeared = fresh.sort((a, b) => area(b) - area(a))[0];
     const layers = [...document.querySelectorAll('body *')].filter((e) => {
       const cs = getComputedStyle(e);
       const r = e.getBoundingClientRect();
       return ['fixed', 'absolute'].includes(cs.position) && visible(e) && r.width >= 160 && r.height >= 80 && Number(cs.zIndex) > 0 && !e.closest('header');
     });
-    const top = layers.sort((a, b) => Number(getComputedStyle(b).zIndex) - Number(getComputedStyle(a).zIndex) || (b.compareDocumentPosition(a) & 2 ? -1 : 1))[0];
+    const top = appeared ?? layers.sort((a, b) => Number(getComputedStyle(b).zIndex) - Number(getComputedStyle(a).zIndex) || (b.compareDocumentPosition(a) & 2 ? -1 : 1))[0];
     if (top) {
       // Prefer the panel inside a full-screen backdrop.
       let panel = top;
@@ -288,10 +307,11 @@ function measure({ overlay }) {
   }
   out.sort((a, b) => a.rect.y - b.rect.y || a.rect.x - b.rect.x);
 
+  document.querySelectorAll('[data-cap-pre]').forEach((el) => el.removeAttribute('data-cap-pre'));
   document.querySelectorAll('[data-cap]').forEach((el) => {
     ['data-cap', 'data-cap-href', 'data-cap-label', 'data-cap-kind'].forEach((a) => el.removeAttribute(a));
   });
-  for (const s of out) s.html = s.html.replace(/ data-cap(-href|-label|-kind)?="[^"]*"/g, '');
+  for (const s of out) s.html = s.html.replace(/ data-cap(-href|-label|-kind|-pre)?="[^"]*"/g, '');
   return { hotspots, sections: out.slice(0, 40) };
 }
 
@@ -319,6 +339,12 @@ export async function capture(browser, def, path, vp, contextOptions = {}) {
     await page.waitForTimeout(3000);
     await dismissNotice(page);
     if (!def.overlay) await scrollThrough(page);
+    if (def.overlay) {
+      await page.evaluate(() => document.querySelectorAll('body *').forEach((e) => {
+        const r = e.getBoundingClientRect();
+        if (r.width > 0 && r.height > 0) e.setAttribute('data-cap-pre', '');
+      }));
+    }
     await runSteps(page, def.steps?.[vp] ?? []);
     await page.waitForTimeout(800);
     await page.evaluate(tagTargets);

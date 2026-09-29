@@ -1,0 +1,349 @@
+{
+ "id": "login",
+ "title": "Login options",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/",
+ "finalUrl": "https://www.olx.com.pk/",
+ "width": 390,
+ "height": 664,
+ "dpr": 2,
+ "overlay": true,
+ "captured": "2026-09-29T13:29:05.653Z",
+ "sections": [
+  {
+   "file": "01-login-into-your-olx-account-login-with-g",
+   "name": "Login into your OLX account · Login with Google ",
+   "rect": {
+    "x": 24,
+    "y": 55,
+    "width": 342,
+    "height": 475
+   },
+   "selector": "body > :nth-child(1) > :nth-child(12) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 16,
+   "width": 114,
+   "height": 56,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 138,
+   "y": 16,
+   "width": 114,
+   "height": 56,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 260,
+   "y": 16,
+   "width": 114,
+   "height": 56,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 334,
+   "y": 84,
+   "width": 40,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/myfavorites",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 192,
+   "width": 358,
+   "height": 151,
+   "kind": "link",
+   "href": "https://www.youtube.com/watch?v=8Ix-ekSoEdY",
+   "label": "A New Track on Coke StudioPlay This Song"
+  },
+  {
+   "x": 306,
+   "y": 638,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 1008,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 1404,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 1774,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 2170,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 2540,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 2910,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 3280,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "View more"
+  },
+  {
+   "x": 0,
+   "y": 612,
+   "width": 72,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 79,
+   "y": 612,
+   "width": 73,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chat",
+   "label": "Chat"
+  },
+  {
+   "x": 159,
+   "y": 612,
+   "width": 72,
+   "height": 46,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 238,
+   "y": 612,
+   "width": 73,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/myads",
+   "label": "My Ads"
+  },
+  {
+   "x": 318,
+   "y": 612,
+   "width": 72,
+   "height": 46,
+   "kind": "button",
+   "label": "Account"
+  },
+  {
+   "x": 16,
+   "y": 4036,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 4102,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 4102,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 4102,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 4102,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  },
+  {
+   "x": 159,
+   "y": 24,
+   "width": 72,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 28,
+   "y": 109,
+   "width": 334,
+   "height": 49,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
+   "x": 16,
+   "y": 193,
+   "width": 358,
+   "height": 37,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "HelpHelp center and legal terms"
+  },
+  {
+   "x": 0,
+   "y": 612,
+   "width": 72,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 79,
+   "y": 612,
+   "width": 73,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chat",
+   "label": "Chat"
+  },
+  {
+   "x": 159,
+   "y": 612,
+   "width": 72,
+   "height": 46,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 238,
+   "y": 612,
+   "width": 73,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/myads",
+   "label": "My Ads"
+  },
+  {
+   "x": 318,
+   "y": 612,
+   "width": 72,
+   "height": 46,
+   "kind": "button",
+   "label": "Account"
+  },
+  {
+   "x": 338,
+   "y": 0,
+   "width": 52,
+   "height": 39,
+   "kind": "button",
+   "label": "Close button"
+  },
+  {
+   "x": 24,
+   "y": 195,
+   "width": 342,
+   "height": 48,
+   "kind": "button",
+   "label": "Login with Google"
+  },
+  {
+   "x": 24,
+   "y": 251,
+   "width": 342,
+   "height": 48,
+   "kind": "button",
+   "label": "Login with Facebook"
+  },
+  {
+   "x": 24,
+   "y": 357,
+   "width": 342,
+   "height": 48,
+   "kind": "button",
+   "label": "Login with Email"
+  },
+  {
+   "x": 24,
+   "y": 413,
+   "width": 342,
+   "height": 48,
+   "kind": "button",
+   "label": "Login with Phone"
+  },
+  {
+   "x": 75,
+   "y": 493,
+   "width": 240,
+   "height": 37,
+   "kind": "button",
+   "label": "New to OLX? Create an account"
+  }
+ ]
+}

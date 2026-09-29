@@ -1,0 +1,416 @@
+{
+ "id": "ad-furniture",
+ "title": "Ad: Furniture & Home Decor",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/sheesham-bed-set-beddressing-table-side-tables-stoolwooden-lamps-iid-1117708240",
+ "finalUrl": "https://www.olx.com.pk/item/sheesham-bed-set-beddressing-table-side-tables-stoolwooden-lamps-iid-1117708240",
+ "width": 390,
+ "height": 2308,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T13:12:40.315Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 170
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 463,
+    "width": 390,
+    "height": 51
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-details",
+   "name": "Details",
+   "rect": {
+    "x": 0,
+    "y": 513,
+    "width": 390,
+    "height": 151
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-description-bed-set-beautiful-and-elega",
+   "name": "Description · *Bed Set* · .  Beautiful and elega",
+   "rect": {
+    "x": 0,
+    "y": 683,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 824,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "07-related-ads-rs-1-30-lac-king-size-roya-c",
+   "name": "Related ads · Rs 1.30 Lac · King Size Roya Compl",
+   "rect": {
+    "x": 0,
+    "y": 1044,
+    "width": 390,
+    "height": 371
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "08-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1434,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "09-beds-in-kahna-beds-in-lahore-beds",
+   "name": "Beds in Kahna · Beds in Lahore · Beds",
+   "rect": {
+    "x": 8,
+    "y": 1717,
+    "width": 374,
+    "height": 27
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "10-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1743,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1789,
+    "width": 390,
+    "height": 519
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "12-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 2243,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": 123,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1170,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1560,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 171,
+   "y": 557,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/beds_c707123/q-used-beds",
+   "label": "Used"
+  },
+  {
+   "x": 171,
+   "y": 595,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/beds_c707123/q-bed-set",
+   "label": "Bed Set"
+  },
+  {
+   "x": 171,
+   "y": 633,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/beds_c707123/q-wooden-beds",
+   "label": "Wooden"
+  },
+  {
+   "x": 16,
+   "y": 783,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 836,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/d24bfb2b-02b1-43f1-9ce8-c6d95df99737",
+   "label": "Posted byShuraim Member Since2024Active Ads3"
+  },
+  {
+   "x": 142,
+   "y": 968,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 1079,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/king-size-roya-complete-bed-set-iid-1119843483",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 1079,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/bed-set-iid-1119813601",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 1079,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/chinioti-wooden-bed-set-iid-1119787921",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 1079,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/home-used-furniture-like-a-new-iid-1119121724",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 1079,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/teak-wood-bed-set-in-excellent-condition-iid-1119238756",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2256,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 199,
+   "y": 2256,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 307,
+   "y": 1722,
+   "width": 75,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kahna_g5000043/beds_c707123",
+   "label": "Beds in Kahna"
+  },
+  {
+   "x": 199,
+   "y": 1722,
+   "width": 78,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/beds_c707123",
+   "label": "Beds in Lahore"
+  },
+  {
+   "x": 143,
+   "y": 1722,
+   "width": 26,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/beds_c707123",
+   "label": "Beds"
+  },
+  {
+   "x": 15,
+   "y": 1722,
+   "width": 98,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/beds-wardrobes_c1591",
+   "label": "Beds & Wardrobes"
+  },
+  {
+   "x": -145,
+   "y": 1722,
+   "width": 130,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/furniture-home-decor_c628",
+   "label": "Furniture & Home Decor"
+  },
+  {
+   "x": -207,
+   "y": 1722,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 2088,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 2155,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 2155,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 2155,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 2155,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

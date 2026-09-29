@@ -1,0 +1,301 @@
+{
+ "id": "ad-jobs",
+ "title": "Ad: Jobs",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/sales-inquiry-officer-male-rs-65000-walton-lahore-jobs-iid-1119855822",
+ "finalUrl": "https://www.olx.com.pk/item/sales-inquiry-officer-male-rs-65000-walton-lahore-jobs-iid-1119855822",
+ "width": 390,
+ "height": 2075,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T13:11:17.387Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 141
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 435,
+    "width": 390,
+    "height": 50
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-details",
+   "name": "Details",
+   "rect": {
+    "x": 0,
+    "y": 485,
+    "width": 390,
+    "height": 315
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-description-sales-and-inquiry-officer-ma",
+   "name": "Description · Sales & Inquiry Officer – Male Req",
+   "rect": {
+    "x": 0,
+    "y": 820,
+    "width": 390,
+    "height": 121
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 961,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "07-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1201,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
+  },
+  {
+   "file": "08-sales-jobs-in-walton-road-sales-jobs-in-",
+   "name": "Sales Jobs in Walton Road · Sales Jobs in Lahore",
+   "rect": {
+    "x": 8,
+    "y": 1484,
+    "width": 374,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "09-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1509,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "10-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1555,
+    "width": 390,
+    "height": 520
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "11-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 2010,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 171,
+   "y": 740,
+   "width": 190,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sales_c62/q-mid-senior-level-sales",
+   "label": "Mid-Senior Level"
+  },
+  {
+   "x": 142,
+   "y": 778,
+   "width": 106,
+   "height": 26,
+   "kind": "button",
+   "label": "View +3 more"
+  },
+  {
+   "x": 16,
+   "y": 920,
+   "width": 358,
+   "height": 21,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 973,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/e39f81b8-1bbb-4ad4-809e-609f976f0d31",
+   "label": "Posted byAhmad Iqbal Member Since2018Active Ads3"
+  },
+  {
+   "x": 142,
+   "y": 1105,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 2023,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 199,
+   "y": 2023,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 245,
+   "y": 1488,
+   "width": 137,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/walton-road_g5000883/sales_c62",
+   "label": "Sales Jobs in Walton Road"
+  },
+  {
+   "x": 110,
+   "y": 1488,
+   "width": 105,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/sales_c62",
+   "label": "Sales Jobs in Lahore"
+  },
+  {
+   "x": 27,
+   "y": 1488,
+   "width": 53,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sales_c62",
+   "label": "Sales Jobs"
+  },
+  {
+   "x": -26,
+   "y": 1488,
+   "width": 23,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": -88,
+   "y": 1488,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 1854,
+   "width": 84,
+   "height": 34,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 1921,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 1921,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 1921,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 1921,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

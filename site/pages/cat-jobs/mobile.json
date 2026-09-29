@@ -1,0 +1,436 @@
+{
+ "id": "cat-jobs",
+ "title": "Jobs",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/jobs_c4",
+ "finalUrl": "https://www.olx.com.pk/jobs_c4?page=1",
+ "width": 390,
+ "height": 4360,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T12:55:38.073Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 104
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 120,
+    "width": 390,
+    "height": 3420
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 3555,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-jobs-in-pakistan",
+   "name": "Jobs in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 3635,
+    "width": 390,
+    "height": 87
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "05-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 3721,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "06-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 3767,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "07-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 3813,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "08-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 3859,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "09-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 3905,
+    "width": 390,
+    "height": 455
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "10-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 4291,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 0,
+   "y": 120,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/female-domestic-staff-required-in-lahore-iid-1119158595",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 261,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/female-receptionist-staff-req-female-assistant-jobs-for-female-iid-1119387566",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 403,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/male-and-female-staff-required-office-or-home-based-jobs-iid-1118733744",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 545,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/chef-cool-required-for-house-iid-1119814952",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 687,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hiring-sales-marketing-staff-iid-1119586140",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 829,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/experienced-family-driver-required-retired-army-preferred-iid-1119598976",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 971,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/car-driver-jobs-bike-rider-jobs-company-work-visa-jobs-in-saudia-iid-1118894356",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1113,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/office-boy-required-for-a-uk-based-travel-agency-in-wapda-town-iid-1119692866",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1255,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/baby-care-assistant-required-female-nanny-required-female-jobs-iid-1119499648",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1409,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/medical-officer-general-practitioner-pp-iid-1119893986",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1551,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/import-centre-iid-1119893972",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1693,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/school-k-canteen-k-liey-gar-ka-banaya-hua-khana-iid-1119893959",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1835,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/need-a-ltv-driver-lahore-based-office-for-our-goods-transport-company-iid-1119893907",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1977,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/accountant-iid-1119893829",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2119,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/maid-for-kitchen-iid-1119893777",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2261,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/accountant-iid-1119893682",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2403,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/salam-pulao-center-iid-1119893601",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2545,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/commerce-e-commerce-project-iid-1119893581",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2687,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/experienced-secondary-school-teacher-needed-iid-1119893414",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2829,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/looking-for-driver-job-iid-1119893209",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2971,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/call-center-jobs-available-iid-1119893165",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3125,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/-iid-1119893018",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3267,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/email-work-iid-1119893003",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3409,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/female-secretary-receptionist-required-iid-1119892991",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 3555,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 143,
+   "y": 4291,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 3691,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 4204,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 4271,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 4271,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 4271,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 4271,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

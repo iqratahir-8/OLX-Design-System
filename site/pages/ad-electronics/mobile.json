@@ -1,0 +1,381 @@
+{
+ "id": "ad-electronics",
+ "title": "Ad: Electronics & Home Appliances",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/hp-elitebook-ryzen-7-4750u-16gb-512gb-nvme-fhd-ips-fingerprint-iid-1119799864",
+ "finalUrl": "https://www.olx.com.pk/item/hp-elitebook-ryzen-7-4750u-16gb-512gb-nvme-fhd-ips-fingerprint-iid-1119799864",
+ "width": 390,
+ "height": 2360,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T13:08:36.624Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 146
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 439,
+    "width": 390,
+    "height": 51
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-details",
+   "name": "Details",
+   "rect": {
+    "x": 0,
+    "y": 489,
+    "width": 390,
+    "height": 227
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-description-hp-elitebook-ryzen-7-pro-8-c",
+   "name": "Description · **HP ELITEBOOK RYZEN 7 PRO — 8-COR",
+   "rect": {
+    "x": 0,
+    "y": 735,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 876,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "07-related-ads-rs-1-lac-macbook-pro-15",
+   "name": "Related ads · Rs 1 Lac · Macbook pro 15",
+   "rect": {
+    "x": 0,
+    "y": 1096,
+    "width": 390,
+    "height": 371
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "08-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1486,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "09-laptops-in-h-13-laptops-in-h-13-laptops-",
+   "name": "Laptops in H-13 · Laptops in H-13 · Laptops in I",
+   "rect": {
+    "x": 8,
+    "y": 1769,
+    "width": 374,
+    "height": 27
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "10-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1795,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1841,
+    "width": 390,
+    "height": 519
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "12-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 2295,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": 123,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 835,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 888,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/9824fee9-aefd-4104-ba4a-9b524df52862",
+   "label": "Posted byCAPTECH LAPTOP STORE Member Since2025Active Ads57"
+  },
+  {
+   "x": 142,
+   "y": 1020,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 1131,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/macbook-pro-15-iid-1118441946",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 1131,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-touch-screen-core-i5-11th-generation-8gb-ram-256gb-ssd-for-sale-iid-1119876621",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 1131,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/macbook-pro-2017-iid-1105805316",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 1131,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-zbook-g8-firefly-i5-11th-gen-1010-new-iid-1119845488",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 1131,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-l490-i7-8th-gen-iid-1119845741",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2308,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 138,
+   "y": 2308,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 260,
+   "y": 2308,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 303,
+   "y": 1774,
+   "width": 79,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/h-13_g5001031/laptops_c708203",
+   "label": "Laptops in H-13"
+  },
+  {
+   "x": 194,
+   "y": 1774,
+   "width": 79,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/h-13_g5001031/laptops_c708203",
+   "label": "Laptops in H-13"
+  },
+  {
+   "x": 54,
+   "y": 1774,
+   "width": 110,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/laptops_c708203",
+   "label": "Laptops in Islamabad"
+  },
+  {
+   "x": -17,
+   "y": 1774,
+   "width": 41,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/laptops_c708203",
+   "label": "Laptops"
+  },
+  {
+   "x": -213,
+   "y": 1774,
+   "width": 166,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/electronics-home-appliances_c99",
+   "label": "Electronics & Home Appliances"
+  },
+  {
+   "x": -275,
+   "y": 1774,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 2140,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 2207,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 2207,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 2207,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 2207,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

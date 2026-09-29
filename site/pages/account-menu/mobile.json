@@ -1,0 +1,455 @@
+{
+ "id": "account-menu",
+ "title": "Account (logged out)",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/",
+ "finalUrl": "https://www.olx.com.pk/",
+ "width": 390,
+ "height": 4252,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T13:28:33.058Z",
+ "sections": [
+  {
+   "file": "01-motors-property-search-for",
+   "name": "Motors · Property · Search for",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 140
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-pakistan",
+   "name": "Pakistan",
+   "rect": {
+    "x": 16,
+    "y": 140,
+    "width": 358,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "03-a-new-track-on-coke-studio-play-this-son",
+   "name": "A New Track on Coke Studio · PLAY THIS SONG",
+   "rect": {
+    "x": 16,
+    "y": 192,
+    "width": 358,
+    "height": 151
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "04-mobiles-services-vehicles",
+   "name": "Mobiles · Services · Vehicles",
+   "rect": {
+    "x": 0,
+    "y": 362,
+    "width": 390,
+    "height": 234
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "05-mobile-phones-view-more-rs-1-19-lac",
+   "name": "Mobile Phones · View More · Rs 1.19 Lac",
+   "rect": {
+    "x": 0,
+    "y": 635,
+    "width": 390,
+    "height": 351
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "06-cars-view-more-rs-35-lacs",
+   "name": "Cars · View More · Rs 35 Lacs",
+   "rect": {
+    "x": 0,
+    "y": 1005,
+    "width": 390,
+    "height": 377
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "07-bikes-and-motorcycles-view-more-rs-2-70-",
+   "name": "Bikes & Motorcycles · View More · Rs 2.70 Lac",
+   "rect": {
+    "x": 0,
+    "y": 1401,
+    "width": 390,
+    "height": 351
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "08-houses-view-more-rs-2-25-crore",
+   "name": "Houses · View More · Rs 2.25 Crore",
+   "rect": {
+    "x": 0,
+    "y": 1771,
+    "width": 390,
+    "height": 377
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(10)"
+  },
+  {
+   "file": "09-video-audios-view-more-rs-7-500",
+   "name": "Video-Audios · View More · Rs 7,500",
+   "rect": {
+    "x": 0,
+    "y": 2167,
+    "width": 390,
+    "height": 351
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "10-tablets-view-more-rs-8-500",
+   "name": "Tablets · View More · Rs 8,500",
+   "rect": {
+    "x": 0,
+    "y": 2537,
+    "width": 390,
+    "height": 351
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(12)"
+  },
+  {
+   "file": "11-land-and-plots-view-more-rs-25-lacs",
+   "name": "Land & Plots · View More · Rs 25 Lacs",
+   "rect": {
+    "x": 0,
+    "y": 2907,
+    "width": 390,
+    "height": 351
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "12-jobs-view-more-security-guard-jobs-accou",
+   "name": "Jobs · View More · Security guard jobs / Account",
+   "rect": {
+    "x": 0,
+    "y": 3277,
+    "width": 390,
+    "height": 342
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(14)"
+  },
+  {
+   "file": "13-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 3638,
+    "width": 390,
+    "height": 33
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  },
+  {
+   "file": "14-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 3690,
+    "width": 390,
+    "height": 562
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(17)"
+  },
+  {
+   "file": "15-home-chat-sell",
+   "name": "Home · Chat · Sell",
+   "rect": {
+    "x": 0,
+    "y": 4194,
+    "width": 390,
+    "height": 58
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(16)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 16,
+   "width": 114,
+   "height": 56,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 138,
+   "y": 16,
+   "width": 114,
+   "height": 56,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 260,
+   "y": 16,
+   "width": 114,
+   "height": 56,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 334,
+   "y": 84,
+   "width": 40,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/myfavorites",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 192,
+   "width": 358,
+   "height": 151,
+   "kind": "link",
+   "href": "https://www.youtube.com/watch?v=8Ix-ekSoEdY",
+   "label": "A New Track on Coke StudioPlay This Song"
+  },
+  {
+   "x": 306,
+   "y": 638,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 1008,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 1404,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 1774,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 2170,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 2540,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 2910,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "View more"
+  },
+  {
+   "x": 306,
+   "y": 3280,
+   "width": 68,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "View more"
+  },
+  {
+   "x": 0,
+   "y": 4200,
+   "width": 72,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 79,
+   "y": 4200,
+   "width": 73,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chat",
+   "label": "Chat"
+  },
+  {
+   "x": 159,
+   "y": 4200,
+   "width": 72,
+   "height": 46,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 238,
+   "y": 4200,
+   "width": 73,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/myads",
+   "label": "My Ads"
+  },
+  {
+   "x": 318,
+   "y": 4200,
+   "width": 72,
+   "height": 46,
+   "kind": "button",
+   "label": "Account"
+  },
+  {
+   "x": 16,
+   "y": 4036,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 4102,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 4102,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 4102,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 4102,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  },
+  {
+   "x": 159,
+   "y": 24,
+   "width": 72,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 28,
+   "y": 109,
+   "width": 334,
+   "height": 49,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
+   "x": 16,
+   "y": 193,
+   "width": 358,
+   "height": 37,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "HelpHelp center and legal terms"
+  },
+  {
+   "x": 0,
+   "y": 4200,
+   "width": 72,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 79,
+   "y": 4200,
+   "width": 73,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chat",
+   "label": "Chat"
+  },
+  {
+   "x": 159,
+   "y": 4200,
+   "width": 72,
+   "height": 46,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 238,
+   "y": 4200,
+   "width": 73,
+   "height": 46,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/myads",
+   "label": "My Ads"
+  },
+  {
+   "x": 318,
+   "y": 4200,
+   "width": 72,
+   "height": 46,
+   "kind": "button",
+   "label": "Account"
+  }
+ ]
+}

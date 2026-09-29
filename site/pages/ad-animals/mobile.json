@@ -1,0 +1,391 @@
+{
+ "id": "ad-animals",
+ "title": "Ad: Animals",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/doberman-female-iid-1118292561",
+ "finalUrl": "https://www.olx.com.pk/item/doberman-female-iid-1118292561",
+ "width": 390,
+ "height": 2298,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T13:11:58.791Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 415,
+    "width": 390,
+    "height": 51
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-details",
+   "name": "Details",
+   "rect": {
+    "x": 0,
+    "y": 465,
+    "width": 390,
+    "height": 189
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-description-i-have-doberman-female-fully",
+   "name": "Description · I have Doberman  female Fully heal",
+   "rect": {
+    "x": 0,
+    "y": 673,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 814,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "07-related-ads-rs-60-000-wolf-long-coat-sib",
+   "name": "Related ads · Rs 60,000 · wolf long coat sibiria",
+   "rect": {
+    "x": 0,
+    "y": 1034,
+    "width": 390,
+    "height": 371
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "08-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1424,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "09-dogs-in-gulberg-3-dogs-in-gulberg-dogs-i",
+   "name": "Dogs in Gulberg 3 · Dogs in Gulberg · Dogs in La",
+   "rect": {
+    "x": 8,
+    "y": 1707,
+    "width": 374,
+    "height": 27
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "10-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1733,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1779,
+    "width": 390,
+    "height": 519
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "12-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 2233,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": 123,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 171,
+   "y": 509,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/doberman-dogs_c139?filter=breed_eq_doberman",
+   "label": "Doberman"
+  },
+  {
+   "x": 171,
+   "y": 547,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dogs_c139/q-female-dogs",
+   "label": "Female"
+  },
+  {
+   "x": 16,
+   "y": 773,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 826,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/45a28a6c-96f6-414e-84c5-99ddda31dea2",
+   "label": "Posted byBhai jan Member Since2019Active Ads1"
+  },
+  {
+   "x": 142,
+   "y": 958,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 1069,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/wolf-long-coat-sibirian-husky-female-very-friendly-and-trained-iid-1119893324",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 1069,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/german-shepherd-long-coat-female-iid-1119891198",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 1069,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/american-pitbull-female-iid-1119887572",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 1069,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/labrador-female-pedigre-microchip-imported-blodline-puppy-03XX-XXXXXXX-iid-1119764652",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 1069,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/husky-female-iid-1119604867",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2246,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 199,
+   "y": 2246,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 286,
+   "y": 1712,
+   "width": 96,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gulberg-3_g5000032/dogs_c139",
+   "label": "Dogs in Gulberg 3"
+  },
+  {
+   "x": 169,
+   "y": 1712,
+   "width": 87,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gulberg_g7/dogs_c139",
+   "label": "Dogs in Gulberg"
+  },
+  {
+   "x": 60,
+   "y": 1712,
+   "width": 79,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/dogs_c139",
+   "label": "Dogs in Lahore"
+  },
+  {
+   "x": 3,
+   "y": 1712,
+   "width": 27,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dogs_c139",
+   "label": "Dogs"
+  },
+  {
+   "x": -69,
+   "y": 1712,
+   "width": 42,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/animals_c103",
+   "label": "Animals"
+  },
+  {
+   "x": -131,
+   "y": 1712,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 2078,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 2145,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 2145,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 2145,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 2145,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

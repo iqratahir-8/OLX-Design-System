@@ -1,0 +1,749 @@
+{
+ "id": "cat-vehicles",
+ "title": "Vehicles",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/vehicles_c5",
+ "finalUrl": "https://www.olx.com.pk/vehicles_c5?page=1",
+ "width": 390,
+ "height": 7048,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T12:50:12.304Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 139
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-suzuki-wagon-r-vxl-2016",
+   "name": "Suzuki Wagon R vxl 2016",
+   "rect": {
+    "x": 0,
+    "y": 155,
+    "width": 390,
+    "height": 320
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-featured-businesses-pak-auto-source",
+   "name": "Featured Businesses · Pak Auto Source",
+   "rect": {
+    "x": 0,
+    "y": 486,
+    "width": 390,
+    "height": 172
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 669,
+    "width": 390,
+    "height": 4645
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "05-got-something-to-sell-post-in-3-simple-s",
+   "name": "Got Something to Sell? · Post in 3 Simple Steps ",
+   "rect": {
+    "x": 16,
+    "y": 5325,
+    "width": 358,
+    "height": 198
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "06-mg-hs-2023",
+   "name": "MG HS 2023",
+   "rect": {
+    "x": 0,
+    "y": 5534,
+    "width": 390,
+    "height": 155
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "07-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 5704,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "08-cars-for-sale-by-category",
+   "name": "Cars for Sale by Category",
+   "rect": {
+    "x": 0,
+    "y": 5768,
+    "width": 390,
+    "height": 540
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "09-vehicles-in-pakistan",
+   "name": "Vehicles in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 6323,
+    "width": 390,
+    "height": 86
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "10-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 6408,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "11-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 6454,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "12-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 6500,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "13-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 6546,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "14-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 6592,
+    "width": 390,
+    "height": 456
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "15-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 6979,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 104,
+   "width": 358,
+   "height": 23,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items?sorting=desc-relevance",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 104,
+   "width": 390,
+   "height": 35,
+   "kind": "button",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 155,
+   "width": 390,
+   "height": 154,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-wagon-r-vxl-2016-iid-1119887451",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 320,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-2015-iid-1119892940",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 541,
+   "width": 137,
+   "height": 101,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-7902",
+   "label": "Pak Auto Source"
+  },
+  {
+   "x": 0,
+   "y": 669,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-civic-vti-oriel-prosmatec-2021-iid-1119893357",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 835,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-aqua-2015-iid-1119893333",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1001,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-grande-20202023-iid-1119893227",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1167,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-prius-s-package-model-2013-reg-2017-iid-1119710542",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1406,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/450ml-lavender-dashboard-leather-tyre-wax-iid-ev416527-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1406,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dashboard-mat-cover-for-2014-2017-toyota-vitz-non-slip-design-iid-ev265000-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1677,
+   "width": 173,
+   "height": 241,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-land-cruiser-neoprene-top-cover-model-1990-1998-iid-ev157497-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1677,
+   "width": 173,
+   "height": 241,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/66-w-4-in-1-retractable-car-charger-fast-charge-cord-cigarette-lighter-adapter-starry-sky-top-projection-light-iid-ev557869-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1929,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/byd-shark-6-7d-custom-car-trunk-mat-2025-iid-ev547495-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1929,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-civic-2001-2004-car-top-cover-with-non-woven-cotton-layer-waterproof-and-scratch-resistant-iid-ev265900-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2200,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/flamingo-plastic-restorer-revitalize-faded-plastic-and-rubber-surfaces-with-uv-protection-and-durable-shine-iid-ev305671-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 2200,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-chr-2016-2025-single-layer-car-top-cover-lightweight-protective-cover-iid-ev494172-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2475,
+   "width": 358,
+   "height": 41,
+   "kind": "button",
+   "label": "View All Items with Delivery"
+  },
+  {
+   "x": 0,
+   "y": 2527,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-altis-grande-model-2019-iid-1119648753",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2693,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/united-100-cc-loader-iid-1116965899",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2859,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-swift-2022-gl-cvt-key-start-iid-1119892968",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3037,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/daihatsu-mira-2014-17-iid-1119892870",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3203,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-cultus-vxr-2006-better-than-alto-cuore-mehran-iid-1119891965",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3369,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-vitz-2008-model-2012-import-iid-1119525238",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3535,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-margalla-1996-iid-1119892786",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3701,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-land-cruiser-lc300-cygnus-2004-model-iid-1119891098",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3867,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-acty-2013-iid-1119801019",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4033,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-yaris-2020-ativ-full-options-iid-1119892281",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4199,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-hybrid-battery-priusaqualexuscamrysuspensionabs-unitcall-iid-1119563119",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4341,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-hybrid-battery-priusaqualexuscamrysuspensionabs-unitcall-iid-1119616450",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4483,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/haval-h6-15t-2024-total-genuine-iid-1119892208",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4649,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-civic-rebirth-2015-iid-1119892164",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4815,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-yaris-13-ativ-automatic-2022-iid-1119892105",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4993,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/haval-jolion-top-2025-model-iid-1119891642",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 5159,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/kia-sportage-alpha-2021-iid-1119359899",
+   "label": "Listing"
+  },
+  {
+   "x": 29,
+   "y": 5465,
+   "width": 332,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell Now"
+  },
+  {
+   "x": 0,
+   "y": 5534,
+   "width": 390,
+   "height": 155,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/mg-hs-2023-iid-1119291184",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 5704,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 21,
+   "y": 5857,
+   "width": 80,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/vehicles_c5/q-jeep",
+   "label": "Jeep for Sale in Pakistan"
+  },
+  {
+   "x": 111,
+   "y": 5857,
+   "width": 74,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-automatic",
+   "label": "Automatic cars for sale in Pakistan"
+  },
+  {
+   "x": 206,
+   "y": 5857,
+   "width": 68,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-sports",
+   "label": "Sports cars for sale in Pakistan"
+  },
+  {
+   "x": 288,
+   "y": 5857,
+   "width": 75,
+   "height": 82,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-suzuki-carry-daba",
+   "label": "Suzuki Carry Daba for sale in Pakistan"
+  },
+  {
+   "x": 21,
+   "y": 5951,
+   "width": 66,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-660cc",
+   "label": "660cc cars for sale in Pakistan"
+  },
+  {
+   "x": 111,
+   "y": 5951,
+   "width": 76,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-modified",
+   "label": "Modified Cars for sale in Pakistan"
+  },
+  {
+   "x": 206,
+   "y": 5951,
+   "width": 71,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-hybrid-cars",
+   "label": "Hybrid cars for sale in Pakistan"
+  },
+  {
+   "x": 288,
+   "y": 5951,
+   "width": 74,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-low-prices",
+   "label": "Low Priced cars for sale in Pakistan"
+  },
+  {
+   "x": 21,
+   "y": 6024,
+   "width": 71,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-electric-car",
+   "label": "Electric cars for sale in Pakistan"
+  },
+  {
+   "x": 111,
+   "y": 6024,
+   "width": 70,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-cheap-car",
+   "label": "Cheap cars for sale in Pakistan"
+  },
+  {
+   "x": 206,
+   "y": 6024,
+   "width": 61,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-small-cars",
+   "label": "Small cars for sale in Pakistan"
+  },
+  {
+   "x": 288,
+   "y": 6024,
+   "width": 71,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-1000cc",
+   "label": "1000cc cars for sale in Pakistan"
+  },
+  {
+   "x": 21,
+   "y": 6097,
+   "width": 73,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-japanese",
+   "label": "Japanese cars for sale in Pakistan"
+  },
+  {
+   "x": 111,
+   "y": 6097,
+   "width": 66,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-diesel-cars",
+   "label": "Diesel cars for sale in Pakistan"
+  },
+  {
+   "x": 206,
+   "y": 6097,
+   "width": 61,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-old-model",
+   "label": "Old Cars for sale in Pakistan"
+  },
+  {
+   "x": 288,
+   "y": 6097,
+   "width": 76,
+   "height": 82,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-japanese-660cc",
+   "label": "660cc Japanese Cars for sale in Pakistan"
+  },
+  {
+   "x": 143,
+   "y": 6979,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 6378,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 6891,
+   "width": 84,
+   "height": 34,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 6958,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 6958,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 6958,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 6958,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

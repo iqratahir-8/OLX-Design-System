@@ -1,0 +1,1210 @@
+{
+ "source": "https://www.olx.com.pk",
+ "pages": [
+  {
+   "id": "home",
+   "title": "Home",
+   "viewport": "desktop",
+   "path": "/",
+   "overlay": false,
+   "flows": [
+    "browse",
+    "search",
+    "sell",
+    "account",
+    "location"
+   ]
+  },
+  {
+   "id": "home",
+   "title": "Home",
+   "viewport": "mobile",
+   "path": "/",
+   "overlay": false,
+   "flows": [
+    "browse",
+    "search",
+    "sell",
+    "account",
+    "location"
+   ]
+  },
+  {
+   "id": "motors",
+   "title": "Motors",
+   "viewport": "desktop",
+   "path": "/motors/",
+   "overlay": false,
+   "flows": [
+    "motors"
+   ]
+  },
+  {
+   "id": "motors",
+   "title": "Motors",
+   "viewport": "mobile",
+   "path": "/motors/",
+   "overlay": false,
+   "flows": [
+    "motors"
+   ]
+  },
+  {
+   "id": "property",
+   "title": "Property",
+   "viewport": "desktop",
+   "path": "/properties/",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "property",
+   "title": "Property",
+   "viewport": "mobile",
+   "path": "/properties/",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "cat-mobiles",
+   "title": "Mobiles",
+   "viewport": "desktop",
+   "path": "/mobiles_c1411",
+   "cat": "mobiles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-mobiles",
+   "title": "Mobiles",
+   "viewport": "mobile",
+   "path": "/mobiles_c1411",
+   "cat": "mobiles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-vehicles",
+   "title": "Vehicles",
+   "viewport": "desktop",
+   "path": "/vehicles_c5",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-vehicles",
+   "title": "Vehicles",
+   "viewport": "mobile",
+   "path": "/vehicles_c5",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-property-for-sale",
+   "title": "Property for Sale",
+   "viewport": "desktop",
+   "path": "/property-for-sale_c2",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-property-for-sale",
+   "title": "Property for Sale",
+   "viewport": "mobile",
+   "path": "/property-for-sale_c2",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-property-for-rent",
+   "title": "Property for Rent",
+   "viewport": "desktop",
+   "path": "/property-for-rent_c3",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-property-for-rent",
+   "title": "Property for Rent",
+   "viewport": "mobile",
+   "path": "/property-for-rent_c3",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-electronics",
+   "title": "Electronics & Home Appliances",
+   "viewport": "desktop",
+   "path": "/electronics-home-appliances_c99",
+   "cat": "electronics",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-electronics",
+   "title": "Electronics & Home Appliances",
+   "viewport": "mobile",
+   "path": "/electronics-home-appliances_c99",
+   "cat": "electronics",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-bikes",
+   "title": "Bikes",
+   "viewport": "desktop",
+   "path": "/bikes_c1898",
+   "cat": "bikes",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-bikes",
+   "title": "Bikes",
+   "viewport": "mobile",
+   "path": "/bikes_c1898",
+   "cat": "bikes",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-business",
+   "title": "Business, Industrial & Agriculture",
+   "viewport": "desktop",
+   "path": "/business-industrial-agriculture_c1981",
+   "cat": "business",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-business",
+   "title": "Business, Industrial & Agriculture",
+   "viewport": "mobile",
+   "path": "/business-industrial-agriculture_c1981",
+   "cat": "business",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-services",
+   "title": "Services",
+   "viewport": "desktop",
+   "path": "/services_c619",
+   "cat": "services",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-services",
+   "title": "Services",
+   "viewport": "mobile",
+   "path": "/services_c619",
+   "cat": "services",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-jobs",
+   "title": "Jobs",
+   "viewport": "desktop",
+   "path": "/jobs_c4",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-jobs",
+   "title": "Jobs",
+   "viewport": "mobile",
+   "path": "/jobs_c4",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-animals",
+   "title": "Animals",
+   "viewport": "desktop",
+   "path": "/animals_c103",
+   "cat": "animals",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-animals",
+   "title": "Animals",
+   "viewport": "mobile",
+   "path": "/animals_c103",
+   "cat": "animals",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-furniture",
+   "title": "Furniture & Home Decor",
+   "viewport": "desktop",
+   "path": "/furniture-home-decor_c628",
+   "cat": "furniture",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-furniture",
+   "title": "Furniture & Home Decor",
+   "viewport": "mobile",
+   "path": "/furniture-home-decor_c628",
+   "cat": "furniture",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-fashion",
+   "title": "Fashion & Beauty",
+   "viewport": "desktop",
+   "path": "/fashion-beauty_c87",
+   "cat": "fashion",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-fashion",
+   "title": "Fashion & Beauty",
+   "viewport": "mobile",
+   "path": "/fashion-beauty_c87",
+   "cat": "fashion",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-books-sports",
+   "title": "Books, Sports & Hobbies",
+   "viewport": "desktop",
+   "path": "/books-sports-hobbies_c767",
+   "cat": "books-sports",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-books-sports",
+   "title": "Books, Sports & Hobbies",
+   "viewport": "mobile",
+   "path": "/books-sports-hobbies_c767",
+   "cat": "books-sports",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-kids",
+   "title": "Kids",
+   "viewport": "desktop",
+   "path": "/kids_c88",
+   "cat": "kids",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "cat-kids",
+   "title": "Kids",
+   "viewport": "mobile",
+   "path": "/kids_c88",
+   "cat": "kids",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-mobile-phones",
+   "title": "Mobile Phones",
+   "viewport": "desktop",
+   "path": "/mobile-phones_c1453",
+   "cat": "mobiles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-mobile-phones",
+   "title": "Mobile Phones",
+   "viewport": "mobile",
+   "path": "/mobile-phones_c1453",
+   "cat": "mobiles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-cars",
+   "title": "Cars",
+   "viewport": "desktop",
+   "path": "/cars_c84",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-cars",
+   "title": "Cars",
+   "viewport": "mobile",
+   "path": "/cars_c84",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-motorcycles",
+   "title": "Motorcycles",
+   "viewport": "desktop",
+   "path": "/motorcycles_c81",
+   "cat": "bikes",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-motorcycles",
+   "title": "Motorcycles",
+   "viewport": "mobile",
+   "path": "/motorcycles_c81",
+   "cat": "bikes",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-houses",
+   "title": "Houses for Sale",
+   "viewport": "desktop",
+   "path": "/houses_c1721",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-houses",
+   "title": "Houses for Sale",
+   "viewport": "mobile",
+   "path": "/houses_c1721",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-flats-for-rent",
+   "title": "Flats for Rent",
+   "viewport": "desktop",
+   "path": "/apartments-flats_c1723",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-flats-for-rent",
+   "title": "Flats for Rent",
+   "viewport": "mobile",
+   "path": "/apartments-flats_c1723",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-laptops",
+   "title": "Laptops",
+   "viewport": "desktop",
+   "path": "/laptops_c708203",
+   "cat": "electronics",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-laptops",
+   "title": "Laptops",
+   "viewport": "mobile",
+   "path": "/laptops_c708203",
+   "cat": "electronics",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-online-jobs",
+   "title": "Online Jobs",
+   "viewport": "desktop",
+   "path": "/online_c1737",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "sub-online-jobs",
+   "title": "Online Jobs",
+   "viewport": "mobile",
+   "path": "/online_c1737",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-mobiles",
+   "title": "Ad: Mobiles",
+   "viewport": "desktop",
+   "path": "/item/samsung-s23-official-pta-approved-with-box-cable-s23-s24-s25-iid-1119694652",
+   "cat": "mobiles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-mobiles",
+   "title": "Ad: Mobiles",
+   "viewport": "mobile",
+   "path": "/item/samsung-s23-official-pta-approved-with-box-cable-s23-s24-s25-iid-1119694652",
+   "cat": "mobiles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-vehicles",
+   "title": "Ad: Vehicles",
+   "viewport": "desktop",
+   "path": "/item/honda-civic-vti-oriel-prosmatec-2017-iid-1119893850",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-vehicles",
+   "title": "Ad: Vehicles",
+   "viewport": "mobile",
+   "path": "/item/honda-civic-vti-oriel-prosmatec-2017-iid-1119893850",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-property-for-sale",
+   "title": "Ad: Property for Sale",
+   "viewport": "desktop",
+   "path": "/item/commercial-building-for-sale-in-hali-road-lahore-iid-1119737809",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-property-for-sale",
+   "title": "Ad: Property for Sale",
+   "viewport": "mobile",
+   "path": "/item/commercial-building-for-sale-in-hali-road-lahore-iid-1119737809",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-property-for-rent",
+   "title": "Ad: Property for Rent",
+   "viewport": "desktop",
+   "path": "/item/co-working-space-for-rent-iid-1118368001",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-property-for-rent",
+   "title": "Ad: Property for Rent",
+   "viewport": "mobile",
+   "path": "/item/co-working-space-for-rent-iid-1118368001",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-electronics",
+   "title": "Ad: Electronics & Home Appliances",
+   "viewport": "desktop",
+   "path": "/item/hp-elitebook-ryzen-7-4750u-16gb-512gb-nvme-fhd-ips-fingerprint-iid-1119799864",
+   "cat": "electronics",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-electronics",
+   "title": "Ad: Electronics & Home Appliances",
+   "viewport": "mobile",
+   "path": "/item/hp-elitebook-ryzen-7-4750u-16gb-512gb-nvme-fhd-ips-fingerprint-iid-1119799864",
+   "cat": "electronics",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-bikes",
+   "title": "Ad: Bikes",
+   "viewport": "desktop",
+   "path": "/item/suzuki-inazuma-250-complete-touring-panniers-box-setup-kallar-syed-iid-1119678756",
+   "cat": "bikes",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-bikes",
+   "title": "Ad: Bikes",
+   "viewport": "mobile",
+   "path": "/item/suzuki-inazuma-250-complete-touring-panniers-box-setup-kallar-syed-iid-1119678756",
+   "cat": "bikes",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-services",
+   "title": "Ad: Services",
+   "viewport": "desktop",
+   "path": "/item/maids-in-islamabad-cook-chef-baby-sitter-filipino-patient-care-iid-1119887220",
+   "cat": "services",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-services",
+   "title": "Ad: Services",
+   "viewport": "mobile",
+   "path": "/item/maids-in-islamabad-cook-chef-baby-sitter-filipino-patient-care-iid-1119887220",
+   "cat": "services",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-jobs",
+   "title": "Ad: Jobs",
+   "viewport": "desktop",
+   "path": "/item/sales-inquiry-officer-male-rs-65000-walton-lahore-jobs-iid-1119855822",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-jobs",
+   "title": "Ad: Jobs",
+   "viewport": "mobile",
+   "path": "/item/sales-inquiry-officer-male-rs-65000-walton-lahore-jobs-iid-1119855822",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-animals",
+   "title": "Ad: Animals",
+   "viewport": "desktop",
+   "path": "/item/doberman-female-iid-1118292561",
+   "cat": "animals",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-animals",
+   "title": "Ad: Animals",
+   "viewport": "mobile",
+   "path": "/item/doberman-female-iid-1118292561",
+   "cat": "animals",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-furniture",
+   "title": "Ad: Furniture & Home Decor",
+   "viewport": "desktop",
+   "path": "/item/sheesham-bed-set-beddressing-table-side-tables-stoolwooden-lamps-iid-1117708240",
+   "cat": "furniture",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-furniture",
+   "title": "Ad: Furniture & Home Decor",
+   "viewport": "mobile",
+   "path": "/item/sheesham-bed-set-beddressing-table-side-tables-stoolwooden-lamps-iid-1117708240",
+   "cat": "furniture",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-fashion",
+   "title": "Ad: Fashion & Beauty",
+   "viewport": "desktop",
+   "path": "/item/we-buy-rolex-cartier-omega-hublot-chopard-audemars-piguet-bvlgari-rado-iid-1112909544",
+   "cat": "fashion",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-fashion",
+   "title": "Ad: Fashion & Beauty",
+   "viewport": "mobile",
+   "path": "/item/we-buy-rolex-cartier-omega-hublot-chopard-audemars-piguet-bvlgari-rado-iid-1112909544",
+   "cat": "fashion",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-books-sports",
+   "title": "Ad: Books, Sports & Hobbies",
+   "viewport": "desktop",
+   "path": "/item/cricket-net-cricket-practice-net-volleyball-net-safety-net-mugha-iid-1115535091",
+   "cat": "books-sports",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-books-sports",
+   "title": "Ad: Books, Sports & Hobbies",
+   "viewport": "mobile",
+   "path": "/item/cricket-net-cricket-practice-net-volleyball-net-safety-net-mugha-iid-1115535091",
+   "cat": "books-sports",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-kids",
+   "title": "Ad: Kids",
+   "viewport": "desktop",
+   "path": "/item/kids-eelctric-jeep-kids-2-seater-jeeps-kids-electric-carkids-jeep-iid-1104247981",
+   "cat": "kids",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-kids",
+   "title": "Ad: Kids",
+   "viewport": "mobile",
+   "path": "/item/kids-eelctric-jeep-kids-2-seater-jeeps-kids-electric-carkids-jeep-iid-1104247981",
+   "cat": "kids",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-cars",
+   "title": "Ad: Cars",
+   "viewport": "desktop",
+   "path": "/item/toyota-land-cruiser-j40-1984-classic-4x4-urgent-sale-iid-1119608996",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-cars",
+   "title": "Ad: Cars",
+   "viewport": "mobile",
+   "path": "/item/toyota-land-cruiser-j40-1984-classic-4x4-urgent-sale-iid-1119608996",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-houses",
+   "title": "Ad: Houses for Sale",
+   "viewport": "desktop",
+   "path": "/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-houses",
+   "title": "Ad: Houses for Sale",
+   "viewport": "mobile",
+   "path": "/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-online-jobs",
+   "title": "Ad: Online Jobs",
+   "viewport": "desktop",
+   "path": "/item/typing-job-data-entry-job-assignment-writing-online-job-part-time-iid-1119217943",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-online-jobs",
+   "title": "Ad: Online Jobs",
+   "viewport": "mobile",
+   "path": "/item/typing-job-data-entry-job-assignment-writing-online-job-part-time-iid-1119217943",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "search-results",
+   "title": "Search results: iphone",
+   "viewport": "desktop",
+   "path": "/items/q-iphone",
+   "overlay": false,
+   "flows": [
+    "search"
+   ]
+  },
+  {
+   "id": "search-results",
+   "title": "Search results: iphone",
+   "viewport": "mobile",
+   "path": "/items/q-iphone",
+   "overlay": false,
+   "flows": [
+    "search"
+   ]
+  },
+  {
+   "id": "search-empty",
+   "title": "Search with no results",
+   "viewport": "desktop",
+   "path": "/items/q-qzxqzxnothing",
+   "overlay": false,
+   "flows": [
+    "search"
+   ]
+  },
+  {
+   "id": "search-empty",
+   "title": "Search with no results",
+   "viewport": "mobile",
+   "path": "/items/q-qzxqzxnothing",
+   "overlay": false,
+   "flows": [
+    "search"
+   ]
+  },
+  {
+   "id": "city",
+   "title": "City: Lahore",
+   "viewport": "desktop",
+   "path": "/lahore_g4060673",
+   "overlay": false,
+   "flows": [
+    "location"
+   ]
+  },
+  {
+   "id": "city",
+   "title": "City: Lahore",
+   "viewport": "mobile",
+   "path": "/lahore_g4060673",
+   "overlay": false,
+   "flows": [
+    "location"
+   ]
+  },
+  {
+   "id": "city-category",
+   "title": "Mobile Phones in Lahore",
+   "viewport": "desktop",
+   "path": "/lahore_g4060673/mobile-phones_c1453",
+   "overlay": false,
+   "flows": [
+    "location"
+   ]
+  },
+  {
+   "id": "city-category",
+   "title": "Mobile Phones in Lahore",
+   "viewport": "mobile",
+   "path": "/lahore_g4060673/mobile-phones_c1453",
+   "overlay": false,
+   "flows": [
+    "location"
+   ]
+  },
+  {
+   "id": "sitemap",
+   "title": "Sitemap",
+   "viewport": "desktop",
+   "path": "/sitemap/most-popular",
+   "overlay": false,
+   "flows": []
+  },
+  {
+   "id": "sitemap",
+   "title": "Sitemap",
+   "viewport": "mobile",
+   "path": "/sitemap/most-popular",
+   "overlay": false,
+   "flows": []
+  },
+  {
+   "id": "location-prompt",
+   "title": "Location prompt (first visit)",
+   "viewport": "mobile",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "first-visit"
+   ]
+  },
+  {
+   "id": "location-select",
+   "title": "Choose location (first visit)",
+   "viewport": "mobile",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "first-visit"
+   ]
+  },
+  {
+   "id": "account-menu",
+   "title": "Account (logged out)",
+   "viewport": "mobile",
+   "path": "/",
+   "overlay": false,
+   "flows": [
+    "account"
+   ]
+  },
+  {
+   "id": "login",
+   "title": "Login options",
+   "viewport": "desktop",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "account",
+    "sell"
+   ]
+  },
+  {
+   "id": "login",
+   "title": "Login options",
+   "viewport": "mobile",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "account",
+    "sell"
+   ]
+  },
+  {
+   "id": "login-email",
+   "title": "Login with email",
+   "viewport": "desktop",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "account"
+   ]
+  },
+  {
+   "id": "login-email",
+   "title": "Login with email",
+   "viewport": "mobile",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "account"
+   ]
+  },
+  {
+   "id": "login-phone",
+   "title": "Login with phone",
+   "viewport": "desktop",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "account",
+    "sell"
+   ]
+  },
+  {
+   "id": "login-phone",
+   "title": "Login with phone",
+   "viewport": "mobile",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "account",
+    "sell"
+   ]
+  },
+  {
+   "id": "signup",
+   "title": "Create an account",
+   "viewport": "desktop",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "account"
+   ]
+  },
+  {
+   "id": "signup",
+   "title": "Create an account",
+   "viewport": "mobile",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "account"
+   ]
+  },
+  {
+   "id": "categories-menu",
+   "title": "All categories menu",
+   "viewport": "desktop",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "search-suggestions",
+   "title": "Search suggestions",
+   "viewport": "desktop",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "search"
+   ]
+  },
+  {
+   "id": "search-suggestions",
+   "title": "Search suggestions",
+   "viewport": "mobile",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "search"
+   ]
+  },
+  {
+   "id": "sort-menu",
+   "title": "Sort menu",
+   "viewport": "desktop",
+   "path": "/mobile-phones_c1453",
+   "overlay": true,
+   "flows": [
+    "search"
+   ]
+  },
+  {
+   "id": "sorted-low-price",
+   "title": "Sorted by lowest price",
+   "viewport": "desktop",
+   "path": "/mobile-phones_c1453",
+   "overlay": false,
+   "flows": [
+    "search"
+   ]
+  },
+  {
+   "id": "brand-sheet",
+   "title": "Brand filter",
+   "viewport": "mobile",
+   "path": "/mobile-phones_c1453",
+   "overlay": true,
+   "flows": [
+    "search"
+   ]
+  },
+  {
+   "id": "price-sheet",
+   "title": "Price filter",
+   "viewport": "mobile",
+   "path": "/mobile-phones_c1453",
+   "overlay": true,
+   "flows": [
+    "search"
+   ]
+  },
+  {
+   "id": "location-menu",
+   "title": "Location menu",
+   "viewport": "desktop",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "location"
+   ]
+  },
+  {
+   "id": "filters-sheet",
+   "title": "Filters",
+   "viewport": "mobile",
+   "path": "/mobile-phones_c1453",
+   "overlay": true,
+   "flows": [
+    "search"
+   ]
+  },
+  {
+   "id": "ad-business",
+   "title": "Ad: Business, Industrial & Agriculture",
+   "viewport": "desktop",
+   "path": "/item/tea-packing-complete-set-up-iid-1119742091",
+   "cat": "business",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-business",
+   "title": "Ad: Business, Industrial & Agriculture",
+   "viewport": "mobile",
+   "path": "/item/tea-packing-complete-set-up-iid-1119742091",
+   "cat": "business",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  }
+ ],
+ "captured": "2026-09-29"
+}

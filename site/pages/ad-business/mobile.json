@@ -1,0 +1,359 @@
+{
+ "id": "ad-business",
+ "title": "Ad: Business, Industrial & Agriculture",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/tea-packing-complete-set-up-iid-1119742091",
+ "finalUrl": "https://www.olx.com.pk/item/tea-packing-complete-set-up-iid-1119742091",
+ "width": 390,
+ "height": 2090,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T13:35:32.034Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 415,
+    "width": 390,
+    "height": 51
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-description-a-complete-tea-packing-set-u",
+   "name": "Description · A complete tea packing set up with",
+   "rect": {
+    "x": 0,
+    "y": 465,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 606,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-related-ads-rs-17-50-lacs-stationery-sho",
+   "name": "Related ads · Rs 17.50 Lacs · Stationery Shop Co",
+   "rect": {
+    "x": 0,
+    "y": 826,
+    "width": 390,
+    "height": 371
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(10)"
+  },
+  {
+   "file": "07-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1216,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
+  },
+  {
+   "file": "08-other-businesses-in-garden-east-other-bu",
+   "name": "Other Businesses in Garden East · Other Business",
+   "rect": {
+    "x": 8,
+    "y": 1499,
+    "width": 374,
+    "height": 27
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "09-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1525,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "10-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1571,
+    "width": 390,
+    "height": 519
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "11-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 2025,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": 123,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1170,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1560,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1950,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 565,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 618,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/2206dd1c-d11f-456d-844d-7f2595a7adec",
+   "label": "Posted byBaloch Assadullah (email@example.com Member Since2017Active A"
+  },
+  {
+   "x": 142,
+   "y": 750,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 861,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/stationery-shop-complete-furniture-stock-machines-for-sale-iid-1119544277",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2038,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 199,
+   "y": 2038,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 210,
+   "y": 1504,
+   "width": 172,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/garden-east_g5000136/other-businesses_c708324",
+   "label": "Other Businesses in Garden East"
+  },
+  {
+   "x": -6,
+   "y": 1504,
+   "width": 186,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jamshed-town_g5001542/other-businesses_c708324",
+   "label": "Other Businesses in Jamshed Town"
+  },
+  {
+   "x": -183,
+   "y": 1504,
+   "width": 147,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/other-businesses_c708324",
+   "label": "Other Businesses in Karachi"
+  },
+  {
+   "x": -305,
+   "y": 1504,
+   "width": 92,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-businesses_c708324",
+   "label": "Other Businesses"
+  },
+  {
+   "x": -424,
+   "y": 1504,
+   "width": 89,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/business-for-sale_c1997",
+   "label": "Business for Sale"
+  },
+  {
+   "x": -629,
+   "y": 1504,
+   "width": 175,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/business-industrial-agriculture_c1981",
+   "label": "Business, Industrial & Agriculture"
+  },
+  {
+   "x": -691,
+   "y": 1504,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 1870,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 1937,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 1937,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 1937,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 1937,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

@@ -1,0 +1,800 @@
+{
+ "id": "ad-furniture",
+ "title": "Ad: Furniture & Home Decor",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/item/sheesham-bed-set-beddressing-table-side-tables-stoolwooden-lamps-iid-1117708240",
+ "finalUrl": "https://www.olx.com.pk/item/sheesham-bed-set-beddressing-table-side-tables-stoolwooden-lamps-iid-1117708240",
+ "width": 1440,
+ "height": 2953,
+ "dpr": 1,
+ "overlay": false,
+ "captured": "2026-09-29T13:12:20.341Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-all-categories-mobile-phones-cars",
+   "name": "All Categories · Mobile Phones · Cars",
+   "rect": {
+    "x": 0,
+    "y": 143,
+    "width": 1440,
+    "height": 50
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "03-home-furniture-and-home-decor-beds-and-w",
+   "name": "Home · Furniture & Home Decor · Beds & Wardrobes",
+   "rect": {
+    "x": 80,
+    "y": 193,
+    "width": 1280,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "04-div",
+   "name": "div",
+   "rect": {
+    "x": 80,
+    "y": 250,
+    "width": 1280,
+    "height": 251
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "05-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 80,
+    "y": 532,
+    "width": 820,
+    "height": 481
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 940,
+    "y": 532,
+    "width": 420,
+    "height": 431
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
+  },
+  {
+   "file": "07-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 80,
+    "y": 1052,
+    "width": 820,
+    "height": 146
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "08-details",
+   "name": "Details",
+   "rect": {
+    "x": 80,
+    "y": 1237,
+    "width": 820,
+    "height": 121
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "09-description",
+   "name": "Description",
+   "rect": {
+    "x": 80,
+    "y": 1397,
+    "width": 820,
+    "height": 306
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "10-related-ads",
+   "name": "Related Ads",
+   "rect": {
+    "x": 80,
+    "y": 1742,
+    "width": 820,
+    "height": 459
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "11-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 80,
+    "y": 2240,
+    "width": 820,
+    "height": 171
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "12-find-amazing-deals-on-the-go-download-ol",
+   "name": "Find amazing deals on the go. · Download OLX app",
+   "rect": {
+    "x": 0,
+    "y": 2434,
+    "width": 1440,
+    "height": 173
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "13-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 2606,
+    "width": 1440,
+    "height": 347
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 144,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 284,
+   "y": 24,
+   "width": 139,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1196,
+   "y": 20,
+   "width": 40,
+   "height": 24,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
+   "x": 1256,
+   "y": 8,
+   "width": 104,
+   "height": 48,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 109,
+   "y": 81,
+   "width": 300,
+   "height": 46,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 459,
+   "y": 81,
+   "width": 791,
+   "height": 46,
+   "kind": "input",
+   "label": "Find Cars, Mobile Phones and more..."
+  },
+  {
+   "x": 1250,
+   "y": 80,
+   "width": 110,
+   "height": 48,
+   "kind": "button",
+   "label": "Search"
+  },
+  {
+   "x": 229,
+   "y": 159,
+   "width": 105,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 358,
+   "y": 159,
+   "width": 31,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 413,
+   "y": 159,
+   "width": 87,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Motorcycles"
+  },
+  {
+   "x": 524,
+   "y": 159,
+   "width": 53,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "Houses"
+  },
+  {
+   "x": 601,
+   "y": 159,
+   "width": 96,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "Video-Audios"
+  },
+  {
+   "x": 721,
+   "y": 159,
+   "width": 50,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "Tablets"
+  },
+  {
+   "x": 795,
+   "y": 159,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "Land & Plots"
+  },
+  {
+   "x": 80,
+   "y": 196,
+   "width": 39,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 149,
+   "y": 196,
+   "width": 151,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/furniture-home-decor_c628",
+   "label": "Furniture & Home Decor"
+  },
+  {
+   "x": 330,
+   "y": 196,
+   "width": 117,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/beds-wardrobes_c1591",
+   "label": "Beds & Wardrobes"
+  },
+  {
+   "x": 477,
+   "y": 196,
+   "width": 31,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/beds_c707123",
+   "label": "Beds"
+  },
+  {
+   "x": 538,
+   "y": 196,
+   "width": 92,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/beds_c707123",
+   "label": "Beds in Lahore"
+  },
+  {
+   "x": 660,
+   "y": 196,
+   "width": 88,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kahna_g5000043/beds_c707123",
+   "label": "Beds in Kahna"
+  },
+  {
+   "x": 832,
+   "y": 1228,
+   "width": 48,
+   "height": 49,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 80,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 900,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1720,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2540,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3360,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 249,
+   "y": 1287,
+   "width": 213,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/beds_c707123/q-used-beds",
+   "label": "Used"
+  },
+  {
+   "x": 659,
+   "y": 1287,
+   "width": 213,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/beds_c707123/q-bed-set",
+   "label": "Bed Set"
+  },
+  {
+   "x": 249,
+   "y": 1328,
+   "width": 213,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/beds_c707123/q-wooden-beds",
+   "label": "Wooden"
+  },
+  {
+   "x": 60,
+   "y": 1972,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/king-size-roya-complete-bed-set-iid-1119843483",
+   "label": "Listing"
+  },
+  {
+   "x": 357,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/bed-set-iid-1119813601",
+   "label": "Listing"
+  },
+  {
+   "x": 634,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/chinioti-wooden-bed-set-iid-1119787921",
+   "label": "Listing"
+  },
+  {
+   "x": 900,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/home-used-furniture-like-a-new-iid-1119121724",
+   "label": "Listing"
+  },
+  {
+   "x": 1177,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/teak-wood-bed-set-in-excellent-condition-iid-1119238756",
+   "label": "Listing"
+  },
+  {
+   "x": 1454,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/kids-used-set-wooden-furniture-excellent-condition-lahore-iid-1119718125",
+   "label": "Listing"
+  },
+  {
+   "x": 1720,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/bed-shokais-sheshadras-bed-sid-tabl-tabl-iid-1119704098",
+   "label": "Listing"
+  },
+  {
+   "x": 1997,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/luxurious-bedset-iid-1117080687",
+   "label": "Listing"
+  },
+  {
+   "x": 2274,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/king-size-luxury-bed-for-sale-iid-1119309697",
+   "label": "Listing"
+  },
+  {
+   "x": 2540,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/wooden-bed-set-with-side-tables-settee-slightly-used-910-iid-1117498282",
+   "label": "Listing"
+  },
+  {
+   "x": 2817,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/wooden-bed-with-vanity-iid-1119690159",
+   "label": "Listing"
+  },
+  {
+   "x": 3094,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/original-sheesham-wood-total-bedroom-set-iid-1118365211",
+   "label": "Listing"
+  },
+  {
+   "x": 3360,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/made-of-solid-wood-with-deco-paint-iid-1119502008",
+   "label": "Listing"
+  },
+  {
+   "x": 3637,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/-iid-1119399483",
+   "label": "Listing"
+  },
+  {
+   "x": 3914,
+   "y": 1784,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/space-saving-bunk-bed-with-staircase-storage-drawers-iid-1119403376",
+   "label": "Listing"
+  },
+  {
+   "x": 880,
+   "y": 1972,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 940,
+   "y": 532,
+   "width": 420,
+   "height": 142,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/d24bfb2b-02b1-43f1-9ce8-c6d95df99737",
+   "label": "Posted byShuraim Member Since2024Active Ads3"
+  },
+  {
+   "x": 940,
+   "y": 689,
+   "width": 420,
+   "height": 49,
+   "kind": "button",
+   "label": "Show phone number"
+  },
+  {
+   "x": 940,
+   "y": 753,
+   "width": 420,
+   "height": 49,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 1236,
+   "y": 813,
+   "width": 124,
+   "height": 30,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 960,
+   "y": 2516,
+   "width": 128,
+   "height": 47,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 1096,
+   "y": 2516,
+   "width": 128,
+   "height": 47,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 1232,
+   "y": 2516,
+   "width": 128,
+   "height": 47,
+   "kind": "link",
+   "href": "https://appgallery.huawei.com/#/app/C104375435",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 2714,
+   "width": 31,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 2746,
+   "width": 86,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 2778,
+   "width": 105,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 2810,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 2714,
+   "width": 36,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 2746,
+   "width": 61,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 2778,
+   "width": 44,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books_c707080",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 2810,
+   "width": 37,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dogs_c139",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 2714,
+   "width": 66,
+   "height": 19,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 2746,
+   "width": 78,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 2778,
+   "width": 134,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 2714,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 2746,
+   "width": 57,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 2778,
+   "width": 90,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 2810,
+   "width": 92,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 2711,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 2711,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 2711,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 2711,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

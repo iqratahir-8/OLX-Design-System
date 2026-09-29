@@ -1,0 +1,563 @@
+{
+ "id": "cat-books-sports",
+ "title": "Books, Sports & Hobbies",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/books-sports-hobbies_c767",
+ "finalUrl": "https://www.olx.com.pk/books-sports-hobbies_c767?page=1",
+ "width": 390,
+ "height": 5843,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T12:58:28.152Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 139
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 155,
+    "width": 390,
+    "height": 4505
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-got-something-to-sell-post-in-3-simple-s",
+   "name": "Got Something to Sell? · Post in 3 Simple Steps ",
+   "rect": {
+    "x": 16,
+    "y": 4671,
+    "width": 358,
+    "height": 198
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-mic-singstar-usa-brand",
+   "name": "Mic Singstar USA brand",
+   "rect": {
+    "x": 0,
+    "y": 4880,
+    "width": 390,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "05-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 5038,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "06-books-sports-and-hobbies-in-pakistan",
+   "name": "Books, Sports & Hobbies in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 5118,
+    "width": 390,
+    "height": 86
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "07-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 5203,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "08-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 5249,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "09-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 5295,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "10-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 5341,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 5387,
+    "width": 390,
+    "height": 456
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "12-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 5774,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 104,
+   "width": 358,
+   "height": 23,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 104,
+   "width": 390,
+   "height": 35,
+   "kind": "button",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 155,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/snooker-table-in-islamabadsnooker-table-all-over-pakistan8-ball-pool-iid-1110686191",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 296,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/functional-trainer-gym-equipments-gym-manufacturer-bench-press-iid-1119698461",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 438,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/jc-buckman-indulgeus-full-body-massage-chair-pakistan-no-01-chairs-iid-1119197460",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 580,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dumbbells-treadmill-cycle-elliptical-exercise-home-gym-machines-iid-1106861954",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 722,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hiking-shoes-hiking-shoes-camping-shoes-sport-shoes-iid-1119436986",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 864,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/table-tennis-table-carrom-foosball-pool-table-snooker-grw-iid-1111319848",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1079,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/8in1-electric-deluxxe_-massager-body-relief-massager-pain-relief-muscle-relief-and-therapyy-iid-ev556106-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1079,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/foldable-2-sided-wooden-ludo-game-for-6-players-with-free-goti-pack-iid-ev510935-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1350,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dua-stickers-powerful-dua-for-business-success-08pcs-iid-ev554996-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1350,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/reusable-whiteboard-notebook-for-kids-tracing-and-writing-activities-in-english-and-urdu-iid-ev250264-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1621,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/rn-hair-scalp-massager-rechargeable-3d-head-massager-machine-electric-head-massager-handheld-rotating-massager-hair-massager-for-hair-growth-cordless-head-scalp-massager-and-muscle-relaxer-electric-head-scalp-massager-machine-deep-muscle-relaxation-iid-ev567068-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1621,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/liveup-ls3218-expander-set-for-aerobic-and-dynamic-workouts-iid-ev449977-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1891,
+   "width": 173,
+   "height": 274,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/mcd-football-training-equipment-storage-bag-large-sports-drawstring-mesh-ball-bag-iid-ev324199-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1891,
+   "width": 173,
+   "height": 274,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/bello-craft-24-sheet-6x6-inch-pattern-paper-and-designer-paper-pack-for-scrapbooking-iid-ev332108-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2181,
+   "width": 358,
+   "height": 41,
+   "kind": "button",
+   "label": "View All Items with Delivery"
+  },
+  {
+   "x": 0,
+   "y": 2233,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/3-multi-function-trainer-multifunction-gym-trainer-machine-iid-1118939118",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2375,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/zt-cross-treadmill-treadmill-machine-folding-treadmill-jogging-iid-1119445496",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2517,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/vapes-pods-mod-e-liquids-disposable-pods-iid-1105370165",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2671,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/boxing-kit-6-in-1-deal-punching-kit-bag-gloves-etc-iid-1116523991",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2813,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/brilliant-paper-70-gsm-iid-1119893998",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2955,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/12-kg-dumbbells-pair-brand-new-unused-gym-home-workout-iid-1119893916",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3097,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/commercial-cable-cross-machine-iid-1119893784",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3239,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/safety-wirefence-iid-1119893771",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3381,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/electric-treadmill-fully-functional-home-gym-use-iid-1114873932",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3523,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/accoustic-and-nylon-guitar-iid-1119893736",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3665,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lsg-model-168-h-treadmill-iid-1119893544",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3807,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/flag-stand-iid-1106988333",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3949,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/exercise-cycle-for-sale-iid-1119893364",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4091,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/ruison-full-size-acoustic-guitar-iid-1119893307",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4233,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/skateboard-for-sale-iid-1119893278",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4387,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/caliburn-g3-lite-iid-1119893247",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4529,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/ppc-paper-03XX-XXXXXXX-iid-1119893246",
+   "label": "Listing"
+  },
+  {
+   "x": 29,
+   "y": 4811,
+   "width": 332,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell Now"
+  },
+  {
+   "x": 0,
+   "y": 4880,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/mic-singstar-usa-brand-iid-1119893083",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 5038,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 143,
+   "y": 5774,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 5173,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 5687,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 5753,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 5753,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 5753,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 5753,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

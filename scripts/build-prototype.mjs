@@ -47,7 +47,8 @@ const firstAvailable = (vp, ...ids) => ids.find((id) => id && has(id, vp));
 
 // Buttons and fields that open a state rather than a URL.
 const ACTIONS = [
-  [/^(login|sell|\+ ?sell|my ads|account|chat|call|whatsapp|show phone number|favorite icon|save|login to chat)$/i, (vp) => firstAvailable(vp, 'login')],
+  [/^account$/i, (vp) => firstAvailable(vp, 'account-menu', 'login')],
+  [/^(login|login or sign up|sell|\+ ?sell|my ads|chat|call|whatsapp|show phone number|favorite icon|save|login to chat)$/i, (vp) => firstAvailable(vp, 'login')],
   [/^login with email$/i, (vp) => firstAvailable(vp, 'login-email')],
   [/^login with phone$/i, (vp) => firstAvailable(vp, 'login-phone')],
   [/create an account/i, (vp) => firstAvailable(vp, 'signup')],
@@ -106,7 +107,8 @@ for (const [key, m] of Object.entries(meta)) {
   pages[key] = {
     id, vp, title: m.title, url: m.url, width: m.width, height: m.height, overlay: m.overlay,
     image: `../${SITE}/pages/${id}/${vp}.png`, html: `../${SITE}/pages/${id}/${vp}.html`,
-    sections: m.sections.map((s) => ({ name: s.name, ...s.rect, image: `../${SITE}/pages/${id}/sections/${vp}/${s.file}.png`, html: `../${SITE}/pages/${id}/sections/${vp}/${s.file}.html` })),
+    // Empty blocks are OLX ad slots, which render blank without their scripts.
+    sections: m.sections.map((s) => ({ name: /^(div|section|aside)$/.test(s.name) ? 'Ad space' : s.name, ...s.rect, image: `../${SITE}/pages/${id}/sections/${vp}/${s.file}.png`, html: `../${SITE}/pages/${id}/sections/${vp}/${s.file}.html` })),
     hotspots,
   };
 }
@@ -145,7 +147,8 @@ const FLOWS = [
     ['login-phone', 'Log in with a phone number.'],
   ] },
   { id: 'account', title: 'Log in or sign up', steps: [
-    ['home', 'Tap Login.', 'Login'],
+    ['home', 'Tap Login (on mobile, the Account tab).', 'Login'],
+    ['account-menu', 'On mobile, the Account tab asks you to sign in.', 'Login or Sign up'],
     ['login', 'Choose how to log in.', 'Login with Email'],
     ['login-email', 'Log in with email.'],
     ['signup', 'Or create an account.'],
@@ -179,7 +182,7 @@ const flows = FLOWS.map((f) => ({
 })).filter((f) => f.steps.some((s) => has(s.page, 'desktop') || has(s.page, 'mobile')));
 
 const GROUPS = [
-  ['Start', (id) => ['home', 'motors', 'property', 'location-prompt', 'location-select', 'sitemap'].includes(id)],
+  ['Start', (id) => ['home', 'motors', 'property', 'location-prompt', 'location-select', 'account-menu', 'sitemap'].includes(id)],
   ['Categories', (id) => id.startsWith('cat-')],
   ['Subcategories', (id) => id.startsWith('sub-')],
   ['Ads', (id) => id.startsWith('ad-')],

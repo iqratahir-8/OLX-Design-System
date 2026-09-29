@@ -1,0 +1,511 @@
+{
+ "id": "ad-cars",
+ "title": "Ad: Cars",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/toyota-land-cruiser-j40-1984-classic-4x4-urgent-sale-iid-1119608996",
+ "finalUrl": "https://www.olx.com.pk/item/toyota-land-cruiser-j40-1984-classic-4x4-urgent-sale-iid-1119608996",
+ "width": 390,
+ "height": 3402,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T13:15:35.977Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 146
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-year-1984-km-s-driven",
+   "name": "Year · 1984 · KM's driven",
+   "rect": {
+    "x": 0,
+    "y": 439,
+    "width": 390,
+    "height": 61
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-olx-car-inspection-buy-with-confidence-b",
+   "name": "OLX Car Inspection · Buy with confidence. Book i",
+   "rect": {
+    "x": 0,
+    "y": 519,
+    "width": 390,
+    "height": 241
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 779,
+    "width": 390,
+    "height": 51
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-details",
+   "name": "Details",
+   "rect": {
+    "x": 0,
+    "y": 829,
+    "width": 390,
+    "height": 295
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "07-description-toyota-land-cruiser-j40-1984",
+   "name": "Description · **TOYOTA LAND CRUISER J40 1984 – C",
+   "rect": {
+    "x": 0,
+    "y": 1143,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(10)"
+  },
+  {
+   "file": "08-features",
+   "name": "Features",
+   "rect": {
+    "x": 0,
+    "y": 1284,
+    "width": 390,
+    "height": 193
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "09-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 1496,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
+  },
+  {
+   "file": "10-similar-cars-rs-95-50-lacs-toyota-land-c",
+   "name": "Similar cars · Rs 95.50 Lacs · Toyota Land Cruis",
+   "rect": {
+    "x": 0,
+    "y": 1716,
+    "width": 390,
+    "height": 397
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
+  },
+  {
+   "file": "11-new-cars-for-similar-price-rs-60-lacs-to",
+   "name": "New cars for similar price · Rs 60 Lacs · Toyota",
+   "rect": {
+    "x": 0,
+    "y": 2112,
+    "width": 390,
+    "height": 397
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  },
+  {
+   "file": "12-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 2528,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(17)"
+  },
+  {
+   "file": "13-toyota-land-cruiser-in-islamabad-toyota-",
+   "name": "Toyota Land Cruiser in Islamabad · Toyota in Isl",
+   "rect": {
+    "x": 8,
+    "y": 2811,
+    "width": 374,
+    "height": 27
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "14-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 2837,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "15-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 2883,
+    "width": 390,
+    "height": 519
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "16-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 3337,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(19)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": 123,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1170,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": "OLX Car InspectionBuy with confidence. Book inspection starting from Rs.4,500 on"
+  },
+  {
+   "x": 1225,
+   "y": 217,
+   "width": 280,
+   "height": 41,
+   "kind": "button",
+   "label": "Book Now"
+  },
+  {
+   "x": 32,
+   "y": 687,
+   "width": 326,
+   "height": 41,
+   "kind": "button",
+   "label": "Book Now"
+  },
+  {
+   "x": 142,
+   "y": 1101,
+   "width": 106,
+   "height": 27,
+   "kind": "button",
+   "label": "View +4 more"
+  },
+  {
+   "x": 16,
+   "y": 1243,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 1508,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/297c8c42-33f1-46bb-84d4-c87dc9d8707b",
+   "label": "Posted byUser 6eE6DG Member Since2020Active Ads2"
+  },
+  {
+   "x": 142,
+   "y": 1640,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 1751,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-land-cruiser-2004-iid-1118091748",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 1751,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/tz-prado-for-sale-or-exchange-iid-1105768410",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 1751,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-land-cruiser-fj-45-crew-cab-1984-iid-1117480870",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 1751,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-raize-2021-iid-1119874890",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 1751,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/changan-oshan-x7-2024-future-sense-17800-km-islamabad-registered-iid-1119875630",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2147,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-2022-iid-1118622122",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 2147,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/changan-oshan-x7-comfort-2026-iid-1119848857",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 2147,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-fronx-2026-top-of-the-line-urgent-sale-iid-1118844695",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 2147,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-2025-iid-1119605201",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 2147,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/mg-hs-2022-iid-1119612318",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 3350,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 138,
+   "y": 3350,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 260,
+   "y": 3350,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 209,
+   "y": 2816,
+   "width": 173,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/toyota-cars_c84?filter=make_eq_toyota%2Cmodel_eq_toyota-44",
+   "label": "Toyota Land Cruiser in Islamabad"
+  },
+  {
+   "x": 75,
+   "y": 2816,
+   "width": 104,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/toyota-cars_c84?filter=make_eq_toyota",
+   "label": "Toyota in Islamabad"
+  },
+  {
+   "x": -15,
+   "y": 2816,
+   "width": 60,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/f-10_g5000984/cars_c84",
+   "label": "Cars in F-10"
+  },
+  {
+   "x": -137,
+   "y": 2816,
+   "width": 92,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84",
+   "label": "Cars in Islamabad"
+  },
+  {
+   "x": -190,
+   "y": 2816,
+   "width": 23,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": -266,
+   "y": 2816,
+   "width": 46,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/vehicles_c5",
+   "label": "Vehicles"
+  },
+  {
+   "x": -328,
+   "y": 2816,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 3182,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 3249,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 3249,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 3249,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 3249,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

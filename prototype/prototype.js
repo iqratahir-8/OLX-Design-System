@@ -179,9 +179,14 @@
     const s = screen();
     if (sectionsPanel.hidden || !s) return;
     let html = `<h2>${esc(s.title)}</h2><p>${s.sections.length} sections, ${s.vp}. Select one to find it on the screen.</p>`;
+    // Thumbnails are cropped from the page screenshot, so no extra images load.
+    const thumbW = 272;
     s.sections.forEach((sec, i) => {
-      html += `<div class="pt-sec"><button type="button" data-sec="${i}"><img class="pt-sec__thumb" loading="lazy" alt="" src="${asset(sec.image)}"><span class="pt-sec__name">${i + 1}. ${esc(sec.name)}</span></button>
-        <span class="pt-sec__meta"><span>${sec.width} × ${sec.height}</span><a href="${asset(sec.image)}" target="_blank" rel="noopener">Image</a><a href="${asset(sec.html)}" target="_blank" rel="noopener">HTML</a></span></div>`;
+      const k = thumbW / sec.width;
+      const thumb = `<span class="pt-sec__thumb" style="height:${Math.min(120, Math.round(sec.height * k))}px;background-image:url('${asset(s.image)}');background-size:${s.width * k}px auto;background-position:${-sec.x * k}px ${-sec.y * k}px"></span>`;
+      const files = window.PROTO_SECTION_FILES === false ? '' : `<a href="${asset(sec.image)}" target="_blank" rel="noopener">Image</a><a href="${asset(sec.html)}" target="_blank" rel="noopener">HTML</a>`;
+      html += `<div class="pt-sec"><button type="button" data-sec="${i}">${thumb}<span class="pt-sec__name">${i + 1}. ${esc(sec.name)}</span></button>
+        <span class="pt-sec__meta"><span>${sec.width} × ${sec.height}</span>${files}</span></div>`;
     });
     sectionsPanel.innerHTML = html;
   }

@@ -1,0 +1,293 @@
+{
+ "id": "ad-online-jobs",
+ "title": "Ad: Online Jobs",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-writing-online-job-part-time-iid-1119217943",
+ "finalUrl": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-writing-online-job-part-time-iid-1119217943",
+ "width": 390,
+ "height": 2099,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T13:17:02.109Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 165
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 459,
+    "width": 390,
+    "height": 50
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-details",
+   "name": "Details",
+   "rect": {
+    "x": 0,
+    "y": 509,
+    "width": 390,
+    "height": 315
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-description-online-work",
+   "name": "Description · **گھر بیٹھے Online Work کا بہترین ",
+   "rect": {
+    "x": 0,
+    "y": 844,
+    "width": 390,
+    "height": 121
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 985,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "07-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1225,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
+  },
+  {
+   "file": "08-online-jobs-in-shalimar-link-road-online",
+   "name": "Online Jobs in Shalimar Link Road · Online Jobs ",
+   "rect": {
+    "x": 8,
+    "y": 1508,
+    "width": 374,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "09-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1533,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "10-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1579,
+    "width": 390,
+    "height": 520
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "11-chat",
+   "name": "Chat",
+   "rect": {
+    "x": 0,
+    "y": 2034,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 171,
+   "y": 764,
+   "width": 190,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-entry-level",
+   "label": "Entry Level"
+  },
+  {
+   "x": 142,
+   "y": 802,
+   "width": 106,
+   "height": 26,
+   "kind": "button",
+   "label": "View +2 more"
+  },
+  {
+   "x": 16,
+   "y": 944,
+   "width": 358,
+   "height": 21,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 997,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/daa3e706-eb34-462c-9446-f20c981a01b2",
+   "label": "Posted byAssignment work Member Since2024Active Ads5"
+  },
+  {
+   "x": 142,
+   "y": 1129,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 2047,
+   "width": 358,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 205,
+   "y": 1512,
+   "width": 177,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shalimar-link-road_g5000817/online_c1737",
+   "label": "Online Jobs in Shalimar Link Road"
+  },
+  {
+   "x": 61,
+   "y": 1512,
+   "width": 114,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/online_c1737",
+   "label": "Online Jobs in Lahore"
+  },
+  {
+   "x": -31,
+   "y": 1512,
+   "width": 62,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737",
+   "label": "Online Jobs"
+  },
+  {
+   "x": -84,
+   "y": 1512,
+   "width": 23,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": -146,
+   "y": 1512,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 1878,
+   "width": 84,
+   "height": 34,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 1945,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 1945,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 1945,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 1945,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}
