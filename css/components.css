@@ -11,7 +11,7 @@
   border: 2px solid transparent;
   border-radius: var(--olx-radius-sm);
   font: inherit;
-  font-weight: var(--olx-font-weight-bold);
+  font-weight: var(--olx-font-weight-semibold);
   text-decoration: none;
   cursor: pointer;
   transition: background var(--olx-motion-duration-fast) var(--olx-motion-easing-standard),
@@ -41,7 +41,7 @@
   min-height: 48px;
   padding: var(--olx-space-3) var(--olx-space-4);
   border: 1px solid var(--olx-border-strong);
-  border-radius: var(--olx-radius-sm);
+  border-radius: var(--olx-radius-field);
   background: var(--olx-surface);
   color: var(--olx-text);
   font: inherit;
@@ -65,7 +65,7 @@
 .olx-search {
   display: flex;
   border: 2px solid var(--olx-border-strong);
-  border-radius: var(--olx-radius-sm);
+  border-radius: var(--olx-radius-field);
   background: var(--olx-surface);
   overflow: hidden;
 }
@@ -86,7 +86,7 @@
   background: var(--olx-primary);
   color: var(--olx-on-primary);
   font: inherit;
-  font-weight: var(--olx-font-weight-bold);
+  font-weight: var(--olx-font-weight-semibold);
   cursor: pointer;
 }
 
@@ -98,7 +98,7 @@
   padding: 2px var(--olx-space-2);
   border-radius: var(--olx-radius-sm);
   font-size: var(--olx-font-size-xs);
-  font-weight: var(--olx-font-weight-bold);
+  font-weight: var(--olx-font-weight-semibold);
   text-transform: uppercase;
   letter-spacing: 0.02em;
   background: var(--olx-bg-subtle);
@@ -135,6 +135,8 @@
 
 .olx-listing {
   position: relative;
+  border-color: var(--olx-border-subtle);
+  border-radius: var(--olx-radius-sm);
   display: flex;
   flex-direction: column;
   color: inherit;
@@ -142,10 +144,10 @@
   transition: box-shadow var(--olx-motion-duration-base) var(--olx-motion-easing-standard);
 }
 .olx-listing:hover { box-shadow: var(--olx-shadow-md); }
-.olx-listing--featured { border-left: 4px solid var(--olx-highlight); }
+.olx-listing--featured { border-color: var(--olx-featured); box-shadow: var(--olx-shadow-featured); }
 .olx-listing__media { aspect-ratio: 4 / 3; background: var(--olx-bg-subtle); object-fit: cover; width: 100%; }
 .olx-listing__body { display: flex; flex-direction: column; gap: var(--olx-space-1); padding: var(--olx-space-3) var(--olx-space-4) var(--olx-space-4); }
-.olx-listing__price { font-size: var(--olx-font-size-lg); font-weight: var(--olx-font-weight-bold); }
+.olx-listing__price { font-size: var(--olx-font-size-lg); font-weight: var(--olx-font-weight-semibold); }
 .olx-listing__title { font-size: var(--olx-font-size-sm); color: var(--olx-text-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .olx-listing__meta { display: flex; justify-content: space-between; gap: var(--olx-space-2); font-size: var(--olx-font-size-xs); color: var(--olx-text-muted); }
 .olx-listing__badge { position: absolute; top: var(--olx-space-2); left: var(--olx-space-2); }
@@ -184,10 +186,10 @@
   align-items: center;
   gap: var(--olx-space-4);
   padding: var(--olx-space-3) var(--olx-space-4);
-  background: var(--olx-bg-subtle);
+  background: var(--olx-surface);
   border-bottom: 1px solid var(--olx-border);
 }
-.olx-header__logo { font-size: var(--olx-font-size-xl); font-weight: var(--olx-font-weight-bold); color: var(--olx-text); text-decoration: none; letter-spacing: -0.02em; }
+.olx-header__logo { font-size: var(--olx-font-size-xl); font-weight: var(--olx-font-weight-semibold); color: var(--olx-text); text-decoration: none; letter-spacing: -0.02em; }
 .olx-header__search { flex: 1; }
 .olx-header__actions { display: flex; align-items: center; gap: var(--olx-space-3); }
 
@@ -199,7 +201,7 @@
 
 /* ---------- Layout helpers ---------- */
 .olx-container { width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 var(--olx-space-4); }
-.olx-grid { display: grid; gap: var(--olx-space-4); grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.olx-grid { display: grid; gap: var(--olx-space-4); grid-template-columns: repeat(auto-fill, minmax(215px, 1fr)); }
 .olx-stack { display: flex; flex-direction: column; gap: var(--olx-space-4); }
 .olx-cluster { display: flex; flex-wrap: wrap; align-items: center; gap: var(--olx-space-3); }
 .olx-divider { border: 0; border-top: 1px solid var(--olx-border); margin: var(--olx-space-5) 0; }

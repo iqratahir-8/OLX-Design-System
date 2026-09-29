@@ -2,8 +2,10 @@
 export const tokens = {
   "color": {
     "petrol": {
+      "25": "#fafbfb",
       "50": "#f2f4f5",
-      "100": "#cbd5d6",
+      "75": "#e8ecec",
+      "100": "#d8dfe0",
       "300": "#7f9799",
       "500": "#406367",
       "700": "#23494d",
@@ -12,14 +14,16 @@ export const tokens = {
     "teal": {
       "100": "#ccfaf7",
       "300": "#7ff0ea",
-      "500": "#23e5db"
+      "500": "#23e5db",
+      "700": "#00a49f",
+      "900": "#006169"
     },
     "yellow": {
       "100": "#fff5d6",
       "500": "#ffce32"
     },
     "blue": {
-      "100": "#e0eaff",
+      "100": "#ebf1ff",
       "500": "#3a77ff",
       "700": "#2456d6"
     },
@@ -44,7 +48,7 @@ export const tokens = {
       "text": "#002f34",
       "text-muted": "#406367",
       "text-inverse": "#ffffff",
-      "border": "#cbd5d6",
+      "border": "#d8dfe0",
       "border-strong": "#002f34",
       "primary": "#002f34",
       "primary-hover": "#23494d",
@@ -54,7 +58,7 @@ export const tokens = {
       "highlight": "#ffce32",
       "link": "#2456d6",
       "info": "#2456d6",
-      "info-bg": "#e0eaff",
+      "info-bg": "#ebf1ff",
       "success": "#157544",
       "success-bg": "#dcf3e6",
       "warning": "#002f34",
@@ -62,7 +66,9 @@ export const tokens = {
       "danger": "#b83018",
       "danger-bg": "#ffe6e1",
       "on-danger": "#ffffff",
-      "focus": "#2456d6"
+      "focus": "#2456d6",
+      "border-subtle": "#e8ecec",
+      "featured": "#00a49f"
     },
     "dark": {
       "bg": "#001a1d",
@@ -89,26 +95,30 @@ export const tokens = {
       "danger": "#ff8a73",
       "danger-bg": "#4a1a11",
       "on-danger": "#002f34",
-      "focus": "#23e5db"
+      "focus": "#23e5db",
+      "border-subtle": "#23494d",
+      "featured": "#23e5db"
     }
   },
   "font": {
     "family": {
-      "sans": "'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif",
+      "sans": "Geomanist, Helvetica, Arial, sans-serif",
       "mono": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
     },
     "size": {
       "xs": "12px",
       "sm": "14px",
       "md": "16px",
-      "lg": "20px",
-      "xl": "24px",
-      "2xl": "32px",
-      "3xl": "40px"
+      "lg": "18px",
+      "xl": "20px",
+      "2xl": "24px",
+      "3xl": "32px",
+      "4xl": "40px"
     },
     "weight": {
       "regular": "400",
       "medium": "500",
+      "semibold": "600",
       "bold": "700"
     },
     "line-height": {
@@ -129,14 +139,16 @@ export const tokens = {
   },
   "radius": {
     "sm": "4px",
+    "field": "6px",
     "md": "8px",
     "lg": "16px",
     "pill": "999px"
   },
   "shadow": {
-    "sm": "0 1px 2px rgba(0, 47, 52, 0.12)",
-    "md": "0 4px 12px rgba(0, 47, 52, 0.12)",
-    "lg": "0 12px 32px rgba(0, 47, 52, 0.18)"
+    "sm": "0 1px 4px rgba(0, 0, 0, 0.1)",
+    "md": "0 0 6px rgba(0, 0, 0, 0.12), 0 4px 20px rgba(0, 0, 0, 0.12)",
+    "lg": "0 12px 32px rgba(0, 47, 52, 0.18)",
+    "featured": "0 4px 12px rgba(0, 164, 159, 0.2)"
   },
   "motion": {
     "duration": {
@@ -148,9 +160,10 @@ export const tokens = {
     }
   },
   "breakpoint": {
-    "sm": "576px",
+    "xs": "360px",
+    "sm": "480px",
     "md": "768px",
-    "lg": "1024px",
+    "lg": "950px",
     "xl": "1280px"
   }
 };

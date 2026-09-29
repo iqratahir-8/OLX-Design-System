@@ -7,7 +7,7 @@ html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0;
   font-family: var(--olx-font-family-sans);
-  font-size: var(--olx-font-size-md);
+  font-size: var(--olx-font-size-sm);
   line-height: var(--olx-font-line-height-normal);
   color: var(--olx-text);
   background: var(--olx-bg);
@@ -17,12 +17,12 @@ body {
 h1, h2, h3, h4 {
   margin: 0 0 var(--olx-space-3);
   line-height: var(--olx-font-line-height-tight);
-  font-weight: var(--olx-font-weight-bold);
+  font-weight: var(--olx-font-weight-semibold);
 }
-h1 { font-size: var(--olx-font-size-3xl); }
-h2 { font-size: var(--olx-font-size-2xl); }
-h3 { font-size: var(--olx-font-size-xl); }
-h4 { font-size: var(--olx-font-size-lg); }
+h1 { font-size: var(--olx-font-size-2xl); }
+h2 { font-size: var(--olx-font-size-xl); }
+h3 { font-size: var(--olx-font-size-lg); }
+h4 { font-size: var(--olx-font-size-md); }
 
 p { margin: 0 0 var(--olx-space-4); }
 

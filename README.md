@@ -18,6 +18,7 @@ audit/live-snapshots/     Captures from https://www.olx.com.pk/
 audit/maple-snapshots/    Captures from the local maple repo
 audit/comparisons/        Live vs maple diff notes
 scripts/capture.mjs       Playwright capture (screenshot, HTML, computed styles)
+scripts/inspect-components.mjs  Computed styles of key live components -> audit/live-snapshots/components.json
 docs/inventory.md         Template/component checklist and status
 ```
 
@@ -79,3 +80,5 @@ npm run preview   # serves the repo; open /index.html
 ```
 
 The generated files are committed so the CSS works without a build step. Text/background token pairs are chosen to meet WCAG AA contrast (4.5:1) in both themes.
+
+Token values are matched to the live site (see `audit/comparisons/live-vs-repo.md`). The font stack names Geomanist, OLX's typeface; it is licensed and not bundled, so pages fall back to Helvetica/Arial unless you load your own licensed copy.
