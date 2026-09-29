@@ -69,7 +69,8 @@
   const el = (html) => { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; };
   const main = document.getElementById('book-main');
   const toc = document.getElementById('book-toc');
-  const state = { viewport: 'desktop', tab: 'render' };
+  // A copy published where olx.com.pk fonts and photos can't load opens on screenshots.
+  const state = { viewport: 'desktop', tab: window.BOOK_DEFAULT_TAB ?? 'render' };
   try { Object.assign(state, JSON.parse(localStorage.getItem('olx-book') || '{}')); } catch { /* storage unavailable */ }
   const save = () => { try { localStorage.setItem('olx-book', JSON.stringify({ viewport: state.viewport, tab: state.tab })); } catch { /* ignore */ } };
 
