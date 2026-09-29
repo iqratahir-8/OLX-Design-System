@@ -19,7 +19,9 @@
   ],
   "scripts": {
     "build": "node scripts/build-tokens.mjs",
-    "preview": "npx --yes serve ."
+    "preview": "npx --yes serve .",
+    "capture:live": "node scripts/capture.mjs live",
+    "capture:maple": "node scripts/capture.mjs maple"
   },
   "license": "UNLICENSED"
 }

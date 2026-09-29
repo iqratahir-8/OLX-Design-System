@@ -13,6 +13,12 @@ css/components.css        Components (buttons, fields, search, badges, chips, ca
 css/olx.css               Single entry point that imports all of the above
 dist/tokens.js            Generated JS export of the resolved tokens
 index.html                Live documentation / component showcase
+templates/                Page templates to capture (home, search-results, ad-detail, post-ad, ...)
+audit/live-snapshots/     Captures from https://www.olx.com.pk/
+audit/maple-snapshots/    Captures from the local maple repo
+audit/comparisons/        Live vs maple diff notes
+scripts/capture.mjs       Playwright capture (screenshot, HTML, computed styles)
+docs/inventory.md         Template/component checklist and status
 ```
 
 ## Usage
@@ -52,6 +58,16 @@ Components use semantic tokens only; use primitives (`--olx-color-petrol-900`, â
 | Layout | `olx-container`, `olx-grid`, `olx-stack`, `olx-cluster`, `olx-divider` |
 
 See `index.html` for live examples of each.
+
+## Auditing against live OLX and maple
+
+```sh
+npm i -D playwright
+npm run capture:live                                   # -> audit/live-snapshots/
+MAPLE_URL=http://localhost:3000 npm run capture:maple  # -> audit/maple-snapshots/
+```
+
+Compare each template side by side, record the differences in `audit/comparisons/<template>.md`, then promote confirmed values into `tokens/tokens.json` and `css/components.css`.
 
 ## Development
 
