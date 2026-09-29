@@ -19,11 +19,13 @@ export function freezePage(origin) {
 
   // Personal data: seller names/photos and phone numbers typed into ads.
   document.querySelectorAll('[aria-label="User photo"]').forEach((img) => { img.removeAttribute('src'); img.removeAttribute('srcset'); });
-  const seller = document.querySelector('[aria-label="Seller description"]');
-  if (seller) {
-    const label = [...seller.querySelectorAll('*')].find((e) => e.children.length === 0 && /^Posted by$/i.test(e.textContent.trim()));
-    const name = label?.nextElementSibling ?? label?.parentElement?.nextElementSibling;
-    if (name) name.textContent = 'Seller name';
+  // Seller names follow a "Posted by" label (seller card, sticky ad header, ...).
+  for (const label of [...document.body.querySelectorAll('*')].filter((e) => e.children.length === 0 && /^Posted by$/i.test(e.textContent.trim()))) {
+    // "Posted by" is also a tab next to "Related ads" on ad pages; leave tabs alone.
+    const tab = label.closest('button, [role="tab"]');
+    if (tab && tab.parentElement && tab.parentElement.querySelectorAll('button, [role="tab"]').length > 1) continue;
+    const name = label.nextElementSibling ?? label.parentElement?.nextElementSibling;
+    if (name && name.textContent.trim()) name.textContent = 'Seller name';
   }
   // Phone numbers in ad titles and text (also in title/alt/aria-label attributes).
   const phone = /(\+?92[\s-]?|\b0)3\d{2}[\s-]?\d{7}\b|\b\d{4}[\s-]\d{7}\b/g;

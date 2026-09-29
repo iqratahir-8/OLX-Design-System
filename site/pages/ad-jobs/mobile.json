@@ -2,13 +2,14 @@
  "id": "ad-jobs",
  "title": "Ad: Jobs",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/sales-inquiry-officer-male-rs-65000-walton-lahore-jobs-iid-1119855822",
- "finalUrl": "https://www.olx.com.pk/item/sales-inquiry-officer-male-rs-65000-walton-lahore-jobs-iid-1119855822",
+ "url": "https://www.olx.com.pk/item/expert-auto-transport-dispatcher-pkr-40000-commission-iid-1119702932",
+ "finalUrl": "https://www.olx.com.pk/item/expert-auto-transport-dispatcher-pkr-40000-commission-iid-1119702932",
  "width": 390,
- "height": 2075,
+ "height": 2136,
  "dpr": 2,
  "overlay": false,
- "captured": "2026-09-29T13:11:17.387Z",
+ "scrolled": false,
+ "captured": "2026-09-29T14:04:08.053Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -55,8 +56,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-description-sales-and-inquiry-officer-ma",
-   "name": "Description · Sales & Inquiry Officer – Male Req",
+   "file": "05-description-autech-enterprises-is-hiring",
+   "name": "Description · AUtech Enterprises is Hiring! · We",
    "rect": {
     "x": 0,
     "y": 820,
@@ -88,8 +89,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
   },
   {
-   "file": "08-sales-jobs-in-walton-road-sales-jobs-in-",
-   "name": "Sales Jobs in Walton Road · Sales Jobs in Lahore",
+   "file": "08-customer-service-jobs-in-pak-arab-housin",
+   "name": "Customer Service Jobs in Pak Arab Housing Societ",
    "rect": {
     "x": 8,
     "y": 1484,
@@ -121,11 +122,11 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "11-chat-call",
-   "name": "Chat · Call",
+   "file": "11-chat",
+   "name": "Chat",
    "rect": {
     "x": 0,
-    "y": 2010,
+    "y": 2071,
     "width": 390,
     "height": 65
    },
@@ -155,7 +156,7 @@
    "width": 190,
    "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/sales_c62/q-mid-senior-level-sales",
+   "href": "https://www.olx.com.pk/customer-service_c164/q-mid-senior-level-customer-service",
    "label": "Mid-Senior Level"
   },
   {
@@ -180,8 +181,8 @@
    "width": 354,
    "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/e39f81b8-1bbb-4ad4-809e-609f976f0d31",
-   "label": "Posted byAhmad Iqbal Member Since2018Active Ads3"
+   "href": "https://www.olx.com.pk/profile/7be29f86-4cdf-4185-8c10-76c437cf1bb0",
+   "label": "Posted byAhmad Qaisar Member Since2018Active Ads1"
   },
   {
    "x": 142,
@@ -193,49 +194,41 @@
   },
   {
    "x": 16,
-   "y": 2023,
-   "width": 175,
+   "y": 2084,
+   "width": 358,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 199,
-   "y": 2023,
-   "width": 175,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 245,
+   "x": 111,
    "y": 1488,
-   "width": 137,
+   "width": 271,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/walton-road_g5000883/sales_c62",
-   "label": "Sales Jobs in Walton Road"
+   "href": "https://www.olx.com.pk/pak-arab-housing-society_g5000701/customer-service_c164",
+   "label": "Customer Service Jobs in Pak Arab Housing Society"
   },
   {
-   "x": 110,
+   "x": -91,
    "y": 1488,
-   "width": 105,
+   "width": 172,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/sales_c62",
-   "label": "Sales Jobs in Lahore"
+   "href": "https://www.olx.com.pk/lahore_g4060673/customer-service_c164",
+   "label": "Customer Service Jobs in Lahore"
   },
   {
-   "x": 27,
+   "x": -241,
    "y": 1488,
-   "width": 53,
+   "width": 120,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/sales_c62",
-   "label": "Sales Jobs"
+   "href": "https://www.olx.com.pk/customer-service_c164",
+   "label": "Customer Service Jobs"
   },
   {
-   "x": -26,
+   "x": -294,
    "y": 1488,
    "width": 23,
    "height": 16,
@@ -244,7 +237,7 @@
    "label": "Jobs"
   },
   {
-   "x": -88,
+   "x": -356,
    "y": 1488,
    "width": 32,
    "height": 16,
@@ -258,7 +251,7 @@
    "width": 84,
    "height": 34,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {

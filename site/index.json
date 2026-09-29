@@ -532,358 +532,6 @@
    ]
   },
   {
-   "id": "ad-mobiles",
-   "title": "Ad: Mobiles",
-   "viewport": "desktop",
-   "path": "/item/samsung-s23-official-pta-approved-with-box-cable-s23-s24-s25-iid-1119694652",
-   "cat": "mobiles",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-mobiles",
-   "title": "Ad: Mobiles",
-   "viewport": "mobile",
-   "path": "/item/samsung-s23-official-pta-approved-with-box-cable-s23-s24-s25-iid-1119694652",
-   "cat": "mobiles",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-vehicles",
-   "title": "Ad: Vehicles",
-   "viewport": "desktop",
-   "path": "/item/honda-civic-vti-oriel-prosmatec-2017-iid-1119893850",
-   "cat": "vehicles",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-vehicles",
-   "title": "Ad: Vehicles",
-   "viewport": "mobile",
-   "path": "/item/honda-civic-vti-oriel-prosmatec-2017-iid-1119893850",
-   "cat": "vehicles",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-property-for-sale",
-   "title": "Ad: Property for Sale",
-   "viewport": "desktop",
-   "path": "/item/commercial-building-for-sale-in-hali-road-lahore-iid-1119737809",
-   "cat": "property-for-sale",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-property-for-sale",
-   "title": "Ad: Property for Sale",
-   "viewport": "mobile",
-   "path": "/item/commercial-building-for-sale-in-hali-road-lahore-iid-1119737809",
-   "cat": "property-for-sale",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-property-for-rent",
-   "title": "Ad: Property for Rent",
-   "viewport": "desktop",
-   "path": "/item/co-working-space-for-rent-iid-1118368001",
-   "cat": "property-for-rent",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-property-for-rent",
-   "title": "Ad: Property for Rent",
-   "viewport": "mobile",
-   "path": "/item/co-working-space-for-rent-iid-1118368001",
-   "cat": "property-for-rent",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-electronics",
-   "title": "Ad: Electronics & Home Appliances",
-   "viewport": "desktop",
-   "path": "/item/hp-elitebook-ryzen-7-4750u-16gb-512gb-nvme-fhd-ips-fingerprint-iid-1119799864",
-   "cat": "electronics",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-electronics",
-   "title": "Ad: Electronics & Home Appliances",
-   "viewport": "mobile",
-   "path": "/item/hp-elitebook-ryzen-7-4750u-16gb-512gb-nvme-fhd-ips-fingerprint-iid-1119799864",
-   "cat": "electronics",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-bikes",
-   "title": "Ad: Bikes",
-   "viewport": "desktop",
-   "path": "/item/suzuki-inazuma-250-complete-touring-panniers-box-setup-kallar-syed-iid-1119678756",
-   "cat": "bikes",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-bikes",
-   "title": "Ad: Bikes",
-   "viewport": "mobile",
-   "path": "/item/suzuki-inazuma-250-complete-touring-panniers-box-setup-kallar-syed-iid-1119678756",
-   "cat": "bikes",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-services",
-   "title": "Ad: Services",
-   "viewport": "desktop",
-   "path": "/item/maids-in-islamabad-cook-chef-baby-sitter-filipino-patient-care-iid-1119887220",
-   "cat": "services",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-services",
-   "title": "Ad: Services",
-   "viewport": "mobile",
-   "path": "/item/maids-in-islamabad-cook-chef-baby-sitter-filipino-patient-care-iid-1119887220",
-   "cat": "services",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-jobs",
-   "title": "Ad: Jobs",
-   "viewport": "desktop",
-   "path": "/item/sales-inquiry-officer-male-rs-65000-walton-lahore-jobs-iid-1119855822",
-   "cat": "jobs",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-jobs",
-   "title": "Ad: Jobs",
-   "viewport": "mobile",
-   "path": "/item/sales-inquiry-officer-male-rs-65000-walton-lahore-jobs-iid-1119855822",
-   "cat": "jobs",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-animals",
-   "title": "Ad: Animals",
-   "viewport": "desktop",
-   "path": "/item/doberman-female-iid-1118292561",
-   "cat": "animals",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-animals",
-   "title": "Ad: Animals",
-   "viewport": "mobile",
-   "path": "/item/doberman-female-iid-1118292561",
-   "cat": "animals",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-furniture",
-   "title": "Ad: Furniture & Home Decor",
-   "viewport": "desktop",
-   "path": "/item/sheesham-bed-set-beddressing-table-side-tables-stoolwooden-lamps-iid-1117708240",
-   "cat": "furniture",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-furniture",
-   "title": "Ad: Furniture & Home Decor",
-   "viewport": "mobile",
-   "path": "/item/sheesham-bed-set-beddressing-table-side-tables-stoolwooden-lamps-iid-1117708240",
-   "cat": "furniture",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-fashion",
-   "title": "Ad: Fashion & Beauty",
-   "viewport": "desktop",
-   "path": "/item/we-buy-rolex-cartier-omega-hublot-chopard-audemars-piguet-bvlgari-rado-iid-1112909544",
-   "cat": "fashion",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-fashion",
-   "title": "Ad: Fashion & Beauty",
-   "viewport": "mobile",
-   "path": "/item/we-buy-rolex-cartier-omega-hublot-chopard-audemars-piguet-bvlgari-rado-iid-1112909544",
-   "cat": "fashion",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-books-sports",
-   "title": "Ad: Books, Sports & Hobbies",
-   "viewport": "desktop",
-   "path": "/item/cricket-net-cricket-practice-net-volleyball-net-safety-net-mugha-iid-1115535091",
-   "cat": "books-sports",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-books-sports",
-   "title": "Ad: Books, Sports & Hobbies",
-   "viewport": "mobile",
-   "path": "/item/cricket-net-cricket-practice-net-volleyball-net-safety-net-mugha-iid-1115535091",
-   "cat": "books-sports",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-kids",
-   "title": "Ad: Kids",
-   "viewport": "desktop",
-   "path": "/item/kids-eelctric-jeep-kids-2-seater-jeeps-kids-electric-carkids-jeep-iid-1104247981",
-   "cat": "kids",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-kids",
-   "title": "Ad: Kids",
-   "viewport": "mobile",
-   "path": "/item/kids-eelctric-jeep-kids-2-seater-jeeps-kids-electric-carkids-jeep-iid-1104247981",
-   "cat": "kids",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-cars",
-   "title": "Ad: Cars",
-   "viewport": "desktop",
-   "path": "/item/toyota-land-cruiser-j40-1984-classic-4x4-urgent-sale-iid-1119608996",
-   "cat": "vehicles",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-cars",
-   "title": "Ad: Cars",
-   "viewport": "mobile",
-   "path": "/item/toyota-land-cruiser-j40-1984-classic-4x4-urgent-sale-iid-1119608996",
-   "cat": "vehicles",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-houses",
-   "title": "Ad: Houses for Sale",
-   "viewport": "desktop",
-   "path": "/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
-   "cat": "property-for-sale",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-houses",
-   "title": "Ad: Houses for Sale",
-   "viewport": "mobile",
-   "path": "/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
-   "cat": "property-for-sale",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-online-jobs",
-   "title": "Ad: Online Jobs",
-   "viewport": "desktop",
-   "path": "/item/typing-job-data-entry-job-assignment-writing-online-job-part-time-iid-1119217943",
-   "cat": "jobs",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
-   "id": "ad-online-jobs",
-   "title": "Ad: Online Jobs",
-   "viewport": "mobile",
-   "path": "/item/typing-job-data-entry-job-assignment-writing-online-job-part-time-iid-1119217943",
-   "cat": "jobs",
-   "overlay": false,
-   "flows": [
-    "browse"
-   ]
-  },
-  {
    "id": "search-results",
    "title": "Search results: iphone",
    "viewport": "desktop",
@@ -1184,10 +832,184 @@
    ]
   },
   {
+   "id": "home-scrolled",
+   "title": "Home, scrolled (compact header)",
+   "viewport": "desktop",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "home-scrolled",
+   "title": "Home, scrolled (compact header)",
+   "viewport": "mobile",
+   "path": "/",
+   "overlay": true,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "category-scrolled",
+   "title": "Mobile Phones, scrolled",
+   "viewport": "desktop",
+   "path": "/mobile-phones_c1453",
+   "cat": "mobiles",
+   "overlay": true,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "category-scrolled",
+   "title": "Mobile Phones, scrolled",
+   "viewport": "mobile",
+   "path": "/mobile-phones_c1453",
+   "cat": "mobiles",
+   "overlay": true,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-mobiles",
+   "title": "Ad: Mobiles",
+   "viewport": "desktop",
+   "path": "/item/oneplus-12-16gb512gb-official-pta-approved-iid-1119888322",
+   "cat": "mobiles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-mobiles",
+   "title": "Ad: Mobiles",
+   "viewport": "mobile",
+   "path": "/item/oneplus-12-16gb512gb-official-pta-approved-iid-1119888322",
+   "cat": "mobiles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-vehicles",
+   "title": "Ad: Vehicles",
+   "viewport": "desktop",
+   "path": "/item/united-chingchi-rikshaw-for-sale-2025-model-iid-1119896387",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-vehicles",
+   "title": "Ad: Vehicles",
+   "viewport": "mobile",
+   "path": "/item/united-chingchi-rikshaw-for-sale-2025-model-iid-1119896387",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-property-for-sale",
+   "title": "Ad: Property for Sale",
+   "viewport": "desktop",
+   "path": "/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-property-for-sale",
+   "title": "Ad: Property for Sale",
+   "viewport": "mobile",
+   "path": "/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-property-for-rent",
+   "title": "Ad: Property for Rent",
+   "viewport": "desktop",
+   "path": "/item/co-working-space-for-rent-iid-1118368001",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-property-for-rent",
+   "title": "Ad: Property for Rent",
+   "viewport": "mobile",
+   "path": "/item/co-working-space-for-rent-iid-1118368001",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-electronics",
+   "title": "Ad: Electronics & Home Appliances",
+   "viewport": "desktop",
+   "path": "/item/hp-elitebook-ryzen-7-4750u-16gb-512gb-nvme-fhd-ips-fingerprint-iid-1119799864",
+   "cat": "electronics",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-electronics",
+   "title": "Ad: Electronics & Home Appliances",
+   "viewport": "mobile",
+   "path": "/item/hp-elitebook-ryzen-7-4750u-16gb-512gb-nvme-fhd-ips-fingerprint-iid-1119799864",
+   "cat": "electronics",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-bikes",
+   "title": "Ad: Bikes",
+   "viewport": "desktop",
+   "path": "/item/suzuki-inazuma-250-complete-touring-panniers-box-setup-kallar-syed-iid-1119678756",
+   "cat": "bikes",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-bikes",
+   "title": "Ad: Bikes",
+   "viewport": "mobile",
+   "path": "/item/suzuki-inazuma-250-complete-touring-panniers-box-setup-kallar-syed-iid-1119678756",
+   "cat": "bikes",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
    "id": "ad-business",
    "title": "Ad: Business, Industrial & Agriculture",
    "viewport": "desktop",
-   "path": "/item/tea-packing-complete-set-up-iid-1119742091",
+   "path": "/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
    "cat": "business",
    "overlay": false,
    "flows": [
@@ -1198,9 +1020,251 @@
    "id": "ad-business",
    "title": "Ad: Business, Industrial & Agriculture",
    "viewport": "mobile",
-   "path": "/item/tea-packing-complete-set-up-iid-1119742091",
+   "path": "/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
    "cat": "business",
    "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-services",
+   "title": "Ad: Services",
+   "viewport": "desktop",
+   "path": "/item/maids-in-islamabad-cook-chef-baby-sitter-filipino-patient-care-iid-1119887220",
+   "cat": "services",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-services",
+   "title": "Ad: Services",
+   "viewport": "mobile",
+   "path": "/item/maids-in-islamabad-cook-chef-baby-sitter-filipino-patient-care-iid-1119887220",
+   "cat": "services",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-jobs",
+   "title": "Ad: Jobs",
+   "viewport": "desktop",
+   "path": "/item/expert-auto-transport-dispatcher-pkr-40000-commission-iid-1119702932",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-jobs",
+   "title": "Ad: Jobs",
+   "viewport": "mobile",
+   "path": "/item/expert-auto-transport-dispatcher-pkr-40000-commission-iid-1119702932",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-animals",
+   "title": "Ad: Animals",
+   "viewport": "desktop",
+   "path": "/item/cash-on-delivery-parshion-kitten-cat-male-female-iid-1118200970",
+   "cat": "animals",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-animals",
+   "title": "Ad: Animals",
+   "viewport": "mobile",
+   "path": "/item/cash-on-delivery-parshion-kitten-cat-male-female-iid-1118200970",
+   "cat": "animals",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-furniture",
+   "title": "Ad: Furniture & Home Decor",
+   "viewport": "desktop",
+   "path": "/item/office-chairs-study-chairs-executive-chairs-computer-chairs-iid-1119242245",
+   "cat": "furniture",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-furniture",
+   "title": "Ad: Furniture & Home Decor",
+   "viewport": "mobile",
+   "path": "/item/office-chairs-study-chairs-executive-chairs-computer-chairs-iid-1119242245",
+   "cat": "furniture",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-fashion",
+   "title": "Ad: Fashion & Beauty",
+   "viewport": "desktop",
+   "path": "/item/elegant-heavily-embellished-goldchampagne-bridal-maxxi-front-open-iid-1119813312",
+   "cat": "fashion",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-fashion",
+   "title": "Ad: Fashion & Beauty",
+   "viewport": "mobile",
+   "path": "/item/elegant-heavily-embellished-goldchampagne-bridal-maxxi-front-open-iid-1119813312",
+   "cat": "fashion",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-books-sports",
+   "title": "Ad: Books, Sports & Hobbies",
+   "viewport": "desktop",
+   "path": "/item/snooker-table-for-sale-5x10-6x12-bismillah-snooker-factory-iid-1117496854",
+   "cat": "books-sports",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-books-sports",
+   "title": "Ad: Books, Sports & Hobbies",
+   "viewport": "mobile",
+   "path": "/item/snooker-table-for-sale-5x10-6x12-bismillah-snooker-factory-iid-1117496854",
+   "cat": "books-sports",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-kids",
+   "title": "Ad: Kids",
+   "viewport": "desktop",
+   "path": "/item/kids-jeep-4x4kids-carsbaby-carskids-electric-jeepspolice-jeep-iid-1116753440",
+   "cat": "kids",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-kids",
+   "title": "Ad: Kids",
+   "viewport": "mobile",
+   "path": "/item/kids-jeep-4x4kids-carsbaby-carskids-electric-jeepspolice-jeep-iid-1116753440",
+   "cat": "kids",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-cars",
+   "title": "Ad: Cars",
+   "viewport": "desktop",
+   "path": "/item/toyota-hilux-1992-iid-1119645456",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-cars",
+   "title": "Ad: Cars",
+   "viewport": "mobile",
+   "path": "/item/toyota-hilux-1992-iid-1119645456",
+   "cat": "vehicles",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-houses",
+   "title": "Ad: Houses for Sale",
+   "viewport": "desktop",
+   "path": "/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-houses",
+   "title": "Ad: Houses for Sale",
+   "viewport": "mobile",
+   "path": "/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-online-jobs",
+   "title": "Ad: Online Jobs",
+   "viewport": "desktop",
+   "path": "/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1118864547",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-online-jobs",
+   "title": "Ad: Online Jobs",
+   "viewport": "mobile",
+   "path": "/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1118864547",
+   "cat": "jobs",
+   "overlay": false,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-scrolled",
+   "title": "Ad, scrolled (sticky ad header)",
+   "viewport": "desktop",
+   "path": "/item/iphone-18-pro-max-256gb-non-pta-available-on-easy-installment-plan-iid-1119761489",
+   "cat": "mobiles",
+   "overlay": true,
+   "flows": [
+    "browse"
+   ]
+  },
+  {
+   "id": "ad-scrolled",
+   "title": "Ad, scrolled (sticky ad header)",
+   "viewport": "mobile",
+   "path": "/item/iphone-18-pro-max-256gb-non-pta-available-on-easy-installment-plan-iid-1119761489",
+   "cat": "mobiles",
+   "overlay": true,
    "flows": [
     "browse"
    ]

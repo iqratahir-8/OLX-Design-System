@@ -159,6 +159,13 @@ const FLOWS = [
     ['city', 'Everything in Lahore.'],
     ['city-category', 'Mobile Phones in Lahore.'],
   ] },
+  { id: 'headers', title: 'Header states while scrolling', steps: [
+    ['home', 'The header at the top of the home page.'],
+    ['home-scrolled', 'After scrolling, the header stays on screen (compact on mobile).'],
+    ['category-scrolled', 'On a listing page the header and filters stay on screen.'],
+    ['ad-mobiles', 'An ad at the top: the gallery fills the screen.'],
+    ['ad-scrolled', 'After scrolling an ad, a sticky header shows the price, contact buttons and section tabs.'],
+  ] },
   { id: 'motors', title: 'Motors: find a car', steps: [
     ['motors', 'The Motors landing page.'],
     ['sub-cars', 'Cars for sale, with car filters.'],
@@ -186,6 +193,7 @@ const GROUPS = [
   ['Categories', (id) => id.startsWith('cat-')],
   ['Subcategories', (id) => id.startsWith('sub-')],
   ['Ads', (id) => id.startsWith('ad-')],
+  ['Scrolled states', (id) => id.endsWith('-scrolled')],
   ['Search and location', (id) => /^(search|city|sorted)/.test(id)],
   ['Logged in', (id) => id.startsWith('account-')],
   ['Menus, sheets and login', () => true],

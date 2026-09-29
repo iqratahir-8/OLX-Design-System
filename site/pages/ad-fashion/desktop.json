@@ -2,13 +2,14 @@
  "id": "ad-fashion",
  "title": "Ad: Fashion & Beauty",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/we-buy-rolex-cartier-omega-hublot-chopard-audemars-piguet-bvlgari-rado-iid-1112909544",
- "finalUrl": "https://www.olx.com.pk/item/we-buy-rolex-cartier-omega-hublot-chopard-audemars-piguet-bvlgari-rado-iid-1112909544",
+ "url": "https://www.olx.com.pk/item/elegant-heavily-embellished-goldchampagne-bridal-maxxi-front-open-iid-1119813312",
+ "finalUrl": "https://www.olx.com.pk/item/elegant-heavily-embellished-goldchampagne-bridal-maxxi-front-open-iid-1119813312",
  "width": 1440,
- "height": 2977,
+ "height": 2864,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T13:13:02.132Z",
+ "scrolled": false,
+ "captured": "2026-09-29T14:06:04.806Z",
  "sections": [
   {
    "file": "01-header",
@@ -33,8 +34,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "03-home-fashion-and-beauty-watches",
-   "name": "Home · Fashion & Beauty · Watches",
+   "file": "03-home-fashion-and-beauty-wedding",
+   "name": "Home · Fashion & Beauty · Wedding",
    "rect": {
     "x": 80,
     "y": 193,
@@ -72,7 +73,7 @@
     "x": 940,
     "y": 532,
     "width": 420,
-    "height": 491
+    "height": 367
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
@@ -94,7 +95,7 @@
     "x": 80,
     "y": 1237,
     "width": 820,
-    "height": 121
+    "height": 80
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   },
@@ -103,9 +104,9 @@
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1397,
+    "y": 1356,
     "width": 820,
-    "height": 330
+    "height": 258
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
@@ -114,9 +115,9 @@
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 1766,
+    "y": 1653,
     "width": 820,
-    "height": 459
+    "height": 460
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
@@ -125,7 +126,7 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2264,
+    "y": 2152,
     "width": 820,
     "height": 171
    },
@@ -136,7 +137,7 @@
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2458,
+    "y": 2346,
     "width": 1440,
     "height": 173
    },
@@ -147,9 +148,9 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2630,
+    "y": 2518,
     "width": 1440,
-    "height": 347
+    "height": 346
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   }
@@ -306,47 +307,38 @@
   {
    "x": 286,
    "y": 196,
-   "width": 53,
+   "width": 59,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/watches_c1970",
-   "label": "Watches"
+   "href": "https://www.olx.com.pk/wedding_c1971",
+   "label": "Wedding"
   },
   {
-   "x": 369,
+   "x": 375,
    "y": 196,
-   "width": 135,
+   "width": 40,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad_g4060615/watches_c1970",
-   "label": "Watches in Islamabad"
+   "href": "https://www.olx.com.pk/bridals_c706502",
+   "label": "Bridals"
   },
   {
-   "x": 534,
+   "x": 445,
    "y": 196,
-   "width": 92,
+   "width": 101,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/f-8_g5000982/watches_c1970",
-   "label": "Watches in F-8"
+   "href": "https://www.olx.com.pk/lahore_g4060673/bridals_c706502",
+   "label": "Bridals in Lahore"
   },
   {
-   "x": 656,
+   "x": 576,
    "y": 196,
-   "width": 139,
+   "width": 143,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad-f-8-markaz_g3318/watches_c1970",
-   "label": "Watches in F-8 Markaz"
-  },
-  {
-   "x": 825,
-   "y": 196,
-   "width": 121,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad-f-8-markaz_g3318/rolex-watches_c1970?filter=brand_eq_rolex",
-   "label": "Rolex in F-8 Markaz"
+   "href": "https://www.olx.com.pk/dha-defence_g9/bridals_c706502",
+   "label": "Bridals in DHA Defence"
   },
   {
    "x": 832,
@@ -389,131 +381,17 @@
    "label": ""
   },
   {
-   "x": 3360,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4180,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5000,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5820,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6640,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 7460,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 8280,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 9100,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 9920,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 10740,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 11560,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 12380,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
    "x": 249,
    "y": 1287,
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/watches_c1970/q-rolex-watches",
-   "label": "Rolex"
-  },
-  {
-   "x": 659,
-   "y": 1287,
-   "width": 213,
-   "height": 22,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/watches_c1970/q-mens-watches",
-   "label": "Men's Watches"
-  },
-  {
-   "x": 249,
-   "y": 1328,
-   "width": 213,
-   "height": 22,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/watches_c1970/q-new-watches",
-   "label": "New"
+   "href": "https://www.olx.com.pk/bridals_c706502/q-used-bridal-dresses",
+   "label": "Used"
   },
   {
    "x": 60,
-   "y": 1996,
+   "y": 1883,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -521,142 +399,142 @@
   },
   {
    "x": 80,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-rolex-cartier-omega-frederique-constant-concord-blancpain-iid-1119894365",
+   "href": "https://www.olx.com.pk/item/lehanga-chooli-for-sale-1010-iid-1119859876",
    "label": "Listing"
   },
   {
    "x": 357,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/we-buy-rolex-cartier-omega-hublot-richard-mille-longines-montblanc-ap-iid-1113669193",
+   "href": "https://www.olx.com.pk/item/bridel-costumize-dresses-iid-1119850771",
    "label": "Listing"
   },
   {
    "x": 634,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-your-watch-rolex-oyster-perpetual-jacob-co-cartier-iid-1119893924",
+   "href": "https://www.olx.com.pk/item/kanwal-malik-designer-bridal-lehenga-preloved-iid-1119850566",
    "label": "Listing"
   },
   {
    "x": 900,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-your-watch-rolex-president-chopard-happy-diamonds-breitling-iid-1119845361",
+   "href": "https://www.olx.com.pk/item/wedding-dress-bridal-dress-maxi-reception-dress-bridal-dress-iid-1119746323",
    "label": "Listing"
   },
   {
    "x": 1177,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-rolex-cartier-omega-baume-mercier-chopard-audemars-piguet-iid-1119846086",
+   "href": "https://www.olx.com.pk/item/lehnga-barat-for-sale-iid-1119750517",
    "label": "Listing"
   },
   {
    "x": 1454,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-rolex-cartier-omega-hublot-chopard-breitling-rado-tag-heuer-iid-1119892970",
+   "href": "https://www.olx.com.pk/item/bridal-maxi-iid-1119850479",
    "label": "Listing"
   },
   {
    "x": 1720,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-your-watch-rolex-datejust-omega-seamaster-cartier-rado-iwc-iid-1119892524",
+   "href": "https://www.olx.com.pk/item/bridal-maxi-walima-dress-pistta-green-new-look-iid-1119848258",
    "label": "Listing"
   },
   {
    "x": 1997,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-your-watch-rolex-oyster-perpetual-jacob-co-cartier-iid-1119892421",
+   "href": "https://www.olx.com.pk/item/tail-maxi-strawberry-colour-iid-1118097451",
    "label": "Listing"
   },
   {
    "x": 2274,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/trusted-buyer-used-vintage-rolex-omega-cartier-iwc-patek-ap-hublot-iid-1113136627",
+   "href": "https://www.olx.com.pk/item/barat-bribal-dress-iid-1118984469",
    "label": "Listing"
   },
   {
    "x": 2540,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-rolex-cartier-omega-baume-mercier-chopard-audemars-piguet-iid-1119861496",
+   "href": "https://www.olx.com.pk/item/bridal-lehenga-iid-1115835112",
    "label": "Listing"
   },
   {
    "x": 2817,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-your-watch-rolex-president-chopard-happy-diamonds-breitling-iid-1119892326",
+   "href": "https://www.olx.com.pk/item/walima-outfit-bridal-lehanga-reception-outfit-iid-1117115372",
    "label": "Listing"
   },
   {
    "x": 3094,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/rolex-buyer-omega-cartier-franck-muller-panerai-zenith-graham-chanel-iid-1118331031",
+   "href": "https://www.olx.com.pk/item/walima-maxy-walima-dress-bridal-dress-iid-1113935044",
    "label": "Listing"
   },
   {
    "x": 3360,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/rolex-buyer-cartier-omega-hublot-chopard-breitling-tag-heuer-rado-lv-iid-1118331162",
+   "href": "https://www.olx.com.pk/item/one-time-used-only-in-excellent-condition-iid-1118770955",
    "label": "Listing"
   },
   {
    "x": 3637,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-your-watch-rolex-datejust-omega-seamaster-cartier-rado-iwc-iid-1119864030",
+   "href": "https://www.olx.com.pk/item/bridal-maxi-just-like-new-iid-1119786907",
    "label": "Listing"
   },
   {
    "x": 3914,
-   "y": 1808,
+   "y": 1695,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/rolex-buyer-cartier-omega-hublot-chopard-breitling-tag-heuer-rado-lv-iid-1118440770",
+   "href": "https://www.olx.com.pk/item/wedding-dress-iid-1119787815",
    "label": "Listing"
   },
   {
    "x": 880,
-   "y": 1996,
+   "y": 1883,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -666,38 +544,22 @@
    "x": 940,
    "y": 532,
    "width": 420,
-   "height": 138,
+   "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/companies/agency-7725",
-   "label": "Posted byIMRAN SHAH SWISS WATCHES BUYER ROLEX OMEGA CARTIER RADO Member Since201"
+   "href": "https://www.olx.com.pk/profile/d1bd7d72-2b87-4830-8940-3d44b0492edf",
+   "label": "Posted by Usman Member Since2023Active Ads5"
   },
   {
    "x": 940,
-   "y": 685,
-   "width": 420,
-   "height": 49,
-   "kind": "button",
-   "label": "Show phone number"
-  },
-  {
-   "x": 940,
-   "y": 749,
+   "y": 689,
    "width": 420,
    "height": 49,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 940,
-   "y": 813,
-   "width": 420,
-   "height": 49,
-   "kind": "button",
-   "label": "WhatsApp"
-  },
-  {
    "x": 1236,
-   "y": 873,
+   "y": 749,
    "width": 124,
    "height": 30,
    "kind": "button",
@@ -705,7 +567,7 @@
   },
   {
    "x": 960,
-   "y": 2540,
+   "y": 2428,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -714,7 +576,7 @@
   },
   {
    "x": 1096,
-   "y": 2540,
+   "y": 2428,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -723,7 +585,7 @@
   },
   {
    "x": 1232,
-   "y": 2540,
+   "y": 2428,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -732,7 +594,7 @@
   },
   {
    "x": 80,
-   "y": 2738,
+   "y": 2625,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -741,7 +603,7 @@
   },
   {
    "x": 80,
-   "y": 2770,
+   "y": 2657,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -750,7 +612,7 @@
   },
   {
    "x": 80,
-   "y": 2802,
+   "y": 2689,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -759,7 +621,7 @@
   },
   {
    "x": 80,
-   "y": 2834,
+   "y": 2721,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -768,7 +630,7 @@
   },
   {
    "x": 351,
-   "y": 2738,
+   "y": 2625,
    "width": 36,
    "height": 19,
    "kind": "link",
@@ -777,7 +639,7 @@
   },
   {
    "x": 351,
-   "y": 2770,
+   "y": 2657,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -786,7 +648,7 @@
   },
   {
    "x": 351,
-   "y": 2802,
+   "y": 2689,
    "width": 44,
    "height": 19,
    "kind": "link",
@@ -795,7 +657,7 @@
   },
   {
    "x": 351,
-   "y": 2834,
+   "y": 2721,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -804,7 +666,7 @@
   },
   {
    "x": 622,
-   "y": 2738,
+   "y": 2625,
    "width": 66,
    "height": 19,
    "kind": "link",
@@ -813,7 +675,7 @@
   },
   {
    "x": 622,
-   "y": 2770,
+   "y": 2657,
    "width": 78,
    "height": 19,
    "kind": "link",
@@ -822,7 +684,7 @@
   },
   {
    "x": 622,
-   "y": 2802,
+   "y": 2689,
    "width": 134,
    "height": 19,
    "kind": "link",
@@ -831,7 +693,7 @@
   },
   {
    "x": 893,
-   "y": 2738,
+   "y": 2625,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -840,7 +702,7 @@
   },
   {
    "x": 893,
-   "y": 2770,
+   "y": 2657,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -849,7 +711,7 @@
   },
   {
    "x": 893,
-   "y": 2802,
+   "y": 2689,
    "width": 90,
    "height": 19,
    "kind": "link",
@@ -858,7 +720,7 @@
   },
   {
    "x": 893,
-   "y": 2834,
+   "y": 2721,
    "width": 92,
    "height": 19,
    "kind": "link",
@@ -867,7 +729,7 @@
   },
   {
    "x": 1164,
-   "y": 2735,
+   "y": 2622,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -876,7 +738,7 @@
   },
   {
    "x": 1216,
-   "y": 2735,
+   "y": 2622,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -885,7 +747,7 @@
   },
   {
    "x": 1268,
-   "y": 2735,
+   "y": 2622,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -894,7 +756,7 @@
   },
   {
    "x": 1320,
-   "y": 2735,
+   "y": 2622,
    "width": 40,
    "height": 41,
    "kind": "link",

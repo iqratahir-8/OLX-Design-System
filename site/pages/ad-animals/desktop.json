@@ -2,13 +2,14 @@
  "id": "ad-animals",
  "title": "Ad: Animals",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/doberman-female-iid-1118292561",
- "finalUrl": "https://www.olx.com.pk/item/doberman-female-iid-1118292561",
+ "url": "https://www.olx.com.pk/item/cash-on-delivery-parshion-kitten-cat-male-female-iid-1118200970",
+ "finalUrl": "https://www.olx.com.pk/item/cash-on-delivery-parshion-kitten-cat-male-female-iid-1118200970",
  "width": 1440,
- "height": 2827,
+ "height": 2858,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T13:11:38.739Z",
+ "scrolled": false,
+ "captured": "2026-09-29T14:04:32.879Z",
  "sections": [
   {
    "file": "01-header",
@@ -33,8 +34,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "03-home-animals-dogs",
-   "name": "Home · Animals · Dogs",
+   "file": "03-home-animals-cats",
+   "name": "Home · Animals · Cats",
    "rect": {
     "x": 80,
     "y": 193,
@@ -94,7 +95,7 @@
     "x": 80,
     "y": 1207,
     "width": 820,
-    "height": 121
+    "height": 80
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   },
@@ -103,9 +104,9 @@
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1367,
+    "y": 1326,
     "width": 820,
-    "height": 210
+    "height": 282
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
@@ -114,9 +115,9 @@
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 1616,
+    "y": 1647,
     "width": 820,
-    "height": 460
+    "height": 459
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
@@ -125,7 +126,7 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2115,
+    "y": 2145,
     "width": 820,
     "height": 171
    },
@@ -136,7 +137,7 @@
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2309,
+    "y": 2339,
     "width": 1440,
     "height": 173
    },
@@ -147,9 +148,9 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2481,
+    "y": 2511,
     "width": 1440,
-    "height": 346
+    "height": 347
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   }
@@ -306,38 +307,29 @@
   {
    "x": 227,
    "y": 196,
-   "width": 33,
+   "width": 26,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/dogs_c139",
-   "label": "Dogs"
+   "href": "https://www.olx.com.pk/cats_c138",
+   "label": "Cats"
   },
   {
-   "x": 290,
+   "x": 283,
    "y": 196,
-   "width": 94,
+   "width": 113,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/dogs_c139",
-   "label": "Dogs in Lahore"
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cats_c138",
+   "label": "Cats in Rawalpindi"
   },
   {
-   "x": 414,
+   "x": 426,
    "y": 196,
-   "width": 103,
+   "width": 88,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/gulberg_g7/dogs_c139",
-   "label": "Dogs in Gulberg"
-  },
-  {
-   "x": 547,
-   "y": 196,
-   "width": 114,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/gulberg-3_g5000032/dogs_c139",
-   "label": "Dogs in Gulberg 3"
+   "href": "https://www.olx.com.pk/saddar_g5001414/cats_c138",
+   "label": "Cats in Saddar"
   },
   {
    "x": 832,
@@ -372,26 +364,145 @@
    "label": ""
   },
   {
+   "x": 2540,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3360,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4180,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5000,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5820,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 6640,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 7460,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 8280,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 9100,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 9920,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 10740,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 11560,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 12380,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 13200,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 14020,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 14840,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
    "x": 249,
    "y": 1257,
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/doberman-dogs_c139?filter=breed_eq_doberman",
-   "label": "Doberman"
-  },
-  {
-   "x": 659,
-   "y": 1257,
-   "width": 213,
-   "height": 22,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/dogs_c139/q-female-dogs",
-   "label": "Female"
+   "href": "https://www.olx.com.pk/cats_c138/q-persian-cats",
+   "label": "Persian"
   },
   {
    "x": 60,
-   "y": 1847,
+   "y": 1877,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -399,142 +510,142 @@
   },
   {
    "x": 80,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/american-bully-female-for-sale-iid-1118290446",
+   "href": "https://www.olx.com.pk/item/kittens-persian-kittens-triple-coated-persian-kittens-for-sale-iid-1119288777",
    "label": "Listing"
   },
   {
    "x": 357,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/german-shepherd-puppies-available-1-male-3-females-iid-1119864168",
+   "href": "https://www.olx.com.pk/item/beautifull-cats-iid-1119885738",
    "label": "Listing"
   },
   {
    "x": 634,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/german-shepherd-female-puppy-iid-1119862504",
+   "href": "https://www.olx.com.pk/item/semipunch-persian-kitten-iid-1119735827",
    "label": "Listing"
   },
   {
    "x": 900,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/german-shepherd-03XX-XXXXXXX-iid-1119718638",
+   "href": "https://www.olx.com.pk/item/white-persian-kittentriple-long-coatedpunch-faceblue-eyes-kittens-iid-1110721817",
    "label": "Listing"
   },
   {
    "x": 1177,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/military-bloodline-shepherd-male-or-german-shepherd-female-iid-1119723361",
+   "href": "https://www.olx.com.pk/item/persian-cat-for-sale-iid-1119820101",
    "label": "Listing"
   },
   {
    "x": 1454,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/breeder-female-ha-again-heat-py-a-gye-blood-drop-kr-rhe-iid-1119861926",
+   "href": "https://www.olx.com.pk/item/kitten-punch-face-kittens-persian-cat-cute-tripple-fluffy-kity-iid-1110278261",
    "label": "Listing"
   },
   {
    "x": 1720,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/american-doberman-puppies-doberman-puppy-dog-for-sale-iid-1119855736",
+   "href": "https://www.olx.com.pk/item/persian-good-quality-kittens-up-for-sale-cod-available-in-rwpisb-iid-1104679455",
    "label": "Listing"
   },
   {
    "x": 1997,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/top-quality-puppies-available-_-imported-_-all-breeds-iid-1119349323",
+   "href": "https://www.olx.com.pk/item/3-cat-iid-1119862903",
    "label": "Listing"
   },
   {
    "x": 2274,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/golden-retriever-female-retriever-female-breeder-female-dog-iid-1118929987",
+   "href": "https://www.olx.com.pk/item/persian-kittenstriple-coatedpunch-face-kittens-cute-white-cats-iid-1110246087",
    "label": "Listing"
   },
   {
    "x": 2540,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/doberman-puppy-american-doberman-puppies-pupps-for-sale-iid-1119142089",
+   "href": "https://www.olx.com.pk/item/pure-persian-white-kitten-for-sale-home-breed-iid-1119822315",
    "label": "Listing"
   },
   {
    "x": 2817,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/german-shepherd-long-coat-female-iid-1119852525",
+   "href": "https://www.olx.com.pk/item/triple-coat-persian-for-sale-home-bread-iid-1119858656",
    "label": "Listing"
   },
   {
    "x": 3094,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/german-shepherd-husky-shitzu-cane-corso-all-breed-dogs-pupps-iid-1118139911",
+   "href": "https://www.olx.com.pk/item/2-cat-persian-double-cot-for-sale-iid-1119849505",
    "label": "Listing"
   },
   {
    "x": 3360,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/german-shepherd-black-mask-long-coat-puppies-_gsd-puppy-iid-1119418321",
+   "href": "https://www.olx.com.pk/item/persian-good-quality-kittens-looking-for-new-home-iid-1093097145",
    "label": "Listing"
   },
   {
    "x": 3637,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/labrador-female-pedigre-microchip-imported-blodline-puppy-03XX-XXXXXXX-iid-1119764652",
+   "href": "https://www.olx.com.pk/item/long-coat-persian-kitten-iid-1119822547",
    "label": "Listing"
   },
   {
    "x": 3914,
-   "y": 1658,
+   "y": 1689,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/husky-female-iid-1119604867",
+   "href": "https://www.olx.com.pk/item/persian-kittens-triple-coated-kittens-kittens-for-sale-iid-1119222144",
    "label": "Listing"
   },
   {
    "x": 880,
-   "y": 1847,
+   "y": 1877,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -546,8 +657,8 @@
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/45a28a6c-96f6-414e-84c5-99ddda31dea2",
-   "label": "Posted byBhai jan Member Since2019Active Ads1"
+   "href": "https://www.olx.com.pk/profile/4c2db0a1-106f-4142-81c0-49000f13fb68",
+   "label": "Posted by cash on delivery Member Since2025Active Ads61"
   },
   {
    "x": 940,
@@ -575,7 +686,7 @@
   },
   {
    "x": 960,
-   "y": 2391,
+   "y": 2421,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -584,7 +695,7 @@
   },
   {
    "x": 1096,
-   "y": 2391,
+   "y": 2421,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -593,7 +704,7 @@
   },
   {
    "x": 1232,
-   "y": 2391,
+   "y": 2421,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -602,7 +713,7 @@
   },
   {
    "x": 80,
-   "y": 2589,
+   "y": 2619,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -611,7 +722,7 @@
   },
   {
    "x": 80,
-   "y": 2621,
+   "y": 2651,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -620,7 +731,7 @@
   },
   {
    "x": 80,
-   "y": 2652,
+   "y": 2683,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -629,7 +740,7 @@
   },
   {
    "x": 80,
-   "y": 2684,
+   "y": 2715,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -638,7 +749,7 @@
   },
   {
    "x": 351,
-   "y": 2589,
+   "y": 2619,
    "width": 36,
    "height": 19,
    "kind": "link",
@@ -647,7 +758,7 @@
   },
   {
    "x": 351,
-   "y": 2621,
+   "y": 2651,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -656,7 +767,7 @@
   },
   {
    "x": 351,
-   "y": 2652,
+   "y": 2683,
    "width": 44,
    "height": 19,
    "kind": "link",
@@ -665,7 +776,7 @@
   },
   {
    "x": 351,
-   "y": 2684,
+   "y": 2715,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -674,7 +785,7 @@
   },
   {
    "x": 622,
-   "y": 2589,
+   "y": 2619,
    "width": 66,
    "height": 19,
    "kind": "link",
@@ -683,7 +794,7 @@
   },
   {
    "x": 622,
-   "y": 2621,
+   "y": 2651,
    "width": 78,
    "height": 19,
    "kind": "link",
@@ -692,7 +803,7 @@
   },
   {
    "x": 622,
-   "y": 2652,
+   "y": 2683,
    "width": 134,
    "height": 19,
    "kind": "link",
@@ -701,7 +812,7 @@
   },
   {
    "x": 893,
-   "y": 2589,
+   "y": 2619,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -710,7 +821,7 @@
   },
   {
    "x": 893,
-   "y": 2621,
+   "y": 2651,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -719,7 +830,7 @@
   },
   {
    "x": 893,
-   "y": 2652,
+   "y": 2683,
    "width": 90,
    "height": 19,
    "kind": "link",
@@ -728,7 +839,7 @@
   },
   {
    "x": 893,
-   "y": 2684,
+   "y": 2715,
    "width": 92,
    "height": 19,
    "kind": "link",
@@ -737,7 +848,7 @@
   },
   {
    "x": 1164,
-   "y": 2586,
+   "y": 2616,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -746,7 +857,7 @@
   },
   {
    "x": 1216,
-   "y": 2586,
+   "y": 2616,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -755,7 +866,7 @@
   },
   {
    "x": 1268,
-   "y": 2586,
+   "y": 2616,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -764,7 +875,7 @@
   },
   {
    "x": 1320,
-   "y": 2586,
+   "y": 2616,
    "width": 40,
    "height": 41,
    "kind": "link",

@@ -2,13 +2,14 @@
  "id": "ad-books-sports",
  "title": "Ad: Books, Sports & Hobbies",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/cricket-net-cricket-practice-net-volleyball-net-safety-net-mugha-iid-1115535091",
- "finalUrl": "https://www.olx.com.pk/item/cricket-net-cricket-practice-net-volleyball-net-safety-net-mugha-iid-1115535091",
+ "url": "https://www.olx.com.pk/item/snooker-table-for-sale-5x10-6x12-bismillah-snooker-factory-iid-1117496854",
+ "finalUrl": "https://www.olx.com.pk/item/snooker-table-for-sale-5x10-6x12-bismillah-snooker-factory-iid-1117496854",
  "width": 1440,
- "height": 3121,
+ "height": 5968,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T13:13:45.338Z",
+ "scrolled": false,
+ "captured": "2026-09-29T14:06:54.077Z",
  "sections": [
   {
    "file": "01-header",
@@ -105,51 +106,62 @@
     "x": 80,
     "y": 1326,
     "width": 820,
-    "height": 545
+    "height": 27
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(1)"
   },
   {
-   "file": "10-related-ads",
+   "file": "10-bismillah-snooker-factory",
+   "name": "--------------------Bismillah Snooker Factory---",
+   "rect": {
+    "x": 80,
+    "y": 1369,
+    "width": 447,
+    "height": 3346
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "11-related-ads",
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 1910,
+    "y": 4757,
     "width": 820,
-    "height": 460
+    "height": 459
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "11-your-safety-matters-to-us-only-meet-in-p",
+   "file": "12-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2409,
+    "y": 5255,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "12-find-amazing-deals-on-the-go-download-ol",
+   "file": "13-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2603,
+    "y": 5449,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "13-footer",
+   "file": "14-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2775,
+    "y": 5621,
     "width": 1440,
-    "height": 346
+    "height": 347
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   }
@@ -315,11 +327,29 @@
   {
    "x": 476,
    "y": 196,
-   "width": 198,
+   "width": 187,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/gujranwala_g4060662/sports-equipment_c100",
-   "label": "Sports Equipment in Gujranwala"
+   "href": "https://www.olx.com.pk/billiards-snooker-equipment_c708047",
+   "label": "Billiards & Snooker Equipment"
+  },
+  {
+   "x": 693,
+   "y": 196,
+   "width": 248,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/billiards-snooker-equipment_c708047",
+   "label": "Billiards & Snooker Equipment in Lahore"
+  },
+  {
+   "x": 971,
+   "y": 196,
+   "width": 257,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gulberg_g7/billiards-snooker-equipment_c708047",
+   "label": "Billiards & Snooker Equipment in Gulberg"
   },
   {
    "x": 832,
@@ -442,32 +472,17 @@
    "label": ""
   },
   {
-   "x": 11560,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 12380,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 13200,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
+   "x": 249,
+   "y": 1257,
+   "width": 213,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/billiards-snooker-equipment_c708047/q-new",
+   "label": "New"
   },
   {
    "x": 60,
-   "y": 2140,
+   "y": 4987,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -475,21 +490,146 @@
   },
   {
    "x": 80,
-   "y": 1952,
+   "y": 4799,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/cricket-net-cricket-practice-net-volleyball-net-safety-net-mughal-iid-1115534774",
+   "href": "https://www.olx.com.pk/item/snooker-table-rasson-iid-1119854294",
    "label": "Listing"
   },
   {
    "x": 357,
-   "y": 1952,
+   "y": 4799,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/cricket-net-football-net-volleyball-net-practice-net-mughal-net-iid-1108402583",
+   "href": "https://www.olx.com.pk/item/snooker-tables-for-commercial-use-built-for-high-traffic-clubs-iid-1113579207",
    "label": "Listing"
+  },
+  {
+   "x": 634,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/612-table-available-2-inch-marble-which-price-250000-each-iid-1119476862",
+   "label": "Listing"
+  },
+  {
+   "x": 900,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/new-snooker-club-opened-with-new-tables-for-sale-iid-1109498991",
+   "label": "Listing"
+  },
+  {
+   "x": 1177,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/snooker-table-for-sale-star-iid-1119243452",
+   "label": "Listing"
+  },
+  {
+   "x": 1454,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/612-table-2-inch-marble-available-which-price-250000-each-iid-1119476641",
+   "label": "Listing"
+  },
+  {
+   "x": 1720,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/two-snokar-tabal-612-size-urgent-for-sale-iid-1119373471",
+   "label": "Listing"
+  },
+  {
+   "x": 1997,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/brand-new-snooker-table-6x12-5x10-home-clubsnooker-table-for-iid-1119459765",
+   "label": "Listing"
+  },
+  {
+   "x": 2274,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/snooker-table-resson-strong-for-sale-iid-1119243547",
+   "label": "Listing"
+  },
+  {
+   "x": 2540,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/star-snooker-table-for-sale-iid-1119243666",
+   "label": "Listing"
+  },
+  {
+   "x": 2817,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/luxury-billiard-pool-table-new-custom-design-premium-pool-table-iid-1119459690",
+   "label": "Listing"
+  },
+  {
+   "x": 3094,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/premium-luxury-pool-table-home-club-use-luxury-pool-table-8x4-iid-1119459595",
+   "label": "Listing"
+  },
+  {
+   "x": 3360,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/premium-snooker-table-6x12-5x10-new-custom-made-iid-1119459543",
+   "label": "Listing"
+  },
+  {
+   "x": 3637,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/snooker-table-resson-golden-addiction-iid-1119244107",
+   "label": "Listing"
+  },
+  {
+   "x": 3914,
+   "y": 4799,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/snooker-table-resson-612-iid-1119244256",
+   "label": "Listing"
+  },
+  {
+   "x": 880,
+   "y": 4987,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
   },
   {
    "x": 940,
@@ -497,8 +637,8 @@
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/7a4beaa2-cb4d-4804-bfb8-07b19c934972",
-   "label": "Posted byMughal Sports Net Member Since2025Active Ads12"
+   "href": "https://www.olx.com.pk/profile/82e56929-81df-466d-9c41-ae88801f5c1e",
+   "label": "Posted byBismillah Snooker Factory Member Since2022Active Ads12"
   },
   {
    "x": 940,
@@ -526,7 +666,7 @@
   },
   {
    "x": 960,
-   "y": 2685,
+   "y": 5531,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -535,7 +675,7 @@
   },
   {
    "x": 1096,
-   "y": 2685,
+   "y": 5531,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -544,7 +684,7 @@
   },
   {
    "x": 1232,
-   "y": 2685,
+   "y": 5531,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -553,7 +693,7 @@
   },
   {
    "x": 80,
-   "y": 2883,
+   "y": 5729,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -562,7 +702,7 @@
   },
   {
    "x": 80,
-   "y": 2914,
+   "y": 5761,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -571,7 +711,7 @@
   },
   {
    "x": 80,
-   "y": 2946,
+   "y": 5793,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -580,7 +720,7 @@
   },
   {
    "x": 80,
-   "y": 2978,
+   "y": 5825,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -589,7 +729,7 @@
   },
   {
    "x": 351,
-   "y": 2883,
+   "y": 5729,
    "width": 36,
    "height": 19,
    "kind": "link",
@@ -598,7 +738,7 @@
   },
   {
    "x": 351,
-   "y": 2914,
+   "y": 5761,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -607,7 +747,7 @@
   },
   {
    "x": 351,
-   "y": 2946,
+   "y": 5793,
    "width": 44,
    "height": 19,
    "kind": "link",
@@ -616,7 +756,7 @@
   },
   {
    "x": 351,
-   "y": 2978,
+   "y": 5825,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -625,7 +765,7 @@
   },
   {
    "x": 622,
-   "y": 2883,
+   "y": 5729,
    "width": 66,
    "height": 19,
    "kind": "link",
@@ -634,7 +774,7 @@
   },
   {
    "x": 622,
-   "y": 2914,
+   "y": 5761,
    "width": 78,
    "height": 19,
    "kind": "link",
@@ -643,7 +783,7 @@
   },
   {
    "x": 622,
-   "y": 2946,
+   "y": 5793,
    "width": 134,
    "height": 19,
    "kind": "link",
@@ -652,7 +792,7 @@
   },
   {
    "x": 893,
-   "y": 2883,
+   "y": 5729,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -661,7 +801,7 @@
   },
   {
    "x": 893,
-   "y": 2914,
+   "y": 5761,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -670,7 +810,7 @@
   },
   {
    "x": 893,
-   "y": 2946,
+   "y": 5793,
    "width": 90,
    "height": 19,
    "kind": "link",
@@ -679,7 +819,7 @@
   },
   {
    "x": 893,
-   "y": 2978,
+   "y": 5825,
    "width": 92,
    "height": 19,
    "kind": "link",
@@ -688,7 +828,7 @@
   },
   {
    "x": 1164,
-   "y": 2880,
+   "y": 5726,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -697,7 +837,7 @@
   },
   {
    "x": 1216,
-   "y": 2880,
+   "y": 5726,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -706,7 +846,7 @@
   },
   {
    "x": 1268,
-   "y": 2880,
+   "y": 5726,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -715,7 +855,7 @@
   },
   {
    "x": 1320,
-   "y": 2880,
+   "y": 5726,
    "width": 40,
    "height": 41,
    "kind": "link",

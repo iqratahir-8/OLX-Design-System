@@ -2,13 +2,14 @@
  "id": "ad-online-jobs",
  "title": "Ad: Online Jobs",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-writing-online-job-part-time-iid-1119217943",
- "finalUrl": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-writing-online-job-part-time-iid-1119217943",
+ "url": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1118864547",
+ "finalUrl": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1118864547",
  "width": 1440,
- "height": 2756,
+ "height": 3139,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T13:16:43.580Z",
+ "scrolled": false,
+ "captured": "2026-09-29T14:10:28.298Z",
  "sections": [
   {
    "file": "01-header",
@@ -72,7 +73,7 @@
     "x": 940,
     "y": 532,
     "width": 420,
-    "height": 367
+    "height": 431
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
@@ -105,38 +106,60 @@
     "x": 80,
     "y": 1435,
     "width": 820,
-    "height": 569
+    "height": 27
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(1)"
   },
   {
-   "file": "10-your-safety-matters-to-us-only-meet-in-p",
+   "file": "10-section",
+   "name": "خوشخبری! آن لائن اور آفس ورک کا بہترین موقع · گھ",
+   "rect": {
+    "x": 80,
+    "y": 1478,
+    "width": 433,
+    "height": 834
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "11-section",
+   "name": "گھر بیٹھے کام کریں، اپنے وقت کو قیمتی بنائیں اور",
+   "rect": {
+    "x": 80,
+    "y": 2363,
+    "width": 508,
+    "height": 21
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "12-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2043,
+    "y": 2426,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "11-find-amazing-deals-on-the-go-download-ol",
+   "file": "13-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2237,
+    "y": 2620,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "12-footer",
+   "file": "14-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2409,
+    "y": 2792,
     "width": 1440,
     "height": 347
    },
@@ -304,20 +327,20 @@
   {
    "x": 312,
    "y": 196,
-   "width": 135,
+   "width": 158,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/online_c1737",
-   "label": "Online Jobs in Lahore"
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/online_c1737",
+   "label": "Online Jobs in Faisalabad"
   },
   {
-   "x": 477,
+   "x": 500,
    "y": 196,
-   "width": 209,
+   "width": 152,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/shalimar-link-road_g5000817/online_c1737",
-   "label": "Online Jobs in Shalimar Link Road"
+   "href": "https://www.olx.com.pk/jaranwala_g4060665/online_c1737",
+   "label": "Online Jobs in Jaranwala"
   },
   {
    "x": 80,
@@ -328,7 +351,7 @@
    "label": ""
   },
   {
-   "x": 659,
+   "x": 249,
    "y": 1336,
    "width": 213,
    "height": 22,
@@ -337,12 +360,12 @@
    "label": "Entry Level"
   },
   {
-   "x": 437,
+   "x": 438,
    "y": 1373,
-   "width": 106,
+   "width": 104,
    "height": 27,
    "kind": "button",
-   "label": "View +2 more"
+   "label": "View +1 more"
   },
   {
    "x": 940,
@@ -350,8 +373,8 @@
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/daa3e706-eb34-462c-9446-f20c981a01b2",
-   "label": "Posted byAssignment work Member Since2024Active Ads5"
+   "href": "https://www.olx.com.pk/profile/bcbbd13d-6df5-42e8-87ea-b7c50896af89",
+   "label": "Posted byshahzain Member Since2026Active Ads11"
   },
   {
    "x": 940,
@@ -359,11 +382,19 @@
    "width": 420,
    "height": 49,
    "kind": "button",
+   "label": "Show phone number"
+  },
+  {
+   "x": 940,
+   "y": 753,
+   "width": 420,
+   "height": 49,
+   "kind": "button",
    "label": "Chat"
   },
   {
    "x": 1236,
-   "y": 749,
+   "y": 813,
    "width": 124,
    "height": 30,
    "kind": "button",
@@ -371,7 +402,7 @@
   },
   {
    "x": 960,
-   "y": 2319,
+   "y": 2702,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -380,7 +411,7 @@
   },
   {
    "x": 1096,
-   "y": 2319,
+   "y": 2702,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -389,7 +420,7 @@
   },
   {
    "x": 1232,
-   "y": 2319,
+   "y": 2702,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -398,7 +429,7 @@
   },
   {
    "x": 80,
-   "y": 2517,
+   "y": 2900,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -407,7 +438,7 @@
   },
   {
    "x": 80,
-   "y": 2549,
+   "y": 2932,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -416,7 +447,7 @@
   },
   {
    "x": 80,
-   "y": 2581,
+   "y": 2964,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -425,7 +456,7 @@
   },
   {
    "x": 80,
-   "y": 2613,
+   "y": 2996,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -434,7 +465,7 @@
   },
   {
    "x": 351,
-   "y": 2517,
+   "y": 2900,
    "width": 36,
    "height": 19,
    "kind": "link",
@@ -443,7 +474,7 @@
   },
   {
    "x": 351,
-   "y": 2549,
+   "y": 2932,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -452,7 +483,7 @@
   },
   {
    "x": 351,
-   "y": 2581,
+   "y": 2964,
    "width": 44,
    "height": 19,
    "kind": "link",
@@ -461,7 +492,7 @@
   },
   {
    "x": 351,
-   "y": 2613,
+   "y": 2996,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -470,7 +501,7 @@
   },
   {
    "x": 622,
-   "y": 2517,
+   "y": 2900,
    "width": 66,
    "height": 19,
    "kind": "link",
@@ -479,7 +510,7 @@
   },
   {
    "x": 622,
-   "y": 2549,
+   "y": 2932,
    "width": 78,
    "height": 19,
    "kind": "link",
@@ -488,7 +519,7 @@
   },
   {
    "x": 622,
-   "y": 2581,
+   "y": 2964,
    "width": 134,
    "height": 19,
    "kind": "link",
@@ -497,7 +528,7 @@
   },
   {
    "x": 893,
-   "y": 2517,
+   "y": 2900,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -506,7 +537,7 @@
   },
   {
    "x": 893,
-   "y": 2549,
+   "y": 2932,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -515,7 +546,7 @@
   },
   {
    "x": 893,
-   "y": 2581,
+   "y": 2964,
    "width": 90,
    "height": 19,
    "kind": "link",
@@ -524,7 +555,7 @@
   },
   {
    "x": 893,
-   "y": 2613,
+   "y": 2996,
    "width": 92,
    "height": 19,
    "kind": "link",
@@ -533,7 +564,7 @@
   },
   {
    "x": 1164,
-   "y": 2514,
+   "y": 2897,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -542,7 +573,7 @@
   },
   {
    "x": 1216,
-   "y": 2514,
+   "y": 2897,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -551,7 +582,7 @@
   },
   {
    "x": 1268,
-   "y": 2514,
+   "y": 2897,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -560,7 +591,7 @@
   },
   {
    "x": 1320,
-   "y": 2514,
+   "y": 2897,
    "width": 40,
    "height": 41,
    "kind": "link",

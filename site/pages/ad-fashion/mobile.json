@@ -2,13 +2,14 @@
  "id": "ad-fashion",
  "title": "Ad: Fashion & Beauty",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/we-buy-rolex-cartier-omega-hublot-chopard-audemars-piguet-bvlgari-rado-iid-1112909544",
- "finalUrl": "https://www.olx.com.pk/item/we-buy-rolex-cartier-omega-hublot-chopard-audemars-piguet-bvlgari-rado-iid-1112909544",
+ "url": "https://www.olx.com.pk/item/elegant-heavily-embellished-goldchampagne-bridal-maxxi-front-open-iid-1119813312",
+ "finalUrl": "https://www.olx.com.pk/item/elegant-heavily-embellished-goldchampagne-bridal-maxxi-front-open-iid-1119813312",
  "width": 390,
- "height": 2296,
+ "height": 2232,
  "dpr": 2,
  "overlay": false,
- "captured": "2026-09-29T13:13:23.303Z",
+ "scrolled": false,
+ "captured": "2026-09-29T14:06:26.011Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -28,7 +29,7 @@
     "x": 0,
     "y": 294,
     "width": 390,
-    "height": 146
+    "height": 170
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
@@ -37,7 +38,7 @@
    "name": "div",
    "rect": {
     "x": 0,
-    "y": 439,
+    "y": 463,
     "width": 390,
     "height": 51
    },
@@ -48,18 +49,18 @@
    "name": "Details",
    "rect": {
     "x": 0,
-    "y": 489,
+    "y": 513,
     "width": 390,
-    "height": 151
+    "height": 75
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-description",
-   "name": "Description · عمران شاہ رولیکس ڈیلر · گھڑیوں کی ",
+   "file": "05-description-selling-a-stunning-heavily-d",
+   "name": "Description · Selling a stunning, heavily detail",
    "rect": {
     "x": 0,
-    "y": 659,
+    "y": 607,
     "width": 390,
     "height": 122
    },
@@ -70,18 +71,18 @@
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 0,
-    "y": 800,
+    "y": 748,
     "width": 390,
-    "height": 193
+    "height": 181
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
   },
   {
-   "file": "07-related-ads-rs-18-lacs-rolex-buyer-carti",
-   "name": "Related ads · Rs 18 Lacs · Rolex Buyer - Cartier",
+   "file": "07-related-ads-rs-65-000-urgent-bridal-dres",
+   "name": "Related ads · Rs 65,000 · Urgent Bridal Dress fo",
    "rect": {
     "x": 0,
-    "y": 1032,
+    "y": 968,
     "width": 390,
     "height": 371
    },
@@ -92,18 +93,18 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1422,
+    "y": 1358,
     "width": 390,
     "height": 236
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
   },
   {
-   "file": "09-rolex-in-f-8-markaz-watches-in-f-8-marka",
-   "name": "Rolex in F-8 Markaz · Watches in F-8 Markaz · Wa",
+   "file": "09-bridals-in-dha-defence-bridals-in-lahore",
+   "name": "Bridals in DHA Defence · Bridals in Lahore · Bri",
    "rect": {
     "x": 8,
-    "y": 1705,
+    "y": 1641,
     "width": 374,
     "height": 27
    },
@@ -114,7 +115,7 @@
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1731,
+    "y": 1667,
     "width": 390,
     "height": 47
    },
@@ -125,18 +126,18 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1777,
+    "y": 1713,
     "width": 390,
     "height": 519
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "12-chat-call",
-   "name": "Chat · Call",
+   "file": "12-chat",
+   "name": "Chat",
    "rect": {
     "x": 0,
-    "y": 2231,
+    "y": 2167,
     "width": 390,
     "height": 65
    },
@@ -193,131 +194,17 @@
    "label": ""
   },
   {
-   "x": 1560,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 1950,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2340,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2730,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3120,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3510,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3900,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4290,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4680,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5070,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5460,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5850,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
    "x": 171,
-   "y": 533,
+   "y": 557,
    "width": 190,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/watches_c1970/q-rolex-watches",
-   "label": "Rolex"
-  },
-  {
-   "x": 171,
-   "y": 571,
-   "width": 190,
-   "height": 22,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/watches_c1970/q-mens-watches",
-   "label": "Men's Watches"
-  },
-  {
-   "x": 171,
-   "y": 609,
-   "width": 190,
-   "height": 22,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/watches_c1970/q-new-watches",
-   "label": "New"
+   "href": "https://www.olx.com.pk/bridals_c706502/q-used-bridal-dresses",
+   "label": "Used"
   },
   {
    "x": 16,
-   "y": 759,
+   "y": 707,
    "width": 358,
    "height": 22,
    "kind": "button",
@@ -325,16 +212,16 @@
   },
   {
    "x": 20,
-   "y": 812,
+   "y": 760,
    "width": 354,
-   "height": 131,
+   "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/companies/agency-7725",
-   "label": "Posted byIMRAN SHAH SWISS WATCHES BUYER ROLEX OMEGA CARTIER RADO Member Since201"
+   "href": "https://www.olx.com.pk/profile/d1bd7d72-2b87-4830-8940-3d44b0492edf",
+   "label": "Posted by Usman Member Since2023Active Ads5"
   },
   {
    "x": 142,
-   "y": 956,
+   "y": 892,
    "width": 110,
    "height": 27,
    "kind": "button",
@@ -342,121 +229,96 @@
   },
   {
    "x": 16,
-   "y": 1067,
+   "y": 1003,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/rolex-buyer-cartier-omega-hublot-chopard-breitling-tag-heuer-rado-lv-iid-1118440770",
+   "href": "https://www.olx.com.pk/item/urgent-bridal-dress-for-sale-4-piece-set-iid-1119864745",
    "label": "Listing"
   },
   {
    "x": 243,
-   "y": 1067,
+   "y": 1003,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-your-watch-rolex-datejust-omega-seamaster-cartier-rado-iwc-iid-1119864030",
+   "href": "https://www.olx.com.pk/item/lehanga-chooli-for-sale-1010-iid-1119859876",
    "label": "Listing"
   },
   {
    "x": 470,
-   "y": 1067,
+   "y": 1003,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-cash-rolex-cartier-omega-baume-mercier-chopard-audemars-piguet-iid-1119861496",
+   "href": "https://www.olx.com.pk/item/bridel-costumize-dresses-iid-1119850771",
    "label": "Listing"
   },
   {
    "x": 697,
-   "y": 1067,
+   "y": 1003,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/swiss-watches-buyer-rolex-cartier-omega-hublot-chopard-bvlgari-rado-iid-1119049553",
+   "href": "https://www.olx.com.pk/item/lehnga-barat-for-sale-iid-1119750517",
    "label": "Listing"
   },
   {
    "x": 924,
-   "y": 1067,
+   "y": 1003,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/we-buy-rolex-cartier-omega-hublot-ulysse-nardin-frederique-constant-ap-iid-1119057338",
+   "href": "https://www.olx.com.pk/item/barat-bribal-dress-iid-1118984469",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2244,
-   "width": 114,
-   "height": 40,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 138,
-   "y": 2244,
-   "width": 114,
+   "y": 2180,
+   "width": 358,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 260,
-   "y": 2244,
-   "width": 114,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 278,
-   "y": 1710,
-   "width": 104,
+   "x": 258,
+   "y": 1646,
+   "width": 124,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad-f-8-markaz_g3318/rolex-watches_c1970?filter=brand_eq_rolex",
-   "label": "Rolex in F-8 Markaz"
+   "href": "https://www.olx.com.pk/dha-defence_g9/bridals_c706502",
+   "label": "Bridals in DHA Defence"
   },
   {
-   "x": 128,
-   "y": 1710,
-   "width": 120,
+   "x": 141,
+   "y": 1646,
+   "width": 87,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad-f-8-markaz_g3318/watches_c1970",
-   "label": "Watches in F-8 Markaz"
+   "href": "https://www.olx.com.pk/lahore_g4060673/bridals_c706502",
+   "label": "Bridals in Lahore"
   },
   {
-   "x": 19,
-   "y": 1710,
-   "width": 79,
+   "x": 76,
+   "y": 1646,
+   "width": 35,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/f-8_g5000982/watches_c1970",
-   "label": "Watches in F-8"
+   "href": "https://www.olx.com.pk/bridals_c706502",
+   "label": "Bridals"
   },
   {
-   "x": -126,
-   "y": 1710,
-   "width": 115,
+   "x": -3,
+   "y": 1646,
+   "width": 49,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad_g4060615/watches_c1970",
-   "label": "Watches in Islamabad"
+   "href": "https://www.olx.com.pk/wedding_c1971",
+   "label": "Wedding"
   },
   {
-   "x": -202,
-   "y": 1710,
-   "width": 46,
-   "height": 16,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/watches_c1970",
-   "label": "Watches"
-  },
-  {
-   "x": -324,
-   "y": 1710,
+   "x": -125,
+   "y": 1646,
    "width": 92,
    "height": 16,
    "kind": "link",
@@ -464,8 +326,8 @@
    "label": "Fashion & Beauty"
   },
   {
-   "x": -386,
-   "y": 1710,
+   "x": -187,
+   "y": 1646,
    "width": 32,
    "height": 16,
    "kind": "link",
@@ -474,7 +336,7 @@
   },
   {
    "x": 16,
-   "y": 2076,
+   "y": 2012,
    "width": 84,
    "height": 33,
    "kind": "link",
@@ -483,7 +345,7 @@
   },
   {
    "x": 113,
-   "y": 2143,
+   "y": 2079,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -492,7 +354,7 @@
   },
   {
    "x": 157,
-   "y": 2143,
+   "y": 2079,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -501,7 +363,7 @@
   },
   {
    "x": 201,
-   "y": 2143,
+   "y": 2079,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -510,7 +372,7 @@
   },
   {
    "x": 245,
-   "y": 2143,
+   "y": 2079,
    "width": 32,
    "height": 41,
    "kind": "link",

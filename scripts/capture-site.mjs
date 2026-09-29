@@ -85,6 +85,12 @@ const PAGES = [
   { id: 'city-category', title: 'Mobile Phones in Lahore', resolve: { link: ['/mobile-phones_c1453', /^Lahore\b/] }, flows: ['location'] },
   { id: 'sitemap', title: 'Sitemap', path: '/sitemap/most-popular', flows: [] },
 
+  // Scrolled states: headers change as you scroll (the mobile home header
+  // compacts; ads show a sticky header with the price and section tabs).
+  { id: 'home-scrolled', title: 'Home, scrolled (compact header)', scrolled: true, ...home({ desktop: [{ scroll: 700 }], mobile: [{ scroll: 700 }] }), flows: ['browse'] },
+  { id: 'category-scrolled', title: 'Mobile Phones, scrolled', scrolled: true, path: '/mobile-phones_c1453', steps: { desktop: [{ scroll: 900 }], mobile: [{ scroll: 900 }] }, cat: 'mobiles', flows: ['browse'] },
+  { id: 'ad-scrolled', title: 'Ad, scrolled (sticky ad header)', scrolled: true, resolve: { firstAd: '/mobile-phones_c1453' }, steps: { desktop: [{ scroll: 1000 }], mobile: [{ scroll: 1000 }] }, cat: 'mobiles', flows: ['browse'] },
+
   // Interaction states.
   { id: 'account-menu', title: 'Account (logged out)', ...home({ mobile: [{ click: 'text:Account' }] }), only: ['mobile'], flows: ['account'] },
   { id: 'login', title: 'Login options', overlay: true, ...home({ desktop: [{ click: 'label:Login' }], mobile: [{ click: 'text:Account' }, { click: 'text:Login or Sign up' }] }), flows: ['account', 'sell'] },
@@ -133,6 +139,14 @@ async function runSteps(page, steps) {
         if (step.optional) continue;
         throw err;
       }
+    }
+    if (step.scroll != null) {
+      await page.evaluate(async (y) => {
+        const inner = [...document.querySelectorAll('body *')].filter((e) => /auto|scroll/.test(getComputedStyle(e).overflowY) && e.scrollHeight > e.clientHeight + 100)
+          .sort((a, b) => b.clientHeight * b.clientWidth - a.clientHeight * a.clientWidth)[0];
+        // Scroll in steps so scroll listeners (header compaction, sticky bars) fire.
+        for (let at = 0; at <= y; at += 100) { window.scrollTo(0, at); inner?.scrollTo(0, at); await new Promise((r) => setTimeout(r, 60)); }
+      }, step.scroll);
     }
     // The filter icon on mobile has no label or text, so it is tapped by position.
     if (step.tap) await page.mouse.click(...step.tap);
@@ -189,11 +203,13 @@ function tagTargets() {
 }
 
 // Measure hotspots and sections in the laid-out page, then remove the tags.
-function measure({ overlay }) {
+function measure({ overlay, scrolled }) {
   const vw = innerWidth;
+  // Scrolled states are screenshots of the screen, so they use screen coordinates.
+  const sx = scrolled ? 0 : scrollX, sy = scrolled ? 0 : scrollY;
   const round = (r) => {
-    const x = Math.floor(r.left + scrollX), y = Math.floor(r.top + scrollY);
-    return { x, y, width: Math.ceil(r.right + scrollX) - x, height: Math.ceil(r.bottom + scrollY) - y };
+    const x = Math.floor(r.left + sx), y = Math.floor(r.top + sy);
+    return { x, y, width: Math.ceil(r.right + sx) - x, height: Math.ceil(r.bottom + sy) - y };
   };
   const visible = (el) => {
     const r = el.getBoundingClientRect();
@@ -251,7 +267,15 @@ function measure({ overlay }) {
       else sections.push(k);
     }
   };
-  if (overlay) {
+  if (scrolled) {
+    // The header as it looks after scrolling: the widest fixed or sticky bar at the top.
+    const bars = [...document.querySelectorAll('body *')].filter((e) => {
+      const r = e.getBoundingClientRect();
+      return ['fixed', 'sticky'].includes(getComputedStyle(e).position) && visible(e) && r.top <= 2 && r.bottom > 20 && r.width >= vw * 0.8 && r.height >= 30 && r.height < innerHeight * 0.6;
+    });
+    const bar = bars.sort((a, b) => b.getBoundingClientRect().height - a.getBoundingClientRect().height)[0];
+    if (bar) { bar.setAttribute('data-cap-header', ''); sections.push(bar); }
+  } else if (overlay) {
     // The overlay is whatever became visible because of the interaction: the
     // outermost newly visible element with a real size. Fall back to the
     // top-most positioned layer.
@@ -284,7 +308,10 @@ function measure({ overlay }) {
     const label = el.getAttribute('aria-label');
     if (label && !GENERIC.test(label)) return label;
     if (el.querySelector('[aria-label="Listing"]') && isList(el)) return 'Listings';
+    if (el.hasAttribute('data-cap-header')) return 'Header (scrolled)';
     if (el.matches('footer')) return 'Footer';
+    { const r = el.getBoundingClientRect(); const pos = getComputedStyle(el).position;
+      if (r.top + sy <= 2 && r.width >= vw * 0.8 && r.height < 260 && (pos === 'sticky' || pos === 'fixed' || el.matches('header'))) return 'Header'; }
     if (el.matches('header') && el.getBoundingClientRect().height <= maxH) return 'Header';
     const h = el.querySelector('h1, h2, h3');
     if (h && h.textContent.trim()) return h.textContent.trim().slice(0, 40);
@@ -297,7 +324,7 @@ function measure({ overlay }) {
     if (seen.has(el)) continue;
     seen.add(el);
     let r = round(el.getBoundingClientRect());
-    if (overlay) {
+    if (overlay || scrolled) {
       // The screenshot is the screen only: clip to it.
       const x = Math.max(0, r.x), y = Math.max(0, r.y);
       r = { x, y, width: Math.min(r.x + r.width, vw) - x, height: Math.min(r.y + r.height, innerHeight) - y };
@@ -307,11 +334,11 @@ function measure({ overlay }) {
   }
   out.sort((a, b) => a.rect.y - b.rect.y || a.rect.x - b.rect.x);
 
-  document.querySelectorAll('[data-cap-pre]').forEach((el) => el.removeAttribute('data-cap-pre'));
+  document.querySelectorAll('[data-cap-pre], [data-cap-header]').forEach((el) => { el.removeAttribute('data-cap-pre'); el.removeAttribute('data-cap-header'); });
   document.querySelectorAll('[data-cap]').forEach((el) => {
     ['data-cap', 'data-cap-href', 'data-cap-label', 'data-cap-kind'].forEach((a) => el.removeAttribute(a));
   });
-  for (const s of out) s.html = s.html.replace(/ data-cap(-href|-label|-kind|-pre)?="[^"]*"/g, '');
+  for (const s of out) s.html = s.html.replace(/ data-cap(-href|-label|-kind|-pre|-header)?="[^"]*"/g, '');
   return { hotspots, sections: out.slice(0, 40) };
 }
 
@@ -363,8 +390,9 @@ export async function capture(browser, def, path, vp, contextOptions = {}) {
 
     // Pages are laid out at full height; overlays keep the screen size so the
     // modal or menu stays where the user sees it.
-    const size = def.overlay ? page.viewportSize() : await layoutFullHeight(page);
-    const { hotspots, sections } = await page.evaluate(measure, { overlay: !!def.overlay });
+    const onScreen = def.overlay || def.scrolled;
+    const size = onScreen ? page.viewportSize() : await layoutFullHeight(page);
+    const { hotspots, sections } = await page.evaluate(measure, { overlay: !!def.overlay, scrolled: !!def.scrolled });
     const shot = await page.screenshot();
 
     await mkdir(`${dir}/sections/${vp}`, { recursive: true });
@@ -388,7 +416,7 @@ export async function capture(browser, def, path, vp, contextOptions = {}) {
     }
     const meta = {
       id: def.id, title: def.title, viewport: vp, url: ORIGIN + path, finalUrl: page.url(),
-      width: size.width, height: size.height, dpr, overlay: !!def.overlay,
+      width: size.width, height: size.height, dpr, overlay: !!def.overlay, scrolled: !!def.scrolled,
       captured: new Date().toISOString(), sections: sectionMeta, hotspots,
     };
     await writeFile(`${dir}/${vp}.json`, JSON.stringify(meta, null, 1) + '\n');
@@ -419,7 +447,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
         const path = await resolvePath(browser, def);
         if (DISALLOWED.test(path)) throw new Error(`disallowed by robots.txt: ${path}`);
         await capture(browser, def, path, vp);
-        const entry = { id: def.id, title: def.title, viewport: vp, path, cat: def.cat, overlay: !!def.overlay, flows: def.flows ?? [] };
+        const entry = { id: def.id, title: def.title, viewport: vp, path, cat: def.cat, overlay: !!def.overlay || !!def.scrolled, flows: def.flows ?? [] };
         index.pages = index.pages.filter((p) => !(p.id === def.id && p.viewport === vp)).concat(entry);
         index.captured = new Date().toISOString().slice(0, 10);
         await writeFile(`${OUT}/index.json`, JSON.stringify(index, null, 1) + '\n');

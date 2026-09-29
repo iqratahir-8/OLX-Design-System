@@ -2,13 +2,14 @@
  "id": "ad-vehicles",
  "title": "Ad: Vehicles",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/honda-civic-vti-oriel-prosmatec-2017-iid-1119893850",
- "finalUrl": "https://www.olx.com.pk/item/honda-civic-vti-oriel-prosmatec-2017-iid-1119893850",
+ "url": "https://www.olx.com.pk/item/united-chingchi-rikshaw-for-sale-2025-model-iid-1119896387",
+ "finalUrl": "https://www.olx.com.pk/item/united-chingchi-rikshaw-for-sale-2025-model-iid-1119896387",
  "width": 390,
- "height": 3375,
+ "height": 2348,
  "dpr": 2,
  "overlay": false,
- "captured": "2026-09-29T13:06:25.384Z",
+ "scrolled": false,
+ "captured": "2026-09-29T13:59:14.353Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -28,163 +29,119 @@
     "x": 0,
     "y": 294,
     "width": 390,
-    "height": 122
+    "height": 146
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "03-year-2017-km-s-driven",
-   "name": "Year · 2017 · KM's driven",
+   "file": "03-div",
+   "name": "div",
    "rect": {
     "x": 0,
-    "y": 415,
+    "y": 439,
     "width": 390,
-    "height": 61
+    "height": 51
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "04-olx-car-inspection-buy-with-confidence-b",
-   "name": "OLX Car Inspection · Buy with confidence. Book i",
+   "file": "04-details",
+   "name": "Details",
    "rect": {
     "x": 0,
-    "y": 495,
+    "y": 489,
     "width": 390,
-    "height": 241
+    "height": 189
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-div",
-   "name": "div",
+   "file": "05-description-united-chingchi-rikshaw-for-",
+   "name": "Description · united chingchi rikshaw for sale ·",
    "rect": {
     "x": 0,
-    "y": 755,
+    "y": 697,
     "width": 390,
-    "height": 51
+    "height": 122
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
   },
   {
-   "file": "06-details",
-   "name": "Details",
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 0,
-    "y": 805,
+    "y": 838,
     "width": 390,
-    "height": 295
+    "height": 181
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
   },
   {
-   "file": "07-description-honda-civic-vti-oriel-prosma",
-   "name": "Description · Honda Civic VTi Oriel Prosmatec 20",
+   "file": "07-related-ads-rs-1-80-lac-new-asia-2017",
+   "name": "Related ads · Rs 1.80 Lac · new Asia 2017",
    "rect": {
     "x": 0,
-    "y": 1119,
+    "y": 1058,
     "width": 390,
-    "height": 122
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(10)"
-  },
-  {
-   "file": "08-features",
-   "name": "Features",
-   "rect": {
-    "x": 0,
-    "y": 1260,
-    "width": 390,
-    "height": 190
+    "height": 397
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
   },
   {
-   "file": "09-posted-by-seller-name-member-since",
-   "name": "Posted by · Seller name · Member Since",
-   "rect": {
-    "x": 0,
-    "y": 1469,
-    "width": 390,
-    "height": 181
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
-  },
-  {
-   "file": "10-similar-cars-rs-53-lacs-honda-civic-vti-",
-   "name": "Similar cars · Rs 53 Lacs · Honda Civic VTi Orie",
-   "rect": {
-    "x": 0,
-    "y": 1689,
-    "width": 390,
-    "height": 397
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
-  },
-  {
-   "file": "11-new-cars-for-similar-price-rs-41-75-lacs",
-   "name": "New cars for similar price · Rs 41.75 Lacs · Hon",
-   "rect": {
-    "x": 0,
-    "y": 2085,
-    "width": 390,
-    "height": 397
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
-  },
-  {
-   "file": "12-your-safety-matters-to-us-only-meet-in-p",
+   "file": "08-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 2501,
+    "y": 1474,
     "width": 390,
     "height": 236
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(17)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
   },
   {
-   "file": "13-honda-civic-vti-oriel-prosmatec-in-lahor",
-   "name": "Honda Civic VTi Oriel Prosmatec in Lahore · Hond",
+   "file": "09-rickshaw-and-chingchi-in-jallo-rickshaw-",
+   "name": "Rickshaw & Chingchi in Jallo · Rickshaw & Chingc",
    "rect": {
     "x": 8,
-    "y": 2784,
+    "y": 1757,
     "width": 374,
     "height": 27
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "14-categories",
+   "file": "10-categories",
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 2810,
+    "y": 1783,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "15-footer",
+   "file": "11-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2856,
+    "y": 1829,
     "width": 390,
     "height": 519
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "16-chat-call",
+   "file": "12-chat-call",
    "name": "Chat · Call",
    "rect": {
     "x": 0,
-    "y": 3310,
+    "y": 2283,
     "width": 390,
     "height": 65
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(19)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
   }
  ],
  "hotspots": [
@@ -234,15 +191,7 @@
    "width": 390,
    "height": 294,
    "kind": "button",
-   "label": "OLX Car InspectionBuy with confidence. Book inspection starting from Rs.4,500 on"
-  },
-  {
-   "x": 1225,
-   "y": 217,
-   "width": 280,
-   "height": 41,
-   "kind": "button",
-   "label": "Book Now"
+   "label": ""
   },
   {
    "x": 1560,
@@ -301,121 +250,43 @@
    "label": ""
   },
   {
-   "x": 4290,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
+   "x": 171,
+   "y": 533,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rickshaw-chingchi_c2026/q-chingchi-rickshaws",
+   "label": "Chingchi Rickshaws"
   },
   {
-   "x": 4680,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5070,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5460,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5850,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6240,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6630,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 7020,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 7410,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 32,
-   "y": 663,
-   "width": 326,
-   "height": 41,
-   "kind": "button",
-   "label": "Book Now"
-  },
-  {
-   "x": 142,
-   "y": 1077,
-   "width": 106,
-   "height": 27,
-   "kind": "button",
-   "label": "View +4 more"
+   "x": 171,
+   "y": 647,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rickshaw-chingchi_c2026/q-used-rickshaw-chingchi",
+   "label": "Used"
   },
   {
    "x": 16,
-   "y": 1219,
+   "y": 797,
    "width": 358,
    "height": 22,
    "kind": "button",
    "label": "View More"
   },
   {
-   "x": 138,
-   "y": 1427,
-   "width": 114,
-   "height": 27,
-   "kind": "button",
-   "label": "View +23 more"
-  },
-  {
    "x": 20,
-   "y": 1481,
+   "y": 850,
    "width": 354,
    "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/e2ccfb9b-76d0-49ba-89e5-190369d4d959",
-   "label": "Posted byPunjab Kissan Agriculture Machinery Store Member Since2018Active Ads2"
+   "href": "https://www.olx.com.pk/profile/feb12dc8-45be-47f4-a06e-e6dc21bf829b",
+   "label": "Posted byUser 6Cw67T Member Since2021Active Ads1"
   },
   {
    "x": 142,
-   "y": 1613,
+   "y": 982,
    "width": 110,
    "height": 27,
    "kind": "button",
@@ -423,97 +294,52 @@
   },
   {
    "x": 16,
-   "y": 1724,
+   "y": 1093,
    "width": 215,
    "height": 342,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/honda-civic-vti-oriel-prosmatec-2017-total-geneuine-iid-1118613384",
+   "href": "https://www.olx.com.pk/item/new-asia-2017-iid-1119887103",
    "label": "Listing"
   },
   {
    "x": 243,
-   "y": 1724,
+   "y": 1093,
    "width": 215,
    "height": 342,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/honda-civic-vti-oriel-prosmatec-ug-2016-total-geniune-iid-1119893527",
+   "href": "https://www.olx.com.pk/item/new-asia-raksha-for-sale-03XX-XXXXXXX-iid-1119848033",
    "label": "Listing"
   },
   {
    "x": 470,
-   "y": 1724,
+   "y": 1093,
    "width": 215,
    "height": 342,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/honda-civic-ug-iid-1119864096",
+   "href": "https://www.olx.com.pk/item/rickshaw-for-sale-iid-1119847971",
    "label": "Listing"
   },
   {
    "x": 697,
-   "y": 1724,
+   "y": 1093,
    "width": 215,
    "height": 342,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-2015-iid-1119888235",
+   "href": "https://www.olx.com.pk/item/suzuki-sprinter-110-iid-1119645014",
    "label": "Listing"
   },
   {
    "x": 924,
-   "y": 1724,
+   "y": 1093,
    "width": 215,
    "height": 342,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/toyota-raize-2021-iid-1119888928",
+   "href": "https://www.olx.com.pk/item/loader-for-sale-03XX-XXXXXXX-iid-1119652467",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2120,
-   "width": 215,
-   "height": 342,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/honda-br-v-2019-iid-1119886715",
-   "label": "Listing"
-  },
-  {
-   "x": 243,
-   "y": 2120,
-   "width": 215,
-   "height": 342,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/jetour-dashing-2026-applied-for-iid-1119869388",
-   "label": "Listing"
-  },
-  {
-   "x": 470,
-   "y": 2120,
-   "width": 215,
-   "height": 342,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/toyota-yaris-2026-iid-1119855709",
-   "label": "Listing"
-  },
-  {
-   "x": 697,
-   "y": 2120,
-   "width": 215,
-   "height": 342,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/toyota-yaris-2022-iid-1119677178",
-   "label": "Listing"
-  },
-  {
-   "x": 924,
-   "y": 2120,
-   "width": 215,
-   "height": 342,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/glory-2019-applied-for-iid-1119711619",
-   "label": "Listing"
-  },
-  {
-   "x": 16,
-   "y": 3323,
+   "y": 2296,
    "width": 175,
    "height": 40,
    "kind": "button",
@@ -521,60 +347,42 @@
   },
   {
    "x": 199,
-   "y": 3323,
+   "y": 2296,
    "width": 175,
    "height": 40,
    "kind": "button",
    "label": "Call"
   },
   {
-   "x": 159,
-   "y": 2789,
-   "width": 223,
+   "x": 231,
+   "y": 1762,
+   "width": 151,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/honda-cars_c84?filter=make_eq_cars-honda%2Cmodel_eq_cars-honda-17",
-   "label": "Honda Civic VTi Oriel Prosmatec in Lahore"
+   "href": "https://www.olx.com.pk/jallo_g5000542/rickshaw-chingchi_c2026",
+   "label": "Rickshaw & Chingchi in Jallo"
   },
   {
-   "x": 42,
-   "y": 2789,
-   "width": 87,
+   "x": 37,
+   "y": 1762,
+   "width": 164,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/honda-cars_c84?filter=make_eq_cars-honda",
-   "label": "Honda in Lahore"
+   "href": "https://www.olx.com.pk/lahore_g4060673/rickshaw-chingchi_c2026",
+   "label": "Rickshaw & Chingchi in Lahore"
   },
   {
-   "x": -98,
-   "y": 2789,
-   "width": 110,
+   "x": -105,
+   "y": 1762,
+   "width": 112,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/daroghewala_g5000010/cars_c84",
-   "label": "Cars in Daroghewala"
+   "href": "https://www.olx.com.pk/rickshaw-chingchi_c2026",
+   "label": "Rickshaw & Chingchi"
   },
   {
-   "x": -203,
-   "y": 2789,
-   "width": 75,
-   "height": 16,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84",
-   "label": "Cars in Lahore"
-  },
-  {
-   "x": -256,
-   "y": 2789,
-   "width": 23,
-   "height": 16,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/cars_c84",
-   "label": "Cars"
-  },
-  {
-   "x": -332,
-   "y": 2789,
+   "x": -181,
+   "y": 1762,
    "width": 46,
    "height": 16,
    "kind": "link",
@@ -582,8 +390,8 @@
    "label": "Vehicles"
   },
   {
-   "x": -394,
-   "y": 2789,
+   "x": -243,
+   "y": 1762,
    "width": 32,
    "height": 16,
    "kind": "link",
@@ -592,7 +400,7 @@
   },
   {
    "x": 16,
-   "y": 3155,
+   "y": 2128,
    "width": 84,
    "height": 33,
    "kind": "link",
@@ -601,7 +409,7 @@
   },
   {
    "x": 113,
-   "y": 3222,
+   "y": 2195,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -610,7 +418,7 @@
   },
   {
    "x": 157,
-   "y": 3222,
+   "y": 2195,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -619,7 +427,7 @@
   },
   {
    "x": 201,
-   "y": 3222,
+   "y": 2195,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -628,7 +436,7 @@
   },
   {
    "x": 245,
-   "y": 3222,
+   "y": 2195,
    "width": 32,
    "height": 41,
    "kind": "link",

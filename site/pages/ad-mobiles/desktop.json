@@ -2,13 +2,14 @@
  "id": "ad-mobiles",
  "title": "Ad: Mobiles",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/samsung-s23-official-pta-approved-with-box-cable-s23-s24-s25-iid-1119694652",
- "finalUrl": "https://www.olx.com.pk/item/samsung-s23-official-pta-approved-with-box-cable-s23-s24-s25-iid-1119694652",
+ "url": "https://www.olx.com.pk/item/oneplus-12-16gb512gb-official-pta-approved-iid-1119888322",
+ "finalUrl": "https://www.olx.com.pk/item/oneplus-12-16gb512gb-official-pta-approved-iid-1119888322",
  "width": 1440,
- "height": 3401,
+ "height": 3330,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T13:05:15.142Z",
+ "scrolled": false,
+ "captured": "2026-09-29T13:58:13.925Z",
  "sections": [
   {
    "file": "01-header",
@@ -105,7 +106,7 @@
     "x": 80,
     "y": 1367,
     "width": 820,
-    "height": 784
+    "height": 713
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
@@ -114,7 +115,7 @@
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 2191,
+    "y": 2119,
     "width": 820,
     "height": 459
    },
@@ -125,7 +126,7 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2689,
+    "y": 2617,
     "width": 820,
     "height": 171
    },
@@ -136,7 +137,7 @@
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2883,
+    "y": 2811,
     "width": 1440,
     "height": 173
    },
@@ -147,9 +148,9 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 3055,
+    "y": 2983,
     "width": 1440,
-    "height": 346
+    "height": 347
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   }
@@ -315,38 +316,29 @@
   {
    "x": 353,
    "y": 196,
-   "width": 155,
+   "width": 176,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/mobile-phones_c1453",
-   "label": "Mobile Phones in Lahore"
+   "href": "https://www.olx.com.pk/islamabad_g4060615/mobile-phones_c1453",
+   "label": "Mobile Phones in Islamabad"
   },
   {
-   "x": 538,
+   "x": 559,
    "y": 196,
-   "width": 184,
+   "width": 197,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/johar-town_g5000042/mobile-phones_c1453",
-   "label": "Mobile Phones in Johar Town"
+   "href": "https://www.olx.com.pk/dha-defence_g5000959/mobile-phones_c1453",
+   "label": "Mobile Phones in DHA Defence"
   },
   {
-   "x": 752,
+   "x": 786,
    "y": 196,
-   "width": 235,
+   "width": 158,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore-johar-town-phase-2_g3961/mobile-phones_c1453",
-   "label": "Mobile Phones in Johar Town Phase 2"
-  },
-  {
-   "x": 1017,
-   "y": 196,
-   "width": 246,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/lahore-johar-town-phase-2_g3961/samsung-mobile-phones_c1453?filter=make_eq_samsung",
-   "label": "Samsung Mobile in Johar Town Phase 2"
+   "href": "https://www.olx.com.pk/dha-defence_g5000959/one-plus-mobile-phones_c1453?filter=make_eq_one-plus",
+   "label": "One Plus in DHA Defence"
   },
   {
    "x": 832,
@@ -413,13 +405,29 @@
    "label": ""
   },
   {
+   "x": 5820,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 6640,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
    "x": 249,
    "y": 1257,
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-samsung-mobiles",
-   "label": "Samsung Mobile"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-oneplus-mobiles",
+   "label": "One Plus"
   },
   {
    "x": 659,
@@ -427,8 +435,8 @@
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-samsung-s23",
-   "label": "S23"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-oneplus-12",
+   "label": "12"
   },
   {
    "x": 249,
@@ -436,8 +444,8 @@
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-new-mobiles",
-   "label": "New"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-used-mobiles",
+   "label": "Used"
   },
   {
    "x": 659,
@@ -450,7 +458,7 @@
   },
   {
    "x": 60,
-   "y": 2421,
+   "y": 2349,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -458,142 +466,142 @@
   },
   {
    "x": 80,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-13-pro-max-iid-1119894299",
+   "href": "https://www.olx.com.pk/item/apple-iphone-13-pro-iid-1119896497",
    "label": "Listing"
   },
   {
    "x": 357,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-13-pro-iid-1119894294",
+   "href": "https://www.olx.com.pk/item/samsung-mobile-z-flip-6-12512gb-iid-1119896153",
    "label": "Listing"
   },
   {
    "x": 634,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/google-pixel-8-iid-1119894245",
+   "href": "https://www.olx.com.pk/item/apple-iphone-13-pro-max-iid-1119895472",
    "label": "Listing"
   },
   {
    "x": 900,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/vivo-y31d-8-256-golden-7200mah-battery-iid-1119891883",
+   "href": "https://www.olx.com.pk/item/apple-iphone-15-pro-max-iid-1119876915",
    "label": "Listing"
   },
   {
    "x": 1177,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/samsung-galaxy-s22-ultra-iid-1119892442",
+   "href": "https://www.olx.com.pk/item/apple-iphone-15-pro-jv-92-battery-health-iid-1119602696",
    "label": "Listing"
   },
   {
    "x": 1454,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/iphone-14-pro-128gb-exchange-possible-iid-1110682781",
+   "href": "https://www.olx.com.pk/item/apple-iphone-14-pro-max-iid-1119894722",
    "label": "Listing"
   },
   {
    "x": 1720,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/12-pro-max-pta-approved-256gb-iid-1119731742",
+   "href": "https://www.olx.com.pk/item/iphone-15-pro-256gb-non-pta-physical-dual-92-battery-health-iid-1119894115",
    "label": "Listing"
   },
   {
    "x": 1997,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/infinix-other-model-iid-1119893938",
+   "href": "https://www.olx.com.pk/item/google-pixel-8-pro-iid-1119893683",
    "label": "Listing"
   },
   {
    "x": 2274,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-14-pro-max-iid-1119892452",
+   "href": "https://www.olx.com.pk/item/apple-iphone-13-pro-iid-1119880675",
    "label": "Listing"
   },
   {
    "x": 2540,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/google-pixel-8-iid-1119892856",
+   "href": "https://www.olx.com.pk/item/apple-iphone-14-pro-slightly-used-first-owner-pta-approved-phone-iid-1119881767",
    "label": "Listing"
   },
   {
    "x": 2817,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-16-iphone-14-pro-max-iphone-18-pro-max-iid-1119893931",
+   "href": "https://www.olx.com.pk/item/apple-iphone-15-pro-iid-1119893088",
    "label": "Listing"
   },
   {
    "x": 3094,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/motorola-g77-iid-1119893912",
+   "href": "https://www.olx.com.pk/item/apple-iphone-13-pro-iid-1119892794",
    "label": "Listing"
   },
   {
    "x": 3360,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/pta-approve-iid-1119893844",
+   "href": "https://www.olx.com.pk/item/apple-iphone-16-pro-max-sim-working-life-time-iid-1119892057",
    "label": "Listing"
   },
   {
    "x": 3637,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/i-phone-13-pro-max-iid-1119892945",
+   "href": "https://www.olx.com.pk/item/apple-iphone-15-pro-max-jv-256-gb-iid-1119884038",
    "label": "Listing"
   },
   {
    "x": 3914,
-   "y": 2233,
+   "y": 2161,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/realme-gt-6-5g-iid-1119893146",
+   "href": "https://www.olx.com.pk/item/realme-gt-8-pro-16512-non-pta-iid-1119885317",
    "label": "Listing"
   },
   {
    "x": 880,
-   "y": 2421,
+   "y": 2349,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -605,8 +613,8 @@
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/91540992-7778-4943-865d-9daf6188ea2f",
-   "label": "Posted byMF Mobile Member Since2020Active Ads3"
+   "href": "https://www.olx.com.pk/profile/a086701d-05f9-480c-93b6-3413fe53445a",
+   "label": "Posted byAsad Member Since2022Active Ads2"
   },
   {
    "x": 940,
@@ -634,7 +642,7 @@
   },
   {
    "x": 960,
-   "y": 2965,
+   "y": 2893,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -643,7 +651,7 @@
   },
   {
    "x": 1096,
-   "y": 2965,
+   "y": 2893,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -652,7 +660,7 @@
   },
   {
    "x": 1232,
-   "y": 2965,
+   "y": 2893,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -661,7 +669,7 @@
   },
   {
    "x": 80,
-   "y": 3163,
+   "y": 3091,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -670,7 +678,7 @@
   },
   {
    "x": 80,
-   "y": 3195,
+   "y": 3123,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -679,7 +687,7 @@
   },
   {
    "x": 80,
-   "y": 3227,
+   "y": 3155,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -688,7 +696,7 @@
   },
   {
    "x": 80,
-   "y": 3259,
+   "y": 3187,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -697,7 +705,7 @@
   },
   {
    "x": 351,
-   "y": 3163,
+   "y": 3091,
    "width": 36,
    "height": 19,
    "kind": "link",
@@ -706,7 +714,7 @@
   },
   {
    "x": 351,
-   "y": 3195,
+   "y": 3123,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -715,7 +723,7 @@
   },
   {
    "x": 351,
-   "y": 3227,
+   "y": 3155,
    "width": 44,
    "height": 19,
    "kind": "link",
@@ -724,7 +732,7 @@
   },
   {
    "x": 351,
-   "y": 3259,
+   "y": 3187,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -733,7 +741,7 @@
   },
   {
    "x": 622,
-   "y": 3163,
+   "y": 3091,
    "width": 66,
    "height": 19,
    "kind": "link",
@@ -742,7 +750,7 @@
   },
   {
    "x": 622,
-   "y": 3195,
+   "y": 3123,
    "width": 78,
    "height": 19,
    "kind": "link",
@@ -751,7 +759,7 @@
   },
   {
    "x": 622,
-   "y": 3227,
+   "y": 3155,
    "width": 134,
    "height": 19,
    "kind": "link",
@@ -760,7 +768,7 @@
   },
   {
    "x": 893,
-   "y": 3163,
+   "y": 3091,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -769,7 +777,7 @@
   },
   {
    "x": 893,
-   "y": 3195,
+   "y": 3123,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -778,7 +786,7 @@
   },
   {
    "x": 893,
-   "y": 3227,
+   "y": 3155,
    "width": 90,
    "height": 19,
    "kind": "link",
@@ -787,7 +795,7 @@
   },
   {
    "x": 893,
-   "y": 3259,
+   "y": 3187,
    "width": 92,
    "height": 19,
    "kind": "link",
@@ -796,7 +804,7 @@
   },
   {
    "x": 1164,
-   "y": 3160,
+   "y": 3088,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -805,7 +813,7 @@
   },
   {
    "x": 1216,
-   "y": 3160,
+   "y": 3088,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -814,7 +822,7 @@
   },
   {
    "x": 1268,
-   "y": 3160,
+   "y": 3088,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -823,7 +831,7 @@
   },
   {
    "x": 1320,
-   "y": 3160,
+   "y": 3088,
    "width": 40,
    "height": 41,
    "kind": "link",

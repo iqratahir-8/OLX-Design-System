@@ -2,13 +2,14 @@
  "id": "ad-furniture",
  "title": "Ad: Furniture & Home Decor",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/sheesham-bed-set-beddressing-table-side-tables-stoolwooden-lamps-iid-1117708240",
- "finalUrl": "https://www.olx.com.pk/item/sheesham-bed-set-beddressing-table-side-tables-stoolwooden-lamps-iid-1117708240",
+ "url": "https://www.olx.com.pk/item/office-chairs-study-chairs-executive-chairs-computer-chairs-iid-1119242245",
+ "finalUrl": "https://www.olx.com.pk/item/office-chairs-study-chairs-executive-chairs-computer-chairs-iid-1119242245",
  "width": 1440,
- "height": 2953,
+ "height": 3002,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T13:12:20.341Z",
+ "scrolled": false,
+ "captured": "2026-09-29T14:05:20.114Z",
  "sections": [
   {
    "file": "01-header",
@@ -33,8 +34,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "03-home-furniture-and-home-decor-beds-and-w",
-   "name": "Home · Furniture & Home Decor · Beds & Wardrobes",
+   "file": "03-home-furniture-and-home-decor-office-fur",
+   "name": "Home · Furniture & Home Decor · Office Furniture",
    "rect": {
     "x": 80,
     "y": 193,
@@ -72,7 +73,7 @@
     "x": 940,
     "y": 532,
     "width": 420,
-    "height": 431
+    "height": 491
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
@@ -83,7 +84,7 @@
     "x": 80,
     "y": 1052,
     "width": 820,
-    "height": 146
+    "height": 116
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
@@ -92,9 +93,9 @@
    "name": "Details",
    "rect": {
     "x": 80,
-    "y": 1237,
+    "y": 1207,
     "width": 820,
-    "height": 121
+    "height": 80
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   },
@@ -103,9 +104,9 @@
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1397,
+    "y": 1326,
     "width": 820,
-    "height": 306
+    "height": 426
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
@@ -114,7 +115,7 @@
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 1742,
+    "y": 1791,
     "width": 820,
     "height": 459
    },
@@ -125,7 +126,7 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2240,
+    "y": 2289,
     "width": 820,
     "height": 171
    },
@@ -136,7 +137,7 @@
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2434,
+    "y": 2483,
     "width": 1440,
     "height": 173
    },
@@ -147,7 +148,7 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2606,
+    "y": 2655,
     "width": 1440,
     "height": 347
    },
@@ -306,38 +307,38 @@
   {
    "x": 330,
    "y": 196,
-   "width": 117,
+   "width": 95,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/beds-wardrobes_c1591",
-   "label": "Beds & Wardrobes"
+   "href": "https://www.olx.com.pk/office-furniture_c2028",
+   "label": "Office Furniture"
   },
   {
-   "x": 477,
+   "x": 455,
    "y": 196,
-   "width": 31,
+   "width": 78,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/beds_c707123",
-   "label": "Beds"
+   "href": "https://www.olx.com.pk/office-chairs_c707154",
+   "label": "Office Chairs"
   },
   {
-   "x": 538,
+   "x": 563,
    "y": 196,
-   "width": 92,
+   "width": 139,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/beds_c707123",
-   "label": "Beds in Lahore"
+   "href": "https://www.olx.com.pk/lahore_g4060673/office-chairs_c707154",
+   "label": "Office Chairs in Lahore"
   },
   {
-   "x": 660,
+   "x": 732,
    "y": 196,
-   "width": 88,
+   "width": 183,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/kahna_g5000043/beds_c707123",
-   "label": "Beds in Kahna"
+   "href": "https://www.olx.com.pk/raiwind-road_g5000741/office-chairs_c707154",
+   "label": "Office Chairs in Raiwind Road"
   },
   {
    "x": 832,
@@ -388,35 +389,138 @@
    "label": ""
   },
   {
+   "x": 4180,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5000,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5820,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 6640,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 7460,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 8280,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 9100,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 9920,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 10740,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 11560,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 12380,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 13200,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 14020,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 14840,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
    "x": 249,
-   "y": 1287,
+   "y": 1257,
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/beds_c707123/q-used-beds",
-   "label": "Used"
+   "href": "https://www.olx.com.pk/office-chairs_c707154/q-new-office-chairs",
+   "label": "New"
   },
   {
    "x": 659,
-   "y": 1287,
+   "y": 1257,
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/beds_c707123/q-bed-set",
-   "label": "Bed Set"
-  },
-  {
-   "x": 249,
-   "y": 1328,
-   "width": 213,
-   "height": 22,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/beds_c707123/q-wooden-beds",
-   "label": "Wooden"
+   "href": "https://www.olx.com.pk/office-chairs_c707154/q-computer-chairs",
+   "label": "Computer Chairs"
   },
   {
    "x": 60,
-   "y": 1972,
+   "y": 2021,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -424,142 +528,142 @@
   },
   {
    "x": 80,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/king-size-roya-complete-bed-set-iid-1119843483",
+   "href": "https://www.olx.com.pk/item/office-chair-revolving-chair-mesh-chair-computer-chair-iid-1087960886",
    "label": "Listing"
   },
   {
    "x": 357,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/bed-set-iid-1119813601",
+   "href": "https://www.olx.com.pk/item/computer-chairs-call-center-chairs-staff-chairs-office-chairs-iid-1113318259",
    "label": "Listing"
   },
   {
    "x": 634,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/chinioti-wooden-bed-set-iid-1119787921",
+   "href": "https://www.olx.com.pk/item/staff-chairs-office-chairs-iid-1119832301",
    "label": "Listing"
   },
   {
    "x": 900,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/home-used-furniture-like-a-new-iid-1119121724",
+   "href": "https://www.olx.com.pk/item/office-chairvisitor-chairoffice-furniturechairbedroom-chair-iid-1118177955",
    "label": "Listing"
   },
   {
    "x": 1177,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/teak-wood-bed-set-in-excellent-condition-iid-1119238756",
+   "href": "https://www.olx.com.pk/item/computer-chairs-office-chairs-chairs-for-sale-staff-chairs-iid-1113106574",
    "label": "Listing"
   },
   {
    "x": 1454,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/kids-used-set-wooden-furniture-excellent-condition-lahore-iid-1119718125",
+   "href": "https://www.olx.com.pk/item/branded-revolving-office-chairs-iid-1119809318",
    "label": "Listing"
   },
   {
    "x": 1720,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/bed-shokais-sheshadras-bed-sid-tabl-tabl-iid-1119704098",
+   "href": "https://www.olx.com.pk/item/office-chairs-revolving-chairs-office-furniture-executive-chairs-iid-1106248363",
    "label": "Listing"
   },
   {
    "x": 1997,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/luxurious-bedset-iid-1117080687",
+   "href": "https://www.olx.com.pk/item/chairs-and-table-iid-1119726478",
    "label": "Listing"
   },
   {
    "x": 2274,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/king-size-luxury-bed-for-sale-iid-1119309697",
+   "href": "https://www.olx.com.pk/item/office-chairs-for-sale-iid-1118133172",
    "label": "Listing"
   },
   {
    "x": 2540,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/wooden-bed-set-with-side-tables-settee-slightly-used-910-iid-1117498282",
+   "href": "https://www.olx.com.pk/item/office-chairs-and-tables-iid-1119448229",
    "label": "Listing"
   },
   {
    "x": 2817,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/wooden-bed-with-vanity-iid-1119690159",
+   "href": "https://www.olx.com.pk/item/computer-chairstudy-chairoffice-chairrevolving-chairvisitor-chairs-iid-1119020424",
    "label": "Listing"
   },
   {
    "x": 3094,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/original-sheesham-wood-total-bedroom-set-iid-1118365211",
+   "href": "https://www.olx.com.pk/item/chair-ok-ha-bas-set-thori-sy-poshish-honay-wali-ha-iid-1119639214",
    "label": "Listing"
   },
   {
    "x": 3360,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/made-of-solid-wood-with-deco-paint-iid-1119502008",
+   "href": "https://www.olx.com.pk/item/office-chairs-iid-1119607158",
    "label": "Listing"
   },
   {
    "x": 3637,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/-iid-1119399483",
+   "href": "https://www.olx.com.pk/item/chairsofficechairsgamingchairsbosschairrevolvingchairschairs-iid-1107443429",
    "label": "Listing"
   },
   {
    "x": 3914,
-   "y": 1784,
+   "y": 1833,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/space-saving-bunk-bed-with-staircase-storage-drawers-iid-1119403376",
+   "href": "https://www.olx.com.pk/item/office-chairstaff-chairsoffice-chairscomputer-chairs-iid-1119483449",
    "label": "Listing"
   },
   {
    "x": 880,
-   "y": 1972,
+   "y": 2021,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -569,14 +673,14 @@
    "x": 940,
    "y": 532,
    "width": 420,
-   "height": 142,
+   "height": 138,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/d24bfb2b-02b1-43f1-9ce8-c6d95df99737",
-   "label": "Posted byShuraim Member Since2024Active Ads3"
+   "href": "https://www.olx.com.pk/companies/agency-7596",
+   "label": "Posted byBADAR OFFICE FURNITURE Member Since2023Active Ads27"
   },
   {
    "x": 940,
-   "y": 689,
+   "y": 685,
    "width": 420,
    "height": 49,
    "kind": "button",
@@ -584,15 +688,23 @@
   },
   {
    "x": 940,
-   "y": 753,
+   "y": 749,
    "width": 420,
    "height": 49,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 1236,
+   "x": 940,
    "y": 813,
+   "width": 420,
+   "height": 49,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 1236,
+   "y": 873,
    "width": 124,
    "height": 30,
    "kind": "button",
@@ -600,7 +712,7 @@
   },
   {
    "x": 960,
-   "y": 2516,
+   "y": 2565,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -609,7 +721,7 @@
   },
   {
    "x": 1096,
-   "y": 2516,
+   "y": 2565,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -618,7 +730,7 @@
   },
   {
    "x": 1232,
-   "y": 2516,
+   "y": 2565,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -627,7 +739,7 @@
   },
   {
    "x": 80,
-   "y": 2714,
+   "y": 2763,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -636,7 +748,7 @@
   },
   {
    "x": 80,
-   "y": 2746,
+   "y": 2795,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -645,7 +757,7 @@
   },
   {
    "x": 80,
-   "y": 2778,
+   "y": 2827,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -654,7 +766,7 @@
   },
   {
    "x": 80,
-   "y": 2810,
+   "y": 2859,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -663,7 +775,7 @@
   },
   {
    "x": 351,
-   "y": 2714,
+   "y": 2763,
    "width": 36,
    "height": 19,
    "kind": "link",
@@ -672,7 +784,7 @@
   },
   {
    "x": 351,
-   "y": 2746,
+   "y": 2795,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -681,7 +793,7 @@
   },
   {
    "x": 351,
-   "y": 2778,
+   "y": 2827,
    "width": 44,
    "height": 19,
    "kind": "link",
@@ -690,7 +802,7 @@
   },
   {
    "x": 351,
-   "y": 2810,
+   "y": 2859,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -699,7 +811,7 @@
   },
   {
    "x": 622,
-   "y": 2714,
+   "y": 2763,
    "width": 66,
    "height": 19,
    "kind": "link",
@@ -708,7 +820,7 @@
   },
   {
    "x": 622,
-   "y": 2746,
+   "y": 2795,
    "width": 78,
    "height": 19,
    "kind": "link",
@@ -717,7 +829,7 @@
   },
   {
    "x": 622,
-   "y": 2778,
+   "y": 2827,
    "width": 134,
    "height": 19,
    "kind": "link",
@@ -726,7 +838,7 @@
   },
   {
    "x": 893,
-   "y": 2714,
+   "y": 2763,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -735,7 +847,7 @@
   },
   {
    "x": 893,
-   "y": 2746,
+   "y": 2795,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -744,7 +856,7 @@
   },
   {
    "x": 893,
-   "y": 2778,
+   "y": 2827,
    "width": 90,
    "height": 19,
    "kind": "link",
@@ -753,7 +865,7 @@
   },
   {
    "x": 893,
-   "y": 2810,
+   "y": 2859,
    "width": 92,
    "height": 19,
    "kind": "link",
@@ -762,7 +874,7 @@
   },
   {
    "x": 1164,
-   "y": 2711,
+   "y": 2760,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -771,7 +883,7 @@
   },
   {
    "x": 1216,
-   "y": 2711,
+   "y": 2760,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -780,7 +892,7 @@
   },
   {
    "x": 1268,
-   "y": 2711,
+   "y": 2760,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -789,7 +901,7 @@
   },
   {
    "x": 1320,
-   "y": 2711,
+   "y": 2760,
    "width": 40,
    "height": 41,
    "kind": "link",

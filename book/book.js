@@ -16,7 +16,7 @@
   ];
 
   const ABOUT = {
-    header: 'Full desktop header: top bar, search row and white background.',
+    header: 'Desktop header: top bar and search row, and the sticky header an ad shows after scrolling.',
     'top-bar': 'Light blue brand strip with the logo tab, Motors and Property, Login and Sell.',
     'login-button': 'Underlined Login link in the top bar.',
     'sell-button': 'Pill button with the yellow, teal and blue ring.',
@@ -24,7 +24,7 @@
     'search-bar': 'Search input with the petrol Search button.',
     'location-picker': 'Location field with pin and chevron.',
     'category-nav': 'All categories menu and quick category links under the header.',
-    'mobile-header': 'Mobile top block: verticals and the search field.',
+    'mobile-header': 'Mobile header in each of its states: at the top of the home page, compact after scrolling, on an ad after scrolling, and on a listing page.',
     'mobile-location-bar': 'Current location line on mobile.',
     breadcrumb: 'Path from Home to the current page.',
     'category-tiles': 'Home grid of category icons.',
@@ -83,9 +83,13 @@
       fetch(url('tokens/tokens.json')).then((r) => r.json()),
     ]);
     const byName = new Map();
+    // A component can have several states per viewport (a header at the top of
+    // the page and after scrolling); the first is its default.
+    const states = new Map();
     for (const c of components.components) {
-      if (!byName.has(c.name)) byName.set(c.name, {});
-      byName.get(c.name)[c.viewport] = c;
+      if (!byName.has(c.name)) { byName.set(c.name, {}); states.set(c.name, {}); }
+      byName.get(c.name)[c.viewport] ??= c;
+      (states.get(c.name)[c.viewport] ??= []).push(c);
     }
     const tplByPage = new Map();
     for (const t of templates.templates) {
@@ -96,7 +100,7 @@
     const listed = new Set(grouped.flatMap(([, n]) => n));
     const other = [...byName.keys()].filter((n) => !listed.has(n));
     if (other.length) grouped.push(['Other', other]);
-    data = { components: byName, templates: tplByPage, tokens, grouped, source: components.source, captured: components.captured };
+    data = { components: byName, states, templates: tplByPage, tokens, grouped, source: components.source, captured: components.captured };
   }
 
   // ---------- Navigation ----------
@@ -127,7 +131,7 @@
     const box = el(`<div class="book-crop" style="width:${rect.width * scale}px;height:${rect.height * scale}px"></div>`);
     const inner = el(`<div class="book-crop__inner" style="width:${rect.width}px;height:${rect.height}px;transform:scale(${scale})"></div>`);
     const frame = el(`<iframe loading="lazy" title="Live render" scrolling="no" tabindex="-1" style="left:${-rect.x}px;top:${-rect.y}px;width:${tpl.width}px;height:${tpl.height}px"></iframe>`);
-    frame.src = url(`templates/${tpl.page}/${tpl.viewport}.html`);
+    frame.src = url(tpl.html ?? `templates/${tpl.page}/${tpl.viewport}.html`);
     inner.append(frame);
     box.append(inner);
     snapToPixels(box);
@@ -164,8 +168,8 @@
 
   // Pull the component's own markup out of its standalone file (skipping the
   // ancestor wrappers that only carry class names) and indent it for reading.
-  async function componentMarkup(name, vp) {
-    const html = await fetch(url(`components/${name}/${vp}.html`)).then((r) => r.text());
+  async function componentMarkup(c) {
+    const html = await fetch(url(c.markup ?? `components/${c.name}/${c.viewport}.html`)).then((r) => r.text());
     const doc = new DOMParser().parseFromString(html, 'text/html');
     let node = doc.body.firstElementChild?.firstElementChild;
     while (node && node.children.length === 1 && (node.getAttribute('style') || '').includes('max-width:none;margin:0')) node = node.firstElementChild;
@@ -202,7 +206,7 @@
   function overview() {
     const p = page('OLX Pakistan', 'Design system book', `Every component and page template here is captured from <a href="${esc(data.source)}" target="_blank" rel="noopener">olx.com.pk</a> with its real markup and CSS, then checked pixel for pixel against the live site. Captured ${esc(data.captured)}.`);
     const nComp = data.components.size;
-    const nCaps = [...data.components.values()].reduce((n, o) => n + Object.keys(o).length, 0);
+    const nCaps = [...data.states.values()].reduce((n, o) => n + Object.values(o).reduce((m, l) => m + l.length, 0), 0);
     const nTpl = [...data.templates.values()].reduce((n, o) => n + Object.keys(o).length, 0);
     p.append(el(`<div class="book-stats">
       <div class="book-stat"><span class="book-stat__value">${nComp}</span><span class="book-stat__label">Components</span></div>
@@ -245,25 +249,33 @@
     const caps = data.components.get(name);
     if (!caps) return notFound();
     if (!caps[state.viewport]) state.viewport = caps.desktop ? 'desktop' : 'mobile';
-    const c = caps[state.viewport];
-    const tpl = data.templates.get(c.page)?.[c.viewport];
+    if (state.component !== name) { state.component = name; state.stateIdx = 0; }
+    const list = data.states.get(name)[state.viewport];
+    const c = list[Math.min(state.stateIdx, list.length - 1)];
+    const tpl = c.frame ?? data.templates.get(c.page)?.[c.viewport];
+    const png = url(c.png ?? `components/${name}/${c.viewport}.png`);
     const group = data.grouped.find(([, n]) => n.includes(name))?.[0] ?? 'Component';
     const p = page(group, title(name), esc(ABOUT[name] ?? ''));
     p.append(el(`<ul class="book-meta">
       <li>Source <strong>${esc(title(c.page))}</strong> page</li>
       <li>Size <strong>${c.width} × ${c.height}px</strong> (${esc(c.viewport)})</li>
-      <li>Markup <code>components/${esc(name)}/${esc(c.viewport)}.html</code></li>
+      <li>Markup <code>${esc(c.markup ?? `components/${name}/${c.viewport}.html`)}</code></li>
     </ul>`));
     const bar = el('<div class="book-toolbar"></div>');
     bar.append(segmented([['desktop', 'Desktop', !caps.desktop], ['mobile', 'Mobile', !caps.mobile]], state.viewport, (v) => { state.viewport = v; save(); route(); }, 'Viewport'));
     bar.append(segmented([['render', 'Live render'], ['shot', 'Screenshot'], ['html', 'HTML']], state.tab, (t) => { state.tab = t; save(); route(); }, 'View'));
     p.append(bar);
+    if (list.length > 1) {
+      const states = el('<div class="book-toolbar"></div>');
+      states.append(segmented(list.map((x, i) => [i, x.state ?? `State ${i + 1}`]), Math.min(state.stateIdx, list.length - 1), (i) => { state.stateIdx = i; route(); }, 'State'));
+      p.append(states);
+    }
 
     if (state.tab === 'html') {
       const box = el('<div class="book-code"><pre><code>Loading markup…</code></pre></div>');
       const copy = el('<button class="book-btn" type="button">Copy HTML</button>');
       box.append(copy);
-      componentMarkup(name, c.viewport).then((m) => {
+      componentMarkup(c).then((m) => {
         box.querySelector('code').textContent = m;
         copy.addEventListener('click', async () => {
           try { await navigator.clipboard.writeText(m); copy.textContent = 'Copied'; } catch {
@@ -277,14 +289,14 @@
     } else {
       const stage = el('<div class="book-stage"></div>');
       if (state.tab === 'shot') {
-        stage.append(el(`<img class="book-shot" alt="${esc(title(name))} on olx.com.pk" src="${url(`components/${name}/${c.viewport}.png`)}" style="width:${Math.min(c.width, stageWidth())}px">`));
+        stage.append(el(`<img class="book-shot" alt="${esc(title(name))} on olx.com.pk" src="${png}" style="width:${Math.min(c.width, stageWidth())}px">`));
         stage.append(el('<p class="book-stage__caption">Screenshot of the live element at capture time.</p>'));
       } else if (tpl && c.rect) {
         stage.append(crop(tpl, c.rect, stageWidth()));
-        stage.append(el(`<p class="book-stage__caption">Rendered from <code>templates/${esc(c.page)}/${esc(c.viewport)}.html</code>${c.width > stageWidth() ? ', scaled to fit' : ''}.</p>`));
+        stage.append(el(`<p class="book-stage__caption">Rendered from <code>${esc(tpl.html ?? `templates/${c.page}/${c.viewport}.html`)}</code>${c.width > stageWidth() ? ', scaled to fit' : ''}.</p>`));
       } else {
         stage.append(el('<p class="book-stage__caption">No live render for this capture. Showing the screenshot instead.</p>'));
-        stage.append(el(`<img class="book-shot" alt="" src="${url(`components/${name}/${c.viewport}.png`)}">`));
+        stage.append(el(`<img class="book-shot" alt="" src="${png}">`));
       }
       p.append(stage);
     }

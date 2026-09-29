@@ -2,13 +2,14 @@
  "id": "ad-business",
  "title": "Ad: Business, Industrial & Agriculture",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/tea-packing-complete-set-up-iid-1119742091",
- "finalUrl": "https://www.olx.com.pk/item/tea-packing-complete-set-up-iid-1119742091",
+ "url": "https://www.olx.com.pk/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
+ "finalUrl": "https://www.olx.com.pk/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
  "width": 390,
- "height": 2090,
+ "height": 2114,
  "dpr": 2,
  "overlay": false,
- "captured": "2026-09-29T13:35:32.034Z",
+ "scrolled": false,
+ "captured": "2026-09-29T14:02:47.563Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -28,7 +29,7 @@
     "x": 0,
     "y": 294,
     "width": 390,
-    "height": 122
+    "height": 146
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
@@ -37,18 +38,18 @@
    "name": "div",
    "rect": {
     "x": 0,
-    "y": 415,
+    "y": 439,
     "width": 390,
     "height": 51
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "04-description-a-complete-tea-packing-set-u",
-   "name": "Description · A complete tea packing set up with",
+   "file": "04-description-we-deal-in-all-kinds-of-rack",
+   "name": "Description · We deal in all kinds of Racks · Ra",
    "rect": {
     "x": 0,
-    "y": 465,
+    "y": 489,
     "width": 390,
     "height": 122
    },
@@ -59,18 +60,18 @@
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 0,
-    "y": 606,
+    "y": 630,
     "width": 390,
     "height": 181
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
   },
   {
-   "file": "06-related-ads-rs-17-50-lacs-stationery-sho",
-   "name": "Related ads · Rs 17.50 Lacs · Stationery Shop Co",
+   "file": "06-related-ads-rs-8-500-racks-pharmacy-rack",
+   "name": "Related ads · Rs 8,500 · Racks/ Pharmacy rack/ S",
    "rect": {
     "x": 0,
-    "y": 826,
+    "y": 850,
     "width": 390,
     "height": 371
    },
@@ -81,18 +82,18 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1216,
+    "y": 1240,
     "width": 390,
     "height": 236
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
   },
   {
-   "file": "08-other-businesses-in-garden-east-other-bu",
-   "name": "Other Businesses in Garden East · Other Business",
+   "file": "08-other-business-and-industry-in-township-",
+   "name": "Other Business & Industry in Township · Other Bu",
    "rect": {
     "x": 8,
-    "y": 1499,
+    "y": 1523,
     "width": 374,
     "height": 27
    },
@@ -103,7 +104,7 @@
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1525,
+    "y": 1549,
     "width": 390,
     "height": 47
    },
@@ -114,7 +115,7 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1571,
+    "y": 1595,
     "width": 390,
     "height": 519
    },
@@ -125,7 +126,7 @@
    "name": "Chat · Call",
    "rect": {
     "x": 0,
-    "y": 2025,
+    "y": 2049,
     "width": 390,
     "height": 65
    },
@@ -198,8 +199,112 @@
    "label": ""
   },
   {
+   "x": 2340,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2730,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3120,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3510,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3900,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4290,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4680,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5070,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5460,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5850,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 6240,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 6630,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 7020,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
    "x": 16,
-   "y": 565,
+   "y": 589,
    "width": 358,
    "height": 22,
    "kind": "button",
@@ -207,16 +312,16 @@
   },
   {
    "x": 20,
-   "y": 618,
+   "y": 642,
    "width": 354,
    "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/2206dd1c-d11f-456d-844d-7f2595a7adec",
-   "label": "Posted byBaloch Assadullah (email@example.com Member Since2017Active A"
+   "href": "https://www.olx.com.pk/profile/0b0e3e3b-4888-48c0-8d0f-81d341bc3e10",
+   "label": "Posted bySalman Racks Shop Member Since2022Active Ads15"
   },
   {
    "x": 142,
-   "y": 750,
+   "y": 774,
    "width": 110,
    "height": 27,
    "kind": "button",
@@ -224,77 +329,103 @@
   },
   {
    "x": 16,
-   "y": 861,
+   "y": 885,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/stationery-shop-complete-furniture-stock-machines-for-sale-iid-1119544277",
+   "href": "https://www.olx.com.pk/item/racks-pharmacy-rack-super-store-rack-wharehouse-rack-wall-rack-iid-1105138406",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 885,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/display-rack-storage-rack-grocery-racks-pharmacy-racks-industrial-iid-1104886865",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 885,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/heavy-duity-rack-bulk-rack-industrial-rack-shopping-trolley-basket-iid-1101612327",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 885,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/heavy-duty-rackstorage-rackangle-rackwarehouse-rackssteel-racks-iid-1102084269",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 885,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/super-market-racks-pharmacy-racks-industry-racks-warehouse-racks-iid-1117581701",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2038,
-   "width": 175,
+   "y": 2062,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 138,
+   "y": 2062,
+   "width": 114,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 199,
-   "y": 2038,
-   "width": 175,
+   "x": 260,
+   "y": 2062,
+   "width": 114,
    "height": 40,
    "kind": "button",
    "label": "Call"
   },
   {
-   "x": 210,
-   "y": 1504,
-   "width": 172,
+   "x": 178,
+   "y": 1528,
+   "width": 204,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/garden-east_g5000136/other-businesses_c708324",
-   "label": "Other Businesses in Garden East"
+   "href": "https://www.olx.com.pk/township_g5000078/other-business-industry_c2000",
+   "label": "Other Business & Industry in Township"
   },
   {
-   "x": -6,
-   "y": 1504,
-   "width": 186,
+   "x": -41,
+   "y": 1528,
+   "width": 189,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/jamshed-town_g5001542/other-businesses_c708324",
-   "label": "Other Businesses in Jamshed Town"
+   "href": "https://www.olx.com.pk/lahore_g4060673/other-business-industry_c2000",
+   "label": "Other Business & Industry in Lahore"
   },
   {
-   "x": -183,
-   "y": 1504,
-   "width": 147,
+   "x": -208,
+   "y": 1528,
+   "width": 137,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/karachi_g4060695/other-businesses_c708324",
-   "label": "Other Businesses in Karachi"
+   "href": "https://www.olx.com.pk/other-business-industry_c2000",
+   "label": "Other Business & Industry"
   },
   {
-   "x": -305,
-   "y": 1504,
-   "width": 92,
-   "height": 16,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/other-businesses_c708324",
-   "label": "Other Businesses"
-  },
-  {
-   "x": -424,
-   "y": 1504,
-   "width": 89,
-   "height": 16,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/business-for-sale_c1997",
-   "label": "Business for Sale"
-  },
-  {
-   "x": -629,
-   "y": 1504,
+   "x": -413,
+   "y": 1528,
    "width": 175,
    "height": 16,
    "kind": "link",
@@ -302,8 +433,8 @@
    "label": "Business, Industrial & Agriculture"
   },
   {
-   "x": -691,
-   "y": 1504,
+   "x": -475,
+   "y": 1528,
    "width": 32,
    "height": 16,
    "kind": "link",
@@ -312,16 +443,16 @@
   },
   {
    "x": 16,
-   "y": 1870,
+   "y": 1894,
    "width": 84,
    "height": 33,
    "kind": "link",
-   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
    "label": ""
   },
   {
    "x": 113,
-   "y": 1937,
+   "y": 1961,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -330,7 +461,7 @@
   },
   {
    "x": 157,
-   "y": 1937,
+   "y": 1961,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -339,7 +470,7 @@
   },
   {
    "x": 201,
-   "y": 1937,
+   "y": 1961,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -348,7 +479,7 @@
   },
   {
    "x": 245,
-   "y": 1937,
+   "y": 1961,
    "width": 32,
    "height": 41,
    "kind": "link",

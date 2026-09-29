@@ -2,13 +2,14 @@
  "id": "ad-property-for-sale",
  "title": "Ad: Property for Sale",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/commercial-building-for-sale-in-hali-road-lahore-iid-1119737809",
- "finalUrl": "https://www.olx.com.pk/item/commercial-building-for-sale-in-hali-road-lahore-iid-1119737809",
+ "url": "https://www.olx.com.pk/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
+ "finalUrl": "https://www.olx.com.pk/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
  "width": 1440,
- "height": 2945,
+ "height": 3406,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T13:06:45.380Z",
+ "scrolled": false,
+ "captured": "2026-09-29T13:59:35.279Z",
  "sections": [
   {
    "file": "01-header",
@@ -33,13 +34,13 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "03-home-property-for-sale-shops-offices-com",
-   "name": "Home · Property for Sale · Shops - Offices - Com",
+   "file": "03-home-property-for-sale-houses",
+   "name": "Home · Property for Sale · Houses",
    "rect": {
     "x": 80,
     "y": 193,
     "width": 1280,
-    "height": 52
+    "height": 26
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
@@ -48,7 +49,7 @@
    "name": "div",
    "rect": {
     "x": 80,
-    "y": 276,
+    "y": 250,
     "width": 1280,
     "height": 251
    },
@@ -59,7 +60,7 @@
    "name": "Gallery",
    "rect": {
     "x": 80,
-    "y": 558,
+    "y": 532,
     "width": 820,
     "height": 481
    },
@@ -70,7 +71,7 @@
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 940,
-    "y": 558,
+    "y": 532,
     "width": 420,
     "height": 431
    },
@@ -81,18 +82,18 @@
    "name": "Overview",
    "rect": {
     "x": 80,
-    "y": 1078,
+    "y": 1052,
     "width": 820,
     "height": 116
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "08-type-building-area",
-   "name": "Type · Building · Area",
+   "file": "08-furnished-unfurnished-bedrooms",
+   "name": "Furnished · Unfurnished · Bedrooms",
    "rect": {
     "x": 80,
-    "y": 1233,
+    "y": 1207,
     "width": 820,
     "height": 81
    },
@@ -103,7 +104,7 @@
    "name": "Details",
    "rect": {
     "x": 80,
-    "y": 1353,
+    "y": 1327,
     "width": 820,
     "height": 80
    },
@@ -114,7 +115,7 @@
    "name": "Features",
    "rect": {
     "x": 80,
-    "y": 1472,
+    "y": 1446,
     "width": 820,
     "height": 118
    },
@@ -125,9 +126,9 @@
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1629,
+    "y": 1603,
     "width": 820,
-    "height": 66
+    "height": 521
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(6)"
   },
@@ -136,9 +137,9 @@
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 1735,
+    "y": 2163,
     "width": 820,
-    "height": 459
+    "height": 492
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(7)"
   },
@@ -147,7 +148,7 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2233,
+    "y": 2694,
     "width": 820,
     "height": 171
    },
@@ -158,7 +159,7 @@
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2427,
+    "y": 2888,
     "width": 1440,
     "height": 173
    },
@@ -169,7 +170,7 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2599,
+    "y": 3060,
     "width": 1440,
     "height": 346
    },
@@ -328,51 +329,42 @@
   {
    "x": 281,
    "y": 196,
-   "width": 224,
+   "width": 47,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733",
-   "label": "Shops - Offices - Commercial Space"
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "Houses"
   },
   {
-   "x": 535,
+   "x": 358,
    "y": 196,
-   "width": 285,
+   "width": 108,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/shops-offices-commercial-space_c1733",
-   "label": "Shops - Offices - Commercial Space in Lahore"
+   "href": "https://www.olx.com.pk/lahore_g4060673/houses_c1721",
+   "label": "Houses in Lahore"
   },
   {
-   "x": 850,
+   "x": 496,
    "y": 196,
-   "width": 294,
+   "width": 202,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/gulberg_g7/shops-offices-commercial-space_c1733",
-   "label": "Shops - Offices - Commercial Space in Gulberg"
+   "href": "https://www.olx.com.pk/lahore-motorway-city_g5000591/houses_c1721",
+   "label": "Houses in Lahore Motorway City"
   },
   {
-   "x": 80,
-   "y": 221,
-   "width": 305,
+   "x": 728,
+   "y": 196,
+   "width": 260,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/gulberg-2_g5000031/shops-offices-commercial-space_c1733",
-   "label": "Shops - Offices - Commercial Space in Gulberg 2"
-  },
-  {
-   "x": 415,
-   "y": 221,
-   "width": 366,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/lahore-gulberg-2-block-g_g3814/shops-offices-commercial-space_c1733",
-   "label": "Shops - Offices - Commercial Space in Gulberg 2 - Block G"
+   "href": "https://www.olx.com.pk/lahore-lahore-motorway-city-block-p_g15568/houses_c1721",
+   "label": "Houses in Lahore Motorway City - Block P"
   },
   {
    "x": 832,
-   "y": 1254,
+   "y": 1228,
    "width": 48,
    "height": 49,
    "kind": "button",
@@ -380,7 +372,7 @@
   },
   {
    "x": 80,
-   "y": 1038,
+   "y": 1012,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -388,7 +380,7 @@
   },
   {
    "x": 900,
-   "y": 1038,
+   "y": 1012,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -396,7 +388,39 @@
   },
   {
    "x": 1720,
-   "y": 1038,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2540,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3360,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4180,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5000,
+   "y": 1012,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -404,16 +428,16 @@
   },
   {
    "x": 249,
-   "y": 1403,
+   "y": 1377,
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-3rd-floor-commercial",
-   "label": "3"
+   "href": "https://www.olx.com.pk/houses_c1721/q-finished-houses",
+   "label": "Finished"
   },
   {
    "x": 60,
-   "y": 1965,
+   "y": 2410,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -421,88 +445,142 @@
   },
   {
    "x": 80,
-   "y": 1777,
+   "y": 2205,
    "width": 266,
-   "height": 415,
+   "height": 448,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/6-kanal-commercial-building-for-for-sale-in-upper-mall-gulberg-jail-road-canal-road-zaman-park-gor-lahore-iid-1119030324",
+   "href": "https://www.olx.com.pk/item/5-marla-triple-story-luxury-house-for-sale-al-rehman-garden-ph-2-block-i-lahore-iid-1119863194",
    "label": "Listing"
   },
   {
    "x": 357,
-   "y": 1777,
+   "y": 2205,
    "width": 266,
-   "height": 415,
+   "height": 448,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/8-kanal-commercial-property-located-at-prime-location-facing-main-boulevard-gulberg-at-a-price-of-28-crore-per-kanal-iid-1119113657",
+   "href": "https://www.olx.com.pk/item/1-kanal-double-story-house-for-sale-in-lahore-motorway-city-iid-1119850691",
    "label": "Listing"
   },
   {
    "x": 634,
-   "y": 1777,
+   "y": 2205,
    "width": 266,
-   "height": 415,
+   "height": 448,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/gulberg-estate-offer-50000-square-feet-office-for-sale-main-boulevard-gulberg-garden-town-mall-road-jail-rosd-lahore-iid-1118992919",
+   "href": "https://www.olx.com.pk/item/realcon-real-estate-builders-offers-a-brand-new-ultra-modern-house-in-tulip-block-iid-1119528857",
    "label": "Listing"
   },
   {
    "x": 900,
-   "y": 1777,
+   "y": 2205,
    "width": 266,
-   "height": 415,
+   "height": 448,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-kanal-commercial-building-for-sale-mall-road-upper-mall-jail-road-and-gulberg-qurshi-road-hali-ghulab-zahooe-elahi-road-lahore-iid-1119030320",
+   "href": "https://www.olx.com.pk/item/5-marla-modern-house-for-sale-elegant-design-iid-1119503853",
    "label": "Listing"
   },
   {
    "x": 1177,
-   "y": 1777,
+   "y": 2205,
    "width": 266,
-   "height": 415,
+   "height": 448,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/end-your-search-for-on-excellent-location-building-here-and-sale-now-iid-1118755797",
+   "href": "https://www.olx.com.pk/item/10-marla-brand-new-slightly-used-single-story-house-urgent-for-prime-location-al-rehman-garden-ph2-iid-1119008093",
    "label": "Listing"
   },
   {
    "x": 1454,
-   "y": 1777,
+   "y": 2205,
    "width": 266,
-   "height": 415,
+   "height": 448,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/gulberg-estate-offer5-kanal-commercial-building-for-salr-in-main-boulevard-gulberg-lahore-iid-1118551478",
+   "href": "https://www.olx.com.pk/item/5-marla-luxury-house-triple-story-al-rehman-garden-ph-2-ferozwala-lahore-iid-1119812053",
    "label": "Listing"
   },
   {
    "x": 1720,
-   "y": 1777,
+   "y": 2205,
    "width": 266,
-   "height": 415,
+   "height": 448,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/gulberg-estate-offer-commercial-building-for-salr-in-main-boulevard-gulberg-jail-road-mall-roadlahore-iid-1119503677",
+   "href": "https://www.olx.com.pk/item/5-marla-brand-new-house-al-rehman-garden-phase-2-iid-1119778897",
    "label": "Listing"
   },
   {
    "x": 1997,
-   "y": 1777,
+   "y": 2205,
    "width": 266,
-   "height": 415,
+   "height": 448,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/building-of-4-kanal-is-available-for-sale-in-mall-road-iid-1118755867",
+   "href": "https://www.olx.com.pk/item/luxury-10-marla-smart-home-lahore-smart-city-gt-road-installment-available-hot-investment-iid-1119219417",
    "label": "Listing"
   },
   {
    "x": 2274,
-   "y": 1777,
+   "y": 2205,
    "width": 266,
-   "height": 415,
+   "height": 448,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/affordable-building-available-for-sale-in-mcleod-road-iid-1118755827",
+   "href": "https://www.olx.com.pk/item/5-marla-furnished-luxury-house-for-sale-iid-1119556101",
+   "label": "Listing"
+  },
+  {
+   "x": 2540,
+   "y": 2205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/5-marla-modern-house-for-sale-iid-1119614518",
+   "label": "Listing"
+  },
+  {
+   "x": 2817,
+   "y": 2205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/5-marla-used-house-registry-for-sale-al-rehman-garden-phase-2-iid-1119723313",
+   "label": "Listing"
+  },
+  {
+   "x": 3094,
+   "y": 2205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/5-marla-luxury-house-for-sale-25-storey-hot-location-iid-1119723290",
+   "label": "Listing"
+  },
+  {
+   "x": 3360,
+   "y": 2205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/5-marla-luxury-house-for-sale-25-storey-hot-location-iid-1119723288",
+   "label": "Listing"
+  },
+  {
+   "x": 3637,
+   "y": 2205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/5-marla-modern-house-for-sale-iid-1119615499",
+   "label": "Listing"
+  },
+  {
+   "x": 3914,
+   "y": 2205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/5-marla-brand-new-ultra-modern-double-storey-house-for-sale-in-al-jalil-garden-tulip-block-west-lahore-iid-1119490600",
    "label": "Listing"
   },
   {
    "x": 880,
-   "y": 1965,
+   "y": 2410,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -510,16 +588,16 @@
   },
   {
    "x": 940,
-   "y": 558,
+   "y": 532,
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/85f3ce4a-7f41-450e-81cc-53b874d851c5",
-   "label": "Posted byNayab Member Since2025Active Ads1"
+   "href": "https://www.olx.com.pk/profile/77f0cec8-322f-49b5-83c5-24efb8f09f7a",
+   "label": "Posted byMalik Rizwan Member Since2020Active Ads1"
   },
   {
    "x": 940,
-   "y": 715,
+   "y": 689,
    "width": 420,
    "height": 49,
    "kind": "button",
@@ -527,7 +605,7 @@
   },
   {
    "x": 940,
-   "y": 779,
+   "y": 753,
    "width": 420,
    "height": 49,
    "kind": "button",
@@ -535,7 +613,7 @@
   },
   {
    "x": 1236,
-   "y": 839,
+   "y": 813,
    "width": 124,
    "height": 30,
    "kind": "button",
@@ -543,7 +621,7 @@
   },
   {
    "x": 960,
-   "y": 2509,
+   "y": 2970,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -552,7 +630,7 @@
   },
   {
    "x": 1096,
-   "y": 2509,
+   "y": 2970,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -561,7 +639,7 @@
   },
   {
    "x": 1232,
-   "y": 2509,
+   "y": 2970,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -570,7 +648,7 @@
   },
   {
    "x": 80,
-   "y": 2707,
+   "y": 3168,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -579,7 +657,7 @@
   },
   {
    "x": 80,
-   "y": 2739,
+   "y": 3200,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -588,7 +666,7 @@
   },
   {
    "x": 80,
-   "y": 2771,
+   "y": 3232,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -597,7 +675,7 @@
   },
   {
    "x": 80,
-   "y": 2803,
+   "y": 3263,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -606,7 +684,7 @@
   },
   {
    "x": 351,
-   "y": 2707,
+   "y": 3168,
    "width": 36,
    "height": 19,
    "kind": "link",
@@ -615,7 +693,7 @@
   },
   {
    "x": 351,
-   "y": 2739,
+   "y": 3200,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -624,7 +702,7 @@
   },
   {
    "x": 351,
-   "y": 2771,
+   "y": 3232,
    "width": 44,
    "height": 19,
    "kind": "link",
@@ -633,7 +711,7 @@
   },
   {
    "x": 351,
-   "y": 2803,
+   "y": 3263,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -642,7 +720,7 @@
   },
   {
    "x": 622,
-   "y": 2707,
+   "y": 3168,
    "width": 66,
    "height": 19,
    "kind": "link",
@@ -651,7 +729,7 @@
   },
   {
    "x": 622,
-   "y": 2739,
+   "y": 3200,
    "width": 78,
    "height": 19,
    "kind": "link",
@@ -660,7 +738,7 @@
   },
   {
    "x": 622,
-   "y": 2771,
+   "y": 3232,
    "width": 134,
    "height": 19,
    "kind": "link",
@@ -669,7 +747,7 @@
   },
   {
    "x": 893,
-   "y": 2707,
+   "y": 3168,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -678,7 +756,7 @@
   },
   {
    "x": 893,
-   "y": 2739,
+   "y": 3200,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -687,7 +765,7 @@
   },
   {
    "x": 893,
-   "y": 2771,
+   "y": 3232,
    "width": 90,
    "height": 19,
    "kind": "link",
@@ -696,7 +774,7 @@
   },
   {
    "x": 893,
-   "y": 2803,
+   "y": 3263,
    "width": 92,
    "height": 19,
    "kind": "link",
@@ -705,7 +783,7 @@
   },
   {
    "x": 1164,
-   "y": 2704,
+   "y": 3165,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -714,7 +792,7 @@
   },
   {
    "x": 1216,
-   "y": 2704,
+   "y": 3165,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -723,7 +801,7 @@
   },
   {
    "x": 1268,
-   "y": 2704,
+   "y": 3165,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -732,7 +810,7 @@
   },
   {
    "x": 1320,
-   "y": 2704,
+   "y": 3165,
    "width": 40,
    "height": 41,
    "kind": "link",

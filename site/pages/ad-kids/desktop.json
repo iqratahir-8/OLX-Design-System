@@ -2,13 +2,14 @@
  "id": "ad-kids",
  "title": "Ad: Kids",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/kids-eelctric-jeep-kids-2-seater-jeeps-kids-electric-carkids-jeep-iid-1104247981",
- "finalUrl": "https://www.olx.com.pk/item/kids-eelctric-jeep-kids-2-seater-jeeps-kids-electric-carkids-jeep-iid-1104247981",
+ "url": "https://www.olx.com.pk/item/kids-jeep-4x4kids-carsbaby-carskids-electric-jeepspolice-jeep-iid-1116753440",
+ "finalUrl": "https://www.olx.com.pk/item/kids-jeep-4x4kids-carsbaby-carskids-electric-jeepspolice-jeep-iid-1116753440",
  "width": 1440,
- "height": 3456,
+ "height": 6662,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T13:14:27.078Z",
+ "scrolled": false,
+ "captured": "2026-09-29T14:07:54.819Z",
  "sections": [
   {
    "file": "01-header",
@@ -72,7 +73,7 @@
     "x": 940,
     "y": 532,
     "width": 420,
-    "height": 431
+    "height": 495
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
@@ -105,51 +106,62 @@
     "x": 80,
     "y": 1326,
     "width": 820,
-    "height": 880
+    "height": 27
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(1)"
   },
   {
-   "file": "10-related-ads",
+   "file": "10-humari-shop-par-aap-ko-bachon-ki-mukhtal",
+   "name": "Humari shop par aap ko bachon ki mukhtalif cars ",
+   "rect": {
+    "x": 80,
+    "y": 1369,
+    "width": 770,
+    "height": 4040
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "11-related-ads",
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 2245,
+    "y": 5451,
     "width": 820,
-    "height": 460
+    "height": 459
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "11-your-safety-matters-to-us-only-meet-in-p",
+   "file": "12-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2744,
+    "y": 5949,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "12-find-amazing-deals-on-the-go-download-ol",
+   "file": "13-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2938,
+    "y": 6143,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "13-footer",
+   "file": "14-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 3110,
+    "y": 6315,
     "width": 1440,
-    "height": 346
+    "height": 347
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   }
@@ -324,20 +336,20 @@
   {
    "x": 403,
    "y": 196,
-   "width": 117,
+   "width": 138,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/kids-cars_c707090",
-   "label": "Kids Cars in Lahore"
+   "href": "https://www.olx.com.pk/islamabad_g4060615/kids-cars_c707090",
+   "label": "Kids Cars in Islamabad"
   },
   {
-   "x": 550,
+   "x": 571,
    "y": 196,
-   "width": 135,
+   "width": 164,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/township_g5000078/kids-cars_c707090",
-   "label": "Kids Cars in Township"
+   "href": "https://www.olx.com.pk/7-wonder-city_g18841/kids-cars_c707090",
+   "label": "Kids Cars in 7 Wonder City"
   },
   {
    "x": 832,
@@ -510,7 +522,7 @@
   },
   {
    "x": 60,
-   "y": 2475,
+   "y": 5681,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -518,146 +530,12 @@
   },
   {
    "x": 80,
-   "y": 2287,
+   "y": 5493,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/no-china-plastic-original-fiber-iid-1119846892",
+   "href": "https://www.olx.com.pk/item/baby-electric-car-iid-1117574686",
    "label": "Listing"
-  },
-  {
-   "x": 357,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/kids-battery-car-iid-1116105173",
-   "label": "Listing"
-  },
-  {
-   "x": 634,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/baby-car-iid-1119807344",
-   "label": "Listing"
-  },
-  {
-   "x": 900,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/baby-motor-car-baby-motor-jeep-kids-electric-car-electric-jeep-iid-1106465775",
-   "label": "Listing"
-  },
-  {
-   "x": 1177,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/hira-baba-toys-kids-car-jeep-double-motor-battery-jeep-iid-1112921816",
-   "label": "Listing"
-  },
-  {
-   "x": 1454,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/kids-ride-on-car-4x4-dancing-car-iid-1119801354",
-   "label": "Listing"
-  },
-  {
-   "x": 1720,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/kids-electric-car-kids-jeep-kids-rideon-kids-car-baby-car-iid-1110674332",
-   "label": "Listing"
-  },
-  {
-   "x": 1997,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/baby-electric-car-iid-1119767369",
-   "label": "Listing"
-  },
-  {
-   "x": 2274,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/baby-motor-car-baby-motor-jeep-kids-electric-car-electric-jeep-iid-1106465750",
-   "label": "Listing"
-  },
-  {
-   "x": 2540,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/kids-electric-jeep-4-by-4-almost-new-iid-1119702688",
-   "label": "Listing"
-  },
-  {
-   "x": 2817,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/ride-car-with-remote-iid-1119764377",
-   "label": "Listing"
-  },
-  {
-   "x": 3094,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/kids-jeep-iid-1119511294",
-   "label": "Listing"
-  },
-  {
-   "x": 3360,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/battery-operated-atv-car-quad-for-5-12-years-iid-1118535695",
-   "label": "Listing"
-  },
-  {
-   "x": 3637,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/urgent-sale-iid-1119726689",
-   "label": "Listing"
-  },
-  {
-   "x": 3914,
-   "y": 2287,
-   "width": 266,
-   "height": 416,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/kids-cars-baby-jeep-kids-jeep-kids-electic-jeep-baby-motor-jeep-iid-1110675588",
-   "label": "Listing"
-  },
-  {
-   "x": 880,
-   "y": 2475,
-   "width": 40,
-   "height": 41,
-   "kind": "button",
-   "label": ""
   },
   {
    "x": 940,
@@ -665,8 +543,8 @@
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/219db912-7c4c-4d96-8962-e582a25c74d0",
-   "label": "Posted byAbdullah Butt Member Since2018Active Ads30"
+   "href": "https://www.olx.com.pk/profile/62acdd66-e4ad-4930-9cd6-17354be49264",
+   "label": "Posted byHK Juniours Member Since2025Active Ads15"
   },
   {
    "x": 940,
@@ -685,8 +563,16 @@
    "label": "Chat"
   },
   {
+   "x": 940,
+   "y": 817,
+   "width": 420,
+   "height": 49,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
    "x": 1236,
-   "y": 813,
+   "y": 877,
    "width": 124,
    "height": 30,
    "kind": "button",
@@ -694,7 +580,7 @@
   },
   {
    "x": 960,
-   "y": 3020,
+   "y": 6225,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -703,7 +589,7 @@
   },
   {
    "x": 1096,
-   "y": 3020,
+   "y": 6225,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -712,7 +598,7 @@
   },
   {
    "x": 1232,
-   "y": 3020,
+   "y": 6225,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -721,7 +607,7 @@
   },
   {
    "x": 80,
-   "y": 3217,
+   "y": 6423,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -730,7 +616,7 @@
   },
   {
    "x": 80,
-   "y": 3249,
+   "y": 6455,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -739,7 +625,7 @@
   },
   {
    "x": 80,
-   "y": 3281,
+   "y": 6487,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -748,7 +634,7 @@
   },
   {
    "x": 80,
-   "y": 3313,
+   "y": 6519,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -757,7 +643,7 @@
   },
   {
    "x": 351,
-   "y": 3217,
+   "y": 6423,
    "width": 36,
    "height": 19,
    "kind": "link",
@@ -766,7 +652,7 @@
   },
   {
    "x": 351,
-   "y": 3249,
+   "y": 6455,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -775,7 +661,7 @@
   },
   {
    "x": 351,
-   "y": 3281,
+   "y": 6487,
    "width": 44,
    "height": 19,
    "kind": "link",
@@ -784,7 +670,7 @@
   },
   {
    "x": 351,
-   "y": 3313,
+   "y": 6519,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -793,7 +679,7 @@
   },
   {
    "x": 622,
-   "y": 3217,
+   "y": 6423,
    "width": 66,
    "height": 19,
    "kind": "link",
@@ -802,7 +688,7 @@
   },
   {
    "x": 622,
-   "y": 3249,
+   "y": 6455,
    "width": 78,
    "height": 19,
    "kind": "link",
@@ -811,7 +697,7 @@
   },
   {
    "x": 622,
-   "y": 3281,
+   "y": 6487,
    "width": 134,
    "height": 19,
    "kind": "link",
@@ -820,7 +706,7 @@
   },
   {
    "x": 893,
-   "y": 3217,
+   "y": 6423,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -829,7 +715,7 @@
   },
   {
    "x": 893,
-   "y": 3249,
+   "y": 6455,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -838,7 +724,7 @@
   },
   {
    "x": 893,
-   "y": 3281,
+   "y": 6487,
    "width": 90,
    "height": 19,
    "kind": "link",
@@ -847,7 +733,7 @@
   },
   {
    "x": 893,
-   "y": 3313,
+   "y": 6519,
    "width": 92,
    "height": 19,
    "kind": "link",
@@ -856,7 +742,7 @@
   },
   {
    "x": 1164,
-   "y": 3214,
+   "y": 6420,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -865,7 +751,7 @@
   },
   {
    "x": 1216,
-   "y": 3214,
+   "y": 6420,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -874,7 +760,7 @@
   },
   {
    "x": 1268,
-   "y": 3214,
+   "y": 6420,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -883,7 +769,7 @@
   },
   {
    "x": 1320,
-   "y": 3214,
+   "y": 6420,
    "width": 40,
    "height": 41,
    "kind": "link",

@@ -7,12 +7,12 @@
       "page": "ad-detail",
       "viewport": "desktop",
       "width": 820,
-      "height": 282,
+      "height": 497,
       "rect": {
         "x": 80,
         "y": 1367,
         "width": 820,
-        "height": 282
+        "height": 497
       }
     },
     {
@@ -377,7 +377,29 @@
         "y": 0,
         "width": 1440,
         "height": 143
-      }
+      },
+      "state": "Default"
+    },
+    {
+      "name": "header",
+      "page": "ad-scrolled",
+      "viewport": "desktop",
+      "state": "On an ad, scrolled",
+      "width": 1440,
+      "height": 150,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 150
+      },
+      "frame": {
+        "html": "site/pages/ad-scrolled/desktop.html",
+        "width": 1440,
+        "height": 900
+      },
+      "png": "site/pages/ad-scrolled/sections/desktop/01-sticky-ad-info-header.png",
+      "markup": "site/pages/ad-scrolled/sections/desktop/01-sticky-ad-info-header.html"
     },
     {
       "name": "listing-card",
@@ -507,7 +529,71 @@
         "y": 0,
         "width": 390,
         "height": 140
-      }
+      },
+      "state": "At the top"
+    },
+    {
+      "name": "mobile-header",
+      "page": "home-scrolled",
+      "viewport": "mobile",
+      "state": "Scrolled (compact)",
+      "width": 390,
+      "height": 116,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 116
+      },
+      "frame": {
+        "html": "site/pages/home-scrolled/mobile.html",
+        "width": 390,
+        "height": 664
+      },
+      "png": "site/pages/home-scrolled/sections/mobile/01-header-scrolled.png",
+      "markup": "site/pages/home-scrolled/sections/mobile/01-header-scrolled.html"
+    },
+    {
+      "name": "mobile-header",
+      "page": "ad-scrolled",
+      "viewport": "mobile",
+      "state": "On an ad, scrolled",
+      "width": 390,
+      "height": 166,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 166
+      },
+      "frame": {
+        "html": "site/pages/ad-scrolled/mobile.html",
+        "width": 390,
+        "height": 664
+      },
+      "png": "site/pages/ad-scrolled/sections/mobile/01-header-scrolled.png",
+      "markup": "site/pages/ad-scrolled/sections/mobile/01-header-scrolled.html"
+    },
+    {
+      "name": "mobile-header",
+      "page": "sub-mobile-phones",
+      "viewport": "mobile",
+      "state": "On a listing page",
+      "width": 390,
+      "height": 139,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 139
+      },
+      "frame": {
+        "html": "site/pages/sub-mobile-phones/mobile.html",
+        "width": 390,
+        "height": 6189
+      },
+      "png": "site/pages/sub-mobile-phones/sections/mobile/01-header.png",
+      "markup": "site/pages/sub-mobile-phones/sections/mobile/01-header.html"
     },
     {
       "name": "mobile-location-bar",
@@ -540,12 +626,12 @@
       "page": "ad-detail",
       "viewport": "desktop",
       "width": 820,
-      "height": 459,
+      "height": 460,
       "rect": {
         "x": 80,
-        "y": 1688,
+        "y": 1903,
         "width": 820,
-        "height": 459
+        "height": 460
       }
     },
     {
@@ -569,7 +655,7 @@
       "height": 171,
       "rect": {
         "x": 80,
-        "y": 2186,
+        "y": 2402,
         "width": 820,
         "height": 171
       }

@@ -2,13 +2,14 @@
  "id": "ad-business",
  "title": "Ad: Business, Industrial & Agriculture",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/tea-packing-complete-set-up-iid-1119742091",
- "finalUrl": "https://www.olx.com.pk/item/tea-packing-complete-set-up-iid-1119742091",
+ "url": "https://www.olx.com.pk/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
+ "finalUrl": "https://www.olx.com.pk/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
  "width": 1440,
- "height": 2548,
+ "height": 3672,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T13:35:13.068Z",
+ "scrolled": false,
+ "captured": "2026-09-29T14:02:25.052Z",
  "sections": [
   {
    "file": "01-header",
@@ -34,7 +35,7 @@
   },
   {
    "file": "03-home-business-industrial-and-agriculture",
-   "name": "Home · Business, Industrial & Agriculture · Busi",
+   "name": "Home · Business, Industrial & Agriculture · Othe",
    "rect": {
     "x": 80,
     "y": 193,
@@ -72,7 +73,7 @@
     "x": 940,
     "y": 532,
     "width": 420,
-    "height": 431
+    "height": 495
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
@@ -94,49 +95,60 @@
     "x": 80,
     "y": 1207,
     "width": 820,
-    "height": 91
+    "height": 27
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3) > :nth-child(1)"
   },
   {
-   "file": "09-related-ads",
+   "file": "09-we-deal-in-all-kinds-of-racks-racks-type",
+   "name": "We deal in all kinds of Racks · Racks Types : · ",
+   "rect": {
+    "x": 80,
+    "y": 1250,
+    "width": 756,
+    "height": 1169
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "10-related-ads",
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 1337,
+    "y": 2461,
     "width": 820,
     "height": 459
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "10-your-safety-matters-to-us-only-meet-in-p",
+   "file": "11-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 1835,
+    "y": 2959,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "11-find-amazing-deals-on-the-go-download-ol",
+   "file": "12-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2029,
+    "y": 3153,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "12-footer",
+   "file": "13-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2201,
+    "y": 3325,
     "width": 1440,
     "height": 347
    },
@@ -295,47 +307,29 @@
   {
    "x": 378,
    "y": 196,
-   "width": 103,
+   "width": 158,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/business-for-sale_c1997",
-   "label": "Business for Sale"
+   "href": "https://www.olx.com.pk/other-business-industry_c2000",
+   "label": "Other Business & Industry"
   },
   {
-   "x": 511,
+   "x": 566,
    "y": 196,
-   "width": 106,
+   "width": 219,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/other-businesses_c708324",
-   "label": "Other Businesses"
+   "href": "https://www.olx.com.pk/lahore_g4060673/other-business-industry_c2000",
+   "label": "Other Business & Industry in Lahore"
   },
   {
-   "x": 647,
+   "x": 815,
    "y": 196,
-   "width": 169,
+   "width": 237,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/karachi_g4060695/other-businesses_c708324",
-   "label": "Other Businesses in Karachi"
-  },
-  {
-   "x": 846,
-   "y": 196,
-   "width": 218,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/jamshed-town_g5001542/other-businesses_c708324",
-   "label": "Other Businesses in Jamshed Town"
-  },
-  {
-   "x": 1094,
-   "y": 196,
-   "width": 199,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/garden-east_g5000136/other-businesses_c708324",
-   "label": "Other Businesses in Garden East"
+   "href": "https://www.olx.com.pk/township_g5000078/other-business-industry_c2000",
+   "label": "Other Business & Industry in Township"
   },
   {
    "x": 832,
@@ -394,8 +388,112 @@
    "label": ""
   },
   {
+   "x": 5000,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5820,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 6640,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 7460,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 8280,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 9100,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 9920,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 10740,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 11560,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 12380,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 13200,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 14020,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 14840,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
    "x": 60,
-   "y": 1567,
+   "y": 2691,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -403,12 +501,146 @@
   },
   {
    "x": 80,
-   "y": 1379,
+   "y": 2503,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/stationery-shop-complete-furniture-stock-machines-for-sale-iid-1119544277",
+   "href": "https://www.olx.com.pk/item/racks-pharmacy-rack-super-store-rack-wharehouse-rack-wall-rack-iid-1105138406",
    "label": "Listing"
+  },
+  {
+   "x": 357,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/display-rack-storage-rack-grocery-racks-pharmacy-racks-industrial-iid-1104886865",
+   "label": "Listing"
+  },
+  {
+   "x": 634,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/heavy-duity-rack-bulk-rack-industrial-rack-shopping-trolley-basket-iid-1101612327",
+   "label": "Listing"
+  },
+  {
+   "x": 900,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/heavy-duty-rackstorage-rackangle-rackwarehouse-rackssteel-racks-iid-1102084269",
+   "label": "Listing"
+  },
+  {
+   "x": 1177,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/super-market-racks-pharmacy-racks-industry-racks-warehouse-racks-iid-1117581701",
+   "label": "Listing"
+  },
+  {
+   "x": 1454,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/display-rack-storage-rack-grocery-racks-pharmacy-racks-industrial-iid-1101484160",
+   "label": "Listing"
+  },
+  {
+   "x": 1720,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/electric-fence-home-security-fence-wire-fence-fence-iid-1109922155",
+   "label": "Listing"
+  },
+  {
+   "x": 1997,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/racks-dollar-shopmart-racks-store-racks-shelve-racks-storage-rack-iid-1111696185",
+   "label": "Listing"
+  },
+  {
+   "x": 2274,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/wall-rackspharmacy-racksgeneral-store-rackssteel-racksdisplay-rack-iid-1117584852",
+   "label": "Listing"
+  },
+  {
+   "x": 2540,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/countersbakery-countersbakery-rackssweet-shop-counters-racks-iid-1117585169",
+   "label": "Listing"
+  },
+  {
+   "x": 2817,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/racks-storage-racks-adjustable-racks-mart-racks-pharmacy-racks-iid-1111661708",
+   "label": "Listing"
+  },
+  {
+   "x": 3094,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/racksindustrial-warehouse-racksstorage-racksmart-racksstore-racks-iid-1100324754",
+   "label": "Listing"
+  },
+  {
+   "x": 3360,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/warehouse-racks-heavy-racks-display-racks-wall-mounted-racks-file-iid-1113027591",
+   "label": "Listing"
+  },
+  {
+   "x": 3637,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/heavy-duty-racksstore-racksindustrial-racksracksracks-in-lahore-iid-1063535083",
+   "label": "Listing"
+  },
+  {
+   "x": 3914,
+   "y": 2503,
+   "width": 266,
+   "height": 415,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/adjustable-racks-grocery-racks-pharmacy-racks-pharmacy-steel-racks-iid-1064396422",
+   "label": "Listing"
+  },
+  {
+   "x": 880,
+   "y": 2691,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
   },
   {
    "x": 940,
@@ -416,8 +648,8 @@
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/2206dd1c-d11f-456d-844d-7f2595a7adec",
-   "label": "Posted byBaloch Assadullah (email@example.com Member Since2017Active A"
+   "href": "https://www.olx.com.pk/profile/0b0e3e3b-4888-48c0-8d0f-81d341bc3e10",
+   "label": "Posted bySalman Racks Shop Member Since2022Active Ads15"
   },
   {
    "x": 940,
@@ -436,8 +668,16 @@
    "label": "Chat"
   },
   {
+   "x": 940,
+   "y": 817,
+   "width": 420,
+   "height": 49,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
    "x": 1236,
-   "y": 813,
+   "y": 877,
    "width": 124,
    "height": 30,
    "kind": "button",
@@ -445,7 +685,7 @@
   },
   {
    "x": 960,
-   "y": 2111,
+   "y": 3235,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -454,7 +694,7 @@
   },
   {
    "x": 1096,
-   "y": 2111,
+   "y": 3235,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -463,7 +703,7 @@
   },
   {
    "x": 1232,
-   "y": 2111,
+   "y": 3235,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -472,7 +712,7 @@
   },
   {
    "x": 80,
-   "y": 2309,
+   "y": 3433,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -481,7 +721,7 @@
   },
   {
    "x": 80,
-   "y": 2341,
+   "y": 3465,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -490,7 +730,7 @@
   },
   {
    "x": 80,
-   "y": 2373,
+   "y": 3497,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -499,7 +739,7 @@
   },
   {
    "x": 80,
-   "y": 2405,
+   "y": 3529,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -508,7 +748,7 @@
   },
   {
    "x": 351,
-   "y": 2309,
+   "y": 3433,
    "width": 36,
    "height": 19,
    "kind": "link",
@@ -517,7 +757,7 @@
   },
   {
    "x": 351,
-   "y": 2341,
+   "y": 3465,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -526,7 +766,7 @@
   },
   {
    "x": 351,
-   "y": 2373,
+   "y": 3497,
    "width": 44,
    "height": 19,
    "kind": "link",
@@ -535,7 +775,7 @@
   },
   {
    "x": 351,
-   "y": 2405,
+   "y": 3529,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -544,7 +784,7 @@
   },
   {
    "x": 622,
-   "y": 2309,
+   "y": 3433,
    "width": 66,
    "height": 19,
    "kind": "link",
@@ -553,7 +793,7 @@
   },
   {
    "x": 622,
-   "y": 2341,
+   "y": 3465,
    "width": 78,
    "height": 19,
    "kind": "link",
@@ -562,7 +802,7 @@
   },
   {
    "x": 622,
-   "y": 2373,
+   "y": 3497,
    "width": 134,
    "height": 19,
    "kind": "link",
@@ -571,7 +811,7 @@
   },
   {
    "x": 893,
-   "y": 2309,
+   "y": 3433,
    "width": 33,
    "height": 19,
    "kind": "link",
@@ -580,7 +820,7 @@
   },
   {
    "x": 893,
-   "y": 2341,
+   "y": 3465,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -589,7 +829,7 @@
   },
   {
    "x": 893,
-   "y": 2373,
+   "y": 3497,
    "width": 90,
    "height": 19,
    "kind": "link",
@@ -598,7 +838,7 @@
   },
   {
    "x": 893,
-   "y": 2405,
+   "y": 3529,
    "width": 92,
    "height": 19,
    "kind": "link",
@@ -607,7 +847,7 @@
   },
   {
    "x": 1164,
-   "y": 2306,
+   "y": 3430,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -616,7 +856,7 @@
   },
   {
    "x": 1216,
-   "y": 2306,
+   "y": 3430,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -625,7 +865,7 @@
   },
   {
    "x": 1268,
-   "y": 2306,
+   "y": 3430,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -634,7 +874,7 @@
   },
   {
    "x": 1320,
-   "y": 2306,
+   "y": 3430,
    "width": 40,
    "height": 41,
    "kind": "link",

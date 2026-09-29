@@ -1,0 +1,337 @@
+{
+ "id": "ad-scrolled",
+ "title": "Ad, scrolled (sticky ad header)",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/iphone-18-pro-max-256gb-non-pta-available-on-easy-installment-plan-iid-1119761489",
+ "finalUrl": "https://www.olx.com.pk/item/iphone-18-pro-max-256gb-non-pta-available-on-easy-installment-plan-iid-1119761489",
+ "width": 390,
+ "height": 664,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": true,
+ "captured": "2026-09-29T14:11:34.281Z",
+ "sections": [
+  {
+   "file": "01-header-scrolled",
+   "name": "Header (scrolled)",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 166
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 52,
+   "width": 20,
+   "height": 20,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 0,
+   "y": 125,
+   "width": 72,
+   "height": 41,
+   "kind": "button",
+   "label": "Details"
+  },
+  {
+   "x": 72,
+   "y": 125,
+   "width": 102,
+   "height": 41,
+   "kind": "button",
+   "label": "Description"
+  },
+  {
+   "x": 174,
+   "y": 125,
+   "width": 95,
+   "height": 41,
+   "kind": "button",
+   "label": "Posted by"
+  },
+  {
+   "x": 269,
+   "y": 125,
+   "width": 107,
+   "height": 41,
+   "kind": "button",
+   "label": "Related Ads"
+  },
+  {
+   "x": 16,
+   "y": -988,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": -877,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": -1000,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": -1000,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": -1000,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 171,
+   "y": -467,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone",
+   "label": "Apple iPhone"
+  },
+  {
+   "x": 171,
+   "y": -429,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-18-pro-max",
+   "label": "18 Pro Max"
+  },
+  {
+   "x": 171,
+   "y": -391,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-new-mobiles",
+   "label": "New"
+  },
+  {
+   "x": 171,
+   "y": -353,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-non-pta-mobiles",
+   "label": "Non PTA"
+  },
+  {
+   "x": 16,
+   "y": -203,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": -150,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/bd2cab1f-c4db-442e-a7a6-b78d3374b353",
+   "label": "Posted byAbdullah Member Since2023Active Ads2"
+  },
+  {
+   "x": 142,
+   "y": -18,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 93,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-iphone-xs-max-iid-1119865431",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 93,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/tecno-spark-40-pro-plus-iid-1119865375",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 93,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/xiaomi-redmi-15c-6128-for-sell-iid-1119865274",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 93,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/tecno-camon-40-pro-8256gb-iid-1119864038",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 93,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/iphone-11-pro-max-64gb-pta-approved-exchange-possible-iid-1119864065",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 612,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 138,
+   "y": 612,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 260,
+   "y": 612,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 226,
+   "y": 736,
+   "width": 156,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/walton-road_g5000883/apple-mobile-phones_c1453?filter=make_eq_apple",
+   "label": "Apple iPhone in Walton Road"
+  },
+  {
+   "x": 33,
+   "y": 736,
+   "width": 163,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/walton-road_g5000883/mobile-phones_c1453",
+   "label": "Mobile Phones in Walton Road"
+  },
+  {
+   "x": -128,
+   "y": 736,
+   "width": 131,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/mobile-phones_c1453",
+   "label": "Mobile Phones in Lahore"
+  },
+  {
+   "x": -237,
+   "y": 736,
+   "width": 79,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": -309,
+   "y": 736,
+   "width": 42,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobiles_c1411",
+   "label": "Mobiles"
+  },
+  {
+   "x": -371,
+   "y": 736,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 1102,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 1169,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 1169,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 1169,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 1169,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}
