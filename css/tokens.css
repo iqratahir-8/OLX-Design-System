@@ -64,6 +64,8 @@
   --olx-motion-duration-fast: 120ms;
   --olx-motion-duration-base: 200ms;
   --olx-motion-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --olx-gradient-sell-ring: conic-gradient(from 200deg, #ffce32 0 30%, #23e5db 30% 62%, #3a77ff 62% 100%);
+  --olx-gradient-promo: linear-gradient(90.82deg, #26a69a 0.7%, #134e4a 310.85%);
 
   --olx-bg: #ffffff;
   --olx-bg-subtle: #f2f4f5;
@@ -92,6 +94,13 @@
   --olx-focus: #2456d6;
   --olx-border-subtle: #e8ecec;
   --olx-featured: #00a49f;
+  --olx-brand-bg: #ebf1ff;
+  --olx-accent-bg: #ccfaf7;
+  --olx-inverse-bg: #002f34;
+  --olx-on-inverse: #ffffff;
+  --olx-media-bg: #000000;
+  --olx-surface-subtle: #fafbfb;
+  --olx-icon-brand: #3a77ff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -123,6 +132,13 @@
     --olx-focus: #23e5db;
     --olx-border-subtle: #23494d;
     --olx-featured: #23e5db;
+    --olx-brand-bg: #0b2530;
+    --olx-accent-bg: #0d3d3b;
+    --olx-inverse-bg: #000f11;
+    --olx-on-inverse: #f2f4f5;
+    --olx-media-bg: #000000;
+    --olx-surface-subtle: #012a2e;
+    --olx-icon-brand: #8fb0ff;
   }
 }
 
@@ -154,6 +170,13 @@
   --olx-focus: #23e5db;
   --olx-border-subtle: #23494d;
   --olx-featured: #23e5db;
+  --olx-brand-bg: #0b2530;
+  --olx-accent-bg: #0d3d3b;
+  --olx-inverse-bg: #000f11;
+  --olx-on-inverse: #f2f4f5;
+  --olx-media-bg: #000000;
+  --olx-surface-subtle: #012a2e;
+  --olx-icon-brand: #8fb0ff;
 }
 
 /* Breakpoints (CSS variables can't be used in media queries; use these values directly):

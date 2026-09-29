@@ -18,6 +18,8 @@ const templates = {
   home: '/',
   'search-results': '/items/q-iphone',
   'category-listing': '/mobile-phones_c1453',
+  // Ads expire, so the ad-detail path is resolved at run time from the first ad on the home page.
+  'ad-detail': null,
 };
 
 // Mobile uses a real device profile (UA + touch) so the site serves its mobile layout.
@@ -46,7 +48,14 @@ const stripScripts = (html) => html.replace(/<script\b(?![^>]*\bsrc=)[^>]*>[\s\S
 
 // CHROMIUM_PATH lets you use an already-installed browser instead of `npx playwright install`.
 const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH });
+{
+  const page = await browser.newPage();
+  await page.goto(base + '/', { waitUntil: 'load', timeout: 60_000 });
+  templates['ad-detail'] = await page.locator('a[href*="/item/"]').first().getAttribute('href').catch(() => null);
+  await page.close();
+}
 for (const [name, path] of Object.entries(templates)) {
+  if (!path) { console.error(`skipped ${source}/${name}: no path`); continue; }
   for (const [vp, size] of Object.entries(viewports)) {
     const context = await browser.newContext(size);
     const page = await context.newPage();

@@ -68,7 +68,14 @@ export const tokens = {
       "on-danger": "#ffffff",
       "focus": "#2456d6",
       "border-subtle": "#e8ecec",
-      "featured": "#00a49f"
+      "featured": "#00a49f",
+      "brand-bg": "#ebf1ff",
+      "accent-bg": "#ccfaf7",
+      "inverse-bg": "#002f34",
+      "on-inverse": "#ffffff",
+      "media-bg": "#000000",
+      "surface-subtle": "#fafbfb",
+      "icon-brand": "#3a77ff"
     },
     "dark": {
       "bg": "#001a1d",
@@ -97,7 +104,14 @@ export const tokens = {
       "on-danger": "#002f34",
       "focus": "#23e5db",
       "border-subtle": "#23494d",
-      "featured": "#23e5db"
+      "featured": "#23e5db",
+      "brand-bg": "#0b2530",
+      "accent-bg": "#0d3d3b",
+      "inverse-bg": "#000f11",
+      "on-inverse": "#f2f4f5",
+      "media-bg": "#000000",
+      "surface-subtle": "#012a2e",
+      "icon-brand": "#8fb0ff"
     }
   },
   "font": {
@@ -165,6 +179,10 @@ export const tokens = {
     "md": "768px",
     "lg": "950px",
     "xl": "1280px"
+  },
+  "gradient": {
+    "sell-ring": "conic-gradient(from 200deg, #ffce32 0 30%, #23e5db 30% 62%, #3a77ff 62% 100%)",
+    "promo": "linear-gradient(90.82deg, #26a69a 0.7%, #134e4a 310.85%)"
   }
 };
 export default tokens;

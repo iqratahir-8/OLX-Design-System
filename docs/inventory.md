@@ -9,7 +9,7 @@ Status per item: `todo` → `captured` (live) → `compared` (tokens/CSS checked
 | home | `/` | captured |
 | search-results | `/items/q-<query>` | captured |
 | category-listing | `/<category>_c<id>` | captured |
-| ad-detail | `/item/<slug>-iid-<id>` | todo |
+| ad-detail | `/item/<slug>-iid-<id>` | captured |
 | post-ad | `/post` | todo |
 | profile | `/profile/<id>` | todo |
 | chat | `/chat` | todo |
@@ -29,13 +29,18 @@ Existing ones live in `css/components.css` (shown in `index.html`); the rest are
 | Listing card | `olx-listing` | home, listings | compared |
 | Alert | `olx-alert` | forms | built |
 | Header | `olx-header` | all | compared |
-| LocationPicker | — | header | todo |
-| PriceTag | — | ad-detail | todo |
-| Breadcrumb | — | listings, ad-detail | todo |
-| CategoryNav | — | home, header | todo |
-| FilterPanel | — | listings | todo |
-| SellerCard | — | ad-detail | todo |
-| ImageGallery | — | ad-detail | todo |
-| Footer | — | all | todo |
+| Top bar + Sell button | `olx-topbar`, `olx-sell` | all | compared |
+| LocationPicker | `olx-location` | header, filters | compared |
+| CategoryNav | `olx-catnav` | header | compared |
+| Category tiles | `olx-cattile` | home | compared |
+| Section header | `olx-section-header` | home | compared |
+| Breadcrumb | `olx-breadcrumb` | listings, ad-detail | compared |
+| FilterPanel | `olx-filter` | listings | compared |
+| Listing card (row) | `olx-listing--row` | listings | compared |
+| PriceTag / ad summary | `olx-price`, `olx-ad-summary` | ad-detail | compared |
+| Details table | `olx-details` | ad-detail | compared |
+| ImageGallery | `olx-gallery` | ad-detail | compared |
+| SellerCard | `olx-seller`, `olx-contact` | ad-detail | compared |
+| Footer | `olx-appbanner`, `olx-footer` | all | compared |
 
 "built" means it exists in this repo. "compared" means it has been checked against live and updated (see `audit/comparisons/live-vs-repo.md`). Maple is still pending.

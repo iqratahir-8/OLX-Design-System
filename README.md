@@ -9,7 +9,8 @@ tokens/tokens.json        Source of truth: colors, semantic theme colors, type, 
 scripts/build-tokens.mjs  Generates css/tokens.css and dist/tokens.js from tokens.json
 css/tokens.css            Generated --olx-* CSS custom properties (light + dark)
 css/base.css              Reset, typography, focus styles, utilities
-css/components.css        Components (buttons, fields, search, badges, chips, cards, alerts, header, layout)
+css/components.css        Components (buttons, fields, search, badges, chips, cards, alerts, header, layout,
+                          plus the live-measured navigation, listing-page, ad-detail and footer components)
 css/olx.css               Single entry point that imports all of the above
 dist/tokens.js            Generated JS export of the resolved tokens
 index.html                Live documentation / component showcase
@@ -50,13 +51,28 @@ Components use semantic tokens only; use primitives (`--olx-color-petrol-900`, â
 | Button | `olx-btn` + `--primary` / `--secondary` / `--accent` / `--ghost` / `--danger`, `--sm`, `--block` |
 | Form field | `olx-field` (`--error`), `olx-label`, `olx-input`, `olx-select`, `olx-textarea`, `olx-hint`, `olx-check` |
 | Search bar | `olx-search` |
-| Badge | `olx-badge` + `--featured` / `--info` / `--success` / `--danger` |
+| Badge | `olx-badge` + `--featured` / `--accent` / `--info` / `--success` / `--danger` |
 | Chip | `olx-chip` with `aria-pressed` |
 | Card | `olx-card` (`--elevated`) |
-| Listing card | `olx-listing` (`--featured`), `__media`, `__body`, `__price`, `__title`, `__meta`, `__badge`, `__fav` |
+| Listing card | `olx-listing` (`--featured`, `--row`), `__media`, `__body`, `__price`, `__title`, `__meta`, `__badge`, `__fav`, `__head`, `__desc`, `__actions`, `__ribbon` |
 | Alert | `olx-alert` + `--info` / `--success` / `--warning` / `--danger` |
 | Header | `olx-header`, `__logo`, `__search`, `__actions` |
 | Layout | `olx-container`, `olx-grid`, `olx-stack`, `olx-cluster`, `olx-divider` |
+| Top bar | `olx-topbar`, `__inner`, `__logo`, `__link`, `__actions`, `__login` |
+| Sell button | `olx-sell` |
+| Location picker | `olx-location` (`--block`), `__pin`, `__value`, `__chevron`; `aria-expanded` rotates the chevron |
+| Search row | `olx-searchbar` (wraps `olx-location` + `olx-search`) |
+| Category nav | `olx-catnav`, `__inner`, `__all`, `__link` |
+| Category tiles | `olx-cattiles`, `olx-cattile`, `__icon`, `__label` |
+| Section header | `olx-section-header`, `olx-link-more` |
+| Breadcrumb | `olx-breadcrumb` (`nav` > `ol` > `li`, last item `aria-current="page"`) |
+| Page title | `olx-page-title` (h1 + `olx-badge--accent` count) |
+| Filter panel | `olx-filter`, `__title`, `__list`, `__item` (`aria-current="true"`), `__count`, `__more`, `__range` |
+| Image gallery | `olx-gallery`, `__stage`, `__nav--prev` / `--next`, `__count`, `__thumbs`, `__thumb` (`aria-current`) |
+| Price / ad summary | `olx-price` (`--md` / `--lg`), `olx-ad-summary`, `__title`, `__actions`, `__meta`, `__location` |
+| Details table | `olx-details` (`dl`), `__row` |
+| Seller card | `olx-seller`, `__profile`, `__avatar`, `__who`, `__label`, `__name`, `__stats`, `__stat`, `__stat-icon`; `olx-contact`, `__foot`, `__report` |
+| Footer | `olx-appbanner`, `__inner`, `__title`, `__stores`; `olx-footer`, `__cols`, `__heading`, `__links`, `__social`, `__bar`, `__bar-inner` |
 
 See `index.html` for live examples of each.
 
