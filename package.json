@@ -21,10 +21,14 @@
     "build": "node scripts/build-tokens.mjs",
     "preview": "npx --yes serve .",
     "capture:live": "node scripts/capture.mjs live",
-    "capture:maple": "node scripts/capture.mjs maple"
+    "capture:maple": "node scripts/capture.mjs maple",
+    "snapshot": "node scripts/snapshot-live.mjs",
+    "fetch-fonts": "node scripts/fetch-fonts.mjs",
+    "book": "echo 'Open http://localhost:6006/book/' && npx --yes serve -l 6006 ."
   },
   "license": "UNLICENSED",
   "devDependencies": {
-    "playwright": "^1.56.1"
+    "playwright": "^1.56.1",
+    "pngjs": "^7.0.0"
   }
 }

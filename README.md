@@ -14,10 +14,15 @@ css/components.css        Components (buttons, fields, search, badges, chips, ca
 css/olx.css               Single entry point that imports all of the above
 dist/tokens.js            Generated JS export of the resolved tokens
 index.html                Live documentation / component showcase
-templates/                Page templates to capture (home, search-results, ad-detail, post-ad, ...)
+book/                     Design system book: browse foundations, components and page templates
+templates/<page>/         Live page templates: <viewport>.html (static, pixel-checked) + <viewport>.png
+components/<name>/        Live components: <viewport>.html (markup) + <viewport>.png; index.json lists them
+components/_css/          Shared CSS per captured page, linked by the component files
 audit/live-snapshots/     Captures from https://www.olx.com.pk/
 audit/maple-snapshots/    Captures from the local maple repo
 audit/comparisons/        Live vs maple diff notes
+scripts/snapshot-live.mjs Captures templates/ and components/ from olx.com.pk
+scripts/fetch-fonts.mjs   Downloads the site fonts into fonts/ (git-ignored, licensed) for exact rendering
 scripts/capture.mjs       Playwright capture (screenshot, HTML, computed styles)
 scripts/inspect-components.mjs  Computed styles of key live components -> audit/live-snapshots/components.json
 docs/inventory.md         Template/component checklist and status
@@ -75,6 +80,25 @@ Components use semantic tokens only; use primitives (`--olx-color-petrol-900`, â
 | Footer | `olx-appbanner`, `__inner`, `__title`, `__stores`; `olx-footer`, `__cols`, `__heading`, `__links`, `__social`, `__bar`, `__bar-inner` |
 
 See `index.html` for live examples of each.
+
+## Design system book
+
+```sh
+npm install
+npm run fetch-fonts   # once: Geomanist into fonts/ (git-ignored)
+npm run book          # then open http://localhost:6006/book/
+```
+
+The book lists every captured component and page template. Each component can be viewed as a live render (cropped out of its full page template, so the layout is exact), as the live screenshot, or as its HTML with a copy button. Templates can be opened full size.
+
+To refresh the captures from the live site:
+
+```sh
+npm run snapshot                # all pages, desktop + mobile
+npm run snapshot -- ad-detail   # one page
+```
+
+Scripts, ad slots and iframes are removed, links are made inert, and personal data (seller names and photos, phone numbers in ad text) is redacted. Listing photos load from images.olx.com.pk.
 
 ## Auditing against live OLX and maple
 

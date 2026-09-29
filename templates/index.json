@@ -1,0 +1,86 @@
+{
+  "source": "https://www.olx.com.pk",
+  "captured": "2026-09-29",
+  "templates": [
+    {
+      "page": "ad-detail",
+      "viewport": "desktop",
+      "path": "/item/samsung-galaxy-s22-ultra-128gb_256gb_512gb-official-pta-iid-1118664860",
+      "width": 1440,
+      "height": 2899,
+      "dpr": 1
+    },
+    {
+      "page": "ad-detail",
+      "viewport": "mobile",
+      "path": "/item/samsung-galaxy-s22-ultra-128gb_256gb_512gb-official-pta-iid-1118664860",
+      "width": 390,
+      "height": 2322,
+      "dpr": 3
+    },
+    {
+      "page": "category-listing",
+      "viewport": "desktop",
+      "path": "/mobile-phones_c1453",
+      "width": 1440,
+      "height": 9423,
+      "dpr": 1
+    },
+    {
+      "page": "category-listing",
+      "viewport": "mobile",
+      "path": "/mobile-phones_c1453",
+      "width": 390,
+      "height": 6174,
+      "dpr": 3
+    },
+    {
+      "page": "home",
+      "viewport": "desktop",
+      "path": "/",
+      "width": 1440,
+      "height": 5754,
+      "dpr": 1
+    },
+    {
+      "page": "home",
+      "viewport": "mobile",
+      "path": "/",
+      "width": 390,
+      "height": 4252,
+      "dpr": 3
+    },
+    {
+      "page": "location-prompt",
+      "viewport": "mobile",
+      "path": "/",
+      "width": 390,
+      "height": 4252,
+      "dpr": 3
+    },
+    {
+      "page": "location-select",
+      "viewport": "mobile",
+      "path": "/",
+      "width": 390,
+      "height": 4252,
+      "dpr": 3
+    },
+    {
+      "page": "search-results",
+      "viewport": "desktop",
+      "path": "/items/q-iphone",
+      "width": 1440,
+      "height": 8980,
+      "dpr": 1
+    },
+    {
+      "page": "search-results",
+      "viewport": "mobile",
+      "path": "/items/q-iphone",
+      "width": 390,
+      "height": 5828,
+      "dpr": 3
+    }
+  ]
+}

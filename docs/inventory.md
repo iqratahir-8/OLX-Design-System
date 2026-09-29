@@ -10,10 +10,16 @@ Status per item: `todo` → `captured` (live) → `compared` (tokens/CSS checked
 | search-results | `/items/q-<query>` | captured |
 | category-listing | `/<category>_c<id>` | captured |
 | ad-detail | `/item/<slug>-iid-<id>` | captured |
+| location-prompt (mobile) | `/` on first visit | captured |
+| location-select (mobile) | `/` → Other address | captured |
 | post-ad | `/post` | todo |
 | profile | `/profile/<id>` | todo |
 | chat | `/chat` | todo |
 | login | login modal | todo |
+
+## Live captures
+
+`templates/<page>/<viewport>.html` and `components/<name>/<viewport>.html` hold the exact live markup and CSS from olx.com.pk (see `components/index.json`, `templates/index.json`). Browse them in the design system book: `npm run book`. Re-run `npm run snapshot` to refresh.
 
 ## Components
 
