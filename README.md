@@ -15,6 +15,9 @@ css/olx.css               Single entry point that imports all of the above
 dist/tokens.js            Generated JS export of the resolved tokens
 index.html                Live documentation / component showcase
 book/                     Design system book: browse foundations, components and page templates
+prototype/                Clickable prototype of olx.com.pk built from site/ (flows, screens, sections)
+site/pages/<id>/          Every captured page and state: <viewport>.html/.png/.json + sections/<viewport>/NN-name.png|html
+site/css/                 Stylesheets shared by the captured pages (one file per unique block)
 templates/<page>/         Live page templates: <viewport>.html (static, pixel-checked) + <viewport>.png
 components/<name>/        Live components: <viewport>.html (markup) + <viewport>.png; index.json lists them
 components/_css/          Shared CSS per captured page, linked by the component files
@@ -22,6 +25,10 @@ audit/live-snapshots/     Captures from https://www.olx.com.pk/
 audit/maple-snapshots/    Captures from the local maple repo
 audit/comparisons/        Live vs maple diff notes
 scripts/snapshot-live.mjs Captures templates/ and components/ from olx.com.pk
+scripts/capture-site.mjs  Captures the whole site into site/: pages, interaction states, sections, hotspots
+scripts/capture-logged-in.mjs  Run locally: you log in, then capture logged-in screens into site/
+scripts/build-prototype.mjs  Wires captured links/buttons to captured screens -> prototype/data.json
+scripts/lib/capture-lib.mjs  Shared capture code (clean-up, redaction, CSS inlining, layout, cropping)
 scripts/fetch-fonts.mjs   Downloads the site fonts into fonts/ (git-ignored, licensed) for exact rendering
 scripts/capture.mjs       Playwright capture (screenshot, HTML, computed styles)
 scripts/inspect-components.mjs  Computed styles of key live components -> audit/live-snapshots/components.json
@@ -99,6 +106,27 @@ npm run snapshot -- ad-detail   # one page
 ```
 
 Scripts, ad slots and iframes are removed, links are made inert, and personal data (seller names and photos, phone numbers in ad text) is redacted. Listing photos load from images.olx.com.pk.
+
+## Clickable prototype
+
+```sh
+npm run capture:site     # capture pages, states and sections into site/ (skips ones already captured)
+npm run prototype        # wire hotspots, then open http://localhost:6006/prototype/
+```
+
+The prototype shows every captured screen (desktop and mobile). Links and buttons are hotspots in the positions they were captured from and lead to the screen a user would reach: categories, ads, search, location, sort and filter sheets, and the login modal that guards selling, chat and favourites. **Flows** in the sidebar walk through the main journeys step by step and highlight the control to use next. **Sections** lists each screen's sections with their image and HTML.
+
+What is captured: home, Motors and Property landing pages, all 14 categories, subcategories with their own layout, one ad per category (plus cars, houses and online jobs), search results and no results, sorting, a city and a city+category page, the sitemap, and interaction states (login options and steps, sign up, All categories menu, location menu, search suggestions, sort menu, and on mobile the location prompt, filter, brand and price sheets).
+
+Crawling follows robots.txt, so nothing under `/post/`, `/chat/`, `/profile/` or `/account` is visited. To add logged-in screens, run this on your own computer:
+
+```sh
+npx playwright install chromium
+npm run capture:logged-in -- --redact "Your Name"
+npm run prototype
+```
+
+A browser opens; log in yourself, open each screen (My Ads, Chats, the Sell form…) and name it in the terminal. Phone numbers and email addresses are always redacted; `--redact` also replaces your name. Check `site/pages/account-*` before committing, since this repo may be public.
 
 ## Auditing against live OLX and maple
 

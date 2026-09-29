@@ -16,7 +16,7 @@
 // licensed font) and fall back to olx.com.pk.
 import { chromium, devices } from 'playwright';
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
-import { PNG } from 'pngjs';
+import { freezePage, inlineStylesheets, fontOverrides, cropPng, docShell, scrollThrough, layoutFullHeight, pageParts } from './lib/capture-lib.mjs';
 
 const ORIGIN = 'https://www.olx.com.pk';
 
@@ -92,108 +92,6 @@ const components = {
   },
 };
 
-// Remove interactive/ads/tracking noise and anything personal, make every URL absolute,
-// and inline stylesheets. Runs in the page; returns the cleaned full-page HTML.
-function freezePage(origin) {
-  const abs = (u) => { try { return new URL(u, location.href).href; } catch { return u; } };
-  const absCss = (css) => css.replace(/url\((['"]?)(?!data:|https?:|#)([^'")]+)\1\)/g, (_, q, u) => `url(${q}${abs(u)}${q})`);
-
-  // Scripts, ad slots and third-party frames do nothing in a static copy.
-  document.querySelectorAll('script, iframe, noscript, link[rel="preload"], link[rel="prefetch"], link[rel="modulepreload"], link[rel="dns-prefetch"], link[rel="preconnect"]').forEach((e) => e.remove());
-  // OLX's "Your notifications are off" tooltip.
-  const note = [...document.querySelectorAll('h2')].find((e) => /notifications are off/i.test(e.textContent));
-  for (let e = note; e && e !== document.body; e = e.parentElement) {
-    const p = getComputedStyle(e).position;
-    if (p === 'fixed' || p === 'absolute') { e.remove(); break; }
-  }
-
-  // Personal data: seller names/photos and phone numbers typed into ads.
-  document.querySelectorAll('[aria-label="User photo"]').forEach((img) => { img.removeAttribute('src'); img.removeAttribute('srcset'); });
-  const seller = document.querySelector('[aria-label="Seller description"]');
-  if (seller) {
-    const label = [...seller.querySelectorAll('*')].find((e) => e.children.length === 0 && /^Posted by$/i.test(e.textContent.trim()));
-    const name = label?.nextElementSibling ?? label?.parentElement?.nextElementSibling;
-    if (name) name.textContent = 'Seller name';
-  }
-  // Phone numbers in ad titles and text (also in title/alt/aria-label attributes).
-  const phone = /(\+?92[\s-]?|\b0)3\d{2}[\s-]?\d{7}\b|\b\d{4}[\s-]\d{7}\b/g;
-  const redact = (v) => v.replace(phone, '03XX-XXXXXXX');
-  const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
-  for (let n; (n = walker.nextNode());) { const v = redact(n.nodeValue); if (v !== n.nodeValue) n.nodeValue = v; }
-  for (const el of document.body.querySelectorAll('*')) {
-    for (const attr of [...el.attributes]) {
-      if (['src', 'srcset', 'href', 'style', 'class'].includes(attr.name)) continue;
-      const v = redact(attr.value);
-      if (v !== attr.value) el.setAttribute(attr.name, v);
-    }
-  }
-
-  // Absolute URLs everywhere so the copy renders from any location.
-  for (const el of document.querySelectorAll('[src], [href], [srcset], [poster]')) {
-    for (const a of ['src', 'href', 'poster']) if (el.hasAttribute(a) && !el.getAttribute(a).startsWith('data:')) el.setAttribute(a, abs(el.getAttribute(a)));
-    if (el.hasAttribute('srcset')) el.setAttribute('srcset', el.getAttribute('srcset').split(',').map((s) => { const [u, d] = s.trim().split(/\s+/); return [abs(u), d].filter(Boolean).join(' '); }).join(', '));
-  }
-  document.querySelectorAll('[style]').forEach((el) => el.setAttribute('style', absCss(el.getAttribute('style'))));
-  document.querySelectorAll('style').forEach((s) => { s.textContent = absCss(s.textContent); });
-  // Links become inert: the copy is for looking at, not navigating.
-  document.querySelectorAll('a[href]').forEach((a) => a.setAttribute('href', '#'));
-  document.querySelectorAll('form[action]').forEach((f) => f.removeAttribute('action'));
-  return origin;
-}
-
-async function inlineStylesheets(page) {
-  return page.evaluate(async () => {
-    const abs = (u, base) => { try { return new URL(u, base).href; } catch { return u; } };
-    for (const link of [...document.querySelectorAll('link[rel="stylesheet"]')]) {
-      try {
-        const res = await fetch(link.href);
-        if (!res.ok) continue;
-        const css = (await res.text()).replace(/url\((['"]?)(?!data:|https?:|#)([^'")]+)\1\)/g, (_, q, u) => `url(${q}${abs(u, link.href)}${q})`);
-        const style = document.createElement('style');
-        style.dataset.from = link.href;
-        style.textContent = css;
-        link.replaceWith(style);
-      } catch { /* cross-origin sheet: keep the <link> */ }
-    }
-  });
-}
-
-// Prefer locally fetched fonts (git-ignored) so the copy matches pixel for pixel.
-async function fontOverrides(page) {
-  const faces = await page.evaluate(() => [...document.querySelectorAll('style')]
-    .flatMap((s) => s.textContent.match(/@font-face\s*\{[^}]*\}/g) ?? []));
-  const seen = new Set();
-  return faces.map((face) => {
-    const file = face.match(/url\(["']?[^"')]*\/([^/"')]+\.woff2)/)?.[1];
-    if (!file || seen.has(face)) return '';
-    seen.add(face);
-    return face.replace(/src:[^;}]+/, (src) => `src:url("../../fonts/${file}") format("woff2"),${src.slice(4)}`);
-  }).join('\n');
-}
-
-function cropPng(buffer, { x, y, width, height }, dpr) {
-  const src = PNG.sync.read(buffer);
-  const sx = Math.max(0, x * dpr), sy = Math.max(0, y * dpr);
-  const w = Math.min(width * dpr, src.width - sx), h = Math.min(height * dpr, src.height - sy);
-  const out = new PNG({ width: w, height: h });
-  PNG.bitblt(src, out, sx, sy, w, h, 0, 0);
-  return PNG.sync.write(out);
-}
-
-const docShell = ({ title, htmlAttrs, bodyAttrs, head, body }) => `<!doctype html>
-<html ${htmlAttrs}>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${title}</title>
-${head}
-</head>
-<body ${bodyAttrs}>
-${body}
-</body>
-</html>
-`;
-
 async function capture(browser, pageName, { path, steps }, vp) {
   const context = await browser.newContext(viewports[vp]);
   const page = await context.newPage();
@@ -204,11 +102,7 @@ async function capture(browser, pageName, { path, steps }, vp) {
       await page.getByText(label, { exact: true }).first().click({ timeout: 10_000 });
       await page.waitForTimeout(2500);
     }
-    // Scroll so lazy images and sections render, then back to the top.
-    await page.evaluate(async () => {
-      for (let y = 0; y < document.body.scrollHeight; y += 500) { scrollTo(0, y); await new Promise((r) => setTimeout(r, 200)); }
-      scrollTo(0, 0);
-    });
+    await scrollThrough(page);
     await page.waitForTimeout(1500);
     await inlineStylesheets(page);
     await page.evaluate(freezePage, ORIGIN);
@@ -216,43 +110,13 @@ async function capture(browser, pageName, { path, steps }, vp) {
 
     const dir = `templates/${pageName}`;
     await mkdir(dir, { recursive: true });
-    // Lay the page out at its full height (what a full-page screenshot does) and
-    // measure everything in that one state: fixed and sticky elements then sit where
-    // the template render puts them, and nothing has been scrolled.
-    const contentHeight = () => page.evaluate(() => {
-      scrollTo(0, 0);
-      document.querySelectorAll('*').forEach((e) => { if (e.scrollTop) e.scrollTop = 0; });
-      let bottom = document.documentElement.scrollHeight;
-      for (const e of document.body.querySelectorAll('*')) bottom = Math.max(bottom, e.getBoundingClientRect().bottom);
-      return Math.ceil(bottom);
-    });
-    const vpSize = page.viewportSize();
-    let fullHeight = await contentHeight();
-    for (let i = 0; i < 3; i++) {
-      await page.setViewportSize({ width: vpSize.width, height: fullHeight });
-      await page.waitForTimeout(400);
-      const h = await contentHeight();
-      if (h === fullHeight) break;
-      fullHeight = h;
-    }
+    const size = await layoutFullHeight(page);
+    const fullHeight = size.height;
     const shotBuffer = await page.screenshot({ path: `${dir}/${vp}.png` });
-    const size = { width: vpSize.width, height: fullHeight };
     templateIndex = templateIndex.filter((t) => !(t.page === pageName && t.viewport === vp))
       .concat({ page: pageName, viewport: vp, path: path ?? '', width: size.width, height: Math.ceil(size.height), dpr: viewports[vp].deviceScaleFactor ?? 1 });
 
-    const parts = await page.evaluate(() => {
-      const attrs = (el) => [...el.attributes].map((a) => `${a.name}="${a.value.replace(/"/g, '&quot;')}"`).join(' ');
-      return {
-        title: document.title.replace(/</g, '&lt;'),
-        htmlAttrs: attrs(document.documentElement),
-        bodyAttrs: attrs(document.body),
-        styles: [...document.head.querySelectorAll('style, link[rel="stylesheet"]')].map((s) => s.outerHTML).join('\n'),
-        // The same CSS as one stylesheet, for the component files to share.
-        css: [...document.head.querySelectorAll('style')].map((s) => (s.media ? `@media ${s.media} {\n${s.textContent}\n}` : s.textContent)).join('\n'),
-        links: [...document.head.querySelectorAll('link[rel="stylesheet"]')].map((l) => l.outerHTML).join('\n'),
-        body: document.body.innerHTML,
-      };
-    });
+    const parts = await pageParts(page);
     const fonts = `<style data-from="local-fonts">\n${await fontOverrides(page)}\n</style>`;
     const head = `${parts.styles}\n${fonts}`;
     await writeFile(`${dir}/${vp}.html`, docShell({ ...parts, head, body: parts.body }));

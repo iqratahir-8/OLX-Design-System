@@ -24,7 +24,10 @@
     "capture:maple": "node scripts/capture.mjs maple",
     "snapshot": "node scripts/snapshot-live.mjs",
     "fetch-fonts": "node scripts/fetch-fonts.mjs",
-    "book": "echo 'Open http://localhost:6006/book/' && npx --yes serve -l 6006 ."
+    "book": "echo 'Open http://localhost:6006/book/' && npx --yes serve -l 6006 .",
+    "capture:site": "node scripts/capture-site.mjs",
+    "capture:logged-in": "node scripts/capture-logged-in.mjs",
+    "prototype": "node scripts/build-prototype.mjs && echo 'Open http://localhost:6006/prototype/' && npx --yes serve -l 6006 ."
   },
   "license": "UNLICENSED",
   "devDependencies": {
