@@ -1,0 +1,822 @@
+{
+ "id": "prop-flats-sale",
+ "title": "Property: Flats for sale",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/apartments-flats_c1725",
+ "finalUrl": "https://www.olx.com.pk/apartments-flats_c1725?page=1",
+ "width": 390,
+ "height": 12074,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-09-30T07:20:01.725Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 104
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 120,
+    "width": 390,
+    "height": 11133
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 11269,
+    "width": 390,
+    "height": 48
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-apartments-for-sale-in-pakistan",
+   "name": "Apartments for Sale in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 11349,
+    "width": 390,
+    "height": 86
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "05-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 11434,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "06-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 11480,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "07-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 11526,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "08-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 11572,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "09-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 11618,
+    "width": 390,
+    "height": 456
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "10-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 12005,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 167,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/b-17-brand-new-domination-height-1-bed-flat-available-for-sale-iid-1119399299",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 542,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 542,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 615,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/for-sale-1450-sqft-3-bed-apartment-diamond-on-installment-top-city-1-iid-1119327499",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 990,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 990,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 1063,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/furnished-flat-for-sale-near-emporium-mall-iid-1119355462",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 1438,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 1438,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 1511,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-bed-fully-furnished-brand-new-luxury-apartment-for-sale-facing-eiffel-tower-sector-e-bahria-town-lahore-iid-1119461716",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 1886,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 1886,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 1959,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/3-bed-dd-flat-available-on-easy-installement-in-merchant-navy-society-scheme-33-karachi-iid-1119150128",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 2334,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 2334,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 2407,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2-bed-apartment-for-sale-in-d172-islamabad-iid-1119121698",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 2782,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 2782,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 2955,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-bed-luxury-apartment-for-sale-in-aurun-gulberg-iii-lahore-near-cbd-kalma-chowk-iid-1118927191",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 3330,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 3330,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 3403,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2-bed-dd-flat-for-sale-gulzar-e-hijri-near-fariya-chowk-bank-loan-applicable-iid-1119523248",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 3778,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 3778,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 3851,
+   "width": 358,
+   "height": 450,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/flat-for-sale-2-bed-lounge-spacious-area-ready-to-move-federal-government-apartment-main-sumaira-chowk-opposite-aramco-petrol-pump-iid-1118946760",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 4244,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 4244,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 4333,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/brand-new-2-bed-lounge-flat-for-sale-in-malir-for-bank-loan-rafi-pride-2-iid-1119863611",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 4708,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 4708,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 4781,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/with-lift-brand-new-2-bed-dd-flat-for-sale-iid-1119731078",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 5156,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 5156,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 5229,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/with-lift-2-bed-dd-apartment-for-sale-iid-1119731069",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 5604,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 5604,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 5777,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2-bed-dd-apartment-available-with-lift-for-sale-iid-1119731045",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 6152,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 6152,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 6225,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/beautiful-2-bed-lounge-apartment-for-sale-in-installments-at-rafi-pride-2-malir-iid-1119731025",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 6600,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 6600,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 6673,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2-bed-lounge-portion-for-sale-in-malir-bostan-e-rafi-at-main-jamia-millia-road-malir-15-flyover-iid-1119195526",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 7048,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 7048,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 7121,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apartment-for-sale-2-bed-drawing-dining-room-badar-commercial-dha-phase-5-karachi-iid-1119470284",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 7496,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 7496,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 7569,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/semi-furnished-3-bedrooma-block-b-17-up-for-sale-iid-1119680732",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 7944,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 7944,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 8017,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/three-bed-luxuary-apartments-for-sale-in-rafay-mall-iid-1119918210",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 8392,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 8392,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 8565,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2-bed-ready-to-move-premium-apartment-for-sale-in-rafay-mall-iid-1119918209",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 8940,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 8940,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 9013,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2-bed-front-facing-luxury-apartment-for-sale-in-rafay-mall-iid-1119918206",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 9388,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 9388,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 9461,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2-bed-premium-flat-for-sale-in-rafay-mall-peshawar-road-rawalpindi-iid-1119918205",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 9836,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 9836,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 9925,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/for-sale-two-bed-non-furnished-luxury-apartment-in-bahria-town-safari-villas-3-iid-1119302067",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 10300,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 10300,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 10373,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/520-square-feet-flat-in-h-13-iid-1119918017",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 10748,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 10748,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 10821,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/get-this-amazing-480-square-feet-flat-available-in-h-13-iid-1119918012",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 11196,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 11196,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 143,
+   "y": 12005,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 11406,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 78,
+   "y": 11406,
+   "width": 88,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2",
+   "label": "Property for Sale"
+  },
+  {
+   "x": 16,
+   "y": 11918,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 11984,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 11984,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 11984,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 11984,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

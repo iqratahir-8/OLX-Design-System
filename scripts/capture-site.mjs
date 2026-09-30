@@ -85,6 +85,41 @@ const PAGES = [
   { id: 'city-category', title: 'Mobile Phones in Lahore', resolve: { link: ['/mobile-phones_c1453', /^Lahore\b/] }, flows: ['location'] },
   { id: 'sitemap', title: 'Sitemap', path: '/sitemap/most-popular', flows: [] },
 
+  // Motors vertical: every section, and one or two of its internal pages.
+  { id: 'motors-new-cars', title: 'Motors: New Cars', path: '/motors/new-cars/', flows: ['motors'] },
+  { id: 'motors-all-new-cars', title: 'Motors: All new cars', path: '/motors/new-cars/all-new-cars/', flows: ['motors'] },
+  { id: 'motors-brand', title: 'Motors: New Honda cars', path: '/motors/new-cars/honda/', flows: ['motors'] },
+  { id: 'motors-model', title: 'Motors: Honda Civic', path: '/motors/new-cars/honda/civic/', flows: ['motors'] },
+  { id: 'motors-version', title: 'Motors: Honda Civic Oriel', path: '/motors/new-cars/honda/civic/oriel/', flows: ['motors'] },
+  { id: 'motors-compare', title: 'Motors: Car comparison', path: '/motors/new-cars/compare/', flows: ['motors'] },
+  { id: 'motors-compare-result', title: 'Motors: Corolla vs Civic', path: '/motors/new-cars/compare/toyota-corolla-vs-honda-civic/', flows: ['motors'] },
+  { id: 'motors-finance', title: 'Motors: Car finance', path: '/motors/car-finance/', flows: ['motors'] },
+  { id: 'motors-inspection', title: 'Motors: Car inspection', path: '/motors/car-inspection/', flows: ['motors'] },
+  { id: 'motors-insurance', title: 'Motors: Car insurance', path: '/motors/car-insurance/', flows: ['motors'] },
+  { id: 'motors-insurance-packages', title: 'Motors: Insurance packages', path: '/motors/car-insurance/packages/', flows: ['motors'] },
+  { id: 'motors-insurer', title: 'Motors: IGI Insurance', path: '/motors/car-insurance/igi-insurance/', flows: ['motors'] },
+  { id: 'motors-auction-sheet', title: 'Motors: Auction sheet verification', path: '/motors/auction-sheet-verification/', flows: ['motors'] },
+  { id: 'motors-reviews', title: 'Motors: Car reviews', path: '/motors/car-reviews/', flows: ['motors'] },
+  { id: 'motors-model-reviews', title: 'Motors: Honda Civic reviews', path: '/motors/car-reviews/honda/civic/', flows: ['motors'] },
+  { id: 'motors-tyres', title: 'Motors: Car tyres', path: '/motors/car-tyres/', flows: ['motors'] },
+  { id: 'motors-model-tyres', title: 'Motors: Honda Civic tyres', path: '/motors/car-tyres/honda/civic/2022-2026/', flows: ['motors'] },
+  { id: 'motors-batteries', title: 'Motors: Car batteries', path: '/motors/car-batteries/', flows: ['motors'] },
+  { id: 'motors-model-batteries', title: 'Motors: Honda Civic batteries', path: '/motors/car-batteries/honda/civic/2022-2026/', flows: ['motors'] },
+
+  // Property: every property type, city pages, a plot ad, and the not-found page
+  // that several links on the Property landing page lead to.
+  { id: 'prop-flats-sale', title: 'Property: Flats for sale', path: '/apartments-flats_c1725', cat: 'property-for-sale', flows: ['property'] },
+  { id: 'prop-houses-rent', title: 'Property: Houses for rent', path: '/houses_c1719', cat: 'property-for-rent', flows: ['property'] },
+  { id: 'prop-plots', title: 'Property: Land & plots', path: '/land-plots_c40', cat: 'property-for-sale', flows: ['property'] },
+  { id: 'prop-residential-plots', title: 'Property: Residential plots', path: '/residential-plots-land-plots_c40', cat: 'property-for-sale', flows: ['property'] },
+  { id: 'prop-portions', title: 'Property: Portions & floors', path: '/portions-floors_c41', cat: 'property-for-sale', flows: ['property'] },
+  { id: 'prop-rooms', title: 'Property: Rooms', path: '/rooms_c2048', cat: 'property-for-rent', flows: ['property'] },
+  { id: 'prop-shops', title: 'Property: Shops & offices', path: '/shops-offices-commercial-space_c1733', cat: 'property-for-sale', flows: ['property'] },
+  { id: 'prop-city-houses', title: 'Property: Houses for sale in Lahore', path: '/lahore_g4060673/houses_c1721', cat: 'property-for-sale', flows: ['property'] },
+  { id: 'prop-city-plots', title: 'Property: Plots in Lahore', path: '/lahore_g4060673/land-plots_c40', cat: 'property-for-sale', flows: ['property'] },
+  { id: 'ad-plots', title: 'Ad: Plot', resolve: { firstAd: '/land-plots_c40' }, cat: 'property-for-sale', flows: ['property'] },
+  { id: 'page-not-found', title: 'Page not found', path: '/properties/houses_c1721/', flows: [] },
+
   // Scrolled states: headers change as you scroll (the mobile home header
   // compacts; ads show a sticky header with the price and section tabs).
   { id: 'home-scrolled', title: 'Home, scrolled (compact header)', scrolled: true, ...home({ desktop: [{ scroll: 700 }], mobile: [{ scroll: 700 }] }), flows: ['browse'] },
@@ -355,17 +390,24 @@ async function writeCss(blocks) {
   return links;
 }
 
-// `contextOptions` lets the logged-in script pass its session (storageState).
+// Options for the logged-in script: `storageState` (its session), `redact`
+// (extra text to hide), and `html` (a snapshot of a screen as the user sees it,
+// served at the page's own URL so relative links, CSS and images resolve).
 export async function capture(browser, def, path, vp, contextOptions = {}) {
-  const context = await browser.newContext({ ...viewports[vp], ...contextOptions });
+  const { redact, html, ...contextOpts } = contextOptions;
+  const context = await browser.newContext({ ...viewports[vp], ...contextOpts });
   const page = await context.newPage();
   const dir = `${OUT}/pages/${def.id}`;
   const dpr = viewports[vp].deviceScaleFactor ?? 1;
   try {
+    if (html) {
+      await page.route(ORIGIN + path, (route) => (route.request().resourceType() === 'document'
+        ? route.fulfill({ body: html, contentType: 'text/html; charset=utf-8' }) : route.continue()));
+    }
     await page.goto(ORIGIN + path, { waitUntil: 'load', timeout: 60_000 });
-    await page.waitForTimeout(3000);
+    await page.waitForTimeout(html ? 1500 : 3000);
     await dismissNotice(page);
-    if (!def.overlay) await scrollThrough(page);
+    if (!def.overlay && !html) await scrollThrough(page);
     if (def.overlay) {
       await page.evaluate(() => document.querySelectorAll('body *').forEach((e) => {
         const r = e.getBoundingClientRect();
@@ -377,14 +419,14 @@ export async function capture(browser, def, path, vp, contextOptions = {}) {
     await page.evaluate(tagTargets);
     await inlineStylesheets(page);
     await page.evaluate(freezePage, ORIGIN);
-    if (contextOptions.redact?.length) {
+    if (redact?.length) {
       await page.evaluate((words) => {
         const re = new RegExp(words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'), 'gi');
         const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
         const hit = new RegExp(re.source, 'i'); // non-global: .test() keeps no state
         for (let n; (n = walker.nextNode());) if (hit.test(n.nodeValue)) n.nodeValue = n.nodeValue.replace(re, 'Your name');
         for (const el of document.body.querySelectorAll('*')) for (const a of [...el.attributes]) if (hit.test(a.value)) el.setAttribute(a.name, a.value.replace(re, 'Your name'));
-      }, contextOptions.redact);
+      }, redact);
     }
     await page.waitForTimeout(300);
 

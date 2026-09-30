@@ -80,7 +80,23 @@ function resolve(h, source, vp) {
       const top = TOP_PATHS[path] ?? parentOf[path];
       return { to: firstAvailable(vp, top && `cat-${top}`) };
     }
-    if (/^\/motors/.test(path)) return { to: firstAvailable(vp, 'motors') };
+    if (/^\/motors/.test(path)) {
+      // Motors pages not captured exactly go to the captured page of the same kind.
+      const kinds = [
+        [/^\/motors\/new-cars\/compare\/.+/, 'motors-compare-result'], [/^\/motors\/new-cars\/compare/, 'motors-compare'],
+        [/^\/motors\/new-cars\/all-new-cars/, 'motors-all-new-cars'],
+        [/^\/motors\/new-cars\/[^/]+\/[^/]+\/[^/]+/, 'motors-version'], [/^\/motors\/new-cars\/[^/]+\/[^/]+/, 'motors-model'],
+        [/^\/motors\/new-cars\/[^/]+/, 'motors-brand'], [/^\/motors\/new-cars/, 'motors-new-cars'],
+        [/^\/motors\/car-reviews\/.+/, 'motors-model-reviews'], [/^\/motors\/car-reviews/, 'motors-reviews'],
+        [/^\/motors\/car-tyres\/.+/, 'motors-model-tyres'], [/^\/motors\/car-tyres/, 'motors-tyres'],
+        [/^\/motors\/car-batteries\/.+/, 'motors-model-batteries'], [/^\/motors\/car-batteries/, 'motors-batteries'],
+        [/^\/motors\/car-insurance\/packages/, 'motors-insurance-packages'], [/^\/motors\/car-insurance\/.+/, 'motors-insurer'],
+        [/^\/motors\/car-insurance/, 'motors-insurance'], [/^\/motors\/car-finance/, 'motors-finance'],
+        [/^\/motors\/car-inspection/, 'motors-inspection'], [/^\/motors\/auction-sheet/, 'motors-auction-sheet'],
+      ];
+      const hit = kinds.find(([re]) => re.test(path));
+      return { to: firstAvailable(vp, hit?.[1], 'motors') };
+    }
     if (/^\/propert/.test(path)) return { to: firstAvailable(vp, 'property') };
     if (/^\/(post|myads|chat|account|profile|favorites|myfavorites)/.test(path)) return { to: firstAvailable(vp, 'login') };
     return null;
@@ -166,7 +182,31 @@ const FLOWS = [
     ['ad-mobiles', 'An ad at the top: the gallery fills the screen.'],
     ['ad-scrolled', 'After scrolling an ad, a sticky header shows the price, contact buttons and section tabs.'],
   ] },
-  { id: 'motors', title: 'Motors: find a car', steps: [
+  { id: 'motors-research', title: 'Motors: research a new car', steps: [
+    ['motors', 'The Motors landing page.', 'New Cars'],
+    ['motors-new-cars', 'New cars by budget, brand and body type.'],
+    ['motors-brand', 'Every Honda model with prices.', 'Civic'],
+    ['motors-model', 'The Honda Civic: prices, versions, specs and pictures.'],
+    ['motors-version', 'One version of the Civic in detail.'],
+    ['motors-model-reviews', 'Owner reviews of the Civic.'],
+  ] },
+  { id: 'motors-compare', title: 'Motors: compare two cars', steps: [
+    ['motors-compare', 'Pick two cars to compare.'],
+    ['motors-compare-result', 'Toyota Corolla vs Honda Civic side by side.'],
+  ] },
+  { id: 'motors-services', title: 'Motors: car services', steps: [
+    ['motors-finance', 'Car finance: calculate monthly instalments.'],
+    ['motors-inspection', 'Book an OLX car inspection.'],
+    ['motors-insurance', 'Compare car insurance.', 'Packages'],
+    ['motors-insurance-packages', 'Insurance packages.'],
+    ['motors-insurer', 'One insurer in detail.'],
+    ['motors-auction-sheet', 'Verify a Japanese auction sheet.'],
+    ['motors-tyres', 'Find tyres for your car.'],
+    ['motors-model-tyres', 'Tyres for the Honda Civic.'],
+    ['motors-batteries', 'Find a battery for your car.'],
+    ['motors-model-batteries', 'Batteries for the Honda Civic.'],
+  ] },
+  { id: 'motors', title: 'Motors: find a used car', steps: [
     ['motors', 'The Motors landing page.'],
     ['sub-cars', 'Cars for sale, with car filters.'],
     ['ad-cars', 'A car ad with its specifications.'],
@@ -176,6 +216,35 @@ const FLOWS = [
     ['sub-houses', 'Houses for sale.'],
     ['ad-houses', 'A house ad.'],
     ['sub-flats-for-rent', 'Flats for rent.'],
+  ] },
+  { id: 'property-plots', title: 'Property: find a plot in Lahore', steps: [
+    ['property', 'The Property landing page.'],
+    ['prop-plots', 'Land and plots across Pakistan.'],
+    ['prop-residential-plots', 'Residential plots only.'],
+    ['prop-city-plots', 'Plots in Lahore.'],
+    ['ad-plots', 'A plot ad.'],
+  ] },
+  { id: 'property-types', title: 'Property: every property type', steps: [
+    ['prop-flats-sale', 'Flats for sale.'],
+    ['sub-houses', 'Houses for sale.'],
+    ['prop-city-houses', 'Houses for sale in Lahore.'],
+    ['prop-houses-rent', 'Houses for rent.'],
+    ['prop-portions', 'Portions and floors.'],
+    ['prop-rooms', 'Rooms.'],
+    ['prop-shops', 'Shops, offices and commercial space.'],
+    ['page-not-found', 'Some Property landing links lead to this not-found page.'],
+  ] },
+  // Logged-in flows appear once they are captured with scripts/capture-logged-in.mjs.
+  { id: 'post-ad', title: 'Post an ad (logged in)', steps: [
+    ['account-post-category', 'Choose a category.'], ['account-post-subcategory', 'Choose a subcategory.'],
+    ['account-post-details', 'Fill in the ad details.'], ['account-post-details-errors', 'Validation errors.'],
+    ['account-post-photos', 'Add photos.'], ['account-post-price', 'Set the price.'], ['account-post-location', 'Set the location.'],
+    ['account-post-contact', 'Contact details.'], ['account-post-review', 'Review before posting.'], ['account-post-success', 'Ad posted.'],
+  ] },
+  { id: 'upsell', title: 'Sell faster: packages (logged in)', steps: [
+    ['account-upsell-after-post', 'The offer to feature your ad.'], ['account-upsell-packages', 'Packages and prices.'],
+    ['account-upsell-package-selected', 'A selected package.'], ['account-upsell-checkout', 'Checkout.'],
+    ['account-upsell-business-packages', 'Business packages.'],
   ] },
   { id: 'jobs', title: 'Jobs: find work', steps: [
     ['cat-jobs', 'Jobs across Pakistan.'],
@@ -189,7 +258,9 @@ const flows = FLOWS.map((f) => ({
 })).filter((f) => f.steps.some((s) => has(s.page, 'desktop') || has(s.page, 'mobile')));
 
 const GROUPS = [
-  ['Start', (id) => ['home', 'motors', 'property', 'location-prompt', 'location-select', 'account-menu', 'sitemap'].includes(id)],
+  ['Start', (id) => ['home', 'motors', 'property', 'location-prompt', 'location-select', 'account-menu', 'sitemap', 'page-not-found'].includes(id)],
+  ['Motors', (id) => id.startsWith('motors-')],
+  ['Property', (id) => id.startsWith('prop-') || id === 'ad-plots'],
   ['Categories', (id) => id.startsWith('cat-')],
   ['Subcategories', (id) => id.startsWith('sub-')],
   ['Ads', (id) => id.startsWith('ad-')],

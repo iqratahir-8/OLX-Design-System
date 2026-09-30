@@ -1268,7 +1268,243 @@
    "flows": [
     "browse"
    ]
+  },
+  {
+   "id": "prop-flats-sale",
+   "title": "Property: Flats for sale",
+   "viewport": "desktop",
+   "path": "/apartments-flats_c1725",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-flats-sale",
+   "title": "Property: Flats for sale",
+   "viewport": "mobile",
+   "path": "/apartments-flats_c1725",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-houses-rent",
+   "title": "Property: Houses for rent",
+   "viewport": "desktop",
+   "path": "/houses_c1719",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-houses-rent",
+   "title": "Property: Houses for rent",
+   "viewport": "mobile",
+   "path": "/houses_c1719",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-plots",
+   "title": "Property: Land & plots",
+   "viewport": "desktop",
+   "path": "/land-plots_c40",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-plots",
+   "title": "Property: Land & plots",
+   "viewport": "mobile",
+   "path": "/land-plots_c40",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-residential-plots",
+   "title": "Property: Residential plots",
+   "viewport": "desktop",
+   "path": "/residential-plots-land-plots_c40",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-residential-plots",
+   "title": "Property: Residential plots",
+   "viewport": "mobile",
+   "path": "/residential-plots-land-plots_c40",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-portions",
+   "title": "Property: Portions & floors",
+   "viewport": "desktop",
+   "path": "/portions-floors_c41",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-portions",
+   "title": "Property: Portions & floors",
+   "viewport": "mobile",
+   "path": "/portions-floors_c41",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-rooms",
+   "title": "Property: Rooms",
+   "viewport": "desktop",
+   "path": "/rooms_c2048",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-rooms",
+   "title": "Property: Rooms",
+   "viewport": "mobile",
+   "path": "/rooms_c2048",
+   "cat": "property-for-rent",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-shops",
+   "title": "Property: Shops & offices",
+   "viewport": "desktop",
+   "path": "/shops-offices-commercial-space_c1733",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-shops",
+   "title": "Property: Shops & offices",
+   "viewport": "mobile",
+   "path": "/shops-offices-commercial-space_c1733",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-city-houses",
+   "title": "Property: Houses for sale in Lahore",
+   "viewport": "desktop",
+   "path": "/lahore_g4060673/houses_c1721",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-city-houses",
+   "title": "Property: Houses for sale in Lahore",
+   "viewport": "mobile",
+   "path": "/lahore_g4060673/houses_c1721",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-city-plots",
+   "title": "Property: Plots in Lahore",
+   "viewport": "desktop",
+   "path": "/lahore_g4060673/land-plots_c40",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "prop-city-plots",
+   "title": "Property: Plots in Lahore",
+   "viewport": "mobile",
+   "path": "/lahore_g4060673/land-plots_c40",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "ad-plots",
+   "title": "Ad: Plot",
+   "viewport": "desktop",
+   "path": "/item/saggian-main-corner-plot-for-sale-iid-1119059582",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "ad-plots",
+   "title": "Ad: Plot",
+   "viewport": "mobile",
+   "path": "/item/saggian-main-corner-plot-for-sale-iid-1119059582",
+   "cat": "property-for-sale",
+   "overlay": false,
+   "flows": [
+    "property"
+   ]
+  },
+  {
+   "id": "page-not-found",
+   "title": "Page not found",
+   "viewport": "desktop",
+   "path": "/properties/houses_c1721/",
+   "overlay": false,
+   "flows": []
+  },
+  {
+   "id": "page-not-found",
+   "title": "Page not found",
+   "viewport": "mobile",
+   "path": "/properties/houses_c1721/",
+   "overlay": false,
+   "flows": []
   }
  ],
- "captured": "2026-09-29"
+ "captured": "2026-09-30"
 }

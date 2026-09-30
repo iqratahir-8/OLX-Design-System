@@ -1,0 +1,831 @@
+{
+ "id": "prop-city-houses",
+ "title": "Property: Houses for sale in Lahore",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/lahore_g4060673/houses_c1721",
+ "finalUrl": "https://www.olx.com.pk/lahore_g4060673/houses_c1721?page=1",
+ "width": 390,
+ "height": 12074,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-09-30T07:24:40.024Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 104
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 120,
+    "width": 390,
+    "height": 11115
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 11251,
+    "width": 390,
+    "height": 48
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-houses-for-sale-in-lahore",
+   "name": "Houses for Sale in Lahore",
+   "rect": {
+    "x": 0,
+    "y": 11331,
+    "width": 390,
+    "height": 104
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "05-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 11434,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "06-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 11480,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "07-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 11526,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "08-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 11572,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "09-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 11618,
+    "width": 390,
+    "height": 456
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "10-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 12005,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 167,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/d-h-a-lahore-1-kanal-brand-new-mazher-munir-design-house-fully-basement-and-fully-furnished-with-swimming-pool-and-cinema-hall-with-100-original-pics-available-for-sale-iid-1118774968",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 542,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 542,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 615,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/8-marla-corner-owner-build-house-for-sale-in-bahria-nasheman-lahore-iid-1119615454",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 990,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 990,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 1063,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-kanal-spanish-design-brand-new-house-r-block-available-for-sale-in-dha-phase-7-lhr-iid-1118946621",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 1438,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 1438,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 1511,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/5-marla-brand-new-house-for-sale-iid-1119362406",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 1886,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 1886,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 1959,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/12-marla-well-maintained-spacious-used-house-available-for-urgent-sale-iid-1119160036",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 2334,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 2334,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 2407,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/3-marla-used-house-block-bal-kabir-town-phase-2-iid-1119264053",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 2782,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 2782,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 2955,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/6-marla-corner-house-for-sale-registry-intqal-kaloni-gas-available-near-new-lahore-city-2-km-ring-road-interchange-nfc-2-wala-iid-1119182981",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 3330,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 3330,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 3403,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/prime-location-iid-1119396994",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 3778,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 3778,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 3851,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/5-marla-beautiful-ultra-modern-house-for-sale-in-central-park-housing-society-lahore-iid-1118795351",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 4226,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 4226,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 4315,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/brand-new-3-marla-house-for-sale-in-al-kabir-town-phase-2-lahore-iid-1119561487",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 4690,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 4690,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 4763,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/brand-new-5-marla-house-for-sale-in-block-c-al-kabir-town-phase-2-iid-1119561473",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 5138,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 5138,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 5211,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offers-prime-location-lavish-beautiful-double-storey-brand-new-house-available-for-sale-reasonable-price-in-tulip-block-wapda-available-near-to-park-market-al-jalil-garden-iid-1119919696",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 5586,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 5586,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 5759,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offers-prime-location-beautiful-double-story-house-available-for-sale-reasonable-price-in-j-block-aljalil-garden-faizpur-interchange-main-sharaqpur-road-lahore-iid-1119919653",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 6134,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 6134,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 6207,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offers-beautiful-double-story-brand-new-corner-house-available-for-sale-reasonable-price-in-c-block-al-jalil-garden-iid-1119919555",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 6582,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 6582,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 6655,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offers-beautiful-brand-new-double-story-house-available-for-sale-in-h-block-al-rehman-garden-phase-2-saggian-bypass-iid-1119919554",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 7030,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 7030,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 7103,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/5-marlas-house-for-sale-overseas-block-on-instalments-iid-1119756400",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 7478,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 7478,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 7551,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/10-marlas-house-for-sale-jubilee-town-iid-1119755407",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 7926,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 7926,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 7999,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/5-marla-double-story-house-sale-block-ex-iid-1119440963",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 8374,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 8374,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 8547,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/a-prime-location-4-marla-house-in-lahore-is-on-the-market-for-sale-iid-1119440950",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 8922,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 8922,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 8995,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/3-kanal-modern-elevation-full-basement-fully-furnished-house-with-nice-garden-for-sale-in-dha-phase-5-prime-location-iid-1119130738",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 9370,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 9370,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 9443,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/4-marla-brand-new-house-block-i-for-sale-iid-1118781212",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 9818,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 9818,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 9907,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/3-marla-triple-story-modern-design-house-for-sale-in-union-green-society-near-college-road-iid-1119919191",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 10282,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 10282,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 10355,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/35-marla-corner-house-for-sale-in-al-kabir-town-phase-2-iid-1119918757",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 10730,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 10730,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 10803,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-kanal-ultra-modern-luxury-house-6-beds-double-height-lobby-iid-1119918653",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 11178,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 11178,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 143,
+   "y": 12005,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 11388,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 78,
+   "y": 11388,
+   "width": 88,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2",
+   "label": "Property for Sale"
+  },
+  {
+   "x": 196,
+   "y": 11388,
+   "width": 39,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "Houses"
+  },
+  {
+   "x": 16,
+   "y": 11918,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 11984,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 11984,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 11984,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 11984,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}
