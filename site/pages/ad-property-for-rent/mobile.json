@@ -1,0 +1,434 @@
+{
+ "id": "ad-property-for-rent",
+ "title": "Ad: Property for Rent",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/co-working-space-for-rent-iid-1118368001",
+ "finalUrl": "https://www.olx.com.pk/item/co-working-space-for-rent-iid-1118368001",
+ "width": 390,
+ "height": 2475,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-09-29T14:00:36.584Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 154
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-type-office-bathrooms",
+   "name": "Type · Office · Bathrooms",
+   "rect": {
+    "x": 0,
+    "y": 447,
+    "width": 390,
+    "height": 61
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 527,
+    "width": 390,
+    "height": 51
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-details",
+   "name": "Details",
+   "rect": {
+    "x": 0,
+    "y": 577,
+    "width": 390,
+    "height": 75
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-description-grow-your-business-at-gm-res",
+   "name": "Description · Grow Your Business at GM Residenci",
+   "rect": {
+    "x": 0,
+    "y": 671,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "07-features",
+   "name": "Features",
+   "rect": {
+    "x": 0,
+    "y": 812,
+    "width": 390,
+    "height": 160
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(10)"
+  },
+  {
+   "file": "08-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 991,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "09-related-ads-featured-rs-10-000",
+   "name": "Related ads · Featured · Rs 10,000",
+   "rect": {
+    "x": 0,
+    "y": 1211,
+    "width": 390,
+    "height": 371
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "10-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1601,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  },
+  {
+   "file": "11-shops-offices-commercial-space-in-abdull",
+   "name": "Shops - Offices - Commercial Space in Abdullah G",
+   "rect": {
+    "x": 8,
+    "y": 1884,
+    "width": 374,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "12-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1909,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "13-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1955,
+    "width": 390,
+    "height": 520
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "14-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 2410,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(17)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": 123,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1170,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1560,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1950,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2340,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2730,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3120,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3510,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 171,
+   "y": 621,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-2nd-floor-commercial",
+   "label": "2"
+  },
+  {
+   "x": 16,
+   "y": 771,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 1003,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/d8c88f00-f447-46b6-803a-1b0a7a5f75bf",
+   "label": "Posted byGhulam Muhammad Member Since2021Active Ads2"
+  },
+  {
+   "x": 142,
+   "y": 1135,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 1246,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/co-work-space-for-rent-iid-1116461610",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2423,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 199,
+   "y": 2423,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 81,
+   "y": 1889,
+   "width": 301,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad-abdullah-gardens_g4890/shops-offices-commercial-space_c1731",
+   "label": "Shops - Offices - Commercial Space in Abdullah Gardens"
+  },
+  {
+   "x": -238,
+   "y": 1889,
+   "width": 289,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad-east-canal-road_g9506/shops-offices-commercial-space_c1731",
+   "label": "Shops - Offices - Commercial Space in East Canal Road"
+  },
+  {
+   "x": -533,
+   "y": 1889,
+   "width": 265,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/canal-road_g1140/shops-offices-commercial-space_c1731",
+   "label": "Shops - Offices - Commercial Space in Canal Road"
+  },
+  {
+   "x": -823,
+   "y": 1889,
+   "width": 260,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/shops-offices-commercial-space_c1731",
+   "label": "Shops - Offices - Commercial Space in Faisalabad"
+  },
+  {
+   "x": -1042,
+   "y": 1889,
+   "width": 189,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1731",
+   "label": "Shops - Offices - Commercial Space"
+  },
+  {
+   "x": -1163,
+   "y": 1889,
+   "width": 91,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-rent_c3",
+   "label": "Property for Rent"
+  },
+  {
+   "x": -1225,
+   "y": 1889,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 2255,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 2321,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 2321,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 2321,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 2321,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

@@ -1,0 +1,830 @@
+{
+ "id": "prop-portions",
+ "title": "Property: Portions & floors",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/portions-floors_c41",
+ "finalUrl": "https://www.olx.com.pk/portions-floors_c41?page=1",
+ "width": 390,
+ "height": 12056,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-09-30T07:22:41.659Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 104
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 120,
+    "width": 390,
+    "height": 11115
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 11251,
+    "width": 390,
+    "height": 48
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-portions-for-sale-in-pakistan",
+   "name": "Portions for Sale in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 11331,
+    "width": 390,
+    "height": 86
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "05-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 11416,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "06-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 11462,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "07-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 11508,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "08-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 11554,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "09-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 11600,
+    "width": 390,
+    "height": 456
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "10-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 11987,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 167,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/old-but-new-renovated-1st-floor-available-for-sale-at-bhadarabad-iid-1118717530",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 542,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 542,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 615,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/brand-new-1st-floor-portion-available-for-sale-iid-1119511792",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 990,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 990,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 1063,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/upper-portion-for-sale-near-airport-malir-halt-iid-1118479013",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 1438,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 1438,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 1511,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/portion-for-sale-sub-lease-iid-1119644889",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 1886,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 1886,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 1959,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/next-to-main-shara-e-qaideen-pechs-block-2-back-side-hassan-zai-koila-karahi-200-sq-yards-ground-floor-portion-iid-1118062145",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 2334,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 2334,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 2407,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/portion-for-sale-in-allah-wala-town-nearest-darussalam-society-makhdoom-bilawal-society-best-location-iid-1119813801",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 2782,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 2782,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 2955,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2nd-floor-smr-center-upto-htc-fabric-shop-3-bad-attach-bathroom-comane-open-kitchen-125-square-sweet-water-daily-demand-95-lakhcode16723-iid-1119078795",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 3330,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 3330,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 3403,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/4-bed-dd-brand-new-portion-available-for-sale-1st-floor-240gaz-west-open-kda-lease-in-gulshan-block-1-iid-1119407836",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 3778,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 3778,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 3851,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/ground-floor-portion-for-sale-in-nazimabad-no-1-iid-1119727177",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 4226,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 4226,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 4315,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/leased-2-bed-dd-3rd-floor-portion-available-for-sale-iid-1119731194",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 4690,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 4690,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 4763,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/beautiful-2-bed-dd-flat-with-loft-for-sale-at-rafi-pride-2-malir-iid-1119731091",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 5138,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 5138,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 5211,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2-bed-lounge-new-al-ghaffar-nagor-near-gohar-green-city-malir-iid-1119918775",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 5586,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 5586,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 5759,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/10-marla-brand-new-second-floor-available-for-rent-in-jubilee-town-a-block-lahore-iid-1119916403",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 6134,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 6134,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 6207,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2-bed-dd-flat-for-sale-iid-1119894662",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 6582,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 6582,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 6655,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/prime-1st-floor-portion-for-sale-200-sqyd-gulistan-e-johar-block-13-iid-1119915840",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 7030,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 7030,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 7103,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/brand-new-4-bhk-upper-ground-floor-apartment-prime-location-in-pechs-block-2-karachi-iid-1119915375",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 7478,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 7478,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 7551,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1st-floor-portion-corner-120-sq-yard-iid-1119585476",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 7926,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 7926,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 7999,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2-bed-dd-with-roof-iid-1119585270",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 8374,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 8374,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 8547,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/stunning-and-affordable-upper-portion-available-for-sale-in-gulshan-e-iqbal-block-13-iid-1119914214",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 8922,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 8922,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 8995,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/like-new-portion-for-sale-2-bed-dd-leased-1st-floor-fully-tiled-3-rooms-2-bath-rooms-american-kitchen-adjacent-to-gohar-green-city-bondary-wall-gated-society-43-lacs-iid-1118798978",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 9370,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 9370,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 9443,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/portion-for-sale-2bed-dd-corner-leased-1st-floor-west-open-fully-tiled-best-door-aluminum-windows-bathroom-doors-american-kitchen-like-new-leased-boundary-wall-gatted-society-nagori-city-near-gohar-green-city-intercom-iid-1118798972",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 9818,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 9818,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 9907,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/80-sy-portion-for-sale-makkah-city-like-brand-new-adjacent-to-al-ghaffar-nagori-city-gohar-green-city-survey-property-builder-transfer-ke-gas-meter-present-2-bed-rooms-with-attached-bath-rooms-washing-area-false-sealing-ground-iid-1118798958",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 10282,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 10282,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 10355,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/portion-for-sale-block-14-iid-1119610754",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 10730,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 10730,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 16,
+   "y": 10803,
+   "width": 358,
+   "height": 432,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/160-sqy-1st-floor-portion-block-3a-iid-1119906371",
+   "label": "Listing"
+  },
+  {
+   "x": 33,
+   "y": 11178,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 199,
+   "y": 11178,
+   "width": 158,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 144,
+   "y": 11251,
+   "width": 102,
+   "height": 48,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 143,
+   "y": 11987,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 11388,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 78,
+   "y": 11388,
+   "width": 88,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2",
+   "label": "Property for Sale"
+  },
+  {
+   "x": 16,
+   "y": 11900,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 11966,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 11966,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 11966,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 11966,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

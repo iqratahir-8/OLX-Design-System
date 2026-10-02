@@ -1,0 +1,1462 @@
+{
+ "id": "cat-bikes",
+ "title": "Bikes",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/bikes_c1898",
+ "finalUrl": "https://www.olx.com.pk/bikes_c1898?page=1",
+ "width": 1440,
+ "height": 7314,
+ "dpr": 1,
+ "overlay": false,
+ "captured": "2026-09-29T12:53:33.963Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-all-categories-mobile-phones-cars",
+   "name": "All Categories · Mobile Phones · Cars",
+   "rect": {
+    "x": 0,
+    "y": 143,
+    "width": 1440,
+    "height": 50
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "03-bikes-in-pakistan",
+   "name": "Bikes in Pakistan",
+   "rect": {
+    "x": 80,
+    "y": 475,
+    "width": 1280,
+    "height": 69
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "04-filters-list",
+   "name": "Filters list",
+   "rect": {
+    "x": 80,
+    "y": 560,
+    "width": 304,
+    "height": 493
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "05-buy-with-delivery-new",
+   "name": "Buy with · Delivery · New",
+   "rect": {
+    "x": 400,
+    "y": 560,
+    "width": 960,
+    "height": 57
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "06-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 400,
+    "y": 641,
+    "width": 960,
+    "height": 6070
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "07-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 400,
+    "y": 6734,
+    "width": 960,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "08-popular-searches-federal-b-area-punjab-c",
+   "name": "Popular Searches · federal b area · punjab coop ",
+   "rect": {
+    "x": 80,
+    "y": 6830,
+    "width": 1280,
+    "height": 75
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "09-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 6968,
+    "width": 1440,
+    "height": 346
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(2)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 144,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 284,
+   "y": 24,
+   "width": 139,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1196,
+   "y": 20,
+   "width": 40,
+   "height": 24,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
+   "x": 1256,
+   "y": 8,
+   "width": 104,
+   "height": 48,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 109,
+   "y": 81,
+   "width": 300,
+   "height": 46,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 459,
+   "y": 81,
+   "width": 791,
+   "height": 46,
+   "kind": "input",
+   "label": "Find Cars, Mobile Phones and more..."
+  },
+  {
+   "x": 1250,
+   "y": 80,
+   "width": 110,
+   "height": 48,
+   "kind": "button",
+   "label": "Search"
+  },
+  {
+   "x": 229,
+   "y": 159,
+   "width": 105,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 358,
+   "y": 159,
+   "width": 31,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 413,
+   "y": 159,
+   "width": 87,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Motorcycles"
+  },
+  {
+   "x": 524,
+   "y": 159,
+   "width": 53,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "Houses"
+  },
+  {
+   "x": 601,
+   "y": 159,
+   "width": 96,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "Video-Audios"
+  },
+  {
+   "x": 721,
+   "y": 159,
+   "width": 50,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "Tablets"
+  },
+  {
+   "x": 795,
+   "y": 159,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "Land & Plots"
+  },
+  {
+   "x": 80,
+   "y": 476,
+   "width": 39,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 97,
+   "y": 613,
+   "width": 270,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items?sorting=desc-relevance",
+   "label": "All categories"
+  },
+  {
+   "x": 122,
+   "y": 729,
+   "width": 212,
+   "height": 46,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 97,
+   "y": 794,
+   "width": 270,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items?sorting=desc-relevance",
+   "label": "Pakistan"
+  },
+  {
+   "x": 113,
+   "y": 820,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673?sorting=desc-relevance",
+   "label": "Lahore(12,905)"
+  },
+  {
+   "x": 113,
+   "y": 846,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695?sorting=desc-relevance",
+   "label": "Karachi(10,368)"
+  },
+  {
+   "x": 113,
+   "y": 872,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681?sorting=desc-relevance",
+   "label": "Rawalpindi(5,442)"
+  },
+  {
+   "x": 113,
+   "y": 898,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615?sorting=desc-relevance",
+   "label": "Islamabad(4,554)"
+  },
+  {
+   "x": 113,
+   "y": 924,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660?sorting=desc-relevance",
+   "label": "Faisalabad(3,784)"
+  },
+  {
+   "x": 113,
+   "y": 950,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/multan_g4060675?sorting=desc-relevance",
+   "label": "Multan(2,303)"
+  },
+  {
+   "x": 113,
+   "y": 976,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sialkot_g4060686?sorting=desc-relevance",
+   "label": "Sialkot(1,543)"
+  },
+  {
+   "x": 113,
+   "y": 1002,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662?sorting=desc-relevance",
+   "label": "Gujranwala(1,492)"
+  },
+  {
+   "x": 113,
+   "y": 1028,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sargodha_g4060684?sorting=desc-relevance",
+   "label": "Sargodha(1,298)"
+  },
+  {
+   "x": 113,
+   "y": 1054,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/peshawar_g4060643?sorting=desc-relevance",
+   "label": "Peshawar(1,291)"
+  },
+  {
+   "x": 113,
+   "y": 1080,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/wah_g4060692?sorting=desc-relevance",
+   "label": "Wah(1,218)"
+  },
+  {
+   "x": 113,
+   "y": 1106,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyderabad_g4060693?sorting=desc-relevance",
+   "label": "Hyderabad(1,214)"
+  },
+  {
+   "x": 113,
+   "y": 1132,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sahiwal_g4060683?sorting=desc-relevance",
+   "label": "Sahiwal(1,109)"
+  },
+  {
+   "x": 113,
+   "y": 1158,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/abbottabad_g4060640?sorting=desc-relevance",
+   "label": "Abbottabad(1,100)"
+  },
+  {
+   "x": 113,
+   "y": 1184,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/attock_g4060651?sorting=desc-relevance",
+   "label": "Attock(979)"
+  },
+  {
+   "x": 113,
+   "y": 1210,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653?sorting=desc-relevance",
+   "label": "Bahawalpur(974)"
+  },
+  {
+   "x": 113,
+   "y": 1236,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/okara_g4060678?sorting=desc-relevance",
+   "label": "Okara(920)"
+  },
+  {
+   "x": 113,
+   "y": 1262,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663?sorting=desc-relevance",
+   "label": "Gujrat(918)"
+  },
+  {
+   "x": 113,
+   "y": 1288,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jhelum_g4060668?sorting=desc-relevance",
+   "label": "Jhelum(857)"
+  },
+  {
+   "x": 113,
+   "y": 1314,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sheikhupura_g4060685?sorting=desc-relevance",
+   "label": "Sheikhüpura(815)"
+  },
+  {
+   "x": 113,
+   "y": 1340,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/taxila_g4065567?sorting=desc-relevance",
+   "label": "Taxila(778)"
+  },
+  {
+   "x": 113,
+   "y": 1366,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/haripur_g4060631?sorting=desc-relevance",
+   "label": "Haripur(773)"
+  },
+  {
+   "x": 113,
+   "y": 1392,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rahimyar-khan_g4060680?sorting=desc-relevance",
+   "label": "Rahimyar Khan(773)"
+  },
+  {
+   "x": 113,
+   "y": 1418,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chakwal_g4065543?sorting=desc-relevance",
+   "label": "Chakwal(754)"
+  },
+  {
+   "x": 113,
+   "y": 1444,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jhang_g1142?sorting=desc-relevance",
+   "label": "Jhang(753)"
+  },
+  {
+   "x": 113,
+   "y": 1470,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kasur_g4060687?sorting=desc-relevance",
+   "label": "Kasur(743)"
+  },
+  {
+   "x": 113,
+   "y": 1496,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/swabi_g4060645?sorting=desc-relevance",
+   "label": "Swabi(722)"
+  },
+  {
+   "x": 113,
+   "y": 1522,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mansehra_g4060624?sorting=desc-relevance",
+   "label": "Mansehra(720)"
+  },
+  {
+   "x": 113,
+   "y": 1548,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mardan_g4060623?sorting=desc-relevance",
+   "label": "Mardan(692)"
+  },
+  {
+   "x": 113,
+   "y": 1574,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mandi-bahauddin_g4065538?sorting=desc-relevance",
+   "label": "Mandi Bahauddin(692)"
+  },
+  {
+   "x": 113,
+   "y": 1600,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/quetta_g4060602?sorting=desc-relevance",
+   "label": "Quetta(677)"
+  },
+  {
+   "x": 113,
+   "y": 1626,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujar-khan_g4065554?sorting=desc-relevance",
+   "label": "Gujar Khan(671)"
+  },
+  {
+   "x": 113,
+   "y": 1652,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/burewala_g4060654?sorting=desc-relevance",
+   "label": "Burewala(648)"
+  },
+  {
+   "x": 113,
+   "y": 1678,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sukkur_g4060702?sorting=desc-relevance",
+   "label": "Sukkur(641)"
+  },
+  {
+   "x": 113,
+   "y": 1704,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dera-ghazi-khan_g4060658?sorting=desc-relevance",
+   "label": "Dera Ghazi Khan(637)"
+  },
+  {
+   "x": 113,
+   "y": 1730,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/pakpattan_g4060679?sorting=desc-relevance",
+   "label": "Pakpattan(634)"
+  },
+  {
+   "x": 113,
+   "y": 1756,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/nowshera_g4060642?sorting=desc-relevance",
+   "label": "Nowshera(632)"
+  },
+  {
+   "x": 113,
+   "y": 1782,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mianwali_g4060674?sorting=desc-relevance",
+   "label": "Mianwali(632)"
+  },
+  {
+   "x": 113,
+   "y": 1808,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mirpur_g4060595?sorting=desc-relevance",
+   "label": "Mirpur(629)"
+  },
+  {
+   "x": 113,
+   "y": 1834,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalnagar_g4060652?sorting=desc-relevance",
+   "label": "Bahawalnagar(629)"
+  },
+  {
+   "x": 400,
+   "y": 560,
+   "width": 263,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items?sorting=desc-relevance",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 400,
+   "y": 560,
+   "width": 263,
+   "height": 40,
+   "kind": "button",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 1075,
+   "y": 562,
+   "width": 36,
+   "height": 36,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1119,
+   "y": 562,
+   "width": 36,
+   "height": 36,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1188,
+   "y": 569,
+   "width": 172,
+   "height": 22,
+   "kind": "button",
+   "label": "Sort by: Most relevant"
+  },
+  {
+   "x": 400,
+   "y": 641,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cd70-2425-good-condition-all-ok-iid-1119401805",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 820,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 820,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 893,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/vlektra-velocity-180-urgent-for-sale-total-geniune-vlektra-iid-1119886783",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1072,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1072,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1145,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-125-iid-1119861743",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1324,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1324,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1397,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-gr-150-2025-model-150cc-sports-bike-excellent-condition-iid-1119892184",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1576,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1576,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1649,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/benelli-180s-2022-model-175cc-sports-bike-6-speed-iid-1119891949",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1829,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1829,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1902,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-pridor-2022-red-single-hand-used-original-card-file-iid-1119891950",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2081,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2081,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 2154,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/ms-jaguar-e-70-2026-electric-bike-1500w-70-kmh-excellent-bike-iid-1119891324",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2333,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2333,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 2406,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cb-125f-urgent-for-sale-total-geniune-need-money-iid-1119286901",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2585,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2585,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 2658,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/kawasaki-ninja-z1000sx-20152019-black-widow-exhaust-pristine-cond-iid-1119889467",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2837,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2837,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 2926,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cb-150f-2023-model-total-genuine-scratchless-11500-km-iid-1119890551",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3106,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3106,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3179,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cb150f-modified-iid-1119741620",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3358,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3358,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3431,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-125-new-condition-20256-iid-1119859910",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3610,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3610,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3683,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cd70-2024-model-total-genuine-first-owner-gujranwala-number-iid-1118650395",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3862,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3862,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3935,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/super-power-leo-urgent-for-sale-super-power-total-geniune-iid-1119053476",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4115,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4115,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4188,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cg-125-2024-iid-1119691822",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4367,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4367,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4440,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/yamaha-ybr-125g-20212022-iid-1119847516",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4619,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4619,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4692,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cb150f-iid-1113998091",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4871,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4871,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4944,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-gr-150-2021-red-total-genuine-03XX-XXXXXXX-lahore-iid-1119877845",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5123,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5196,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hi-speed-infinity-sr-150-model-2026-mate-black-total-geniune-iid-1119884092",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5376,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5376,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5449,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/revoo-electric-scooty-all-models-a11-a12-c35youngc35-y-06-scooty-iid-1119283274",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5628,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5628,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5701,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/yamaha-ybr-125g-2021-model-imported-new-condition-punjab-registered-iid-1119824761",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5880,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5969,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cg-150-2025-model-excellent-condition-1st-owner-iid-1119478023",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6148,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6148,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6221,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cd-70-1st-owner-biomatric-on-spot-total-genuine-engine-iid-1119076835",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6401,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6401,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6474,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cg-125-2021-model-very-excellent-condition-iid-1114813616",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6653,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6653,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 829,
+   "y": 6734,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 80,
+   "y": 6873,
+   "width": 112,
+   "height": 32,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-federal-b-area",
+   "label": "federal b area"
+  },
+  {
+   "x": 200,
+   "y": 6873,
+   "width": 156,
+   "height": 32,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-punjab-coop-society",
+   "label": "punjab coop society"
+  },
+  {
+   "x": 80,
+   "y": 7076,
+   "width": 31,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 7108,
+   "width": 86,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 7140,
+   "width": 105,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 7171,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 7076,
+   "width": 36,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 7108,
+   "width": 61,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 7140,
+   "width": 44,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books_c707080",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 7171,
+   "width": 37,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dogs_c139",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 7076,
+   "width": 66,
+   "height": 19,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 7108,
+   "width": 78,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 7140,
+   "width": 134,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 7076,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 7108,
+   "width": 57,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 7140,
+   "width": 90,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 7171,
+   "width": 92,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 7073,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 7073,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 7073,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 7073,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

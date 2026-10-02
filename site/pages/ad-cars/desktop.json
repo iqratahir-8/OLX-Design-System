@@ -1,0 +1,1099 @@
+{
+ "id": "ad-cars",
+ "title": "Ad: Cars",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/item/toyota-hilux-1992-iid-1119645456",
+ "finalUrl": "https://www.olx.com.pk/item/toyota-hilux-1992-iid-1119645456",
+ "width": 1440,
+ "height": 4936,
+ "dpr": 1,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-09-29T14:08:52.501Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-all-categories-mobile-phones-cars",
+   "name": "All Categories · Mobile Phones · Cars",
+   "rect": {
+    "x": 0,
+    "y": 143,
+    "width": 1440,
+    "height": 50
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "03-home-vehicles-cars",
+   "name": "Home · Vehicles · Cars",
+   "rect": {
+    "x": 80,
+    "y": 193,
+    "width": 1280,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "04-div",
+   "name": "div",
+   "rect": {
+    "x": 80,
+    "y": 250,
+    "width": 1280,
+    "height": 251
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "05-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 80,
+    "y": 532,
+    "width": 820,
+    "height": 481
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 940,
+    "y": 532,
+    "width": 420,
+    "height": 431
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
+  },
+  {
+   "file": "07-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 80,
+    "y": 1052,
+    "width": 820,
+    "height": 116
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "08-year-1992-km-s-driven",
+   "name": "Year · 1992 · KM's driven",
+   "rect": {
+    "x": 80,
+    "y": 1207,
+    "width": 820,
+    "height": 81
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "09-olx-car-inspection",
+   "name": "OLX Car Inspection",
+   "rect": {
+    "x": 80,
+    "y": 1327,
+    "width": 820,
+    "height": 216
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "10-details",
+   "name": "Details",
+   "rect": {
+    "x": 80,
+    "y": 1598,
+    "width": 820,
+    "height": 192
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "11-features",
+   "name": "Features",
+   "rect": {
+    "x": 80,
+    "y": 1829,
+    "width": 820,
+    "height": 208
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "12-description",
+   "name": "Description",
+   "rect": {
+    "x": 80,
+    "y": 2076,
+    "width": 820,
+    "height": 1048
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "13-related-ads",
+   "name": "Related Ads",
+   "rect": {
+    "x": 80,
+    "y": 3163,
+    "width": 820,
+    "height": 492
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "14-related-ads",
+   "name": "Related Ads",
+   "rect": {
+    "x": 80,
+    "y": 3694,
+    "width": 820,
+    "height": 491
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "15-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 80,
+    "y": 4224,
+    "width": 820,
+    "height": 171
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(10)"
+  },
+  {
+   "file": "16-find-amazing-deals-on-the-go-download-ol",
+   "name": "Find amazing deals on the go. · Download OLX app",
+   "rect": {
+    "x": 0,
+    "y": 4418,
+    "width": 1440,
+    "height": 173
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "17-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 4590,
+    "width": 1440,
+    "height": 346
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 144,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 284,
+   "y": 24,
+   "width": 139,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1196,
+   "y": 20,
+   "width": 40,
+   "height": 24,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
+   "x": 1256,
+   "y": 8,
+   "width": 104,
+   "height": 48,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 109,
+   "y": 81,
+   "width": 300,
+   "height": 46,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 459,
+   "y": 81,
+   "width": 791,
+   "height": 46,
+   "kind": "input",
+   "label": "Find Cars, Mobile Phones and more..."
+  },
+  {
+   "x": 1250,
+   "y": 80,
+   "width": 110,
+   "height": 48,
+   "kind": "button",
+   "label": "Search"
+  },
+  {
+   "x": 229,
+   "y": 159,
+   "width": 105,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 358,
+   "y": 159,
+   "width": 31,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 413,
+   "y": 159,
+   "width": 87,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Motorcycles"
+  },
+  {
+   "x": 524,
+   "y": 159,
+   "width": 53,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "Houses"
+  },
+  {
+   "x": 601,
+   "y": 159,
+   "width": 96,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "Video-Audios"
+  },
+  {
+   "x": 721,
+   "y": 159,
+   "width": 50,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "Tablets"
+  },
+  {
+   "x": 795,
+   "y": 159,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "Land & Plots"
+  },
+  {
+   "x": 80,
+   "y": 196,
+   "width": 39,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 149,
+   "y": 196,
+   "width": 52,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/vehicles_c5",
+   "label": "Vehicles"
+  },
+  {
+   "x": 231,
+   "y": 196,
+   "width": 26,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 287,
+   "y": 196,
+   "width": 89,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84",
+   "label": "Cars in Karachi"
+  },
+  {
+   "x": 406,
+   "y": 196,
+   "width": 113,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/scheme-33_g5001615/cars_c84",
+   "label": "Cars in Scheme 33"
+  },
+  {
+   "x": 549,
+   "y": 196,
+   "width": 123,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gulzar-e-hijri_g5000152/cars_c84",
+   "label": "Cars in Gulzar-E-Hijri"
+  },
+  {
+   "x": 702,
+   "y": 196,
+   "width": 105,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/toyota-cars_c84?filter=make_eq_toyota",
+   "label": "Toyota in Karachi"
+  },
+  {
+   "x": 837,
+   "y": 196,
+   "width": 140,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/toyota-cars_c84?filter=make_eq_toyota%2Cmodel_eq_toyota-39",
+   "label": "Toyota Hilux in Karachi"
+  },
+  {
+   "x": 832,
+   "y": 1228,
+   "width": 48,
+   "height": 49,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 80,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 900,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1720,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2540,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": "OLX Car InspectionBuy with confidence. Book inspection starting from Rs.4,500 on"
+  },
+  {
+   "x": 2604,
+   "y": 1343,
+   "width": 156,
+   "height": 41,
+   "kind": "button",
+   "label": "Book Now"
+  },
+  {
+   "x": 3360,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4180,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5000,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5820,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 6640,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 7460,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 8280,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 9100,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 9920,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 10740,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 11560,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 12380,
+   "y": 1012,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 104,
+   "y": 1478,
+   "width": 156,
+   "height": 41,
+   "kind": "button",
+   "label": "Book Now"
+  },
+  {
+   "x": 437,
+   "y": 1767,
+   "width": 106,
+   "height": 27,
+   "kind": "button",
+   "label": "View +3 more"
+  },
+  {
+   "x": 60,
+   "y": 3409,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-hilux-2003-iid-1118321215",
+   "label": "Listing"
+  },
+  {
+   "x": 357,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-hilux-2003-iid-1119626377",
+   "label": "Listing"
+  },
+  {
+   "x": 634,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-hilux-pickup-1992-iid-1119412247",
+   "label": "Listing"
+  },
+  {
+   "x": 900,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/kia-picanto-2020-iid-1118502971",
+   "label": "Listing"
+  },
+  {
+   "x": 1177,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-civic-vti-oriel-prosmatec-2010-iid-1119895860",
+   "label": "Listing"
+  },
+  {
+   "x": 1454,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hilux-tiger-2003-iid-1117988647",
+   "label": "Listing"
+  },
+  {
+   "x": 1720,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-hilux-19982007-iid-1119366799",
+   "label": "Listing"
+  },
+  {
+   "x": 1997,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-hilux-2003-iid-1119245464",
+   "label": "Listing"
+  },
+  {
+   "x": 2274,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/nissan-dayz-highway-star-2014-iid-1119896000",
+   "label": "Listing"
+  },
+  {
+   "x": 2540,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-civic-reborn-oriel-prosmetic-ug-model-top-of-the-line-variant-iid-1111509854",
+   "label": "Listing"
+  },
+  {
+   "x": 2817,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-hilux-2004-iid-1119112146",
+   "label": "Listing"
+  },
+  {
+   "x": 3094,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-alto-2020-iid-1119896981",
+   "label": "Listing"
+  },
+  {
+   "x": 3360,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-vitz-iid-1119095806",
+   "label": "Listing"
+  },
+  {
+   "x": 3637,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-city-ivtec-2015-iid-1119896168",
+   "label": "Listing"
+  },
+  {
+   "x": 3914,
+   "y": 3205,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-alto-2020-iid-1119896715",
+   "label": "Listing"
+  },
+  {
+   "x": 880,
+   "y": 3409,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 60,
+   "y": 3940,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-civic-reborn-oriel-prosmetic-ug-model-top-of-the-line-variant-iid-1111509854",
+   "label": "Listing"
+  },
+  {
+   "x": 357,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-alto-2022-iid-1119894206",
+   "label": "Listing"
+  },
+  {
+   "x": 634,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-vitz-2014-spider-shape-just-like-new-car-iid-1119886801",
+   "label": "Listing"
+  },
+  {
+   "x": 900,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-2001-iid-1119821612",
+   "label": "Listing"
+  },
+  {
+   "x": 1177,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-2006-iid-1119823699",
+   "label": "Listing"
+  },
+  {
+   "x": 1454,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/changan-karvaan-plus-2021-for-sale-iid-1119881344",
+   "label": "Listing"
+  },
+  {
+   "x": 1720,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/prius-2009-model-for-sale-iid-1119877836",
+   "label": "Listing"
+  },
+  {
+   "x": 1997,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-swift-2016-iid-1119875455",
+   "label": "Listing"
+  },
+  {
+   "x": 2274,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-civic-vti-oriel-prosmatec-top-of-the-line-iid-1119824369",
+   "label": "Listing"
+  },
+  {
+   "x": 2540,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-vitz-2004-model-registered-2007-fl-package-iid-1119824972",
+   "label": "Listing"
+  },
+  {
+   "x": 2817,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-vitz-2011-iid-1119865422",
+   "label": "Listing"
+  },
+  {
+   "x": 3094,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-alto-2022-iid-1119854404",
+   "label": "Listing"
+  },
+  {
+   "x": 3360,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-city-ivtec-2016-iid-1119657308",
+   "label": "Listing"
+  },
+  {
+   "x": 3637,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-2011-iid-1119826726",
+   "label": "Listing"
+  },
+  {
+   "x": 3914,
+   "y": 3736,
+   "width": 266,
+   "height": 447,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-cultus-vxl-2018-iid-1119827329",
+   "label": "Listing"
+  },
+  {
+   "x": 880,
+   "y": 3940,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 940,
+   "y": 532,
+   "width": 420,
+   "height": 142,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/85749890-8634-4f69-8d9e-73f5430c8c1b",
+   "label": "Posted byZaheer akhtar Member Since2019Active Ads2"
+  },
+  {
+   "x": 940,
+   "y": 689,
+   "width": 420,
+   "height": 49,
+   "kind": "button",
+   "label": "Show phone number"
+  },
+  {
+   "x": 940,
+   "y": 753,
+   "width": 420,
+   "height": 49,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 1236,
+   "y": 813,
+   "width": 124,
+   "height": 30,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 960,
+   "y": 4500,
+   "width": 128,
+   "height": 47,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 1096,
+   "y": 4500,
+   "width": 128,
+   "height": 47,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 1232,
+   "y": 4500,
+   "width": 128,
+   "height": 47,
+   "kind": "link",
+   "href": "https://appgallery.huawei.com/#/app/C104375435",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 4698,
+   "width": 31,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 4730,
+   "width": 86,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 4762,
+   "width": 105,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 4794,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 4698,
+   "width": 36,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 4730,
+   "width": 61,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 4762,
+   "width": 44,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books_c707080",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 4794,
+   "width": 37,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dogs_c139",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 4698,
+   "width": 66,
+   "height": 19,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 4730,
+   "width": 78,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 4762,
+   "width": 134,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 4698,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 4730,
+   "width": 57,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 4762,
+   "width": 90,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 4794,
+   "width": 92,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 4695,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 4695,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 4695,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 4695,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

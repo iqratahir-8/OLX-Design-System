@@ -1,0 +1,528 @@
+{
+ "id": "ad-furniture",
+ "title": "Ad: Furniture & Home Decor",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/office-chairs-study-chairs-executive-chairs-computer-chairs-iid-1119242245",
+ "finalUrl": "https://www.olx.com.pk/item/office-chairs-study-chairs-executive-chairs-computer-chairs-iid-1119242245",
+ "width": 390,
+ "height": 2258,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-09-29T14:05:43.464Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 146
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 439,
+    "width": 390,
+    "height": 51
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-details",
+   "name": "Details",
+   "rect": {
+    "x": 0,
+    "y": 489,
+    "width": 390,
+    "height": 113
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-description-chairs-price-starting-from-5",
+   "name": "Description · Chairs price starting from 5500 Rs",
+   "rect": {
+    "x": 0,
+    "y": 621,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 762,
+    "width": 390,
+    "height": 193
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "07-related-ads-rs-6-800-office-chair-revolv",
+   "name": "Related ads · Rs 6,800 · Office Chair, Revolving",
+   "rect": {
+    "x": 0,
+    "y": 994,
+    "width": 390,
+    "height": 371
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "08-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1384,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "09-office-chairs-in-raiwind-road-office-cha",
+   "name": "Office Chairs in Raiwind Road · Office Chairs in",
+   "rect": {
+    "x": 8,
+    "y": 1667,
+    "width": 374,
+    "height": 27
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "10-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1693,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1739,
+    "width": 390,
+    "height": 519
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "12-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 2193,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": 123,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1170,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1560,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1950,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2340,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2730,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3120,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3510,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3900,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4290,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4680,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5070,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5460,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5850,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 6240,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 6630,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 7020,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 171,
+   "y": 533,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/office-chairs_c707154/q-new-office-chairs",
+   "label": "New"
+  },
+  {
+   "x": 171,
+   "y": 571,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/office-chairs_c707154/q-computer-chairs",
+   "label": "Computer Chairs"
+  },
+  {
+   "x": 16,
+   "y": 721,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 774,
+   "width": 354,
+   "height": 131,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-7596",
+   "label": "Posted byBADAR OFFICE FURNITURE Member Since2023Active Ads27"
+  },
+  {
+   "x": 142,
+   "y": 918,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 1029,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/office-chair-revolving-chair-mesh-chair-computer-chair-iid-1087960886",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 1029,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/computer-chairs-call-center-chairs-staff-chairs-office-chairs-iid-1113318259",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 1029,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/staff-chairs-office-chairs-iid-1119832301",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 1029,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/computer-chairs-office-chairs-chairs-for-sale-staff-chairs-iid-1113106574",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 1029,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/office-chairs-for-sale-iid-1118133172",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2206,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 138,
+   "y": 2206,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 260,
+   "y": 2206,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 224,
+   "y": 1672,
+   "width": 158,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/raiwind-road_g5000741/office-chairs_c707154",
+   "label": "Office Chairs in Raiwind Road"
+  },
+  {
+   "x": 73,
+   "y": 1672,
+   "width": 121,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/office-chairs_c707154",
+   "label": "Office Chairs in Lahore"
+  },
+  {
+   "x": -26,
+   "y": 1672,
+   "width": 69,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/office-chairs_c707154",
+   "label": "Office Chairs"
+  },
+  {
+   "x": -141,
+   "y": 1672,
+   "width": 85,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/office-furniture_c2028",
+   "label": "Office Furniture"
+  },
+  {
+   "x": -301,
+   "y": 1672,
+   "width": 130,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/furniture-home-decor_c628",
+   "label": "Furniture & Home Decor"
+  },
+  {
+   "x": -363,
+   "y": 1672,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 2038,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 2105,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 2105,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 2105,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 2105,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

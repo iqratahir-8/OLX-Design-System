@@ -1,0 +1,453 @@
+{
+ "id": "cat-bikes",
+ "title": "Bikes",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/bikes_c1898",
+ "finalUrl": "https://www.olx.com.pk/bikes_c1898?page=1",
+ "width": 390,
+ "height": 4395,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T12:53:50.528Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 139
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 155,
+    "width": 390,
+    "height": 3420
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 3590,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-bikes-in-pakistan",
+   "name": "Bikes in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 3670,
+    "width": 390,
+    "height": 87
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "05-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 3756,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "06-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 3802,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "07-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 3848,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "08-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 3894,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "09-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 3940,
+    "width": 390,
+    "height": 455
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "10-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 4326,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 104,
+   "width": 358,
+   "height": 23,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items?sorting=desc-relevance",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 104,
+   "width": 390,
+   "height": 35,
+   "kind": "button",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 155,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cd70-2425-good-condition-all-ok-iid-1119401805",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 296,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/vlektra-velocity-180-urgent-for-sale-total-geniune-vlektra-iid-1119886783",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 438,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-125-iid-1119861743",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 580,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-gr-150-2025-model-150cc-sports-bike-excellent-condition-iid-1119892184",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 722,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/benelli-180s-2022-model-175cc-sports-bike-6-speed-iid-1119891949",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 864,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-pridor-2022-red-single-hand-used-original-card-file-iid-1119891950",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1006,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/ms-jaguar-e-70-2026-electric-bike-1500w-70-kmh-excellent-bike-iid-1119891324",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1148,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cb-125f-urgent-for-sale-total-geniune-need-money-iid-1119286901",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1290,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/kawasaki-ninja-z1000sx-20152019-black-widow-exhaust-pristine-cond-iid-1119889467",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1444,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cb-150f-2023-model-total-genuine-scratchless-11500-km-iid-1119890551",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1586,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cb150f-modified-iid-1119741620",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1728,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-125-new-condition-20256-iid-1119859910",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1870,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cd70-2024-model-total-genuine-first-owner-gujranwala-number-iid-1118650395",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2012,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/super-power-leo-urgent-for-sale-super-power-total-geniune-iid-1119053476",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2154,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cg-125-2024-iid-1119691822",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2296,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/yamaha-ybr-125g-20212022-iid-1119847516",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2438,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cb150f-iid-1113998091",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2580,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-gr-150-2021-red-total-genuine-03XX-XXXXXXX-lahore-iid-1119877845",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2722,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hi-speed-infinity-sr-150-model-2026-mate-black-total-geniune-iid-1119884092",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2864,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/revoo-electric-scooty-all-models-a11-a12-c35youngc35-y-06-scooty-iid-1119283274",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3006,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/yamaha-ybr-125g-2021-model-imported-new-condition-punjab-registered-iid-1119824761",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3160,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cg-150-2025-model-excellent-condition-1st-owner-iid-1119478023",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3302,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cd-70-1st-owner-biomatric-on-spot-total-genuine-engine-iid-1119076835",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3444,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/honda-cg-125-2021-model-very-excellent-condition-iid-1114813616",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 3590,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 143,
+   "y": 4326,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 3726,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 4239,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 4306,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 4306,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 4306,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 4306,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

@@ -1,0 +1,1804 @@
+{
+ "id": "sub-laptops",
+ "title": "Laptops",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/laptops_c708203",
+ "finalUrl": "https://www.olx.com.pk/laptops_c708203?page=1",
+ "width": 1440,
+ "height": 9759,
+ "dpr": 1,
+ "overlay": false,
+ "captured": "2026-09-29T13:03:56.434Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-all-categories-mobile-phones-cars",
+   "name": "All Categories · Mobile Phones · Cars",
+   "rect": {
+    "x": 0,
+    "y": 143,
+    "width": 1440,
+    "height": 50
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "03-laptops-in-pakistan",
+   "name": "Laptops in Pakistan",
+   "rect": {
+    "x": 80,
+    "y": 475,
+    "width": 1280,
+    "height": 69
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "04-filters-list",
+   "name": "Filters list",
+   "rect": {
+    "x": 80,
+    "y": 560,
+    "width": 304,
+    "height": 493
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "05-view-sort-by-most-relevant",
+   "name": "View · Sort by: · Most relevant",
+   "rect": {
+    "x": 400,
+    "y": 560,
+    "width": 960,
+    "height": 53
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "06-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 400,
+    "y": 637,
+    "width": 960,
+    "height": 8087
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "07-got-something-to-sell-post-in-3-simple-s",
+   "name": "Got Something to Sell? · Post in 3 Simple Steps ",
+   "rect": {
+    "x": 400,
+    "y": 8748,
+    "width": 960,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "08-msi-pulse-17-b13v-corei9-13th-generati",
+   "name": "MSI Pulse 17 B13V | Corei9-13th Generati",
+   "rect": {
+    "x": 400,
+    "y": 8902,
+    "width": 960,
+    "height": 253
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "09-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 400,
+    "y": 9178,
+    "width": 960,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "10-popular-searches-federal-b-area-punjab-c",
+   "name": "Popular Searches · federal b area · punjab coop ",
+   "rect": {
+    "x": 80,
+    "y": 9274,
+    "width": 1280,
+    "height": 75
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 9412,
+    "width": 1440,
+    "height": 347
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(2)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 144,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 284,
+   "y": 24,
+   "width": 139,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1196,
+   "y": 20,
+   "width": 40,
+   "height": 24,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
+   "x": 1256,
+   "y": 8,
+   "width": 104,
+   "height": 48,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 109,
+   "y": 81,
+   "width": 300,
+   "height": 46,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 459,
+   "y": 81,
+   "width": 791,
+   "height": 46,
+   "kind": "input",
+   "label": "Find Cars, Mobile Phones and more..."
+  },
+  {
+   "x": 1250,
+   "y": 80,
+   "width": 110,
+   "height": 48,
+   "kind": "button",
+   "label": "Search"
+  },
+  {
+   "x": 229,
+   "y": 159,
+   "width": 105,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 358,
+   "y": 159,
+   "width": 31,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 413,
+   "y": 159,
+   "width": 87,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Motorcycles"
+  },
+  {
+   "x": 524,
+   "y": 159,
+   "width": 53,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "Houses"
+  },
+  {
+   "x": 601,
+   "y": 159,
+   "width": 96,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "Video-Audios"
+  },
+  {
+   "x": 721,
+   "y": 159,
+   "width": 50,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "Tablets"
+  },
+  {
+   "x": 795,
+   "y": 159,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "Land & Plots"
+  },
+  {
+   "x": 80,
+   "y": 476,
+   "width": 39,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 97,
+   "y": 613,
+   "width": 270,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items?sorting=desc-relevance",
+   "label": "All categories"
+  },
+  {
+   "x": 122,
+   "y": 729,
+   "width": 212,
+   "height": 46,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 97,
+   "y": 794,
+   "width": 270,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items?sorting=desc-relevance",
+   "label": "Pakistan"
+  },
+  {
+   "x": 113,
+   "y": 820,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673?sorting=desc-relevance",
+   "label": "Lahore(7,521)"
+  },
+  {
+   "x": 113,
+   "y": 846,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695?sorting=desc-relevance",
+   "label": "Karachi(4,606)"
+  },
+  {
+   "x": 113,
+   "y": 872,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615?sorting=desc-relevance",
+   "label": "Islamabad(2,627)"
+  },
+  {
+   "x": 113,
+   "y": 898,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681?sorting=desc-relevance",
+   "label": "Rawalpindi(2,111)"
+  },
+  {
+   "x": 113,
+   "y": 924,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660?sorting=desc-relevance",
+   "label": "Faisalabad(1,224)"
+  },
+  {
+   "x": 113,
+   "y": 950,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/multan_g4060675?sorting=desc-relevance",
+   "label": "Multan(1,032)"
+  },
+  {
+   "x": 113,
+   "y": 976,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/peshawar_g4060643?sorting=desc-relevance",
+   "label": "Peshawar(531)"
+  },
+  {
+   "x": 113,
+   "y": 1002,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sialkot_g4060686?sorting=desc-relevance",
+   "label": "Sialkot(488)"
+  },
+  {
+   "x": 113,
+   "y": 1028,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662?sorting=desc-relevance",
+   "label": "Gujranwala(476)"
+  },
+  {
+   "x": 113,
+   "y": 1054,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653?sorting=desc-relevance",
+   "label": "Bahawalpur(330)"
+  },
+  {
+   "x": 113,
+   "y": 1080,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyderabad_g4060693?sorting=desc-relevance",
+   "label": "Hyderabad(329)"
+  },
+  {
+   "x": 113,
+   "y": 1106,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/wah_g4060692?sorting=desc-relevance",
+   "label": "Wah(268)"
+  },
+  {
+   "x": 113,
+   "y": 1132,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sargodha_g4060684?sorting=desc-relevance",
+   "label": "Sargodha(236)"
+  },
+  {
+   "x": 113,
+   "y": 1158,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663?sorting=desc-relevance",
+   "label": "Gujrat(194)"
+  },
+  {
+   "x": 113,
+   "y": 1184,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sahiwal_g4060683?sorting=desc-relevance",
+   "label": "Sahiwal(190)"
+  },
+  {
+   "x": 113,
+   "y": 1210,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/abbottabad_g4060640?sorting=desc-relevance",
+   "label": "Abbottabad(184)"
+  },
+  {
+   "x": 113,
+   "y": 1236,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rahimyar-khan_g4060680?sorting=desc-relevance",
+   "label": "Rahimyar Khan(168)"
+  },
+  {
+   "x": 113,
+   "y": 1262,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/okara_g4060678?sorting=desc-relevance",
+   "label": "Okara(149)"
+  },
+  {
+   "x": 113,
+   "y": 1288,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sheikhupura_g4060685?sorting=desc-relevance",
+   "label": "Sheikhüpura(125)"
+  },
+  {
+   "x": 113,
+   "y": 1314,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jhelum_g4060668?sorting=desc-relevance",
+   "label": "Jhelum(124)"
+  },
+  {
+   "x": 113,
+   "y": 1340,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jhang_g1142?sorting=desc-relevance",
+   "label": "Jhang(121)"
+  },
+  {
+   "x": 113,
+   "y": 1366,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/attock_g4060651?sorting=desc-relevance",
+   "label": "Attock(113)"
+  },
+  {
+   "x": 113,
+   "y": 1392,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/quetta_g4060602?sorting=desc-relevance",
+   "label": "Quetta(111)"
+  },
+  {
+   "x": 113,
+   "y": 1418,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mardan_g4060623?sorting=desc-relevance",
+   "label": "Mardan(94)"
+  },
+  {
+   "x": 113,
+   "y": 1444,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/taxila_g4065567?sorting=desc-relevance",
+   "label": "Taxila(78)"
+  },
+  {
+   "x": 113,
+   "y": 1470,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kasur_g4060687?sorting=desc-relevance",
+   "label": "Kasur(74)"
+  },
+  {
+   "x": 113,
+   "y": 1496,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/haripur_g4060631?sorting=desc-relevance",
+   "label": "Haripur(72)"
+  },
+  {
+   "x": 113,
+   "y": 1522,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sukkur_g4060702?sorting=desc-relevance",
+   "label": "Sukkur(60)"
+  },
+  {
+   "x": 113,
+   "y": 1548,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalnagar_g4060652?sorting=desc-relevance",
+   "label": "Bahawalnagar(58)"
+  },
+  {
+   "x": 113,
+   "y": 1574,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/toba-tek-singh_g4060689?sorting=desc-relevance",
+   "label": "Toba Tek singh(58)"
+  },
+  {
+   "x": 113,
+   "y": 1600,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/nowshera_g4060642?sorting=desc-relevance",
+   "label": "Nowshera(54)"
+  },
+  {
+   "x": 113,
+   "y": 1626,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/burewala_g4060654?sorting=desc-relevance",
+   "label": "Burewala(54)"
+  },
+  {
+   "x": 113,
+   "y": 1652,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mandi-bahauddin_g4065538?sorting=desc-relevance",
+   "label": "Mandi Bahauddin(52)"
+  },
+  {
+   "x": 113,
+   "y": 1678,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/pakpattan_g4060679?sorting=desc-relevance",
+   "label": "Pakpattan(48)"
+  },
+  {
+   "x": 113,
+   "y": 1704,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/swabi_g4060645?sorting=desc-relevance",
+   "label": "Swabi(45)"
+  },
+  {
+   "x": 113,
+   "y": 1730,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dera-ghazi-khan_g4060658?sorting=desc-relevance",
+   "label": "Dera Ghazi Khan(43)"
+  },
+  {
+   "x": 113,
+   "y": 1756,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/vehari_g4065539?sorting=desc-relevance",
+   "label": "Vehari(42)"
+  },
+  {
+   "x": 113,
+   "y": 1782,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mansehra_g4060624?sorting=desc-relevance",
+   "label": "Mansehra(40)"
+  },
+  {
+   "x": 113,
+   "y": 1808,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chakwal_g4065543?sorting=desc-relevance",
+   "label": "Chakwal(38)"
+  },
+  {
+   "x": 113,
+   "y": 1834,
+   "width": 254,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/khanpur_g4060672?sorting=desc-relevance",
+   "label": "Khanpur(36)"
+  },
+  {
+   "x": 1075,
+   "y": 560,
+   "width": 36,
+   "height": 36,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1119,
+   "y": 560,
+   "width": 36,
+   "height": 36,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1188,
+   "y": 567,
+   "width": 172,
+   "height": 22,
+   "kind": "button",
+   "label": "Sort by: Most relevant"
+  },
+  {
+   "x": 400,
+   "y": 637,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-5490-core-i5-8th-gen-16gb-ram-256gb-nvme-ssd-iid-1119893302",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 816,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 816,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 889,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/macbook-pro-2017-15-inch-for-sale-iid-1119892785",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1068,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1068,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1141,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-elite-book-laptop-for-sale-iid-1119892277",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1320,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1320,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1393,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-envy-16-i7-13th-gen-16gb-ddr5-1tb-ssd-rtx-4060-120hz-iid-1118885529",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1572,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1572,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1645,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-e16-gen-2-core-ultra-5-16gb-ram-512gb-nvme-ssd-iid-1119891590",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1825,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1825,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1898,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-macbook-pro-16-inch-m4-pro-powerful-performance-iid-1119431140",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2077,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2077,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 2150,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-core-i5-12th-gen-10-core-12-thread-14inch-touchscreen-1080p-led-iid-1119579021",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2329,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2329,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 953,
+   "y": 2329,
+   "width": 140,
+   "height": 41,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 400,
+   "y": 2402,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/macbook-apple-macbook-air-m1-2020-8gb-16gb-ram-256gb-ssd-iid-1118165313",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2581,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2581,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 953,
+   "y": 2581,
+   "width": 140,
+   "height": 41,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 400,
+   "y": 2654,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-core-i5-13420h-13th-generation-laptop-mfg-aug-2025-156inch-iid-1119466826",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2833,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2833,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 953,
+   "y": 2833,
+   "width": 140,
+   "height": 41,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 400,
+   "y": 2922,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-e16-ultra-5-iid-1119838878",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3102,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3102,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3175,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/asus-laptop-intel-celeron-n4020-4gb-ram-ssd-256gb-storage-iid-1119886893",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3354,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3354,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3427,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-probook-450-g6-laptop-i5-8-th-generation-iid-1119850772",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3606,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3606,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3679,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-5410-i7-10th-gen-32gb-ram-512gb-nvme-iid-1119790549",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3858,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3858,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3931,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/microsoft-surface-laptop-4-core-i7-11th-gen-32gb-ram-1tb-ssd-iid-1119886348",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4111,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4111,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4184,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-elitebook-840-g4-core-i5-7th-gen-8gb-ddr4-256gb-ssd-14-slim-lig-iid-1116291205",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4363,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4363,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4436,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-5531-core-i7-12th-gen-h-series-iid-1119885285",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4615,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4615,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4688,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-5500-core-i5-8th-gen-8gb-256gb-ssd-156-laptop-iid-1119884239",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4867,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4867,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4940,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/p-elitebook-840-g5-g6-core-i5-8th-gen-8gb-ddr4-256gb-ssd-slim-iid-1119884089",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5119,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5119,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5192,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-macbook-pro-2019-a2141-core-i7-6-core-32gb-1tb-4gb-graphics-16-iid-1119880932",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5372,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5372,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 953,
+   "y": 5372,
+   "width": 140,
+   "height": 41,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 400,
+   "y": 5445,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-macbook-pro-2019-a2141-core-i9-8-core-32gb-1tb-4gb-graphics-16-iid-1119880811",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5624,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5624,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 953,
+   "y": 5624,
+   "width": 140,
+   "height": 41,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 400,
+   "y": 5697,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-macbook-pro-2019-a2141-core-i9-8-core-64gb-2tb-8gb-graphics-16-iid-1119880650",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5876,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5876,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 953,
+   "y": 5876,
+   "width": 140,
+   "height": 41,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 400,
+   "y": 5965,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-macbook-pro-2019-a2141-core-i9-8-core-32gb-2tb-8gb-graphics-16-iid-1119880428",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6144,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6144,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 953,
+   "y": 6144,
+   "width": 140,
+   "height": 41,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 400,
+   "y": 6217,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-probook-440-g7-core-i5-10th-generation-8-gb-256gb-ssd-touch-screen-iid-1119857525",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6397,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6397,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6470,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-7390-i5-8th-slim-and-light-weight-fresh-piece-iid-1117416516",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6649,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6649,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6722,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-inspiron-3593-core-i7-10th-gen-mx230-512-gb-nvme-ssd-iid-1119803638",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6901,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6901,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6974,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-7390-2-in-1-core-i5-8th-gen-16gb-ram-256gb-ssd-iid-1119877990",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 7153,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 7153,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 7226,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-laptop-iid-1119537680",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 7405,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 7405,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 7478,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-core-i5-8th-generation-iid-1119877402",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 7658,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 7658,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 7731,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-ryzen-7-pro-8-core-16-cpusi5-12th-gen-4k-display-2gb-graphic-iid-1119283667",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 7910,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 7910,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 953,
+   "y": 7910,
+   "width": 140,
+   "height": 41,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 400,
+   "y": 7983,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-precision-7550-corei7-10th-generation-powerful-processorgpu-iid-1115588172",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 8162,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 8162,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 953,
+   "y": 8162,
+   "width": 140,
+   "height": 41,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 400,
+   "y": 8235,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-core-i5-240ghz-4gb-ram-250gb-rom-2hr-battery-iid-1119867158",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 8414,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 8414,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 8487,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-precision-5540-core-i7-9th-laptop-16gb-ram-256gb-ssd-4gb-gpu-iid-1119459439",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 8667,
+   "width": 105,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 8667,
+   "width": 105,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 953,
+   "y": 8667,
+   "width": 140,
+   "height": 40,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 1153,
+   "y": 8791,
+   "width": 174,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell Now"
+  },
+  {
+   "x": 400,
+   "y": 8902,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/msi-pulse-17-b13v-corei9-13th-generation-true-gaming-beast-machine-iid-1117141597",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 9081,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 9081,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 953,
+   "y": 9081,
+   "width": 140,
+   "height": 41,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 829,
+   "y": 9178,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 80,
+   "y": 9317,
+   "width": 112,
+   "height": 32,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-federal-b-area",
+   "label": "federal b area"
+  },
+  {
+   "x": 200,
+   "y": 9317,
+   "width": 156,
+   "height": 32,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-punjab-coop-society",
+   "label": "punjab coop society"
+  },
+  {
+   "x": 80,
+   "y": 9520,
+   "width": 31,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 9552,
+   "width": 86,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 9584,
+   "width": 105,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 9616,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 9520,
+   "width": 36,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 9552,
+   "width": 61,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 9584,
+   "width": 44,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books_c707080",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 9616,
+   "width": 37,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dogs_c139",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 9520,
+   "width": 66,
+   "height": 19,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 9552,
+   "width": 78,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 9584,
+   "width": 134,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 9520,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 9552,
+   "width": 57,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 9584,
+   "width": 90,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 9616,
+   "width": 92,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 9517,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 9517,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 9517,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 9517,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

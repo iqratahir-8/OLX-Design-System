@@ -1,0 +1,563 @@
+{
+ "id": "cat-kids",
+ "title": "Kids",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/kids_c88",
+ "finalUrl": "https://www.olx.com.pk/kids_c88?page=1",
+ "width": 390,
+ "height": 5828,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T12:59:11.041Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 139
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 155,
+    "width": 390,
+    "height": 4490
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-got-something-to-sell-post-in-3-simple-s",
+   "name": "Got Something to Sell? · Post in 3 Simple Steps ",
+   "rect": {
+    "x": 16,
+    "y": 4656,
+    "width": 358,
+    "height": 198
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-remote-control-fighter-plane-for-kids-lo",
+   "name": "Remote Control fighter plane for kids lo",
+   "rect": {
+    "x": 0,
+    "y": 4865,
+    "width": 390,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "05-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 5023,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "06-kids-items-in-pakistan",
+   "name": "Kids Items in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 5103,
+    "width": 390,
+    "height": 87
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "07-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 5189,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "08-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 5235,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "09-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 5281,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "10-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 5327,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 5373,
+    "width": 390,
+    "height": 455
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "12-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 5759,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 104,
+   "width": 358,
+   "height": 23,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 104,
+   "width": 390,
+   "height": 35,
+   "kind": "button",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 155,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/seesaw-monkey-bar-slide-jungle-gym-combo-set-gazebo-trampoline-iid-1118990806",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 296,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/kids-swing-swing-swing-for-sale-wooden-swing-for-sale-iid-1119410995",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 438,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/kids-car-baby-car-kids-jeep-kids-electric-jeep-kids-toys-iid-1106695862",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 580,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/ride-on-cars-buy-baby-car-best-price-kids-car-new-iid-1119173197",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 722,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/kids-jeepbabybattery-operated-jeepelectricremote-controlcarbike-iid-1117756238",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 864,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/baby-motor-car-baby-motor-jeep-kids-electric-car-electric-jeep-iid-1106465628",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1079,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/children-little-yellow-duck-dispensar-drinking-toy-for-kids-iid-ev376800-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1079,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/rn-multicolored-bath-shower-cap-for-children-iid-ev451603-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1350,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/qiyi-warrior-s-3x3-cube-stickerless-rubik-s-cube-fast-speed-magic-cube-for-puzzles-and-educational-fun-iid-ev250207-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1350,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/set-of-2-plush-mickey-and-minnie-mouse-dolls-each-12-inches-iid-ev376565-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1621,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/prank-box-funny-pop-out-wooden-scare-box-toy-hilarious-christmas-halloween-april-fool-joke-prank-trick-toy-for-kid-iid-ev536506-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1621,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/happy-baby-stuff-toy-with-laughing-sound-14-inches-iid-ev376853-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1891,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/speed-yoyo-ben-10-free-playing-metal-plastic-competition-yoyo-iid-ev376941-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1891,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/korean-ddakji-challenge-set-squid-game-paper-slap-game-for-kids-and-adults-iid-ev479172-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2167,
+   "width": 358,
+   "height": 41,
+   "kind": "button",
+   "label": "View All Items with Delivery"
+  },
+  {
+   "x": 0,
+   "y": 2219,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/nuna-box-packed-bassinet-kids-cot-crib-kids-bed-iid-1119389881",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2361,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/pak-inflatable-pakistan-no-1-inflatables-manafacturer-iid-1119115926",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2503,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/kids-pram-walker-stroller-pushchair-baby-pram-travel-set-iid-1119403831",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2657,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/atm-money-box-with-fingerprint-sensor-iid-1099300366",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2799,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/baby-swing-iid-1119894144",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2941,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dragon-ball-super-saiyan-goku-action-figure-7-inch-18cm-iid-1119894054",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3083,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/kids-heavy-bike-iid-1118689253",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3225,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/baby-walker-iid-1113105494",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3367,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/salle-iid-1119893875",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3509,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dragon-ball-super-saiyan-4-trunks-figure-105-inches-27cm-iid-1119893865",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3651,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/premium-quality-diecast-car-models-iid-1119893761",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3792,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/3-wheel-cycle-iid-1119893753",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3934,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/usa-brand-iid-1119661496",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4076,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/crochet-baby-accessories-iid-1119893608",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4218,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/foldable-kids-swing-jhula-new-condition-o3564o2605o-call-whatsapp-iid-1119893321",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4372,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/foldable-kids-swing-jhula-new-condition-o3564o2605o-call-whatsapp-iid-1119893283",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4514,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/buy-the-best-quality-butterfly-wing-wand-headband-fairy-iid-1119893204",
+   "label": "Listing"
+  },
+  {
+   "x": 29,
+   "y": 4796,
+   "width": 332,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell Now"
+  },
+  {
+   "x": 0,
+   "y": 4865,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/remote-control-fighter-plane-for-kids-lovers-24g-foam-fighter-stunt-iid-1119892947",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 5023,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 143,
+   "y": 5759,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 5159,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 5672,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

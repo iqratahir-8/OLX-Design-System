@@ -1,0 +1,1729 @@
+{
+ "id": "prop-shops",
+ "title": "Property: Shops & offices",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/shops-offices-commercial-space_c1733",
+ "finalUrl": "https://www.olx.com.pk/shops-offices-commercial-space_c1733?page=1",
+ "width": 1440,
+ "height": 7732,
+ "dpr": 1,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-09-30T07:23:36.629Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-all-categories-mobile-phones-cars",
+   "name": "All Categories · Mobile Phones · Cars",
+   "rect": {
+    "x": 0,
+    "y": 143,
+    "width": 1440,
+    "height": 50
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "03-commercial-property-for-sale-in-pakistan",
+   "name": "Commercial Property for Sale in Pakistan",
+   "rect": {
+    "x": 80,
+    "y": 475,
+    "width": 1280,
+    "height": 70
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "04-filters-list",
+   "name": "Filters list",
+   "rect": {
+    "x": 80,
+    "y": 560,
+    "width": 304,
+    "height": 494
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "05-view-sort-by-newly-listed",
+   "name": "View · Sort by: · Newly listed",
+   "rect": {
+    "x": 400,
+    "y": 560,
+    "width": 960,
+    "height": 54
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "06-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 400,
+    "y": 637,
+    "width": 960,
+    "height": 6491
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "07-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 400,
+    "y": 7151,
+    "width": 960,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "08-popular-searches-federal-b-area-punjab-c",
+   "name": "Popular Searches · federal b area · punjab coop ",
+   "rect": {
+    "x": 80,
+    "y": 7247,
+    "width": 1280,
+    "height": 75
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "09-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 7385,
+    "width": 1440,
+    "height": 347
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(2)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 144,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 284,
+   "y": 24,
+   "width": 139,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1196,
+   "y": 20,
+   "width": 40,
+   "height": 24,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
+   "x": 1256,
+   "y": 8,
+   "width": 104,
+   "height": 48,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 109,
+   "y": 81,
+   "width": 300,
+   "height": 46,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 459,
+   "y": 81,
+   "width": 791,
+   "height": 46,
+   "kind": "input",
+   "label": "Find Cars, Mobile Phones and more..."
+  },
+  {
+   "x": 1250,
+   "y": 80,
+   "width": 110,
+   "height": 48,
+   "kind": "button",
+   "label": "Search"
+  },
+  {
+   "x": 229,
+   "y": 159,
+   "width": 105,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 358,
+   "y": 159,
+   "width": 31,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 413,
+   "y": 159,
+   "width": 87,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Motorcycles"
+  },
+  {
+   "x": 524,
+   "y": 159,
+   "width": 53,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "Houses"
+  },
+  {
+   "x": 601,
+   "y": 159,
+   "width": 96,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "Video-Audios"
+  },
+  {
+   "x": 721,
+   "y": 159,
+   "width": 50,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "Tablets"
+  },
+  {
+   "x": 795,
+   "y": 159,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "Land & Plots"
+  },
+  {
+   "x": 80,
+   "y": 478,
+   "width": 39,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 149,
+   "y": 478,
+   "width": 102,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2",
+   "label": "Property for Sale"
+  },
+  {
+   "x": 97,
+   "y": 613,
+   "width": 270,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items",
+   "label": "All categories"
+  },
+  {
+   "x": 122,
+   "y": 729,
+   "width": 212,
+   "height": 47,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 97,
+   "y": 794,
+   "width": 270,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items",
+   "label": "Pakistan"
+  },
+  {
+   "x": 113,
+   "y": 820,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673",
+   "label": "Lahore(630)"
+  },
+  {
+   "x": 113,
+   "y": 846,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695",
+   "label": "Karachi(411)"
+  },
+  {
+   "x": 113,
+   "y": 872,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615",
+   "label": "Islamabad(392)"
+  },
+  {
+   "x": 113,
+   "y": 898,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681",
+   "label": "Rawalpindi(110)"
+  },
+  {
+   "x": 113,
+   "y": 924,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660",
+   "label": "Faisalabad(26)"
+  },
+  {
+   "x": 113,
+   "y": 950,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/multan_g4060675",
+   "label": "Multan(24)"
+  },
+  {
+   "x": 113,
+   "y": 976,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sialkot_g4060686",
+   "label": "Sialkot(21)"
+  },
+  {
+   "x": 113,
+   "y": 1002,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663",
+   "label": "Gujrat(11)"
+  },
+  {
+   "x": 113,
+   "y": 1028,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662",
+   "label": "Gujranwala(10)"
+  },
+  {
+   "x": 113,
+   "y": 1054,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyderabad_g4060693",
+   "label": "Hyderabad(10)"
+  },
+  {
+   "x": 113,
+   "y": 1080,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jalal-pur-jatta_g5011026",
+   "label": "Jalal Pur Jatta(10)"
+  },
+  {
+   "x": 113,
+   "y": 1106,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/abbottabad_g4060640",
+   "label": "Abbottabad(9)"
+  },
+  {
+   "x": 113,
+   "y": 1132,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sheikhupura_g4060685",
+   "label": "Sheikhüpura(9)"
+  },
+  {
+   "x": 113,
+   "y": 1158,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sargodha_g4060684",
+   "label": "Sargodha(4)"
+  },
+  {
+   "x": 113,
+   "y": 1184,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/wah_g4060692",
+   "label": "Wah(4)"
+  },
+  {
+   "x": 113,
+   "y": 1210,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653",
+   "label": "Bahawalpur(3)"
+  },
+  {
+   "x": 113,
+   "y": 1236,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mardan_g4060623",
+   "label": "Mardan(2)"
+  },
+  {
+   "x": 113,
+   "y": 1262,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/nowshera_g4060642",
+   "label": "Nowshera(2)"
+  },
+  {
+   "x": 113,
+   "y": 1288,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/peshawar_g4060643",
+   "label": "Peshawar(2)"
+  },
+  {
+   "x": 113,
+   "y": 1314,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/murree_g4065542",
+   "label": "Murree(2)"
+  },
+  {
+   "x": 113,
+   "y": 1340,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/taxila_g4065567",
+   "label": "Taxila(2)"
+  },
+  {
+   "x": 113,
+   "y": 1366,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mirpur_g4060595",
+   "label": "Mirpur(1)"
+  },
+  {
+   "x": 113,
+   "y": 1392,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/haripur_g4060631",
+   "label": "Haripur(1)"
+  },
+  {
+   "x": 113,
+   "y": 1418,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jhelum_g4060668",
+   "label": "Jhelum(1)"
+  },
+  {
+   "x": 113,
+   "y": 1444,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rahimyar-khan_g4060680",
+   "label": "Rahimyar Khan(1)"
+  },
+  {
+   "x": 113,
+   "y": 1470,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kasur_g4060687",
+   "label": "Kasur(1)"
+  },
+  {
+   "x": 113,
+   "y": 1496,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chakwal_g4065543",
+   "label": "Chakwal(1)"
+  },
+  {
+   "x": 113,
+   "y": 1522,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/nankana-sahib_g4065566",
+   "label": "Nankana Sahib(1)"
+  },
+  {
+   "x": 113,
+   "y": 1548,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sarai-alamgir_g5101304",
+   "label": "Sarai Alamgir(1)"
+  },
+  {
+   "x": 113,
+   "y": 1574,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/renala-khurd_g8151",
+   "label": "Renala Khurd(1)"
+  },
+  {
+   "x": 1083,
+   "y": 560,
+   "width": 36,
+   "height": 37,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1127,
+   "y": 560,
+   "width": 36,
+   "height": 37,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1196,
+   "y": 568,
+   "width": 164,
+   "height": 22,
+   "kind": "button",
+   "label": "Sort by: Newly listed"
+  },
+  {
+   "x": 400,
+   "y": 637,
+   "width": 89,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-ground-floor-commercial",
+   "label": "Ground"
+  },
+  {
+   "x": 497,
+   "y": 637,
+   "width": 39,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-1st-floor-commercial",
+   "label": "1"
+  },
+  {
+   "x": 544,
+   "y": 637,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-2nd-floor-commercial",
+   "label": "2"
+  },
+  {
+   "x": 594,
+   "y": 637,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-3rd-floor-commercial",
+   "label": "3"
+  },
+  {
+   "x": 644,
+   "y": 637,
+   "width": 43,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-4th-floor-commercial",
+   "label": "4"
+  },
+  {
+   "x": 695,
+   "y": 637,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-5th-floor-commercial",
+   "label": "5"
+  },
+  {
+   "x": 745,
+   "y": 637,
+   "width": 51,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-7th-floor-commercial",
+   "label": "7+"
+  },
+  {
+   "x": 400,
+   "y": 695,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/4-marla-commercial-plaza-for-sale-in-soan-garden-a-block-rental-income-property-investor-rate-iid-1118848028",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 874,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 874,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 947,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/unit-for-sale-iid-1118869978",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1127,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1127,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1200,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/corner-in-falaknaz-grand-square-of-karachi-a-94-square-feet-shop-is-available-iid-1118873612",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1379,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1379,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1452,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/4-marla-brand-new-modern-design-plaza-is-up-for-sale-iid-1118754350",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1631,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1631,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1704,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/4-marla-5-floors-rare-commercial-building-for-sale-monthly-rental-value-rs-4-lac-iid-1119496038",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1883,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1883,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1956,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/146-sft-for-sale-in-jalapur-jatan-in-main-bazaar-city-jalapur-jattan-iid-1118088796",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2135,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2135,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 416,
+   "y": 2255,
+   "width": 90,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-buildings",
+   "label": "Building"
+  },
+  {
+   "x": 514,
+   "y": 2255,
+   "width": 96,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-factories",
+   "label": "Factories"
+  },
+  {
+   "x": 618,
+   "y": 2255,
+   "width": 77,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-offices",
+   "label": "Office"
+  },
+  {
+   "x": 703,
+   "y": 2255,
+   "width": 71,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-shops",
+   "label": "Shop"
+  },
+  {
+   "x": 782,
+   "y": 2255,
+   "width": 115,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-warehouses",
+   "label": "Warehouse"
+  },
+  {
+   "x": 400,
+   "y": 2329,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/10-marla-rental-plaza-for-sale-in-bahria-town-phase-7-21-apartments-pkr-10-lakh-monthly-income-iid-1118443111",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2509,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2509,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 2582,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/prime-location-commercial-building-for-sale-in-dha-phase-7-4-marla-investor-price-105-cr-iid-1119607682",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2761,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2761,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 2834,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/14-marla-private-corner-market-for-sale-in-bahria-town-lahore-prime-location-iid-1118688043",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3013,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3013,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3102,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/already-rented-out-leased-shop-for-sale-prime-location-high-footfall-area-ideal-for-retail-or-office-iid-1119919733",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3281,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3281,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3354,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offers-prime-location-beautiful-double-storey-commercial-building-available-for-sale-reasonable-price-on-gate-no-1-on-main-boulevard-al-rehman-garden-phase-2-saggian-bypass-iid-1119919574",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3534,
+   "width": 105,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3534,
+   "width": 105,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3607,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/18-marla-idependent-commercial-building-iid-1119084732",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3786,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3786,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 416,
+   "y": 3906,
+   "width": 85,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-commercial-parking",
+   "label": "Parking"
+  },
+  {
+   "x": 509,
+   "y": 3906,
+   "width": 140,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-commercial-waste-disposal",
+   "label": "Waste Disposal"
+  },
+  {
+   "x": 657,
+   "y": 3906,
+   "width": 155,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-commercial-lobby-in-building",
+   "label": "Lobby in Building"
+  },
+  {
+   "x": 820,
+   "y": 3906,
+   "width": 155,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-commercial-electricity-backup",
+   "label": "Electricity Backup"
+  },
+  {
+   "x": 983,
+   "y": 3906,
+   "width": 109,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-commercial-central-ac",
+   "label": "Central AC"
+  },
+  {
+   "x": 1100,
+   "y": 3906,
+   "width": 141,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-commercial-double-glazing",
+   "label": "Double Glazing"
+  },
+  {
+   "x": 1249,
+   "y": 3906,
+   "width": 97,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-commercial-elevators",
+   "label": "Elevators"
+  },
+  {
+   "x": 1354,
+   "y": 3906,
+   "width": 143,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-commercial-central-heating",
+   "label": "Central Heating"
+  },
+  {
+   "x": 1312,
+   "y": 3911,
+   "width": 32,
+   "height": 33,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 400,
+   "y": 3980,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/office-for-sale-535-sq-feet-zulfiqar-commercial-dha-phase-8-karachi-iid-1119508351",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4159,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4159,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4232,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2-marla-triple-story-building-for-sale-iid-1119441388",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4411,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4411,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4484,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/10-marla-plaza-for-sale-iid-1119441386",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4663,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4663,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4736,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/4-marla-corner-semi-commercial-double-storey-building-for-sale-iid-1119441363",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4916,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4916,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4989,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/11-marlas-double-storey-commercial-property-on-main-boulevard-samanabad-iid-1119419939",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5168,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5168,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5241,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-kanal-7-storey-commercial-plaza-opposite-expo-centre-emporium-mall-johar-town-iid-1119277266",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5420,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5420,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 416,
+   "y": 5540,
+   "width": 82,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/shops-offices-commercial-space_c1733",
+   "label": "Lahore"
+  },
+  {
+   "x": 506,
+   "y": 5540,
+   "width": 84,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/shops-offices-commercial-space_c1733",
+   "label": "Karachi"
+  },
+  {
+   "x": 598,
+   "y": 5540,
+   "width": 106,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/shops-offices-commercial-space_c1733",
+   "label": "Islamabad"
+  },
+  {
+   "x": 712,
+   "y": 5540,
+   "width": 110,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/shops-offices-commercial-space_c1733",
+   "label": "Rawalpindi"
+  },
+  {
+   "x": 830,
+   "y": 5540,
+   "width": 82,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/multan_g4060675/shops-offices-commercial-space_c1733",
+   "label": "Multan"
+  },
+  {
+   "x": 920,
+   "y": 5540,
+   "width": 106,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/shops-offices-commercial-space_c1733",
+   "label": "Faisalabad"
+  },
+  {
+   "x": 1034,
+   "y": 5540,
+   "width": 79,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sialkot_g4060686/shops-offices-commercial-space_c1733",
+   "label": "Sialkot"
+  },
+  {
+   "x": 1121,
+   "y": 5540,
+   "width": 76,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663/shops-offices-commercial-space_c1733",
+   "label": "Gujrat"
+  },
+  {
+   "x": 1205,
+   "y": 5540,
+   "width": 124,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jalal-pur-jatta_g5011026/shops-offices-commercial-space_c1733",
+   "label": "Jalal Pur Jatta"
+  },
+  {
+   "x": 1337,
+   "y": 5540,
+   "width": 112,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/shops-offices-commercial-space_c1733",
+   "label": "Gujranwala"
+  },
+  {
+   "x": 1457,
+   "y": 5540,
+   "width": 121,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sheikhupura_g4060685/shops-offices-commercial-space_c1733",
+   "label": "Sheikhüpura"
+  },
+  {
+   "x": 1586,
+   "y": 5540,
+   "width": 113,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyderabad_g4060693/shops-offices-commercial-space_c1733",
+   "label": "Hyderabad"
+  },
+  {
+   "x": 1707,
+   "y": 5540,
+   "width": 120,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/abbottabad_g4060640/shops-offices-commercial-space_c1733",
+   "label": "Abbottabad"
+  },
+  {
+   "x": 1835,
+   "y": 5540,
+   "width": 102,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sargodha_g4060684/shops-offices-commercial-space_c1733",
+   "label": "Sargodha"
+  },
+  {
+   "x": 1945,
+   "y": 5540,
+   "width": 66,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/wah_g4060692/shops-offices-commercial-space_c1733",
+   "label": "Wah"
+  },
+  {
+   "x": 2019,
+   "y": 5540,
+   "width": 116,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653/shops-offices-commercial-space_c1733",
+   "label": "Bahawalpur"
+  },
+  {
+   "x": 2143,
+   "y": 5540,
+   "width": 77,
+   "height": 43,
+   "kind": "button",
+   "label": "View All"
+  },
+  {
+   "x": 1312,
+   "y": 5545,
+   "width": 32,
+   "height": 33,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 400,
+   "y": 5614,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/8-marlas-commercial-corner-flat-on-third-floor-of-civic-center-13-hadayat-ullah-block-mustafa-town-iid-1119715002",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5793,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5793,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5866,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/get-in-touch-now-to-buy-a-prime-location-8-marla-building-in-bahria-town-sector-d-lahore-iid-1119277918",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6045,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6045,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6118,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/highly-desirable-prime-location-15-marla-building-available-in-allama-iqbal-town-karim-block-iid-1119162758",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6298,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6298,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6387,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/63-marla-plaza-for-sale-on-main-road-of-pwd-islamabad-iid-1119916550",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6566,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6566,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6639,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/26-marla-corner-plaza-for-sale-committee-chowk-rawalpindi-iid-1119916479",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6818,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6818,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6891,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/mezzanine-floor-corner-for-sale-iid-1119366228",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 7070,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 7070,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 829,
+   "y": 7151,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 80,
+   "y": 7290,
+   "width": 112,
+   "height": 32,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-federal-b-area",
+   "label": "federal b area"
+  },
+  {
+   "x": 200,
+   "y": 7290,
+   "width": 156,
+   "height": 32,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-punjab-coop-society",
+   "label": "punjab coop society"
+  },
+  {
+   "x": 80,
+   "y": 7493,
+   "width": 31,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 7525,
+   "width": 86,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 7557,
+   "width": 105,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 7589,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 7493,
+   "width": 36,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 7525,
+   "width": 61,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 7557,
+   "width": 44,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books_c707080",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 7589,
+   "width": 37,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dogs_c139",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 7493,
+   "width": 66,
+   "height": 19,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 7525,
+   "width": 78,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 7557,
+   "width": 134,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 7493,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 7525,
+   "width": 57,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 7557,
+   "width": 90,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 7589,
+   "width": 92,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 7490,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 7490,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 7490,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 7490,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

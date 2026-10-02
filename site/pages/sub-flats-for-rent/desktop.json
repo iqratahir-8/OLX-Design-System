@@ -1,0 +1,1506 @@
+{
+ "id": "sub-flats-for-rent",
+ "title": "Flats for Rent",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/apartments-flats_c1723",
+ "finalUrl": "https://www.olx.com.pk/apartments-flats_c1723?page=1",
+ "width": 1440,
+ "height": 7732,
+ "dpr": 1,
+ "overlay": false,
+ "captured": "2026-09-29T13:03:00.454Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-all-categories-mobile-phones-cars",
+   "name": "All Categories · Mobile Phones · Cars",
+   "rect": {
+    "x": 0,
+    "y": 143,
+    "width": 1440,
+    "height": 50
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "03-apartments-for-rent-in-pakistan",
+   "name": "Apartments for Rent in Pakistan",
+   "rect": {
+    "x": 80,
+    "y": 475,
+    "width": 1280,
+    "height": 70
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "04-filters-list",
+   "name": "Filters list",
+   "rect": {
+    "x": 80,
+    "y": 560,
+    "width": 304,
+    "height": 494
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "05-view-sort-by-newly-listed",
+   "name": "View · Sort by: · Newly listed",
+   "rect": {
+    "x": 400,
+    "y": 560,
+    "width": 960,
+    "height": 54
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "06-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 400,
+    "y": 637,
+    "width": 960,
+    "height": 6491
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "07-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 400,
+    "y": 7151,
+    "width": 960,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "08-popular-searches-federal-b-area-punjab-c",
+   "name": "Popular Searches · federal b area · punjab coop ",
+   "rect": {
+    "x": 80,
+    "y": 7247,
+    "width": 1280,
+    "height": 75
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "09-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 7385,
+    "width": 1440,
+    "height": 347
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(2)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 144,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 284,
+   "y": 24,
+   "width": 139,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1196,
+   "y": 20,
+   "width": 40,
+   "height": 24,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
+   "x": 1256,
+   "y": 8,
+   "width": 104,
+   "height": 48,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 109,
+   "y": 81,
+   "width": 300,
+   "height": 46,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 459,
+   "y": 81,
+   "width": 791,
+   "height": 46,
+   "kind": "input",
+   "label": "Find Cars, Mobile Phones and more..."
+  },
+  {
+   "x": 1250,
+   "y": 80,
+   "width": 110,
+   "height": 48,
+   "kind": "button",
+   "label": "Search"
+  },
+  {
+   "x": 229,
+   "y": 159,
+   "width": 105,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 358,
+   "y": 159,
+   "width": 31,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 413,
+   "y": 159,
+   "width": 87,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Motorcycles"
+  },
+  {
+   "x": 524,
+   "y": 159,
+   "width": 53,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "Houses"
+  },
+  {
+   "x": 601,
+   "y": 159,
+   "width": 96,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "Video-Audios"
+  },
+  {
+   "x": 721,
+   "y": 159,
+   "width": 50,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "Tablets"
+  },
+  {
+   "x": 795,
+   "y": 159,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "Land & Plots"
+  },
+  {
+   "x": 80,
+   "y": 478,
+   "width": 39,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 149,
+   "y": 478,
+   "width": 105,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-rent_c3",
+   "label": "Property for Rent"
+  },
+  {
+   "x": 97,
+   "y": 613,
+   "width": 270,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items",
+   "label": "All categories"
+  },
+  {
+   "x": 122,
+   "y": 729,
+   "width": 212,
+   "height": 47,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 97,
+   "y": 794,
+   "width": 270,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items",
+   "label": "Pakistan"
+  },
+  {
+   "x": 113,
+   "y": 820,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673",
+   "label": "Lahore(1,825)"
+  },
+  {
+   "x": 113,
+   "y": 846,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615",
+   "label": "Islamabad(1,419)"
+  },
+  {
+   "x": 113,
+   "y": 872,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681",
+   "label": "Rawalpindi(633)"
+  },
+  {
+   "x": 113,
+   "y": 898,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695",
+   "label": "Karachi(533)"
+  },
+  {
+   "x": 113,
+   "y": 924,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662",
+   "label": "Gujranwala(85)"
+  },
+  {
+   "x": 113,
+   "y": 950,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sialkot_g4060686",
+   "label": "Sialkot(33)"
+  },
+  {
+   "x": 113,
+   "y": 976,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/multan_g4060675",
+   "label": "Multan(15)"
+  },
+  {
+   "x": 113,
+   "y": 1002,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jhelum_g4060668",
+   "label": "Jhelum(14)"
+  },
+  {
+   "x": 113,
+   "y": 1028,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660",
+   "label": "Faisalabad(11)"
+  },
+  {
+   "x": 113,
+   "y": 1054,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/murree_g4065542",
+   "label": "Murree(10)"
+  },
+  {
+   "x": 113,
+   "y": 1080,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/wah_g4060692",
+   "label": "Wah(6)"
+  },
+  {
+   "x": 113,
+   "y": 1106,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyderabad_g4060693",
+   "label": "Hyderabad(6)"
+  },
+  {
+   "x": 113,
+   "y": 1132,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/peshawar_g4060643",
+   "label": "Peshawar(2)"
+  },
+  {
+   "x": 113,
+   "y": 1158,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653",
+   "label": "Bahawalpur(1)"
+  },
+  {
+   "x": 113,
+   "y": 1184,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663",
+   "label": "Gujrat(1)"
+  },
+  {
+   "x": 113,
+   "y": 1210,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sargodha_g4060684",
+   "label": "Sargodha(1)"
+  },
+  {
+   "x": 113,
+   "y": 1236,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sheikhupura_g4060685",
+   "label": "Sheikhüpura(1)"
+  },
+  {
+   "x": 113,
+   "y": 1262,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mandi-bahauddin_g4065538",
+   "label": "Mandi Bahauddin(1)"
+  },
+  {
+   "x": 113,
+   "y": 1288,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/taxila_g4065567",
+   "label": "Taxila(1)"
+  },
+  {
+   "x": 113,
+   "y": 1314,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sarai-alamgir_g5101304",
+   "label": "Sarai Alamgir(1)"
+  },
+  {
+   "x": 1083,
+   "y": 560,
+   "width": 36,
+   "height": 37,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1127,
+   "y": 560,
+   "width": 36,
+   "height": 37,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1196,
+   "y": 568,
+   "width": 164,
+   "height": 22,
+   "kind": "button",
+   "label": "Sort by: Newly listed"
+  },
+  {
+   "x": 400,
+   "y": 637,
+   "width": 102,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-furnished-apartments",
+   "label": "Furnished"
+  },
+  {
+   "x": 510,
+   "y": 637,
+   "width": 120,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-unfurnished-apartments",
+   "label": "Unfurnished"
+  },
+  {
+   "x": 400,
+   "y": 695,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/short-stay-apprtment-available-for-rent-3-hours-iid-1119669476",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 874,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 874,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 947,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/luxury-single-bed-furnished-apartments-citi-housing-sialkot-rejected-iid-1117745900",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1127,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1127,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1200,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-bedroom-apartment-available-for-rent-daily-basis-night-stay-bahria-town-lahore-iid-1119516366",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1379,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1379,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1452,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/flat-of-1250-square-feet-is-available-for-rent-iid-1119290074",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1631,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1631,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1704,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-bed-furnished-apartment-available-for-rent-in-etihad-town-phase-1-ready-to-move-iid-1119649136",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1883,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1883,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1956,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/par-day-short-time-falt-available-han-bahria-town-phase-6-iid-1119237549",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2135,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2135,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 416,
+   "y": 2255,
+   "width": 39,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-1st-floor-apartments",
+   "label": "1"
+  },
+  {
+   "x": 463,
+   "y": 2255,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-3rd-floor-apartments",
+   "label": "3"
+  },
+  {
+   "x": 513,
+   "y": 2255,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-2nd-floor-apartments",
+   "label": "2"
+  },
+  {
+   "x": 563,
+   "y": 2255,
+   "width": 43,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-4th-floor-apartments",
+   "label": "4"
+  },
+  {
+   "x": 614,
+   "y": 2255,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-5th-floor-apartments",
+   "label": "5"
+  },
+  {
+   "x": 664,
+   "y": 2255,
+   "width": 89,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-ground-floor-apartments",
+   "label": "Ground"
+  },
+  {
+   "x": 761,
+   "y": 2255,
+   "width": 51,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-7th-floor-apartments",
+   "label": "7+"
+  },
+  {
+   "x": 820,
+   "y": 2255,
+   "width": 43,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-6th-floor-apartments",
+   "label": "6"
+  },
+  {
+   "x": 400,
+   "y": 2329,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-bed-perday-for-couples-families-f-11-iid-1115035624",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2509,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2509,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 2582,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/near-pc-bhurban-iid-1105346334",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2761,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2761,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 2834,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-bed-facing-eiffel-tower-fully-furnished-luxury-apartment-for-rent-iid-1119550155",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3013,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3013,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3102,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/daily-basis-apartment-rooms-per-day-perweek-short-stay-available-in-e-11-islamabad-iid-1119894210",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3281,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3281,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3354,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/one-bed-furnished-apartment-for-rent-on-most-prime-location-in-bahria-town-iid-1119400721",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3534,
+   "width": 105,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3534,
+   "width": 105,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3607,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/one-bed-luxury-furnished-apartment-for-rent-in-bahria-town-iid-1119327141",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3786,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3786,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 416,
+   "y": 3906,
+   "width": 79,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-studio-apartments",
+   "label": "Studio"
+  },
+  {
+   "x": 503,
+   "y": 3906,
+   "width": 39,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-1-bed-apartments",
+   "label": "1"
+  },
+  {
+   "x": 550,
+   "y": 3906,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-2-bed-apartments",
+   "label": "2"
+  },
+  {
+   "x": 600,
+   "y": 3906,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-3-bed-apartments",
+   "label": "3"
+  },
+  {
+   "x": 650,
+   "y": 3906,
+   "width": 43,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-4-bed-apartments",
+   "label": "4"
+  },
+  {
+   "x": 701,
+   "y": 3906,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-5-bed-apartments",
+   "label": "5"
+  },
+  {
+   "x": 751,
+   "y": 3906,
+   "width": 52,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-6-bed-apartments",
+   "label": "6+"
+  },
+  {
+   "x": 400,
+   "y": 3980,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/one-bed-apartment-on-prime-location-in-bahria-town-iid-1119081412",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4159,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4159,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4232,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/one-bed-apartment-on-most-prime-location-in-bahria-town-iid-1119496965",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4411,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4411,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4484,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/daily-basis-apartment-rooms-per-day-perweek-short-stay-available-in-e-11-islamabad-iid-1119893901",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4663,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4663,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4736,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/fully-furnished-portion-for-rent-couple-bachlers-iid-1119893825",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4916,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4916,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4989,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-luxury-furnished-2-bedroom-apartment-iid-1119893430",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5168,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5168,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5241,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-facing-eiffel-tower-view-luxury-furnished-studio-apartment-iid-1119893325",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5420,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5420,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 416,
+   "y": 5540,
+   "width": 39,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-1-bath-apartments",
+   "label": "1"
+  },
+  {
+   "x": 463,
+   "y": 5540,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-2-bath-apartments",
+   "label": "2"
+  },
+  {
+   "x": 513,
+   "y": 5540,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-3-bath-apartments",
+   "label": "3"
+  },
+  {
+   "x": 563,
+   "y": 5540,
+   "width": 43,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-4-bath-apartments",
+   "label": "4"
+  },
+  {
+   "x": 614,
+   "y": 5540,
+   "width": 42,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-5-bath-apartments",
+   "label": "5"
+  },
+  {
+   "x": 664,
+   "y": 5540,
+   "width": 43,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-6-bath-apartments",
+   "label": "6"
+  },
+  {
+   "x": 715,
+   "y": 5540,
+   "width": 51,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-7-bath-apartments",
+   "label": "7+"
+  },
+  {
+   "x": 400,
+   "y": 5614,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-luxury-furnished-one-bedroom-apartment-iid-1119893219",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5793,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5793,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5866,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/furnished-apartment-available-for-rent-in-dha-phase-6-muslim-commercial-iid-1119893199",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6045,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6045,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6118,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-luxury-furnished-one-bed-apartment-iid-1119893135",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6298,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6298,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6387,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-luxury-furnished-one-bed-apartment-iid-1119893004",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6566,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6566,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6639,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-bedroom-apartment-available-par-day-empire-heights-2-phase-6-iid-1119892971",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6818,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6818,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6891,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-bedroom-apartment-available-par-day-empire-heights-2-phase-6-iid-1119892959",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 7070,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 7070,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 829,
+   "y": 7151,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 80,
+   "y": 7290,
+   "width": 112,
+   "height": 32,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-federal-b-area",
+   "label": "federal b area"
+  },
+  {
+   "x": 200,
+   "y": 7290,
+   "width": 156,
+   "height": 32,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-punjab-coop-society",
+   "label": "punjab coop society"
+  },
+  {
+   "x": 80,
+   "y": 7493,
+   "width": 31,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 7525,
+   "width": 86,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 7557,
+   "width": 105,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 7589,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 7493,
+   "width": 36,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 7525,
+   "width": 61,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 7557,
+   "width": 44,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books_c707080",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 7589,
+   "width": 37,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dogs_c139",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 7493,
+   "width": 66,
+   "height": 19,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 7525,
+   "width": 78,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 7557,
+   "width": 134,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 7493,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 7525,
+   "width": 57,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 7557,
+   "width": 90,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 7589,
+   "width": 92,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 7490,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 7490,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 7490,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 7490,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

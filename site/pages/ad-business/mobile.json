@@ -1,0 +1,490 @@
+{
+ "id": "ad-business",
+ "title": "Ad: Business, Industrial & Agriculture",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
+ "finalUrl": "https://www.olx.com.pk/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
+ "width": 390,
+ "height": 2114,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-09-29T14:02:47.563Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 146
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 439,
+    "width": 390,
+    "height": 51
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-description-we-deal-in-all-kinds-of-rack",
+   "name": "Description · We deal in all kinds of Racks · Ra",
+   "rect": {
+    "x": 0,
+    "y": 489,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 630,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-related-ads-rs-8-500-racks-pharmacy-rack",
+   "name": "Related ads · Rs 8,500 · Racks/ Pharmacy rack/ S",
+   "rect": {
+    "x": 0,
+    "y": 850,
+    "width": 390,
+    "height": 371
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(10)"
+  },
+  {
+   "file": "07-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1240,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
+  },
+  {
+   "file": "08-other-business-and-industry-in-township-",
+   "name": "Other Business & Industry in Township · Other Bu",
+   "rect": {
+    "x": 8,
+    "y": 1523,
+    "width": 374,
+    "height": 27
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "09-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1549,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "10-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1595,
+    "width": 390,
+    "height": 519
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "11-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 2049,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": 123,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1170,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1560,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1950,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2340,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2730,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3120,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3510,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3900,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4290,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4680,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5070,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5460,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5850,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 6240,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 6630,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 7020,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 589,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 642,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/0b0e3e3b-4888-48c0-8d0f-81d341bc3e10",
+   "label": "Posted bySalman Racks Shop Member Since2022Active Ads15"
+  },
+  {
+   "x": 142,
+   "y": 774,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 885,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/racks-pharmacy-rack-super-store-rack-wharehouse-rack-wall-rack-iid-1105138406",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 885,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/display-rack-storage-rack-grocery-racks-pharmacy-racks-industrial-iid-1104886865",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 885,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/heavy-duity-rack-bulk-rack-industrial-rack-shopping-trolley-basket-iid-1101612327",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 885,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/heavy-duty-rackstorage-rackangle-rackwarehouse-rackssteel-racks-iid-1102084269",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 885,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/super-market-racks-pharmacy-racks-industry-racks-warehouse-racks-iid-1117581701",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2062,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 138,
+   "y": 2062,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 260,
+   "y": 2062,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 178,
+   "y": 1528,
+   "width": 204,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/township_g5000078/other-business-industry_c2000",
+   "label": "Other Business & Industry in Township"
+  },
+  {
+   "x": -41,
+   "y": 1528,
+   "width": 189,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/other-business-industry_c2000",
+   "label": "Other Business & Industry in Lahore"
+  },
+  {
+   "x": -208,
+   "y": 1528,
+   "width": 137,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-business-industry_c2000",
+   "label": "Other Business & Industry"
+  },
+  {
+   "x": -413,
+   "y": 1528,
+   "width": 175,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/business-industrial-agriculture_c1981",
+   "label": "Business, Industrial & Agriculture"
+  },
+  {
+   "x": -475,
+   "y": 1528,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 1894,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 1961,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 1961,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 1961,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 1961,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}
