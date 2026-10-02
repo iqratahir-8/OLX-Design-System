@@ -27,7 +27,8 @@
     "book": "echo 'Open http://localhost:6006/book/' && npx --yes serve -l 6006 .",
     "capture:site": "node scripts/capture-site.mjs",
     "capture:logged-in": "node scripts/capture-logged-in.mjs",
-    "prototype": "node scripts/build-prototype.mjs && echo 'Open http://localhost:6006/prototype/' && npx --yes serve -l 6006 ."
+    "prototype": "node scripts/build-prototype.mjs && echo 'Open http://localhost:6006/prototype/' && npx --yes serve -l 6006 .",
+    "build:publish": "node scripts/build-prototype.mjs && node scripts/build-publish.mjs"
   },
   "license": "UNLICENSED",
   "devDependencies": {

@@ -6,6 +6,8 @@
   // Where the repo root is relative to this page ("..", or "." in a flat publish).
   const ROOT = window.BOOK_ROOT ?? '..';
   const url = (p) => `${ROOT}/${p}`;
+  // The prototype's folder ("prototype" in the repo; a publish may rename it).
+  const PROTO = window.BOOK_PROTO_DIR ?? 'prototype';
 
   const GROUPS = [
     ['Header and navigation', ['header', 'top-bar', 'login-button', 'sell-button', 'search-row', 'search-bar', 'location-picker', 'category-nav', 'mobile-header', 'mobile-location-bar', 'breadcrumb']],
@@ -77,10 +79,12 @@
   let data;
 
   async function load() {
-    const [components, templates, tokens] = await Promise.all([
+    const [components, templates, tokens, proto] = await Promise.all([
       fetch(url('components/index.json')).then((r) => r.json()),
       fetch(url('templates/index.json')).then((r) => r.json()),
       fetch(url('tokens/tokens.json')).then((r) => r.json()),
+      // Every captured screen, with its sections, from the prototype build.
+      fetch(url(`${PROTO}/data.json`)).then((r) => r.json()).catch(() => null),
     ]);
     const byName = new Map();
     // A component can have several states per viewport (a header at the top of
@@ -100,7 +104,7 @@
     const listed = new Set(grouped.flatMap(([, n]) => n));
     const other = [...byName.keys()].filter((n) => !listed.has(n));
     if (other.length) grouped.push(['Other', other]);
-    data = { components: byName, states, templates: tplByPage, tokens, grouped, source: components.source, captured: components.captured };
+    data = { components: byName, states, templates: tplByPage, tokens, grouped, source: components.source, captured: components.captured, proto };
   }
 
   // ---------- Navigation ----------
@@ -115,9 +119,14 @@
       group('Foundations', [link('foundations-color', 'Color'), link('foundations-type', 'Typography'), link('foundations-space', 'Spacing, radius and shadow')]),
       ...data.grouped.map(([g, names]) => group(g, names.map((n) => link(`component-${n}`, title(n), vpHint(data.components.get(n)))))),
       group('Page templates', [...data.templates.keys()].map((p) => link(`template-${p}`, title(p), vpHint(data.templates.get(p))))),
+      ...(data.proto ? [
+        group('Prototype', [`<li><a class="book-link" href="${url(`${PROTO}/index.html`)}"><span>Open the clickable prototype</span><span class="book-link__hint">${data.proto.flows.length} flows</span></a></li>`, link('screens', 'All screens', String(Object.keys(data.proto.pages).length))]),
+        ...data.proto.groups.map((g) => group(`Screens: ${g.name}`, g.pages.map((pg) => link(`screen-${pg.id}`, pg.title, screenHint(pg.id))))),
+      ] : []),
     ].join('');
     markCurrent();
   }
+  const screenHint = (id) => ['desktop', 'mobile'].filter((v) => data.proto.pages[`${id}~${v}`]).map((v) => (v === 'desktop' ? 'D' : 'M')).join(' ');
   function markCurrent() {
     const id = location.hash.slice(1) || 'overview';
     toc.querySelectorAll('.book-link').forEach((a) => (a.dataset.id === id ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current')));
@@ -213,6 +222,8 @@
       <div class="book-stat"><span class="book-stat__value">${nCaps}</span><span class="book-stat__label">Component captures</span></div>
       <div class="book-stat"><span class="book-stat__value">${data.templates.size}</span><span class="book-stat__label">Page templates</span></div>
       <div class="book-stat"><span class="book-stat__value">${nTpl}</span><span class="book-stat__label">Template captures</span></div>
+      ${data.proto ? `<a class="book-stat" href="#screens"><span class="book-stat__value">${Object.keys(data.proto.pages).length}</span><span class="book-stat__label">Screens with HTML</span></a>
+      <a class="book-stat" href="${url(`${PROTO}/index.html`)}"><span class="book-stat__value">${data.proto.flows.length}</span><span class="book-stat__label">Prototype flows</span></a>` : ''}
     </div>`));
     p.append(el(`<div class="book-note">
       <p><strong>How renders work.</strong> A component is shown by cropping it out of its full page template, so it keeps the exact layout it has on the site. Each one also has its live screenshot and its HTML.</p>
@@ -334,6 +345,127 @@
     return p;
   }
 
+  // ---------- Screens (every captured page and state, from prototype/data.json) ----------
+  // Paths in data.json are relative to prototype/ ("../site/..."); a publish may
+  // point screenshots at uploaded assets and pack section HTML into bundles.
+  const site = (p) => (p.startsWith('../') ? url(p.slice(3)) : p);
+  const bundles = new Map();
+  async function sectionHtml(s, sec) {
+    if (!s.bundle) return fetch(site(sec.html)).then((r) => r.text());
+    if (!bundles.has(s.bundle)) bundles.set(s.bundle, fetch(site(s.bundle)).then((r) => r.json()));
+    return (await bundles.get(s.bundle))[sec.html];
+  }
+  const withBase = (html, path) => html.replace(/<head>/i, `<head><base href="${new URL(site(path).replace(/[^/]*$/, ''), location.href).href}">`);
+  function codeBox(text) {
+    const box = el('<div class="book-code"><pre><code></code></pre></div>');
+    box.querySelector('code').textContent = text;
+    const copy = el('<button class="book-btn" type="button">Copy HTML</button>');
+    copy.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(text); copy.textContent = 'Copied'; } catch {
+        const range = document.createRange(); range.selectNodeContents(box.querySelector('code'));
+        getSelection().removeAllRanges(); getSelection().addRange(range); copy.textContent = 'Selected, press Ctrl+C';
+      }
+      setTimeout(() => { copy.textContent = 'Copy HTML'; }, 2000);
+    });
+    box.append(copy);
+    return box;
+  }
+  function liveFrame(src, width, height, maxWidth, rect) {
+    const r = rect ?? { x: 0, y: 0, width, height };
+    const scale = Math.min(1, maxWidth / r.width);
+    const box = el(`<div class="book-crop" style="width:${r.width * scale}px;height:${r.height * scale}px"></div>`);
+    const inner = el(`<div class="book-crop__inner" style="width:${r.width}px;height:${r.height}px;transform:scale(${scale})"></div>`);
+    const frame = el(`<iframe loading="lazy" title="Live render" scrolling="no" tabindex="-1" style="left:${-r.x}px;top:${-r.y}px;width:${width}px;height:${height}px"></iframe>`);
+    frame.src = src;
+    inner.append(frame); box.append(inner); snapToPixels(box);
+    return box;
+  }
+
+  function screensIndex() {
+    const pages = data.proto.pages;
+    const p = page('Screens', 'All screens', `${Object.keys(pages).length} captures of ${new Set(Object.values(pages).map((x) => x.id)).size} pages and states from olx.com.pk. Each has its live HTML (the captured markup and CSS), a screenshot and its sections. Walk through them in the <a href="${url(`${PROTO}/index.html`)}">clickable prototype</a>.`);
+    for (const g of data.proto.groups) {
+      p.append(el(`<h2 class="book-h2">${esc(g.name)}</h2>`));
+      const grid = el('<div class="book-grid"></div>');
+      for (const pg of g.pages) {
+        const s = pages[`${pg.id}~desktop`] ?? pages[`${pg.id}~mobile`];
+        const k = 240 / s.width;
+        grid.append(el(`<a class="book-card" href="#screen-${pg.id}">
+          <span class="book-card__thumb" style="height:150px;background:#fff url('${site(s.image)}') no-repeat 0 0/${s.width * k}px auto"></span>
+          <span class="book-card__name">${esc(pg.title)}</span>
+          <p class="book-card__desc">${esc(screenHint(pg.id).replace('D', 'Desktop').replace('M', 'Mobile').replace(' ', ', '))} · ${s.sections.length} sections</p></a>`));
+      }
+      p.append(grid);
+    }
+    return p;
+  }
+
+  function screenPage(id) {
+    const pages = data.proto.pages;
+    const vps = ['desktop', 'mobile'].filter((v) => pages[`${id}~${v}`]);
+    if (!vps.length) return notFound();
+    if (!vps.includes(state.viewport)) state.viewport = vps[0];
+    const s = pages[`${id}~${state.viewport}`];
+    const group = data.proto.groups.find((g) => g.pages.some((x) => x.id === id))?.name ?? 'Screen';
+    const flows = data.proto.flows.filter((f) => f.steps.some((st) => st.page === id));
+    const p = page(`Screens: ${group}`, s.title, `Captured from <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(new URL(s.url).pathname)}</a>.${s.scrolled ? ' This is a scrolled state, so the screenshot shows the moment after scrolling; the HTML opens at the top.' : ''}${s.overlay ? ' An overlay state: the menu, sheet or dialog is open.' : ''}`);
+    p.append(el(`<ul class="book-meta">
+      <li>Size <strong>${s.width} × ${s.height}px</strong> (${esc(s.vp)})</li>
+      <li><strong>${s.sections.length}</strong> sections, <strong>${s.hotspots.length}</strong> links and buttons</li>
+      <li>File <code>${esc(s.html.replace('../', ''))}</code></li>
+    </ul>`));
+    const bar = el('<div class="book-toolbar"></div>');
+    bar.append(segmented([['desktop', 'Desktop', !vps.includes('desktop')], ['mobile', 'Mobile', !vps.includes('mobile')]], state.viewport, (v) => { state.viewport = v; save(); route(); }, 'Viewport'));
+    bar.append(segmented([['render', 'Live HTML'], ['shot', 'Screenshot'], ['html', 'HTML source']], state.tab, (t) => { state.tab = t; save(); route(); }, 'View'));
+    const actions = el('<div class="book-actions"></div>');
+    actions.append(el(`<a class="book-btn" href="${url(`${PROTO}/index.html`)}#${id}~${s.vp}">Open in prototype</a>`));
+    actions.append(el(`<a class="book-btn" href="${site(s.html)}" target="_blank" rel="noopener">Open HTML</a>`));
+    bar.append(actions);
+    p.append(bar);
+    if (flows.length) p.append(el(`<p class="book-stage__caption">In flows: ${flows.map((f) => `<a href="${url(`${PROTO}/index.html`)}#flow~${f.id}~${f.steps.findIndex((st) => st.page === id)}~${s.vp}">${esc(f.title)}</a>`).join(', ')}</p>`));
+
+    const max = stageWidth();
+    if (state.tab === 'html') {
+      const holder = el('<div><p class="book-stage__caption">Loading the page HTML…</p></div>');
+      fetch(site(s.html)).then((r) => r.text()).then((h) => holder.replaceChildren(codeBox(h))).catch(() => { holder.textContent = 'Could not load the HTML file.'; });
+      p.append(holder);
+    } else {
+      const stage = el('<div class="book-stage"></div>');
+      if (state.tab === 'shot') stage.append(el(`<img class="book-shot" alt="${esc(s.title)} on olx.com.pk" src="${site(s.image)}" style="width:${Math.min(s.width, max)}px">`));
+      else stage.append(liveFrame(site(s.html), s.width, s.height, max));
+      p.append(stage);
+    }
+
+    p.append(el('<h2 class="book-h2">Sections</h2>'));
+    p.append(el('<p class="book-stage__caption">Each section has its own standalone HTML with the same CSS. Open one to see it rendered live and copy its markup.</p>'));
+    const list = el('<div class="book-sections"></div>');
+    s.sections.forEach((sec, i) => {
+      const k = Math.min(1, 320 / sec.width);
+      const item = el(`<details class="book-section">
+        <summary><span class="book-section__thumb" style="width:${sec.width * k}px;height:${Math.min(160, sec.height * k)}px;background-image:url('${site(s.image)}');background-size:${s.width * k}px auto;background-position:${-sec.x * k}px ${-sec.y * k}px"></span>
+        <span><strong>${i + 1}. ${esc(sec.name)}</strong><br><span class="book-link__hint">${sec.width} × ${sec.height}px</span></span></summary>
+        <div class="book-section__body"></div></details>`);
+      item.addEventListener('toggle', async () => {
+        const body = item.querySelector('.book-section__body');
+        if (!item.open || body.childElementCount) return;
+        body.append(el('<p class="book-stage__caption">Loading…</p>'));
+        try {
+          const html = await sectionHtml(s, sec);
+          const w = Math.min(1, (body.clientWidth - 2 || max) / sec.width);
+          const box = el(`<div class="book-crop" style="width:${sec.width * w}px;height:${sec.height * w}px"></div>`);
+          const inner = el(`<div class="book-crop__inner" style="width:${sec.width}px;height:${sec.height}px;transform:scale(${w})"></div>`);
+          const f = el(`<iframe title="${esc(sec.name)}, live HTML" scrolling="no" tabindex="-1" style="left:0;top:0;width:${sec.width}px;height:${sec.height}px"></iframe>`);
+          f.srcdoc = withBase(html, sec.html);
+          inner.append(f); box.append(inner);
+          body.replaceChildren(box, codeBox(html));
+        } catch (err) { body.replaceChildren(el(`<p class="book-stage__caption">Could not load this section (${esc(err.message)}).</p>`)); }
+      });
+      list.append(item);
+    });
+    p.append(list);
+    return p;
+  }
+
   // Foundations come from tokens/tokens.json, which holds the values measured on the live site.
   function resolveRef(v) {
     const m = typeof v === 'string' && v.match(/^\{(.+)\}$/);
@@ -396,6 +528,8 @@
     else if (id === 'foundations-space') view = spacePage();
     else if (id.startsWith('component-')) view = componentPage(id.slice(10));
     else if (id.startsWith('template-')) view = templatePage(id.slice(9));
+    else if (id === 'screens' && data.proto) view = screensIndex();
+    else if (id.startsWith('screen-') && data.proto) view = screenPage(id.slice(7));
     else view = notFound();
     main.replaceChildren(view);
     markCurrent();

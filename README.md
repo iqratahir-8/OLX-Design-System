@@ -98,6 +98,10 @@ npm run book          # then open http://localhost:6006/book/
 
 The book lists every captured component and page template. Each component can be viewed as a live render (cropped out of its full page template, so the layout is exact), as the live screenshot, or as its HTML with a copy button. Templates can be opened full size.
 
+**Screens** in the book lists every page and state captured for the prototype (`site/`), grouped like the prototype. Each screen shows its live HTML, its screenshot or its full HTML source, and every section with its own live render and HTML. The prototype opens from the book's contents, and each prototype screen links back to its page in the book.
+
+To publish the book as one page, `npm run build:publish` writes a flat copy to `dist/book/` (git-ignored): the book at the root, the prototype in `proto/`, and section HTML packed into a few JSON bundles in `site/sections/` so the copy stays within the publisher's file limits.
+
 To refresh the captures from the live site:
 
 ```sh
@@ -114,7 +118,7 @@ npm run capture:site     # capture pages, states and sections into site/ (skips 
 npm run prototype        # wire hotspots, then open http://localhost:6006/prototype/
 ```
 
-The prototype shows every captured screen (desktop and mobile). Links and buttons are hotspots in the positions they were captured from and lead to the screen a user would reach: categories, ads, search, location, sort and filter sheets, and the login modal that guards selling, chat and favourites. **Flows** in the sidebar walk through the main journeys step by step and highlight the control to use next. **Sections** lists each screen's sections with their image and HTML.
+The prototype shows every captured screen (desktop and mobile). Links and buttons are hotspots in the positions they were captured from and lead to the screen a user would reach: categories, ads, search, location, sort and filter sheets, and the login modal that guards selling, chat and favourites. **Flows** in the sidebar walk through the main journeys step by step and highlight the control to use next. **Sections** lists each screen's sections; **HTML** opens a section rendered live with its markup and a copy button. **Live HTML** in the toolbar renders the captured HTML and CSS instead of the screenshot (scrolled states stay screenshots).
 
 What is captured: home, Motors and Property landing pages, all 14 categories, subcategories with their own layout, one ad per category (plus cars, houses and online jobs), search results and no results, sorting, a city and a city+category page, the sitemap, and interaction states (login options and steps, sign up, All categories menu, location menu, search suggestions, sort menu, and on mobile the location prompt, filter, brand and price sheets).
 

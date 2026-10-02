@@ -18,7 +18,12 @@
         <button type="button" data-vp="desktop" aria-pressed="true">Desktop</button>
         <button type="button" data-vp="mobile" aria-pressed="false">Mobile</button>
       </div>
+      <div class="pt-seg" role="group" aria-label="View">
+        <button type="button" data-view="shot" aria-pressed="true" title="Screenshot captured from olx.com.pk">Screenshot</button>
+        <button type="button" data-view="html" aria-pressed="false" title="The captured HTML and CSS, rendered live">Live HTML</button>
+      </div>
       <label class="pt-switch"><input type="checkbox" id="pt-hotspots"> Show hotspots</label>
+      <a class="pt-btn" id="pt-book" href="../book/">Design system</a>
       <button class="pt-btn" id="pt-sections-toggle" type="button" aria-expanded="false" aria-controls="pt-sections">Sections</button>
     </header>
     <aside class="pt-side" id="pt-side" aria-label="Screens and flows"></aside>
@@ -27,6 +32,13 @@
       <div class="pt-stage" id="pt-stage"></div>
     </main>
     <aside class="pt-sections" id="pt-sections" aria-label="Sections" hidden></aside>
+    <div class="pt-modal" id="pt-modal" hidden role="dialog" aria-modal="true" aria-labelledby="pt-modal-title">
+      <div class="pt-modal__box">
+        <div class="pt-modal__bar"><h2 id="pt-modal-title"></h2><span class="pt-modal__actions"><button class="pt-btn" type="button" data-modal="copy">Copy HTML</button><button class="pt-btn" type="button" data-modal="close">Close</button></span></div>
+        <div class="pt-modal__render"></div>
+        <pre class="pt-modal__code"><code></code></pre>
+      </div>
+    </div>
   </div>
   <script src="prototype.js"></script>
 </body>

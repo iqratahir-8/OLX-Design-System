@@ -121,7 +121,7 @@ for (const [key, m] of Object.entries(meta)) {
   // Smaller hotspots first, so a button inside a card wins over the card.
   hotspots.sort((a, b) => a.w * a.h - b.w * b.h);
   pages[key] = {
-    id, vp, title: m.title, url: m.url, width: m.width, height: m.height, overlay: m.overlay,
+    id, vp, title: m.title, url: m.url, width: m.width, height: m.height, overlay: m.overlay, scrolled: !!m.scrolled,
     image: `../${SITE}/pages/${id}/${vp}.png`, html: `../${SITE}/pages/${id}/${vp}.html`,
     // Empty blocks are OLX ad slots, which render blank without their scripts.
     sections: m.sections.map((s) => ({ name: /^(div|section|aside)$/.test(s.name) ? 'Ad space' : s.name, ...s.rect, image: `../${SITE}/pages/${id}/sections/${vp}/${s.file}.png`, html: `../${SITE}/pages/${id}/sections/${vp}/${s.file}.html` })),

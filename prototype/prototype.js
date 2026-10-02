@@ -5,12 +5,21 @@
   // Where captured files live relative to this page ("../" in the repo, "" in a flat publish).
   const ROOT = window.PROTO_ROOT ?? '../';
   const asset = (p) => (p.startsWith('../') ? ROOT + p.slice(3) : p);
+  // Section HTML: one file each in the repo; a publish packs them into bundles.
+  const bundles = new Map();
+  async function sectionHtml(s, sec) {
+    if (!s.bundle) return fetch(asset(sec.html)).then((r) => r.text());
+    if (!bundles.has(s.bundle)) bundles.set(s.bundle, fetch(asset(s.bundle)).then((r) => r.json()));
+    return (await bundles.get(s.bundle))[sec.html];
+  }
+  // A standalone document whose relative CSS links resolve from where its file lives.
+  const withBase = (html, path) => html.replace(/<head>/i, `<head><base href="${new URL(asset(path).replace(/[^/]*$/, ''), location.href).href}">`);
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const store = { get(k, d) { try { return JSON.parse(localStorage.getItem(`olx-proto-${k}`)) ?? d; } catch { return d; } }, set(k, v) { try { localStorage.setItem(`olx-proto-${k}`, JSON.stringify(v)); } catch { /* ignore */ } } };
 
   let data;
-  const state = { id: 'home', vp: store.get('vp', 'desktop'), flow: null, step: 0 };
+  const state = { id: 'home', vp: store.get('vp', 'desktop'), view: store.get('view', window.PROTO_DEFAULT_VIEW ?? 'shot'), flow: null, step: 0 };
   const history = [];
 
   const stage = $('pt-stage');
@@ -129,7 +138,14 @@
     inner.style.position = 'relative';
     inner.style.width = `${width}px`;
     inner.style.height = `${s.height * scale}px`;
-    inner.innerHTML = `<img alt="${esc(s.title)} as captured from olx.com.pk" src="${asset(s.image)}" width="${Math.round(width)}" height="${Math.round(s.height * scale)}">`;
+    // Scrolled states are screenshots of one moment in the scroll; the HTML would open at the top.
+    if (state.view === 'html' && !s.scrolled) {
+      inner.style.overflow = 'hidden';
+      inner.innerHTML = `<iframe class="pt-live" title="${esc(s.title)}, live HTML" scrolling="no" tabindex="-1" style="width:${s.width}px;height:${s.height}px;transform:scale(${scale})"></iframe>`;
+      inner.firstElementChild.src = asset(s.html);
+    } else {
+      inner.innerHTML = `<img alt="${esc(s.title)} as captured from olx.com.pk" src="${asset(s.image)}" width="${Math.round(width)}" height="${Math.round(s.height * scale)}">`;
+    }
 
     const f = state.flow && data.flows.find((x) => x.id === state.flow);
     const nextLabel = f?.steps[state.step]?.next?.toLowerCase();
@@ -184,13 +200,51 @@
     s.sections.forEach((sec, i) => {
       const k = thumbW / sec.width;
       const thumb = `<span class="pt-sec__thumb" style="height:${Math.min(120, Math.round(sec.height * k))}px;background-image:url('${asset(s.image)}');background-size:${s.width * k}px auto;background-position:${-sec.x * k}px ${-sec.y * k}px"></span>`;
-      const files = window.PROTO_SECTION_FILES === false ? '' : `<a href="${asset(sec.image)}" target="_blank" rel="noopener">Image</a><a href="${asset(sec.html)}" target="_blank" rel="noopener">HTML</a>`;
+      const files = `<button type="button" class="pt-linkbtn" data-sec-html="${i}">HTML</button>${s.bundle ? '' : `<a href="${asset(sec.image)}" target="_blank" rel="noopener">Image</a>`}`;
       html += `<div class="pt-sec"><button type="button" data-sec="${i}">${thumb}<span class="pt-sec__name">${i + 1}. ${esc(sec.name)}</span></button>
         <span class="pt-sec__meta"><span>${sec.width} × ${sec.height}</span>${files}</span></div>`;
     });
     sectionsPanel.innerHTML = html;
   }
+  // ---------- Section HTML viewer ----------
+  const modal = $('pt-modal');
+  let modalHtml = '';
+  async function showSection(i) {
+    const s = screen();
+    const sec = s.sections[i];
+    modal.hidden = false;
+    $('pt-modal-title').textContent = `${s.title}: ${sec.name} (${s.vp})`;
+    const render = modal.querySelector('.pt-modal__render');
+    const code = modal.querySelector('code');
+    render.replaceChildren(); code.textContent = 'Loading…';
+    try {
+      modalHtml = await sectionHtml(s, sec);
+      const k = Math.min(1, (render.clientWidth || 800) / sec.width);
+      const box = document.createElement('div');
+      box.style.cssText = `width:${sec.width * k}px;height:${sec.height * k}px;overflow:hidden;position:relative`;
+      const f = document.createElement('iframe');
+      f.title = `${sec.name}, live HTML`;
+      f.style.cssText = `position:absolute;left:0;top:0;border:0;width:${sec.width}px;height:${sec.height}px;transform:scale(${k});transform-origin:0 0`;
+      f.srcdoc = withBase(modalHtml, sec.html);
+      box.append(f); render.append(box);
+      code.textContent = modalHtml;
+    } catch (err) { code.textContent = `Could not load this section (${err.message}).`; }
+    modal.querySelector('[data-modal="close"]').focus();
+  }
+  modal.addEventListener('click', async (e) => {
+    const act = e.target.closest('[data-modal]')?.dataset.modal;
+    if (e.target === modal || act === 'close') { modal.hidden = true; return; }
+    if (act === 'copy') {
+      const b = e.target.closest('button');
+      try { await navigator.clipboard.writeText(modalHtml); b.textContent = 'Copied'; } catch { b.textContent = 'Select the code below'; }
+      setTimeout(() => { b.textContent = 'Copy HTML'; }, 2000);
+    }
+  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !modal.hidden) modal.hidden = true; });
+
   sectionsPanel.addEventListener('click', (e) => {
+    const h = e.target.closest('[data-sec-html]')?.dataset.secHtml;
+    if (h != null) { showSection(Number(h)); return; }
     const i = e.target.closest('[data-sec]')?.dataset.sec;
     if (i == null) return;
     const sec = screen().sections[Number(i)];
@@ -215,6 +269,8 @@
       b.disabled = !available(state.id).includes(b.dataset.vp);
     });
     $('pt-back').disabled = history.length === 0;
+    document.querySelectorAll('.pt-seg [data-view]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === state.view)));
+    if (s) $('pt-book').href = `${window.PROTO_BOOK ?? '../book/'}#screen-${s.id}`;
   }
   function render() {
     readHash();
@@ -223,6 +279,7 @@
   }
 
   document.querySelectorAll('.pt-seg [data-vp]').forEach((b) => b.addEventListener('click', () => { state.vp = b.dataset.vp; location.hash = hashFor(); }));
+  document.querySelectorAll('.pt-seg [data-view]').forEach((b) => b.addEventListener('click', () => { state.view = b.dataset.view; store.set('view', state.view); renderBar(); renderStage(); }));
   $('pt-back').addEventListener('click', back);
   hotToggle.addEventListener('change', () => { store.set('hot', hotToggle.checked); stage.querySelector('.pt-device > div')?.classList.toggle('pt-show-hot', hotToggle.checked); });
   $('pt-sections-toggle').addEventListener('click', (e) => {
@@ -237,7 +294,7 @@
   });
   side.addEventListener('click', (e) => { if (e.target.closest('.pt-link')) { side.classList.remove('is-open'); $('pt-menu').setAttribute('aria-expanded', 'false'); } });
   document.addEventListener('keydown', (e) => {
-    if (e.target.matches('input, textarea')) return;
+    if (e.target.matches('input, textarea') || !modal.hidden) return;
     if (e.key === 'Backspace' || (e.key === 'ArrowLeft' && e.altKey)) { e.preventDefault(); back(); }
     if (e.key === 'h') { hotToggle.checked = !hotToggle.checked; hotToggle.dispatchEvent(new Event('change')); }
   });
