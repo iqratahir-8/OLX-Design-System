@@ -111,6 +111,21 @@ npm run snapshot -- ad-detail   # one page
 
 Scripts, ad slots and iframes are removed, links are made inert, and personal data (seller names and photos, phone numbers in ad text) is redacted. Listing photos load from images.olx.com.pk.
 
+## Icons, illustrations and assets
+
+```sh
+npm run assets   # rebuild assets/ from the captures in site/
+```
+
+Every icon and image the captured pages use is stored on its own in `assets/`, named and deduplicated, with `assets/index.json` listing each file, its source, its rendered sizes and the screens it appears on:
+
+- `icons/`: inline SVG icons (named from their label or the text beside them; unlabelled ones were named by eye)
+- `css-icons/`: SVGs the stylesheets draw as backgrounds (checkboxes, dropdown arrows, patterns)
+- `categories/`: category illustrations from the home page tiles
+- `illustrations/`, `logos/`, `images/`: banners, partner and sponsor logos, header backgrounds and seasonal artwork, downloaded from www.olx.com.pk/assets/
+
+Listing photos are ads posted by users, so they are not included. The book's **Assets** section shows them all on light, dark or checkerboard backgrounds, with download and copy-SVG buttons.
+
 ## Clickable prototype
 
 ```sh

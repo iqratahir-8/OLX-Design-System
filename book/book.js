@@ -79,13 +79,16 @@
   let data;
 
   async function load() {
-    const [components, templates, tokens, proto] = await Promise.all([
+    const [components, templates, tokens, proto, assets] = await Promise.all([
       fetch(url('components/index.json')).then((r) => r.json()),
       fetch(url('templates/index.json')).then((r) => r.json()),
       fetch(url('tokens/tokens.json')).then((r) => r.json()),
       // Every captured screen, with its sections, from the prototype build.
       fetch(url(`${PROTO}/data.json`)).then((r) => r.json()).catch(() => null),
+      fetch(url('assets/index.json')).then((r) => r.json()).catch(() => null),
     ]);
+    // A publish packs the asset files into one bundle of data URIs (file limits).
+    if (assets && window.BOOK_ASSET_BUNDLE) assets.bundle = await fetch(url(window.BOOK_ASSET_BUNDLE)).then((r) => r.json()).catch(() => null);
     const byName = new Map();
     // A component can have several states per viewport (a header at the top of
     // the page and after scrolling); the first is its default.
@@ -104,7 +107,7 @@
     const listed = new Set(grouped.flatMap(([, n]) => n));
     const other = [...byName.keys()].filter((n) => !listed.has(n));
     if (other.length) grouped.push(['Other', other]);
-    data = { components: byName, states, templates: tplByPage, tokens, grouped, source: components.source, captured: components.captured, proto };
+    data = { components: byName, states, templates: tplByPage, tokens, grouped, source: components.source, captured: components.captured, proto, assets };
   }
 
   // ---------- Navigation ----------
@@ -118,6 +121,7 @@
       group('Start', [link('overview', 'Overview')]),
       group('Foundations', [link('foundations-color', 'Color'), link('foundations-type', 'Typography'), link('foundations-space', 'Spacing, radius and shadow')]),
       ...data.grouped.map(([g, names]) => group(g, names.map((n) => link(`component-${n}`, title(n), vpHint(data.components.get(n)))))),
+      ...(data.assets ? [group('Assets', ASSET_KINDS.filter(([k]) => data.assets.assets.some((a) => a.kind === k)).map(([k, label]) => link(`assets-${k}`, label, String(data.assets.assets.filter((a) => a.kind === k).length))))] : []),
       group('Page templates', [...data.templates.keys()].map((p) => link(`template-${p}`, title(p), vpHint(data.templates.get(p))))),
       ...(data.proto ? [
         group('Prototype', [`<li><a class="book-link" href="${url(`${PROTO}/index.html`)}"><span>Open the clickable prototype</span><span class="book-link__hint">${data.proto.flows.length} flows</span></a></li>`, link('screens', 'All screens', String(Object.keys(data.proto.pages).length))]),
@@ -223,6 +227,7 @@
       <div class="book-stat"><span class="book-stat__value">${data.templates.size}</span><span class="book-stat__label">Page templates</span></div>
       <div class="book-stat"><span class="book-stat__value">${nTpl}</span><span class="book-stat__label">Template captures</span></div>
       ${data.proto ? `<a class="book-stat" href="#screens"><span class="book-stat__value">${Object.keys(data.proto.pages).length}</span><span class="book-stat__label">Screens with HTML</span></a>
+      ${data.assets ? `<a class="book-stat" href="#assets-icon"><span class="book-stat__value">${data.assets.assets.length}</span><span class="book-stat__label">Icons and assets</span></a>` : ''}
       <a class="book-stat" href="${url(`${PROTO}/index.html`)}"><span class="book-stat__value">${data.proto.flows.length}</span><span class="book-stat__label">Prototype flows</span></a>` : ''}
     </div>`));
     p.append(el(`<div class="book-note">
@@ -342,6 +347,52 @@
       for (const n of used) grid.append(el(`<a class="book-card" href="#component-${n}"><span class="book-card__thumb"><img loading="lazy" alt="" src="${url(`components/${n}/${state.viewport}.png`)}"></span><span class="book-card__name">${esc(title(n))}</span></a>`));
       p.append(grid);
     }
+    return p;
+  }
+
+  // ---------- Assets (icons, illustrations and images from assets/index.json) ----------
+  const ASSET_KINDS = [
+    ['icon', 'Icons', 'SVG icons used inline in the pages, named after the label or text next to them.'],
+    ['css-icon', 'CSS icons', 'Icons and shapes the stylesheets draw as background images (checkboxes, dropdown arrows, patterns).'],
+    ['category', 'Category illustrations', 'The illustrations on the home page category tiles and in the category menu.'],
+    ['illustration', 'Illustrations', 'Banners and illustrations.'],
+    ['logo', 'Logos and badges', 'OLX, partner and sponsor logos.'],
+    ['image', 'Images', 'Motors, Property and Sell tiles, header backgrounds and seasonal artwork.'],
+  ];
+  const assetSrc = (a) => data.assets.bundle?.[a.file] ?? url(a.file);
+  function assetsPage(kind) {
+    const meta = ASSET_KINDS.find(([k]) => k === kind);
+    if (!meta) return notFound();
+    const list = data.assets.assets.filter((a) => a.kind === kind);
+    const p = page('Assets', meta[1], `${list.length} files in <code>assets/</code>. ${esc(meta[2])} Each one is stored separately, so it can be downloaded or copied on its own.`);
+    const bar = el('<div class="book-toolbar"></div>');
+    const bg = state.assetBg ?? 'light';
+    bar.append(segmented([['light', 'Light'], ['dark', 'Dark'], ['check', 'Checkerboard']], bg, (v) => { state.assetBg = v; route(); }, 'Background'));
+    const search = el('<input class="book-filter" type="search" placeholder="Filter by name" style="max-width:260px;margin:0">');
+    bar.append(search);
+    p.append(bar);
+    const grid = el(`<div class="book-assets book-assets--${bg}"></div>`);
+    for (const a of list) {
+      const used = (a.usedOn ?? []).filter((u) => u !== 'css');
+      const ids = [...new Set(used.map((u) => u.split('~')[0]))];
+      const title = (data.proto && ids[0]) ? (data.proto.pages[used[0]]?.title ?? ids[0]) : '';
+      const card = el(`<figure class="book-asset" data-name="${esc(a.name.toLowerCase())} ${esc(a.file.toLowerCase())}">
+        <div class="book-asset__preview"><img loading="lazy" alt="${esc(a.name)}" src="${assetSrc(a)}"></div>
+        <figcaption><strong>${esc(a.name)}</strong><code>${esc(a.file.replace('assets/', ''))}</code>
+          ${a.sizes?.length ? `<span class="book-link__hint">${esc(a.sizes.slice(0, 3).join(', '))}px</span>` : ''}
+          ${ids.length ? `<span class="book-link__hint">Used on ${ids.length} page${ids.length > 1 ? 's' : ''}${title ? `, e.g. <a href="#screen-${esc(ids[0])}">${esc(title)}</a>` : ''}</span>` : ''}
+          ${a.selectors ? `<span class="book-link__hint">CSS <code>${esc(a.selectors.slice(0, 2).join(', '))}</code></span>` : ''}
+          <span class="book-asset__actions"><a href="${assetSrc(a)}" download="${esc(a.file.split('/').pop())}">Download</a>${a.file.endsWith('.svg') ? '<button type="button" data-copy>Copy SVG</button>' : ''}</span>
+        </figcaption></figure>`);
+      card.querySelector('[data-copy]')?.addEventListener('click', async (e) => {
+        const b = e.currentTarget;
+        try { await navigator.clipboard.writeText(await fetch(assetSrc(a)).then((r) => r.text())); b.textContent = 'Copied'; } catch { b.textContent = 'Copy failed'; }
+        setTimeout(() => { b.textContent = 'Copy SVG'; }, 1500);
+      });
+      grid.append(card);
+    }
+    search.addEventListener('input', () => { const f = search.value.trim().toLowerCase(); grid.querySelectorAll('.book-asset').forEach((c) => { c.hidden = !!f && !c.dataset.name.includes(f); }); });
+    p.append(grid);
     return p;
   }
 
@@ -529,6 +580,7 @@
     else if (id.startsWith('component-')) view = componentPage(id.slice(10));
     else if (id.startsWith('template-')) view = templatePage(id.slice(9));
     else if (id === 'screens' && data.proto) view = screensIndex();
+    else if (id.startsWith('assets-') && data.assets) view = assetsPage(id.slice(7));
     else if (id.startsWith('screen-') && data.proto) view = screenPage(id.slice(7));
     else view = notFound();
     main.replaceChildren(view);

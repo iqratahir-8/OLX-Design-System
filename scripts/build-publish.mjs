@@ -21,7 +21,7 @@ const copy = async (from, to = from) => { await mkdir(dirname(join(OUT, to)), { 
 // The book at the root, reading everything relative to itself.
 const bookHtml = (await readFile('book/index.html', 'utf8'))
   .replace('href="../css/tokens.css"', 'href="css/tokens.css"')
-  .replace('<script src="book.js"></script>', '<script>window.BOOK_ROOT = "."; window.BOOK_DEFAULT_TAB = "shot"; window.BOOK_PROTO_DIR = "proto";</script>\n  <script src="book.js"></script>');
+  .replace('<script src="book.js"></script>', '<script>window.BOOK_ROOT = "."; window.BOOK_DEFAULT_TAB = "shot"; window.BOOK_PROTO_DIR = "proto"; window.BOOK_ASSET_BUNDLE = "assets/bundle.json";</script>\n  <script src="book.js"></script>');
 await writeFile(join(OUT, 'index.html'), bookHtml);
 for (const f of ['book/book.js', 'book/book.css']) await copy(f, f.slice(5));
 await copy('css/tokens.css');
@@ -75,6 +75,14 @@ for (const s of Object.values(data.pages)) {
 }
 await flush();
 for (const f of css) await copy(`site/css/${f}`);
+
+// Icons, illustrations and images: one bundle of data URIs (the repo keeps them as separate files).
+const assetIndex = JSON.parse(await readFile('assets/index.json', 'utf8'));
+const TYPES = { svg: 'image/svg+xml', png: 'image/png', jpg: 'image/jpeg', jpeg: 'image/jpeg', webp: 'image/webp', gif: 'image/gif' };
+const assetBundle = {};
+for (const a of assetIndex.assets) assetBundle[a.file] = `data:${TYPES[a.file.split('.').pop()]};base64,${(await readFile(a.file)).toString('base64')}`;
+await copy('assets/index.json');
+await writeFile(join(OUT, 'assets/bundle.json'), JSON.stringify(assetBundle));
 
 // The prototype as a page inside the book (in proto/: the publisher reserves "prototype").
 await mkdir(join(OUT, 'proto'), { recursive: true });

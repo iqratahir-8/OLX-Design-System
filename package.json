@@ -28,7 +28,8 @@
     "capture:site": "node scripts/capture-site.mjs",
     "capture:logged-in": "node scripts/capture-logged-in.mjs",
     "prototype": "node scripts/build-prototype.mjs && echo 'Open http://localhost:6006/prototype/' && npx --yes serve -l 6006 .",
-    "build:publish": "node scripts/build-prototype.mjs && node scripts/build-publish.mjs"
+    "build:publish": "node scripts/build-prototype.mjs && node scripts/extract-assets.mjs && node scripts/build-publish.mjs",
+    "assets": "node scripts/extract-assets.mjs"
   },
   "license": "UNLICENSED",
   "devDependencies": {
