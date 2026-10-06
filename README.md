@@ -104,15 +104,16 @@ To publish the book as one page, `npm run build:publish` writes a flat copy to `
 
 ### GitHub Pages
 
-Every push to `main` deploys the book to https://iqratahir-8.github.io/OLX-Design-System/ (`.github/workflows/pages.yml`):
+Every push to `main` deploys the book and the Storybook to https://iqratahir-8.github.io/OLX-Design-System/ (`.github/workflows/pages.yml`):
 
 | URL | What |
 | --- | --- |
 | `/` | Design system book |
 | `/proto/` | Clickable prototype |
+| `/storybook/` | Storybook (`storybook/`): components, 48 captured pages, 8 flows |
 | `/showcase/` | Component showcase (`index.html`) |
 
-The workflow runs `build-prototype` and `build-publish` only, so it needs no browser or network: refresh `site/` and `assets/` locally and commit them, and the next push republishes. One-time setup: in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**. To redeploy without a push, run the workflow from the **Actions** tab.
+The build needs no browser and never contacts olx.com.pk: it runs `build-prototype`, `build-publish` (with `BOOK_STORYBOOK_URL=storybook/`, so the book links to the Storybook beside it) and `storybook build`. Refresh captures locally and commit them, and the next push republishes. Licensed fonts are not in git, so the published copy uses fallback fonts; listing photos and some icons load from OLX's own servers. One-time setup: in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**. To redeploy without a push, run the workflow from the **Actions** tab.
 
 To refresh the captures from the live site:
 

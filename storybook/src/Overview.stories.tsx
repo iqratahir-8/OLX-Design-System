@@ -99,7 +99,7 @@ export const PageIndex: Story = {
                   <td style={{ padding: '8px 12px', color: 'var(--olx-text-muted)' }}>{p.devices.join(', ')}</td>
                   <td style={{ padding: '8px 12px' }}>
                     {p.devices.map((d) => (
-                      <a key={d} className="olx-link-more" style={{ marginRight: 12, fontSize: 13 }} href={`/templates/${key}/${d}/${name}.html`} target="_blank" rel="noreferrer">{d} ↗</a>
+                      <a key={d} className="olx-link-more" style={{ marginRight: 12, fontSize: 13 }} href={`templates/${key}/${d}/${name}.html`} target="_blank" rel="noreferrer">{d} ↗</a>
                     ))}
                   </td>
                 </tr>

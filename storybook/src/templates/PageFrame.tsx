@@ -14,7 +14,7 @@ export const SIZES: Record<Device, { width: number; height: number }> = {
   mobile: { width: 390, height: 844 },
 };
 
-export const templateUrl = (site: Site, device: Device, name: string) => `/templates/${site}/${device}/${name}.html`;
+export const templateUrl = (site: Site, device: Device, name: string) => `templates/${site}/${device}/${name}.html`;
 
 export function useFitScale(width: number) {
   const hostRef = useRef<HTMLDivElement>(null);
