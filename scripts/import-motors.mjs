@@ -106,7 +106,9 @@ for (const [name, id] of [...Object.entries(NAMES), ...SCROLLED.map(([id, name])
     try {
       await capture(browser, def, def.path, vp, { html: makeLogo(unrewrite(html), def.path), route });
       const entry = { id, title: def.title, viewport: vp, path: def.path, overlay: !!def.scrolled, flows: def.flows };
-      index.pages = index.pages.filter((p) => !(p.id === id && p.viewport === vp)).concat(entry);
+      // Replace in place, so re-importing keeps the order of screens (and of the publish bundles).
+      const at = index.pages.findIndex((p) => p.id === id && p.viewport === vp);
+      if (at >= 0) index.pages[at] = entry; else index.pages.push(entry);
       done++;
     } catch (err) {
       console.error(`failed ${id}/${vp}: ${err.message.split('\n')[0]}`);
