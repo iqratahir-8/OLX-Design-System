@@ -1,5 +1,17 @@
 import type { Meta, StoryObj } from '@storybook/react';
+import { addons } from '@storybook/preview-api';
 import manifest from '../design-kit/templates/templates.json';
+
+// Open a page story, optionally on one device. This goes through Storybook's own
+// channel: changing the URL instead breaks when Storybook is hosted inside another
+// page (an embed or a published artifact), where the URL carries the host's parameters.
+function openPage(storyId: string, device?: string) {
+  const channel = addons.getChannel();
+  if (device) {
+    channel.once('storyRendered', () => channel.emit('updateStoryArgs', { storyId, updatedArgs: { device } }));
+  }
+  channel.emit('selectStory', { storyId, viewMode: 'story' });
+}
 
 /** Front door: what is in this design system and where each part comes from. */
 const meta: Meta = {
@@ -95,16 +107,16 @@ export const PageIndex: Story = {
               {Object.entries(site.pages).map(([name, p]) => (
                 <tr key={name} style={{ borderBottom: '1px solid var(--olx-border-subtle)' }}>
                   <td style={{ padding: '8px 12px' }}>
-                    {/* Opens the page's story in this Storybook (the index runs inside the preview iframe). */}
-                    <a className="olx-link-more" href={`?path=/story/pages-olx-${key}--${name}`} onClick={(e) => {
-                      try { e.preventDefault(); window.parent.location.search = `?path=/story/pages-olx-${key}--${name}`; } catch { /* not inside Storybook */ }
-                    }}>{p.label}</a>
+                    {/* Opens the page's story through Storybook's own channel. Changing the URL
+                        instead breaks when Storybook is hosted inside another page (an embed or
+                        a published artifact), where the URL carries the host's own parameters. */}
+                    <a className="olx-link-more" href="#" onClick={(e) => { e.preventDefault(); openPage(`pages-olx-${key}--${name}`); }}>{p.label}</a>
                   </td>
                   <td style={{ padding: '8px 12px', color: 'var(--olx-text-muted)', fontFamily: 'ui-monospace, monospace', fontSize: 12 }}>{p.path}</td>
                   <td style={{ padding: '8px 12px', color: 'var(--olx-text-muted)' }}>{p.devices.join(', ')}</td>
                   <td style={{ padding: '8px 12px' }}>
                     {p.devices.map((d) => (
-                      <a key={d} className="olx-link-more" style={{ marginRight: 12, fontSize: 13 }} href={`templates/${key}/${d}/${name}.html`} target="_blank" rel="noreferrer">{d} ↗</a>
+                      <a key={d} className="olx-link-more" style={{ marginRight: 12, fontSize: 13 }} href="#" onClick={(e) => { e.preventDefault(); openPage(`pages-olx-${key}--${name}`, d); }}>{d}</a>
                     ))}
                   </td>
                 </tr>
