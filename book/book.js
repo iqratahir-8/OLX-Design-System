@@ -123,6 +123,7 @@
       ...data.grouped.map(([g, names]) => group(g, names.map((n) => link(`component-${n}`, title(n), vpHint(data.components.get(n)))))),
       ...(data.assets ? [group('Assets', ASSET_KINDS.filter(([k]) => data.assets.assets.some((a) => a.kind === k)).map(([k, label]) => link(`assets-${k}`, label, String(data.assets.assets.filter((a) => a.kind === k).length))))] : []),
       group('Page templates', [...data.templates.keys()].map((p) => link(`template-${p}`, title(p), vpHint(data.templates.get(p))))),
+      ...(window.BOOK_STORYBOOK_URL ? [group('Storybook', [`<li><a class="book-link" href="${esc(window.BOOK_STORYBOOK_URL)}" target="_blank" rel="noopener"><span>Open the Storybook</span><span class="book-link__hint">48 pages, 8 flows</span></a></li>`])] : []),
       ...(data.proto ? [
         group('Prototype', [`<li><a class="book-link" href="${url(`${PROTO}/index.html`)}"><span>Open the clickable prototype</span><span class="book-link__hint">${data.proto.flows.length} flows</span></a></li>`, link('screens', 'All screens', String(Object.keys(data.proto.pages).length))]),
         ...data.proto.groups.map((g) => group(`Screens: ${g.name}`, g.pages.map((pg) => link(`screen-${pg.id}`, pg.title, screenHint(pg.id))))),

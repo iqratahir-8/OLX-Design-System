@@ -1,0 +1,703 @@
+{
+ "_purpose": "Browsable page templates built from the captures by scripts/build-templates.mjs. Scripts stripped, assets absolutized, in-kit links rewritten, forms inert.",
+ "sites": {
+  "classifieds": {
+   "label": "OLX Classifieds",
+   "source": "maple (horizontal / olx-pk) — live olx.com.pk",
+   "origin": "https://www.olx.com.pk",
+   "flows": [
+    {
+     "name": "Browse and find an ad",
+     "steps": [
+      "home",
+      "category-listing",
+      "search-results",
+      "ad-detail"
+     ]
+    },
+    {
+     "name": "Seller and posting",
+     "steps": [
+      "ad-detail",
+      "seller-profile",
+      "post-ad"
+     ]
+    }
+   ],
+   "pages": {
+    "home": {
+     "label": "Home",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 17,
+      "mobile": 17
+     },
+     "path": "/",
+     "capturedAt": "2026-10-02"
+    },
+    "category-listing": {
+     "label": "Category listing — Mobile phones",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 23,
+      "mobile": 28
+     },
+     "path": "/mobile-phones_c1453",
+     "capturedAt": "2026-10-02"
+    },
+    "category-vehicles": {
+     "label": "Category listing — from home nav",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 16,
+      "mobile": 16
+     },
+     "path": "/vehicles_c5",
+     "capturedAt": "2026-10-02"
+    },
+    "search-results": {
+     "label": "Search results — iphone",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 16,
+      "mobile": 16
+     },
+     "path": "/items/q-iphone",
+     "capturedAt": "2026-10-02"
+    },
+    "ad-detail": {
+     "label": "Ad detail",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 16,
+      "mobile": 13
+     },
+     "path": "/item/oppo-reno-15-g5-good-condition-12-512gb-iid-1119321753",
+     "capturedAt": "2026-10-02"
+    },
+    "seller-profile": {
+     "label": "Seller profile (public)",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 7,
+      "mobile": 7
+     },
+     "path": "/profile/4d2163c2-b468-4140-8819-4500515dc864",
+     "capturedAt": "2026-10-02"
+    },
+    "post-ad": {
+     "label": "Post an ad",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 1,
+      "mobile": 4
+     },
+     "path": "/post/",
+     "capturedAt": "2026-10-02"
+    },
+    "chat": {
+     "label": "Chat / inbox",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 1,
+      "mobile": 4
+     },
+     "path": "/chat/",
+     "capturedAt": "2026-10-02"
+    },
+    "not-found": {
+     "label": "Not found (404)",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 12,
+      "mobile": 7
+     },
+     "path": "/notfound",
+     "capturedAt": "2026-10-02"
+    }
+   }
+  },
+  "property": {
+   "label": "OLX Property",
+   "source": "maple (horizontal / olx-pk) — live olx.com.pk/properties",
+   "origin": "https://www.olx.com.pk",
+   "flows": [
+    {
+     "name": "Find a property",
+     "steps": [
+      "property-hub",
+      "property-for-sale",
+      "houses",
+      "property-detail-sale"
+     ]
+    },
+    {
+     "name": "Rent a property",
+     "steps": [
+      "property-hub",
+      "property-for-rent",
+      "property-detail-rent"
+     ]
+    }
+   ],
+   "pages": {
+    "property-hub": {
+     "label": "Property hub",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 25,
+      "mobile": 25
+     },
+     "path": "/properties/",
+     "capturedAt": "2026-10-02"
+    },
+    "property-for-sale": {
+     "label": "Listing — For sale",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 20,
+      "mobile": 16
+     },
+     "path": "/property-for-sale_c2",
+     "capturedAt": "2026-10-02"
+    },
+    "property-for-rent": {
+     "label": "Listing — For rent",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 18,
+      "mobile": 14
+     },
+     "path": "/property-for-rent_c3",
+     "capturedAt": "2026-10-02"
+    },
+    "houses": {
+     "label": "Listing — Houses",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 23,
+      "mobile": 52
+     },
+     "path": "/houses_c1721/",
+     "capturedAt": "2026-10-02"
+    },
+    "apartments": {
+     "label": "Listing — Apartments & flats",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 23,
+      "mobile": 58
+     },
+     "path": "/apartments-flats_c1725/",
+     "capturedAt": "2026-10-02"
+    },
+    "plots": {
+     "label": "Listing — Commercial plots",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 18,
+      "mobile": 19
+     },
+     "path": "/commercial-plots-land-plots_c40/?filter=type_eq_commercial-plots-sale",
+     "capturedAt": "2026-10-02"
+    },
+    "shops-offices": {
+     "label": "Listing — Shops & offices",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 17,
+      "mobile": 19
+     },
+     "path": "/shops-offices-commercial-space_c1733/?filter=type_eq_shop-sale",
+     "capturedAt": "2026-10-02"
+    },
+    "price-filtered": {
+     "label": "Listing — Price filtered",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 17,
+      "mobile": 16
+     },
+     "path": "/property-for-sale_c2?filter=price_max_500000",
+     "capturedAt": "2026-10-02"
+    },
+    "property-detail-sale": {
+     "label": "Property detail — sale",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 14,
+      "mobile": 12
+     },
+     "path": "/item/commercial-building-for-sale-in-hali-road-lahore-iid-1119737809",
+     "capturedAt": "2026-10-02"
+    },
+    "property-detail-rent": {
+     "label": "Property detail — rent",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 14,
+      "mobile": 12
+     },
+     "path": "/item/starlight-premium-apartment-your-comfortable-home-away-from-home-with-short-and-long-stay-iid-1119424062",
+     "capturedAt": "2026-10-02"
+    }
+   }
+  },
+  "motors": {
+   "label": "OLX Motors",
+   "source": "olx-motors-nextjs — live olx.com.pk/motors (server-rendered HTML)",
+   "origin": "https://www.olx.com.pk",
+   "flows": [
+    {
+     "name": "Find and compare new cars",
+     "steps": [
+      "home",
+      "new-cars",
+      "new-cars-listing",
+      "new-cars-model-corolla",
+      "new-cars-variant",
+      "compare",
+      "compare-details"
+     ]
+    },
+    {
+     "name": "Finance and insurance",
+     "steps": [
+      "home",
+      "car-finance",
+      "car-finance-bank",
+      "car-insurance",
+      "car-insurance-partner"
+     ]
+    },
+    {
+     "name": "Tyres, batteries and oil",
+     "steps": [
+      "home",
+      "car-tyres",
+      "car-tyres-generation",
+      "car-batteries",
+      "oil-grades"
+     ]
+    },
+    {
+     "name": "Reviews and services",
+     "steps": [
+      "car-reviews",
+      "car-reviews-corolla",
+      "car-reviews-detail",
+      "car-inspection",
+      "auction-sheet"
+     ]
+    }
+   ],
+   "pages": {
+    "home": {
+     "label": "Home",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 26,
+      "mobile": 15
+     },
+     "path": "/motors/"
+    },
+    "new-cars": {
+     "label": "New cars",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 32,
+      "mobile": 21
+     },
+     "path": "/motors/new-cars/"
+    },
+    "new-cars-listing": {
+     "label": "New cars listing",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 18,
+      "mobile": 3
+     },
+     "path": "/motors/new-cars/all-new-cars/?body_type=sedan"
+    },
+    "new-cars-listing-suv": {
+     "label": "New cars listing suv",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 18,
+      "mobile": 3
+     },
+     "path": "/motors/new-cars/all-new-cars/?body_type=suv"
+    },
+    "new-cars-listing-empty": {
+     "label": "New cars listing empty",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 18,
+      "mobile": 3
+     },
+     "path": "/motors/new-cars/all-new-cars/?body_type=truck&make=honda&price_range=100000-200000"
+    },
+    "new-cars-make-toyota": {
+     "label": "New cars make toyota",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 19,
+      "mobile": 5
+     },
+     "path": "/motors/new-cars/toyota/"
+    },
+    "new-cars-make-honda": {
+     "label": "New cars make honda",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 19,
+      "mobile": 5
+     },
+     "path": "/motors/new-cars/honda/"
+    },
+    "new-cars-model-corolla": {
+     "label": "New cars model corolla",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 23,
+      "mobile": 9
+     },
+     "path": "/motors/new-cars/toyota/corolla/"
+    },
+    "new-cars-model-civic": {
+     "label": "New cars model civic",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 20,
+      "mobile": 5
+     },
+     "path": "/motors/new-cars/honda/civic/"
+    },
+    "compare": {
+     "label": "Compare",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 28,
+      "mobile": 16
+     },
+     "path": "/motors/new-cars/compare/"
+    },
+    "car-reviews": {
+     "label": "Car reviews",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 27,
+      "mobile": 15
+     },
+     "path": "/motors/car-reviews/"
+    },
+    "car-reviews-corolla": {
+     "label": "Car reviews corolla",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 18,
+      "mobile": 3
+     },
+     "path": "/motors/car-reviews/toyota/corolla/"
+    },
+    "car-inspection": {
+     "label": "Car inspection",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 27,
+      "mobile": 18
+     },
+     "path": "/motors/car-inspection/"
+    },
+    "auction-sheet": {
+     "label": "Auction sheet",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 26,
+      "mobile": 17
+     },
+     "path": "/motors/auction-sheet-verification/"
+    },
+    "car-finance": {
+     "label": "Car finance",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 26,
+      "mobile": 17
+     },
+     "path": "/motors/car-finance/"
+    },
+    "car-insurance": {
+     "label": "Car insurance",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 27,
+      "mobile": 18
+     },
+     "path": "/motors/car-insurance/"
+    },
+    "car-insurance-tpl": {
+     "label": "Car insurance tpl",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 15,
+      "mobile": 3
+     },
+     "path": "/motors/car-insurance/tpl-insurance/"
+    },
+    "car-tyres": {
+     "label": "Car tyres",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 27,
+      "mobile": 15
+     },
+     "path": "/motors/car-tyres/"
+    },
+    "car-tyres-toyota": {
+     "label": "Car tyres toyota",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 17,
+      "mobile": 3
+     },
+     "path": "/motors/car-tyres/toyota/"
+    },
+    "car-batteries": {
+     "label": "Car batteries",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 27,
+      "mobile": 15
+     },
+     "path": "/motors/car-batteries/"
+    },
+    "car-batteries-toyota": {
+     "label": "Car batteries toyota",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 17,
+      "mobile": 3
+     },
+     "path": "/motors/car-batteries/toyota/"
+    },
+    "oil-grades": {
+     "label": "Oil grades",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 17,
+      "mobile": 3
+     },
+     "path": "/motors/oil-grades/"
+    },
+    "new-cars-variant": {
+     "label": "New cars variant",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 21,
+      "mobile": 6
+     },
+     "path": "/motors/new-cars/toyota/corolla/altis-cvt-1-6/"
+    },
+    "compare-details": {
+     "label": "Compare details",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 19,
+      "mobile": 4
+     },
+     "path": "/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/"
+    },
+    "car-reviews-detail": {
+     "label": "Car reviews detail",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 19,
+      "mobile": 4
+     },
+     "path": "/motors/car-reviews/toyota/corolla/71/"
+    },
+    "car-finance-bank": {
+     "label": "Car finance bank",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 18,
+      "mobile": 0
+     },
+     "path": "/motors/car-finance/bank-islamic/"
+    },
+    "car-insurance-partner": {
+     "label": "Car insurance partner",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 18,
+      "mobile": 0
+     },
+     "path": "/motors/car-insurance/igi-insurance/"
+    },
+    "car-tyres-generation": {
+     "label": "Car tyres generation",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 18,
+      "mobile": 6
+     },
+     "path": "/motors/car-tyres/seres/3-1/2023-2026/"
+    },
+    "car-batteries-generation": {
+     "label": "Car batteries generation",
+     "devices": [
+      "desktop",
+      "mobile"
+     ],
+     "links": {
+      "desktop": 18,
+      "mobile": 6
+     },
+     "path": "/motors/car-batteries/honda/civic/2022-2026/"
+    }
+   }
+  }
+ }
+}

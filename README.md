@@ -111,6 +111,19 @@ npm run snapshot -- ad-detail   # one page
 
 Scripts, ad slots and iframes are removed, links are made inert, and personal data (seller names and photos, phone numbers in ad text) is redacted. Listing photos load from images.olx.com.pk.
 
+## Storybook and design kit (`storybook/`)
+
+`storybook/` is the design kit built on the Mac and imported from the `local-build` branch: tokens and `olx-*` CSS components, React wrappers, and 48 captured pages (Classifieds 9, Property 10, Motors 29) on desktop and mobile with 8 flows, plus the raw Motors server HTML in `storybook/motors-html/`. See `storybook/MERGE.md`.
+
+```sh
+cd storybook
+npm install
+npm run localize   # once: downloads the fonts (not in git, they are licensed)
+npm run dev        # Storybook on http://localhost:6006
+```
+
+Seller phone numbers in captured ad titles and links were replaced with 03XX-XXXXXXX on import.
+
 ## Icons, illustrations and assets
 
 ```sh
