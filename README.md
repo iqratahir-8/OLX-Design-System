@@ -102,6 +102,18 @@ The book lists every captured component and page template. Each component can be
 
 To publish the book as one page, `npm run build:publish` writes a flat copy to `dist/book/` (git-ignored): the book at the root, the prototype in `proto/`, and section HTML packed into a few JSON bundles in `site/sections/` so the copy stays within the publisher's file limits.
 
+### GitHub Pages
+
+Every push to `main` deploys the book to https://iqratahir-8.github.io/OLX-Design-System/ (`.github/workflows/pages.yml`):
+
+| URL | What |
+| --- | --- |
+| `/` | Design system book |
+| `/proto/` | Clickable prototype |
+| `/showcase/` | Component showcase (`index.html`) |
+
+The workflow runs `build-prototype` and `build-publish` only, so it needs no browser or network: refresh `site/` and `assets/` locally and commit them, and the next push republishes. One-time setup: in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**. To redeploy without a push, run the workflow from the **Actions** tab.
+
 To refresh the captures from the live site:
 
 ```sh

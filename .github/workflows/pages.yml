@@ -1,0 +1,53 @@
+name: Deploy book to GitHub Pages
+
+# Publishes the design system book (with the clickable prototype in proto/) at the
+# site root and the component showcase in showcase/. The build is offline: it only
+# reads the captures already committed in site/, components/, templates/ and assets/.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Build book and prototype
+        run: |
+          node scripts/build-prototype.mjs
+          node scripts/build-publish.mjs
+      - name: Add component showcase
+        run: |
+          mkdir -p dist/book/showcase
+          cp index.html dist/book/showcase/index.html
+          cp -r css dist/book/showcase/css
+          mkdir -p dist/book/showcase/dist
+          cp dist/tokens.js dist/book/showcase/dist/tokens.js
+          touch dist/book/.nojekyll
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/book
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
