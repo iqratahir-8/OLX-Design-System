@@ -1,8 +1,8 @@
-// Import Motors pages from a design-kit build (the `local-build` branch:
-// design-kit/templates/) into site/, as if they had been captured live.
+// Import Motors pages from a design-kit build (storybook/design-kit/templates/)
+// into site/, as if they had been captured live.
 //
-//   git worktree add ../olx-local-build local-build   # or any checkout of it
-//   node scripts/import-motors.mjs ../olx-local-build/design-kit/templates
+//   (cd storybook && npm run localize)   # once: the kit's fonts, which are not in git
+//   node scripts/import-motors.mjs storybook/design-kit/templates
 //   node scripts/import-motors.mjs <templates> motors-compare motors-finance   # only these ids
 //
 // The kit's templates are the Motors server HTML with scripts stripped and
