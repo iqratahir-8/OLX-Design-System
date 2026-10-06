@@ -142,7 +142,13 @@
     if (state.view === 'html' && !s.scrolled) {
       inner.style.overflow = 'hidden';
       inner.innerHTML = `<iframe class="pt-live" title="${esc(s.title)}, live HTML" scrolling="no" tabindex="-1" style="width:${s.width}px;height:${s.height}px;transform:scale(${scale})"></iframe>`;
-      inner.firstElementChild.src = asset(s.html);
+      // A publish may pack page HTML into bundles (s.pageBundle), rendered in place.
+      if (!s.pageBundle) inner.firstElementChild.src = asset(s.html);
+      else {
+        const frame = inner.firstElementChild;
+        if (!bundles.has(s.pageBundle)) bundles.set(s.pageBundle, fetch(asset(s.pageBundle)).then((r) => r.json()));
+        bundles.get(s.pageBundle).then((b) => { frame.srcdoc = withBase(b[s.html], s.html); });
+      }
     } else {
       inner.innerHTML = `<img alt="${esc(s.title)} as captured from olx.com.pk" src="${asset(s.image)}" width="${Math.round(width)}" height="${Math.round(s.height * scale)}">`;
     }

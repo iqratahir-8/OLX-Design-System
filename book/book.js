@@ -411,6 +411,12 @@
     return (await bundles.get(s.bundle))[sec.html];
   }
   const withBase = (html, path) => html.replace(/<head>/i, `<head><base href="${new URL(site(path).replace(/[^/]*$/, ''), location.href).href}">`);
+  // A publish may pack page HTML into bundles too (s.pageBundle); the repo has one file per page.
+  async function pageHtml(s) {
+    if (!s.pageBundle) return fetch(site(s.html)).then((r) => r.text());
+    if (!bundles.has(s.pageBundle)) bundles.set(s.pageBundle, fetch(site(s.pageBundle)).then((r) => r.json()));
+    return (await bundles.get(s.pageBundle))[s.html];
+  }
   function codeBox(text) {
     const box = el('<div class="book-code"><pre><code></code></pre></div>');
     box.querySelector('code').textContent = text;
@@ -431,7 +437,9 @@
     const box = el(`<div class="book-crop" style="width:${r.width * scale}px;height:${r.height * scale}px"></div>`);
     const inner = el(`<div class="book-crop__inner" style="width:${r.width}px;height:${r.height}px;transform:scale(${scale})"></div>`);
     const frame = el(`<iframe loading="lazy" title="Live render" scrolling="no" tabindex="-1" style="left:${-r.x}px;top:${-r.y}px;width:${width}px;height:${height}px"></iframe>`);
-    frame.src = src;
+    // `src` is a URL, or a promise of HTML to render in place (bundled pages).
+    if (typeof src === 'string') frame.src = src;
+    else src.then((h) => { frame.srcdoc = h; });
     inner.append(frame); box.append(inner); snapToPixels(box);
     return box;
   }
@@ -474,7 +482,7 @@
     bar.append(segmented([['render', 'Live HTML'], ['shot', 'Screenshot'], ['html', 'HTML source']], state.tab, (t) => { state.tab = t; save(); route(); }, 'View'));
     const actions = el('<div class="book-actions"></div>');
     actions.append(el(`<a class="book-btn" href="${url(`${PROTO}/index.html`)}#${id}~${s.vp}">Open in prototype</a>`));
-    actions.append(el(`<a class="book-btn" href="${site(s.html)}" target="_blank" rel="noopener">Open HTML</a>`));
+    if (!s.pageBundle) actions.append(el(`<a class="book-btn" href="${site(s.html)}" target="_blank" rel="noopener">Open HTML</a>`));
     bar.append(actions);
     p.append(bar);
     if (flows.length) p.append(el(`<p class="book-stage__caption">In flows: ${flows.map((f) => `<a href="${url(`${PROTO}/index.html`)}#flow~${f.id}~${f.steps.findIndex((st) => st.page === id)}~${s.vp}">${esc(f.title)}</a>`).join(', ')}</p>`));
@@ -482,12 +490,12 @@
     const max = stageWidth();
     if (state.tab === 'html') {
       const holder = el('<div><p class="book-stage__caption">Loading the page HTML…</p></div>');
-      fetch(site(s.html)).then((r) => r.text()).then((h) => holder.replaceChildren(codeBox(h))).catch(() => { holder.textContent = 'Could not load the HTML file.'; });
+      pageHtml(s).then((h) => holder.replaceChildren(codeBox(h))).catch(() => { holder.textContent = 'Could not load the HTML file.'; });
       p.append(holder);
     } else {
       const stage = el('<div class="book-stage"></div>');
       if (state.tab === 'shot') stage.append(el(`<img class="book-shot" alt="${esc(s.title)} on olx.com.pk" src="${site(s.image)}" style="width:${Math.min(s.width, max)}px">`));
-      else stage.append(liveFrame(site(s.html), s.width, s.height, max));
+      else stage.append(liveFrame(s.pageBundle ? pageHtml(s).then((h) => withBase(h, s.html)) : site(s.html), s.width, s.height, max));
       p.append(stage);
     }
 

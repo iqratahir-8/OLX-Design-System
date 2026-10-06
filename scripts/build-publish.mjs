@@ -47,7 +47,7 @@ for (const f of [...(await walk('components')), ...(await walk('templates'))]) {
 const components = JSON.parse(await readFile('components/index.json', 'utf8'));
 for (const c of components.components) for (const f of [c.frame?.html, c.png, c.markup]) if (f) await copy(f);
 
-// Every captured screen: page HTML and screenshot, shared CSS, section bundles.
+// Every captured screen: screenshot, page HTML and section bundles, shared CSS.
 const data = JSON.parse(await readFile('prototype/data.json', 'utf8'));
 const css = new Set();
 let bundle = {}, bundleSize = 0, bundleNo = 0;
@@ -60,10 +60,28 @@ async function flush() {
   bundleFiles.push(name);
   bundle = {}; bundleSize = 0;
 }
+// Page HTML is packed into bundles as well, except pages the book renders as
+// component-state frames (it loads those by URL).
+const frames = new Set(components.components.map((c) => c.frame?.html).filter(Boolean));
+let pageBundle = {}, pageBundleSize = 0, pageBundleNo = 0;
+async function flushPages() {
+  if (!pageBundleSize) return;
+  const name = `site/pages-${String(++pageBundleNo).padStart(2, '0')}.json`;
+  await writeFile(join(OUT, name), JSON.stringify(pageBundle));
+  bundleFiles.push(name);
+  pageBundle = {}; pageBundleSize = 0;
+}
 for (const s of Object.values(data.pages)) {
   const html = s.html.replace('../', ''), png = s.image.replace('../', '');
-  await copy(html); await copy(png);
-  for (const m of (await readFile(html, 'utf8')).matchAll(/href="(?:\.\.\/)+css\/([0-9a-f]+\.css)"/g)) css.add(m[1]);
+  await copy(png);
+  const pageText = await readFile(html, 'utf8');
+  if (frames.has(html)) await copy(html);
+  else {
+    if (pageBundleSize + pageText.length > BUNDLE_BYTES) await flushPages();
+    pageBundle[s.html] = pageText; pageBundleSize += pageText.length;
+    s.pageBundle = `../site/pages-${String(pageBundleNo + 1).padStart(2, '0')}.json`;
+  }
+  for (const m of pageText.matchAll(/href="(?:\.\.\/)+css\/([0-9a-f]+\.css)"/g)) css.add(m[1]);
   let size = 0;
   const secs = {};
   for (const sec of s.sections) {
@@ -76,6 +94,7 @@ for (const s of Object.values(data.pages)) {
   s.bundle = `../site/sections/sections-${String(bundleNo + 1).padStart(2, '0')}.json`;
 }
 await flush();
+await flushPages();
 for (const f of css) await copy(`site/css/${f}`);
 
 // Icons, illustrations and images: one bundle of data URIs (the repo keeps them as separate files).
