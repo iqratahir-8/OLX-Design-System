@@ -15,6 +15,7 @@
     ['Listings', ['page-title', 'filters-sidebar', 'categories-filter', 'brand-chips', 'listing-toolbar', 'listing-row-featured', 'delivery-card']],
     ['Ad detail', ['gallery', 'ad-overview', 'ad-details', 'ad-description', 'seller-sidebar', 'seller-card', 'seller-card-mobile', 'show-phone-button', 'chat-button', 'contact-bar', 'related-ads', 'safety-tips']],
     ['Footer', ['footer', 'copyright-bar']],
+    ['Motors', ['motors-header', 'motors-mobile-header']],
   ];
 
   const ABOUT = {
@@ -55,6 +56,8 @@
     'safety-tips': 'Buyer safety tips.',
     footer: 'Link columns, social icons and the copyright bar.',
     'copyright-bar': 'Dark petrol bar at the very bottom.',
+    'motors-header': 'Motors desktop header: the brand strip with Motors selected and the Motors section links, at the top and after scrolling.',
+    'motors-mobile-header': 'Motors mobile header: the landing page header with its banner, and the back-and-title bar on car pages, at the top and after scrolling.',
   };
 
   const TEMPLATE_ABOUT = {
@@ -123,6 +126,7 @@
       ...data.grouped.map(([g, names]) => group(g, names.map((n) => link(`component-${n}`, title(n), vpHint(data.components.get(n)))))),
       ...(data.assets ? [group('Assets', ASSET_KINDS.filter(([k]) => data.assets.assets.some((a) => a.kind === k)).map(([k, label]) => link(`assets-${k}`, label, String(data.assets.assets.filter((a) => a.kind === k).length))))] : []),
       group('Page templates', [...data.templates.keys()].map((p) => link(`template-${p}`, title(p), vpHint(data.templates.get(p))))),
+      ...(window.BOOK_STORYBOOK_URL ? [group('Storybook', [`<li><a class="book-link" href="${esc(window.BOOK_STORYBOOK_URL)}" target="_blank" rel="noopener"><span>Open the Storybook</span><span class="book-link__hint">48 pages, 8 flows</span></a></li>`])] : []),
       ...(data.proto ? [
         group('Prototype', [`<li><a class="book-link" href="${url(`${PROTO}/index.html`)}"><span>Open the clickable prototype</span><span class="book-link__hint">${data.proto.flows.length} flows</span></a></li>`, link('screens', 'All screens', String(Object.keys(data.proto.pages).length))]),
         ...data.proto.groups.map((g) => group(`Screens: ${g.name}`, g.pages.map((pg) => link(`screen-${pg.id}`, pg.title, screenHint(pg.id))))),

@@ -1,0 +1,568 @@
+{
+ "id": "motors-tyres",
+ "title": "Motors: Car tyres",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/motors/car-tyres/",
+ "finalUrl": "https://www.olx.com.pk/motors/car-tyres/",
+ "width": 390,
+ "height": 2151,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:54:33.613Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 112
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-car-tyres-by-size",
+   "name": "Car Tyres by Size",
+   "rect": {
+    "x": 16,
+    "y": 112,
+    "width": 358,
+    "height": 178
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "03-featured-dealers",
+   "name": "Featured Dealers",
+   "rect": {
+    "x": 16,
+    "y": 353,
+    "width": 358,
+    "height": 108
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "04-tyres-of-popular-cars",
+   "name": "Tyres of Popular Cars",
+   "rect": {
+    "x": 16,
+    "y": 480,
+    "width": 358,
+    "height": 209
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "05-explore-olx-motors",
+   "name": "Explore OLX Motors",
+   "rect": {
+    "x": 16,
+    "y": 708,
+    "width": 358,
+    "height": 281
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(5)"
+  },
+  {
+   "file": "06-how-to-read-tyre-size",
+   "name": "How To Read Tyre Size",
+   "rect": {
+    "x": 16,
+    "y": 1008,
+    "width": 358,
+    "height": 394
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(6)"
+  },
+  {
+   "file": "07-frequently-asked-questions",
+   "name": "Frequently Asked Questions",
+   "rect": {
+    "x": 16,
+    "y": 1421,
+    "width": 358,
+    "height": 320
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(7)"
+  },
+  {
+   "file": "08-get-the-olx-app",
+   "name": "Get the OLX App",
+   "rect": {
+    "x": 0,
+    "y": 1819,
+    "width": 390,
+    "height": 332
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "09-home-chat-sell",
+   "name": "Home · Chat · Sell",
+   "rect": {
+    "x": 0,
+    "y": 2092,
+    "width": 390,
+    "height": 59
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 12,
+   "y": 56,
+   "width": 366,
+   "height": 40,
+   "kind": "button",
+   "label": "Search Car Tyres"
+  },
+  {
+   "x": 16,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/b742b2ce-9cd0-4ca1-88cf-eb20fb226bbc",
+   "label": ""
+  },
+  {
+   "x": 160,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/profile/cae98e8b-7fc0-49fb-8113-40b3934735f8",
+   "label": ""
+  },
+  {
+   "x": 304,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/8565c117-fc56-4612-8b9d-d315985cada5",
+   "label": ""
+  },
+  {
+   "x": 448,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/profile/16d47166-e7df-494e-8dbb-7fb3fd320980",
+   "label": ""
+  },
+  {
+   "x": 592,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/169aa402-f86b-4f8a-98cb-60181ec7a70c",
+   "label": ""
+  },
+  {
+   "x": 736,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/c05e09de-ac2f-4c8b-853e-b31270485677",
+   "label": ""
+  },
+  {
+   "x": 880,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/companies/agency-5505",
+   "label": ""
+  },
+  {
+   "x": 1024,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/74603886-3da3-4a31-84b1-d9b98bdaf474",
+   "label": ""
+  },
+  {
+   "x": 1168,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/80cad9a9-63ee-4c4f-8851-ca34a63aa07a",
+   "label": ""
+  },
+  {
+   "x": 1312,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/ede63b13-bd07-4e5d-87e1-59a85952c286",
+   "label": ""
+  },
+  {
+   "x": 1456,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/45e3c180-6e58-4afd-a34e-550360389274",
+   "label": ""
+  },
+  {
+   "x": 1600,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/4eb3f9d0-e6e8-4fe3-b39b-bb981348b49d",
+   "label": ""
+  },
+  {
+   "x": 1744,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/98bb5474-e041-4bd6-8f56-29017588664e",
+   "label": ""
+  },
+  {
+   "x": 1888,
+   "y": 387,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-7451",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 513,
+   "width": 233,
+   "height": 176,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-tyres/seres/3-1/2023-2026/",
+   "label": "Seres 32023 - 2026"
+  },
+  {
+   "x": 262,
+   "y": 513,
+   "width": 234,
+   "height": 176,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-tyres/honda/civic/2022-2026/",
+   "label": "Honda Civic2022 - 2026"
+  },
+  {
+   "x": 509,
+   "y": 513,
+   "width": 233,
+   "height": 176,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-tyres/toyota/corolla/2014-2026/",
+   "label": "Toyota Corolla2014 - 2026"
+  },
+  {
+   "x": 755,
+   "y": 513,
+   "width": 234,
+   "height": 176,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-tyres/toyota/yaris/2020-2026/",
+   "label": "Toyota Yaris2020 - 2026"
+  },
+  {
+   "x": 1002,
+   "y": 513,
+   "width": 234,
+   "height": 176,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-tyres/suzuki/alto/2024-2026/",
+   "label": "Suzuki Alto2024 - 2026"
+  },
+  {
+   "x": 1249,
+   "y": 513,
+   "width": 233,
+   "height": 176,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-tyres/honda/city/2021-2026/",
+   "label": "Honda City2021 - 2026"
+  },
+  {
+   "x": 1495,
+   "y": 513,
+   "width": 234,
+   "height": 176,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-tyres/suzuki/swift/2022-2026/",
+   "label": "Suzuki Swift2022 - 2026"
+  },
+  {
+   "x": 1742,
+   "y": 513,
+   "width": 234,
+   "height": 176,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-tyres/kia/sportage/2019-2026/",
+   "label": "KIA Sportage2019 - 2026"
+  },
+  {
+   "x": 1989,
+   "y": 513,
+   "width": 233,
+   "height": 176,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-tyres/suzuki/swift/2010-2022/",
+   "label": "Suzuki Swift2010 - 2022"
+  },
+  {
+   "x": 2235,
+   "y": 513,
+   "width": 234,
+   "height": 176,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-tyres/changan/oshan-x7/2022-2026/",
+   "label": "Changan Oshan X72022 - 2026"
+  },
+  {
+   "x": 16,
+   "y": 741,
+   "width": 173,
+   "height": 141,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Used CarsBrowse used cars in Pakistan"
+  },
+  {
+   "x": 201,
+   "y": 741,
+   "width": 173,
+   "height": 65,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 201,
+   "y": 817,
+   "width": 173,
+   "height": 65,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/",
+   "label": "Car Comparison"
+  },
+  {
+   "x": 16,
+   "y": 893,
+   "width": 137,
+   "height": 96,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/",
+   "label": "Car Reviews"
+  },
+  {
+   "x": 164,
+   "y": 893,
+   "width": 137,
+   "height": 96,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-inspection/",
+   "label": "Car Inspection"
+  },
+  {
+   "x": 312,
+   "y": 893,
+   "width": 137,
+   "height": 96,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/auction-sheet-verification/",
+   "label": "Auction Sheet"
+  },
+  {
+   "x": 460,
+   "y": 893,
+   "width": 137,
+   "height": 96,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/",
+   "label": "Car Finance"
+  },
+  {
+   "x": 608,
+   "y": 893,
+   "width": 137,
+   "height": 96,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/",
+   "label": "Car Insurance"
+  },
+  {
+   "x": 756,
+   "y": 893,
+   "width": 138,
+   "height": 96,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/",
+   "label": "Car Batteries"
+  },
+  {
+   "x": 350,
+   "y": 1471,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 1528,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 1585,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 1642,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 1699,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 1760,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 76,
+   "y": 1760,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 0,
+   "y": 2100,
+   "width": 72,
+   "height": 44,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 79,
+   "y": 2100,
+   "width": 73,
+   "height": 44,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chat/",
+   "label": "Chat"
+  },
+  {
+   "x": 159,
+   "y": 2098,
+   "width": 72,
+   "height": 47,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/post/",
+   "label": "Sell"
+  },
+  {
+   "x": 238,
+   "y": 2100,
+   "width": 73,
+   "height": 44,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/myads/",
+   "label": "My Ads"
+  },
+  {
+   "x": 331,
+   "y": 2100,
+   "width": 46,
+   "height": 44,
+   "kind": "button",
+   "label": "Account"
+  },
+  {
+   "x": 16,
+   "y": 1935,
+   "width": 358,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 2005,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 2005,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 2005,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 2005,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

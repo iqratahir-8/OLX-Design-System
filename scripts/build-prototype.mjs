@@ -82,17 +82,19 @@ function resolve(h, source, vp) {
     }
     if (/^\/motors/.test(path)) {
       // Motors pages not captured exactly go to the captured page of the same kind.
+      const suv = u.searchParams.get('body_type') === 'suv';
       const kinds = [
         [/^\/motors\/new-cars\/compare\/.+/, 'motors-compare-result'], [/^\/motors\/new-cars\/compare/, 'motors-compare'],
-        [/^\/motors\/new-cars\/all-new-cars/, 'motors-all-new-cars'],
-        [/^\/motors\/new-cars\/[^/]+\/[^/]+\/[^/]+/, 'motors-version'], [/^\/motors\/new-cars\/[^/]+\/[^/]+/, 'motors-model'],
-        [/^\/motors\/new-cars\/[^/]+/, 'motors-brand'], [/^\/motors\/new-cars/, 'motors-new-cars'],
-        [/^\/motors\/car-reviews\/.+/, 'motors-model-reviews'], [/^\/motors\/car-reviews/, 'motors-reviews'],
-        [/^\/motors\/car-tyres\/.+/, 'motors-model-tyres'], [/^\/motors\/car-tyres/, 'motors-tyres'],
-        [/^\/motors\/car-batteries\/.+/, 'motors-model-batteries'], [/^\/motors\/car-batteries/, 'motors-batteries'],
-        [/^\/motors\/car-insurance\/packages/, 'motors-insurance-packages'], [/^\/motors\/car-insurance\/.+/, 'motors-insurer'],
-        [/^\/motors\/car-insurance/, 'motors-insurance'], [/^\/motors\/car-finance/, 'motors-finance'],
-        [/^\/motors\/car-inspection/, 'motors-inspection'], [/^\/motors\/auction-sheet/, 'motors-auction-sheet'],
+        [/^\/motors\/new-cars\/all-new-cars/, suv ? 'motors-new-suvs' : 'motors-all-new-cars'],
+        [/^\/motors\/new-cars\/[^/]+\/[^/]+\/[^/]+/, 'motors-version'],
+        [/^\/motors\/new-cars\/toyota\/corolla/, 'motors-model-corolla'], [/^\/motors\/new-cars\/[^/]+\/[^/]+/, 'motors-model'],
+        [/^\/motors\/new-cars\/toyota/, 'motors-brand-toyota'], [/^\/motors\/new-cars\/[^/]+/, 'motors-brand'], [/^\/motors\/new-cars/, 'motors-new-cars'],
+        [/^\/motors\/car-reviews\/[^/]+\/[^/]+\/.+/, 'motors-review'], [/^\/motors\/car-reviews\/.+/, 'motors-model-reviews'], [/^\/motors\/car-reviews/, 'motors-reviews'],
+        [/^\/motors\/car-tyres\/[^/]+\/.+/, 'motors-model-tyres'], [/^\/motors\/car-tyres\/.+/, 'motors-brand-tyres'], [/^\/motors\/car-tyres/, 'motors-tyres'],
+        [/^\/motors\/car-batteries\/[^/]+\/.+/, 'motors-model-batteries'], [/^\/motors\/car-batteries\/.+/, 'motors-brand-batteries'], [/^\/motors\/car-batteries/, 'motors-batteries'],
+        [/^\/motors\/car-insurance\/tpl/, 'motors-insurance-tpl'], [/^\/motors\/car-insurance\/.+/, 'motors-insurer'], [/^\/motors\/car-insurance/, 'motors-insurance'],
+        [/^\/motors\/car-finance\/.+/, 'motors-finance-bank'], [/^\/motors\/car-finance/, 'motors-finance'],
+        [/^\/motors\/car-inspection/, 'motors-inspection'], [/^\/motors\/auction-sheet/, 'motors-auction-sheet'], [/^\/motors\/oil-grades/, 'motors-oil-grades'],
       ];
       const hit = kinds.find(([re]) => re.test(path));
       return { to: firstAvailable(vp, hit?.[1], 'motors') };
@@ -184,27 +186,61 @@ const FLOWS = [
   ] },
   { id: 'motors-research', title: 'Motors: research a new car', steps: [
     ['motors', 'The Motors landing page.', 'New Cars'],
-    ['motors-new-cars', 'New cars by budget, brand and body type.'],
-    ['motors-brand', 'Every Honda model with prices.', 'Civic'],
-    ['motors-model', 'The Honda Civic: prices, versions, specs and pictures.'],
-    ['motors-version', 'One version of the Civic in detail.'],
-    ['motors-model-reviews', 'Owner reviews of the Civic.'],
+    ['motors-new-cars', 'New cars by make, body type and budget. Open a popular car.', 'Toyota Corolla'],
+    ['motors-model-corolla', 'The Corolla: prices, variants, specs, colours and reviews.', 'Altis CVT 1.6'],
+    ['motors-version', 'One Corolla variant in detail.'],
+  ] },
+  { id: 'motors-browse-new', title: 'Motors: browse new cars', steps: [
+    ['motors-new-cars', 'Browse every new car.', 'View More'],
+    ['motors-all-new-cars', 'All new sedans, with filters.'],
+    ['motors-new-suvs', 'All new SUVs.'],
+    ['motors-new-cars-empty', 'Filters that match no cars.'],
+    ['motors-brand-toyota', 'New Toyota cars.', 'Toyota Corolla'],
+    ['motors-model-corolla', 'The Toyota Corolla.'],
+    ['motors-brand', 'New Honda cars.', 'Honda Civic'],
+    ['motors-model', 'The Honda Civic.'],
   ] },
   { id: 'motors-compare', title: 'Motors: compare two cars', steps: [
-    ['motors-compare', 'Pick two cars to compare.'],
-    ['motors-compare-result', 'Toyota Corolla vs Honda Civic side by side.'],
+    ['motors-compare', 'Pick two cars, or open a popular comparison.', 'View Comparison'],
+    ['motors-compare-result', 'Jaecoo J7 vs Kia Sportage, side by side.'],
   ] },
-  { id: 'motors-services', title: 'Motors: car services', steps: [
-    ['motors-finance', 'Car finance: calculate monthly instalments.'],
-    ['motors-inspection', 'Book an OLX car inspection.'],
-    ['motors-insurance', 'Compare car insurance.', 'Packages'],
-    ['motors-insurance-packages', 'Insurance packages.'],
+  { id: 'motors-reviews', title: 'Motors: read car reviews', steps: [
+    ['motors-reviews', 'Owner reviews by make and model.', 'Toyota Corolla'],
+    ['motors-model-reviews', 'Reviews of the Toyota Corolla.'],
+    ['motors-review', 'One owner review in full.'],
+  ] },
+  { id: 'motors-finance', title: 'Motors: car finance', steps: [
+    ['motors-finance', 'Calculate monthly instalments and compare banks.'],
+    ['motors-finance-bank', 'One bank\'s car finance plans.'],
+  ] },
+  { id: 'motors-inspection', title: 'Motors: book a car inspection', steps: [
+    ['motors-inspection', 'Book an OLX car inspection (the booking form is not submitted).'],
+  ] },
+  { id: 'motors-insurance', title: 'Motors: car insurance', steps: [
+    ['motors-insurance', 'Compare car insurance and insurers.'],
     ['motors-insurer', 'One insurer in detail.'],
-    ['motors-auction-sheet', 'Verify a Japanese auction sheet.'],
-    ['motors-tyres', 'Find tyres for your car.'],
-    ['motors-model-tyres', 'Tyres for the Honda Civic.'],
-    ['motors-batteries', 'Find a battery for your car.'],
-    ['motors-model-batteries', 'Batteries for the Honda Civic.'],
+    ['motors-insurance-tpl', 'Third-party (TPL) insurance.'],
+  ] },
+  { id: 'motors-auction-sheet', title: 'Motors: verify an auction sheet', steps: [
+    ['motors-auction-sheet', 'Verify a Japanese auction sheet by chassis number (nothing is submitted).'],
+  ] },
+  { id: 'motors-tyres', title: 'Motors: find tyres', steps: [
+    ['motors-tyres', 'Find tyres for your car.', 'Seres 3'],
+    ['motors-model-tyres', 'Tyre sizes for one car generation (Seres 3, 2023 to 2026).'],
+    ['motors-brand-tyres', 'Tyres by make: Toyota.'],
+  ] },
+  { id: 'motors-batteries', title: 'Motors: find a battery or oil', steps: [
+    ['motors-batteries', 'Find a battery for your car.', 'Honda Civic'],
+    ['motors-model-batteries', 'Batteries for the Honda Civic (2022 to 2026).'],
+    ['motors-brand-batteries', 'Batteries by make: Toyota.'],
+    ['motors-oil-grades', 'Engine oil grades.'],
+  ] },
+  { id: 'motors-headers', title: 'Motors: header states while scrolling', steps: [
+    ['motors', 'The Motors header at the top of the landing page.'],
+    ['motors-scrolled', 'After scrolling, the header stays on screen.'],
+    ['motors-model', 'On a car page (mobile: a back button and the car name).'],
+    ['motors-model-scrolled', 'A car page after scrolling.'],
+    ['motors-compare-result-scrolled', 'A comparison after scrolling.'],
   ] },
   { id: 'motors', title: 'Motors: find a used car', steps: [
     ['motors', 'The Motors landing page.'],

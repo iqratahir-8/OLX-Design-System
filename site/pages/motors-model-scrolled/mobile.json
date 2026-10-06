@@ -1,0 +1,361 @@
+{
+ "id": "motors-model-scrolled",
+ "title": "Honda Civic, scrolled (sticky section tabs)",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/motors/new-cars/honda/civic/",
+ "finalUrl": "https://www.olx.com.pk/motors/new-cars/honda/civic/",
+ "width": 390,
+ "height": 664,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": true,
+ "captured": "2026-10-06T08:55:43.392Z",
+ "sections": [
+  {
+   "file": "01-header-scrolled",
+   "name": "Header (scrolled)",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 64
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 236,
+   "y": -985,
+   "width": 138,
+   "height": 15,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-honda-civic",
+   "label": "View Honda Civic for Sale"
+  },
+  {
+   "x": 16,
+   "y": -470,
+   "width": 358,
+   "height": 106,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/standard/",
+   "label": "Honda Civic Standard 1498 Automatic Petrol 12 - 14 Km/Liter Rs 83.29 LacsCompare"
+  },
+  {
+   "x": 16,
+   "y": -359,
+   "width": 358,
+   "height": 107,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/oriel/",
+   "label": "Honda Civic Oriel 1498 Automatic Petrol 12 - 14 Km/Liter Rs 86.59 LacsCompare"
+  },
+  {
+   "x": 16,
+   "y": -247,
+   "width": 358,
+   "height": 106,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/rs/",
+   "label": "Honda Civic RS 1498 Automatic Petrol 12 - 14 Km/Liter Rs 98.99 LacsCompare"
+  },
+  {
+   "x": 16,
+   "y": -118,
+   "width": 203,
+   "height": 39,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/2027/",
+   "label": "Honda Civic 2027 Price"
+  },
+  {
+   "x": 29,
+   "y": 553,
+   "width": 120,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/write-a-review/",
+   "label": "Write a Review"
+  },
+  {
+   "x": 29,
+   "y": 541,
+   "width": 120,
+   "height": 44,
+   "kind": "button",
+   "label": "Write a Review"
+  },
+  {
+   "x": 281,
+   "y": 653,
+   "width": 93,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/honda/civic/",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 281,
+   "y": 655,
+   "width": 93,
+   "height": 16,
+   "kind": "button",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 154,
+   "y": 1112,
+   "width": 82,
+   "height": 17,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 16,
+   "y": 1191,
+   "width": 358,
+   "height": 166,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/honda/civic/84/?version=50,11",
+   "label": "Good by OLX User for Honda Civic 1.5 VTEC Turbo Oriel 2016 on Feb 5, 20234.3/5Go"
+  },
+  {
+   "x": 16,
+   "y": 1410,
+   "width": 358,
+   "height": 152,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/honda/civic/72/?version=2948,459",
+   "label": "Honda Civic 2022by User name for Honda Civic Oriel 2022 on Jan 26, 20234.1/5Hond"
+  },
+  {
+   "x": 16,
+   "y": 1614,
+   "width": 358,
+   "height": 167,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/honda/civic/32/?version=50,11",
+   "label": "Amazing carby User name for Honda Civic 1.5 VTEC Turbo Oriel 2021 on Nov 14, 202"
+  },
+  {
+   "x": 148,
+   "y": 1792,
+   "width": 94,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/honda/civic/",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 148,
+   "y": 1794,
+   "width": 94,
+   "height": 15,
+   "kind": "button",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 16,
+   "y": 1890,
+   "width": 233,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/",
+   "label": "Rs 75.49 LacsToyota Corolla1298 – 1800 cc Manual Petrol"
+  },
+  {
+   "x": 262,
+   "y": 1890,
+   "width": 234,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/yaris/",
+   "label": "Rs 44.79 – 64.69 LacsToyota Yaris1329 – 1496 cc Manual Petrol"
+  },
+  {
+   "x": 509,
+   "y": 1890,
+   "width": 233,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/city/",
+   "label": "Rs 46.49 – 56.49 LacsHonda City1199 – 1497 cc Automatic Petrol"
+  },
+  {
+   "x": 350,
+   "y": 2161,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 2218,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 2282,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 2352,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 2424,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 76,
+   "y": 2424,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 141,
+   "y": 2424,
+   "width": 51,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 220,
+   "y": 2424,
+   "width": 35,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/",
+   "label": "Honda"
+  },
+  {
+   "x": 16,
+   "y": 2520,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Lahore"
+  },
+  {
+   "x": 201,
+   "y": 2520,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Karachi"
+  },
+  {
+   "x": 16,
+   "y": 2549,
+   "width": 173,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Rawalpindi"
+  },
+  {
+   "x": 201,
+   "y": 2549,
+   "width": 173,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Islamabad"
+  },
+  {
+   "x": 16,
+   "y": 2577,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Faisalabad"
+  },
+  {
+   "x": 201,
+   "y": 2577,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Gujranwala"
+  },
+  {
+   "x": 16,
+   "y": 2594,
+   "width": 59,
+   "height": 26,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 16,
+   "y": 2775,
+   "width": 358,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 2845,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 2845,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 2845,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 2845,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

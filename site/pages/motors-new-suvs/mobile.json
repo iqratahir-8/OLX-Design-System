@@ -1,0 +1,369 @@
+{
+ "id": "motors-new-suvs",
+ "title": "Motors: New SUVs",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=suv",
+ "finalUrl": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=suv",
+ "width": 390,
+ "height": 1834,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:50:43.041Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 64
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 80,
+    "width": 390,
+    "height": 43
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "03-haval-jolion-hev",
+   "name": "Haval Jolion HEV",
+   "rect": {
+    "x": 16,
+    "y": 153,
+    "width": 358,
+    "height": 1111
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "04-1-2-3",
+   "name": "1 · 2 · 3",
+   "rect": {
+    "x": 16,
+    "y": 1263,
+    "width": 358,
+    "height": 90
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "05-popular-used-cars",
+   "name": "Popular Used Cars",
+   "rect": {
+    "x": 16,
+    "y": 1403,
+    "width": 358,
+    "height": 134
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(6)"
+  },
+  {
+   "file": "06-get-the-olx-app",
+   "name": "Get the OLX App",
+   "rect": {
+    "x": 0,
+    "y": 1568,
+    "width": 390,
+    "height": 266
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 14,
+   "y": 80,
+   "width": 77,
+   "height": 32,
+   "kind": "button",
+   "label": "Filters"
+  },
+  {
+   "x": 16,
+   "y": 153,
+   "width": 358,
+   "height": 112,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/haval/jolion/hev/",
+   "label": "Haval Jolion HEV 1497 cc Automatic 22 – 19.99 Km/Liter Rs 91.16 Lacs"
+  },
+  {
+   "x": 16,
+   "y": 264,
+   "width": 358,
+   "height": 112,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/suzuki/jimny/ga/",
+   "label": "Suzuki Jimny GA 1462 cc Manual 14 – 16 Km/Liter Rs 60.49 Lacs"
+  },
+  {
+   "x": 16,
+   "y": 375,
+   "width": 358,
+   "height": 112,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/fortuner/legender/",
+   "label": "Toyota Fortuner Legender 2755 cc Automatic 8 – 9 Km/Liter Rs 1.90 Crores"
+  },
+  {
+   "x": 16,
+   "y": 486,
+   "width": 358,
+   "height": 112,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/haval/h6/hev/",
+   "label": "Haval H6 HEV 1499 cc Automatic 20 – 22 Km/Liter Rs 1.15 Crores"
+  },
+  {
+   "x": 16,
+   "y": 597,
+   "width": 358,
+   "height": 112,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/fortuner/gr-s/",
+   "label": "Toyota Fortuner GR-S 2755 cc Automatic 9 – 11 Km/Liter Rs 1.99 Crores"
+  },
+  {
+   "x": 16,
+   "y": 708,
+   "width": 358,
+   "height": 112,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/haval/h6/2.0t",
+   "label": "Haval H6 2.0T AWD 1998 cc Automatic 9 – 11 Km/Liter Rs 1.02 Crores"
+  },
+  {
+   "x": 16,
+   "y": 819,
+   "width": 358,
+   "height": 112,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla-cross/1.8-hev",
+   "label": "Toyota Corolla Cross 1.8HEV 1798 cc CVT 18 – 20 Km/Liter Rs 98.49 Lacs"
+  },
+  {
+   "x": 16,
+   "y": 930,
+   "width": 358,
+   "height": 112,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla-cross/1-8x-1/",
+   "label": "Toyota Corolla Cross 1.8x 1798 cc CVT Rs 79.35 Lacs"
+  },
+  {
+   "x": 16,
+   "y": 1041,
+   "width": 358,
+   "height": 112,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla-cross/1-8x-hev/",
+   "label": "Toyota Corolla Cross 1.8x HEV 1798 cc CVT 20 – 15 Km/Liter Rs 1.03 Crores"
+  },
+  {
+   "x": 16,
+   "y": 1152,
+   "width": 358,
+   "height": 112,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/rush/g-a-t/",
+   "label": "Toyota Rush G A/T 1496 cc Automatic 9 – 11 Km/Liter Rs 88.20 Lacs"
+  },
+  {
+   "x": 111,
+   "y": 1295,
+   "width": 32,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/null",
+   "label": "Previous page"
+  },
+  {
+   "x": 144,
+   "y": 1295,
+   "width": 22,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=suv&page=1",
+   "label": "Page 1 is your current page"
+  },
+  {
+   "x": 167,
+   "y": 1295,
+   "width": 26,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=suv&page=2",
+   "label": "Page 2"
+  },
+  {
+   "x": 193,
+   "y": 1295,
+   "width": 26,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=suv&page=3",
+   "label": "Page 3"
+  },
+  {
+   "x": 220,
+   "y": 1295,
+   "width": 26,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=suv&page=4",
+   "label": "Page 4"
+  },
+  {
+   "x": 247,
+   "y": 1295,
+   "width": 32,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=suv&page=2",
+   "label": "Next page"
+  },
+  {
+   "x": 16,
+   "y": 1352,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 76,
+   "y": 1352,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 141,
+   "y": 1352,
+   "width": 51,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 16,
+   "y": 1437,
+   "width": 173,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/lahore_g4060673/",
+   "label": "Find Cars Lahore"
+  },
+  {
+   "x": 201,
+   "y": 1437,
+   "width": 173,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/karachi_g4060695/",
+   "label": "Find Cars Karachi"
+  },
+  {
+   "x": 16,
+   "y": 1465,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/rawalpindi_g4060681/",
+   "label": "Find Cars Rawalpindi"
+  },
+  {
+   "x": 201,
+   "y": 1465,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/islamabad_g4060615/",
+   "label": "Find Cars Islamabad"
+  },
+  {
+   "x": 16,
+   "y": 1494,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/faisalabad_g4060660/",
+   "label": "Find Cars Faisalabad"
+  },
+  {
+   "x": 201,
+   "y": 1494,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/gujranwala_g4060662/",
+   "label": "Find Cars Gujranwala"
+  },
+  {
+   "x": 16,
+   "y": 1511,
+   "width": 59,
+   "height": 26,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 16,
+   "y": 1684,
+   "width": 358,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 1754,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 1754,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 1754,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 1754,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

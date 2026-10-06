@@ -1,0 +1,606 @@
+{
+ "id": "motors-compare-result-scrolled",
+ "title": "Comparison, scrolled (sticky car header)",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/",
+ "finalUrl": "https://www.olx.com.pk/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/",
+ "width": 1440,
+ "height": 900,
+ "dpr": 1,
+ "overlay": false,
+ "scrolled": true,
+ "captured": "2026-10-06T08:55:49.095Z",
+ "sections": [
+  {
+   "file": "01-header-scrolled",
+   "name": "Header (scrolled)",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 111
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 159,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 300,
+   "y": 24,
+   "width": 191,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1256,
+   "y": 12,
+   "width": 104,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/post/",
+   "label": "Sell"
+  },
+  {
+   "x": 80,
+   "y": 78,
+   "width": 63,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Used Cars"
+  },
+  {
+   "x": 185,
+   "y": 78,
+   "width": 60,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 287,
+   "y": 78,
+   "width": 101,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/",
+   "label": "Car Comparison"
+  },
+  {
+   "x": 430,
+   "y": 78,
+   "width": 77,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/",
+   "label": "Car Reviews"
+  },
+  {
+   "x": 549,
+   "y": 78,
+   "width": 72,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/",
+   "label": "Car Finance"
+  },
+  {
+   "x": 663,
+   "y": 78,
+   "width": 91,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-inspection/",
+   "label": "Car Inspection"
+  },
+  {
+   "x": 796,
+   "y": 78,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/",
+   "label": "Car Insurance"
+  },
+  {
+   "x": 80,
+   "y": -1279,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 140,
+   "y": -1279,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 205,
+   "y": -1279,
+   "width": 51,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 284,
+   "y": -1279,
+   "width": 85,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/",
+   "label": "Car Comparison"
+  },
+  {
+   "x": 282,
+   "y": -980,
+   "width": 305,
+   "height": 49,
+   "kind": "input",
+   "label": "Search by Car Variant"
+  },
+  {
+   "x": 648,
+   "y": -980,
+   "width": 305,
+   "height": 49,
+   "kind": "input",
+   "label": "Search by Car Variant"
+  },
+  {
+   "x": 1014,
+   "y": -980,
+   "width": 305,
+   "height": 49,
+   "kind": "input",
+   "label": "Search by Car Variant"
+  },
+  {
+   "x": 674,
+   "y": 279,
+   "width": 92,
+   "height": 20,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 674,
+   "y": 1330,
+   "width": 92,
+   "height": 20,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 674,
+   "y": 3337,
+   "width": 92,
+   "height": 20,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 674,
+   "y": 6938,
+   "width": 92,
+   "height": 20,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 239,
+   "y": 7212,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/jaecoo-j7-vs-hyundai-tucson/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 706,
+   "y": 7212,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/kia-stonic-vs-kia-sportage/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 1173,
+   "y": 7212,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/honda-vezel-vs-kia-sportage/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 1640,
+   "y": 7212,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/sportage-vs-tucson/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 2107,
+   "y": 7212,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/sportage-vs-sorento/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 2574,
+   "y": 7212,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/sportage-vs-peugeot/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 3041,
+   "y": 7212,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/sportage-vs-vezel/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 3509,
+   "y": 7212,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/sportage-vs-stonic/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 3976,
+   "y": 7212,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/sportage-vs-x70/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 80,
+   "y": 7323,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Lahore"
+  },
+  {
+   "x": 295,
+   "y": 7323,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Karachi"
+  },
+  {
+   "x": 510,
+   "y": 7323,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Rawalpindi"
+  },
+  {
+   "x": 725,
+   "y": 7323,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Islamabad"
+  },
+  {
+   "x": 941,
+   "y": 7323,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Faisalabad"
+  },
+  {
+   "x": 1156,
+   "y": 7323,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Gujranwala"
+  },
+  {
+   "x": 80,
+   "y": 7354,
+   "width": 204,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84/q-KIA-Sportage",
+   "label": "Kia Sportage in Lahore"
+  },
+  {
+   "x": 295,
+   "y": 7354,
+   "width": 204,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84/q-KIA-Sportage",
+   "label": "Kia Sportage in Karachi"
+  },
+  {
+   "x": 510,
+   "y": 7354,
+   "width": 204,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84/q-KIA-Sportage",
+   "label": "Kia Sportage in Rawalpindi"
+  },
+  {
+   "x": 725,
+   "y": 7354,
+   "width": 205,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84/q-KIA-Sportage",
+   "label": "Kia Sportage in Islamabad"
+  },
+  {
+   "x": 941,
+   "y": 7354,
+   "width": 204,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/cars_c84/q-KIA-Sportage",
+   "label": "Kia Sportage in Faisalabad"
+  },
+  {
+   "x": 1156,
+   "y": 7354,
+   "width": 204,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/cars_c84/q-KIA-Sportage",
+   "label": "Kia Sportage in Gujranwala"
+  },
+  {
+   "x": 960,
+   "y": 7538,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 1096,
+   "y": 7538,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 1232,
+   "y": 7538,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://appgallery.huawei.com/app/C104375435",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 7732,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 7764,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 7796,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 7828,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4/",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 7732,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81/",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 7764,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970/",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 7796,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-books/",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 7828,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-dogs/",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 7732,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 7764,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/requests/new",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 7796,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 7732,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 7764,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 7796,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 7828,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 7732,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 7732,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 7732,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 7732,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

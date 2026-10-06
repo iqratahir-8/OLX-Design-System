@@ -11,6 +11,15 @@ const STATES = [
   ['mobile-header', 'mobile', 'On an ad, scrolled', 'ad-scrolled', 'Header (scrolled)'],
   ['mobile-header', 'mobile', 'On a listing page', 'sub-mobile-phones', 'Header'],
   ['header', 'desktop', 'On an ad, scrolled', 'ad-scrolled', 'Sticky ad info header'],
+  // Motors has its own header (Used Cars, New Cars, ... More) on every Motors page.
+  ['motors-header', 'desktop', 'Default', 'motors', 'Header'],
+  ['motors-header', 'desktop', 'Scrolled (sticky)', 'motors-scrolled', 'Header (scrolled)'],
+  ['motors-header', 'desktop', 'On a car page, scrolled', 'motors-model-scrolled', 'Header (scrolled)'],
+  ['motors-mobile-header', 'mobile', 'Motors landing page', 'motors', 'Header'],
+  ['motors-mobile-header', 'mobile', 'Landing page, scrolled', 'motors-scrolled', 'Header (scrolled)'],
+  ['motors-mobile-header', 'mobile', 'On a car page', 'motors-model', 'Header'],
+  ['motors-mobile-header', 'mobile', 'On a car page, scrolled', 'motors-model-scrolled', 'Header (scrolled)'],
+  ['motors-mobile-header', 'mobile', 'On a comparison, scrolled', 'motors-compare-result-scrolled', 'Header (scrolled)'],
 ];
 // Label for the state each component already has from snapshot-live.
 const DEFAULT_STATE = { 'mobile-header': 'At the top', header: 'Default' };

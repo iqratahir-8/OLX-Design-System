@@ -26,6 +26,7 @@ audit/maple-snapshots/    Captures from the local maple repo
 audit/comparisons/        Live vs maple diff notes
 scripts/snapshot-live.mjs Captures templates/ and components/ from olx.com.pk
 scripts/capture-site.mjs  Captures the whole site into site/: pages, interaction states, sections, hotspots
+scripts/import-motors.mjs  Imports Motors pages saved by the design kit (local-build branch) into site/
 scripts/capture-logged-in.mjs  Run locally: you log in, then capture logged-in screens into site/
 scripts/build-prototype.mjs  Wires captured links/buttons to captured screens -> prototype/data.json
 scripts/lib/capture-lib.mjs  Shared capture code (clean-up, redaction, CSS inlining, layout, cropping)
@@ -102,6 +103,19 @@ The book lists every captured component and page template. Each component can be
 
 To publish the book as one page, `npm run build:publish` writes a flat copy to `dist/book/` (git-ignored): the book at the root, the prototype in `proto/`, and section HTML packed into a few JSON bundles in `site/sections/` so the copy stays within the publisher's file limits.
 
+### GitHub Pages
+
+Every push to `main` deploys the book and the Storybook to https://iqratahir-8.github.io/OLX-Design-System/ (`.github/workflows/pages.yml`):
+
+| URL | What |
+| --- | --- |
+| `/` | Design system book |
+| `/proto/` | Clickable prototype |
+| `/storybook/` | Storybook (`storybook/`): components, 48 captured pages, 8 flows |
+| `/showcase/` | Component showcase (`index.html`) |
+
+The build needs no browser and never contacts olx.com.pk: it runs `build-prototype`, `build-publish` (with `BOOK_STORYBOOK_URL=storybook/`, so the book links to the Storybook beside it) and `storybook build`. Refresh captures locally and commit them, and the next push republishes. Licensed fonts are not in git, so the published copy uses fallback fonts; listing photos and some icons load from OLX's own servers. One-time setup: in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**. To redeploy without a push, run the workflow from the **Actions** tab.
+
 To refresh the captures from the live site:
 
 ```sh
@@ -110,6 +124,19 @@ npm run snapshot -- ad-detail   # one page
 ```
 
 Scripts, ad slots and iframes are removed, links are made inert, and personal data (seller names and photos, phone numbers in ad text) is redacted. Listing photos load from images.olx.com.pk.
+
+## Storybook and design kit (`storybook/`)
+
+`storybook/` is the design kit built on the Mac and imported from the `local-build` branch: tokens and `olx-*` CSS components, React wrappers, and 48 captured pages (Classifieds 9, Property 10, Motors 29) on desktop and mobile with 8 flows, plus the raw Motors server HTML in `storybook/motors-html/`. See `storybook/MERGE.md`.
+
+```sh
+cd storybook
+npm install
+npm run localize   # once: downloads the fonts (not in git, they are licensed)
+npm run dev        # Storybook on http://localhost:6006
+```
+
+Seller phone numbers in captured ad titles and links were replaced with 03XX-XXXXXXX on import.
 
 ## Icons, illustrations and assets
 
@@ -136,6 +163,16 @@ npm run prototype        # wire hotspots, then open http://localhost:6006/protot
 The prototype shows every captured screen (desktop and mobile). Links and buttons are hotspots in the positions they were captured from and lead to the screen a user would reach: categories, ads, search, location, sort and filter sheets, and the login modal that guards selling, chat and favourites. **Flows** in the sidebar walk through the main journeys step by step and highlight the control to use next. **Sections** lists each screen's sections; **HTML** opens a section rendered live with its markup and a copy button. **Live HTML** in the toolbar renders the captured HTML and CSS instead of the screenshot (scrolled states stay screenshots).
 
 What is captured: home, Motors and Property landing pages, all 14 categories, subcategories with their own layout, one ad per category (plus cars, houses and online jobs), search results and no results, sorting, a city and a city+category page, the sitemap, and interaction states (login options and steps, sign up, All categories menu, location menu, search suggestions, sort menu, and on mobile the location prompt, filter, brand and price sheets).
+
+**Motors** (29 pages and 3 scrolled-header states, desktop and mobile) is imported from the design kit on the `local-build` branch, because the Motors CDNs are not reachable from every machine:
+
+```sh
+git worktree add ../olx-local-build origin/local-build
+node scripts/import-motors.mjs ../olx-local-build/design-kit/templates
+npm run prototype
+```
+
+Each saved page is loaded at its live URL with the kit's saved CSS, fonts and icons served at their original CDN addresses, then captured like every other page (screenshots, sections, hotspots, redaction, including reviewer names). Car photos and banners the kit did not save are blank in the screenshots and load from the CDN in Live HTML. The saved pages have no scripts, so menus, dialogs, calculators and form errors on Motors pages are not captured; with network access to `*.olx.com.pk`, `npm run capture:site -- motors-compare` captures any of them live instead.
 
 Crawling follows robots.txt, so nothing under `/post/`, `/chat/`, `/profile/` or `/account` is visited. To add logged-in screens, run this on your own computer:
 

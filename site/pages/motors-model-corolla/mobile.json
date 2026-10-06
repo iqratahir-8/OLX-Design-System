@@ -1,0 +1,624 @@
+{
+ "id": "motors-model-corolla",
+ "title": "Motors: Toyota Corolla",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/",
+ "finalUrl": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/",
+ "width": 390,
+ "height": 5600,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:52:01.786Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 64
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-price-range",
+   "name": "Price Range",
+   "rect": {
+    "x": 0,
+    "y": 76,
+    "width": 390,
+    "height": 785
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "03-toyota-corolla-1-6l-altis-x-mt",
+   "name": "Toyota Corolla 1.6L Altis X MT",
+   "rect": {
+    "x": 16,
+    "y": 915,
+    "width": 358,
+    "height": 2304
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "04-toyota-corolla-2027-price",
+   "name": "Toyota Corolla 2027 Price",
+   "rect": {
+    "x": 16,
+    "y": 3242,
+    "width": 217,
+    "height": 39
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "05-consumer-reviews",
+   "name": "Consumer Reviews",
+   "rect": {
+    "x": 0,
+    "y": 3304,
+    "width": 390,
+    "height": 1228
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "06-other-recommended-cars",
+   "name": "Other Recommended Cars",
+   "rect": {
+    "x": 16,
+    "y": 4555,
+    "width": 358,
+    "height": 232
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(5)"
+  },
+  {
+   "file": "07-toyota-corolla-2026-faqs",
+   "name": "Toyota Corolla 2026 FAQs",
+   "rect": {
+    "x": 16,
+    "y": 4810,
+    "width": 358,
+    "height": 232
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(6)"
+  },
+  {
+   "file": "08-home-motors-new-cars",
+   "name": "Home · Motors · New Cars",
+   "rect": {
+    "x": 16,
+    "y": 5065,
+    "width": 358,
+    "height": 39
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(7)"
+  },
+  {
+   "file": "09-find-new-and-used-toyota-corolla-cars-by",
+   "name": "Find New & Used Toyota Corolla Cars By C",
+   "rect": {
+    "x": 16,
+    "y": 5127,
+    "width": 358,
+    "height": 168
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(8)"
+  },
+  {
+   "file": "10-get-the-olx-app",
+   "name": "Get the OLX App",
+   "rect": {
+    "x": 0,
+    "y": 5334,
+    "width": 390,
+    "height": 266
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 224,
+   "y": 415,
+   "width": 150,
+   "height": 15,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-toyota-corolla",
+   "label": "View Toyota Corolla for Sale"
+  },
+  {
+   "x": 16,
+   "y": 915,
+   "width": 358,
+   "height": 107,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/1.6l-altis-x-mt",
+   "label": "Toyota Corolla 1.6L Altis X MT 1598 Manual Petrol 12 - 15 Km/Liter Rs 59.69 Lacs"
+  },
+  {
+   "x": 16,
+   "y": 1027,
+   "width": 358,
+   "height": 106,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-cvt-1-6/",
+   "label": "Toyota Corolla Altis CVT 1.6 1598 Automatic Petrol - Rs 65.59 LacsCompare"
+  },
+  {
+   "x": 16,
+   "y": 1138,
+   "width": 358,
+   "height": 107,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/1.8l-altis-x-cvti",
+   "label": "Toyota Corolla 1.8L Altis X CVTi 1798 Automatic Petrol 10 - 13 Km/Liter Rs 68.89"
+  },
+  {
+   "x": 16,
+   "y": 1250,
+   "width": 358,
+   "height": 106,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-cvt-1-6-special-edition/",
+   "label": "Toyota Corolla Altis CVT 1.6 Special Edition 1598 Automatic Petrol - Rs 71.89 La"
+  },
+  {
+   "x": 16,
+   "y": 1361,
+   "width": 358,
+   "height": 107,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/1.6l-altis-x-at-special-edition",
+   "label": "Toyota Corolla 1.6L Altis X AT (Special Edition) 1598 Automatic Petrol 12 - 15 K"
+  },
+  {
+   "x": 16,
+   "y": 1473,
+   "width": 358,
+   "height": 106,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/1.8l-altis-grande-x-cvti",
+   "label": "Toyota Corolla 1.8L Altis Grande X CVTi 1800 Automatic Petrol 10 - 13 Km/Liter R"
+  },
+  {
+   "x": 16,
+   "y": 1584,
+   "width": 358,
+   "height": 105,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-manual-1-6/",
+   "label": "Toyota Corolla Altis Manual 1.6 1598 Manual Petrol 12 - 16 Km/Liter Price Coming"
+  },
+  {
+   "x": 16,
+   "y": 1694,
+   "width": 358,
+   "height": 104,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-grande-x-cvt-i-1-8-black-interior/",
+   "label": "Toyota Corolla Altis Grande X CVT-i 1.8 Black Interior 1800 Automatic Petrol 12 "
+  },
+  {
+   "x": 16,
+   "y": 1803,
+   "width": 358,
+   "height": 104,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-x-manual-1-6/",
+   "label": "Toyota Corolla Altis X Manual 1.6 1600 Manual Petrol 12 - 14 Km/Liter Price Comi"
+  },
+  {
+   "x": 16,
+   "y": 1912,
+   "width": 358,
+   "height": 104,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-x-cvt-i-1-8/",
+   "label": "Toyota Corolla Altis X CVT-i 1.8 1800 Automatic Petrol 12 - 14 Km/Liter Price Co"
+  },
+  {
+   "x": 16,
+   "y": 2021,
+   "width": 358,
+   "height": 104,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-x-automatic-1-6/",
+   "label": "Toyota Corolla Altis X Automatic 1.6 1600 Automatic Petrol 12 - 14 Km/Liter Pric"
+  },
+  {
+   "x": 16,
+   "y": 2130,
+   "width": 358,
+   "height": 105,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/xli-vvti/",
+   "label": "Toyota Corolla XLi VVTi 1299 Manual Petrol 12 - 16 Km/Liter Price Coming SoonCom"
+  },
+  {
+   "x": 16,
+   "y": 2240,
+   "width": 358,
+   "height": 104,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/xli-automatic/",
+   "label": "Toyota Corolla XLi Automatic 1299 Automatic Petrol 12 - 16 Km/Liter Price Coming"
+  },
+  {
+   "x": 16,
+   "y": 2349,
+   "width": 358,
+   "height": 104,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/gli-1-3-vvti-special-edition/",
+   "label": "Toyota Corolla GLi 1.3 VVTi Special Edition 1298 Manual Petrol 12 - 16 Km/Liter "
+  },
+  {
+   "x": 16,
+   "y": 2458,
+   "width": 358,
+   "height": 104,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/gli-1-3-vvti/",
+   "label": "Toyota Corolla GLi 1.3 VVTi 1299 Manual Petrol - Price Coming SoonCompare"
+  },
+  {
+   "x": 16,
+   "y": 2567,
+   "width": 358,
+   "height": 104,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-cvt-i-1-8/",
+   "label": "Toyota Corolla Altis CVT-i 1.8 1798 Automatic Petrol 8 - 12 Km/Liter Price Comin"
+  },
+  {
+   "x": 16,
+   "y": 2676,
+   "width": 358,
+   "height": 104,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-automatic-1-6/",
+   "label": "Toyota Corolla Altis Automatic 1.6 1598 Automatic Petrol 12 - 16 Km/Liter Price "
+  },
+  {
+   "x": 16,
+   "y": 2785,
+   "width": 358,
+   "height": 105,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-1-8/",
+   "label": "Toyota Corolla Altis 1.8 1798 Manual Petrol 9 - 13 Km/Liter Price Coming SoonCom"
+  },
+  {
+   "x": 16,
+   "y": 2895,
+   "width": 358,
+   "height": 104,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-grande-1-8/",
+   "label": "Toyota Corolla Altis Grande 1.8 1798 Manual Petrol - Price Coming SoonCompare"
+  },
+  {
+   "x": 16,
+   "y": 3004,
+   "width": 358,
+   "height": 104,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/gli-automatic-1-3-vvti/",
+   "label": "Toyota Corolla GLi Automatic 1.3 VVTi 1299 Automatic Petrol 12 - 16 Km/Liter Pri"
+  },
+  {
+   "x": 16,
+   "y": 3113,
+   "width": 358,
+   "height": 106,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-x-1-6-cvt-i/",
+   "label": "Toyota Corolla Altis X 1.6 CVT-i 1598 Automatic Petrol 12 - 15 Km/Liter Rs 65.59"
+  },
+  {
+   "x": 16,
+   "y": 3242,
+   "width": 217,
+   "height": 39,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/2027/",
+   "label": "Toyota Corolla 2027 Price"
+  },
+  {
+   "x": 281,
+   "y": 3337,
+   "width": 93,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 281,
+   "y": 3339,
+   "width": 93,
+   "height": 15,
+   "kind": "button",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 154,
+   "y": 3796,
+   "width": 82,
+   "height": 17,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 16,
+   "y": 3874,
+   "width": 358,
+   "height": 167,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/71/",
+   "label": "Performance is very goodby User name for Toyota Corolla 1.8L Altis Grande X CVTi"
+  },
+  {
+   "x": 16,
+   "y": 4093,
+   "width": 358,
+   "height": 167,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/42/?version=2956,30",
+   "label": "Corolla is always a go to carby User name for Toyota Corolla 1.8L Altis X MT 202"
+  },
+  {
+   "x": 16,
+   "y": 4313,
+   "width": 358,
+   "height": 166,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/41/?version=2958,30",
+   "label": "Nice and funtasticby OLX User for Toyota Corolla 1.8L Altis Grande X CVTi 2022 o"
+  },
+  {
+   "x": 148,
+   "y": 4490,
+   "width": 94,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 148,
+   "y": 4492,
+   "width": 94,
+   "height": 15,
+   "kind": "button",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 16,
+   "y": 4588,
+   "width": 233,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/",
+   "label": "Rs 83.29 – 98.99 LacsHonda Civic1498 cc Automatic Petrol"
+  },
+  {
+   "x": 262,
+   "y": 4588,
+   "width": 234,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/yaris/",
+   "label": "Rs 44.79 – 64.69 LacsToyota Yaris1329 – 1496 cc CVT Petrol"
+  },
+  {
+   "x": 509,
+   "y": 4588,
+   "width": 233,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/city/",
+   "label": "Rs 46.49 – 60.89 LacsHonda City1199 – 1497 cc Automatic Petrol"
+  },
+  {
+   "x": 755,
+   "y": 4588,
+   "width": 234,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/hyundai/elantra/",
+   "label": "Rs 63.99 – 97 LacsHyundai Elantra1580 – 1999 cc Automatic Hybrid"
+  },
+  {
+   "x": 1002,
+   "y": 4588,
+   "width": 234,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/hyundai/sonata/",
+   "label": "Rs 1.02 – 1.65 CroresHyundai Sonata1999 – 2497 cc Automatic Petrol"
+  },
+  {
+   "x": 1249,
+   "y": 4588,
+   "width": 233,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/changan/alsvin/",
+   "label": "Rs 37.99 – 45.49 LacsChangan Alsvin1370 – 1480 cc Manual Petrol"
+  },
+  {
+   "x": 350,
+   "y": 4859,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 4923,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 4993,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 5065,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 76,
+   "y": 5065,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 141,
+   "y": 5065,
+   "width": 51,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 220,
+   "y": 5065,
+   "width": 35,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/",
+   "label": "Toyota"
+  },
+  {
+   "x": 16,
+   "y": 5161,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Lahore"
+  },
+  {
+   "x": 201,
+   "y": 5161,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Karachi"
+  },
+  {
+   "x": 16,
+   "y": 5190,
+   "width": 173,
+   "height": 34,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Rawalpindi"
+  },
+  {
+   "x": 201,
+   "y": 5190,
+   "width": 173,
+   "height": 34,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Islamabad"
+  },
+  {
+   "x": 16,
+   "y": 5235,
+   "width": 173,
+   "height": 35,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Faisalabad"
+  },
+  {
+   "x": 201,
+   "y": 5235,
+   "width": 173,
+   "height": 35,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Gujranwala"
+  },
+  {
+   "x": 16,
+   "y": 5269,
+   "width": 59,
+   "height": 26,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 16,
+   "y": 5450,
+   "width": 358,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 5520,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 5520,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 5520,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 5520,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

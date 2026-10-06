@@ -609,6 +609,174 @@
       }
     },
     {
+      "name": "motors-header",
+      "page": "motors",
+      "viewport": "desktop",
+      "state": "Default",
+      "width": 1440,
+      "height": 111,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 111
+      },
+      "frame": {
+        "html": "site/pages/motors/desktop.html",
+        "width": 1440,
+        "height": 2280
+      },
+      "png": "site/pages/motors/sections/desktop/01-header.png",
+      "markup": "site/pages/motors/sections/desktop/01-header.html"
+    },
+    {
+      "name": "motors-header",
+      "page": "motors-scrolled",
+      "viewport": "desktop",
+      "state": "Scrolled (sticky)",
+      "width": 1440,
+      "height": 111,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 111
+      },
+      "frame": {
+        "html": "site/pages/motors-scrolled/desktop.html",
+        "width": 1440,
+        "height": 900
+      },
+      "png": "site/pages/motors-scrolled/sections/desktop/01-header-scrolled.png",
+      "markup": "site/pages/motors-scrolled/sections/desktop/01-header-scrolled.html"
+    },
+    {
+      "name": "motors-header",
+      "page": "motors-model-scrolled",
+      "viewport": "desktop",
+      "state": "On a car page, scrolled",
+      "width": 1440,
+      "height": 111,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 111
+      },
+      "frame": {
+        "html": "site/pages/motors-model-scrolled/desktop.html",
+        "width": 1440,
+        "height": 900
+      },
+      "png": "site/pages/motors-model-scrolled/sections/desktop/01-header-scrolled.png",
+      "markup": "site/pages/motors-model-scrolled/sections/desktop/01-header-scrolled.html"
+    },
+    {
+      "name": "motors-mobile-header",
+      "page": "motors",
+      "viewport": "mobile",
+      "state": "Motors landing page",
+      "width": 390,
+      "height": 165,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 165
+      },
+      "frame": {
+        "html": "site/pages/motors/mobile.html",
+        "width": 390,
+        "height": 2029
+      },
+      "png": "site/pages/motors/sections/mobile/01-header.png",
+      "markup": "site/pages/motors/sections/mobile/01-header.html"
+    },
+    {
+      "name": "motors-mobile-header",
+      "page": "motors-scrolled",
+      "viewport": "mobile",
+      "state": "Landing page, scrolled",
+      "width": 390,
+      "height": 165,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 165
+      },
+      "frame": {
+        "html": "site/pages/motors-scrolled/mobile.html",
+        "width": 390,
+        "height": 664
+      },
+      "png": "site/pages/motors-scrolled/sections/mobile/01-header-scrolled.png",
+      "markup": "site/pages/motors-scrolled/sections/mobile/01-header-scrolled.html"
+    },
+    {
+      "name": "motors-mobile-header",
+      "page": "motors-model",
+      "viewport": "mobile",
+      "state": "On a car page",
+      "width": 390,
+      "height": 64,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 64
+      },
+      "frame": {
+        "html": "site/pages/motors-model/mobile.html",
+        "width": 390,
+        "height": 4326
+      },
+      "png": "site/pages/motors-model/sections/mobile/01-header.png",
+      "markup": "site/pages/motors-model/sections/mobile/01-header.html"
+    },
+    {
+      "name": "motors-mobile-header",
+      "page": "motors-model-scrolled",
+      "viewport": "mobile",
+      "state": "On a car page, scrolled",
+      "width": 390,
+      "height": 64,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 64
+      },
+      "frame": {
+        "html": "site/pages/motors-model-scrolled/mobile.html",
+        "width": 390,
+        "height": 664
+      },
+      "png": "site/pages/motors-model-scrolled/sections/mobile/01-header-scrolled.png",
+      "markup": "site/pages/motors-model-scrolled/sections/mobile/01-header-scrolled.html"
+    },
+    {
+      "name": "motors-mobile-header",
+      "page": "motors-compare-result-scrolled",
+      "viewport": "mobile",
+      "state": "On a comparison, scrolled",
+      "width": 390,
+      "height": 64,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 64
+      },
+      "frame": {
+        "html": "site/pages/motors-compare-result-scrolled/mobile.html",
+        "width": 390,
+        "height": 664
+      },
+      "png": "site/pages/motors-compare-result-scrolled/sections/mobile/01-header-scrolled.png",
+      "markup": "site/pages/motors-compare-result-scrolled/sections/mobile/01-header-scrolled.html"
+    },
+    {
       "name": "page-title",
       "page": "category-listing",
       "viewport": "desktop",

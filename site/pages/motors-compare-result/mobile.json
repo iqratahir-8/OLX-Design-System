@@ -1,0 +1,394 @@
+{
+ "id": "motors-compare-result",
+ "title": "Motors: Jaecoo J7 vs Kia Sportage",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/",
+ "finalUrl": "https://www.olx.com.pk/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/",
+ "width": 390,
+ "height": 7667,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:52:48.300Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 64
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-add-car-1-add-car-2-overview",
+   "name": "Add Car 1 · Add Car 2 · Overview",
+   "rect": {
+    "x": 0,
+    "y": 76,
+    "width": 390,
+    "height": 182
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "03-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 16,
+    "y": 257,
+    "width": 358,
+    "height": 285
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(1)"
+  },
+  {
+   "file": "04-dimensions-overall-length-14-9",
+   "name": "Dimensions · Overall Length · 14′ 9″",
+   "rect": {
+    "x": 0,
+    "y": 588,
+    "width": 390,
+    "height": 568
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "05-engine-and-performance-engine-type-hybri",
+   "name": "Engine & Performance · Engine Type · Hybrid",
+   "rect": {
+    "x": 0,
+    "y": 1166,
+    "width": 390,
+    "height": 851
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "06-suspension-steering-and-brakes-steering-",
+   "name": "Suspension, Steering & Brakes · Steering Type · ",
+   "rect": {
+    "x": 0,
+    "y": 2027,
+    "width": 390,
+    "height": 470
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "07-wheels-and-tyres-wheel-type-alloy-wheels",
+   "name": "Wheels & Tyres · Wheel Type · Alloy Wheels",
+   "rect": {
+    "x": 0,
+    "y": 2507,
+    "width": 390,
+    "height": 328
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(2) > :nth-child(5)"
+  },
+  {
+   "file": "08-fuel-consumptions-fuel-tank-capacity-60-",
+   "name": "Fuel Consumptions · Fuel Tank Capacity · 60 lite",
+   "rect": {
+    "x": 0,
+    "y": 2845,
+    "width": 390,
+    "height": 137
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(2) > :nth-child(6)"
+  },
+  {
+   "file": "09-safety-no-of-airbags-6",
+   "name": "Safety · No of Airbags · 6",
+   "rect": {
+    "x": 0,
+    "y": 2992,
+    "width": 390,
+    "height": 746
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(2) > :nth-child(7)"
+  },
+  {
+   "file": "10-exterior-alloy-wheels-colored-outside-do",
+   "name": "Exterior · Alloy Wheels · Colored Outside Door H",
+   "rect": {
+    "x": 0,
+    "y": 3748,
+    "width": 390,
+    "height": 404
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(2) > :nth-child(8)"
+  },
+  {
+   "file": "11-entertainment-and-communications-tachome",
+   "name": "Entertainment & Communications · Tachometer · US",
+   "rect": {
+    "x": 0,
+    "y": 4162,
+    "width": 390,
+    "height": 387
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(2) > :nth-child(9)"
+  },
+  {
+   "file": "12-comfort-and-convenience-air-conditioning",
+   "name": "Comfort & Convenience · Air Conditioning · Clima",
+   "rect": {
+    "x": 0,
+    "y": 4559,
+    "width": 390,
+    "height": 2096
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3) > :nth-child(2) > :nth-child(10)"
+  },
+  {
+   "file": "13-popular-car-comparisons",
+   "name": "Popular Car Comparisons",
+   "rect": {
+    "x": 16,
+    "y": 6686,
+    "width": 358,
+    "height": 419
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "14-home-motors-new-cars",
+   "name": "Home · Motors · New Cars",
+   "rect": {
+    "x": 16,
+    "y": 7136,
+    "width": 358,
+    "height": 40
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "15-used-jaecoo-j7-and-kia-sportage-cars-by",
+   "name": "Used Jaecoo J7 And Kia Sportage Cars By ",
+   "rect": {
+    "x": 16,
+    "y": 7207,
+    "width": 358,
+    "height": 155
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "16-get-the-olx-app",
+   "name": "Get the OLX App",
+   "rect": {
+    "x": 0,
+    "y": 7401,
+    "width": 390,
+    "height": 266
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 154,
+   "y": 1121,
+   "width": 82,
+   "height": 18,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 154,
+   "y": 1982,
+   "width": 82,
+   "height": 18,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 154,
+   "y": 3703,
+   "width": 82,
+   "height": 18,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 154,
+   "y": 6620,
+   "width": 82,
+   "height": 18,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 130,
+   "y": 6864,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/jaecoo-j7-vs-hyundai-tucson/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 130,
+   "y": 7035,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/kia-stonic-vs-kia-sportage/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 16,
+   "y": 7079,
+   "width": 358,
+   "height": 26,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 16,
+   "y": 7136,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 76,
+   "y": 7136,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 141,
+   "y": 7136,
+   "width": 51,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 220,
+   "y": 7136,
+   "width": 85,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/",
+   "label": "Car Comparison"
+  },
+  {
+   "x": 16,
+   "y": 7262,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Lahore"
+  },
+  {
+   "x": 201,
+   "y": 7262,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Karachi"
+  },
+  {
+   "x": 16,
+   "y": 7291,
+   "width": 173,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Rawalpindi"
+  },
+  {
+   "x": 201,
+   "y": 7291,
+   "width": 173,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Islamabad"
+  },
+  {
+   "x": 16,
+   "y": 7319,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Faisalabad"
+  },
+  {
+   "x": 201,
+   "y": 7319,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/cars_c84/q-Jaecoo-J7",
+   "label": "Jaecoo J7 in Gujranwala"
+  },
+  {
+   "x": 16,
+   "y": 7336,
+   "width": 59,
+   "height": 26,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 16,
+   "y": 7517,
+   "width": 358,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 7587,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 7587,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 7587,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 7587,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

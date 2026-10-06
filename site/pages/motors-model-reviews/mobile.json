@@ -1,0 +1,194 @@
+{
+ "id": "motors-model-reviews",
+ "title": "Motors: Toyota Corolla reviews",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/",
+ "finalUrl": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/",
+ "width": 390,
+ "height": 1715,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:53:04.804Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 64
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-overall-rating-4-0-5-5-reviews",
+   "name": "Overall Rating · 4.0/5 · (5 Reviews)",
+   "rect": {
+    "x": 16,
+    "y": 76,
+    "width": 358,
+    "height": 603
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "03-if-you-own-a-car-leave-a-review-and-let",
+   "name": "If you own a car, leave a review and let",
+   "rect": {
+    "x": 16,
+    "y": 710,
+    "width": 358,
+    "height": 116
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "04-consumer-reviews",
+   "name": "Consumer Reviews",
+   "rect": {
+    "x": 0,
+    "y": 857,
+    "width": 390,
+    "height": 477
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "05-get-the-olx-app",
+   "name": "Get the OLX App",
+   "rect": {
+    "x": 0,
+    "y": 1448,
+    "width": 390,
+    "height": 267
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 275,
+   "y": 300,
+   "width": 99,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-toyota-corolla",
+   "label": "Buy Toyota Corolla"
+  },
+  {
+   "x": 154,
+   "y": 661,
+   "width": 82,
+   "height": 18,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 29,
+   "y": 781,
+   "width": 120,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/write-a-review/",
+   "label": "Write a Review"
+  },
+  {
+   "x": 29,
+   "y": 769,
+   "width": 120,
+   "height": 44,
+   "kind": "button",
+   "label": "Write a Review"
+  },
+  {
+   "x": 16,
+   "y": 927,
+   "width": 358,
+   "height": 41,
+   "kind": "button",
+   "label": "All"
+  },
+  {
+   "x": 124,
+   "y": 1233,
+   "width": 142,
+   "height": 43,
+   "kind": "button",
+   "label": "Write a Review"
+  },
+  {
+   "x": 16,
+   "y": 1357,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 76,
+   "y": 1357,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 141,
+   "y": 1357,
+   "width": 66,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/",
+   "label": "Car Reviews"
+  },
+  {
+   "x": 16,
+   "y": 1565,
+   "width": 358,
+   "height": 32,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 1635,
+   "width": 32,
+   "height": 36,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 1635,
+   "width": 32,
+   "height": 36,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 1635,
+   "width": 32,
+   "height": 36,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 1635,
+   "width": 32,
+   "height": 36,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}
