@@ -1,0 +1,8 @@
+node_modules
+storybook-static
+.DS_Store
+*.log
+
+# Raw captures are 85MB and regenerable with npm run capture:sites; the built
+# templates in design-kit/templates/ are the artefact worth keeping.
+design-kit/raw/

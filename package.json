@@ -1,0 +1,46 @@
+{
+  "name": "olx-design-system",
+  "version": "0.1.0",
+  "description": "Design tokens, CSS components and a Storybook for the OLX Design System.",
+  "type": "module",
+  "main": "dist/tokens.js",
+  "exports": {
+    ".": "./dist/tokens.js",
+    "./tokens.json": "./tokens/tokens.json",
+    "./css/tokens.css": "./css/tokens.css",
+    "./css/base.css": "./css/base.css",
+    "./css/components.css": "./css/components.css",
+    "./css/olx.css": "./css/olx.css"
+  },
+  "files": [
+    "tokens",
+    "css",
+    "dist"
+  ],
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build:tokens": "node scripts/build-tokens.mjs",
+    "build:storybook": "storybook build",
+    "typecheck": "tsc --noEmit",
+    "capture:sites": "node scripts/capture-site.mjs",
+    "capture:motors": "node scripts/pull-motors-html.mjs",
+    "build:templates": "node scripts/build-templates.mjs",
+    "build:stories": "node scripts/build-template-stories.mjs",
+    "build:kit": "node scripts/build-templates.mjs && node scripts/localize-assets.mjs && node scripts/build-template-stories.mjs",
+    "localize": "node scripts/localize-assets.mjs"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/react": "^8.4.7",
+    "@storybook/react-vite": "^8.4.7",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "puppeteer-core": "^23.11.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "storybook": "^8.4.7",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}

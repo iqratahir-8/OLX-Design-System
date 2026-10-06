@@ -1,0 +1,205 @@
+{
+ "classifieds": {
+  "label": "OLX Classifieds",
+  "origin": "https://www.olx.com.pk",
+  "source": "maple (horizontal / olx-pk) \u2014 live olx.com.pk",
+  "pages": [
+   {
+    "name": "home",
+    "label": "Home",
+    "path": "/"
+   },
+   {
+    "name": "category-listing",
+    "label": "Category listing \u2014 Mobile phones",
+    "path": "/mobile-phones_c1453"
+   },
+   {
+    "name": "category-vehicles",
+    "label": "Category listing \u2014 from home nav",
+    "from": "home",
+    "match": "^/(cars|vehicles|motorcycles|bikes)[a-z-]*_c\\d+"
+   },
+   {
+    "name": "search-results",
+    "label": "Search results \u2014 iphone",
+    "path": "/items/q-iphone"
+   },
+   {
+    "name": "ad-detail",
+    "label": "Ad detail",
+    "from": "category-listing",
+    "match": "^/item/.*-iid-\\d+"
+   },
+   {
+    "name": "seller-profile",
+    "label": "Seller profile (public)",
+    "from": "ad-detail",
+    "match": "^/profile/\\d+"
+   },
+   {
+    "name": "post-ad",
+    "label": "Post an ad",
+    "path": "/post/"
+   },
+   {
+    "name": "chat",
+    "label": "Chat / inbox",
+    "path": "/chat/"
+   },
+   {
+    "name": "not-found",
+    "label": "Not found (404)",
+    "path": "/notfound",
+    "expectStatus": 404
+   }
+  ],
+  "flows": [
+   {
+    "name": "Browse and find an ad",
+    "steps": [
+     "home",
+     "category-listing",
+     "search-results",
+     "ad-detail"
+    ]
+   },
+   {
+    "name": "Seller and posting",
+    "steps": [
+     "ad-detail",
+     "seller-profile",
+     "post-ad"
+    ]
+   }
+  ]
+ },
+ "property": {
+  "label": "OLX Property",
+  "origin": "https://www.olx.com.pk",
+  "source": "maple (horizontal / olx-pk) \u2014 live olx.com.pk/properties",
+  "pages": [
+   {
+    "name": "property-hub",
+    "label": "Property hub",
+    "path": "/properties/"
+   },
+   {
+    "name": "property-for-sale",
+    "label": "Listing \u2014 For sale",
+    "path": "/property-for-sale_c2"
+   },
+   {
+    "name": "property-for-rent",
+    "label": "Listing \u2014 For rent",
+    "path": "/property-for-rent_c3"
+   },
+   {
+    "name": "houses",
+    "label": "Listing \u2014 Houses",
+    "path": "/houses_c1721/"
+   },
+   {
+    "name": "apartments",
+    "label": "Listing \u2014 Apartments & flats",
+    "path": "/apartments-flats_c1725/"
+   },
+   {
+    "name": "plots",
+    "label": "Listing \u2014 Commercial plots",
+    "path": "/commercial-plots-land-plots_c40/?filter=type_eq_commercial-plots-sale"
+   },
+   {
+    "name": "shops-offices",
+    "label": "Listing \u2014 Shops & offices",
+    "path": "/shops-offices-commercial-space_c1733/?filter=type_eq_shop-sale"
+   },
+   {
+    "name": "price-filtered",
+    "label": "Listing \u2014 Price filtered",
+    "path": "/property-for-sale_c2?filter=price_max_500000"
+   },
+   {
+    "name": "property-detail-sale",
+    "label": "Property detail \u2014 sale",
+    "from": "property-for-sale",
+    "match": "^/item/.*-iid-\\d+"
+   },
+   {
+    "name": "property-detail-rent",
+    "label": "Property detail \u2014 rent",
+    "from": "property-for-rent",
+    "match": "^/item/.*-iid-\\d+"
+   }
+  ],
+  "flows": [
+   {
+    "name": "Find a property",
+    "steps": [
+     "property-hub",
+     "property-for-sale",
+     "houses",
+     "property-detail-sale"
+    ]
+   },
+   {
+    "name": "Rent a property",
+    "steps": [
+     "property-hub",
+     "property-for-rent",
+     "property-detail-rent"
+    ]
+   }
+  ]
+ },
+ "motors": {
+  "label": "OLX Motors",
+  "origin": "https://www.olx.com.pk",
+  "source": "olx-motors-nextjs \u2014 live olx.com.pk/motors (server-rendered HTML)",
+  "fromDir": "motors-html",
+  "flows": [
+   {
+    "name": "Find and compare new cars",
+    "steps": [
+     "home",
+     "new-cars",
+     "new-cars-listing",
+     "new-cars-model-corolla",
+     "new-cars-variant",
+     "compare",
+     "compare-details"
+    ]
+   },
+   {
+    "name": "Finance and insurance",
+    "steps": [
+     "home",
+     "car-finance",
+     "car-finance-bank",
+     "car-insurance",
+     "car-insurance-partner"
+    ]
+   },
+   {
+    "name": "Tyres, batteries and oil",
+    "steps": [
+     "home",
+     "car-tyres",
+     "car-tyres-generation",
+     "car-batteries",
+     "oil-grades"
+    ]
+   },
+   {
+    "name": "Reviews and services",
+    "steps": [
+     "car-reviews",
+     "car-reviews-corolla",
+     "car-reviews-detail",
+     "car-inspection",
+     "auction-sheet"
+    ]
+   }
+  ]
+ }
+}

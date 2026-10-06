@@ -1,0 +1,606 @@
+{
+  "origin": "https://www.olx.com.pk",
+  "fetchedAt": "2026-10-02T09:28:05.385Z",
+  "pages": [
+    {
+      "name": "home",
+      "device": "desktop",
+      "requested": "/motors/",
+      "final": "/motors/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 342814,
+      "file": "desktop/home.html"
+    },
+    {
+      "name": "home",
+      "device": "mobile",
+      "requested": "/motors/",
+      "final": "/motors/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 284651,
+      "file": "mobile/home.html"
+    },
+    {
+      "name": "new-cars",
+      "device": "desktop",
+      "requested": "/motors/new-cars/",
+      "final": "/motors/new-cars/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 564345,
+      "file": "desktop/new-cars.html"
+    },
+    {
+      "name": "new-cars",
+      "device": "mobile",
+      "requested": "/motors/new-cars/",
+      "final": "/motors/new-cars/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 487381,
+      "file": "mobile/new-cars.html"
+    },
+    {
+      "name": "new-cars-listing",
+      "device": "desktop",
+      "requested": "/motors/new-cars/all-new-cars/?body_type=sedan",
+      "final": "/motors/new-cars/all-new-cars/?body_type=sedan",
+      "status": 200,
+      "redirected": false,
+      "bytes": 274506,
+      "file": "desktop/new-cars-listing.html"
+    },
+    {
+      "name": "new-cars-listing",
+      "device": "mobile",
+      "requested": "/motors/new-cars/all-new-cars/?body_type=sedan",
+      "final": "/motors/new-cars/all-new-cars/?body_type=sedan",
+      "status": 200,
+      "redirected": false,
+      "bytes": 202421,
+      "file": "mobile/new-cars-listing.html"
+    },
+    {
+      "name": "new-cars-listing-suv",
+      "device": "desktop",
+      "requested": "/motors/new-cars/all-new-cars/?body_type=suv",
+      "final": "/motors/new-cars/all-new-cars/?body_type=suv",
+      "status": 200,
+      "redirected": false,
+      "bytes": 273121,
+      "file": "desktop/new-cars-listing-suv.html"
+    },
+    {
+      "name": "new-cars-listing-suv",
+      "device": "mobile",
+      "requested": "/motors/new-cars/all-new-cars/?body_type=suv",
+      "final": "/motors/new-cars/all-new-cars/?body_type=suv",
+      "status": 200,
+      "redirected": false,
+      "bytes": 201560,
+      "file": "mobile/new-cars-listing-suv.html"
+    },
+    {
+      "name": "new-cars-listing-empty",
+      "device": "desktop",
+      "requested": "/motors/new-cars/all-new-cars/?body_type=truck&make=honda&price_range=100000-200000",
+      "final": "/motors/new-cars/all-new-cars/?body_type=truck&make=honda&price_range=100000-200000",
+      "status": 200,
+      "redirected": false,
+      "bytes": 204045,
+      "file": "desktop/new-cars-listing-empty.html"
+    },
+    {
+      "name": "new-cars-listing-empty",
+      "device": "mobile",
+      "requested": "/motors/new-cars/all-new-cars/?body_type=truck&make=honda&price_range=100000-200000",
+      "final": "/motors/new-cars/all-new-cars/?body_type=truck&make=honda&price_range=100000-200000",
+      "status": 200,
+      "redirected": false,
+      "bytes": 146884,
+      "file": "mobile/new-cars-listing-empty.html"
+    },
+    {
+      "name": "new-cars-make-toyota",
+      "device": "desktop",
+      "requested": "/motors/new-cars/toyota/",
+      "final": "/motors/new-cars/toyota/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 272990,
+      "file": "desktop/new-cars-make-toyota.html"
+    },
+    {
+      "name": "new-cars-make-toyota",
+      "device": "mobile",
+      "requested": "/motors/new-cars/toyota/",
+      "final": "/motors/new-cars/toyota/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 211915,
+      "file": "mobile/new-cars-make-toyota.html"
+    },
+    {
+      "name": "new-cars-make-honda",
+      "device": "desktop",
+      "requested": "/motors/new-cars/honda/",
+      "final": "/motors/new-cars/honda/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 266627,
+      "file": "desktop/new-cars-make-honda.html"
+    },
+    {
+      "name": "new-cars-make-honda",
+      "device": "mobile",
+      "requested": "/motors/new-cars/honda/",
+      "final": "/motors/new-cars/honda/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 208906,
+      "file": "mobile/new-cars-make-honda.html"
+    },
+    {
+      "name": "new-cars-model-corolla",
+      "device": "desktop",
+      "requested": "/motors/new-cars/toyota/corolla/",
+      "final": "/motors/new-cars/toyota/corolla/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 803267,
+      "file": "desktop/new-cars-model-corolla.html"
+    },
+    {
+      "name": "new-cars-model-corolla",
+      "device": "mobile",
+      "requested": "/motors/new-cars/toyota/corolla/",
+      "final": "/motors/new-cars/toyota/corolla/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 432846,
+      "file": "mobile/new-cars-model-corolla.html"
+    },
+    {
+      "name": "new-cars-model-civic",
+      "device": "desktop",
+      "requested": "/motors/new-cars/honda/civic/",
+      "final": "/motors/new-cars/honda/civic/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 724427,
+      "file": "desktop/new-cars-model-civic.html"
+    },
+    {
+      "name": "new-cars-model-civic",
+      "device": "mobile",
+      "requested": "/motors/new-cars/honda/civic/",
+      "final": "/motors/new-cars/honda/civic/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 400635,
+      "file": "mobile/new-cars-model-civic.html"
+    },
+    {
+      "name": "compare",
+      "device": "desktop",
+      "requested": "/motors/new-cars/compare/",
+      "final": "/motors/new-cars/compare/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 229354,
+      "file": "desktop/compare.html"
+    },
+    {
+      "name": "compare",
+      "device": "mobile",
+      "requested": "/motors/new-cars/compare/",
+      "final": "/motors/new-cars/compare/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 202767,
+      "file": "mobile/compare.html"
+    },
+    {
+      "name": "car-reviews",
+      "device": "desktop",
+      "requested": "/motors/car-reviews/",
+      "final": "/motors/car-reviews/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 311043,
+      "file": "desktop/car-reviews.html"
+    },
+    {
+      "name": "car-reviews",
+      "device": "mobile",
+      "requested": "/motors/car-reviews/",
+      "final": "/motors/car-reviews/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 292233,
+      "file": "mobile/car-reviews.html"
+    },
+    {
+      "name": "car-reviews-corolla",
+      "device": "desktop",
+      "requested": "/motors/car-reviews/toyota/corolla/",
+      "final": "/motors/car-reviews/toyota/corolla/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 408076,
+      "file": "desktop/car-reviews-corolla.html"
+    },
+    {
+      "name": "car-reviews-corolla",
+      "device": "mobile",
+      "requested": "/motors/car-reviews/toyota/corolla/",
+      "final": "/motors/car-reviews/toyota/corolla/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 370709,
+      "file": "mobile/car-reviews-corolla.html"
+    },
+    {
+      "name": "car-inspection",
+      "device": "desktop",
+      "requested": "/motors/car-inspection/",
+      "final": "/motors/car-inspection/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 253266,
+      "file": "desktop/car-inspection.html"
+    },
+    {
+      "name": "car-inspection",
+      "device": "mobile",
+      "requested": "/motors/car-inspection/",
+      "final": "/motors/car-inspection/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 235363,
+      "file": "mobile/car-inspection.html"
+    },
+    {
+      "name": "auction-sheet",
+      "device": "desktop",
+      "requested": "/motors/auction-sheet-verification/",
+      "final": "/motors/auction-sheet-verification/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 177849,
+      "file": "desktop/auction-sheet.html"
+    },
+    {
+      "name": "auction-sheet",
+      "device": "mobile",
+      "requested": "/motors/auction-sheet-verification/",
+      "final": "/motors/auction-sheet-verification/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 169822,
+      "file": "mobile/auction-sheet.html"
+    },
+    {
+      "name": "car-finance",
+      "device": "desktop",
+      "requested": "/motors/car-finance/",
+      "final": "/motors/car-finance/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 271873,
+      "file": "desktop/car-finance.html"
+    },
+    {
+      "name": "car-finance",
+      "device": "mobile",
+      "requested": "/motors/car-finance/",
+      "final": "/motors/car-finance/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 255887,
+      "file": "mobile/car-finance.html"
+    },
+    {
+      "name": "car-insurance",
+      "device": "desktop",
+      "requested": "/motors/car-insurance/",
+      "final": "/motors/car-insurance/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 395488,
+      "file": "desktop/car-insurance.html"
+    },
+    {
+      "name": "car-insurance",
+      "device": "mobile",
+      "requested": "/motors/car-insurance/",
+      "final": "/motors/car-insurance/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 386679,
+      "file": "mobile/car-insurance.html"
+    },
+    {
+      "name": "car-insurance-tpl",
+      "device": "desktop",
+      "requested": "/motors/car-insurance/tpl-insurance/",
+      "final": "/motors/car-insurance/tpl-insurance/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 233594,
+      "file": "desktop/car-insurance-tpl.html"
+    },
+    {
+      "name": "car-insurance-tpl",
+      "device": "mobile",
+      "requested": "/motors/car-insurance/tpl-insurance/",
+      "final": "/motors/car-insurance/tpl-insurance/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 217214,
+      "file": "mobile/car-insurance-tpl.html"
+    },
+    {
+      "name": "car-tyres",
+      "device": "desktop",
+      "requested": "/motors/car-tyres/",
+      "final": "/motors/car-tyres/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 303011,
+      "file": "desktop/car-tyres.html"
+    },
+    {
+      "name": "car-tyres",
+      "device": "mobile",
+      "requested": "/motors/car-tyres/",
+      "final": "/motors/car-tyres/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 284427,
+      "file": "mobile/car-tyres.html"
+    },
+    {
+      "name": "car-tyres-toyota",
+      "device": "desktop",
+      "requested": "/motors/car-tyres/toyota/",
+      "final": "/motors/car-tyres/toyota/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 239064,
+      "file": "desktop/car-tyres-toyota.html"
+    },
+    {
+      "name": "car-tyres-toyota",
+      "device": "mobile",
+      "requested": "/motors/car-tyres/toyota/",
+      "final": "/motors/car-tyres/toyota/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 222430,
+      "file": "mobile/car-tyres-toyota.html"
+    },
+    {
+      "name": "car-batteries",
+      "device": "desktop",
+      "requested": "/motors/car-batteries/",
+      "final": "/motors/car-batteries/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 209403,
+      "file": "desktop/car-batteries.html"
+    },
+    {
+      "name": "car-batteries",
+      "device": "mobile",
+      "requested": "/motors/car-batteries/",
+      "final": "/motors/car-batteries/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 189761,
+      "file": "mobile/car-batteries.html"
+    },
+    {
+      "name": "car-batteries-toyota",
+      "device": "desktop",
+      "requested": "/motors/car-batteries/toyota/",
+      "final": "/motors/car-batteries/toyota/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 159276,
+      "file": "desktop/car-batteries-toyota.html"
+    },
+    {
+      "name": "car-batteries-toyota",
+      "device": "mobile",
+      "requested": "/motors/car-batteries/toyota/",
+      "final": "/motors/car-batteries/toyota/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 134844,
+      "file": "mobile/car-batteries-toyota.html"
+    },
+    {
+      "name": "oil-grades",
+      "device": "desktop",
+      "requested": "/motors/oil-grades/",
+      "final": "/motors/oil-grades/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 133703,
+      "file": "desktop/oil-grades.html"
+    },
+    {
+      "name": "oil-grades",
+      "device": "mobile",
+      "requested": "/motors/oil-grades/",
+      "final": "/motors/oil-grades/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 116150,
+      "file": "mobile/oil-grades.html"
+    },
+    {
+      "name": "bad-slug-probe",
+      "device": "desktop",
+      "requested": "/motors/new-cars/notacar/notamodel/",
+      "final": "/motors/new-cars/",
+      "status": 200,
+      "redirected": true,
+      "bytes": 564342,
+      "file": null
+    },
+    {
+      "name": "bad-slug-probe",
+      "device": "mobile",
+      "requested": "/motors/new-cars/notacar/notamodel/",
+      "final": "/motors/new-cars/",
+      "status": 200,
+      "redirected": true,
+      "bytes": 487381,
+      "file": null
+    },
+    {
+      "name": "new-cars-variant",
+      "device": "desktop",
+      "requested": "/motors/new-cars/toyota/corolla/altis-cvt-1-6/",
+      "final": "/motors/new-cars/toyota/corolla/altis-cvt-1-6/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 281285,
+      "file": "desktop/new-cars-variant.html"
+    },
+    {
+      "name": "new-cars-variant",
+      "device": "mobile",
+      "requested": "/motors/new-cars/toyota/corolla/altis-cvt-1-6/",
+      "final": "/motors/new-cars/toyota/corolla/altis-cvt-1-6/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 267594,
+      "file": "mobile/new-cars-variant.html"
+    },
+    {
+      "name": "compare-details",
+      "device": "desktop",
+      "requested": "/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/",
+      "final": "/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 938864,
+      "file": "desktop/compare-details.html"
+    },
+    {
+      "name": "compare-details",
+      "device": "mobile",
+      "requested": "/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/",
+      "final": "/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 870094,
+      "file": "mobile/compare-details.html"
+    },
+    {
+      "name": "car-reviews-detail",
+      "device": "desktop",
+      "requested": "/motors/car-reviews/toyota/corolla/71/",
+      "final": "/motors/car-reviews/toyota/corolla/71/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 406224,
+      "file": "desktop/car-reviews-detail.html"
+    },
+    {
+      "name": "car-reviews-detail",
+      "device": "mobile",
+      "requested": "/motors/car-reviews/toyota/corolla/71/",
+      "final": "/motors/car-reviews/toyota/corolla/71/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 378627,
+      "file": "mobile/car-reviews-detail.html"
+    },
+    {
+      "name": "car-finance-bank",
+      "device": "desktop",
+      "requested": "/motors/car-finance/bank-islamic/",
+      "final": "/motors/car-finance/bank-islamic/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 573467,
+      "file": "desktop/car-finance-bank.html"
+    },
+    {
+      "name": "car-finance-bank",
+      "device": "mobile",
+      "requested": "/motors/car-finance/bank-islamic/",
+      "final": "/motors/car-finance/bank-islamic/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 538487,
+      "file": "mobile/car-finance-bank.html"
+    },
+    {
+      "name": "car-insurance-partner",
+      "device": "desktop",
+      "requested": "/motors/car-insurance/igi-insurance/",
+      "final": "/motors/car-insurance/igi-insurance/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 866786,
+      "file": "desktop/car-insurance-partner.html"
+    },
+    {
+      "name": "car-insurance-partner",
+      "device": "mobile",
+      "requested": "/motors/car-insurance/igi-insurance/",
+      "final": "/motors/car-insurance/igi-insurance/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 839715,
+      "file": "mobile/car-insurance-partner.html"
+    },
+    {
+      "name": "car-tyres-generation",
+      "device": "desktop",
+      "requested": "/motors/car-tyres/seres/3-1/2023-2026/",
+      "final": "/motors/car-tyres/seres/3-1/2023-2026/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 157863,
+      "file": "desktop/car-tyres-generation.html"
+    },
+    {
+      "name": "car-tyres-generation",
+      "device": "mobile",
+      "requested": "/motors/car-tyres/seres/3-1/2023-2026/",
+      "final": "/motors/car-tyres/seres/3-1/2023-2026/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 140969,
+      "file": "mobile/car-tyres-generation.html"
+    },
+    {
+      "name": "car-batteries-generation",
+      "device": "desktop",
+      "requested": "/motors/car-batteries/honda/civic/2022-2026/",
+      "final": "/motors/car-batteries/honda/civic/2022-2026/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 155717,
+      "file": "desktop/car-batteries-generation.html"
+    },
+    {
+      "name": "car-batteries-generation",
+      "device": "mobile",
+      "requested": "/motors/car-batteries/honda/civic/2022-2026/",
+      "final": "/motors/car-batteries/honda/civic/2022-2026/",
+      "status": 200,
+      "redirected": false,
+      "bytes": 138852,
+      "file": "mobile/car-batteries-generation.html"
+    }
+  ]
+}
