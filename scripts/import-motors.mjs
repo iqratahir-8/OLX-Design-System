@@ -11,10 +11,13 @@
 // CDN address, and goes through the same capture as the rest of site/
 // (screenshot, sections, hotspots, redaction). The saved HTML therefore points
 // at the real CDNs, like every other capture. Images the kit did not save
-// (car photos, banners) are left out of the screenshots.
+// (car photos, banners) are left out of the screenshots, except make logos:
+// the empty logo box on a make page gets that make's Simple Icons logo (CC0),
+// marked data-stand-in, until the real logos can be fetched.
 import { chromium } from 'playwright';
 import { readFile, writeFile, mkdir, copyFile, access } from 'node:fs/promises';
 import { basename, join } from 'node:path';
+import * as simpleIcons from 'simple-icons';
 import { capture, ORIGIN, OUT, MOTORS } from './capture-site.mjs';
 
 // Kit page name -> site page id ('home' is the Motors landing page).
@@ -58,6 +61,17 @@ const unrewrite = (html) => html
     const path = livePath[`${product ?? 'motors'}/${name}`];
     return path ? `href="${ORIGIN}${path}${rest}"` : m;
   });
+// Make logos are drawn client-side, so a make page's logo box is empty. Fill it
+// with the make's logo from Simple Icons, in the make's colour.
+const EMPTY_LOGO = /(<div class="logo-banner_makeLogo__\w+">)<span class="" style="display:inline-block;width:100%;height:100%"><\/span>/g;
+const makeLogo = (html, path) => {
+  const make = path.match(/^\/motors\/new-cars\/([^/?]+)\/$/)?.[1];
+  const icon = make && simpleIcons[`si${make[0].toUpperCase()}${make.slice(1).replace(/-./g, (c) => c[1].toUpperCase())}`];
+  if (!icon) return html;
+  const svg = icon.svg.replace('<svg ', `<svg fill="#${icon.hex}" `);
+  const img = `<img data-stand-in="Simple Icons (CC0), not the logo OLX shows" alt="${icon.title}" src="data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}" style="width:var(--logo-size);height:var(--logo-size);object-fit:contain">`;
+  return html.replace(EMPTY_LOGO, `$1<span style="display:flex;align-items:center;justify-content:center;width:100%;height:100%">${img}</span>`);
+};
 // Saved stylesheets refer to their fonts and icons relatively (../fonts/x.woff2).
 const unrewriteCss = (css) => css.replace(/url\((['"]?)\.\.\/((?:fonts|icons|css)\/[\w.-]+)\1\)/g, (m, q, file) => (original[file] ? `url(${q}${original[file]}${q})` : m));
 
@@ -90,7 +104,7 @@ for (const [name, id] of [...Object.entries(NAMES), ...SCROLLED.map(([id, name])
     let html;
     try { html = await readFile(join(dir, `motors/${vp}/${name}.html`), 'utf8'); } catch { console.error(`skip ${id}/${vp}: no ${name}.html in the kit`); continue; }
     try {
-      await capture(browser, def, def.path, vp, { html: unrewrite(html), route });
+      await capture(browser, def, def.path, vp, { html: makeLogo(unrewrite(html), def.path), route });
       const entry = { id, title: def.title, viewport: vp, path: def.path, overlay: !!def.scrolled, flows: def.flows };
       index.pages = index.pages.filter((p) => !(p.id === id && p.viewport === vp)).concat(entry);
       done++;

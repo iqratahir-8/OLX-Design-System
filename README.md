@@ -181,7 +181,7 @@ node scripts/import-motors.mjs ../olx-local-build/design-kit/templates
 npm run prototype
 ```
 
-Each saved page is loaded at its live URL with the kit's saved CSS, fonts and icons served at their original CDN addresses, then captured like every other page (screenshots, sections, hotspots, redaction, including reviewer names). Car photos and banners the kit did not save are blank in the screenshots and load from the CDN in Live HTML. The saved pages have no scripts, so menus, dialogs, calculators and form errors on Motors pages are not captured; with network access to `*.olx.com.pk`, `npm run capture:site -- motors-compare` captures any of them live instead.
+Each saved page is loaded at its live URL with the kit's saved CSS, fonts and icons served at their original CDN addresses, then captured like every other page (screenshots, sections, hotspots, redaction, including reviewer names). Car photos and banners the kit did not save are blank in the screenshots and load from the CDN in Live HTML. The logo box on the Honda and Toyota make pages, which the site fills client-side, holds that make's logo from [Simple Icons](https://simpleicons.org) (CC0, the `simple-icons` dev dependency) as a stand-in, marked `data-stand-in` in the HTML. The saved pages have no scripts, so menus, dialogs, calculators and form errors on Motors pages are not captured; with network access to `*.olx.com.pk`, `npm run capture:site -- motors-compare` captures any of them live instead.
 
 Crawling follows robots.txt, so nothing under `/post/`, `/chat/`, `/profile/` or `/account` is visited. To add logged-in screens, run this on your own computer:
 
