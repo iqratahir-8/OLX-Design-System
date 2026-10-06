@@ -14,6 +14,7 @@ export const SIZES: Record<Device, { width: number; height: number }> = {
   mobile: { width: 390, height: 844 },
 };
 
+// Relative, so it resolves wherever Storybook is hosted (a sub-path, a published copy).
 export const templateUrl = (site: Site, device: Device, name: string) => `templates/${site}/${device}/${name}.html`;
 
 export function useFitScale(width: number) {

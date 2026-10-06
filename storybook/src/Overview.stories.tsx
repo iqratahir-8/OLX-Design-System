@@ -94,7 +94,12 @@ export const PageIndex: Story = {
             <tbody>
               {Object.entries(site.pages).map(([name, p]) => (
                 <tr key={name} style={{ borderBottom: '1px solid var(--olx-border-subtle)' }}>
-                  <td style={{ padding: '8px 12px' }}>{p.label}</td>
+                  <td style={{ padding: '8px 12px' }}>
+                    {/* Opens the page's story in this Storybook (the index runs inside the preview iframe). */}
+                    <a className="olx-link-more" href={`?path=/story/pages-olx-${key}--${name}`} onClick={(e) => {
+                      try { e.preventDefault(); window.parent.location.search = `?path=/story/pages-olx-${key}--${name}`; } catch { /* not inside Storybook */ }
+                    }}>{p.label}</a>
+                  </td>
                   <td style={{ padding: '8px 12px', color: 'var(--olx-text-muted)', fontFamily: 'ui-monospace, monospace', fontSize: 12 }}>{p.path}</td>
                   <td style={{ padding: '8px 12px', color: 'var(--olx-text-muted)' }}>{p.devices.join(', ')}</td>
                   <td style={{ padding: '8px 12px' }}>
