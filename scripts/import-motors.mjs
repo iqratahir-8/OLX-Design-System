@@ -15,10 +15,11 @@
 // the empty logo box on a make page gets that make's Simple Icons logo (CC0),
 // marked data-stand-in, until the real logos can be fetched.
 import { chromium } from 'playwright';
-import { readFile, writeFile, mkdir, copyFile, access } from 'node:fs/promises';
-import { basename, join } from 'node:path';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { join } from 'node:path';
 import * as simpleIcons from 'simple-icons';
 import { capture, ORIGIN, OUT, MOTORS } from './capture-site.mjs';
+import { kitAssets } from './lib/kit-assets.mjs';
 
 // Kit page name -> site page id ('home' is the Motors landing page).
 const NAMES = {
@@ -46,17 +47,14 @@ for (const [id, name] of SCROLLED) DEFS[id].path = DEFS[NAMES[name]].path;
 const [dir, ...only] = process.argv.slice(2);
 if (!dir) { console.error('usage: node scripts/import-motors.mjs <design-kit/templates> [ids...]'); process.exit(1); }
 const kit = JSON.parse(await readFile(join(dir, 'templates.json'), 'utf8'));
-const assets = JSON.parse(await readFile(join(dir, '_assets/manifest.json'), 'utf8'));
-const original = Object.fromEntries(Object.entries(assets).map(([url, file]) => [file, url]));
-const saved = Object.fromEntries(Object.entries(assets).map(([url, file]) => [url, join(dir, '_assets', file)]));
+const assets = await kitAssets(dir);
 
 // Every page in the kit, by its file, so rewritten links can point back at live URLs.
 const livePath = {};
 for (const [product, site] of Object.entries(kit.sites)) {
   for (const [name, p] of Object.entries(site.pages)) livePath[`${product}/${name}`] = p.path;
 }
-const unrewrite = (html) => html
-  .replace(/(["'(])(?:\.\.\/\.\.\/)?_assets\/((?:css|fonts|icons)\/[\w.-]+)/g, (m, q, file) => (original[file] ? q + original[file] : m))
+const unrewrite = (html) => assets.unrewriteHtml(html)
   .replace(/href="(?:\.\.\/\.\.\/(\w+)\/(?:desktop|mobile)\/)?([\w-]+)\.html([^"]*)"/g, (m, product, name, rest) => {
     const path = livePath[`${product ?? 'motors'}/${name}`];
     return path ? `href="${ORIGIN}${path}${rest}"` : m;
@@ -72,26 +70,9 @@ const makeLogo = (html, path) => {
   const img = `<img data-stand-in="Simple Icons (CC0), not the logo OLX shows" alt="${icon.title}" src="data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}" style="width:var(--logo-size);height:var(--logo-size);object-fit:contain">`;
   return html.replace(EMPTY_LOGO, `$1<span style="display:flex;align-items:center;justify-content:center;width:100%;height:100%">${img}</span>`);
 };
-// Saved stylesheets refer to their fonts and icons relatively (../fonts/x.woff2).
-const unrewriteCss = (css) => css.replace(/url\((['"]?)\.\.\/((?:fonts|icons|css)\/[\w.-]+)\1\)/g, (m, q, file) => (original[file] ? `url(${q}${original[file]}${q})` : m));
-
 // Serve saved assets at their CDN URLs; nothing else leaves the machine.
-const route = async (r) => {
-  const url = r.request().url().split('#')[0];
-  const file = saved[url];
-  if (!file) return r.abort();
-  const body = await readFile(file);
-  const type = /\.css$/.test(file) ? 'text/css' : /\.svg$/.test(file) ? 'image/svg+xml' : /\.woff2$/.test(file) ? 'font/woff2' : /\.woff$/.test(file) ? 'font/woff' : 'application/octet-stream';
-  return r.fulfill({ body: type === 'text/css' ? unrewriteCss(body.toString()) : body, contentType: type, headers: { 'access-control-allow-origin': '*' } });
-};
-
-// The capture prefers fonts in fonts/ (git-ignored) by file name; put the saved Motors fonts there.
-await mkdir('fonts', { recursive: true });
-for (const [url, file] of Object.entries(saved)) {
-  if (!/\.woff2?$/.test(url)) continue;
-  const to = `fonts/${basename(new URL(url).pathname)}`;
-  if (!(await access(to).then(() => true, () => false))) await copyFile(file, to);
-}
+const route = assets.route();
+await assets.copyFonts();
 
 await mkdir(`${OUT}/css`, { recursive: true });
 const index = JSON.parse(await readFile(`${OUT}/index.json`, 'utf8'));

@@ -4,6 +4,10 @@
 //   node scripts/capture-site.mjs                # everything not captured yet
 //   node scripts/capture-site.mjs --force        # recapture everything
 //   node scripts/capture-site.mjs home cat-jobs  # only these page ids
+//   node scripts/capture-site.mjs --kit=storybook/design-kit/templates property
+//       # serve the Motors CSS, fonts and icons from a design-kit build, for
+//       # pages the Motors app renders (/motors/, /properties/, not-found) when
+//       # its CDN cannot be reached
 //
 // Output (site/):
 //   pages/<id>/<viewport>.html                 static page, OLX markup, CSS linked from site/css/
@@ -309,7 +313,8 @@ export function measure({ overlay, scrolled }) {
     const avg = ks.reduce((h, c) => h + c.getBoundingClientRect().height, 0) / ks.length;
     // Cards and rows are about the same height; page sections that share a class (Motors) are not.
     const hs = ks.map((c) => c.getBoundingClientRect().height).sort((a, b) => a - b);
-    const even = hs[hs.length - 1] <= hs[Math.floor(hs.length / 2)] * 1.6;
+    const mid = hs[Math.floor(hs.length / 2)];
+    const even = hs[hs.length - 1] <= mid * 1.6 && hs[0] >= mid / 1.6;
     return avg <= 480 && even && !ks.some((c) => c.matches('[aria-label="Category with hits section"]'));
   };
   const walk = (el, depth) => {
@@ -500,6 +505,9 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   const args = process.argv.slice(2);
   const force = args.includes('--force');
   const only = args.filter((a) => !a.startsWith('--'));
+  const kitDir = args.find((a) => a.startsWith('--kit='))?.slice(6);
+  const kit = kitDir ? await (await import('./lib/kit-assets.mjs')).kitAssets(kitDir) : null;
+  if (kit) await kit.copyFonts();
   await mkdir(`${OUT}/css`, { recursive: true });
 
   let index = { source: ORIGIN, pages: [] };
@@ -513,9 +521,11 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
       try {
         const path = await resolvePath(browser, def);
         if (DISALLOWED.test(path)) throw new Error(`disallowed by robots.txt: ${path}`);
-        await capture(browser, def, path, vp);
+        await capture(browser, def, path, vp, kit ? { route: kit.route({ passThrough: true }) } : {});
         const entry = { id: def.id, title: def.title, viewport: vp, path, cat: def.cat, overlay: !!def.overlay || !!def.scrolled, flows: def.flows ?? [] };
-        index.pages = index.pages.filter((p) => !(p.id === def.id && p.viewport === vp)).concat(entry);
+        // Replace in place, so recapturing keeps the order of screens.
+        const at = index.pages.findIndex((p) => p.id === def.id && p.viewport === vp);
+        if (at >= 0) index.pages[at] = entry; else index.pages.push(entry);
         index.captured = new Date().toISOString().slice(0, 10);
         await writeFile(`${OUT}/index.json`, JSON.stringify(index, null, 1) + '\n');
       } catch (err) {
