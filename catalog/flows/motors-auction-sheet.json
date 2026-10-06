@@ -1,0 +1,16 @@
+{
+ "id": "motors-auction-sheet",
+ "title": "Motors: verify an auction sheet",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors-auction-sheet",
+   "title": "Motors: Auction sheet verification",
+   "caption": "Verify a Japanese auction sheet by chassis number (nothing is submitted).",
+   "next": null,
+   "desktop": "site/pages/motors-auction-sheet/desktop.html",
+   "mobile": "site/pages/motors-auction-sheet/mobile.html"
+  }
+ ]
+}

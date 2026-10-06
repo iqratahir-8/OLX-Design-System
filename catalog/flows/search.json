@@ -1,0 +1,61 @@
+{
+ "id": "search",
+ "title": "Search, sort and open a result",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "home",
+   "title": "Home",
+   "caption": "Tap the search field.",
+   "next": "Search input",
+   "desktop": "site/pages/home/desktop.html",
+   "mobile": "site/pages/home/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "search-suggestions",
+   "title": "Search suggestions",
+   "caption": "Suggestions appear as you type.",
+   "next": null,
+   "desktop": "site/pages/search-suggestions/desktop.html",
+   "mobile": "site/pages/search-suggestions/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "search-results",
+   "title": "Search results: iphone",
+   "caption": "Results for \"iphone\".",
+   "next": null,
+   "desktop": "site/pages/search-results/desktop.html",
+   "mobile": "site/pages/search-results/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "sort-menu",
+   "title": "Sort menu",
+   "caption": "Change the sort order.",
+   "next": "Lowest price",
+   "desktop": "site/pages/sort-menu/desktop.html",
+   "mobile": null
+  },
+  {
+   "step": 5,
+   "page": "sorted-low-price",
+   "title": "Sorted by lowest price",
+   "caption": "Sorted by lowest price.",
+   "next": null,
+   "desktop": "site/pages/sorted-low-price/desktop.html",
+   "mobile": null
+  },
+  {
+   "step": 6,
+   "page": "search-empty",
+   "title": "Search with no results",
+   "caption": "A search with no results.",
+   "next": null,
+   "desktop": "site/pages/search-empty/desktop.html",
+   "mobile": "site/pages/search-empty/mobile.html"
+  }
+ ]
+}

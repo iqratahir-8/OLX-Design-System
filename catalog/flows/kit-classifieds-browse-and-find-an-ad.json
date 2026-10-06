@@ -1,0 +1,43 @@
+{
+ "id": "kit-classifieds-browse-and-find-an-ad",
+ "title": "Classifieds: Browse and find an ad",
+ "source": "design-kit",
+ "steps": [
+  {
+   "step": 1,
+   "page": "home",
+   "title": "Home",
+   "caption": "Home",
+   "next": "Mobile Phones",
+   "desktop": "site/pages/home/desktop.html",
+   "mobile": "site/pages/home/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "sub-mobile-phones",
+   "title": "Mobile Phones",
+   "caption": "Mobile Phones",
+   "next": "iphone",
+   "desktop": "site/pages/sub-mobile-phones/desktop.html",
+   "mobile": "site/pages/sub-mobile-phones/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "search-results",
+   "title": "Search results: iphone",
+   "caption": "iphone",
+   "next": "Ad detail",
+   "desktop": "site/pages/search-results/desktop.html",
+   "mobile": "site/pages/search-results/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "kit-classifieds-ad-detail",
+   "title": "Classifieds: Ad detail",
+   "caption": "Ad detail",
+   "next": null,
+   "desktop": "storybook/design-kit/templates/classifieds/desktop/ad-detail.html",
+   "mobile": "storybook/design-kit/templates/classifieds/mobile/ad-detail.html"
+  }
+ ]
+}

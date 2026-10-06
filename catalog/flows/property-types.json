@@ -1,0 +1,79 @@
+{
+ "id": "property-types",
+ "title": "Property: every property type",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "prop-flats-sale",
+   "title": "Property: Flats for sale",
+   "caption": "Flats for sale.",
+   "next": null,
+   "desktop": "site/pages/prop-flats-sale/desktop.html",
+   "mobile": "site/pages/prop-flats-sale/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "sub-houses",
+   "title": "Houses for Sale",
+   "caption": "Houses for sale.",
+   "next": null,
+   "desktop": "site/pages/sub-houses/desktop.html",
+   "mobile": "site/pages/sub-houses/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "prop-city-houses",
+   "title": "Property: Houses for sale in Lahore",
+   "caption": "Houses for sale in Lahore.",
+   "next": null,
+   "desktop": "site/pages/prop-city-houses/desktop.html",
+   "mobile": "site/pages/prop-city-houses/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "prop-houses-rent",
+   "title": "Property: Houses for rent",
+   "caption": "Houses for rent.",
+   "next": null,
+   "desktop": "site/pages/prop-houses-rent/desktop.html",
+   "mobile": "site/pages/prop-houses-rent/mobile.html"
+  },
+  {
+   "step": 5,
+   "page": "prop-portions",
+   "title": "Property: Portions & floors",
+   "caption": "Portions and floors.",
+   "next": null,
+   "desktop": "site/pages/prop-portions/desktop.html",
+   "mobile": "site/pages/prop-portions/mobile.html"
+  },
+  {
+   "step": 6,
+   "page": "prop-rooms",
+   "title": "Property: Rooms",
+   "caption": "Rooms.",
+   "next": null,
+   "desktop": "site/pages/prop-rooms/desktop.html",
+   "mobile": "site/pages/prop-rooms/mobile.html"
+  },
+  {
+   "step": 7,
+   "page": "prop-shops",
+   "title": "Property: Shops & offices",
+   "caption": "Shops, offices and commercial space.",
+   "next": null,
+   "desktop": "site/pages/prop-shops/desktop.html",
+   "mobile": "site/pages/prop-shops/mobile.html"
+  },
+  {
+   "step": 8,
+   "page": "page-not-found",
+   "title": "Page not found",
+   "caption": "Some Property landing links lead to this not-found page.",
+   "next": null,
+   "desktop": "site/pages/page-not-found/desktop.html",
+   "mobile": "site/pages/page-not-found/mobile.html"
+  }
+ ]
+}

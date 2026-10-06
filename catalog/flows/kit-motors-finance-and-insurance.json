@@ -1,0 +1,52 @@
+{
+ "id": "kit-motors-finance-and-insurance",
+ "title": "Motors: Finance and insurance",
+ "source": "design-kit",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors",
+   "title": "Motors",
+   "caption": "Motors",
+   "next": "Car finance",
+   "desktop": "site/pages/motors/desktop.html",
+   "mobile": "site/pages/motors/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-finance",
+   "title": "Motors: Car finance",
+   "caption": "Car finance",
+   "next": "Bank Islamic car finance",
+   "desktop": "site/pages/motors-finance/desktop.html",
+   "mobile": "site/pages/motors-finance/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "motors-finance-bank",
+   "title": "Motors: Bank Islamic car finance",
+   "caption": "Bank Islamic car finance",
+   "next": "Car insurance",
+   "desktop": "site/pages/motors-finance-bank/desktop.html",
+   "mobile": "site/pages/motors-finance-bank/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "motors-insurance",
+   "title": "Motors: Car insurance",
+   "caption": "Car insurance",
+   "next": "IGI Insurance",
+   "desktop": "site/pages/motors-insurance/desktop.html",
+   "mobile": "site/pages/motors-insurance/mobile.html"
+  },
+  {
+   "step": 5,
+   "page": "motors-insurer",
+   "title": "Motors: IGI Insurance",
+   "caption": "IGI Insurance",
+   "next": null,
+   "desktop": "site/pages/motors-insurer/desktop.html",
+   "mobile": "site/pages/motors-insurer/mobile.html"
+  }
+ ]
+}

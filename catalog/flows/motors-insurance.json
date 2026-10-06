@@ -1,0 +1,34 @@
+{
+ "id": "motors-insurance",
+ "title": "Motors: car insurance",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors-insurance",
+   "title": "Motors: Car insurance",
+   "caption": "Compare car insurance and insurers.",
+   "next": null,
+   "desktop": "site/pages/motors-insurance/desktop.html",
+   "mobile": "site/pages/motors-insurance/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-insurer",
+   "title": "Motors: IGI Insurance",
+   "caption": "One insurer in detail.",
+   "next": null,
+   "desktop": "site/pages/motors-insurer/desktop.html",
+   "mobile": "site/pages/motors-insurer/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "motors-insurance-tpl",
+   "title": "Motors: Third-party (TPL) insurance",
+   "caption": "Third-party (TPL) insurance.",
+   "next": null,
+   "desktop": "site/pages/motors-insurance-tpl/desktop.html",
+   "mobile": "site/pages/motors-insurance-tpl/mobile.html"
+  }
+ ]
+}

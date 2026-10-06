@@ -20,10 +20,26 @@ const meta = {};
 for (const p of index.pages) {
   meta[`${p.id}~${p.viewport}`] = JSON.parse(await readFile(`${SITE}/pages/${p.id}/${p.viewport}.json`, 'utf8'));
 }
-const has = (id, vp) => Boolean(meta[`${id}~${vp}`]);
+const has = (id, vp) => Boolean(meta[`${id}~${vp}`]) || kitHas?.has(`${id}~${vp}`);
 const norm = (path) => (path.length > 1 ? path.replace(/\/+$/, '') : path);
 const byPath = {};
 for (const p of index.pages) if (!p.overlay && !p.steps) byPath[`${norm(p.path)}~${p.viewport}`] ??= p.id;
+// Design-kit pages (storybook/design-kit, measured by import-kit.mjs): the
+// Motors vertical and kit versions of Classifieds and Property pages.
+let kit = { pages: [], flows: [], sites: {} };
+try { kit = JSON.parse(await readFile(`${SITE}/kit.json`, 'utf8')); } catch { /* not imported */ }
+// A kit page already captured here (the Motors pages, imported by import-motors.mjs)
+// is used through its capture, which has a screenshot; the kit copy is left out.
+const kitAlias = {};
+for (const k of kit.pages) {
+  const captured = byPath[`${norm(k.path)}~${k.viewport}`];
+  if (captured) kitAlias[k.id] = captured;
+}
+kit.pages = kit.pages.filter((k) => !kitAlias[k.id]);
+const kitId = (id) => kitAlias[id] ?? id;
+const kitHas = new Set(kit.pages.map((k) => `${k.id}~${k.viewport}`));
+const kitByPath = {};
+for (const k of kit.pages) kitByPath[`${norm(k.path.split('?')[0])}~${k.viewport}`] ??= k.id;
 byPath['/~desktop'] = 'home';
 byPath['/~mobile'] = 'home';
 
@@ -65,14 +81,30 @@ const ACTIONS = [
   [/^(back button|close|×|back)$/i, () => '@back'],
 ];
 
+// Motors page kinds the design kit has: a link to an uncaptured Motors page opens the kit page of the same kind.
+const KIT_KIND = {
+  'motors-compare-result': 'compare-details', 'motors-compare': 'compare', 'motors-all-new-cars': 'new-cars-listing',
+  'motors-version': 'new-cars-variant', 'motors-model': 'new-cars-model-corolla', 'motors-brand': 'new-cars-make-toyota',
+  'motors-new-cars': 'new-cars', 'motors-model-reviews': 'car-reviews-corolla', 'motors-reviews': 'car-reviews',
+  'motors-model-tyres': 'car-tyres-toyota', 'motors-tyres': 'car-tyres', 'motors-model-batteries': 'car-batteries-toyota',
+  'motors-batteries': 'car-batteries', 'motors-insurance-packages': 'car-insurance-tpl', 'motors-insurer': 'car-insurance-partner',
+  'motors-insurance': 'car-insurance', 'motors-finance': 'car-finance', 'motors-inspection': 'car-inspection', 'motors-auction-sheet': 'auction-sheet',
+};
+
 function resolve(h, source, vp) {
+  if (h.href?.startsWith('kit:')) {
+    const [site, name] = h.href.slice(4).split('/');
+    return { to: firstAvailable(vp, kitId(`kit-${site}-${name}`)) };
+  }
   if (h.href) {
     let u;
     try { u = new URL(h.href); } catch { return null; }
     if (u.host !== ORIGIN) return u.protocol.startsWith('http') ? { external: h.href } : null;
     const path = norm(u.pathname);
-    if (u.hash && path === norm(new URL(meta[`${source}~${vp}`].url).pathname)) return null;
+    const own = meta[`${source}~${vp}`]?.url;
+    if (u.hash && own && path === norm(new URL(own).pathname)) return null;
     if (byPath[`${path}~${vp}`]) return { to: byPath[`${path}~${vp}`] };
+    if (kitByPath[`${path}~${vp}`]) return { to: kitByPath[`${path}~${vp}`] };
     if (path.startsWith('/item/')) return { to: firstAvailable(vp, catOfPage[source] && `ad-${catOfPage[source]}`, 'ad-mobiles') };
     if (path.startsWith('/items/')) return { to: firstAvailable(vp, 'search-results') };
     if (/_g\d+/.test(path)) return { to: firstAvailable(vp, /_c\d+/.test(path) ? 'city-category' : 'city', 'city') };
@@ -97,7 +129,8 @@ function resolve(h, source, vp) {
         [/^\/motors\/car-inspection/, 'motors-inspection'], [/^\/motors\/auction-sheet/, 'motors-auction-sheet'], [/^\/motors\/oil-grades/, 'motors-oil-grades'],
       ];
       const hit = kinds.find(([re]) => re.test(path));
-      return { to: firstAvailable(vp, hit?.[1], 'motors') };
+      const kitKind = hit && KIT_KIND[hit[1]] && `kit-motors-${KIT_KIND[hit[1]]}`;
+      return { to: firstAvailable(vp, kitKind, hit?.[1], 'kit-motors-home', 'motors') };
     }
     if (/^\/propert/.test(path)) return { to: firstAvailable(vp, 'property') };
     if (/^\/(post|myads|chat|account|profile|favorites|myfavorites)/.test(path)) return { to: firstAvailable(vp, 'login') };
@@ -127,6 +160,26 @@ for (const [key, m] of Object.entries(meta)) {
     image: `../${SITE}/pages/${id}/${vp}.png`, html: `../${SITE}/pages/${id}/${vp}.html`,
     // Empty blocks are OLX ad slots, which render blank without their scripts.
     sections: m.sections.map((s) => ({ name: /^(div|section|aside)$/.test(s.name) ? 'Ad space' : s.name, ...s.rect, image: `../${SITE}/pages/${id}/sections/${vp}/${s.file}.png`, html: `../${SITE}/pages/${id}/sections/${vp}/${s.file}.html` })),
+    hotspots,
+  };
+}
+
+// Design-kit pages: live HTML only (no screenshot), sections located by selector.
+for (const k of kit.pages) {
+  const key = `${k.id}~${k.viewport}`;
+  const hotspots = [];
+  for (const h of k.hotspots) {
+    total++;
+    const target = resolve(h, k.id, k.viewport);
+    if (!target || (!target.to && !target.external) || target.to === k.id) continue;
+    linked++;
+    hotspots.push({ x: h.x, y: h.y, w: h.width, h: h.height, label: h.label, ...target });
+  }
+  hotspots.sort((a, b) => a.w * a.h - b.w * b.h);
+  pages[key] = {
+    id: k.id, vp: k.viewport, kit: k.site, title: `${kit.sites[k.site].replace(/^OLX /, '')}: ${k.label}`, url: k.url,
+    width: k.width, height: k.height, overlay: false, scrolled: false, image: null, html: `../${k.html}`,
+    sections: k.sections.map((sec) => ({ name: sec.name, ...sec.rect, selector: sec.selector })),
     hotspots,
   };
 }
@@ -290,10 +343,23 @@ const FLOWS = [
 ];
 const flows = FLOWS.map((f) => ({
   id: f.id, title: f.title,
-  steps: f.steps.map(([page, caption, next]) => ({ page, caption, next })),
+  // Motors pages not captured here are taken from the design kit.
+  steps: f.steps.map(([page, caption, next]) => ({ page: !has(page, 'desktop') && !has(page, 'mobile') && KIT_KIND[page] ? `kit-motors-${KIT_KIND[page]}` : page, caption, next })),
 })).filter((f) => f.steps.some((s) => has(s.page, 'desktop') || has(s.page, 'mobile')));
+// The design kit's own end-to-end flows.
+const slug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+for (const f of kit.flows) {
+  const label = (name) => pages[`${kitId(`kit-${f.site}-${name}`)}~desktop`]?.title?.replace(/^[^:]+: /, '') ?? pages[`${kitId(`kit-${f.site}-${name}`)}~mobile`]?.title?.replace(/^[^:]+: /, '') ?? name;
+  flows.push({
+    id: `kit-${f.site}-${slug(f.name)}`, title: `${kit.sites[f.site].replace(/^OLX /, '')}: ${f.name}`, kit: f.site,
+    steps: f.steps.map((name, i) => ({ page: kitId(`kit-${f.site}-${name}`), caption: label(name), next: f.steps[i + 1] ? label(f.steps[i + 1]) : undefined })),
+  });
+}
 
 const GROUPS = [
+  ['Motors (design kit)', (id) => id.startsWith('kit-motors-')],
+  ['Property (design kit)', (id) => id.startsWith('kit-property-')],
+  ['Classifieds (design kit)', (id) => id.startsWith('kit-classifieds-')],
   ['Start', (id) => ['home', 'motors', 'property', 'location-prompt', 'location-select', 'account-menu', 'sitemap', 'page-not-found'].includes(id)],
   ['Motors', (id) => id.startsWith('motors-')],
   ['Property', (id) => id.startsWith('prop-') || id === 'ad-plots'],
@@ -305,13 +371,14 @@ const GROUPS = [
   ['Logged in', (id) => id.startsWith('account-')],
   ['Menus, sheets and login', () => true],
 ];
-const ids = [...new Set(index.pages.map((p) => p.id))];
+const ids = [...new Set([...index.pages.map((p) => p.id), ...kit.pages.map((k) => k.id)])];
+const titleOf = (id) => index.pages.find((p) => p.id === id)?.title ?? Object.values(pages).find((p) => p.id === id)?.title ?? id;
 const groups = [];
 const placed = new Set();
 for (const [name, test] of GROUPS) {
   const list = ids.filter((id) => !placed.has(id) && test(id));
   list.forEach((id) => placed.add(id));
-  if (list.length) groups.push({ name, pages: list.map((id) => ({ id, title: index.pages.find((p) => p.id === id).title })) });
+  if (list.length) groups.push({ name, pages: list.map((id) => ({ id, title: titleOf(id) })) });
 }
 
 await writeFile('prototype/data.json', JSON.stringify({ source: index.source, captured: index.captured, groups, flows, pages }) + '\n');

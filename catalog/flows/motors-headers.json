@@ -1,0 +1,52 @@
+{
+ "id": "motors-headers",
+ "title": "Motors: header states while scrolling",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors",
+   "title": "Motors",
+   "caption": "The Motors header at the top of the landing page.",
+   "next": null,
+   "desktop": "site/pages/motors/desktop.html",
+   "mobile": "site/pages/motors/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-scrolled",
+   "title": "Motors, scrolled (sticky header)",
+   "caption": "After scrolling, the header stays on screen.",
+   "next": null,
+   "desktop": "site/pages/motors-scrolled/desktop.html",
+   "mobile": "site/pages/motors-scrolled/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "motors-model",
+   "title": "Motors: Honda Civic",
+   "caption": "On a car page (mobile: a back button and the car name).",
+   "next": null,
+   "desktop": "site/pages/motors-model/desktop.html",
+   "mobile": "site/pages/motors-model/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "motors-model-scrolled",
+   "title": "Honda Civic, scrolled (sticky section tabs)",
+   "caption": "A car page after scrolling.",
+   "next": null,
+   "desktop": "site/pages/motors-model-scrolled/desktop.html",
+   "mobile": "site/pages/motors-model-scrolled/mobile.html"
+  },
+  {
+   "step": 5,
+   "page": "motors-compare-result-scrolled",
+   "title": "Comparison, scrolled (sticky car header)",
+   "caption": "A comparison after scrolling.",
+   "next": null,
+   "desktop": "site/pages/motors-compare-result-scrolled/desktop.html",
+   "mobile": "site/pages/motors-compare-result-scrolled/mobile.html"
+  }
+ ]
+}

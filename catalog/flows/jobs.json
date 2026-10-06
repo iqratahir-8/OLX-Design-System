@@ -1,0 +1,34 @@
+{
+ "id": "jobs",
+ "title": "Jobs: find work",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "cat-jobs",
+   "title": "Jobs",
+   "caption": "Jobs across Pakistan.",
+   "next": null,
+   "desktop": "site/pages/cat-jobs/desktop.html",
+   "mobile": "site/pages/cat-jobs/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "sub-online-jobs",
+   "title": "Online Jobs",
+   "caption": "Online jobs.",
+   "next": null,
+   "desktop": "site/pages/sub-online-jobs/desktop.html",
+   "mobile": "site/pages/sub-online-jobs/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "ad-online-jobs",
+   "title": "Ad: Online Jobs",
+   "caption": "A job ad.",
+   "next": null,
+   "desktop": "site/pages/ad-online-jobs/desktop.html",
+   "mobile": "site/pages/ad-online-jobs/mobile.html"
+  }
+ ]
+}

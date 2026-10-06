@@ -52,6 +52,7 @@ const data = JSON.parse(await readFile('prototype/data.json', 'utf8'));
 const css = new Set();
 let bundle = {}, bundleSize = 0, bundleNo = 0;
 const bundleFiles = [];
+let kitAssets = false;
 async function flush() {
   if (!bundleSize) return;
   const name = `site/sections/sections-${String(++bundleNo).padStart(2, '0')}.json`;
@@ -72,8 +73,18 @@ async function flushPages() {
   pageBundle = {}; pageBundleSize = 0;
 }
 for (const s of Object.values(data.pages)) {
-  const html = s.html.replace('../', ''), png = s.image.replace('../', '');
-  await copy(png);
+  const html = s.html.replace('../', '');
+  if (s.kit) {
+    // Design-kit pages stay files (their links between pages work as-is), with the
+    // kit's shared CSS and icons. Its fonts are licensed and not in the repo.
+    await copy(html);
+    if (!kitAssets) {
+      for (const f of await walk('storybook/design-kit/templates/_assets')) if (!f.includes('/fonts/')) await copy(f);
+      kitAssets = true;
+    }
+    continue;
+  }
+  await copy(s.image.replace('../', ''));
   const pageText = await readFile(html, 'utf8');
   if (frames.has(html)) await copy(html);
   else {

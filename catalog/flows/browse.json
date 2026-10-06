@@ -1,0 +1,52 @@
+{
+ "id": "browse",
+ "title": "Browse a category to an ad",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "home",
+   "title": "Home",
+   "caption": "Start on the home page and choose Mobiles.",
+   "next": "Mobiles",
+   "desktop": "site/pages/home/desktop.html",
+   "mobile": "site/pages/home/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "cat-mobiles",
+   "title": "Mobiles",
+   "caption": "The Mobiles category with its filters.",
+   "next": "Mobile Phones",
+   "desktop": "site/pages/cat-mobiles/desktop.html",
+   "mobile": "site/pages/cat-mobiles/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "sub-mobile-phones",
+   "title": "Mobile Phones",
+   "caption": "Mobile Phones in list view. Open an ad.",
+   "next": null,
+   "desktop": "site/pages/sub-mobile-phones/desktop.html",
+   "mobile": "site/pages/sub-mobile-phones/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "ad-mobiles",
+   "title": "Ad: Mobiles",
+   "caption": "The ad: photos, details and the seller.",
+   "next": "Chat",
+   "desktop": "site/pages/ad-mobiles/desktop.html",
+   "mobile": "site/pages/ad-mobiles/mobile.html"
+  },
+  {
+   "step": 5,
+   "page": "login",
+   "title": "Login options",
+   "caption": "Contacting a seller asks you to log in.",
+   "next": null,
+   "desktop": "site/pages/login/desktop.html",
+   "mobile": "site/pages/login/mobile.html"
+  }
+ ]
+}

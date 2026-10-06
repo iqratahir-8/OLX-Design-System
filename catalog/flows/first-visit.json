@@ -1,0 +1,34 @@
+{
+ "id": "first-visit",
+ "title": "First visit on mobile",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "location-prompt",
+   "title": "Location prompt (first visit)",
+   "caption": "OLX asks where you want to buy or sell.",
+   "next": "Other address",
+   "desktop": null,
+   "mobile": "site/pages/location-prompt/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "location-select",
+   "title": "Choose location (first visit)",
+   "caption": "Pick a location, or browse all of Pakistan.",
+   "next": "See all in Pakistan",
+   "desktop": null,
+   "mobile": "site/pages/location-select/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "home",
+   "title": "Home",
+   "caption": "The home page, with categories and fresh listings.",
+   "next": null,
+   "desktop": "site/pages/home/desktop.html",
+   "mobile": "site/pages/home/mobile.html"
+  }
+ ]
+}

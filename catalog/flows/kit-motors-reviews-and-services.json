@@ -1,0 +1,52 @@
+{
+ "id": "kit-motors-reviews-and-services",
+ "title": "Motors: Reviews and services",
+ "source": "design-kit",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors-reviews",
+   "title": "Motors: Car reviews",
+   "caption": "Car reviews",
+   "next": "Toyota Corolla reviews",
+   "desktop": "site/pages/motors-reviews/desktop.html",
+   "mobile": "site/pages/motors-reviews/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-model-reviews",
+   "title": "Motors: Toyota Corolla reviews",
+   "caption": "Toyota Corolla reviews",
+   "next": "A Corolla owner review",
+   "desktop": "site/pages/motors-model-reviews/desktop.html",
+   "mobile": "site/pages/motors-model-reviews/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "motors-review",
+   "title": "Motors: A Corolla owner review",
+   "caption": "A Corolla owner review",
+   "next": "Car inspection",
+   "desktop": "site/pages/motors-review/desktop.html",
+   "mobile": "site/pages/motors-review/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "motors-inspection",
+   "title": "Motors: Car inspection",
+   "caption": "Car inspection",
+   "next": "Auction sheet verification",
+   "desktop": "site/pages/motors-inspection/desktop.html",
+   "mobile": "site/pages/motors-inspection/mobile.html"
+  },
+  {
+   "step": 5,
+   "page": "motors-auction-sheet",
+   "title": "Motors: Auction sheet verification",
+   "caption": "Auction sheet verification",
+   "next": null,
+   "desktop": "site/pages/motors-auction-sheet/desktop.html",
+   "mobile": "site/pages/motors-auction-sheet/mobile.html"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "id": "motors-tyres",
+ "title": "Motors: find tyres",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors-tyres",
+   "title": "Motors: Car tyres",
+   "caption": "Find tyres for your car.",
+   "next": "Seres 3",
+   "desktop": "site/pages/motors-tyres/desktop.html",
+   "mobile": "site/pages/motors-tyres/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-model-tyres",
+   "title": "Motors: Seres 3 tyres",
+   "caption": "Tyre sizes for one car generation (Seres 3, 2023 to 2026).",
+   "next": null,
+   "desktop": "site/pages/motors-model-tyres/desktop.html",
+   "mobile": "site/pages/motors-model-tyres/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "motors-brand-tyres",
+   "title": "Motors: Toyota tyres",
+   "caption": "Tyres by make: Toyota.",
+   "next": null,
+   "desktop": "site/pages/motors-brand-tyres/desktop.html",
+   "mobile": "site/pages/motors-brand-tyres/mobile.html"
+  }
+ ]
+}

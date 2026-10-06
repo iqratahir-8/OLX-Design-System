@@ -13,7 +13,25 @@
     return (await bundles.get(s.bundle))[sec.html];
   }
   // A standalone document whose relative CSS links resolve from where its file lives.
-  const withBase = (html, path) => html.replace(/<head>/i, `<head><base href="${new URL(asset(path).replace(/[^/]*$/, ''), location.href).href}">`);
+  const withBase = (html, path) => html.replace(/<head[^>]*>/i, (m) => `${m}<base href="${new URL(asset(path).replace(/[^/]*$/, ''), location.href).href}">`);
+  // Page HTML: a file, or (in a publish) an entry in a bundle of pages.
+  async function pageHtml(s) {
+    if (!s.pageBundle) return fetch(asset(s.html)).then((r) => r.text());
+    if (!bundles.has(s.pageBundle)) bundles.set(s.pageBundle, fetch(asset(s.pageBundle)).then((r) => r.json()));
+    return (await bundles.get(s.pageBundle))[s.html];
+  }
+  function loadFrame(frame, s) {
+    if (s.pageBundle) pageHtml(s).then((h) => { frame.srcdoc = withBase(h, s.html); });
+    else frame.src = asset(s.html);
+  }
+  // Design-kit sections have no file of their own: cut them out of the page by selector.
+  async function sectionDoc(s, sec) {
+    if (sec.html) return sectionHtml(s, sec);
+    const doc = new DOMParser().parseFromString(await pageHtml(s), 'text/html');
+    const el = doc.querySelector(sec.selector);
+    doc.body.innerHTML = `<div style="width:${sec.width}px">${el ? el.outerHTML : ''}</div>`;
+    return `<!doctype html>\n${doc.documentElement.outerHTML}`;
+  }
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
   const store = { get(k, d) { try { return JSON.parse(localStorage.getItem(`olx-proto-${k}`)) ?? d; } catch { return d; } }, set(k, v) { try { localStorage.setItem(`olx-proto-${k}`, JSON.stringify(v)); } catch { /* ignore */ } } };
@@ -139,16 +157,11 @@
     inner.style.width = `${width}px`;
     inner.style.height = `${s.height * scale}px`;
     // Scrolled states are screenshots of one moment in the scroll; the HTML would open at the top.
-    if (state.view === 'html' && !s.scrolled) {
+    // Design-kit pages have no screenshot, so they always show live HTML.
+    if ((state.view === 'html' || !s.image) && !s.scrolled) {
       inner.style.overflow = 'hidden';
       inner.innerHTML = `<iframe class="pt-live" title="${esc(s.title)}, live HTML" scrolling="no" tabindex="-1" style="width:${s.width}px;height:${s.height}px;transform:scale(${scale})"></iframe>`;
-      // A publish may pack page HTML into bundles (s.pageBundle), rendered in place.
-      if (!s.pageBundle) inner.firstElementChild.src = asset(s.html);
-      else {
-        const frame = inner.firstElementChild;
-        if (!bundles.has(s.pageBundle)) bundles.set(s.pageBundle, fetch(asset(s.pageBundle)).then((r) => r.json()));
-        bundles.get(s.pageBundle).then((b) => { frame.srcdoc = withBase(b[s.html], s.html); });
-      }
+      loadFrame(inner.firstElementChild, s);
     } else {
       inner.innerHTML = `<img alt="${esc(s.title)} as captured from olx.com.pk" src="${asset(s.image)}" width="${Math.round(width)}" height="${Math.round(s.height * scale)}">`;
     }
@@ -205,8 +218,8 @@
     const thumbW = 272;
     s.sections.forEach((sec, i) => {
       const k = thumbW / sec.width;
-      const thumb = `<span class="pt-sec__thumb" style="height:${Math.min(120, Math.round(sec.height * k))}px;background-image:url('${asset(s.image)}');background-size:${s.width * k}px auto;background-position:${-sec.x * k}px ${-sec.y * k}px"></span>`;
-      const files = `<button type="button" class="pt-linkbtn" data-sec-html="${i}">HTML</button>${s.bundle ? '' : `<a href="${asset(sec.image)}" target="_blank" rel="noopener">Image</a>`}`;
+      const thumb = s.image ? `<span class="pt-sec__thumb" style="height:${Math.min(120, Math.round(sec.height * k))}px;background-image:url('${asset(s.image)}');background-size:${s.width * k}px auto;background-position:${-sec.x * k}px ${-sec.y * k}px"></span>` : '';
+      const files = `<button type="button" class="pt-linkbtn" data-sec-html="${i}">HTML</button>${s.bundle || !sec.image ? '' : `<a href="${asset(sec.image)}" target="_blank" rel="noopener">Image</a>`}`;
       html += `<div class="pt-sec"><button type="button" data-sec="${i}">${thumb}<span class="pt-sec__name">${i + 1}. ${esc(sec.name)}</span></button>
         <span class="pt-sec__meta"><span>${sec.width} × ${sec.height}</span>${files}</span></div>`;
     });
@@ -224,14 +237,14 @@
     const code = modal.querySelector('code');
     render.replaceChildren(); code.textContent = 'Loading…';
     try {
-      modalHtml = await sectionHtml(s, sec);
+      modalHtml = await sectionDoc(s, sec);
       const k = Math.min(1, (render.clientWidth || 800) / sec.width);
       const box = document.createElement('div');
       box.style.cssText = `width:${sec.width * k}px;height:${sec.height * k}px;overflow:hidden;position:relative`;
       const f = document.createElement('iframe');
       f.title = `${sec.name}, live HTML`;
       f.style.cssText = `position:absolute;left:0;top:0;border:0;width:${sec.width}px;height:${sec.height}px;transform:scale(${k});transform-origin:0 0`;
-      f.srcdoc = withBase(modalHtml, sec.html);
+      f.srcdoc = withBase(modalHtml, sec.html ?? s.html);
       box.append(f); render.append(box);
       code.textContent = modalHtml;
     } catch (err) { code.textContent = `Could not load this section (${err.message}).`; }
@@ -275,7 +288,10 @@
       b.disabled = !available(state.id).includes(b.dataset.vp);
     });
     $('pt-back').disabled = history.length === 0;
-    document.querySelectorAll('.pt-seg [data-view]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === state.view)));
+    document.querySelectorAll('.pt-seg [data-view]').forEach((b) => {
+      b.setAttribute('aria-pressed', String(!s?.image ? b.dataset.view === 'html' : b.dataset.view === state.view));
+      b.disabled = !s?.image;
+    });
     if (s) $('pt-book').href = `${window.PROTO_BOOK ?? '../book/'}#screen-${s.id}`;
   }
   function render() {

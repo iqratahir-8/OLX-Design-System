@@ -1,0 +1,43 @@
+{
+ "id": "property",
+ "title": "Property: find a house",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "property",
+   "title": "Property",
+   "caption": "The Property landing page.",
+   "next": null,
+   "desktop": "site/pages/property/desktop.html",
+   "mobile": "site/pages/property/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "sub-houses",
+   "title": "Houses for Sale",
+   "caption": "Houses for sale.",
+   "next": null,
+   "desktop": "site/pages/sub-houses/desktop.html",
+   "mobile": "site/pages/sub-houses/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "ad-houses",
+   "title": "Ad: Houses for Sale",
+   "caption": "A house ad.",
+   "next": null,
+   "desktop": "site/pages/ad-houses/desktop.html",
+   "mobile": "site/pages/ad-houses/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "sub-flats-for-rent",
+   "title": "Flats for Rent",
+   "caption": "Flats for rent.",
+   "next": null,
+   "desktop": "site/pages/sub-flats-for-rent/desktop.html",
+   "mobile": "site/pages/sub-flats-for-rent/mobile.html"
+  }
+ ]
+}

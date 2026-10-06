@@ -238,7 +238,7 @@ async function resolvePath(browser, def) {
 }
 
 // Tag every link and button with where it pointed, before links are made inert.
-function tagTargets() {
+export function tagTargets() {
   let n = 0;
   for (const el of document.querySelectorAll('a[href], button, [role="button"], input[type="search"], input[placeholder], [aria-label="Listing"]')) {
     const r = el.getBoundingClientRect();

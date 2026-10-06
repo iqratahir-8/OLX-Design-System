@@ -1,0 +1,43 @@
+{
+ "id": "motors-research",
+ "title": "Motors: research a new car",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors",
+   "title": "Motors",
+   "caption": "The Motors landing page.",
+   "next": "New Cars",
+   "desktop": "site/pages/motors/desktop.html",
+   "mobile": "site/pages/motors/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-new-cars",
+   "title": "Motors: New cars",
+   "caption": "New cars by make, body type and budget. Open a popular car.",
+   "next": "Toyota Corolla",
+   "desktop": "site/pages/motors-new-cars/desktop.html",
+   "mobile": "site/pages/motors-new-cars/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "motors-model-corolla",
+   "title": "Motors: Toyota Corolla",
+   "caption": "The Corolla: prices, variants, specs, colours and reviews.",
+   "next": "Altis CVT 1.6",
+   "desktop": "site/pages/motors-model-corolla/desktop.html",
+   "mobile": "site/pages/motors-model-corolla/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "motors-version",
+   "title": "Motors: Corolla Altis CVT 1.6",
+   "caption": "One Corolla variant in detail.",
+   "next": null,
+   "desktop": "site/pages/motors-version/desktop.html",
+   "mobile": "site/pages/motors-version/mobile.html"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "motors-batteries",
+ "title": "Motors: find a battery or oil",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors-batteries",
+   "title": "Motors: Car batteries",
+   "caption": "Find a battery for your car.",
+   "next": "Honda Civic",
+   "desktop": "site/pages/motors-batteries/desktop.html",
+   "mobile": "site/pages/motors-batteries/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-model-batteries",
+   "title": "Motors: Honda Civic batteries",
+   "caption": "Batteries for the Honda Civic (2022 to 2026).",
+   "next": null,
+   "desktop": "site/pages/motors-model-batteries/desktop.html",
+   "mobile": "site/pages/motors-model-batteries/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "motors-brand-batteries",
+   "title": "Motors: Toyota batteries",
+   "caption": "Batteries by make: Toyota.",
+   "next": null,
+   "desktop": "site/pages/motors-brand-batteries/desktop.html",
+   "mobile": "site/pages/motors-brand-batteries/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "motors-oil-grades",
+   "title": "Motors: Engine oil grades",
+   "caption": "Engine oil grades.",
+   "next": null,
+   "desktop": "site/pages/motors-oil-grades/desktop.html",
+   "mobile": "site/pages/motors-oil-grades/mobile.html"
+  }
+ ]
+}

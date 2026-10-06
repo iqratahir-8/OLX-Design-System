@@ -410,12 +410,27 @@
     if (!bundles.has(s.bundle)) bundles.set(s.bundle, fetch(site(s.bundle)).then((r) => r.json()));
     return (await bundles.get(s.bundle))[sec.html];
   }
-  const withBase = (html, path) => html.replace(/<head>/i, `<head><base href="${new URL(site(path).replace(/[^/]*$/, ''), location.href).href}">`);
-  // A publish may pack page HTML into bundles too (s.pageBundle); the repo has one file per page.
+  const withBase = (html, path) => html.replace(/<head[^>]*>/i, (m) => `${m}<base href="${new URL(site(path).replace(/[^/]*$/, ''), location.href).href}">`);
+  // Page HTML: a file, or (in a publish) an entry in a bundle of pages.
   async function pageHtml(s) {
     if (!s.pageBundle) return fetch(site(s.html)).then((r) => r.text());
     if (!bundles.has(s.pageBundle)) bundles.set(s.pageBundle, fetch(site(s.pageBundle)).then((r) => r.json()));
     return (await bundles.get(s.pageBundle))[s.html];
+  }
+  // Design-kit sections have no file of their own: cut them out of the page by selector.
+  async function sectionDoc(s, sec) {
+    if (sec.html) return sectionHtml(s, sec);
+    const doc = new DOMParser().parseFromString(await pageHtml(s), 'text/html');
+    const el = doc.querySelector(sec.selector);
+    doc.body.innerHTML = `<div style="width:${sec.width}px">${el ? el.outerHTML : ''}</div>`;
+    return `<!doctype html>\n${doc.documentElement.outerHTML}`;
+  }
+  // A live render of a screen (or a region of it), from its file or its bundle.
+  function screenFrame(s, maxWidth, rect) {
+    if (!s.pageBundle) return liveFrame(site(s.html), s.width, s.height, maxWidth, rect);
+    const box = liveFrame('about:blank', s.width, s.height, maxWidth, rect);
+    pageHtml(s).then((h) => { box.querySelector('iframe').srcdoc = withBase(h, s.html); });
+    return box;
   }
   function codeBox(text) {
     const box = el('<div class="book-code"><pre><code></code></pre></div>');
@@ -453,10 +468,13 @@
       for (const pg of g.pages) {
         const s = pages[`${pg.id}~desktop`] ?? pages[`${pg.id}~mobile`];
         const k = 240 / s.width;
-        grid.append(el(`<a class="book-card" href="#screen-${pg.id}">
-          <span class="book-card__thumb" style="height:150px;background:#fff url('${site(s.image)}') no-repeat 0 0/${s.width * k}px auto"></span>
+        const card = el(`<a class="book-card" href="#screen-${pg.id}">
+          <span class="book-card__thumb" style="height:150px;${s.image ? `background:#fff url('${site(s.image)}') no-repeat 0 0/${s.width * k}px auto` : 'background:#fff;overflow:hidden;place-items:start'}"></span>
           <span class="book-card__name">${esc(pg.title)}</span>
-          <p class="book-card__desc">${esc(screenHint(pg.id).replace('D', 'Desktop').replace('M', 'Mobile').replace(' ', ', '))} · ${s.sections.length} sections</p></a>`));
+          <p class="book-card__desc">${esc(screenHint(pg.id).replace('D', 'Desktop').replace('M', 'Mobile').replace(' ', ', '))} · ${s.sections.length} sections${s.image ? '' : ' · live HTML'}</p></a>`);
+        // Design-kit pages have no screenshot: the thumbnail is the top of the live page.
+        if (!s.image) card.querySelector('.book-card__thumb').append(screenFrame(s, 240, { x: 0, y: 0, width: s.width, height: Math.round(150 / k) }));
+        grid.append(card);
       }
       p.append(grid);
     }
@@ -479,23 +497,32 @@
     </ul>`));
     const bar = el('<div class="book-toolbar"></div>');
     bar.append(segmented([['desktop', 'Desktop', !vps.includes('desktop')], ['mobile', 'Mobile', !vps.includes('mobile')]], state.viewport, (v) => { state.viewport = v; save(); route(); }, 'Viewport'));
-    bar.append(segmented([['render', 'Live HTML'], ['shot', 'Screenshot'], ['html', 'HTML source']], state.tab, (t) => { state.tab = t; save(); route(); }, 'View'));
+    const tab = !s.image && state.tab === 'shot' ? 'render' : state.tab;
+    bar.append(segmented([['render', 'Live HTML'], ['shot', 'Screenshot', !s.image], ['html', 'HTML source']], tab, (t) => { state.tab = t; save(); route(); }, 'View'));
     const actions = el('<div class="book-actions"></div>');
     actions.append(el(`<a class="book-btn" href="${url(`${PROTO}/index.html`)}#${id}~${s.vp}">Open in prototype</a>`));
-    if (!s.pageBundle) actions.append(el(`<a class="book-btn" href="${site(s.html)}" target="_blank" rel="noopener">Open HTML</a>`));
+    if (s.pageBundle) {
+      const dl = el('<button class="book-btn" type="button">Download HTML</button>');
+      dl.addEventListener('click', async () => {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(new Blob([await pageHtml(s)], { type: 'text/html' }));
+        a.download = `${id}-${s.vp}.html`; a.click();
+      });
+      actions.append(dl);
+    } else actions.append(el(`<a class="book-btn" href="${site(s.html)}" target="_blank" rel="noopener">Open HTML</a>`));
     bar.append(actions);
     p.append(bar);
     if (flows.length) p.append(el(`<p class="book-stage__caption">In flows: ${flows.map((f) => `<a href="${url(`${PROTO}/index.html`)}#flow~${f.id}~${f.steps.findIndex((st) => st.page === id)}~${s.vp}">${esc(f.title)}</a>`).join(', ')}</p>`));
 
     const max = stageWidth();
-    if (state.tab === 'html') {
+    if (tab === 'html') {
       const holder = el('<div><p class="book-stage__caption">Loading the page HTML…</p></div>');
       pageHtml(s).then((h) => holder.replaceChildren(codeBox(h))).catch(() => { holder.textContent = 'Could not load the HTML file.'; });
       p.append(holder);
     } else {
       const stage = el('<div class="book-stage"></div>');
-      if (state.tab === 'shot') stage.append(el(`<img class="book-shot" alt="${esc(s.title)} on olx.com.pk" src="${site(s.image)}" style="width:${Math.min(s.width, max)}px">`));
-      else stage.append(liveFrame(s.pageBundle ? pageHtml(s).then((h) => withBase(h, s.html)) : site(s.html), s.width, s.height, max));
+      if (tab === 'shot') stage.append(el(`<img class="book-shot" alt="${esc(s.title)} on olx.com.pk" src="${site(s.image)}" style="width:${Math.min(s.width, max)}px">`));
+      else stage.append(screenFrame(s, max));
       p.append(stage);
     }
 
@@ -505,7 +532,7 @@
     s.sections.forEach((sec, i) => {
       const k = Math.min(1, 320 / sec.width);
       const item = el(`<details class="book-section">
-        <summary><span class="book-section__thumb" style="width:${sec.width * k}px;height:${Math.min(160, sec.height * k)}px;background-image:url('${site(s.image)}');background-size:${s.width * k}px auto;background-position:${-sec.x * k}px ${-sec.y * k}px"></span>
+        <summary>${s.image ? `<span class="book-section__thumb" style="width:${sec.width * k}px;height:${Math.min(160, sec.height * k)}px;background-image:url('${site(s.image)}');background-size:${s.width * k}px auto;background-position:${-sec.x * k}px ${-sec.y * k}px"></span>` : ''}
         <span><strong>${i + 1}. ${esc(sec.name)}</strong><br><span class="book-link__hint">${sec.width} × ${sec.height}px</span></span></summary>
         <div class="book-section__body"></div></details>`);
       item.addEventListener('toggle', async () => {
@@ -513,12 +540,12 @@
         if (!item.open || body.childElementCount) return;
         body.append(el('<p class="book-stage__caption">Loading…</p>'));
         try {
-          const html = await sectionHtml(s, sec);
+          const html = await sectionDoc(s, sec);
           const w = Math.min(1, (body.clientWidth - 2 || max) / sec.width);
           const box = el(`<div class="book-crop" style="width:${sec.width * w}px;height:${sec.height * w}px"></div>`);
           const inner = el(`<div class="book-crop__inner" style="width:${sec.width}px;height:${sec.height}px;transform:scale(${w})"></div>`);
           const f = el(`<iframe title="${esc(sec.name)}, live HTML" scrolling="no" tabindex="-1" style="left:0;top:0;width:${sec.width}px;height:${sec.height}px"></iframe>`);
-          f.srcdoc = withBase(html, sec.html);
+          f.srcdoc = withBase(html, sec.html ?? s.html);
           inner.append(f); box.append(inner);
           body.replaceChildren(box, codeBox(html));
         } catch (err) { body.replaceChildren(el(`<p class="book-stage__caption">Could not load this section (${esc(err.message)}).</p>`)); }

@@ -1,0 +1,25 @@
+{
+ "id": "motors-compare",
+ "title": "Motors: compare two cars",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors-compare",
+   "title": "Motors: Car comparison",
+   "caption": "Pick two cars, or open a popular comparison.",
+   "next": "View Comparison",
+   "desktop": "site/pages/motors-compare/desktop.html",
+   "mobile": "site/pages/motors-compare/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-compare-result",
+   "title": "Motors: Jaecoo J7 vs Kia Sportage",
+   "caption": "Jaecoo J7 vs Kia Sportage, side by side.",
+   "next": null,
+   "desktop": "site/pages/motors-compare-result/desktop.html",
+   "mobile": "site/pages/motors-compare-result/mobile.html"
+  }
+ ]
+}
