@@ -27,6 +27,15 @@ export function freezePage(origin) {
     const name = label.nextElementSibling ?? label.parentElement?.nextElementSibling;
     if (name && name.textContent.trim()) name.textContent = 'Seller name';
   }
+  // Reviewer names on Motors reviews: "Posted by <b>name</b>, Jan 26, 2023" and
+  // "by <b>"name"</b> for Toyota Corolla" (React leaves comment nodes in between).
+  const byWalker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+  for (let n; (n = byWalker.nextNode());) {
+    if (!/(^|\bPosted )by\s*$/i.test(n.nodeValue) || !/^\s*(Posted )?by\s*$/i.test(n.nodeValue)) continue;
+    let name = n.nextSibling;
+    while (name && (name.nodeType === 8 || (name.nodeType === 3 && !name.nodeValue.trim()))) name = name.nextSibling;
+    if (name?.nodeType === 1 && name.textContent.trim() && !/^(Seller name|OLX User)$/.test(name.textContent.trim())) name.textContent = 'User name';
+  }
   // Phone numbers in ad titles and text (also in title/alt/aria-label attributes).
   const phone = /(\+?92[\s-]?|\b0)3\d{2}[\s-]?\d{7}\b|\b\d{4}[\s-]\d{7}\b/g;
   const email = /[\w.+-]+@[\w-]+(\.[\w-]+)+/g;

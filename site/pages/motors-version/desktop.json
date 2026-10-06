@@ -1,0 +1,732 @@
+{
+ "id": "motors-version",
+ "title": "Motors: Corolla Altis CVT 1.6",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-cvt-1-6/",
+ "finalUrl": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-cvt-1-6/",
+ "width": 1440,
+ "height": 2856,
+ "dpr": 1,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:52:06.432Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 111
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-new-toyota-corolla-altis-cvt-1-6-2026-pr",
+   "name": "New Toyota Corolla Altis CVT 1.6 2026 Pr",
+   "rect": {
+    "x": 0,
+    "y": 110,
+    "width": 1440,
+    "height": 533
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-toyota-corolla-altis-cvt-1-6-key-feature",
+   "name": "Toyota Corolla Altis CVT 1.6 Key Feature",
+   "rect": {
+    "x": 80,
+    "y": 687,
+    "width": 1280,
+    "height": 856
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-if-you-own-a-car-leave-a-review-and-let",
+   "name": "If you own a car, leave a review and let",
+   "rect": {
+    "x": 80,
+    "y": 1574,
+    "width": 1280,
+    "height": 189
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "05-other-recommended-cars",
+   "name": "Other Recommended Cars",
+   "rect": {
+    "x": 80,
+    "y": 1794,
+    "width": 1280,
+    "height": 266
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "06-find-new-and-used-toyota-corolla-cars-by",
+   "name": "Find New & Used Toyota Corolla Cars By C",
+   "rect": {
+    "x": 80,
+    "y": 2091,
+    "width": 1280,
+    "height": 166
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "07-find-amazing-deals-on-the-go-download-ol",
+   "name": "Find amazing deals on the go.Download OL",
+   "rect": {
+    "x": 0,
+    "y": 2338,
+    "width": 1440,
+    "height": 518
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 159,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 300,
+   "y": 24,
+   "width": 191,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1256,
+   "y": 12,
+   "width": 104,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/post/",
+   "label": "Sell"
+  },
+  {
+   "x": 80,
+   "y": 78,
+   "width": 63,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Used Cars"
+  },
+  {
+   "x": 185,
+   "y": 78,
+   "width": 60,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 287,
+   "y": 78,
+   "width": 101,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/",
+   "label": "Car Comparison"
+  },
+  {
+   "x": 430,
+   "y": 78,
+   "width": 77,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/",
+   "label": "Car Reviews"
+  },
+  {
+   "x": 549,
+   "y": 78,
+   "width": 72,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/",
+   "label": "Car Finance"
+  },
+  {
+   "x": 663,
+   "y": 78,
+   "width": 91,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-inspection/",
+   "label": "Car Inspection"
+  },
+  {
+   "x": 796,
+   "y": 78,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/",
+   "label": "Car Insurance"
+  },
+  {
+   "x": 80,
+   "y": 121,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 140,
+   "y": 121,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 205,
+   "y": 121,
+   "width": 51,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 284,
+   "y": 121,
+   "width": 35,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/",
+   "label": "Toyota"
+  },
+  {
+   "x": 347,
+   "y": 121,
+   "width": 38,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/",
+   "label": "Corolla"
+  },
+  {
+   "x": 1108,
+   "y": 266,
+   "width": 252,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-toyota-corolla-altis-cvt-1-6",
+   "label": "View Toyota Corolla Altis CVT 1.6 for Sale"
+  },
+  {
+   "x": 81,
+   "y": 733,
+   "width": 369,
+   "height": 90,
+   "kind": "button",
+   "label": "Dimensions"
+  },
+  {
+   "x": 81,
+   "y": 822,
+   "width": 369,
+   "height": 90,
+   "kind": "button",
+   "label": "Engine & Performance"
+  },
+  {
+   "x": 81,
+   "y": 911,
+   "width": 369,
+   "height": 90,
+   "kind": "button",
+   "label": "Suspension, Steering & Brakes"
+  },
+  {
+   "x": 81,
+   "y": 1000,
+   "width": 369,
+   "height": 90,
+   "kind": "button",
+   "label": "Wheels & Tyres"
+  },
+  {
+   "x": 81,
+   "y": 1089,
+   "width": 369,
+   "height": 90,
+   "kind": "button",
+   "label": "Fuel Consumptions"
+  },
+  {
+   "x": 81,
+   "y": 1178,
+   "width": 369,
+   "height": 90,
+   "kind": "button",
+   "label": "Safety"
+  },
+  {
+   "x": 81,
+   "y": 1267,
+   "width": 369,
+   "height": 90,
+   "kind": "button",
+   "label": "Exterior"
+  },
+  {
+   "x": 81,
+   "y": 1356,
+   "width": 369,
+   "height": 97,
+   "kind": "button",
+   "label": "Entertainment & Communications"
+  },
+  {
+   "x": 81,
+   "y": 1452,
+   "width": 369,
+   "height": 90,
+   "kind": "button",
+   "label": "Comfort & Convenience"
+  },
+  {
+   "x": 112,
+   "y": 1682,
+   "width": 188,
+   "height": 49,
+   "kind": "button",
+   "label": "Write a Review"
+  },
+  {
+   "x": 80,
+   "y": 1839,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/",
+   "label": "Rs 83.29 – 98.99 LacsHonda Civic1498 cc Automatic Petrol"
+  },
+  {
+   "x": 425,
+   "y": 1839,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/yaris/",
+   "label": "Rs 44.79 – 64.69 LacsToyota Yaris1329 – 1496 cc CVT Petrol"
+  },
+  {
+   "x": 770,
+   "y": 1839,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/city/",
+   "label": "Rs 46.49 – 60.89 LacsHonda City1199 – 1497 cc Automatic Petrol"
+  },
+  {
+   "x": 1115,
+   "y": 1839,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/hyundai/elantra/",
+   "label": "Rs 63.99 – 97 LacsHyundai Elantra1580 – 1999 cc Automatic Hybrid"
+  },
+  {
+   "x": 1461,
+   "y": 1839,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/hyundai/sonata/",
+   "label": "Rs 1.02 – 1.65 CroresHyundai Sonata1999 – 2497 cc Automatic Petrol"
+  },
+  {
+   "x": 1806,
+   "y": 1839,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/changan/alsvin/",
+   "label": "Rs 37.99 – 45.49 LacsChangan Alsvin1370 – 1480 cc Manual Petrol"
+  },
+  {
+   "x": 80,
+   "y": 2136,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Lahore"
+  },
+  {
+   "x": 295,
+   "y": 2136,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Karachi"
+  },
+  {
+   "x": 510,
+   "y": 2136,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Rawalpindi"
+  },
+  {
+   "x": 725,
+   "y": 2136,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Islamabad"
+  },
+  {
+   "x": 941,
+   "y": 2136,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Faisalabad"
+  },
+  {
+   "x": 1156,
+   "y": 2136,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Gujranwala"
+  },
+  {
+   "x": 80,
+   "y": 2167,
+   "width": 204,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mardan_g4060623/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Mardan"
+  },
+  {
+   "x": 295,
+   "y": 2167,
+   "width": 204,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/peshawar_g4060643/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Peshawar"
+  },
+  {
+   "x": 510,
+   "y": 2167,
+   "width": 204,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/multan_g4060675/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Multan"
+  },
+  {
+   "x": 725,
+   "y": 2167,
+   "width": 205,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sialkot_g4060686/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Sialkot"
+  },
+  {
+   "x": 941,
+   "y": 2167,
+   "width": 204,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Bahawalpur"
+  },
+  {
+   "x": 1156,
+   "y": 2167,
+   "width": 204,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Gujrat"
+  },
+  {
+   "x": 80,
+   "y": 2218,
+   "width": 204,
+   "height": 39,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/abbottabad_g4060640/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Abbottabad"
+  },
+  {
+   "x": 295,
+   "y": 2218,
+   "width": 204,
+   "height": 39,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/swabi_g4060645/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Swabi"
+  },
+  {
+   "x": 510,
+   "y": 2218,
+   "width": 204,
+   "height": 39,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sargodha_g4060684/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Sargodha"
+  },
+  {
+   "x": 725,
+   "y": 2218,
+   "width": 205,
+   "height": 39,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyderabad_g4060693/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Hyderabad"
+  },
+  {
+   "x": 941,
+   "y": 2218,
+   "width": 204,
+   "height": 39,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sukkur_g4060702/cars_c84/q-toyota-corolla",
+   "label": "Toyota Corolla in Sukkur"
+  },
+  {
+   "x": 960,
+   "y": 2420,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 1096,
+   "y": 2420,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 1232,
+   "y": 2420,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://appgallery.huawei.com/app/C104375435",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 2614,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 2646,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 2678,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 2710,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4/",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 2614,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81/",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 2646,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970/",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 2678,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-books/",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 2710,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-dogs/",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 2614,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 2646,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/requests/new",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 2678,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 2614,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 2646,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 2678,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 2710,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 2614,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 2614,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 2614,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 2614,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

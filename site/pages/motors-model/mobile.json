@@ -1,0 +1,493 @@
+{
+ "id": "motors-model",
+ "title": "Motors: Honda Civic",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/motors/new-cars/honda/civic/",
+ "finalUrl": "https://www.olx.com.pk/motors/new-cars/honda/civic/",
+ "width": 390,
+ "height": 4326,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:51:47.422Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 64
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-price-range",
+   "name": "Price Range",
+   "rect": {
+    "x": 0,
+    "y": 76,
+    "width": 390,
+    "height": 799
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "03-honda-civic-variants",
+   "name": "Honda Civic Variants",
+   "rect": {
+    "x": 16,
+    "y": 898,
+    "width": 358,
+    "height": 361
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "04-honda-civic-2027-price",
+   "name": "Honda Civic 2027 Price",
+   "rect": {
+    "x": 16,
+    "y": 1282,
+    "width": 203,
+    "height": 39
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "05-if-you-own-a-car-leave-a-review-and-let",
+   "name": "If you own a car, leave a review and let",
+   "rect": {
+    "x": 16,
+    "y": 1344,
+    "width": 358,
+    "height": 654
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "06-consumer-reviews",
+   "name": "Consumer Reviews",
+   "rect": {
+    "x": 16,
+    "y": 2045,
+    "width": 358,
+    "height": 34
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(5) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "07-overall-rating-4-6-5-12-reviews",
+   "name": "Overall Rating · 4.6/5 · (12 Reviews)",
+   "rect": {
+    "x": 16,
+    "y": 2098,
+    "width": 358,
+    "height": 461
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(5) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "08-good",
+   "name": "Good",
+   "rect": {
+    "x": 16,
+    "y": 2591,
+    "width": 358,
+    "height": 590
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(5) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "09-other-recommended-cars",
+   "name": "Other Recommended Cars",
+   "rect": {
+    "x": 16,
+    "y": 3256,
+    "width": 358,
+    "height": 233
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(6)"
+  },
+  {
+   "file": "10-honda-civic-2026-faqs",
+   "name": "Honda Civic 2026 FAQs",
+   "rect": {
+    "x": 16,
+    "y": 3512,
+    "width": 358,
+    "height": 289
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(7)"
+  },
+  {
+   "file": "11-home-motors-new-cars",
+   "name": "Home · Motors · New Cars",
+   "rect": {
+    "x": 16,
+    "y": 3824,
+    "width": 358,
+    "height": 39
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(8)"
+  },
+  {
+   "file": "12-find-new-and-used-honda-civic-cars-by-ci",
+   "name": "Find New & Used Honda Civic Cars By City",
+   "rect": {
+    "x": 16,
+    "y": 3886,
+    "width": 358,
+    "height": 134
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(9)"
+  },
+  {
+   "file": "13-get-the-olx-app",
+   "name": "Get the OLX App",
+   "rect": {
+    "x": 0,
+    "y": 4059,
+    "width": 390,
+    "height": 267
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 236,
+   "y": 415,
+   "width": 138,
+   "height": 15,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-honda-civic",
+   "label": "View Honda Civic for Sale"
+  },
+  {
+   "x": 16,
+   "y": 930,
+   "width": 358,
+   "height": 106,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/standard/",
+   "label": "Honda Civic Standard 1498 Automatic Petrol 12 - 14 Km/Liter Rs 83.29 LacsCompare"
+  },
+  {
+   "x": 16,
+   "y": 1041,
+   "width": 358,
+   "height": 107,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/oriel/",
+   "label": "Honda Civic Oriel 1498 Automatic Petrol 12 - 14 Km/Liter Rs 86.59 LacsCompare"
+  },
+  {
+   "x": 16,
+   "y": 1153,
+   "width": 358,
+   "height": 106,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/rs/",
+   "label": "Honda Civic RS 1498 Automatic Petrol 12 - 14 Km/Liter Rs 98.99 LacsCompare"
+  },
+  {
+   "x": 16,
+   "y": 1282,
+   "width": 203,
+   "height": 39,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/2027/",
+   "label": "Honda Civic 2027 Price"
+  },
+  {
+   "x": 29,
+   "y": 1953,
+   "width": 120,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/write-a-review/",
+   "label": "Write a Review"
+  },
+  {
+   "x": 29,
+   "y": 1941,
+   "width": 120,
+   "height": 44,
+   "kind": "button",
+   "label": "Write a Review"
+  },
+  {
+   "x": 281,
+   "y": 2053,
+   "width": 93,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/honda/civic/",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 281,
+   "y": 2055,
+   "width": 93,
+   "height": 16,
+   "kind": "button",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 154,
+   "y": 2512,
+   "width": 82,
+   "height": 17,
+   "kind": "button",
+   "label": "View Less"
+  },
+  {
+   "x": 16,
+   "y": 2591,
+   "width": 358,
+   "height": 166,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/honda/civic/84/?version=50,11",
+   "label": "Good by OLX User for Honda Civic 1.5 VTEC Turbo Oriel 2016 on Feb 5, 20234.3/5Go"
+  },
+  {
+   "x": 16,
+   "y": 2810,
+   "width": 358,
+   "height": 152,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/honda/civic/72/?version=2948,459",
+   "label": "Honda Civic 2022by User name for Honda Civic Oriel 2022 on Jan 26, 20234.1/5Hond"
+  },
+  {
+   "x": 16,
+   "y": 3014,
+   "width": 358,
+   "height": 167,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/honda/civic/32/?version=50,11",
+   "label": "Amazing carby User name for Honda Civic 1.5 VTEC Turbo Oriel 2021 on Nov 14, 202"
+  },
+  {
+   "x": 148,
+   "y": 3192,
+   "width": 94,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/honda/civic/",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 148,
+   "y": 3194,
+   "width": 94,
+   "height": 15,
+   "kind": "button",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 16,
+   "y": 3290,
+   "width": 233,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/",
+   "label": "Rs 75.49 LacsToyota Corolla1298 – 1800 cc Manual Petrol"
+  },
+  {
+   "x": 262,
+   "y": 3290,
+   "width": 234,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/yaris/",
+   "label": "Rs 44.79 – 64.69 LacsToyota Yaris1329 – 1496 cc Manual Petrol"
+  },
+  {
+   "x": 509,
+   "y": 3290,
+   "width": 233,
+   "height": 199,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/city/",
+   "label": "Rs 46.49 – 56.49 LacsHonda City1199 – 1497 cc Automatic Petrol"
+  },
+  {
+   "x": 350,
+   "y": 3561,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 3618,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 3682,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 350,
+   "y": 3752,
+   "width": 24,
+   "height": 25,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 3824,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 76,
+   "y": 3824,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 141,
+   "y": 3824,
+   "width": 51,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 220,
+   "y": 3824,
+   "width": 35,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/",
+   "label": "Honda"
+  },
+  {
+   "x": 16,
+   "y": 3920,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Lahore"
+  },
+  {
+   "x": 201,
+   "y": 3920,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Karachi"
+  },
+  {
+   "x": 16,
+   "y": 3949,
+   "width": 173,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Rawalpindi"
+  },
+  {
+   "x": 201,
+   "y": 3949,
+   "width": 173,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Islamabad"
+  },
+  {
+   "x": 16,
+   "y": 3977,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Faisalabad"
+  },
+  {
+   "x": 201,
+   "y": 3977,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/cars_c84/q-honda-civic",
+   "label": "Honda Civic in Gujranwala"
+  },
+  {
+   "x": 16,
+   "y": 3994,
+   "width": 59,
+   "height": 26,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 16,
+   "y": 4175,
+   "width": 358,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 4245,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 4245,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 4245,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 4245,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

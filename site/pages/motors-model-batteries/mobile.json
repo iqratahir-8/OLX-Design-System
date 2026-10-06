@@ -1,0 +1,228 @@
+{
+ "id": "motors-model-batteries",
+ "title": "Motors: Honda Civic batteries",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/motors/car-batteries/honda/civic/2022-2026/",
+ "finalUrl": "https://www.olx.com.pk/motors/car-batteries/honda/civic/2022-2026/",
+ "width": 390,
+ "height": 826,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:55:13.943Z",
+ "sections": [
+  {
+   "file": "01-batteries-for-honda-civic-2022-2026",
+   "name": "Batteries for Honda Civic 2022-2026",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 455
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-get-the-olx-app",
+   "name": "Get the OLX App",
+   "rect": {
+    "x": 0,
+    "y": 494,
+    "width": 390,
+    "height": 332
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "03-home-chat-sell",
+   "name": "Home · Chat · Sell",
+   "rect": {
+    "x": 0,
+    "y": 767,
+    "width": 390,
+    "height": 59
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 244,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 76,
+   "y": 244,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 141,
+   "y": 244,
+   "width": 68,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/",
+   "label": "Car Batteries"
+  },
+  {
+   "x": 16,
+   "y": 321,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/cars-accessories_c2027/q-car-battery",
+   "label": "Batteries for sale in Lahore"
+  },
+  {
+   "x": 201,
+   "y": 321,
+   "width": 173,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars-accessories_c2027/q-car-battery",
+   "label": "Batteries for sale in Karachi"
+  },
+  {
+   "x": 16,
+   "y": 350,
+   "width": 173,
+   "height": 34,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars-accessories_c2027/q-car-battery",
+   "label": "Batteries for sale in Rawalpindi"
+  },
+  {
+   "x": 201,
+   "y": 350,
+   "width": 173,
+   "height": 34,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars-accessories_c2027/q-car-battery",
+   "label": "Batteries for sale in Islamabad"
+  },
+  {
+   "x": 16,
+   "y": 395,
+   "width": 173,
+   "height": 35,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/cars-accessories_c2027/q-car-battery",
+   "label": "Batteries for sale in Faisalabad"
+  },
+  {
+   "x": 201,
+   "y": 395,
+   "width": 173,
+   "height": 35,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/cars-accessories_c2027/q-car-battery",
+   "label": "Batteries for sale in Gujranwala"
+  },
+  {
+   "x": 16,
+   "y": 429,
+   "width": 59,
+   "height": 26,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 0,
+   "y": 775,
+   "width": 72,
+   "height": 44,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 79,
+   "y": 775,
+   "width": 73,
+   "height": 44,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chat/",
+   "label": "Chat"
+  },
+  {
+   "x": 159,
+   "y": 773,
+   "width": 72,
+   "height": 47,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/post/",
+   "label": "Sell"
+  },
+  {
+   "x": 238,
+   "y": 775,
+   "width": 73,
+   "height": 44,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/myads/",
+   "label": "My Ads"
+  },
+  {
+   "x": 331,
+   "y": 775,
+   "width": 46,
+   "height": 44,
+   "kind": "button",
+   "label": "Account"
+  },
+  {
+   "x": 16,
+   "y": 610,
+   "width": 358,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 680,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 680,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 680,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 680,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

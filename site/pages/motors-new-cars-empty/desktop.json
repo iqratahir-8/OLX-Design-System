@@ -1,0 +1,575 @@
+{
+ "id": "motors-new-cars-empty",
+ "title": "Motors: New cars, no results",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=truck&make=honda&price_range=100000-200000",
+ "finalUrl": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=truck&make=honda&price_range=100000-200000",
+ "width": 1440,
+ "height": 1557,
+ "dpr": 1,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:50:46.968Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 111
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-home-motors-new-cars",
+   "name": "Home · Motors · New Cars",
+   "rect": {
+    "x": 0,
+    "y": 110,
+    "width": 1440,
+    "height": 859
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "03-find-amazing-deals-on-the-go-download-ol",
+   "name": "Find amazing deals on the go.Download OL",
+   "rect": {
+    "x": 0,
+    "y": 1038,
+    "width": 1440,
+    "height": 519
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 159,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 300,
+   "y": 24,
+   "width": 191,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1256,
+   "y": 12,
+   "width": 104,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/post/",
+   "label": "Sell"
+  },
+  {
+   "x": 80,
+   "y": 78,
+   "width": 63,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Used Cars"
+  },
+  {
+   "x": 185,
+   "y": 78,
+   "width": 60,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 287,
+   "y": 78,
+   "width": 101,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/",
+   "label": "Car Comparison"
+  },
+  {
+   "x": 430,
+   "y": 78,
+   "width": 77,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/",
+   "label": "Car Reviews"
+  },
+  {
+   "x": 549,
+   "y": 78,
+   "width": 72,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/",
+   "label": "Car Finance"
+  },
+  {
+   "x": 663,
+   "y": 78,
+   "width": 91,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-inspection/",
+   "label": "Car Inspection"
+  },
+  {
+   "x": 796,
+   "y": 78,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/",
+   "label": "Car Insurance"
+  },
+  {
+   "x": 80,
+   "y": 121,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 140,
+   "y": 121,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 205,
+   "y": 121,
+   "width": 51,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 187,
+   "y": 199,
+   "width": 306,
+   "height": 49,
+   "kind": "input",
+   "label": "Search New Cars"
+  },
+  {
+   "x": 505,
+   "y": 199,
+   "width": 133,
+   "height": 49,
+   "kind": "button",
+   "label": "Body Types"
+  },
+  {
+   "x": 650,
+   "y": 199,
+   "width": 179,
+   "height": 49,
+   "kind": "button",
+   "label": "Transmission Type"
+  },
+  {
+   "x": 841,
+   "y": 199,
+   "width": 106,
+   "height": 49,
+   "kind": "button",
+   "label": "Mileage"
+  },
+  {
+   "x": 959,
+   "y": 199,
+   "width": 132,
+   "height": 49,
+   "kind": "button",
+   "label": "Price Range"
+  },
+  {
+   "x": 632,
+   "y": 702,
+   "width": 176,
+   "height": 49,
+   "kind": "button",
+   "label": "Search Again"
+  },
+  {
+   "x": 80,
+   "y": 875,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/lahore_g4060673/",
+   "label": "Find Cars Lahore"
+  },
+  {
+   "x": 295,
+   "y": 875,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/karachi_g4060695/",
+   "label": "Find Cars Karachi"
+  },
+  {
+   "x": 510,
+   "y": 875,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/rawalpindi_g4060681/",
+   "label": "Find Cars Rawalpindi"
+  },
+  {
+   "x": 725,
+   "y": 875,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/islamabad_g4060615/",
+   "label": "Find Cars Islamabad"
+  },
+  {
+   "x": 941,
+   "y": 875,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/faisalabad_g4060660/",
+   "label": "Find Cars Faisalabad"
+  },
+  {
+   "x": 1156,
+   "y": 875,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/gujranwala_g4060662/",
+   "label": "Find Cars Gujranwala"
+  },
+  {
+   "x": 80,
+   "y": 906,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/mardan_g4060623/",
+   "label": "Find Cars Mardan"
+  },
+  {
+   "x": 295,
+   "y": 906,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/peshawar_g4060643/",
+   "label": "Find Cars Peshawar"
+  },
+  {
+   "x": 510,
+   "y": 906,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/multan_g4060675/",
+   "label": "Find Cars Multan"
+  },
+  {
+   "x": 725,
+   "y": 906,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/sialkot_g4060686/",
+   "label": "Find Cars Sialkot"
+  },
+  {
+   "x": 941,
+   "y": 906,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/bahawalpur_g4060653/",
+   "label": "Find Cars Bahawalpur"
+  },
+  {
+   "x": 1156,
+   "y": 906,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/gujrat_g4060663/",
+   "label": "Find Cars Gujrat"
+  },
+  {
+   "x": 80,
+   "y": 937,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/abbottabad_g4060640/",
+   "label": "Find Cars Abbottabad"
+  },
+  {
+   "x": 295,
+   "y": 937,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/swabi_g4060645/",
+   "label": "Find Cars Swabi"
+  },
+  {
+   "x": 510,
+   "y": 937,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/sargodha_g4060684/",
+   "label": "Find Cars Sargodha"
+  },
+  {
+   "x": 725,
+   "y": 937,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/hyderabad_g4060693/",
+   "label": "Find Cars Hyderabad"
+  },
+  {
+   "x": 941,
+   "y": 937,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/sukkur_g4060702/",
+   "label": "Find Cars Sukkur"
+  },
+  {
+   "x": 960,
+   "y": 1121,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 1096,
+   "y": 1121,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 1232,
+   "y": 1121,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://appgallery.huawei.com/app/C104375435",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 1315,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 1347,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 1379,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 1411,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4/",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 1315,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81/",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 1347,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970/",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 1379,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-books/",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 1411,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-dogs/",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 1315,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 1347,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/requests/new",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 1379,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 1315,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 1347,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 1379,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 1411,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 1315,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 1315,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 1315,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 1315,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

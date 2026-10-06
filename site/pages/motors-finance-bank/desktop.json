@@ -1,0 +1,1057 @@
+{
+ "id": "motors-finance-bank",
+ "title": "Motors: Bank Islamic car finance",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/motors/car-finance/bank-islamic/",
+ "finalUrl": "https://www.olx.com.pk/motors/car-finance/bank-islamic/",
+ "width": 1440,
+ "height": 2982,
+ "dpr": 1,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:53:28.206Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 111
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-home-motors-car-finance",
+   "name": "Home · Motors · Car Finance",
+   "rect": {
+    "x": 80,
+    "y": 110,
+    "width": 1280,
+    "height": 41
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-bank-islamic-car-finance",
+   "name": "Bank Islamic Car Finance",
+   "rect": {
+    "x": 80,
+    "y": 174,
+    "width": 1280,
+    "height": 685
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "04-popular-cars-financed-by-bank-islamic",
+   "name": "Popular Cars Financed by Bank Islamic",
+   "rect": {
+    "x": 80,
+    "y": 898,
+    "width": 1280,
+    "height": 266
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "05-on-march-31-2005-the-first-bank-to-be-gr",
+   "name": "On March 31, 2005, the first bank to be granted ",
+   "rect": {
+    "x": 80,
+    "y": 1203,
+    "width": 1280,
+    "height": 145
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "06-required-documents",
+   "name": "Required Documents",
+   "rect": {
+    "x": 80,
+    "y": 1387,
+    "width": 1280,
+    "height": 594
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "07-eligibility",
+   "name": "Eligibility",
+   "rect": {
+    "x": 80,
+    "y": 2020,
+    "width": 1280,
+    "height": 235
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(5)"
+  },
+  {
+   "file": "08-find-new-and-used-cars-by-city",
+   "name": "Find New & Used Cars By City",
+   "rect": {
+    "x": 80,
+    "y": 2294,
+    "width": 1280,
+    "height": 127
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(6)"
+  },
+  {
+   "file": "09-find-amazing-deals-on-the-go-download-ol",
+   "name": "Find amazing deals on the go.Download OL",
+   "rect": {
+    "x": 0,
+    "y": 2464,
+    "width": 1440,
+    "height": 518
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 159,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 300,
+   "y": 24,
+   "width": 191,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1256,
+   "y": 12,
+   "width": 104,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/post/",
+   "label": "Sell"
+  },
+  {
+   "x": 80,
+   "y": 78,
+   "width": 63,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Used Cars"
+  },
+  {
+   "x": 185,
+   "y": 78,
+   "width": 60,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 287,
+   "y": 78,
+   "width": 101,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/",
+   "label": "Car Comparison"
+  },
+  {
+   "x": 430,
+   "y": 78,
+   "width": 77,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/",
+   "label": "Car Reviews"
+  },
+  {
+   "x": 549,
+   "y": 78,
+   "width": 72,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/",
+   "label": "Car Finance"
+  },
+  {
+   "x": 663,
+   "y": 78,
+   "width": 91,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-inspection/",
+   "label": "Car Inspection"
+  },
+  {
+   "x": 796,
+   "y": 78,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/",
+   "label": "Car Insurance"
+  },
+  {
+   "x": 80,
+   "y": 121,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 140,
+   "y": 121,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 205,
+   "y": 121,
+   "width": 63,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/",
+   "label": "Car Finance"
+  },
+  {
+   "x": 954,
+   "y": 449,
+   "width": 382,
+   "height": 49,
+   "kind": "input",
+   "label": "Search by Car Variant"
+  },
+  {
+   "x": 969,
+   "y": 514,
+   "width": 352,
+   "height": 47,
+   "kind": "button",
+   "label": ".css-14z01x6{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:"
+  },
+  {
+   "x": 969,
+   "y": 578,
+   "width": 352,
+   "height": 47,
+   "kind": "button",
+   "label": ".css-14z01x6{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:"
+  },
+  {
+   "x": 954,
+   "y": 641,
+   "width": 382,
+   "height": 49,
+   "kind": "button",
+   "label": "Calculate"
+  },
+  {
+   "x": 80,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=suzuki&model=alto&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 23.31 – 33.26 LacsSuzuki AltoFinancing starts at 59,039"
+  },
+  {
+   "x": 353,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=faw&model=v2&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 16.09 LacsFAW V2Financing starts at 40,752"
+  },
+  {
+   "x": 626,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=suzuki&model=wagon-r&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 32.14 – 37.41 LacsSuzuki Wagon RFinancing starts at 81,403"
+  },
+  {
+   "x": 900,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=suzuki&model=bolan&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 14.15 – 19.44 LacsSuzuki BolanFinancing starts at 35,839"
+  },
+  {
+   "x": 1173,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=suzuki&model=swift&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 34.50 – 47.19 LacsSuzuki SwiftFinancing starts at 87,381"
+  },
+  {
+   "x": 1447,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=faw&model=x-pv&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 13.04 – 13.44 LacsFAW X-PVFinancing starts at 33,027"
+  },
+  {
+   "x": 1720,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=united&model=bravo-3&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 15.19 LacsUnited BravoFinancing starts at 38,473"
+  },
+  {
+   "x": 1994,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=toyota&model=corolla&tenure=3&down_payment=50&bank=bank-islamic&package_id=1",
+   "label": "Rs 59.69 – 75.49 LacsToyota CorollaFinancing starts at 107,987"
+  },
+  {
+   "x": 2267,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=toyota&model=yaris&tenure=3&down_payment=35&bank=bank-islamic&package_id=1",
+   "label": "Rs 44.79 – 62.55 LacsToyota YarisFinancing starts at 105,340"
+  },
+  {
+   "x": 2541,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=changan&model=karvaan&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 27.79 – 30.49 LacsChangan KarvaanFinancing starts at 70,386"
+  },
+  {
+   "x": 2814,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=faw&model=carrier&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 11.39 LacsFAW CarrierFinancing starts at 28,848"
+  },
+  {
+   "x": 3088,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=honda&model=city&tenure=3&down_payment=40&bank=bank-islamic&package_id=1",
+   "label": "Rs 46.49 – 60.89 LacsHonda CityFinancing starts at 100,927"
+  },
+  {
+   "x": 3361,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=suzuki&model=cultus&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 38.58 – 45.46 LacsSuzuki CultusFinancing starts at 97,714"
+  },
+  {
+   "x": 3635,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=suzuki&model=ravi&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 17.81 LacsSuzuki RaviFinancing starts at 45,109"
+  },
+  {
+   "x": 3908,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=changan&model=alsvin&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 37.99 – 45.49 LacsChangan AlsvinFinancing starts at 96,220"
+  },
+  {
+   "x": 4182,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=honda&model=civic&tenure=3&down_payment=65&bank=bank-islamic&package_id=1",
+   "label": "Rs 83.29 – 98.99 LacsHonda CivicFinancing starts at 105,477"
+  },
+  {
+   "x": 4455,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=hyundai&model=porter-h-100&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 36.89 – 38.19 LacsHyundai Porter H-100Financing starts at 93,434"
+  },
+  {
+   "x": 4728,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=proton&model=saga&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 28.24 – 31.49 LacsProton SagaFinancing starts at 71,526"
+  },
+  {
+   "x": 5002,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=kia&model=picanto&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 36 – 38.50 LacsKIA PicantoFinancing starts at 91,180"
+  },
+  {
+   "x": 5275,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=united&model=alpha&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 17.69 LacsUnited AlphaFinancing starts at 44,805"
+  },
+  {
+   "x": 5549,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=dfsk&model=prince&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 19.90 LacsDFSK PrinceFinancing starts at 50,402"
+  },
+  {
+   "x": 5822,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=changan&model=oshan-x7&tenure=3&down_payment=65&bank=bank-islamic&package_id=1",
+   "label": "Rs 82.99 – 90.99 LacsChangan Oshan X7Financing starts at 105,098"
+  },
+  {
+   "x": 6096,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=suzuki&model=every&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 27.49 LacsSuzuki EveryFinancing starts at 69,626"
+  },
+  {
+   "x": 6369,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=toyota&model=hilux&tenure=3&down_payment=50&bank=bank-islamic&package_id=1",
+   "label": "Rs 59.59 Lacs – 1.54 CroresToyota HiluxFinancing starts at 107,806"
+  },
+  {
+   "x": 6643,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=kia&model=stonic&tenure=3&down_payment=45&bank=bank-islamic&package_id=1",
+   "label": "Rs 53.50 – 55 LacsKIA StonicFinancing starts at 106,467"
+  },
+  {
+   "x": 6916,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=honri&model=ve-1&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 35.99 – 43.99 LacsHonri VEFinancing starts at 91,155"
+  },
+  {
+   "x": 7190,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=honda&model=br-v&tenure=3&down_payment=55&bank=bank-islamic&package_id=1",
+   "label": "Rs 62.99 LacsHonda BR-VFinancing starts at 102,561"
+  },
+  {
+   "x": 7463,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=kia&model=sportage&tenure=3&down_payment=60&bank=bank-islamic&package_id=1",
+   "label": "Rs 73 – 90 LacsKIA SportageFinancing starts at 105,653"
+  },
+  {
+   "x": 7737,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=peugeot&model=2008&tenure=3&down_payment=55&bank=bank-islamic&package_id=1",
+   "label": "Rs 66 – 72.50 LacsPeugeot 2008Financing starts at 107,462"
+  },
+  {
+   "x": 8010,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=isuzu&model=d-max&tenure=3&down_payment=70&bank=bank-islamic&package_id=1",
+   "label": "Rs 96 Lacs – 1.11 CroresIsuzu D-MaxFinancing starts at 104,206"
+  },
+  {
+   "x": 8284,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=hyundai&model=tucson&tenure=3&down_payment=60&bank=bank-islamic&package_id=1",
+   "label": "Rs 73.15 – 89.09 LacsHyundai TucsonFinancing starts at 105,870"
+  },
+  {
+   "x": 8557,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=honda&model=hr-v&tenure=3&down_payment=65&bank=bank-islamic&package_id=1",
+   "label": "Rs 75.49 – 77.99 LacsHonda HR-VFinancing starts at 95,600"
+  },
+  {
+   "x": 8831,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=hyundai&model=elantra&tenure=3&down_payment=55&bank=bank-islamic&package_id=1",
+   "label": "Rs 63.99 – 71.80 LacsHyundai ElantraFinancing starts at 104,189"
+  },
+  {
+   "x": 9104,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=hyundai&model=elantra&tenure=3&down_payment=55&bank=bank-islamic&package_id=1",
+   "label": "Rs 97 LacsHyundai ElantraFinancing starts at 157,937"
+  },
+  {
+   "x": 9377,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=changan&model=m9-sherpa&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 22.54 LacsChangan M9 SherpaFinancing starts at 57,089"
+  },
+  {
+   "x": 9651,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=chery&model=tiggo&tenure=3&down_payment=60&bank=bank-islamic&package_id=1",
+   "label": "Rs 69.99 – 95.85 LacsChery TiggoFinancing starts at 101,297"
+  },
+  {
+   "x": 9924,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=toyota&model=corolla-cross&tenure=3&down_payment=65&bank=bank-islamic&package_id=1",
+   "label": "Rs 72.35 Lacs – 1.22 CroresToyota Corolla CrossFinancing starts at 91,623"
+  },
+  {
+   "x": 10198,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=kia&model=sportage-l&tenure=3&down_payment=70&bank=bank-islamic&package_id=1",
+   "label": "Rs 94.99 Lacs – 1.28 CroresKIA Sportage LFinancing starts at 103,109"
+  },
+  {
+   "x": 10471,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=suzuki&model=jimny&tenure=3&down_payment=55&bank=bank-islamic&package_id=1",
+   "label": "Rs 60.49 LacsSuzuki JimnyFinancing starts at 98,491"
+  },
+  {
+   "x": 10745,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=suzuki&model=apv&tenure=3&down_payment=55&bank=bank-islamic&package_id=1",
+   "label": "Rs 62.90 LacsSuzuki APVFinancing starts at 102,415"
+  },
+  {
+   "x": 11018,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=dfsk&model=c37&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 35 LacsDFSK C37Financing starts at 88,647"
+  },
+  {
+   "x": 11292,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=toyota&model=hiace&tenure=3&down_payment=65&bank=bank-islamic&package_id=1",
+   "label": "Rs 79.79 Lacs – 1.29 CroresToyota HiaceFinancing starts at 101,045"
+  },
+  {
+   "x": 11565,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=kia&model=sorento&tenure=3&down_payment=70&bank=bank-islamic&package_id=1",
+   "label": "Rs 89.99 – 94.99 LacsKIA SorentoFinancing starts at 97,682"
+  },
+  {
+   "x": 11839,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=toyota&model=fortuner&tenure=3&down_payment=80&bank=bank-islamic&package_id=1",
+   "label": "Rs 1.45 – 1.99 CroresToyota FortunerFinancing starts at 104,922"
+  },
+  {
+   "x": 12112,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=proton&model=x-70&tenure=3&down_payment=60&bank=bank-islamic&package_id=1",
+   "label": "Rs 67.40 – 71.90 LacsProton X70Financing starts at 97,548"
+  },
+  {
+   "x": 12386,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=toyota&model=rush&tenure=3&down_payment=65&bank=bank-islamic&package_id=1",
+   "label": "Rs 80.09 – 88.20 LacsToyota RushFinancing starts at 101,425"
+  },
+  {
+   "x": 12659,
+   "y": 943,
+   "width": 255,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=dfsk&model=k07&tenure=3&down_payment=30&bank=bank-islamic&package_id=1",
+   "label": "Rs 26.69 LacsDFSK K07Financing starts at 67,600"
+  },
+  {
+   "x": 12933,
+   "y": 943,
+   "width": 254,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=hyundai&model=sonata&tenure=3&down_payment=75&bank=bank-islamic&package_id=1",
+   "label": "Rs 1.02 – 1.59 CroresHyundai SonataFinancing starts at 92,528"
+  },
+  {
+   "x": 80,
+   "y": 2339,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84/",
+   "label": "Find Cars in Lahore"
+  },
+  {
+   "x": 295,
+   "y": 2339,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84/",
+   "label": "Find Cars in Karachi"
+  },
+  {
+   "x": 510,
+   "y": 2339,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84/",
+   "label": "Find Cars in Rawalpindi"
+  },
+  {
+   "x": 725,
+   "y": 2339,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84/",
+   "label": "Find Cars in Islamabad"
+  },
+  {
+   "x": 941,
+   "y": 2339,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/cars_c84/",
+   "label": "Find Cars in Faisalabad"
+  },
+  {
+   "x": 1156,
+   "y": 2339,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/cars_c84/",
+   "label": "Find Cars in Gujranwala"
+  },
+  {
+   "x": 80,
+   "y": 2370,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mardan_g4060623/cars_c84/",
+   "label": "Find Cars in Mardan"
+  },
+  {
+   "x": 295,
+   "y": 2370,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/peshawar_g4060643/cars_c84/",
+   "label": "Find Cars in Peshawar"
+  },
+  {
+   "x": 510,
+   "y": 2370,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/multan_g4060675/cars_c84/",
+   "label": "Find Cars in Multan"
+  },
+  {
+   "x": 725,
+   "y": 2370,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sialkot_g4060686/cars_c84/",
+   "label": "Find Cars in Sialkot"
+  },
+  {
+   "x": 941,
+   "y": 2370,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653/cars_c84/",
+   "label": "Find Cars in Bahawalpur"
+  },
+  {
+   "x": 1156,
+   "y": 2370,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663/cars_c84/",
+   "label": "Find Cars in Gujrat"
+  },
+  {
+   "x": 80,
+   "y": 2401,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/abbottabad_g4060640/cars_c84/",
+   "label": "Find Cars in Abbottabad"
+  },
+  {
+   "x": 295,
+   "y": 2401,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/swabi_g4060645/cars_c84/",
+   "label": "Find Cars in Swabi"
+  },
+  {
+   "x": 510,
+   "y": 2401,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sargodha_g4060684/cars_c84/",
+   "label": "Find Cars in Sargodha"
+  },
+  {
+   "x": 725,
+   "y": 2401,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyderabad_g4060693/cars_c84/",
+   "label": "Find Cars in Hyderabad"
+  },
+  {
+   "x": 941,
+   "y": 2401,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sukkur_g4060702/cars_c84/",
+   "label": "Find Cars in Sukkur"
+  },
+  {
+   "x": 960,
+   "y": 2547,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 1096,
+   "y": 2547,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 1232,
+   "y": 2547,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://appgallery.huawei.com/app/C104375435",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 2740,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 2772,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 2804,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 2836,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4/",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 2740,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81/",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 2772,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970/",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 2804,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-books/",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 2836,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-dogs/",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 2740,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 2772,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/requests/new",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 2804,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 2740,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 2772,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 2804,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 2836,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 2740,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 2740,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 2740,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 2740,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

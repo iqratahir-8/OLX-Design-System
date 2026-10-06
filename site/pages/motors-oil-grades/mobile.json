@@ -1,0 +1,147 @@
+{
+ "id": "motors-oil-grades",
+ "title": "Motors: Engine oil grades",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/motors/oil-grades/",
+ "finalUrl": "https://www.olx.com.pk/motors/oil-grades/",
+ "width": 390,
+ "height": 760,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:55:21.172Z",
+ "sections": [
+  {
+   "file": "01-find-car-oils-in-pakistan",
+   "name": "Find Car Oils In Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 389
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-get-the-olx-app",
+   "name": "Get the OLX App",
+   "rect": {
+    "x": 0,
+    "y": 428,
+    "width": 390,
+    "height": 332
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "03-home-chat-sell",
+   "name": "Home · Chat · Sell",
+   "rect": {
+    "x": 0,
+    "y": 701,
+    "width": 390,
+    "height": 59
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 53,
+   "width": 358,
+   "height": 41,
+   "kind": "button",
+   "label": "Search by Car Model Year"
+  },
+  {
+   "x": 0,
+   "y": 709,
+   "width": 72,
+   "height": 44,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 79,
+   "y": 709,
+   "width": 73,
+   "height": 44,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chat/",
+   "label": "Chat"
+  },
+  {
+   "x": 159,
+   "y": 707,
+   "width": 72,
+   "height": 47,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/post/",
+   "label": "Sell"
+  },
+  {
+   "x": 238,
+   "y": 709,
+   "width": 73,
+   "height": 44,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/myads/",
+   "label": "My Ads"
+  },
+  {
+   "x": 331,
+   "y": 709,
+   "width": 46,
+   "height": 44,
+   "kind": "button",
+   "label": "Account"
+  },
+  {
+   "x": 16,
+   "y": 544,
+   "width": 358,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 614,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 614,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 614,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 614,
+   "width": 32,
+   "height": 37,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

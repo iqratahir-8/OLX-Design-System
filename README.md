@@ -26,6 +26,7 @@ audit/maple-snapshots/    Captures from the local maple repo
 audit/comparisons/        Live vs maple diff notes
 scripts/snapshot-live.mjs Captures templates/ and components/ from olx.com.pk
 scripts/capture-site.mjs  Captures the whole site into site/: pages, interaction states, sections, hotspots
+scripts/import-motors.mjs  Imports Motors pages saved by the design kit (local-build branch) into site/
 scripts/capture-logged-in.mjs  Run locally: you log in, then capture logged-in screens into site/
 scripts/build-prototype.mjs  Wires captured links/buttons to captured screens -> prototype/data.json
 scripts/lib/capture-lib.mjs  Shared capture code (clean-up, redaction, CSS inlining, layout, cropping)
@@ -162,6 +163,16 @@ npm run prototype        # wire hotspots, then open http://localhost:6006/protot
 The prototype shows every captured screen (desktop and mobile). Links and buttons are hotspots in the positions they were captured from and lead to the screen a user would reach: categories, ads, search, location, sort and filter sheets, and the login modal that guards selling, chat and favourites. **Flows** in the sidebar walk through the main journeys step by step and highlight the control to use next. **Sections** lists each screen's sections; **HTML** opens a section rendered live with its markup and a copy button. **Live HTML** in the toolbar renders the captured HTML and CSS instead of the screenshot (scrolled states stay screenshots).
 
 What is captured: home, Motors and Property landing pages, all 14 categories, subcategories with their own layout, one ad per category (plus cars, houses and online jobs), search results and no results, sorting, a city and a city+category page, the sitemap, and interaction states (login options and steps, sign up, All categories menu, location menu, search suggestions, sort menu, and on mobile the location prompt, filter, brand and price sheets).
+
+**Motors** (29 pages and 3 scrolled-header states, desktop and mobile) is imported from the design kit on the `local-build` branch, because the Motors CDNs are not reachable from every machine:
+
+```sh
+git worktree add ../olx-local-build origin/local-build
+node scripts/import-motors.mjs ../olx-local-build/design-kit/templates
+npm run prototype
+```
+
+Each saved page is loaded at its live URL with the kit's saved CSS, fonts and icons served at their original CDN addresses, then captured like every other page (screenshots, sections, hotspots, redaction, including reviewer names). Car photos and banners the kit did not save are blank in the screenshots and load from the CDN in Live HTML. The saved pages have no scripts, so menus, dialogs, calculators and form errors on Motors pages are not captured; with network access to `*.olx.com.pk`, `npm run capture:site -- motors-compare` captures any of them live instead.
 
 Crawling follows robots.txt, so nothing under `/post/`, `/chat/`, `/profile/` or `/account` is visited. To add logged-in screens, run this on your own computer:
 

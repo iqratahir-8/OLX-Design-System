@@ -15,6 +15,7 @@
     ['Listings', ['page-title', 'filters-sidebar', 'categories-filter', 'brand-chips', 'listing-toolbar', 'listing-row-featured', 'delivery-card']],
     ['Ad detail', ['gallery', 'ad-overview', 'ad-details', 'ad-description', 'seller-sidebar', 'seller-card', 'seller-card-mobile', 'show-phone-button', 'chat-button', 'contact-bar', 'related-ads', 'safety-tips']],
     ['Footer', ['footer', 'copyright-bar']],
+    ['Motors', ['motors-header', 'motors-mobile-header']],
   ];
 
   const ABOUT = {
@@ -55,6 +56,8 @@
     'safety-tips': 'Buyer safety tips.',
     footer: 'Link columns, social icons and the copyright bar.',
     'copyright-bar': 'Dark petrol bar at the very bottom.',
+    'motors-header': 'Motors desktop header: the brand strip with Motors selected and the Motors section links, at the top and after scrolling.',
+    'motors-mobile-header': 'Motors mobile header: the landing page header with its banner, and the back-and-title bar on car pages, at the top and after scrolling.',
   };
 
   const TEMPLATE_ABOUT = {

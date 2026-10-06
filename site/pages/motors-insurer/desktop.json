@@ -1,0 +1,1274 @@
+{
+ "id": "motors-insurer",
+ "title": "Motors: IGI Insurance",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/motors/car-insurance/igi-insurance/",
+ "finalUrl": "https://www.olx.com.pk/motors/car-insurance/igi-insurance/",
+ "width": 1440,
+ "height": 2582,
+ "dpr": 1,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:54:09.351Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 111
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-home-motors-car-insurance",
+   "name": "Home · Motors · Car Insurance",
+   "rect": {
+    "x": 80,
+    "y": 110,
+    "width": 1280,
+    "height": 41
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-igi-insurance",
+   "name": "IGI Insurance",
+   "rect": {
+    "x": 80,
+    "y": 174,
+    "width": 1280,
+    "height": 410
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "04-popular-car-insurance-with-igi-insurance",
+   "name": "Popular Car Insurance with IGI Insurance",
+   "rect": {
+    "x": 80,
+    "y": 623,
+    "width": 1280,
+    "height": 266
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "05-required-documents",
+   "name": "Required Documents",
+   "rect": {
+    "x": 80,
+    "y": 928,
+    "width": 1280,
+    "height": 306
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "06-eligibility",
+   "name": "Eligibility",
+   "rect": {
+    "x": 80,
+    "y": 1273,
+    "width": 1280,
+    "height": 162
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "07-benefits-of-car-insurance",
+   "name": "Benefits of Car Insurance",
+   "rect": {
+    "x": 80,
+    "y": 1474,
+    "width": 1280,
+    "height": 381
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(5)"
+  },
+  {
+   "file": "08-find-new-and-used-cars-by-city",
+   "name": "Find New & Used Cars By City",
+   "rect": {
+    "x": 80,
+    "y": 1894,
+    "width": 1280,
+    "height": 127
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(6)"
+  },
+  {
+   "file": "09-find-amazing-deals-on-the-go-download-ol",
+   "name": "Find amazing deals on the go.Download OL",
+   "rect": {
+    "x": 0,
+    "y": 2064,
+    "width": 1440,
+    "height": 518
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 159,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 300,
+   "y": 24,
+   "width": 191,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1256,
+   "y": 12,
+   "width": 104,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/post/",
+   "label": "Sell"
+  },
+  {
+   "x": 80,
+   "y": 78,
+   "width": 63,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Used Cars"
+  },
+  {
+   "x": 185,
+   "y": 78,
+   "width": 60,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 287,
+   "y": 78,
+   "width": 101,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/",
+   "label": "Car Comparison"
+  },
+  {
+   "x": 430,
+   "y": 78,
+   "width": 77,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/",
+   "label": "Car Reviews"
+  },
+  {
+   "x": 549,
+   "y": 78,
+   "width": 72,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/",
+   "label": "Car Finance"
+  },
+  {
+   "x": 663,
+   "y": 78,
+   "width": 91,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-inspection/",
+   "label": "Car Inspection"
+  },
+  {
+   "x": 796,
+   "y": 78,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/",
+   "label": "Car Insurance"
+  },
+  {
+   "x": 80,
+   "y": 121,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 140,
+   "y": 121,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 205,
+   "y": 121,
+   "width": 73,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/",
+   "label": "Car Insurance"
+  },
+  {
+   "x": 954,
+   "y": 383,
+   "width": 382,
+   "height": 49,
+   "kind": "input",
+   "label": "Search by Car Variant"
+  },
+  {
+   "x": 954,
+   "y": 447,
+   "width": 382,
+   "height": 49,
+   "kind": "input",
+   "label": "Enter Price"
+  },
+  {
+   "x": 954,
+   "y": 511,
+   "width": 382,
+   "height": 49,
+   "kind": "button",
+   "label": "Calculate"
+  },
+  {
+   "x": 80,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=2331000&insurance_company=igi-insurance&version=2983%2C19&make=suzuki&model=alto",
+   "label": "Rs 23.31 – 33.26 LacsSuzuki AltoInsurance starts at 46,000/year"
+  },
+  {
+   "x": 425,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=8329000&insurance_company=igi-insurance&version=2947%2C459&make=honda&model=civic",
+   "label": "Rs 83.29 – 98.99 LacsHonda CivicInsurance starts at 166,000/year"
+  },
+  {
+   "x": 770,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=3858000&insurance_company=igi-insurance&version=91%2C23&make=suzuki&model=cultus",
+   "label": "Rs 38.58 – 45.46 LacsSuzuki CultusInsurance starts at 77,000/year"
+  },
+  {
+   "x": 1115,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=3214000&insurance_company=igi-insurance&version=106%2C492&make=suzuki&model=wagon-r",
+   "label": "Rs 32.14 – 37.41 LacsSuzuki Wagon RInsurance starts at 64,000/year"
+  },
+  {
+   "x": 1461,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=4649000&insurance_company=igi-insurance&version=3019%2C5&make=honda&model=city",
+   "label": "Rs 46.49 – 60.89 LacsHonda CityInsurance starts at 92,000/year"
+  },
+  {
+   "x": 1806,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=1415000&insurance_company=igi-insurance&version=2975%2C497&make=suzuki&model=bolan",
+   "label": "Rs 14.15 – 19.44 LacsSuzuki BolanInsurance starts at 28,000/year"
+  },
+  {
+   "x": 2151,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=2860000&insurance_company=igi-insurance&version=3045%2C350&make=suzuki&model=swift",
+   "label": "Rs 28.60 – 47.19 LacsSuzuki SwiftInsurance starts at 57,000/year"
+  },
+  {
+   "x": 2497,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=1609000&insurance_company=igi-insurance&version=456%2C128&make=faw&model=v2",
+   "label": "Rs 16.09 LacsFAW V2Insurance starts at 32,000/year"
+  },
+  {
+   "x": 2842,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=4649000&insurance_company=igi-insurance&version=2931%2C485&make=toyota&model=yaris",
+   "label": "Rs 46.49 – 64.69 LacsToyota YarisInsurance starts at 92,000/year"
+  },
+  {
+   "x": 3187,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=4479000&insurance_company=igi-insurance&version=2931%2C485&make=toyota&model=yaris",
+   "label": "Rs 44.79 – 62.55 LacsToyota YarisInsurance starts at 89,000/year"
+  },
+  {
+   "x": 3533,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=1781000&insurance_company=igi-insurance&version=1248%2C349&make=suzuki&model=ravi",
+   "label": "Rs 17.81 LacsSuzuki RaviInsurance starts at 35,000/year"
+  },
+  {
+   "x": 3878,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=3300000&insurance_company=igi-insurance&make=toyota&model=vitz",
+   "label": "Rs 33 – 42 LacsToyota VitzInsurance starts at 66,000/year"
+  },
+  {
+   "x": 4223,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=7300000&insurance_company=igi-insurance&version=732%2C212&make=kia&model=sportage",
+   "label": "Rs 73 – 90 LacsKIA SportageInsurance starts at 146,000/year"
+  },
+  {
+   "x": 4569,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=12199000&insurance_company=igi-insurance&version=732%2C212&make=kia&model=sportage",
+   "label": "Rs 1.22 – 1.33 CroresKIA SportageInsurance starts at 243,000/year"
+  },
+  {
+   "x": 4914,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=2779000&insurance_company=igi-insurance&version=3012%2C90&make=changan&model=karvaan",
+   "label": "Rs 27.79 – 33.49 LacsChangan KarvaanInsurance starts at 55,000/year"
+  },
+  {
+   "x": 5259,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=5000000&insurance_company=igi-insurance&make=toyota&model=aqua",
+   "label": "Rs 50 – 70.70 LacsToyota AquaInsurance starts at 100,000/year"
+  },
+  {
+   "x": 5605,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=2875000&insurance_company=igi-insurance&version=489%2C147&make=honda&model=br-v",
+   "label": "Rs 28.75 – 62.99 LacsHonda BR-VInsurance starts at 57,000/year"
+  },
+  {
+   "x": 5950,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=14499000&insurance_company=igi-insurance&version=191%2C38&make=toyota&model=fortuner",
+   "label": "Rs 1.45 – 1.99 CroresToyota FortunerInsurance starts at 289,000/year"
+  },
+  {
+   "x": 6295,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=1740000&insurance_company=igi-insurance&version=3101%2C552&make=suzuki&model=every",
+   "label": "Rs 17.40 – 27.49 LacsSuzuki EveryInsurance starts at 34,000/year"
+  },
+  {
+   "x": 6641,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=1519000&insurance_company=igi-insurance&version=1670%2C454&make=united&model=bravo-3",
+   "label": "Rs 15.19 LacsUnited BravoInsurance starts at 30,000/year"
+  },
+  {
+   "x": 6986,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=1304000&insurance_company=igi-insurance&version=3035%2C129&make=faw&model=x-pv",
+   "label": "Rs 13.04 – 13.44 LacsFAW X-PVInsurance starts at 26,000/year"
+  },
+  {
+   "x": 7331,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=7979000&insurance_company=igi-insurance&version=2998%2C390&make=toyota&model=hiace",
+   "label": "Rs 79.79 Lacs – 1.29 CroresToyota HiaceInsurance starts at 159,000/year"
+  },
+  {
+   "x": 7677,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=1139000&insurance_company=igi-insurance&version=451%2C126&make=faw&model=carrier",
+   "label": "Rs 11.39 LacsFAW CarrierInsurance starts at 22,000/year"
+  },
+  {
+   "x": 8022,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=7500000&insurance_company=igi-insurance&version=1439%2C402&make=toyota&model=land-cruiser-1",
+   "label": "Rs 75 Lacs – 4.17 CroresToyota Land CruiserInsurance starts at 150,000/year"
+  },
+  {
+   "x": 8367,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=66600000&insurance_company=igi-insurance&version=3111%2C539&make=toyota&model=prado",
+   "label": "Rs 6.66 – 7.55 CroresToyota PradoInsurance starts at 1,332,000/year"
+  },
+  {
+   "x": 8713,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=6600000&insurance_company=igi-insurance&version=2994%2C494&make=peugeot&model=2008",
+   "label": "Rs 66 – 72.50 LacsPeugeot 2008Insurance starts at 132,000/year"
+  },
+  {
+   "x": 9058,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=7235000&insurance_company=igi-insurance&version=3086%2C375&make=toyota&model=corolla-cross",
+   "label": "Rs 72.35 Lacs – 1.22 CroresToyota Corolla CrossInsurance starts at 144,000/year"
+  },
+  {
+   "x": 9403,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=1769000&insurance_company=igi-insurance&version=2995%2C453&make=united&model=alpha",
+   "label": "Rs 17.69 LacsUnited AlphaInsurance starts at 35,000/year"
+  },
+  {
+   "x": 9749,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=13389000&insurance_company=igi-insurance&make=toyota&model=prius",
+   "label": "Rs 1.34 CroresToyota PriusInsurance starts at 267,000/year"
+  },
+  {
+   "x": 10094,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=6999000&insurance_company=igi-insurance&version=2994%2C494&make=peugeot&model=2008",
+   "label": "Rs 69.99 – 77.99 LacsPeugeot 2008Insurance starts at 139,000/year"
+  },
+  {
+   "x": 10439,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=9999000&insurance_company=igi-insurance&make=mg&model=hs",
+   "label": "Rs 99.99 Lacs – 1.02 CroresMG HSInsurance starts at 199,000/year"
+  },
+  {
+   "x": 10785,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=3600000&insurance_company=igi-insurance&version=3009%2C208&make=kia&model=picanto",
+   "label": "Rs 36 – 38.50 LacsKIA PicantoInsurance starts at 72,000/year"
+  },
+  {
+   "x": 11130,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=7549000&insurance_company=igi-insurance&version=3049%2C505&make=honda&model=hr-v",
+   "label": "Rs 75.49 Lacs – 1.04 CroresHonda HR-VInsurance starts at 150,000/year"
+  },
+  {
+   "x": 11475,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=6290000&insurance_company=igi-insurance&version=1153%2C320&make=suzuki&model=apv",
+   "label": "Rs 62.90 LacsSuzuki APVInsurance starts at 125,000/year"
+  },
+  {
+   "x": 11821,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=3560000&insurance_company=igi-insurance&make=honda&model=vezel",
+   "label": "Rs 35.60 Lacs – 1.35 CroresHonda VezelInsurance starts at 71,000/year"
+  },
+  {
+   "x": 12166,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=3100000&insurance_company=igi-insurance&make=toyota&model=passo",
+   "label": "Rs 31 – 38.50 LacsToyota PassoInsurance starts at 62,000/year"
+  },
+  {
+   "x": 12511,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=10700000&insurance_company=igi-insurance&version=2935%2C148&make=honda&model=cr-v",
+   "label": "Rs 1.07 CroresHonda CR-VInsurance starts at 214,000/year"
+  },
+  {
+   "x": 12857,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=8923986&insurance_company=igi-insurance&version=466%2C597&make=haval&model=h6",
+   "label": "Rs 89.24 Lacs – 1.29 CroresHaval H6Insurance starts at 178,000/year"
+  },
+  {
+   "x": 13202,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=22990000&insurance_company=igi-insurance&version=470%2C137&make=honda&model=accord",
+   "label": "Rs 2.30 CroresHonda AccordInsurance starts at 459,000/year"
+  },
+  {
+   "x": 13547,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=13390000&insurance_company=igi-insurance&version=680%2C191&make=isuzu&model=d-max",
+   "label": "Rs 1.34 CroresIsuzu D-MaxInsurance starts at 267,000/year"
+  },
+  {
+   "x": 13893,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=3799000&insurance_company=igi-insurance&version=2962%2C496&make=changan&model=alsvin",
+   "label": "Rs 37.99 – 45.49 LacsChangan AlsvinInsurance starts at 75,000/year"
+  },
+  {
+   "x": 14238,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=4398000&insurance_company=igi-insurance&make=bmw&model=2-series",
+   "label": "Rs 43.98 Lacs – 1.79 CroresBMW 2 SeriesInsurance starts at 87,000/year"
+  },
+  {
+   "x": 14583,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=4600000&insurance_company=igi-insurance&version=354%2C100&make=dfsk&model=glory-580",
+   "label": "Rs 46 – 65 LacsDFSK Glory 580Insurance starts at 92,000/year"
+  },
+  {
+   "x": 14929,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=11225000&insurance_company=igi-insurance&version=2997%2C495&make=baic&model=bj40-plus",
+   "label": "Rs 1.12 CroresBAIC BJ40 PlusInsurance starts at 224,000/year"
+  },
+  {
+   "x": 15274,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=6999000&insurance_company=igi-insurance&version=3006%2C486&make=chery&model=tiggo",
+   "label": "Rs 69.99 – 95.85 LacsChery TiggoInsurance starts at 139,000/year"
+  },
+  {
+   "x": 15619,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=8299000&insurance_company=igi-insurance&version=3036%2C488&make=changan&model=oshan-x7",
+   "label": "Rs 82.99 – 90.99 LacsChangan Oshan X7Insurance starts at 165,000/year"
+  },
+  {
+   "x": 15965,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=5350000&insurance_company=igi-insurance&version=734%2C214&make=kia&model=stonic",
+   "label": "Rs 53.50 – 55 LacsKIA StonicInsurance starts at 107,000/year"
+  },
+  {
+   "x": 16310,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=13899000&insurance_company=igi-insurance&version=665%2C185&make=hyundai&model=santa-fe",
+   "label": "Rs 1.39 CroresHyundai Santa FeInsurance starts at 277,000/year"
+  },
+  {
+   "x": 16655,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=3689000&insurance_company=igi-insurance&version=2927%2C498&make=hyundai&model=porter-h-100",
+   "label": "Rs 36.89 – 38.19 LacsHyundai Porter H-100Insurance starts at 73,000/year"
+  },
+  {
+   "x": 17001,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=6900000&insurance_company=igi-insurance&version=680%2C191&make=isuzu&model=d-max",
+   "label": "Rs 69 Lacs – 1.11 CroresIsuzu D-MaxInsurance starts at 138,000/year"
+  },
+  {
+   "x": 17346,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=3500000&insurance_company=igi-insurance&make=mg&model=3",
+   "label": "Rs 35 – 38 LacsMG 3Insurance starts at 70,000/year"
+  },
+  {
+   "x": 17691,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=6049000&insurance_company=igi-insurance&version=3017%2C335&make=suzuki&model=jimny",
+   "label": "Rs 60.49 LacsSuzuki JimnyInsurance starts at 120,000/year"
+  },
+  {
+   "x": 18037,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=41270000&insurance_company=igi-insurance&make=bmw&model=x3-series",
+   "label": "Rs 4.13 CroresBMW X3 SeriesInsurance starts at 825,000/year"
+  },
+  {
+   "x": 18382,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=16000000&insurance_company=igi-insurance&make=bmw&model=i3",
+   "label": "Rs 1.60 CroresBMW i3Insurance starts at 320,000/year"
+  },
+  {
+   "x": 18727,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=2254000&insurance_company=igi-insurance&version=337%2C92&make=changan&model=m9-sherpa",
+   "label": "Rs 22.54 LacsChangan M9 SherpaInsurance starts at 45,000/year"
+  },
+  {
+   "x": 19073,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=16050000&insurance_company=igi-insurance&version=1299%2C366&make=toyota&model=camry",
+   "label": "Rs 1.60 – 2.13 CroresToyota CamryInsurance starts at 321,000/year"
+  },
+  {
+   "x": 19418,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=3000000&insurance_company=igi-insurance&make=daihatsu&model=move",
+   "label": "Rs 30 – 35 LacsDaihatsu MoveInsurance starts at 60,000/year"
+  },
+  {
+   "x": 19763,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=10499000&insurance_company=igi-insurance&version=717%2C206&make=kia&model=grand-carnival",
+   "label": "Rs 1.05 – 1.60 CroresKIA Grand CarnivalInsurance starts at 209,000/year"
+  },
+  {
+   "x": 20109,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=7796104&insurance_company=igi-insurance&version=467%2C590&make=haval&model=jolion",
+   "label": "Rs 77.96 – 91.16 LacsHaval JolionInsurance starts at 155,000/year"
+  },
+  {
+   "x": 20454,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=9700000&insurance_company=igi-insurance&version=2895%2C179&make=hyundai&model=elantra",
+   "label": "Rs 97 LacsHyundai ElantraInsurance starts at 194,000/year"
+  },
+  {
+   "x": 20799,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=2700000&insurance_company=igi-insurance&make=daihatsu&model=mira",
+   "label": "Rs 27 – 33 LacsDaihatsu MiraInsurance starts at 54,000/year"
+  },
+  {
+   "x": 21145,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=12202000&insurance_company=igi-insurance&version=3065%2C190&make=hyundai&model=tucson",
+   "label": "Rs 1.22 – 1.33 CroresHyundai TucsonInsurance starts at 244,000/year"
+  },
+  {
+   "x": 21490,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=10999000&insurance_company=igi-insurance&version=3117%2C542&make=hyundai&model=tucson-hybrid",
+   "label": "Rs 1.10 – 1.20 CroresHyundai Tucson HybridInsurance starts at 219,000/year"
+  },
+  {
+   "x": 21835,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=7315000&insurance_company=igi-insurance&version=3065%2C190&make=hyundai&model=tucson",
+   "label": "Rs 73.15 – 89.09 LacsHyundai TucsonInsurance starts at 146,000/year"
+  },
+  {
+   "x": 22181,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=8009000&insurance_company=igi-insurance&version=1592%2C434&make=toyota&model=rush",
+   "label": "Rs 80.09 – 88.20 LacsToyota RushInsurance starts at 160,000/year"
+  },
+  {
+   "x": 22526,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=6740000&insurance_company=igi-insurance&version=3011%2C308&make=proton&model=x-70",
+   "label": "Rs 67.40 – 71.90 LacsProton X70Insurance starts at 134,000/year"
+  },
+  {
+   "x": 22871,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=2824000&insurance_company=igi-insurance&version=2989%2C307&make=proton&model=saga",
+   "label": "Rs 28.24 – 31.49 LacsProton SagaInsurance starts at 56,000/year"
+  },
+  {
+   "x": 23216,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=10229000&insurance_company=igi-insurance&version=676%2C189&make=hyundai&model=sonata",
+   "label": "Rs 1.02 – 1.65 CroresHyundai SonataInsurance starts at 204,000/year"
+  },
+  {
+   "x": 23562,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=6399000&insurance_company=igi-insurance&version=2895%2C179&make=hyundai&model=elantra",
+   "label": "Rs 63.99 – 71.80 LacsHyundai ElantraInsurance starts at 127,000/year"
+  },
+  {
+   "x": 23907,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=52310000&insurance_company=igi-insurance&make=bmw&model=x5-series",
+   "label": "Rs 5.23 CroresBMW X5 SeriesInsurance starts at 1,046,000/year"
+  },
+  {
+   "x": 24252,
+   "y": 668,
+   "width": 327,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=17090000&insurance_company=igi-insurance&make=bmw&model=x1",
+   "label": "Rs 1.71 CroresBMW X1Insurance starts at 341,000/year"
+  },
+  {
+   "x": 24598,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=40000000&insurance_company=igi-insurance&make=bmw&model=5-series",
+   "label": "Rs 4 – 5.30 CroresBMW 5 SeriesInsurance starts at 800,000/year"
+  },
+  {
+   "x": 24943,
+   "y": 668,
+   "width": 326,
+   "height": 221,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/packages/apply-now/?price=17450000&insurance_company=igi-insurance&version=243%2C53&make=audi&model=q5",
+   "label": "Rs 1.75 CroresAudi Q5Insurance starts at 349,000/year"
+  },
+  {
+   "x": 80,
+   "y": 1939,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84/",
+   "label": "Find Cars in Lahore"
+  },
+  {
+   "x": 295,
+   "y": 1939,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84/",
+   "label": "Find Cars in Karachi"
+  },
+  {
+   "x": 510,
+   "y": 1939,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84/",
+   "label": "Find Cars in Rawalpindi"
+  },
+  {
+   "x": 725,
+   "y": 1939,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84/",
+   "label": "Find Cars in Islamabad"
+  },
+  {
+   "x": 941,
+   "y": 1939,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/cars_c84/",
+   "label": "Find Cars in Faisalabad"
+  },
+  {
+   "x": 1156,
+   "y": 1939,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/cars_c84/",
+   "label": "Find Cars in Gujranwala"
+  },
+  {
+   "x": 80,
+   "y": 1970,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mardan_g4060623/cars_c84/",
+   "label": "Find Cars in Mardan"
+  },
+  {
+   "x": 295,
+   "y": 1970,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/peshawar_g4060643/cars_c84/",
+   "label": "Find Cars in Peshawar"
+  },
+  {
+   "x": 510,
+   "y": 1970,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/multan_g4060675/cars_c84/",
+   "label": "Find Cars in Multan"
+  },
+  {
+   "x": 725,
+   "y": 1970,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sialkot_g4060686/cars_c84/",
+   "label": "Find Cars in Sialkot"
+  },
+  {
+   "x": 941,
+   "y": 1970,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653/cars_c84/",
+   "label": "Find Cars in Bahawalpur"
+  },
+  {
+   "x": 1156,
+   "y": 1970,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663/cars_c84/",
+   "label": "Find Cars in Gujrat"
+  },
+  {
+   "x": 80,
+   "y": 2001,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/abbottabad_g4060640/cars_c84/",
+   "label": "Find Cars in Abbottabad"
+  },
+  {
+   "x": 295,
+   "y": 2001,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/swabi_g4060645/cars_c84/",
+   "label": "Find Cars in Swabi"
+  },
+  {
+   "x": 510,
+   "y": 2001,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sargodha_g4060684/cars_c84/",
+   "label": "Find Cars in Sargodha"
+  },
+  {
+   "x": 725,
+   "y": 2001,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyderabad_g4060693/cars_c84/",
+   "label": "Find Cars in Hyderabad"
+  },
+  {
+   "x": 941,
+   "y": 2001,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sukkur_g4060702/cars_c84/",
+   "label": "Find Cars in Sukkur"
+  },
+  {
+   "x": 960,
+   "y": 2147,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 1096,
+   "y": 2147,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 1232,
+   "y": 2147,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://appgallery.huawei.com/app/C104375435",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 2340,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 2372,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 2404,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 2436,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4/",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 2340,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81/",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 2372,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970/",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 2404,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-books/",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 2436,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-dogs/",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 2340,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 2372,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/requests/new",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 2404,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 2340,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 2372,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 2404,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 2436,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 2340,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 2340,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 2340,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 2340,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

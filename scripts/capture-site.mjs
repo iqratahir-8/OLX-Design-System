@@ -65,11 +65,43 @@ const SUB = [
   ['online-jobs', 'Online Jobs', '/online_c1737', 'jobs'],
 ];
 
+// Motors pages: [id, title, path]. `name` in import-motors.mjs maps saved pages to these ids.
+export const MOTORS = [
+  ['motors-new-cars', 'Motors: New cars', '/motors/new-cars/'],
+  ['motors-all-new-cars', 'Motors: New sedans', '/motors/new-cars/all-new-cars/?body_type=sedan'],
+  ['motors-new-suvs', 'Motors: New SUVs', '/motors/new-cars/all-new-cars/?body_type=suv'],
+  ['motors-new-cars-empty', 'Motors: New cars, no results', '/motors/new-cars/all-new-cars/?body_type=truck&make=honda&price_range=100000-200000'],
+  ['motors-brand', 'Motors: New Honda cars', '/motors/new-cars/honda/'],
+  ['motors-brand-toyota', 'Motors: New Toyota cars', '/motors/new-cars/toyota/'],
+  ['motors-model', 'Motors: Honda Civic', '/motors/new-cars/honda/civic/'],
+  ['motors-model-corolla', 'Motors: Toyota Corolla', '/motors/new-cars/toyota/corolla/'],
+  ['motors-version', 'Motors: Corolla Altis CVT 1.6', '/motors/new-cars/toyota/corolla/altis-cvt-1-6/'],
+  ['motors-compare', 'Motors: Car comparison', '/motors/new-cars/compare/'],
+  ['motors-compare-result', 'Motors: Jaecoo J7 vs Kia Sportage', '/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/'],
+  ['motors-reviews', 'Motors: Car reviews', '/motors/car-reviews/'],
+  ['motors-model-reviews', 'Motors: Toyota Corolla reviews', '/motors/car-reviews/toyota/corolla/'],
+  ['motors-review', 'Motors: A Corolla owner review', '/motors/car-reviews/toyota/corolla/71/'],
+  ['motors-finance', 'Motors: Car finance', '/motors/car-finance/'],
+  ['motors-finance-bank', 'Motors: Bank Islamic car finance', '/motors/car-finance/bank-islamic/'],
+  ['motors-inspection', 'Motors: Car inspection', '/motors/car-inspection/'],
+  ['motors-insurance', 'Motors: Car insurance', '/motors/car-insurance/'],
+  ['motors-insurance-tpl', 'Motors: Third-party (TPL) insurance', '/motors/car-insurance/tpl-insurance/'],
+  ['motors-insurer', 'Motors: IGI Insurance', '/motors/car-insurance/igi-insurance/'],
+  ['motors-auction-sheet', 'Motors: Auction sheet verification', '/motors/auction-sheet-verification/'],
+  ['motors-tyres', 'Motors: Car tyres', '/motors/car-tyres/'],
+  ['motors-brand-tyres', 'Motors: Toyota tyres', '/motors/car-tyres/toyota/'],
+  ['motors-model-tyres', 'Motors: Seres 3 tyres', '/motors/car-tyres/seres/3-1/2023-2026/'],
+  ['motors-batteries', 'Motors: Car batteries', '/motors/car-batteries/'],
+  ['motors-brand-batteries', 'Motors: Toyota batteries', '/motors/car-batteries/toyota/'],
+  ['motors-model-batteries', 'Motors: Honda Civic batteries', '/motors/car-batteries/honda/civic/2022-2026/'],
+  ['motors-oil-grades', 'Motors: Engine oil grades', '/motors/oil-grades/'],
+];
+
 // The first-visit location prompt only appears on some visits, so these steps are optional.
 const MOBILE_HOME_STEPS = [{ click: 'text:Other address', optional: true }, { click: 'text:See all in Pakistan', optional: true }];
 const home = (extra = {}) => ({ path: '/', steps: { mobile: [...MOBILE_HOME_STEPS, ...(extra.mobile ?? [])], desktop: extra.desktop ?? [] } });
 
-const PAGES = [
+export const PAGES = [
   { id: 'home', title: 'Home', ...home(), flows: ['browse', 'search', 'sell', 'account', 'location'] },
   { id: 'location-prompt', title: 'Location prompt (first visit)', overlay: true, path: '/', only: ['mobile'], steps: { mobile: [{ expect: 'text:Other address' }] }, flows: ['first-visit'] },
   { id: 'location-select', title: 'Choose location (first visit)', overlay: true, path: '/', only: ['mobile'], steps: { mobile: [{ click: 'text:Other address' }] }, flows: ['first-visit'] },
@@ -85,26 +117,10 @@ const PAGES = [
   { id: 'city-category', title: 'Mobile Phones in Lahore', resolve: { link: ['/mobile-phones_c1453', /^Lahore\b/] }, flows: ['location'] },
   { id: 'sitemap', title: 'Sitemap', path: '/sitemap/most-popular', flows: [] },
 
-  // Motors vertical: every section, and one or two of its internal pages.
-  { id: 'motors-new-cars', title: 'Motors: New Cars', path: '/motors/new-cars/', flows: ['motors'] },
-  { id: 'motors-all-new-cars', title: 'Motors: All new cars', path: '/motors/new-cars/all-new-cars/', flows: ['motors'] },
-  { id: 'motors-brand', title: 'Motors: New Honda cars', path: '/motors/new-cars/honda/', flows: ['motors'] },
-  { id: 'motors-model', title: 'Motors: Honda Civic', path: '/motors/new-cars/honda/civic/', flows: ['motors'] },
-  { id: 'motors-version', title: 'Motors: Honda Civic Oriel', path: '/motors/new-cars/honda/civic/oriel/', flows: ['motors'] },
-  { id: 'motors-compare', title: 'Motors: Car comparison', path: '/motors/new-cars/compare/', flows: ['motors'] },
-  { id: 'motors-compare-result', title: 'Motors: Corolla vs Civic', path: '/motors/new-cars/compare/toyota-corolla-vs-honda-civic/', flows: ['motors'] },
-  { id: 'motors-finance', title: 'Motors: Car finance', path: '/motors/car-finance/', flows: ['motors'] },
-  { id: 'motors-inspection', title: 'Motors: Car inspection', path: '/motors/car-inspection/', flows: ['motors'] },
-  { id: 'motors-insurance', title: 'Motors: Car insurance', path: '/motors/car-insurance/', flows: ['motors'] },
-  { id: 'motors-insurance-packages', title: 'Motors: Insurance packages', path: '/motors/car-insurance/packages/', flows: ['motors'] },
-  { id: 'motors-insurer', title: 'Motors: IGI Insurance', path: '/motors/car-insurance/igi-insurance/', flows: ['motors'] },
-  { id: 'motors-auction-sheet', title: 'Motors: Auction sheet verification', path: '/motors/auction-sheet-verification/', flows: ['motors'] },
-  { id: 'motors-reviews', title: 'Motors: Car reviews', path: '/motors/car-reviews/', flows: ['motors'] },
-  { id: 'motors-model-reviews', title: 'Motors: Honda Civic reviews', path: '/motors/car-reviews/honda/civic/', flows: ['motors'] },
-  { id: 'motors-tyres', title: 'Motors: Car tyres', path: '/motors/car-tyres/', flows: ['motors'] },
-  { id: 'motors-model-tyres', title: 'Motors: Honda Civic tyres', path: '/motors/car-tyres/honda/civic/2022-2026/', flows: ['motors'] },
-  { id: 'motors-batteries', title: 'Motors: Car batteries', path: '/motors/car-batteries/', flows: ['motors'] },
-  { id: 'motors-model-batteries', title: 'Motors: Honda Civic batteries', path: '/motors/car-batteries/honda/civic/2022-2026/', flows: ['motors'] },
+  // Motors vertical: every section and its internal pages. These are imported
+  // from saved server HTML with scripts/import-motors.mjs when the Motors CDNs
+  // are unreachable; with network access they capture live like everything else.
+  ...MOTORS.map(([id, title, path]) => ({ id, title, path, flows: ['motors'] })),
 
   // Property: every property type, city pages, a plot ad, and the not-found page
   // that several links on the Property landing page lead to.
@@ -238,7 +254,7 @@ function tagTargets() {
 }
 
 // Measure hotspots and sections in the laid-out page, then remove the tags.
-function measure({ overlay, scrolled }) {
+export function measure({ overlay, scrolled }) {
   const vw = innerWidth;
   // Scrolled states are screenshots of the screen, so they use screen coordinates.
   const sx = scrolled ? 0 : scrollX, sy = scrolled ? 0 : scrollY;
@@ -266,12 +282,16 @@ function measure({ overlay, scrolled }) {
     if (!visible(el)) continue;
     const outer = el.parentElement?.closest('[data-cap]');
     if (outer && outer.getAttribute('data-cap-href') === el.getAttribute('data-cap-href') && outer.getAttribute('data-cap-kind') === 'link') continue;
-    hotspots.push({ ...round(el.getBoundingClientRect()), kind: el.dataset.capKind, href: el.dataset.capHref || undefined, label: el.dataset.capLabel });
+    // The label is read again here, after redaction, rather than from data-cap-label.
+    const label = (el.getAttribute('aria-label') || el.getAttribute('placeholder') || el.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 80);
+    hotspots.push({ ...round(el.getBoundingClientRect()), kind: el.dataset.capKind, href: el.dataset.capHref || undefined, label });
   }
 
   // Sections: walk down from <body>, splitting large blocks into their children
   // until each piece is a meaningful unit. Landmarks and cards stay whole.
-  const kids = (el) => [...el.children].filter((c) => visible(c) && c.getBoundingClientRect().height >= 20);
+  // Empty click-through layers (toast containers) are not sections.
+  const kids = (el) => [...el.children].filter((c) => visible(c) && c.getBoundingClientRect().height >= 20
+    && !(getComputedStyle(c).pointerEvents === 'none' && !c.textContent.trim()));
   const sections = [];
   const maxH = overlay ? Infinity : Math.max(900, innerHeight * 0.25);
   // Landmarks and cards stay whole unless they wrap most of the page (OLX puts
@@ -287,7 +307,10 @@ function measure({ overlay, scrolled }) {
     if (Math.max(...Object.values(counts)) / ks.length < 0.7) return false;
     // Page sections that happen to repeat (the home page's category rows) stay separate.
     const avg = ks.reduce((h, c) => h + c.getBoundingClientRect().height, 0) / ks.length;
-    return avg <= 480 && !ks.some((c) => c.matches('[aria-label="Category with hits section"]'));
+    // Cards and rows are about the same height; page sections that share a class (Motors) are not.
+    const hs = ks.map((c) => c.getBoundingClientRect().height).sort((a, b) => a - b);
+    const even = hs[hs.length - 1] <= hs[Math.floor(hs.length / 2)] * 1.6;
+    return avg <= 480 && even && !ks.some((c) => c.matches('[aria-label="Category with hits section"]'));
   };
   const walk = (el, depth) => {
     const ks = kids(el);
@@ -392,14 +415,16 @@ async function writeCss(blocks) {
 
 // Options for the logged-in script: `storageState` (its session), `redact`
 // (extra text to hide), and `html` (a snapshot of a screen as the user sees it,
-// served at the page's own URL so relative links, CSS and images resolve).
+// served at the page's own URL so relative links, CSS and images resolve), and
+// `route` (a handler for every other request, e.g. to serve saved assets).
 export async function capture(browser, def, path, vp, contextOptions = {}) {
-  const { redact, html, ...contextOpts } = contextOptions;
+  const { redact, html, route, ...contextOpts } = contextOptions;
   const context = await browser.newContext({ ...viewports[vp], ...contextOpts });
   const page = await context.newPage();
   const dir = `${OUT}/pages/${def.id}`;
   const dpr = viewports[vp].deviceScaleFactor ?? 1;
   try {
+    if (route) await page.route('**/*', route);
     if (html) {
       await page.route(ORIGIN + path, (route) => (route.request().resourceType() === 'document'
         ? route.fulfill({ body: html, contentType: 'text/html; charset=utf-8' }) : route.continue()));

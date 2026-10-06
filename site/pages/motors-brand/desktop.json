@@ -1,0 +1,1111 @@
+{
+ "id": "motors-brand",
+ "title": "Motors: New Honda cars",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/motors/new-cars/honda/",
+ "finalUrl": "https://www.olx.com.pk/motors/new-cars/honda/",
+ "width": 1440,
+ "height": 4881,
+ "dpr": 1,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-10-06T08:51:03.918Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 111
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-new-honda-2026-car-prices-and-pictures-i",
+   "name": "New Honda 2026 Car Prices & Pictures in ",
+   "rect": {
+    "x": 0,
+    "y": 110,
+    "width": 1440,
+    "height": 365
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-honda-new-cars-models",
+   "name": "Honda New Cars Models",
+   "rect": {
+    "x": 80,
+    "y": 506,
+    "width": 1280,
+    "height": 310
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-popular-car-comparisons",
+   "name": "Popular Car Comparisons",
+   "rect": {
+    "x": 80,
+    "y": 847,
+    "width": 1280,
+    "height": 253
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "05-honda-overview",
+   "name": "Honda Overview",
+   "rect": {
+    "x": 80,
+    "y": 1131,
+    "width": 1280,
+    "height": 29
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "06-honda-is-among-the-world-s-largest-and-m",
+   "name": "Honda is among the world’s largest and most popu",
+   "rect": {
+    "x": 80,
+    "y": 1173,
+    "width": 1280,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "07-honda-started-the-operations-in-pakistan",
+   "name": "Honda started the operations in Pakistan by part",
+   "rect": {
+    "x": 80,
+    "y": 1245,
+    "width": 1280,
+    "height": 73
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "08-honda-cars-price-start-from-rs-3-264-000",
+   "name": "Honda cars price start from Rs.3,264,000 and goe",
+   "rect": {
+    "x": 80,
+    "y": 1341,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "09-here-is-the-list-of-honda-cars-in-pakist",
+   "name": "Here is the list of Honda cars in Pakistan",
+   "rect": {
+    "x": 80,
+    "y": 1389,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "10-honda-civic",
+   "name": "Honda Civic",
+   "rect": {
+    "x": 80,
+    "y": 1437,
+    "width": 1280,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(5)"
+  },
+  {
+   "file": "11-the-5th-generation-honda-civic-was-intro",
+   "name": "The 5th generation Honda Civic was introduced in",
+   "rect": {
+    "x": 80,
+    "y": 1486,
+    "width": 1280,
+    "height": 73
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(6)"
+  },
+  {
+   "file": "12-features",
+   "name": "Features",
+   "rect": {
+    "x": 80,
+    "y": 1582,
+    "width": 1280,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(7)"
+  },
+  {
+   "file": "13-their-common-features-include-electric-p",
+   "name": "Their common features include, electric parking ",
+   "rect": {
+    "x": 80,
+    "y": 1631,
+    "width": 1280,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(8)"
+  },
+  {
+   "file": "14-generations",
+   "name": "Generations",
+   "rect": {
+    "x": 80,
+    "y": 1703,
+    "width": 1280,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(9)"
+  },
+  {
+   "file": "15-the-1st-generation-of-honda-civic-hatchb",
+   "name": "The 1st generation of Honda Civic (hatchback) wa",
+   "rect": {
+    "x": 80,
+    "y": 1752,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(10)"
+  },
+  {
+   "file": "16-its-2nd-generation-was-introduced-in-197",
+   "name": "Its 2nd generation was introduced in 1979 and it",
+   "rect": {
+    "x": 80,
+    "y": 1800,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(11)"
+  },
+  {
+   "file": "17-the-3rd-generation-civic-was-introduced-",
+   "name": "The 3rd generation Civic was introduced in 1983 ",
+   "rect": {
+    "x": 80,
+    "y": 1848,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(12)"
+  },
+  {
+   "file": "18-honda-civic-4th-generation-came-in-1987-",
+   "name": "Honda Civic 4th generation came in 1987 and rema",
+   "rect": {
+    "x": 80,
+    "y": 1896,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(13)"
+  },
+  {
+   "file": "19-its-5th-generation-came-in-1991-and-its-",
+   "name": "Its 5th generation came in 1991 and its producti",
+   "rect": {
+    "x": 80,
+    "y": 1944,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(14)"
+  },
+  {
+   "file": "20-the-6th-generation-civic-came-in-1995-an",
+   "name": "The 6th generation Civic came in 1995 and was av",
+   "rect": {
+    "x": 80,
+    "y": 1992,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(15)"
+  },
+  {
+   "file": "21-the-civic-7th-generation-was-introduced-",
+   "name": "The Civic 7th generation was introduced in 2000 ",
+   "rect": {
+    "x": 80,
+    "y": 2040,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(16)"
+  },
+  {
+   "file": "22-its-8th-generation-came-in-2005-and-its-",
+   "name": "Its 8th generation came in 2005 and its producti",
+   "rect": {
+    "x": 80,
+    "y": 2088,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(17)"
+  },
+  {
+   "file": "23-honda-civic-9th-generation-was-introduce",
+   "name": "Honda Civic 9th generation was introduced in 201",
+   "rect": {
+    "x": 80,
+    "y": 2136,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(18)"
+  },
+  {
+   "file": "24-the-10th-generation-civic-came-in-2015-a",
+   "name": "The 10th generation Civic came in 2015 and remai",
+   "rect": {
+    "x": 80,
+    "y": 2184,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(19)"
+  },
+  {
+   "file": "25-its-11th-and-the-latest-generation-was-i",
+   "name": "Its 11th and the latest generation was introduce",
+   "rect": {
+    "x": 80,
+    "y": 2232,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(20)"
+  },
+  {
+   "file": "26-honda-city",
+   "name": "Honda City",
+   "rect": {
+    "x": 80,
+    "y": 2280,
+    "width": 1280,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(21)"
+  },
+  {
+   "file": "27-the-3rd-generation-honda-city-was-introd",
+   "name": "The 3rd generation Honda City was introduced in ",
+   "rect": {
+    "x": 80,
+    "y": 2329,
+    "width": 1280,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(22)"
+  },
+  {
+   "file": "28-generations",
+   "name": "Generations",
+   "rect": {
+    "x": 80,
+    "y": 2401,
+    "width": 1280,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(23)"
+  },
+  {
+   "file": "29-city-1st-generation-hatchback-was-introd",
+   "name": "City 1st generation (hatchback) was introduced i",
+   "rect": {
+    "x": 80,
+    "y": 2450,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(24)"
+  },
+  {
+   "file": "30-the-2nd-generation-city-hatchback-came-i",
+   "name": "The 2nd generation City (hatchback) came into ex",
+   "rect": {
+    "x": 80,
+    "y": 2498,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(25)"
+  },
+  {
+   "file": "31-its-3rd-generation-was-introduced-after-",
+   "name": "Its 3rd generation was introduced after some del",
+   "rect": {
+    "x": 80,
+    "y": 2546,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(26)"
+  },
+  {
+   "file": "32-the-4th-generation-city-came-in-2002-and",
+   "name": "The 4th generation City came in 2002 and its pro",
+   "rect": {
+    "x": 80,
+    "y": 2594,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(27)"
+  },
+  {
+   "file": "33-its-5th-generation-was-introduced-in-200",
+   "name": "Its 5th generation was introduced in 2008 and re",
+   "rect": {
+    "x": 80,
+    "y": 2642,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(28)"
+  },
+  {
+   "file": "34-honda-city-6th-generation-came-in-2014-a",
+   "name": "Honda City 6th generation came in 2014 and is st",
+   "rect": {
+    "x": 80,
+    "y": 2690,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(29)"
+  },
+  {
+   "file": "35-its-7th-generation-was-introduced-in-201",
+   "name": "Its 7th generation was introduced in 2019 and is",
+   "rect": {
+    "x": 80,
+    "y": 2738,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(30)"
+  },
+  {
+   "file": "36-honda-accord-is-a-premium-sedan-offered-",
+   "name": "Honda Accord is a premium sedan offered by the c",
+   "rect": {
+    "x": 80,
+    "y": 2786,
+    "width": 1280,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(31)"
+  },
+  {
+   "file": "37-features",
+   "name": "Features",
+   "rect": {
+    "x": 80,
+    "y": 2858,
+    "width": 1280,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(32)"
+  },
+  {
+   "file": "38-cruise-control-active-noise-control-auto",
+   "name": "Cruise control, active noise control, auto wiper",
+   "rect": {
+    "x": 80,
+    "y": 2907,
+    "width": 1280,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(33)"
+  },
+  {
+   "file": "39-generations",
+   "name": "Generations",
+   "rect": {
+    "x": 80,
+    "y": 2979,
+    "width": 1280,
+    "height": 26
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(34)"
+  },
+  {
+   "file": "40-the-1st-generation-accord-was-introduced",
+   "name": "The 1st generation Accord was introduced in 1976",
+   "rect": {
+    "x": 80,
+    "y": 3028,
+    "width": 1280,
+    "height": 25
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(35)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 159,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 300,
+   "y": 24,
+   "width": 191,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1256,
+   "y": 12,
+   "width": 104,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/post/",
+   "label": "Sell"
+  },
+  {
+   "x": 80,
+   "y": 78,
+   "width": 63,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Used Cars"
+  },
+  {
+   "x": 185,
+   "y": 78,
+   "width": 60,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 287,
+   "y": 78,
+   "width": 101,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/",
+   "label": "Car Comparison"
+  },
+  {
+   "x": 430,
+   "y": 78,
+   "width": 77,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/",
+   "label": "Car Reviews"
+  },
+  {
+   "x": 549,
+   "y": 78,
+   "width": 72,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/",
+   "label": "Car Finance"
+  },
+  {
+   "x": 663,
+   "y": 78,
+   "width": 91,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-inspection/",
+   "label": "Car Inspection"
+  },
+  {
+   "x": 796,
+   "y": 78,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/",
+   "label": "Car Insurance"
+  },
+  {
+   "x": 80,
+   "y": 121,
+   "width": 32,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 140,
+   "y": 121,
+   "width": 37,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 205,
+   "y": 121,
+   "width": 51,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New Cars"
+  },
+  {
+   "x": 1309,
+   "y": 517,
+   "width": 51,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?make=honda&&sort_by=popularity",
+   "label": "View All"
+  },
+  {
+   "x": 80,
+   "y": 551,
+   "width": 416,
+   "height": 123,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/",
+   "label": "Rs 83.29 – 98.99 LacsHonda Civic"
+  },
+  {
+   "x": 512,
+   "y": 551,
+   "width": 416,
+   "height": 123,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/city/",
+   "label": "Rs 46.49 – 60.89 LacsHonda City"
+  },
+  {
+   "x": 944,
+   "y": 551,
+   "width": 416,
+   "height": 123,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/br-v/",
+   "label": "Rs 28.75 – 62.99 LacsHonda BR-V"
+  },
+  {
+   "x": 80,
+   "y": 693,
+   "width": 416,
+   "height": 123,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/hr-v/",
+   "label": "Rs 75.49 Lacs – 1.04 CroresHonda HR-V"
+  },
+  {
+   "x": 512,
+   "y": 693,
+   "width": 416,
+   "height": 123,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/accord/",
+   "label": "Rs 2.30 CroresHonda Accord"
+  },
+  {
+   "x": 944,
+   "y": 693,
+   "width": 416,
+   "height": 123,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/cr-v/",
+   "label": "Rs 1.07 CroresHonda CR-V"
+  },
+  {
+   "x": 239,
+   "y": 1045,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/N-one-vs-N-wgn/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 706,
+   "y": 1045,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/N-one-vs-dayz/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 1173,
+   "y": 1045,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/N-one-vs-hustler/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 1640,
+   "y": 1045,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/N-wgn-vs-cast/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 2107,
+   "y": 1045,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/n-wgn-vs-v2/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 2574,
+   "y": 1065,
+   "width": 130,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/N-wgn-vs-Ek-custom/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 3041,
+   "y": 1045,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/vezel-vs-glory580/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 3509,
+   "y": 1045,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/vezel-vs-ct200h/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 3976,
+   "y": 1045,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/vezel-vs-zs/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 4443,
+   "y": 1045,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/vezel-vs-prius-alpha/",
+   "label": "View Comparison"
+  },
+  {
+   "x": 80,
+   "y": 3864,
+   "width": 92,
+   "height": 20,
+   "kind": "button",
+   "label": "Show less"
+  },
+  {
+   "x": 1303,
+   "y": 3984,
+   "width": 32,
+   "height": 33,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1303,
+   "y": 4065,
+   "width": 32,
+   "height": 33,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 4199,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Lahore"
+  },
+  {
+   "x": 295,
+   "y": 4199,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Karachi"
+  },
+  {
+   "x": 510,
+   "y": 4199,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Rawalpindi"
+  },
+  {
+   "x": 725,
+   "y": 4199,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Islamabad"
+  },
+  {
+   "x": 941,
+   "y": 4199,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Faisalabad"
+  },
+  {
+   "x": 1156,
+   "y": 4199,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Gujranwala"
+  },
+  {
+   "x": 80,
+   "y": 4230,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mardan_g4060623/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Mardan"
+  },
+  {
+   "x": 295,
+   "y": 4230,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/peshawar_g4060643/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Peshawar"
+  },
+  {
+   "x": 510,
+   "y": 4230,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/multan_g4060675/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Multan"
+  },
+  {
+   "x": 725,
+   "y": 4230,
+   "width": 205,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sialkot_g4060686/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Sialkot"
+  },
+  {
+   "x": 941,
+   "y": 4230,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Bahawalpur"
+  },
+  {
+   "x": 1156,
+   "y": 4230,
+   "width": 204,
+   "height": 20,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Gujrat"
+  },
+  {
+   "x": 80,
+   "y": 4261,
+   "width": 204,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/abbottabad_g4060640/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Abbottabad"
+  },
+  {
+   "x": 295,
+   "y": 4261,
+   "width": 204,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/swabi_g4060645/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Swabi"
+  },
+  {
+   "x": 510,
+   "y": 4261,
+   "width": 204,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sargodha_g4060684/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Sargodha"
+  },
+  {
+   "x": 725,
+   "y": 4261,
+   "width": 205,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyderabad_g4060693/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Hyderabad"
+  },
+  {
+   "x": 941,
+   "y": 4261,
+   "width": 204,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sukkur_g4060702/cars_c84?filter=make_eq_cars-honda",
+   "label": "Honda in Sukkur"
+  },
+  {
+   "x": 960,
+   "y": 4445,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 1096,
+   "y": 4445,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 1232,
+   "y": 4445,
+   "width": 128,
+   "height": 39,
+   "kind": "link",
+   "href": "https://appgallery.huawei.com/app/C104375435",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 4639,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 4671,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 4703,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 4735,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4/",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 4639,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81/",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 4671,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970/",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 4703,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-books/",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 4735,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-dogs/",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 4639,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 4671,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/requests/new",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 4703,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 4639,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 4671,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 4703,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 4735,
+   "width": 271,
+   "height": 25,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 4639,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 4639,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 4639,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 4639,
+   "width": 40,
+   "height": 45,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}
