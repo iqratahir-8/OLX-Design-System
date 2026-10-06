@@ -1,0 +1,445 @@
+{
+ "id": "sub-online-jobs",
+ "title": "Online Jobs",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/online_c1737",
+ "finalUrl": "https://www.olx.com.pk/online_c1737?page=1",
+ "width": 390,
+ "height": 5200,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T13:04:52.359Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 104
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 120,
+    "width": 390,
+    "height": 3655
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 3790,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-online-jobs-in-pakistan",
+   "name": "Online Jobs in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 3870,
+    "width": 390,
+    "height": 87
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "05-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 3956,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "06-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 4002,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "07-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 4048,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "08-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 4094,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "09-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 4140,
+    "width": 390,
+    "height": 456
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "10-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 5131,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 0,
+   "y": 163,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/full-time-jobs-part-time-jobs-home-based-job-student-house-wife-iid-1119217507",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 304,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/part-time-full-time-home-based-work-male-female-online-jobs-iid-1119299051",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 446,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/typing-jobpart-time-full-time-job-data-entry-job-assignment-job-iid-1119286312",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 588,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-remote-job-part-time-teaching-data-entry-typing-iid-1117871848",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 730,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-jobs-education-data-entry-typing-job-part-time-jobteaching-iid-1118876664",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 872,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-jobs-data-entry-job-assignment-job-part-time-jobs-iid-1119220168",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1110,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/driver-iid-1110424901",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1252,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/full-time-jobs-part-time-jobs-home-based-job-student-house-wife-iid-1119697060",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1394,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/work-from-home-full-time-part-time-earn-from-home-iid-1119874201",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1548,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-quran-teacher-faisalabad-iid-1119894253",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1690,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/call-center-jobs-available-iid-1119893165",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1832,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/-iid-1119893018",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2070,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/part-time-work-available-for-males-and-females-iid-1119892408",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2212,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/video-editor-iid-1119891805",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2354,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hiring-male-and-female-iid-1119891680",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2496,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/moonlight-store-resellers-chahiye-iid-1119891384",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2638,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-business-opportunity-work-from-home-iid-1119890177",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2780,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/daly-complete-little-task-and-earn-iid-1119889132",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2922,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-work-iid-1119887824",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3064,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/urgent-hiring-male-or-female-location-at-lahore-iid-1119887817",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3206,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-iid-1119887614",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3360,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-jobsfull-timepart-timesimple-typing-jobs-for-boys-and-girls-iid-1119887592",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3502,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-iid-1119887254",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3644,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/full-time-part-time-home-bass-job-iid-1119886047",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 3790,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 143,
+   "y": 5131,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 3927,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 78,
+   "y": 3927,
+   "width": 23,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 16,
+   "y": 4439,
+   "width": 84,
+   "height": 34,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 4506,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 4506,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 4506,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 4506,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

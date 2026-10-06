@@ -1,0 +1,314 @@
+{
+ "id": "motors",
+ "title": "Motors",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/motors/",
+ "finalUrl": "https://www.olx.com.pk/motors/",
+ "width": 390,
+ "height": 2482,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T12:47:55.947Z",
+ "sections": [
+  {
+   "file": "01-div",
+   "name": "div",
+   "rect": {
+    "x": 16,
+    "y": 16,
+    "width": 358,
+    "height": 2450
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-motors-property-pakistan",
+   "name": "Motors · Property · Pakistan",
+   "rect": {
+    "x": 8,
+    "y": 178,
+    "width": 374,
+    "height": 188
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-find-cars-for-sale-in-pakistan",
+   "name": "Find Cars for Sale In Pakistan",
+   "rect": {
+    "x": 8,
+    "y": 378,
+    "width": 374,
+    "height": 319
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "04-explore-olx-motors",
+   "name": "Explore OLX Motors",
+   "rect": {
+    "x": 8,
+    "y": 716,
+    "width": 374,
+    "height": 456
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "05-buy-used-cars-for-sale-in-pakistan",
+   "name": "Buy Used Cars for Sale in Pakistan",
+   "rect": {
+    "x": 8,
+    "y": 1207,
+    "width": 374,
+    "height": 823
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "06-home-chat-sell",
+   "name": "Home · Chat · Sell",
+   "rect": {
+    "x": 8,
+    "y": 2049,
+    "width": 374,
+    "height": 178
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "07-get-the-olx-app",
+   "name": "Get the OLX App",
+   "rect": {
+    "x": 8,
+    "y": 2246,
+    "width": 374,
+    "height": 229
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 8,
+   "y": 178,
+   "width": 374,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 8,
+   "y": 219,
+   "width": 374,
+   "height": 35,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 8,
+   "y": 255,
+   "width": 374,
+   "height": 35,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 8,
+   "y": 312,
+   "width": 185,
+   "height": 21,
+   "kind": "input",
+   "label": "Search Used Cars"
+  },
+  {
+   "x": 8,
+   "y": 765,
+   "width": 374,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/",
+   "label": "New CarsFind your dream new car"
+  },
+  {
+   "x": 8,
+   "y": 843,
+   "width": 374,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/",
+   "label": "Car Comparison"
+  },
+  {
+   "x": 8,
+   "y": 881,
+   "width": 374,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/",
+   "label": "Car Reviews"
+  },
+  {
+   "x": 8,
+   "y": 919,
+   "width": 374,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-inspection/",
+   "label": "Car Inspection"
+  },
+  {
+   "x": 8,
+   "y": 958,
+   "width": 374,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/auction-sheet-verification/",
+   "label": "Auction Sheet"
+  },
+  {
+   "x": 8,
+   "y": 996,
+   "width": 374,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-finance/",
+   "label": "Car Finance"
+  },
+  {
+   "x": 8,
+   "y": 1034,
+   "width": 374,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-insurance/",
+   "label": "Car Insurance"
+  },
+  {
+   "x": 8,
+   "y": 1072,
+   "width": 374,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-tyres/",
+   "label": "Car Tyres"
+  },
+  {
+   "x": 8,
+   "y": 1110,
+   "width": 374,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/",
+   "label": "Car Batteries"
+  },
+  {
+   "x": 8,
+   "y": 1148,
+   "width": 30,
+   "height": 24,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 37,
+   "y": 1148,
+   "width": 30,
+   "height": 24,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 8,
+   "y": 2060,
+   "width": 64,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 8,
+   "y": 2089,
+   "width": 55,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chat/",
+   "label": "Chat"
+  },
+  {
+   "x": 8,
+   "y": 2146,
+   "width": 77,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/post/",
+   "label": "Sell"
+  },
+  {
+   "x": 8,
+   "y": 2175,
+   "width": 76,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/myads/",
+   "label": "My Ads"
+  },
+  {
+   "x": 8,
+   "y": 2193,
+   "width": 89,
+   "height": 34,
+   "kind": "button",
+   "label": "Account"
+  },
+  {
+   "x": 8,
+   "y": 2378,
+   "width": 84,
+   "height": 18,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 8,
+   "y": 2435,
+   "width": 32,
+   "height": 18,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 40,
+   "y": 2435,
+   "width": 32,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 72,
+   "y": 2435,
+   "width": 32,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 104,
+   "y": 2435,
+   "width": 32,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

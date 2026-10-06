@@ -1,0 +1,492 @@
+{
+ "id": "cat-services",
+ "title": "Services",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/services_c619",
+ "finalUrl": "https://www.olx.com.pk/services_c619?page=1",
+ "width": 390,
+ "height": 4827,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T12:55:02.787Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 104
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 120,
+    "width": 390,
+    "height": 3420
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 3555,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-pest-control-and-fumigation-services",
+   "name": "Pest Control & Fumigation Services:",
+   "rect": {
+    "x": 0,
+    "y": 3619,
+    "width": 390,
+    "height": 468
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "05-services-in-pakistan",
+   "name": "Services in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 4102,
+    "width": 390,
+    "height": 87
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "06-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 4188,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "07-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 4234,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "08-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 4280,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "09-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 4326,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "10-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 4372,
+    "width": 390,
+    "height": 455
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "11-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 4758,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 0,
+   "y": 120,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/income-tax-return-2026-professional-tax-consultant-in-karachi-iid-1118811193",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 261,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/rent-a-car-cultus-alto-yaris-citi-corolla-civic-fortuner-prado-hiace-iid-1103602028",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 403,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/self-drive-rent-a-car-civic-on-rent-alto-on-rent-prado-on-rent-lhr-iid-1119600080",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 545,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/security-protocol-guards-security-guards-available-personal-guard-iid-1117587238",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 687,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/reliable-secure-professional-pick-and-drop-iid-1103261981",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 829,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/company-registration-tax-filer-fbr-income-tax-return-sales-tax-iid-1119882137",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 971,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/rent-a-car-in-lahore-rent-a-car-best-rent-a-car-monthly-rent-a-car-iid-1119601416",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1113,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/self-drive-rent-a-carcar-rental-servicespradorevobulletproof-cars-iid-1118303994",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1255,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/maids-house-maids-cook-house-chef-baby-sitter-maid-available-iid-1119457538",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1409,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/home-food-iid-1119893913",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1551,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/self-drive-rent-a-car-without-driver-automatic-monthly-car-rental-iid-1117738976",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1693,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/tile-marble-fixer-iid-1116087684",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1835,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hair-services-skincare-bridal-makeup-waxing-beauty-parlor-salon-iid-1096397176",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1977,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/reliable-airport-city-travel-friends-travel-iid-1119892726",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2119,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/professional-graphic-designing-services-iid-1119892634",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2261,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/safe-clean-comfortable-rides-across-rawalpindi-islamabad-iid-1119892626",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2403,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/handwritten-assignment-services-iid-1119892508",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2545,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/invester-ke-need-ha-mujhya-iid-1119892460",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2687,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/article-rewrite-paraphraser-iid-1119892438",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2829,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/safe-affordable-pick-drop-friends-travel-iid-1119892425",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2971,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/professional-treadmill-gym-machine-repair-services-technician-iid-1118565889",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3125,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/reliable-pick-drop-services-in-twin-cities-iid-1119892309",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3267,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/treadmill-gym-machine-repair-services-expert-technician-iid-1118566546",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3409,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/english-treadmill-repairtreadmill-reparing-services-available-iid-1118562671",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 3555,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 138,
+   "y": 3808,
+   "width": 129,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/pest-control_c707025",
+   "label": "Pest Control Services"
+  },
+  {
+   "x": 21,
+   "y": 3937,
+   "width": 65,
+   "height": 82,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/pest-control_c707025",
+   "label": "Pest Control Services in Lahore"
+  },
+  {
+   "x": 103,
+   "y": 3937,
+   "width": 66,
+   "height": 82,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/pest-control_c707025",
+   "label": "Pest Control Services in Karachi"
+  },
+  {
+   "x": 186,
+   "y": 3948,
+   "width": 76,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/pest-control_c707025",
+   "label": "Pest Control Services in Islamabad"
+  },
+  {
+   "x": 280,
+   "y": 3948,
+   "width": 76,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/pest-control_c707025",
+   "label": "Pest Control Services in Rawalpindi"
+  },
+  {
+   "x": 143,
+   "y": 4758,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 4158,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 4671,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 4738,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 4738,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 4738,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 4738,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

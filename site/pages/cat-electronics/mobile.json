@@ -1,0 +1,563 @@
+{
+ "id": "cat-electronics",
+ "title": "Electronics & Home Appliances",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/electronics-home-appliances_c99",
+ "finalUrl": "https://www.olx.com.pk/electronics-home-appliances_c99?page=1",
+ "width": 390,
+ "height": 5828,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T12:53:14.671Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 139
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 155,
+    "width": 390,
+    "height": 4490
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-got-something-to-sell-post-in-3-simple-s",
+   "name": "Got Something to Sell? · Post in 3 Simple Steps ",
+   "rect": {
+    "x": 16,
+    "y": 4656,
+    "width": 358,
+    "height": 198
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-55-inch-samsung-new-model-2026-fresh-st",
+   "name": "55. INCH SAMSUNG NEW MODEL 2026 FRESH ST",
+   "rect": {
+    "x": 0,
+    "y": 4865,
+    "width": 390,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "05-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 5023,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "06-electronics-and-home-appliances-in-pakis",
+   "name": "Electronics & Home Appliances in Pakista",
+   "rect": {
+    "x": 0,
+    "y": 5103,
+    "width": 390,
+    "height": 87
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "07-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 5189,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "08-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 5235,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "09-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 5281,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "10-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 5327,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 5373,
+    "width": 390,
+    "height": 455
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "12-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 5759,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 104,
+   "width": 358,
+   "height": 23,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items?sorting=desc-relevance",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 104,
+   "width": 390,
+   "height": 35,
+   "kind": "button",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 155,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-5490-core-i5-8th-gen-16gb-ram-256gb-nvme-ssd-iid-1119893302",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 296,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/macbook-pro-2017-15-inch-for-sale-iid-1119892785",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 438,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-elite-book-laptop-for-sale-iid-1119892277",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 580,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/all-iptv-subscriptions-avlible-lowest-discounted-rate-iid-1118817952",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 722,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/location-tariq-road-karachi-3-kv-iid-1119892461",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 864,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/air-compressor-iid-1119883850",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1079,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/3-6v-mini-brushed-dc-motor-compact-toy-hobby-electric-motor-ff-030-iid-ev520273-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1079,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/high-class-ps4-wireless-rechargeable-controller-with-audio-jack-option-a-category-iid-ev562042-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1350,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/rn-mosquito-repellent-clip-badge-button-convenient-and-natural-insect-defense-iid-ev450754-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1350,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/micro-usb-2-0-mhl-to-hdmi-cable-1080p-for-android-samsung-htc-lg-hdmi-converter-mini-iid-ev552289-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1621,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/display-port-to-vga-converter-d-port-to-vga-convertor-iid-ev531635-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1621,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/bts-jungkook-kpop-stickers-for-laptop-car-bike-phone-stickers-iid-ev555271-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1891,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/10-pcs-400v-22-f-capacitor-high-voltage-electrolytic-capacitor-for-power-supply-industrial-circuits-iid-ev446570-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1891,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dimmable-led-selfie-ring-fill-light-for-photography-and-makeup-with-tripod-and-mobile-holder-iid-ev492732-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2167,
+   "width": 358,
+   "height": 41,
+   "kind": "button",
+   "label": "View All Items with Delivery"
+  },
+  {
+   "x": 0,
+   "y": 2219,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/nikon-d5600-dslr-nikkor-af-s-18-200mm-lens-brand-new-condition-iid-1119692507",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2361,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/panini-majestic-panini-grill-sandwich-press-3000w-made-in-france-iid-1119086918",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2503,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/opplex-iptv-geo-iptv-b1g-netflix-premium-streaming-iid-1118887501",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2657,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-envy-16-i7-13th-gen-16gb-ddr5-1tb-ssd-rtx-4060-120hz-iid-1118885529",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2799,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/cctv-camera-24-package-complete-installation-in-karachi-iid-1116405439",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2941,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-e16-gen-2-core-ultra-5-16gb-ram-512gb-nvme-ssd-iid-1119891590",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3083,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-macbook-pro-16-inch-m4-pro-powerful-performance-iid-1119431140",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3225,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-core-i5-12th-gen-10-core-12-thread-14inch-touchscreen-1080p-led-iid-1119579021",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3367,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/macbook-apple-macbook-air-m1-2020-8gb-16gb-ram-256gb-ssd-iid-1118165313",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3509,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/zotac-rtx-4080-super-16gb-perfect-condition-2-years-warranty-iid-1119551717",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3651,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/core-i-5-10th-gen-processor-good-condition-iid-1119195650",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3792,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-core-i5-13420h-13th-generation-laptop-mfg-aug-2025-156inch-iid-1119466826",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3934,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/old-ac-buyerused-ac-purchaserwindow-split-inverterac-buyer-scrap-iid-1118609670",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4076,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/photocopierprintercopierscannerricohhpkonicatonerall-in-onehp-iid-1116320588",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4218,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-elitedesk-800-g1-i5-4th-gen-16gb-ram-120gb-ssd-nvidia-2gb-iid-1119846076",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4372,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-e16-ultra-5-iid-1119838878",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4514,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/43-inch-q-led-tv-new-box-pack-samsung-3-year-warranty-o3228o83o6o-iid-1115375016",
+   "label": "Listing"
+  },
+  {
+   "x": 29,
+   "y": 4796,
+   "width": 332,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell Now"
+  },
+  {
+   "x": 0,
+   "y": 4865,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/55-inch-samsung-new-model-2026-fresh-stock-available-cal-o322i257237-iid-1107456780",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 5023,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 143,
+   "y": 5759,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 5159,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 5672,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

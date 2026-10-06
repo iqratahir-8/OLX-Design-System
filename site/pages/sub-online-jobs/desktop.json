@@ -1,0 +1,1599 @@
+{
+ "id": "sub-online-jobs",
+ "title": "Online Jobs",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/online_c1737",
+ "finalUrl": "https://www.olx.com.pk/online_c1737?page=1",
+ "width": 1440,
+ "height": 7611,
+ "dpr": 1,
+ "overlay": false,
+ "captured": "2026-09-29T13:04:35.701Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 1440,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "02-all-categories-mobile-phones-cars",
+   "name": "All Categories · Mobile Phones · Cars",
+   "rect": {
+    "x": 0,
+    "y": 143,
+    "width": 1440,
+    "height": 50
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "03-online-jobs-in-pakistan",
+   "name": "Online Jobs in Pakistan",
+   "rect": {
+    "x": 80,
+    "y": 475,
+    "width": 1280,
+    "height": 70
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "04-filters-list",
+   "name": "Filters list",
+   "rect": {
+    "x": 80,
+    "y": 560,
+    "width": 304,
+    "height": 494
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "05-view-sort-by-newly-listed",
+   "name": "View · Sort by: · Newly listed",
+   "rect": {
+    "x": 400,
+    "y": 560,
+    "width": 960,
+    "height": 54
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "06-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 400,
+    "y": 637,
+    "width": 960,
+    "height": 6370
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "07-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 400,
+    "y": 7030,
+    "width": 960,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "08-popular-searches-federal-b-area-punjab-c",
+   "name": "Popular Searches · federal b area · punjab coop ",
+   "rect": {
+    "x": 80,
+    "y": 7126,
+    "width": 1280,
+    "height": 75
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "09-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 7264,
+    "width": 1440,
+    "height": 347
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(2)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 144,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 284,
+   "y": 24,
+   "width": 139,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1196,
+   "y": 20,
+   "width": 40,
+   "height": 24,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
+   "x": 1256,
+   "y": 8,
+   "width": 104,
+   "height": 48,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 109,
+   "y": 81,
+   "width": 300,
+   "height": 46,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 459,
+   "y": 81,
+   "width": 791,
+   "height": 46,
+   "kind": "input",
+   "label": "Find Cars, Mobile Phones and more..."
+  },
+  {
+   "x": 1250,
+   "y": 80,
+   "width": 110,
+   "height": 48,
+   "kind": "button",
+   "label": "Search"
+  },
+  {
+   "x": 229,
+   "y": 159,
+   "width": 105,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 358,
+   "y": 159,
+   "width": 31,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 413,
+   "y": 159,
+   "width": 87,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Motorcycles"
+  },
+  {
+   "x": 524,
+   "y": 159,
+   "width": 53,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "Houses"
+  },
+  {
+   "x": 601,
+   "y": 159,
+   "width": 96,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "Video-Audios"
+  },
+  {
+   "x": 721,
+   "y": 159,
+   "width": 50,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "Tablets"
+  },
+  {
+   "x": 795,
+   "y": 159,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "Land & Plots"
+  },
+  {
+   "x": 80,
+   "y": 478,
+   "width": 39,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 149,
+   "y": 478,
+   "width": 29,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 97,
+   "y": 613,
+   "width": 270,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items",
+   "label": "All categories"
+  },
+  {
+   "x": 122,
+   "y": 729,
+   "width": 212,
+   "height": 47,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 97,
+   "y": 794,
+   "width": 270,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items",
+   "label": "Pakistan"
+  },
+  {
+   "x": 113,
+   "y": 820,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673",
+   "label": "Lahore(1,088)"
+  },
+  {
+   "x": 113,
+   "y": 846,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695",
+   "label": "Karachi(340)"
+  },
+  {
+   "x": 113,
+   "y": 872,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615",
+   "label": "Islamabad(166)"
+  },
+  {
+   "x": 113,
+   "y": 898,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660",
+   "label": "Faisalabad(146)"
+  },
+  {
+   "x": 113,
+   "y": 924,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681",
+   "label": "Rawalpindi(120)"
+  },
+  {
+   "x": 113,
+   "y": 950,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/multan_g4060675",
+   "label": "Multan(70)"
+  },
+  {
+   "x": 113,
+   "y": 976,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662",
+   "label": "Gujranwala(34)"
+  },
+  {
+   "x": 113,
+   "y": 1002,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653",
+   "label": "Bahawalpur(27)"
+  },
+  {
+   "x": 113,
+   "y": 1028,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sialkot_g4060686",
+   "label": "Sialkot(26)"
+  },
+  {
+   "x": 113,
+   "y": 1054,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyderabad_g4060693",
+   "label": "Hyderabad(25)"
+  },
+  {
+   "x": 113,
+   "y": 1080,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sargodha_g4060684",
+   "label": "Sargodha(18)"
+  },
+  {
+   "x": 113,
+   "y": 1106,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/peshawar_g4060643",
+   "label": "Peshawar(16)"
+  },
+  {
+   "x": 113,
+   "y": 1132,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/wah_g4060692",
+   "label": "Wah(15)"
+  },
+  {
+   "x": 113,
+   "y": 1158,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/abbottabad_g4060640",
+   "label": "Abbottabad(14)"
+  },
+  {
+   "x": 113,
+   "y": 1184,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sahiwal_g4060683",
+   "label": "Sahiwal(12)"
+  },
+  {
+   "x": 113,
+   "y": 1210,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/attock_g4060651",
+   "label": "Attock(10)"
+  },
+  {
+   "x": 113,
+   "y": 1236,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/pakpattan_g4060679",
+   "label": "Pakpattan(10)"
+  },
+  {
+   "x": 113,
+   "y": 1262,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663",
+   "label": "Gujrat(9)"
+  },
+  {
+   "x": 113,
+   "y": 1288,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jhelum_g4060668",
+   "label": "Jhelum(9)"
+  },
+  {
+   "x": 113,
+   "y": 1314,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/okara_g4060678",
+   "label": "Okara(8)"
+  },
+  {
+   "x": 113,
+   "y": 1340,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kot-addu_g4065541",
+   "label": "Kot Addu(8)"
+  },
+  {
+   "x": 113,
+   "y": 1366,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/khanewal_g4060671",
+   "label": "Khanewal(7)"
+  },
+  {
+   "x": 113,
+   "y": 1392,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jhang_g1142",
+   "label": "Jhang(6)"
+  },
+  {
+   "x": 113,
+   "y": 1418,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chakwal_g4065543",
+   "label": "Chakwal(6)"
+  },
+  {
+   "x": 113,
+   "y": 1444,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/haripur_g4060631",
+   "label": "Haripur(5)"
+  },
+  {
+   "x": 113,
+   "y": 1470,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/arifwala_g4060650",
+   "label": "Arifwala(5)"
+  },
+  {
+   "x": 113,
+   "y": 1496,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dera-ghazi-khan_g4060658",
+   "label": "Dera Ghazi Khan(5)"
+  },
+  {
+   "x": 113,
+   "y": 1522,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hafizabad_g4060664",
+   "label": "Hafizabad(5)"
+  },
+  {
+   "x": 113,
+   "y": 1548,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mianwali_g4060674",
+   "label": "Mianwali(5)"
+  },
+  {
+   "x": 113,
+   "y": 1574,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rahimyar-khan_g4060680",
+   "label": "Rahimyar Khan(5)"
+  },
+  {
+   "x": 113,
+   "y": 1600,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kasur_g4060687",
+   "label": "Kasur(5)"
+  },
+  {
+   "x": 113,
+   "y": 1626,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/nowshera_g4060642",
+   "label": "Nowshera(4)"
+  },
+  {
+   "x": 113,
+   "y": 1652,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chiniot_g4060655",
+   "label": "Chiniot(4)"
+  },
+  {
+   "x": 113,
+   "y": 1678,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bhakkar_g4065535",
+   "label": "Bhakkar(4)"
+  },
+  {
+   "x": 113,
+   "y": 1704,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/layyah_g4065537",
+   "label": "Layyah(4)"
+  },
+  {
+   "x": 113,
+   "y": 1730,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/pasrur_g5017168",
+   "label": "Pasrur(4)"
+  },
+  {
+   "x": 113,
+   "y": 1756,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mirpur_g4060595",
+   "label": "Mirpur(3)"
+  },
+  {
+   "x": 113,
+   "y": 1782,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/quetta_g4060602",
+   "label": "Quetta(3)"
+  },
+  {
+   "x": 113,
+   "y": 1808,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/swat_g4060646",
+   "label": "Swat(3)"
+  },
+  {
+   "x": 113,
+   "y": 1834,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalnagar_g4060652",
+   "label": "Bahawalnagar(3)"
+  },
+  {
+   "x": 1083,
+   "y": 560,
+   "width": 36,
+   "height": 37,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1127,
+   "y": 560,
+   "width": 36,
+   "height": 37,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1196,
+   "y": 568,
+   "width": 164,
+   "height": 22,
+   "kind": "button",
+   "label": "Sort by: Newly listed"
+  },
+  {
+   "x": 400,
+   "y": 637,
+   "width": 96,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-part-time",
+   "label": "Part-time"
+  },
+  {
+   "x": 504,
+   "y": 637,
+   "width": 92,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-full-time",
+   "label": "Full-time"
+  },
+  {
+   "x": 604,
+   "y": 637,
+   "width": 95,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-contract",
+   "label": "Contract"
+  },
+  {
+   "x": 707,
+   "y": 637,
+   "width": 110,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-temporary",
+   "label": "Temporary"
+  },
+  {
+   "x": 400,
+   "y": 695,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/home-base-assignment-work-part-time-job-online-job-writing-job-iid-1119299052",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 874,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 947,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-jobs-data-entry-job-assignment-job-part-time-jobs-iid-1119220168",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1127,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1200,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-work-male-female-typing-job-assignment-work-iid-1119029460",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1379,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1452,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/work-at-home-online-job-typing-data-entry-assignments-teachi-iid-1119068355",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1631,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1704,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-jobs-full-time-part-time-jobs-available-website-work-job-iid-1118865480",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1883,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1883,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1956,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/jobs-for-online-quran-teachers-iid-1094183902",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2135,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 2135,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 416,
+   "y": 2255,
+   "width": 109,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-entry-level",
+   "label": "Entry Level"
+  },
+  {
+   "x": 533,
+   "y": 2255,
+   "width": 150,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-mid-senior-level",
+   "label": "Mid-Senior Level"
+  },
+  {
+   "x": 691,
+   "y": 2255,
+   "width": 101,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-associate",
+   "label": "Associate"
+  },
+  {
+   "x": 800,
+   "y": 2255,
+   "width": 101,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-executive",
+   "label": "Executive"
+  },
+  {
+   "x": 909,
+   "y": 2255,
+   "width": 89,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-director",
+   "label": "Director"
+  },
+  {
+   "x": 400,
+   "y": 2329,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/typing-data-entry-boysgirls-online-remote-job-in-pakistan-iid-1118933308",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2509,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 2582,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1119298998",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2761,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 2834,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/typing-data-entry-boysgirls-online-remote-job-in-pakistan-iid-1118934184",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3013,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3102,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-quran-teacher-faisalabad-iid-1119894253",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3281,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3354,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/call-center-jobs-available-iid-1119893165",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3534,
+   "width": 105,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 3607,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/-iid-1119893018",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 3786,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 3786,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 416,
+   "y": 3906,
+   "width": 82,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/online_c1737",
+   "label": "Lahore"
+  },
+  {
+   "x": 506,
+   "y": 3906,
+   "width": 84,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/online_c1737",
+   "label": "Karachi"
+  },
+  {
+   "x": 598,
+   "y": 3906,
+   "width": 106,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/islamabad_g4060615/online_c1737",
+   "label": "Islamabad"
+  },
+  {
+   "x": 712,
+   "y": 3906,
+   "width": 106,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/online_c1737",
+   "label": "Faisalabad"
+  },
+  {
+   "x": 826,
+   "y": 3906,
+   "width": 110,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/online_c1737",
+   "label": "Rawalpindi"
+  },
+  {
+   "x": 944,
+   "y": 3906,
+   "width": 82,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/multan_g4060675/online_c1737",
+   "label": "Multan"
+  },
+  {
+   "x": 1034,
+   "y": 3906,
+   "width": 112,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/online_c1737",
+   "label": "Gujranwala"
+  },
+  {
+   "x": 1154,
+   "y": 3906,
+   "width": 79,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sialkot_g4060686/online_c1737",
+   "label": "Sialkot"
+  },
+  {
+   "x": 1241,
+   "y": 3906,
+   "width": 116,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653/online_c1737",
+   "label": "Bahawalpur"
+  },
+  {
+   "x": 1365,
+   "y": 3906,
+   "width": 120,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/abbottabad_g4060640/online_c1737",
+   "label": "Abbottabad"
+  },
+  {
+   "x": 1493,
+   "y": 3906,
+   "width": 102,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sargodha_g4060684/online_c1737",
+   "label": "Sargodha"
+  },
+  {
+   "x": 1603,
+   "y": 3906,
+   "width": 66,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/wah_g4060692/online_c1737",
+   "label": "Wah"
+  },
+  {
+   "x": 1677,
+   "y": 3906,
+   "width": 76,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663/online_c1737",
+   "label": "Gujrat"
+  },
+  {
+   "x": 1761,
+   "y": 3906,
+   "width": 101,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/peshawar_g4060643/online_c1737",
+   "label": "Peshawar"
+  },
+  {
+   "x": 1870,
+   "y": 3906,
+   "width": 113,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyderabad_g4060693/online_c1737",
+   "label": "Hyderabad"
+  },
+  {
+   "x": 1991,
+   "y": 3906,
+   "width": 86,
+   "height": 43,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sahiwal_g4060683/online_c1737",
+   "label": "Sahiwal"
+  },
+  {
+   "x": 2085,
+   "y": 3906,
+   "width": 77,
+   "height": 43,
+   "kind": "button",
+   "label": "View All"
+  },
+  {
+   "x": 1312,
+   "y": 3911,
+   "width": 32,
+   "height": 33,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 400,
+   "y": 3980,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/part-time-work-available-for-males-and-females-iid-1119892408",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4159,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4159,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4232,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/video-editor-iid-1119891805",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4411,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 4411,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4484,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hiring-male-and-female-iid-1119891680",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4663,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 4736,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/moonlight-store-resellers-chahiye-iid-1119891384",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 4916,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 400,
+   "y": 4989,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-business-opportunity-work-from-home-iid-1119890177",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5168,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5168,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5241,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/daly-complete-little-task-and-earn-iid-1119889132",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5420,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 5420,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5493,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-work-iid-1119887824",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5672,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5745,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/urgent-hiring-male-or-female-location-at-lahore-iid-1119887817",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 5924,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 5997,
+   "width": 960,
+   "height": 238,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-iid-1119887614",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6177,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6177,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6266,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-jobsfull-timepart-timesimple-typing-jobs-for-boys-and-girls-iid-1119887592",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6445,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6445,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6518,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/online-iid-1119887254",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6697,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 6697,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 6770,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/full-time-part-time-home-bass-job-iid-1119886047",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 6949,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 829,
+   "y": 7030,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 80,
+   "y": 7169,
+   "width": 112,
+   "height": 32,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-federal-b-area",
+   "label": "federal b area"
+  },
+  {
+   "x": 200,
+   "y": 7169,
+   "width": 156,
+   "height": 32,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-punjab-coop-society",
+   "label": "punjab coop society"
+  },
+  {
+   "x": 80,
+   "y": 7372,
+   "width": 31,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 7404,
+   "width": 86,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 7436,
+   "width": 105,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 7468,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 7372,
+   "width": 36,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 7404,
+   "width": 61,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 7436,
+   "width": 44,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books_c707080",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 7468,
+   "width": 37,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dogs_c139",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 7372,
+   "width": 66,
+   "height": 19,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 7404,
+   "width": 78,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 7436,
+   "width": 134,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 7372,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 7404,
+   "width": 57,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 7436,
+   "width": 90,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 7468,
+   "width": 92,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 7369,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 7369,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 7369,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 7369,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

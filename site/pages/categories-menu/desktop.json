@@ -1,0 +1,2317 @@
+{
+ "id": "categories-menu",
+ "title": "All categories menu",
+ "viewport": "desktop",
+ "url": "https://www.olx.com.pk/",
+ "finalUrl": "https://www.olx.com.pk/",
+ "width": 1440,
+ "height": 900,
+ "dpr": 1,
+ "overlay": true,
+ "captured": "2026-09-29T13:31:04.460Z",
+ "sections": [
+  {
+   "file": "01-mobiles-mobile-phones-accessories",
+   "name": "Mobiles · Mobile Phones · Accessories",
+   "rect": {
+    "x": 80,
+    "y": 185,
+    "width": 1280,
+    "height": 630
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 64,
+   "y": 23,
+   "width": 77,
+   "height": 26,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": ""
+  },
+  {
+   "x": 141,
+   "y": 24,
+   "width": 144,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Motors"
+  },
+  {
+   "x": 284,
+   "y": 24,
+   "width": 139,
+   "height": 24,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Property"
+  },
+  {
+   "x": 1196,
+   "y": 20,
+   "width": 40,
+   "height": 24,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
+   "x": 1256,
+   "y": 8,
+   "width": 104,
+   "height": 48,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 109,
+   "y": 81,
+   "width": 300,
+   "height": 46,
+   "kind": "input",
+   "label": "Location"
+  },
+  {
+   "x": 459,
+   "y": 81,
+   "width": 791,
+   "height": 46,
+   "kind": "input",
+   "label": "Find Cars, Mobile Phones and more..."
+  },
+  {
+   "x": 1250,
+   "y": 80,
+   "width": 110,
+   "height": 48,
+   "kind": "button",
+   "label": "Search"
+  },
+  {
+   "x": 104,
+   "y": 213,
+   "width": 286,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobiles_c1411",
+   "label": "Mobiles"
+  },
+  {
+   "x": 104,
+   "y": 246,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 104,
+   "y": 270,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/accessories_c1457",
+   "label": "Accessories"
+  },
+  {
+   "x": 104,
+   "y": 294,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "Tablets"
+  },
+  {
+   "x": 104,
+   "y": 318,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/smart-watches_c1458",
+   "label": "Smart Watches"
+  },
+  {
+   "x": 104,
+   "y": 342,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/landline-phones_c1459",
+   "label": "Landline Phones"
+  },
+  {
+   "x": 104,
+   "y": 366,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-wearables_c1500",
+   "label": "Other Wearables"
+  },
+  {
+   "x": 104,
+   "y": 390,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-numbers_c1501",
+   "label": "Mobile Numbers"
+  },
+  {
+   "x": 104,
+   "y": 442,
+   "width": 286,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/vehicles_c5",
+   "label": "Vehicles"
+  },
+  {
+   "x": 104,
+   "y": 475,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 104,
+   "y": 499,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars-accessories_c2027",
+   "label": "Cars Accessories"
+  },
+  {
+   "x": 104,
+   "y": 523,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/spare-parts_c82",
+   "label": "Spare Parts"
+  },
+  {
+   "x": 104,
+   "y": 547,
+   "width": 286,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/car-care_c709100",
+   "label": "Car Care"
+  },
+  {
+   "x": 104,
+   "y": 572,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rickshaw-chingchi_c2026",
+   "label": "Rickshaw & Chingchi"
+  },
+  {
+   "x": 104,
+   "y": 596,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/buses-vans-trucks_c85",
+   "label": "Buses, Vans & Trucks"
+  },
+  {
+   "x": 104,
+   "y": 620,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tractors-trailers_c1951",
+   "label": "Tractors & Trailers"
+  },
+  {
+   "x": 104,
+   "y": 644,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/oil-lubricants_c708999",
+   "label": "Oil & Lubricants"
+  },
+  {
+   "x": 104,
+   "y": 668,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars-on-installments_c86",
+   "label": "Cars on Installments"
+  },
+  {
+   "x": 104,
+   "y": 692,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/boats_c1950",
+   "label": "Boats"
+  },
+  {
+   "x": 104,
+   "y": 716,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-vehicles_c80",
+   "label": "Other Vehicles"
+  },
+  {
+   "x": 104,
+   "y": 768,
+   "width": 286,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2",
+   "label": "Property for Sale"
+  },
+  {
+   "x": 104,
+   "y": 801,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "Land & Plots"
+  },
+  {
+   "x": 104,
+   "y": 825,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "Houses"
+  },
+  {
+   "x": 104,
+   "y": 849,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1725",
+   "label": "Apartments & Flats"
+  },
+  {
+   "x": 104,
+   "y": 873,
+   "width": 286,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733",
+   "label": "Shops - Offices - Commercial Space"
+  },
+  {
+   "x": 104,
+   "y": 898,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/portions-floors_c41",
+   "label": "Portions & Floors"
+  },
+  {
+   "x": 104,
+   "y": 950,
+   "width": 286,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-rent_c3",
+   "label": "Property for Rent"
+  },
+  {
+   "x": 104,
+   "y": 983,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723",
+   "label": "Apartments & Flats"
+  },
+  {
+   "x": 104,
+   "y": 1007,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1719",
+   "label": "Houses"
+  },
+  {
+   "x": 104,
+   "y": 1031,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1731",
+   "label": "Shops - Offices - Commercial Space"
+  },
+  {
+   "x": 104,
+   "y": 1055,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/portions-floors_c39",
+   "label": "Portions & Floors"
+  },
+  {
+   "x": 104,
+   "y": 1079,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rooms_c2048",
+   "label": "Rooms"
+  },
+  {
+   "x": 104,
+   "y": 1103,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/vacation-rentals-guest-houses_c1289",
+   "label": "Vacation Rentals - Guest Houses"
+  },
+  {
+   "x": 104,
+   "y": 1127,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/roommates-paying-guests_c1449",
+   "label": "Roommates & Paying Guests"
+  },
+  {
+   "x": 104,
+   "y": 1151,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c1727",
+   "label": "Land & Plots"
+  },
+  {
+   "x": 104,
+   "y": 1203,
+   "width": 286,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/electronics-home-appliances_c99",
+   "label": "Electronics & Home Appliances"
+  },
+  {
+   "x": 104,
+   "y": 1236,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/computers-accessories_c443",
+   "label": "Computers & Accessories"
+  },
+  {
+   "x": 104,
+   "y": 1261,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/laptops_c708203",
+   "label": "Laptops"
+  },
+  {
+   "x": 104,
+   "y": 1285,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/fridges-freezers_c1617",
+   "label": "Refrigerators & Freezers"
+  },
+  {
+   "x": 104,
+   "y": 1309,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/ac-coolers_c1619",
+   "label": "AC & Coolers"
+  },
+  {
+   "x": 104,
+   "y": 1333,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/televisions-accessories_c708229",
+   "label": "Televisions & Accessories"
+  },
+  {
+   "x": 104,
+   "y": 1357,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/games-entertainment_c93",
+   "label": "Games & Entertainment"
+  },
+  {
+   "x": 104,
+   "y": 1381,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cameras-accessories_c727",
+   "label": "Cameras & Accessories"
+  },
+  {
+   "x": 104,
+   "y": 1405,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kitchen-appliances_c1930",
+   "label": "Kitchen Appliances"
+  },
+  {
+   "x": 104,
+   "y": 1429,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "Video-Audios"
+  },
+  {
+   "x": 104,
+   "y": 1453,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/generators-ups-power-solutions_c1943",
+   "label": "Generators, UPS & Power Solutions"
+  },
+  {
+   "x": 104,
+   "y": 1477,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-home-appliances_c1417",
+   "label": "Other Home Appliances"
+  },
+  {
+   "x": 104,
+   "y": 1501,
+   "width": 286,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/solar-appliances_c80001",
+   "label": "Solar Appliances"
+  },
+  {
+   "x": 104,
+   "y": 1526,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/washing-machines-dryers_c1615",
+   "label": "Washing Machines & Dryers"
+  },
+  {
+   "x": 104,
+   "y": 1550,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/fans_c708259",
+   "label": "Fans"
+  },
+  {
+   "x": 104,
+   "y": 1574,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tools-diy-equipment_c714000",
+   "label": "Tools & DIY Equipment"
+  },
+  {
+   "x": 104,
+   "y": 1598,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/heaters-geysers_c708260",
+   "label": "Heaters & Geysers"
+  },
+  {
+   "x": 104,
+   "y": 1622,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/microwaves-ovens_c708282",
+   "label": "Microwaves & Ovens"
+  },
+  {
+   "x": 104,
+   "y": 1646,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sewing-machines_c708271",
+   "label": "Sewing Machines"
+  },
+  {
+   "x": 104,
+   "y": 1670,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/water-dispensers_c708281",
+   "label": "Water Dispensers"
+  },
+  {
+   "x": 104,
+   "y": 1694,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/irons-steamers_c708268",
+   "label": "Irons & Steamers"
+  },
+  {
+   "x": 104,
+   "y": 1718,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/air-purifiers-humidifiers_c708264",
+   "label": "Air Purifiers & Humidifiers"
+  },
+  {
+   "x": 104,
+   "y": 1742,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/vacuum-cleaners_c80000",
+   "label": "Vacuum Cleaners"
+  },
+  {
+   "x": 419,
+   "y": 213,
+   "width": 286,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bikes_c1898",
+   "label": "Bikes"
+  },
+  {
+   "x": 419,
+   "y": 246,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Motorcycles"
+  },
+  {
+   "x": 419,
+   "y": 270,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bicycles_c1415",
+   "label": "Bicycles"
+  },
+  {
+   "x": 419,
+   "y": 294,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/scooters_c1413",
+   "label": "Scooters"
+  },
+  {
+   "x": 419,
+   "y": 318,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/spare-parts_c1587",
+   "label": "Spare Parts"
+  },
+  {
+   "x": 419,
+   "y": 342,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bikes-accessories_c707062",
+   "label": "Bikes Accessories"
+  },
+  {
+   "x": 419,
+   "y": 366,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/atv-quads_c1953",
+   "label": "ATV & Quads"
+  },
+  {
+   "x": 419,
+   "y": 390,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bike-care_c718000",
+   "label": "Bike Care"
+  },
+  {
+   "x": 419,
+   "y": 442,
+   "width": 286,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/business-industrial-agriculture_c1981",
+   "label": "Business, Industrial & Agriculture"
+  },
+  {
+   "x": 419,
+   "y": 475,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-business-industry_c2000",
+   "label": "Other Business & Industry"
+  },
+  {
+   "x": 419,
+   "y": 499,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/food-restaurants_c1982",
+   "label": "Food & Restaurants"
+  },
+  {
+   "x": 419,
+   "y": 523,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/medical-pharma_c2018",
+   "label": "Medical & Pharma"
+  },
+  {
+   "x": 419,
+   "y": 547,
+   "width": 286,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/trade-industrial_c2019",
+   "label": "Trade & Industrial Machinery"
+  },
+  {
+   "x": 419,
+   "y": 572,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/construction-heavy-machinery_c1989",
+   "label": "Construction & Heavy Machinery"
+  },
+  {
+   "x": 419,
+   "y": 596,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/business-for-sale_c1997",
+   "label": "Business for Sale"
+  },
+  {
+   "x": 419,
+   "y": 620,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/agriculture_c2001",
+   "label": "Agriculture"
+  },
+  {
+   "x": 419,
+   "y": 672,
+   "width": 286,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/services_c619",
+   "label": "Services"
+  },
+  {
+   "x": 419,
+   "y": 705,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-services_c625",
+   "label": "Other Services"
+  },
+  {
+   "x": 419,
+   "y": 729,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/education-classes_c1429",
+   "label": "Tuitions & Academies"
+  },
+  {
+   "x": 419,
+   "y": 753,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/car-rental_c2036",
+   "label": "Car Rental"
+  },
+  {
+   "x": 419,
+   "y": 777,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/home-office-repair_c2035",
+   "label": "Home & Office Repair"
+  },
+  {
+   "x": 419,
+   "y": 801,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/maids-domestic-help_c354",
+   "label": "Domestic Help"
+  },
+  {
+   "x": 419,
+   "y": 825,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/web-development_c522",
+   "label": "Web Development"
+  },
+  {
+   "x": 419,
+   "y": 849,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/drivers-taxi_c356",
+   "label": "Drivers & Taxi"
+  },
+  {
+   "x": 419,
+   "y": 873,
+   "width": 286,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/consultancy-services_c707005",
+   "label": "Consultancy Services"
+  },
+  {
+   "x": 419,
+   "y": 898,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/electronics-computer-repair_c523",
+   "label": "Electronics & Computer Repair"
+  },
+  {
+   "x": 419,
+   "y": 922,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/construction-services_c707004",
+   "label": "Construction Services"
+  },
+  {
+   "x": 419,
+   "y": 946,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/event-services_c300",
+   "label": "Event Services"
+  },
+  {
+   "x": 419,
+   "y": 970,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/movers-packers_c1427",
+   "label": "Movers & Packers"
+  },
+  {
+   "x": 419,
+   "y": 994,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/travel-visa_c1980",
+   "label": "Travel & Visa"
+  },
+  {
+   "x": 419,
+   "y": 1018,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/health-beauty_c741",
+   "label": "Health & Beauty"
+  },
+  {
+   "x": 419,
+   "y": 1042,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/farm-fresh-food_c2005",
+   "label": "Farm & Fresh Food"
+  },
+  {
+   "x": 419,
+   "y": 1066,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/video-photography_c707009",
+   "label": "Video & Photography"
+  },
+  {
+   "x": 419,
+   "y": 1090,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/architecture-interior-design_c707001",
+   "label": "Architecture & Interior Design"
+  },
+  {
+   "x": 419,
+   "y": 1114,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/camera-installation_c707002",
+   "label": "Camera Installation"
+  },
+  {
+   "x": 419,
+   "y": 1139,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/renting-services_c707007",
+   "label": "Renting Services"
+  },
+  {
+   "x": 419,
+   "y": 1163,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/marriage-bureau_c708012",
+   "label": "Marriage Bureau"
+  },
+  {
+   "x": 419,
+   "y": 1187,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tailor-services_c707008",
+   "label": "Tailor Services"
+  },
+  {
+   "x": 419,
+   "y": 1211,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/car-services_c707003",
+   "label": "Car Services"
+  },
+  {
+   "x": 419,
+   "y": 1235,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/catering-restaurant_c2047",
+   "label": "Catering & Restaurant"
+  },
+  {
+   "x": 419,
+   "y": 1259,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/insurance-services_c707006",
+   "label": "Insurance Services"
+  },
+  {
+   "x": 735,
+   "y": 213,
+   "width": 286,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 735,
+   "y": 246,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-jobs_c65",
+   "label": "Other Jobs"
+  },
+  {
+   "x": 735,
+   "y": 270,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737",
+   "label": "Online"
+  },
+  {
+   "x": 735,
+   "y": 294,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/part-time_c1813",
+   "label": "Part Time"
+  },
+  {
+   "x": 735,
+   "y": 318,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sales_c62",
+   "label": "Sales"
+  },
+  {
+   "x": 735,
+   "y": 342,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/restaurants-and-hospitality_c696908",
+   "label": "Restaurants & Hospitality"
+  },
+  {
+   "x": 735,
+   "y": 366,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/driver_c708009",
+   "label": "Driver"
+  },
+  {
+   "x": 735,
+   "y": 390,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/education_c53",
+   "label": "Education"
+  },
+  {
+   "x": 735,
+   "y": 414,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/marketing_c1433",
+   "label": "Marketing"
+  },
+  {
+   "x": 735,
+   "y": 438,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/domestic-staff_c2038",
+   "label": "Domestic Staff"
+  },
+  {
+   "x": 735,
+   "y": 462,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/customer-service_c164",
+   "label": "Customer Service"
+  },
+  {
+   "x": 735,
+   "y": 486,
+   "width": 286,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/call-center_c708010",
+   "label": "Call Center"
+  },
+  {
+   "x": 735,
+   "y": 511,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/medical_c2037",
+   "label": "Medical"
+  },
+  {
+   "x": 735,
+   "y": 535,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/accounting-finance_c1441",
+   "label": "Accounting & Finance"
+  },
+  {
+   "x": 735,
+   "y": 559,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/graphic-design_c696905",
+   "label": "Graphic Design"
+  },
+  {
+   "x": 735,
+   "y": 583,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/it-networking_c56",
+   "label": "IT & Networking"
+  },
+  {
+   "x": 735,
+   "y": 607,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/delivery-riders_c696903",
+   "label": "Delivery Riders"
+  },
+  {
+   "x": 735,
+   "y": 631,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hotels-tourism_c1439",
+   "label": "Hotels & Tourism"
+  },
+  {
+   "x": 735,
+   "y": 655,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/manufacturing_c731",
+   "label": "Manufacturing"
+  },
+  {
+   "x": 735,
+   "y": 679,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/clerical-administration_c52",
+   "label": "Clerical & Administration"
+  },
+  {
+   "x": 735,
+   "y": 703,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/security_c696909",
+   "label": "Security"
+  },
+  {
+   "x": 735,
+   "y": 727,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/engineering_c696904",
+   "label": "Engineering"
+  },
+  {
+   "x": 735,
+   "y": 751,
+   "width": 286,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/human-resources_c1437",
+   "label": "Human Resources"
+  },
+  {
+   "x": 735,
+   "y": 776,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/real-estate_c696907",
+   "label": "Real Estate"
+  },
+  {
+   "x": 735,
+   "y": 800,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/content-writing_c696902",
+   "label": "Content Writing"
+  },
+  {
+   "x": 735,
+   "y": 824,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/internships_c696906",
+   "label": "Internships"
+  },
+  {
+   "x": 735,
+   "y": 848,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/advertising-pr_c1435",
+   "label": "Advertising & PR"
+  },
+  {
+   "x": 735,
+   "y": 872,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/architecture-and-interior-design_c696901",
+   "label": "Architecture & Interior Design"
+  },
+  {
+   "x": 735,
+   "y": 924,
+   "width": 286,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/animals_c103",
+   "label": "Animals"
+  },
+  {
+   "x": 735,
+   "y": 957,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hens-aseel_c1959",
+   "label": "Hens"
+  },
+  {
+   "x": 735,
+   "y": 981,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cats_c138",
+   "label": "Cats"
+  },
+  {
+   "x": 735,
+   "y": 1005,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/parrots_c708087",
+   "label": "Parrots"
+  },
+  {
+   "x": 735,
+   "y": 1029,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/pet-food-accessories_c175",
+   "label": "Pet Food & Accessories"
+  },
+  {
+   "x": 735,
+   "y": 1053,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/livestock_c1960",
+   "label": "Livestock"
+  },
+  {
+   "x": 735,
+   "y": 1078,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dogs_c139",
+   "label": "Dogs"
+  },
+  {
+   "x": 735,
+   "y": 1102,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/pigeons_c708088",
+   "label": "Pigeons"
+  },
+  {
+   "x": 735,
+   "y": 1126,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/fish-aquariums_c1293",
+   "label": "Fish"
+  },
+  {
+   "x": 735,
+   "y": 1150,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/birds_c137",
+   "label": "Other Birds"
+  },
+  {
+   "x": 735,
+   "y": 1174,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rabbits_c708086",
+   "label": "Rabbits"
+  },
+  {
+   "x": 735,
+   "y": 1198,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/finches_c708089",
+   "label": "Finches"
+  },
+  {
+   "x": 735,
+   "y": 1222,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/ducks_c708092",
+   "label": "Ducks"
+  },
+  {
+   "x": 735,
+   "y": 1246,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/fertile-eggs_c708093",
+   "label": "Fertile Eggs"
+  },
+  {
+   "x": 735,
+   "y": 1270,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-animals_c140",
+   "label": "Other Animals"
+  },
+  {
+   "x": 735,
+   "y": 1294,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/doves_c708090",
+   "label": "Doves"
+  },
+  {
+   "x": 735,
+   "y": 1318,
+   "width": 286,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/peacocks_c708091",
+   "label": "Peacocks"
+  },
+  {
+   "x": 735,
+   "y": 1343,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/horses_c2022",
+   "label": "Horses"
+  },
+  {
+   "x": 1050,
+   "y": 213,
+   "width": 286,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/furniture-home-decor_c628",
+   "label": "Furniture & Home Decor"
+  },
+  {
+   "x": 1050,
+   "y": 246,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/beds-wardrobes_c1591",
+   "label": "Beds & Wardrobes"
+  },
+  {
+   "x": 1050,
+   "y": 270,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sofa-chairs_c1593",
+   "label": "Sofa & Chairs"
+  },
+  {
+   "x": 1050,
+   "y": 294,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-household-items_c293",
+   "label": "Other Household Items"
+  },
+  {
+   "x": 1050,
+   "y": 318,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tables-dining_c1954",
+   "label": "Tables & Dining"
+  },
+  {
+   "x": 1050,
+   "y": 342,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/office-furniture_c2028",
+   "label": "Office Furniture"
+  },
+  {
+   "x": 1050,
+   "y": 366,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/home-decoration_c575",
+   "label": "Home Decoration"
+  },
+  {
+   "x": 1050,
+   "y": 390,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kitchen-essentials_c718163",
+   "label": "Kitchen Essentials"
+  },
+  {
+   "x": 1050,
+   "y": 414,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/garden-outdoor_c1958",
+   "label": "Garden & Outdoor"
+  },
+  {
+   "x": 1050,
+   "y": 438,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/home-diy-renovations_c718002",
+   "label": "Home DIY & Renovations"
+  },
+  {
+   "x": 1050,
+   "y": 462,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bathroom-accessories_c707105",
+   "label": "Bathroom Accessories"
+  },
+  {
+   "x": 1050,
+   "y": 486,
+   "width": 286,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/painting-mirrors_c1955",
+   "label": "Painting & Mirrors"
+  },
+  {
+   "x": 1050,
+   "y": 511,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lighting_c2029",
+   "label": "Lighting"
+  },
+  {
+   "x": 1050,
+   "y": 535,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/curtains-blinds_c1956",
+   "label": "Curtains & Blinds"
+  },
+  {
+   "x": 1050,
+   "y": 559,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rugs-carpets_c1957",
+   "label": "Rugs & Carpets"
+  },
+  {
+   "x": 1050,
+   "y": 583,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/home-essentials_c718162",
+   "label": "Home Essentials"
+  },
+  {
+   "x": 1050,
+   "y": 607,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/restaurant-marquee-furniture_c80007",
+   "label": "Restaurant & Marquee Furniture"
+  },
+  {
+   "x": 1050,
+   "y": 631,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/school-furniture_c80030",
+   "label": "School Furniture"
+  },
+  {
+   "x": 1050,
+   "y": 683,
+   "width": 286,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/fashion-beauty_c87",
+   "label": "Fashion & Beauty"
+  },
+  {
+   "x": 1050,
+   "y": 716,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/clothes_c642",
+   "label": "Clothes"
+  },
+  {
+   "x": 1050,
+   "y": 740,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970",
+   "label": "Watches"
+  },
+  {
+   "x": 1050,
+   "y": 764,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/wedding_c1971",
+   "label": "Wedding"
+  },
+  {
+   "x": 1050,
+   "y": 788,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/skin-hair_c1972",
+   "label": "Skin & Hair"
+  },
+  {
+   "x": 1050,
+   "y": 812,
+   "width": 286,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/footwear_c224",
+   "label": "Footwear"
+  },
+  {
+   "x": 1050,
+   "y": 837,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jewellery_c1974",
+   "label": "Jewellery"
+  },
+  {
+   "x": 1050,
+   "y": 861,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/fragrance_c706501",
+   "label": "Fragrance"
+  },
+  {
+   "x": 1050,
+   "y": 885,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bags_c706500",
+   "label": "Bags"
+  },
+  {
+   "x": 1050,
+   "y": 909,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/accessories_c506",
+   "label": "Fashion Accessories"
+  },
+  {
+   "x": 1050,
+   "y": 933,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/make-up_c1973",
+   "label": "Makeup"
+  },
+  {
+   "x": 1050,
+   "y": 957,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bath-body_c715000",
+   "label": "Bath & Body"
+  },
+  {
+   "x": 1050,
+   "y": 981,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-fashion_c2033",
+   "label": "Other Fashion"
+  },
+  {
+   "x": 1050,
+   "y": 1005,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/diy-jewellery_c718004",
+   "label": "DIY Jewellery"
+  },
+  {
+   "x": 1050,
+   "y": 1057,
+   "width": 286,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books-sports-hobbies_c767",
+   "label": "Books, Sports & Hobbies"
+  },
+  {
+   "x": 1050,
+   "y": 1090,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gym-fitness_c771",
+   "label": "Gym & Fitness"
+  },
+  {
+   "x": 1050,
+   "y": 1114,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sports-equipment_c100",
+   "label": "Sports Equipment"
+  },
+  {
+   "x": 1050,
+   "y": 1139,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books-magazines_c453",
+   "label": "Books & Magazines"
+  },
+  {
+   "x": 1050,
+   "y": 1163,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/other-hobbies_c755",
+   "label": "Other Hobbies"
+  },
+  {
+   "x": 1050,
+   "y": 1187,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/musical-instruments_c714",
+   "label": "Musical Instruments"
+  },
+  {
+   "x": 1050,
+   "y": 1211,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/arts-crafts_c716001",
+   "label": "Arts & Crafts"
+  },
+  {
+   "x": 1050,
+   "y": 1235,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/camping-hiking_c716002",
+   "label": "Camping & Hiking"
+  },
+  {
+   "x": 1050,
+   "y": 1259,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/collectables_c716004",
+   "label": "Collectables"
+  },
+  {
+   "x": 1050,
+   "y": 1283,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/crafts-diy-supplies_c716003",
+   "label": "Crafts & DIY Supplies"
+  },
+  {
+   "x": 1050,
+   "y": 1307,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/calendars_c716000",
+   "label": "Calendars"
+  },
+  {
+   "x": 1050,
+   "y": 1359,
+   "width": 286,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kids_c88",
+   "label": "Kids"
+  },
+  {
+   "x": 1050,
+   "y": 1392,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/toys_c1977",
+   "label": "Toys"
+  },
+  {
+   "x": 1050,
+   "y": 1416,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kids-vehicles_c1979",
+   "label": "Kids Vehicles"
+  },
+  {
+   "x": 1050,
+   "y": 1440,
+   "width": 286,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/baby-gear_c707086",
+   "label": "Baby Gear"
+  },
+  {
+   "x": 1050,
+   "y": 1465,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kids-accessories_c235",
+   "label": "Kids Accessories"
+  },
+  {
+   "x": 1050,
+   "y": 1489,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/swings-slides_c1978",
+   "label": "Swings & Slides"
+  },
+  {
+   "x": 1050,
+   "y": 1513,
+   "width": 286,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bath-and-diapers_c707087",
+   "label": "Bath & Diapers"
+  },
+  {
+   "x": 229,
+   "y": 159,
+   "width": 105,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 358,
+   "y": 159,
+   "width": 31,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 413,
+   "y": 159,
+   "width": 87,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Motorcycles"
+  },
+  {
+   "x": 524,
+   "y": 159,
+   "width": 53,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "Houses"
+  },
+  {
+   "x": 601,
+   "y": 159,
+   "width": 96,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "Video-Audios"
+  },
+  {
+   "x": 721,
+   "y": 159,
+   "width": 50,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "Tablets"
+  },
+  {
+   "x": 795,
+   "y": 159,
+   "width": 85,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "Land & Plots"
+  },
+  {
+   "x": 80,
+   "y": 225,
+   "width": 1280,
+   "height": 180,
+   "kind": "link",
+   "href": "https://www.youtube.com/watch?v=8Ix-ekSoEdY",
+   "label": "A New Track on Coke StudioPlay This Song"
+  },
+  {
+   "x": 80,
+   "y": 453,
+   "width": 121,
+   "height": 117,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobiles_c1411",
+   "label": "Mobiles"
+  },
+  {
+   "x": 224,
+   "y": 453,
+   "width": 122,
+   "height": 117,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/vehicles_c5",
+   "label": "Vehicles"
+  },
+  {
+   "x": 369,
+   "y": 453,
+   "width": 122,
+   "height": 138,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2",
+   "label": "Property for Sale"
+  },
+  {
+   "x": 514,
+   "y": 453,
+   "width": 122,
+   "height": 138,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-rent_c3",
+   "label": "Property for Rent"
+  },
+  {
+   "x": 659,
+   "y": 453,
+   "width": 122,
+   "height": 138,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/electronics-home-appliances_c99",
+   "label": "Electronics & Home Appliances"
+  },
+  {
+   "x": 804,
+   "y": 453,
+   "width": 122,
+   "height": 117,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bikes_c1898",
+   "label": "Bikes"
+  },
+  {
+   "x": 949,
+   "y": 453,
+   "width": 122,
+   "height": 138,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/business-industrial-agriculture_c1981",
+   "label": "Business, Industrial & Agriculture"
+  },
+  {
+   "x": 1094,
+   "y": 453,
+   "width": 122,
+   "height": 117,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/services_c619",
+   "label": "Services"
+  },
+  {
+   "x": 1239,
+   "y": 453,
+   "width": 121,
+   "height": 117,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 80,
+   "y": 614,
+   "width": 121,
+   "height": 118,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/animals_c103",
+   "label": "Animals"
+  },
+  {
+   "x": 224,
+   "y": 614,
+   "width": 122,
+   "height": 139,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/furniture-home-decor_c628",
+   "label": "Furniture & Home Decor"
+  },
+  {
+   "x": 369,
+   "y": 614,
+   "width": 122,
+   "height": 139,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/fashion-beauty_c87",
+   "label": "Fashion & Beauty"
+  },
+  {
+   "x": 514,
+   "y": 614,
+   "width": 122,
+   "height": 139,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books-sports-hobbies_c767",
+   "label": "Books, Sports & Hobbies"
+  },
+  {
+   "x": 659,
+   "y": 614,
+   "width": 122,
+   "height": 118,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kids_c88",
+   "label": "Kids"
+  },
+  {
+   "x": 1270,
+   "y": 793,
+   "width": 90,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "View more"
+  },
+  {
+   "x": 1270,
+   "y": 1369,
+   "width": 90,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "View more"
+  },
+  {
+   "x": 1270,
+   "y": 1945,
+   "width": 90,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "View more"
+  },
+  {
+   "x": 1270,
+   "y": 2489,
+   "width": 90,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/houses_c1721",
+   "label": "View more"
+  },
+  {
+   "x": 1270,
+   "y": 3065,
+   "width": 90,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tv-video-audio_c729",
+   "label": "View more"
+  },
+  {
+   "x": 1270,
+   "y": 3609,
+   "width": 90,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "View more"
+  },
+  {
+   "x": 1270,
+   "y": 4153,
+   "width": 90,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "View more"
+  },
+  {
+   "x": 1270,
+   "y": 4697,
+   "width": 90,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "View more"
+  },
+  {
+   "x": 960,
+   "y": 5318,
+   "width": 128,
+   "height": 47,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 1096,
+   "y": 5318,
+   "width": 128,
+   "height": 47,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 1232,
+   "y": 5318,
+   "width": 128,
+   "height": 47,
+   "kind": "link",
+   "href": "https://appgallery.huawei.com/#/app/C104375435",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 5516,
+   "width": 31,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": 80,
+   "y": 5548,
+   "width": 86,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/apartments-flats_c1723",
+   "label": "Flats for rent"
+  },
+  {
+   "x": 80,
+   "y": 5579,
+   "width": 105,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones"
+  },
+  {
+   "x": 80,
+   "y": 5611,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jobs_c4",
+   "label": "Jobs"
+  },
+  {
+   "x": 351,
+   "y": 5516,
+   "width": 36,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motorcycles_c81",
+   "label": "Bikes"
+  },
+  {
+   "x": 351,
+   "y": 5548,
+   "width": 61,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970",
+   "label": "Watches"
+  },
+  {
+   "x": 351,
+   "y": 5579,
+   "width": 44,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books_c707080",
+   "label": "Books"
+  },
+  {
+   "x": 351,
+   "y": 5611,
+   "width": 37,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dogs_c139",
+   "label": "Dogs"
+  },
+  {
+   "x": 622,
+   "y": 5516,
+   "width": 66,
+   "height": 19,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/",
+   "label": "OLX Blog"
+  },
+  {
+   "x": 622,
+   "y": 5548,
+   "width": 78,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
+   "label": "Contact Us"
+  },
+  {
+   "x": 622,
+   "y": 5579,
+   "width": 134,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
+   "label": "OLX for Businesses"
+  },
+  {
+   "x": 893,
+   "y": 5516,
+   "width": 33,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us",
+   "label": "Help"
+  },
+  {
+   "x": 893,
+   "y": 5548,
+   "width": 57,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sitemap/most-popular",
+   "label": "Sitemap"
+  },
+  {
+   "x": 893,
+   "y": 5579,
+   "width": 90,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
+   "label": "Terms of use"
+  },
+  {
+   "x": 893,
+   "y": 5611,
+   "width": 92,
+   "height": 19,
+   "kind": "link",
+   "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
+   "label": "Privacy Policy"
+  },
+  {
+   "x": 1164,
+   "y": 5513,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 1216,
+   "y": 5513,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 1268,
+   "y": 5513,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 1320,
+   "y": 5513,
+   "width": 40,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

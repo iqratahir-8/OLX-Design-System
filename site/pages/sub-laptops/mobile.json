@@ -1,0 +1,508 @@
+{
+ "id": "sub-laptops",
+ "title": "Laptops",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/laptops_c708203",
+ "finalUrl": "https://www.olx.com.pk/laptops_c708203?page=1",
+ "width": 390,
+ "height": 5496,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T13:04:15.693Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 104
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 120,
+    "width": 390,
+    "height": 4556
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 4691,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-laptops-in-pakistan",
+   "name": "Laptops in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 4771,
+    "width": 390,
+    "height": 86
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "05-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 4856,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "06-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 4902,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "07-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 4948,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "08-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 4994,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "09-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 5040,
+    "width": 390,
+    "height": 456
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "10-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 5427,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 0,
+   "y": 120,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-5490-core-i5-8th-gen-16gb-ram-256gb-nvme-ssd-iid-1119893302",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 261,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/macbook-pro-2017-15-inch-for-sale-iid-1119892785",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 403,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-elite-book-laptop-for-sale-iid-1119892277",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 545,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-envy-16-i7-13th-gen-16gb-ddr5-1tb-ssd-rtx-4060-120hz-iid-1118885529",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 687,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-e16-gen-2-core-ultra-5-16gb-ram-512gb-nvme-ssd-iid-1119891590",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 829,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-macbook-pro-16-inch-m4-pro-powerful-performance-iid-1119431140",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 971,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-core-i5-12th-gen-10-core-12-thread-14inch-touchscreen-1080p-led-iid-1119579021",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1113,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/macbook-apple-macbook-air-m1-2020-8gb-16gb-ram-256gb-ssd-iid-1118165313",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1255,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-core-i5-13420h-13th-generation-laptop-mfg-aug-2025-156inch-iid-1119466826",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1409,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-e16-ultra-5-iid-1119838878",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1551,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/asus-laptop-intel-celeron-n4020-4gb-ram-ssd-256gb-storage-iid-1119886893",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1693,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-probook-450-g6-laptop-i5-8-th-generation-iid-1119850772",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1835,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-5410-i7-10th-gen-32gb-ram-512gb-nvme-iid-1119790549",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 1977,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/microsoft-surface-laptop-4-core-i7-11th-gen-32gb-ram-1tb-ssd-iid-1119886348",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2119,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-elitebook-840-g4-core-i5-7th-gen-8gb-ddr4-256gb-ssd-14-slim-lig-iid-1116291205",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2261,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-5531-core-i7-12th-gen-h-series-iid-1119885285",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2403,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-5500-core-i5-8th-gen-8gb-256gb-ssd-156-laptop-iid-1119884239",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2545,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/p-elitebook-840-g5-g6-core-i5-8th-gen-8gb-ddr4-256gb-ssd-slim-iid-1119884089",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2687,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-macbook-pro-2019-a2141-core-i7-6-core-32gb-1tb-4gb-graphics-16-iid-1119880932",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2829,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-macbook-pro-2019-a2141-core-i9-8-core-32gb-1tb-4gb-graphics-16-iid-1119880811",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2971,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-macbook-pro-2019-a2141-core-i9-8-core-64gb-2tb-8gb-graphics-16-iid-1119880650",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3125,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/apple-macbook-pro-2019-a2141-core-i9-8-core-32gb-2tb-8gb-graphics-16-iid-1119880428",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3267,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-probook-440-g7-core-i5-10th-generation-8-gb-256gb-ssd-touch-screen-iid-1119857525",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3409,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-7390-i5-8th-slim-and-light-weight-fresh-piece-iid-1117416516",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3551,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-inspiron-3593-core-i7-10th-gen-mx230-512-gb-nvme-ssd-iid-1119803638",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3693,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-7390-2-in-1-core-i5-8th-gen-16gb-ram-256gb-ssd-iid-1119877990",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3835,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-laptop-iid-1119537680",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3977,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/hp-core-i5-8th-generation-iid-1119877402",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4119,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/lenovo-ryzen-7-pro-8-core-16-cpusi5-12th-gen-4k-display-2gb-graphic-iid-1119283667",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4261,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-precision-7550-corei7-10th-generation-powerful-processorgpu-iid-1115588172",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4403,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-core-i5-240ghz-4gb-ram-250gb-rom-2hr-battery-iid-1119867158",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4545,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-precision-5540-core-i7-9th-laptop-16gb-ram-256gb-ssd-4gb-gpu-iid-1119459439",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 4691,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 143,
+   "y": 5427,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 4826,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 5340,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 5406,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 5406,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 5406,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 5406,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OLX Design System</title>
+  <link rel="stylesheet" href="css/olx.css">
+  <style>
+    .docs-section { padding: var(--olx-space-6) 0; border-bottom: 1px solid var(--olx-border); }
+    .docs-section > h2 { margin-bottom: var(--olx-space-2); }
+    .docs-section > p { color: var(--olx-text-muted); max-width: 60ch; }
+    .swatches { display: grid; gap: var(--olx-space-3); grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .swatch { border: 1px solid var(--olx-border); border-radius: var(--olx-radius-md); overflow: hidden; font-size: var(--olx-font-size-xs); }
+    .swatch__chip { height: 64px; }
+    .swatch__label { padding: var(--olx-space-2); display: flex; flex-direction: column; }
+    .swatch__label code { color: var(--olx-text-muted); }
+    .scale-row { display: flex; align-items: center; gap: var(--olx-space-4); padding: var(--olx-space-2) 0; }
+    .scale-row code { width: 150px; flex: none; color: var(--olx-text-muted); font-size: var(--olx-font-size-xs); }
+    .space-bar { height: 16px; background: var(--olx-accent); border-radius: 2px; }
+    .radius-box, .shadow-box { width: 96px; height: 64px; background: var(--olx-bg-subtle); border: 1px solid var(--olx-border); }
+    .shadow-box { background: var(--olx-surface); border: 0; }
+    .demo-form { display: grid; gap: var(--olx-space-4); grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+    .theme-toggle { margin-left: auto; }
+    .demo-frame { border: 1px solid var(--olx-border); border-radius: var(--olx-radius-md); overflow: hidden; }
+    .demo-frame .olx-container { max-width: none; }
+    .demo-listing-layout { display: grid; gap: var(--olx-space-4); grid-template-columns: minmax(0, 304px) minmax(0, 1fr); align-items: start; }
+    .demo-ad-layout { display: grid; gap: var(--olx-space-6); grid-template-columns: minmax(0, 1fr) minmax(0, 420px); align-items: start; }
+    @media (max-width: 950px) { .demo-listing-layout, .demo-ad-layout { grid-template-columns: minmax(0, 1fr); } }
+  </style>
+</head>
+<body>
+  <header class="olx-header">
+    <a class="olx-header__logo" href="#">OLX&nbsp;DS</a>
+    <form class="olx-header__search olx-search" role="search" onsubmit="event.preventDefault()">
+      <label class="olx-visually-hidden" for="hdr-q">Search listings</label>
+      <input id="hdr-q" type="search" placeholder="Find cars, mobile phones and more…">
+      <button type="submit">Search</button>
+    </form>
+    <div class="olx-header__actions">
+      <button class="olx-btn olx-btn--ghost olx-btn--sm theme-toggle" id="theme-toggle" type="button">Toggle theme</button>
+      <a class="olx-btn olx-btn--accent olx-btn--sm" href="#components">+ Sell</a>
+    </div>
+  </header>
+
+  <main class="olx-container">
+    <section class="docs-section">
+      <h1>OLX Design System</h1>
+      <p>Design tokens, base styles and CSS components for building OLX interfaces. Everything is driven by <code>tokens/tokens.json</code> and exposed as <code>--olx-*</code> CSS custom properties, with light and dark themes.</p>
+    </section>
+
+    <section class="docs-section" id="colors">
+      <h2>Color</h2>
+      <p>Primitive palette. Components should use the semantic tokens below instead of these directly.</p>
+      <div class="swatches" id="primitive-swatches"></div>
+      <h3 style="margin-top: var(--olx-space-6)">Semantic</h3>
+      <p class="olx-text-muted">These switch automatically between light and dark themes.</p>
+      <div class="swatches" id="semantic-swatches"></div>
+    </section>
+
+    <section class="docs-section" id="typography">
+      <h2>Typography</h2>
+      <p>Geomanist (as on olx.com.pk), falling back to Helvetica/Arial. Geomanist is a licensed font and is not bundled; load it from your own licensed files. Body text is 14px; headings are semibold with a tight line height.</p>
+      <div id="type-scale"></div>
+    </section>
+
+    <section class="docs-section" id="spacing">
+      <h2>Spacing, radius and elevation</h2>
+      <p>A 4px-based spacing scale.</p>
+      <div id="space-scale"></div>
+      <div class="olx-cluster" style="margin-top: var(--olx-space-5)">
+        <div class="radius-box" style="border-radius: var(--olx-radius-sm)"></div>
+        <div class="radius-box" style="border-radius: var(--olx-radius-field)"></div>
+        <div class="radius-box" style="border-radius: var(--olx-radius-md)"></div>
+        <div class="radius-box" style="border-radius: var(--olx-radius-lg)"></div>
+        <div class="radius-box" style="border-radius: var(--olx-radius-pill)"></div>
+      </div>
+      <div class="olx-cluster" style="margin-top: var(--olx-space-5); gap: var(--olx-space-6)">
+        <div class="shadow-box" style="box-shadow: var(--olx-shadow-sm)"></div>
+        <div class="shadow-box" style="box-shadow: var(--olx-shadow-md)"></div>
+        <div class="shadow-box" style="box-shadow: var(--olx-shadow-lg)"></div>
+        <div class="shadow-box" style="box-shadow: var(--olx-shadow-featured)"></div>
+      </div>
+    </section>
+
+    <section class="docs-section" id="components">
+      <h2>Buttons</h2>
+      <div class="olx-cluster">
+        <button class="olx-btn olx-btn--primary">Primary</button>
+        <button class="olx-btn olx-btn--secondary">Secondary</button>
+        <button class="olx-btn olx-btn--accent">Accent</button>
+        <button class="olx-btn olx-btn--ghost">Ghost</button>
+        <button class="olx-btn olx-btn--danger">Delete ad</button>
+        <button class="olx-btn olx-btn--primary" disabled>Disabled</button>
+        <button class="olx-btn olx-btn--primary olx-btn--sm">Small</button>
+      </div>
+    </section>
+
+    <section class="docs-section">
+      <h2>Form fields</h2>
+      <form class="demo-form" onsubmit="event.preventDefault()">
+        <div class="olx-field">
+          <label class="olx-label" for="f-title">Ad title</label>
+          <input class="olx-input" id="f-title" placeholder="e.g. iPhone 15 Pro, 256GB">
+          <span class="olx-hint">Mention the key features of your item.</span>
+        </div>
+        <div class="olx-field">
+          <label class="olx-label" for="f-cat">Category</label>
+          <select class="olx-select" id="f-cat">
+            <option>Mobiles</option><option>Vehicles</option><option>Property for sale</option><option>Electronics</option>
+          </select>
+        </div>
+        <div class="olx-field olx-field--error">
+          <label class="olx-label" for="f-price">Price</label>
+          <input class="olx-input" id="f-price" inputmode="numeric" aria-invalid="true" aria-describedby="f-price-err">
+          <span class="olx-hint" id="f-price-err">Please enter a price.</span>
+        </div>
+        <div class="olx-field" style="grid-column: 1 / -1">
+          <label class="olx-label" for="f-desc">Description</label>
+          <textarea class="olx-textarea" id="f-desc"></textarea>
+        </div>
+        <label class="olx-check"><input type="checkbox" checked> Negotiable</label>
+      </form>
+    </section>
+
+    <section class="docs-section">
+      <h2>Badges and chips</h2>
+      <div class="olx-cluster">
+        <span class="olx-badge olx-badge--featured">Featured</span>
+        <span class="olx-badge">Used</span>
+        <span class="olx-badge olx-badge--info">New</span>
+        <span class="olx-badge olx-badge--success">Verified</span>
+        <span class="olx-badge olx-badge--danger">Sold</span>
+      </div>
+      <div class="olx-cluster" style="margin-top: var(--olx-space-4)" id="chips">
+        <button class="olx-chip" aria-pressed="true">All</button>
+        <button class="olx-chip" aria-pressed="false">Cars</button>
+        <button class="olx-chip" aria-pressed="false">Mobiles</button>
+        <button class="olx-chip" aria-pressed="false">Property</button>
+      </div>
+    </section>
+
+    <section class="docs-section">
+      <h2>Alerts</h2>
+      <div class="olx-stack">
+        <div class="olx-alert olx-alert--info" role="status"><div><strong>Heads up</strong>Your ad is under review and will go live shortly.</div></div>
+        <div class="olx-alert olx-alert--success" role="status"><div><strong>Ad posted</strong>Your ad is now live.</div></div>
+        <div class="olx-alert olx-alert--warning" role="status"><div><strong>Stay safe</strong>Never pay in advance. Meet in a public place.</div></div>
+        <div class="olx-alert olx-alert--danger" role="alert"><div><strong>Something went wrong</strong>We couldn't upload your photos. Please try again.</div></div>
+      </div>
+    </section>
+
+    <section class="docs-section" id="navigation">
+      <h2>Header and navigation</h2>
+      <p>Top bar (<code>olx-topbar</code>) with the logo tab and Sell button (<code>olx-sell</code>), the search row (<code>olx-searchbar</code> with <code>olx-location</code> + <code>olx-search</code>) and the category nav (<code>olx-catnav</code>).</p>
+      <div class="demo-frame">
+        <div class="olx-topbar">
+          <div class="olx-container olx-topbar__inner">
+            <a class="olx-topbar__logo" href="#"><svg width="44" height="26" viewBox="0 0 44 26" aria-label="OLX"><circle cx="8" cy="13" r="6" fill="none" stroke="currentColor" stroke-width="4"/><rect x="18" y="4" width="4" height="18" rx="2" fill="currentColor"/><path d="m28 6 12 14M40 6 28 20" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg></a>
+            <a class="olx-topbar__link" href="#">🚗 <span>Motors</span></a>
+            <a class="olx-topbar__link" href="#">🏠 <span>Property</span></a>
+            <div class="olx-topbar__actions">
+              <a class="olx-topbar__login" href="#">Login</a>
+              <a class="olx-sell" href="#"><span aria-hidden="true">+</span> Sell</a>
+            </div>
+          </div>
+        </div>
+        <div class="olx-container olx-searchbar">
+          <button class="olx-location" type="button" aria-haspopup="listbox" aria-expanded="false">
+            <span class="olx-location__pin"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span>
+            <span class="olx-location__value">Pakistan</span>
+            <span class="olx-location__chevron"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span>
+          </button>
+          <form class="olx-search" role="search" onsubmit="event.preventDefault()">
+            <label class="olx-visually-hidden" for="nav-q">Search</label>
+            <input id="nav-q" type="search" placeholder="Find Cars, Mobile Phones and more...">
+            <button type="submit">Search</button>
+          </form>
+        </div>
+        <nav class="olx-catnav" aria-label="Categories">
+          <div class="olx-container olx-catnav__inner">
+            <button class="olx-catnav__all" type="button">All categories <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+            <a class="olx-catnav__link" href="#">Mobile Phones</a><a class="olx-catnav__link" href="#">Cars</a><a class="olx-catnav__link" href="#">Motorcycles</a><a class="olx-catnav__link" href="#">Houses</a><a class="olx-catnav__link" href="#">Video-Audios</a><a class="olx-catnav__link" href="#">Tablets</a><a class="olx-catnav__link" href="#">Land &amp; Plots</a>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section class="docs-section" id="categories">
+      <h2>Category tiles and section header</h2>
+      <p>Home page category grid (<code>olx-cattiles</code>, <code>olx-cattile</code>) and the row heading used above each listing carousel (<code>olx-section-header</code> + <code>olx-link-more</code>). Emoji stand in for OLX's category artwork.</p>
+      <div class="olx-cattiles"><a class="olx-cattile" href="#"><span class="olx-cattile__icon" aria-hidden="true" style="font-size:40px">📱</span><span class="olx-cattile__label">Mobiles</span></a><a class="olx-cattile" href="#"><span class="olx-cattile__icon" aria-hidden="true" style="font-size:40px">🚗</span><span class="olx-cattile__label">Vehicles</span></a><a class="olx-cattile" href="#"><span class="olx-cattile__icon" aria-hidden="true" style="font-size:40px">🏠</span><span class="olx-cattile__label">Property For Sale</span></a><a class="olx-cattile" href="#"><span class="olx-cattile__icon" aria-hidden="true" style="font-size:40px">🔑</span><span class="olx-cattile__label">Property For Rent</span></a><a class="olx-cattile" href="#"><span class="olx-cattile__icon" aria-hidden="true" style="font-size:40px">📷</span><span class="olx-cattile__label">Electronics &amp; Home Appliances</span></a><a class="olx-cattile" href="#"><span class="olx-cattile__icon" aria-hidden="true" style="font-size:40px">🏍️</span><span class="olx-cattile__label">Bikes</span></a><a class="olx-cattile" href="#"><span class="olx-cattile__icon" aria-hidden="true" style="font-size:40px">🚜</span><span class="olx-cattile__label">Business, Industrial &amp; Agriculture</span></a><a class="olx-cattile" href="#"><span class="olx-cattile__icon" aria-hidden="true" style="font-size:40px">🧰</span><span class="olx-cattile__label">Services</span></a><a class="olx-cattile" href="#"><span class="olx-cattile__icon" aria-hidden="true" style="font-size:40px">💼</span><span class="olx-cattile__label">Jobs</span></a></div>
+      <div class="olx-section-header" style="margin-top: var(--olx-space-6)">
+        <h2>Mobile Phones</h2>
+        <a class="olx-link-more" href="#">View more</a>
+      </div>
+    </section>
+
+    <section class="docs-section" id="listing-page">
+      <h2>Breadcrumb, filters and list view</h2>
+      <p>Listing page pieces: <code>olx-breadcrumb</code>, <code>olx-page-title</code> with an <code>olx-badge--accent</code> result count, sidebar <code>olx-filter</code> panels, filter chips (<code>olx-chip</code>) and the row card (<code>olx-listing--row</code>).</p>
+      <nav class="olx-breadcrumb" aria-label="Breadcrumb">
+        <ol><li><a href="#">Home</a></li><li><a href="#">Mobiles</a></li><li><span aria-current="page">Mobile Phones in Pakistan</span></li></ol>
+      </nav>
+      <div class="olx-page-title"><h1>Mobile Phones in Pakistan</h1><span class="olx-badge olx-badge--accent">10,000+ Results</span></div>
+      <div class="demo-listing-layout">
+        <aside>
+          <section class="olx-filter">
+            <h3 class="olx-filter__title">Categories</h3>
+            <ul class="olx-filter__list">
+              <li><a class="olx-filter__item" href="#">All categories</a>
+                <ul class="olx-filter__list">
+                  <li><a class="olx-filter__item" href="#">Mobiles</a>
+                    <ul class="olx-filter__list">
+                      <li><a class="olx-filter__item" href="#" aria-current="true">Mobile Phones <span class="olx-filter__count">(179,928)</span></a></li>
+                      <li><a class="olx-filter__item" href="#">Accessories <span class="olx-filter__count">(16,122)</span></a></li>
+                      <li><a class="olx-filter__item" href="#">Tablets <span class="olx-filter__count">(4,614)</span></a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <button class="olx-filter__more" type="button">View more <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+          </section>
+          <section class="olx-filter">
+            <h3 class="olx-filter__title">Location</h3>
+            <button class="olx-location olx-location--block" type="button" aria-haspopup="listbox" aria-expanded="false">
+              <span class="olx-location__pin"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span><span class="olx-location__value">Pakistan</span><span class="olx-location__chevron"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span>
+            </button>
+          </section>
+          <section class="olx-filter">
+            <h3 class="olx-filter__title">Price</h3>
+            <div class="olx-filter__range">
+              <input class="olx-input" inputmode="numeric" placeholder="Min" aria-label="Minimum price">
+              <span aria-hidden="true">–</span>
+              <input class="olx-input" inputmode="numeric" placeholder="Max" aria-label="Maximum price">
+            </div>
+          </section>
+        </aside>
+        <div class="olx-stack">
+          <div class="olx-cluster" id="brand-chips"><button class="olx-chip" type="button" aria-pressed="false">iPhone</button><button class="olx-chip" type="button" aria-pressed="false">Infinix</button><button class="olx-chip" type="button" aria-pressed="false">Tecno</button><button class="olx-chip" type="button" aria-pressed="false">Vivo</button><button class="olx-chip" type="button" aria-pressed="false">Samsung</button><button class="olx-chip" type="button" aria-pressed="false">OPPO</button></div>
+          <article class="olx-card olx-listing olx-listing--row olx-listing--featured">
+            <span class="olx-listing__ribbon"><svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 7h7l-5.5 4.5L18.5 21 12 16.5 5.5 21l2-7.5L2 9h7z"/></svg> Ad of the Week</span>
+            <div class="olx-listing__media" role="img" aria-label="iPhone 17 Pro Max"></div>
+            <div class="olx-listing__body">
+              <div class="olx-listing__head">
+                <span class="olx-price olx-price--md">Rs 28,000</span>
+                <button class="olx-listing__fav" aria-pressed="false" aria-label="Save"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.1 3.4 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.6 0 6 3.6 4.5 7.3C19.5 16.4 12 21 12 21z"/></svg></button>
+              </div>
+              <span class="olx-listing__title"><strong>iPhone 17 Pro Max (256GB) Non PTA available on easy installment plan</strong></span>
+              <p class="olx-listing__desc">Only for Lahore. iPhone 17 Pro Max (256GB) Non PTA on an easy installment plan: 90,000 down payment, then 28,000 a month for 15 months.</p>
+              <span class="olx-listing__meta"><span>Park Avenue Housing Scheme, Lahore · 3 days ago</span></span>
+              <div class="olx-listing__actions">
+                <a class="olx-btn olx-btn--secondary olx-btn--sm" href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> Call</a>
+                <a class="olx-btn olx-btn--primary olx-btn--sm" href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.6A8.4 8.4 0 1 1 21 11.5z"/></svg> Chat</a>
+                <a class="olx-btn olx-btn--secondary olx-btn--sm" href="#">WhatsApp</a>
+              </div>
+            </div>
+          </article>
+          <article class="olx-card olx-listing olx-listing--row">
+            <span class="olx-badge olx-badge--featured olx-listing__badge">Featured</span>
+            <div class="olx-listing__media" role="img" aria-label="Apple iPhone 17 Pro Max"></div>
+            <div class="olx-listing__body">
+              <div class="olx-listing__head">
+                <span class="olx-price olx-price--md">Rs 4.75 Lac</span>
+                <button class="olx-listing__fav" aria-pressed="false" aria-label="Save"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.1 3.4 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.6 0 6 3.6 4.5 7.3C19.5 16.4 12 21 12 21z"/></svg></button>
+              </div>
+              <span class="olx-listing__title">Apple iPhone 17 Pro Max</span>
+              <span class="olx-listing__meta"><span>Allama Iqbal Town, Lahore · 15 minutes ago</span></span>
+              <div class="olx-listing__actions">
+                <a class="olx-btn olx-btn--secondary olx-btn--sm" href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> Call</a>
+                <a class="olx-btn olx-btn--primary olx-btn--sm" href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.6A8.4 8.4 0 1 1 21 11.5z"/></svg> Chat</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="docs-section" id="ad-detail">
+      <h2>Ad detail</h2>
+      <p>Image gallery (<code>olx-gallery</code>), price and summary (<code>olx-price</code>, <code>olx-ad-summary</code>), the details table (<code>olx-details</code>) and the seller card with contact actions (<code>olx-seller</code>, <code>olx-contact</code>).</p>
+      <div class="demo-ad-layout">
+        <div>
+          <div class="olx-gallery">
+            <div class="olx-gallery__stage" role="img" aria-label="Photo 1 of 5"></div>
+            <button class="olx-gallery__nav olx-gallery__nav--prev" type="button" aria-label="Previous photo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg></button>
+            <button class="olx-gallery__nav olx-gallery__nav--next" type="button" aria-label="Next photo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+            <span class="olx-gallery__count">1 / 5</span>
+          </div>
+          <ul class="olx-gallery__thumbs"><li><button class="olx-gallery__thumb" type="button" aria-label="Photo 1" aria-current="true"></button></li><li><button class="olx-gallery__thumb" type="button" aria-label="Photo 2"></button></li><li><button class="olx-gallery__thumb" type="button" aria-label="Photo 3"></button></li><li><button class="olx-gallery__thumb" type="button" aria-label="Photo 4"></button></li><li><button class="olx-gallery__thumb" type="button" aria-label="Photo 5"></button></li></ul>
+          <div class="olx-ad-summary">
+            <span class="olx-price olx-price--lg">Rs 82,000</span>
+            <div class="olx-ad-summary__actions">
+              <button type="button" aria-label="Save"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.1 3.4 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.6 0 6 3.6 4.5 7.3C19.5 16.4 12 21 12 21z"/></svg></button>
+              <button type="button" aria-label="Share"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg></button>
+            </div>
+            <h1 class="olx-ad-summary__title">Apple iPhone 14, 10/10 condition, 83% battery</h1>
+            <div class="olx-ad-summary__meta">
+              <span class="olx-ad-summary__location"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg> Saddar, Karachi</span>
+              <span>2 days ago</span>
+            </div>
+          </div>
+          <h2>Details</h2>
+          <dl class="olx-details"><div class="olx-details__row"><dt>Brand</dt><dd>Apple iPhone</dd></div><div class="olx-details__row"><dt>Model</dt><dd>14</dd></div><div class="olx-details__row"><dt>Condition</dt><dd>New</dd></div><div class="olx-details__row"><dt>PTA Status</dt><dd>Non PTA</dd></div></dl>
+        </div>
+        <aside>
+          <div class="olx-seller">
+            <a class="olx-seller__profile" href="#">
+              <span class="olx-seller__avatar" aria-hidden="true"></span>
+              <span class="olx-seller__who"><span class="olx-seller__label">Posted by</span><span class="olx-seller__name">Star City Mobile Mall</span></span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </a>
+            <dl class="olx-seller__stats">
+              <div class="olx-seller__stat"><span class="olx-seller__stat-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span><div><dt>Member Since</dt><dd>2026</dd></div></div>
+              <div class="olx-seller__stat"><span class="olx-seller__stat-icon"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h4"/></svg></span><div><dt>Active Ads</dt><dd>1</dd></div></div>
+            </dl>
+          </div>
+          <div class="olx-contact">
+            <button class="olx-btn olx-btn--primary olx-btn--block" type="button"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg> Show phone number</button>
+            <button class="olx-btn olx-btn--secondary olx-btn--block" type="button"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.6A8.4 8.4 0 1 1 21 11.5z"/></svg> Chat</button>
+            <div class="olx-contact__foot"><span>Ad ID: 1119701252</span><button class="olx-contact__report" type="button"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 22V4h13l-2 4 2 4H4"/></svg> Report this ad</button></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="docs-section">
+      <h2>Listing cards</h2>
+      <div class="olx-grid" id="listings"></div>
+    </section>
+  </main>
+
+  <div class="olx-appbanner">
+    <div class="olx-container olx-appbanner__inner">
+      <h2 class="olx-appbanner__title">Find amazing deals on the go. <a href="#">Download OLX app now!</a></h2>
+      <div class="olx-appbanner__stores">
+        <a class="olx-btn olx-btn--primary olx-btn--sm" href="#">App Store</a>
+        <a class="olx-btn olx-btn--primary olx-btn--sm" href="#">Google Play</a>
+        <a class="olx-btn olx-btn--primary olx-btn--sm" href="#">AppGallery</a>
+      </div>
+    </div>
+  </div>
+  <footer class="olx-footer">
+    <div class="olx-container olx-footer__cols">
+      <nav aria-label="Popular Categories"><h3 class="olx-footer__heading">Popular Categories</h3><ul class="olx-footer__links"><li><a href="#">Cars</a></li><li><a href="#">Flats for rent</a></li><li><a href="#">Mobile Phones</a></li><li><a href="#">Jobs</a></li></ul></nav><nav aria-label="Trending Searches"><h3 class="olx-footer__heading">Trending Searches</h3><ul class="olx-footer__links"><li><a href="#">Bikes</a></li><li><a href="#">Watches</a></li><li><a href="#">Books</a></li><li><a href="#">Dogs</a></li></ul></nav><nav aria-label="About Us"><h3 class="olx-footer__heading">About Us</h3><ul class="olx-footer__links"><li><a href="#">OLX Blog</a></li><li><a href="#">Contact Us</a></li><li><a href="#">OLX for Businesses</a></li></ul></nav><nav aria-label="OLX"><h3 class="olx-footer__heading">OLX</h3><ul class="olx-footer__links"><li><a href="#">Help</a></li><li><a href="#">Sitemap</a></li><li><a href="#">Terms of use</a></li><li><a href="#">Privacy Policy</a></li></ul></nav>
+      <div><h3 class="olx-footer__heading">Follow Us</h3><div class="olx-footer__social"><a href="#" aria-label="X"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4l16 16M20 4 4 20" stroke="currentColor" stroke-width="2"/></svg></a><a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v8h4v-8h3l1-4h-4V8z" fill="currentColor"/></svg></a><a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor"/><path d="m10 9 5 3-5 3z" fill="var(--olx-bg-subtle)"/></svg></a><a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/></svg></a></div></div>
+    </div>
+    <div class="olx-footer__bar"><div class="olx-container olx-footer__bar-inner"><strong>Classifieds in Pakistan.</strong> © 2006–2026 OLX</div></div>
+  </footer>
+
+  <script>
+    // Theme toggle: cycles light / dark and overrides the OS preference.
+    const root = document.documentElement;
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+      const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark';
+    });
+
+    // Chips act as a single-select filter.
+    document.getElementById('chips').addEventListener('click', (e) => {
+      const chip = e.target.closest('.olx-chip');
+      if (!chip) return;
+      chip.parentElement.querySelectorAll('.olx-chip').forEach((c) => c.setAttribute('aria-pressed', String(c === chip)));
+    });
+
+    // Brand chips toggle independently (multi-select filter).
+    document.getElementById('brand-chips').addEventListener('click', (e) => {
+      const chip = e.target.closest('.olx-chip');
+      if (chip) chip.setAttribute('aria-pressed', String(chip.getAttribute('aria-pressed') !== 'true'));
+    });
+
+    import('./dist/tokens.js').then(({ tokens }) => {
+      const el = (html) => { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstChild; };
+      const swatch = (name, value) => el(`<div class="swatch"><div class="swatch__chip" style="background:${value}"></div><div class="swatch__label"><strong>${name}</strong><code>${value}</code></div></div>`);
+
+      const prim = document.getElementById('primitive-swatches');
+      for (const [family, shades] of Object.entries(tokens.color)) {
+        if (typeof shades === 'string') prim.append(swatch(family, shades));
+        else for (const [shade, hex] of Object.entries(shades)) prim.append(swatch(`${family}-${shade}`, hex));
+      }
+
+      const sem = document.getElementById('semantic-swatches');
+      for (const name of Object.keys(tokens.semantic.light)) {
+        const node = swatch(name, `var(--olx-${name})`);
+        node.querySelector('code').textContent = `--olx-${name}`;
+        sem.append(node);
+      }
+
+      const type = document.getElementById('type-scale');
+      for (const [name, size] of Object.entries(tokens.font.size).reverse()) {
+        type.append(el(`<div class="scale-row"><code>font-size-${name} · ${size}</code><span style="font-size:${size}">Buy and sell near you</span></div>`));
+      }
+
+      const space = document.getElementById('space-scale');
+      for (const [name, size] of Object.entries(tokens.space)) {
+        space.append(el(`<div class="scale-row"><code>space-${name} · ${size}</code><div class="space-bar" style="width:${size}"></div></div>`));
+      }
+    });
+
+    const listings = [
+      { price: 'Rs 285,000', title: 'iPhone 14 Pro 256GB, PTA approved', place: 'DHA Phase 6, Lahore', when: 'Today', featured: true },
+      { price: 'Rs 4,150,000', title: 'Toyota Corolla Altis 1.6 2021', place: 'Gulshan-e-Iqbal, Karachi', when: '2 days ago' },
+      { price: 'Rs 65,000', title: 'Sofa set, 7 seater, excellent condition', place: 'F-10, Islamabad', when: '3 days ago' },
+      { price: 'Rs 120,000', title: 'Honda CD 70 2023, first owner', place: 'Saddar, Rawalpindi', when: '1 week ago', featured: true },
+    ];
+    const heart = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.5-9.2C1 8.1 3.4 4.5 7 4.5c2 0 3.6 1.1 5 3 1.4-1.9 3-3 5-3 3.6 0 6 3.6 4.5 7.3C19.5 16.4 12 21 12 21z"/></svg>';
+    const grid = document.getElementById('listings');
+    for (const l of listings) {
+      grid.insertAdjacentHTML('beforeend', `
+        <article class="olx-card olx-listing${l.featured ? ' olx-listing--featured' : ''}">
+          <div class="olx-listing__media" role="img" aria-label="${l.title}"></div>
+          ${l.featured ? '<span class="olx-badge olx-badge--featured olx-listing__badge">Featured</span>' : ''}
+          <button class="olx-listing__fav" aria-pressed="false" aria-label="Save ${l.title}">${heart}</button>
+          <div class="olx-listing__body">
+            <span class="olx-listing__price">${l.price}</span>
+            <span class="olx-listing__title">${l.title}</span>
+            <span class="olx-listing__meta"><span>${l.place}</span><span>${l.when}</span></span>
+          </div>
+        </article>`);
+    }
+    grid.addEventListener('click', (e) => {
+      const fav = e.target.closest('.olx-listing__fav');
+      if (fav) fav.setAttribute('aria-pressed', String(fav.getAttribute('aria-pressed') !== 'true'));
+    });
+  </script>
+</body>
+</html>

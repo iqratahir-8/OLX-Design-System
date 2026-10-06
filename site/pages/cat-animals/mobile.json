@@ -1,0 +1,563 @@
+{
+ "id": "cat-animals",
+ "title": "Animals",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/animals_c103",
+ "finalUrl": "https://www.olx.com.pk/animals_c103?page=1",
+ "width": 390,
+ "height": 5828,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T12:56:21.438Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 139
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 155,
+    "width": 390,
+    "height": 4490
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-got-something-to-sell-post-in-3-simple-s",
+   "name": "Got Something to Sell? · Post in 3 Simple Steps ",
+   "rect": {
+    "x": 16,
+    "y": 4656,
+    "width": 358,
+    "height": 198
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-white-cocktail-red-eyes-male",
+   "name": "white cocktail red eyes male",
+   "rect": {
+    "x": 0,
+    "y": 4865,
+    "width": 390,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "05-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 5023,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "06-animals-in-pakistan",
+   "name": "Animals in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 5103,
+    "width": 390,
+    "height": 87
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "07-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 5189,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "08-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 5235,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "09-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 5281,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "10-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 5327,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 5373,
+    "width": 390,
+    "height": 455
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "12-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 5759,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 104,
+   "width": 358,
+   "height": 23,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 104,
+   "width": 390,
+   "height": 35,
+   "kind": "button",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 155,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/cash-on-delivery-available-persian-punch-face-triple-coat-cat-kitten-iid-1117667975",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 296,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/cash-on-delivery-also-door-step-available-iid-1119527184",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 438,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/24-eggs-automatic-incubator-fully-automatic-egg-hatching-machine-iid-1118726576",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 580,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/persian-cat-and-kittens-punch-face-kittens-double-coated-self-feeding-iid-1119652671",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 722,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/german-shepherd-puppy-iid-1119002327",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 864,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/250eggs-incubator-fully-automatic-machine-iid-1028910326",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1079,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/rechargeable-steamer-brush-for-cats-and-dogs-iid-ev554382-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1079,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/anti-barking-device-dog-barking-control-devices-with-3-adjustable-levels-for-15m-range-stop-dog-barking-deterrent-bark-training-safe-for-dogs-waterproof-bark-stopper-training-tool-for-indoor-outdoor-use-c-r3642-iid-ev553698-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1350,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/modern-wooden-pet-house-stylish-dog-cat-crate-ventilated-indoor-kennel-furniture-iid-ev480632-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1350,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/diamond-maintenance-cat-food-iid-ev554367-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1621,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/gentle-muzzle-guard-for-dogs-blue-size-l-safe-comfortable-neoprene-muzzle-with-training-guide-pack-of-1-iid-ev552932-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1621,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/glow-in-the-dark-stones-pebbles-aquarium-plants-fairy-mini-garden-pack-of-1-iid-ev212700-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1891,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dog-cooling-vest-summer-cooling-vest-for-small-medium-dogs-uk-import-iid-ev553519-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1891,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/jd-shafi-12v-dc-8w-original-submersible-water-pump-for-automotive-and-aquatic-use-iid-ev342573-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2167,
+   "width": 358,
+   "height": 41,
+   "kind": "button",
+   "label": "View All Items with Delivery"
+  },
+  {
+   "x": 0,
+   "y": 2219,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/persian-cats-persain-cats-pair-persain-kitten-doll-face-cats-iid-1119892036",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2361,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/ets-so-entaligeant-and-and-grace-fool-iid-1119882878",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2503,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/cash-on-delivery-persian-hmalyn-british-punch-kitten-iid-1118859973",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2657,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/fancy-piegons-iid-1119894010",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2799,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/persian-kittens-whatp-03XX-XXXXXXX-iid-1119894007",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2941,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/healthy-desi-goat-for-sale-2-teeth-karachi-iid-1118690475",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3083,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/raw-pahari-green-talking-parrot-03XX-XXXXXXX-iid-1119894005",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3225,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/important-aseel-chiks-b-available-hain-iid-1119893978",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3367,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/pure-aseel-iid-1119893966",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3509,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/persian-kittens-whatp-03XX-XXXXXXX-iid-1119893935",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3651,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/aseel-bird-iid-1112812733",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3792,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/persian-kittens-whatp-03XX-XXXXXXX-iid-1119893898",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3934,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/pure-vacha-vlayti-iid-1119893890",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4076,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/cockatiels-chicks-iid-1119893882",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4218,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/persian-kittens-whatp-03XX-XXXXXXX-iid-1119893873",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4372,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/adl-cattle-farm-well-grown-pure-breed-quality-iid-1119893855",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4514,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/wooden-pallets-for-goat-iid-1119893834",
+   "label": "Listing"
+  },
+  {
+   "x": 29,
+   "y": 4796,
+   "width": 332,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell Now"
+  },
+  {
+   "x": 0,
+   "y": 4865,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/white-cocktail-red-eyes-male-iid-1119771771",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 5023,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 143,
+   "y": 5759,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 5159,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 5672,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 5739,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

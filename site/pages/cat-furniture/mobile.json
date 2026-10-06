@@ -1,0 +1,563 @@
+{
+ "id": "cat-furniture",
+ "title": "Furniture & Home Decor",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/furniture-home-decor_c628",
+ "finalUrl": "https://www.olx.com.pk/furniture-home-decor_c628?page=1",
+ "width": 390,
+ "height": 5866,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T12:57:02.025Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 139
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 155,
+    "width": 390,
+    "height": 4528
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-got-something-to-sell-post-in-3-simple-s",
+   "name": "Got Something to Sell? · Post in 3 Simple Steps ",
+   "rect": {
+    "x": 16,
+    "y": 4694,
+    "width": 358,
+    "height": 198
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-foldable-metallic-bed-for-sale-at-a-reas",
+   "name": "Foldable metallic bed for sale at a reas",
+   "rect": {
+    "x": 0,
+    "y": 4903,
+    "width": 390,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "05-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 5061,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "06-furniture-and-home-decor-items-in-pakist",
+   "name": "Furniture & Home Decor Items in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 5141,
+    "width": 390,
+    "height": 87
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "07-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 5227,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "08-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 5273,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "09-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 5319,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "10-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 5365,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 5411,
+    "width": 390,
+    "height": 455
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "12-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 5797,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 104,
+   "width": 358,
+   "height": 23,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 104,
+   "width": 390,
+   "height": 35,
+   "kind": "button",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 155,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/bed-set-double-bed-king-size-bed-bedroom-setqueen-size-bed-iid-1119046099",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 296,
+   "width": 390,
+   "height": 150,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dining-table-diningsix-seater-diningwooden-dining-solid-dining-iid-1119330030",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 457,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/office-table-study-table-computer-table-gaming-table-table-iid-1119580616",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 599,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/saloon-chair-parlour-chairtrolleymassage-bed-pedicure-unitbarber-iid-1117910903",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 741,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/three-center-table-for-sale-iid-1118950653",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 883,
+   "width": 390,
+   "height": 150,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/car-roof-shade-waterproof-shade-pvc-car-porch-wall-mounted-shade-iid-1117688866",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1117,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/inspirational-believe-in-yourself-wall-stickers-by-adesivo-de-parede-creative-home-decor-vinyl-decals-iid-ev308872-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1117,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/golden-sleekwave-multipurpose-tray-by-matrix-iid-ev453770-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1388,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/stainless-steel-bbq-grill-basket-with-removable-wooden-handle-for-fish-and-vegetables-ideal-for-grilling-steak-shrimp-and-more-iid-ev492506-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1388,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/modern-c-shape-rolling-coffee-table-sofa-side-snack-laptop-stand-iid-ev526209-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1659,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/silicone-kitchen-sink-holder-and-organizer-for-soap-sponge-and-drainage-iid-ev383574-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1659,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/emoji-round-cushions-and-soft-pillows-for-home-decor-pack-of-3-or-5-iid-ev487033-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1929,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/watering-can-disinfection-special-pneumatic-high-pressure-watering-watering-household-large-watering-can-small-sprayer-bottle-watering-can-iid-ev319475-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1929,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/tarpal-waterproof-tarpal-large-size-tarpal-12x12-feet-heavy-duty-waterproof-tarpal-tent-export-quality-tarpal-for-all-weather-protection-144-sq-ft-durable-tarpal-for-outdoor-camping-and-industrial-use-sun-and-rain-resistant-tarpal-foldable-iid-ev342921-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2205,
+   "width": 358,
+   "height": 41,
+   "kind": "button",
+   "label": "View All Items with Delivery"
+  },
+  {
+   "x": 0,
+   "y": 2257,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/conference-meeting-table-workstation-iid-1119517697",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2399,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/rockwall-graphy-home-finishing-wall-paint-polish-wall-paint-iid-1117996118",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2541,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/workstation-table-office-tables-iid-1119832383",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2695,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/pure-wood-bed-set-iid-1119894139",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2837,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/-iid-1119894136",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2979,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/iron-double-bad-with-gadda-foam-mattress-very-good-condition-h-iid-1119894114",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3121,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dining-table-set-with-6-chairs-iid-1118688264",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3262,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/8-seater-sofa-set-4-single-4-double-urgent-sale-iid-1118337186",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3404,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/urgent-sale-karny-hy-iid-1119894093",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3546,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/for-sale-total-saman-iid-1119894085",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3688,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/mobile-counter-for-sale-03XX-XXXXXXX-iid-1119894080",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3830,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/bedroom-chair-set-with-coffee-table-iid-1119894065",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3972,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/sale-furniture-iid-1119894058",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4114,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/bedroom-set-iid-1119894055",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4256,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/furniture-iid-1119894008",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4410,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/main-gate-iid-1118302305",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4552,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/fish-aqurium-iid-1119893995",
+   "label": "Listing"
+  },
+  {
+   "x": 29,
+   "y": 4834,
+   "width": 332,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell Now"
+  },
+  {
+   "x": 0,
+   "y": 4903,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/foldable-metallic-bed-for-sale-at-a-reasonable-price-with-good-condi-iid-1119893964",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 5061,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 143,
+   "y": 5797,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 5197,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 5710,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 5777,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 5777,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 5777,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 5777,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

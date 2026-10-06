@@ -1,0 +1,447 @@
+{
+ "id": "ad-vehicles",
+ "title": "Ad: Vehicles",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/united-chingchi-rikshaw-for-sale-2025-model-iid-1119896387",
+ "finalUrl": "https://www.olx.com.pk/item/united-chingchi-rikshaw-for-sale-2025-model-iid-1119896387",
+ "width": 390,
+ "height": 2348,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-09-29T13:59:14.353Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 146
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 439,
+    "width": 390,
+    "height": 51
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-details",
+   "name": "Details",
+   "rect": {
+    "x": 0,
+    "y": 489,
+    "width": 390,
+    "height": 189
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-description-united-chingchi-rikshaw-for-",
+   "name": "Description · united chingchi rikshaw for sale ·",
+   "rect": {
+    "x": 0,
+    "y": 697,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 838,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "07-related-ads-rs-1-80-lac-new-asia-2017",
+   "name": "Related ads · Rs 1.80 Lac · new Asia 2017",
+   "rect": {
+    "x": 0,
+    "y": 1058,
+    "width": 390,
+    "height": 397
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "08-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1474,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "09-rickshaw-and-chingchi-in-jallo-rickshaw-",
+   "name": "Rickshaw & Chingchi in Jallo · Rickshaw & Chingc",
+   "rect": {
+    "x": 8,
+    "y": 1757,
+    "width": 374,
+    "height": 27
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "10-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1783,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1829,
+    "width": 390,
+    "height": 519
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "12-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 2283,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": 123,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1170,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1560,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1950,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2340,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2730,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3120,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3510,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3900,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 171,
+   "y": 533,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rickshaw-chingchi_c2026/q-chingchi-rickshaws",
+   "label": "Chingchi Rickshaws"
+  },
+  {
+   "x": 171,
+   "y": 647,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rickshaw-chingchi_c2026/q-used-rickshaw-chingchi",
+   "label": "Used"
+  },
+  {
+   "x": 16,
+   "y": 797,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 850,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/feb12dc8-45be-47f4-a06e-e6dc21bf829b",
+   "label": "Posted byUser 6Cw67T Member Since2021Active Ads1"
+  },
+  {
+   "x": 142,
+   "y": 982,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 1093,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/new-asia-2017-iid-1119887103",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 1093,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/new-asia-raksha-for-sale-03XX-XXXXXXX-iid-1119848033",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 1093,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/rickshaw-for-sale-iid-1119847971",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 1093,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-sprinter-110-iid-1119645014",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 1093,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/loader-for-sale-03XX-XXXXXXX-iid-1119652467",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2296,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 199,
+   "y": 2296,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 231,
+   "y": 1762,
+   "width": 151,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jallo_g5000542/rickshaw-chingchi_c2026",
+   "label": "Rickshaw & Chingchi in Jallo"
+  },
+  {
+   "x": 37,
+   "y": 1762,
+   "width": 164,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/rickshaw-chingchi_c2026",
+   "label": "Rickshaw & Chingchi in Lahore"
+  },
+  {
+   "x": -105,
+   "y": 1762,
+   "width": 112,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rickshaw-chingchi_c2026",
+   "label": "Rickshaw & Chingchi"
+  },
+  {
+   "x": -181,
+   "y": 1762,
+   "width": 46,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/vehicles_c5",
+   "label": "Vehicles"
+  },
+  {
+   "x": -243,
+   "y": 1762,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 2128,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 2195,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 2195,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 2195,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 2195,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

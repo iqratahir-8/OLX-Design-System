@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OLX Design System Book</title>
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+  <div class="book">
+    <aside class="book-nav" aria-label="Contents">
+      <a class="book-brand" href="#overview">
+        <span class="book-brand__mark" aria-hidden="true">OLX</span>
+        <span>Design System</span>
+      </a>
+      <button class="book-menu" id="book-menu" type="button" aria-expanded="false" aria-controls="book-contents">Contents</button>
+      <div class="book-contents" id="book-contents">
+      <label class="book-visually-hidden" for="book-filter">Filter</label>
+      <input class="book-filter" id="book-filter" type="search" placeholder="Filter components and pages" autocomplete="off">
+      <nav id="book-toc"></nav>
+      </div>
+    </aside>
+    <main class="book-main" id="book-main" tabindex="-1">
+      <p class="book-loading">Loading the design system…</p>
+    </main>
+  </div>
+  <script src="book.js"></script>
+</body>
+</html>

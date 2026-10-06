@@ -1,0 +1,471 @@
+{
+ "id": "ad-books-sports",
+ "title": "Ad: Books, Sports & Hobbies",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/item/snooker-table-for-sale-5x10-6x12-bismillah-snooker-factory-iid-1117496854",
+ "finalUrl": "https://www.olx.com.pk/item/snooker-table-for-sale-5x10-6x12-bismillah-snooker-factory-iid-1117496854",
+ "width": 390,
+ "height": 3580,
+ "dpr": 2,
+ "overlay": false,
+ "scrolled": false,
+ "captured": "2026-09-29T14:07:20.126Z",
+ "sections": [
+  {
+   "file": "01-gallery",
+   "name": "Gallery",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 294
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "02-overview",
+   "name": "Overview",
+   "rect": {
+    "x": 0,
+    "y": 294,
+    "width": 390,
+    "height": 146
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "03-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 439,
+    "width": 390,
+    "height": 51
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "04-details",
+   "name": "Details",
+   "rect": {
+    "x": 0,
+    "y": 489,
+    "width": 390,
+    "height": 75
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "05-description-bismillah-snoo",
+   "name": "Description · --------------------Bismillah Snoo",
+   "rect": {
+    "x": 0,
+    "y": 583,
+    "width": 390,
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "06-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 724,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "07-related-ads-rs-3-lac-snooker-tables-by-m",
+   "name": "Related ads · Rs 3 Lac · Snooker tables By MA sn",
+   "rect": {
+    "x": 0,
+    "y": 944,
+    "width": 390,
+    "height": 371
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "08-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
+   "rect": {
+    "x": 0,
+    "y": 1334,
+    "width": 390,
+    "height": 236
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "09-billiards-and-snooker-equipment-in-gulbe",
+   "name": "Billiards & Snooker Equipment in Gulberg · Billi",
+   "rect": {
+    "x": 8,
+    "y": 1617,
+    "width": 374,
+    "height": 27
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "10-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 1643,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "11-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 1689,
+    "width": 390,
+    "height": 519
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "12-chat-call",
+   "name": "Chat · Call",
+   "rect": {
+    "x": 0,
+    "y": 3515,
+    "width": 390,
+    "height": 65
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 16,
+   "y": 12,
+   "width": 32,
+   "height": 32,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 332,
+   "y": 123,
+   "width": 48,
+   "height": 48,
+   "kind": "button",
+   "label": "Next button"
+  },
+  {
+   "x": 0,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 390,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 780,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1170,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1560,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1950,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2340,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 2730,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3120,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3510,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3900,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4290,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4680,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5070,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 171,
+   "y": 533,
+   "width": 190,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/billiards-snooker-equipment_c708047/q-new",
+   "label": "New"
+  },
+  {
+   "x": 16,
+   "y": 683,
+   "width": 358,
+   "height": 22,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
+   "x": 20,
+   "y": 736,
+   "width": 354,
+   "height": 119,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/82e56929-81df-466d-9c41-ae88801f5c1e",
+   "label": "Posted byBismillah Snooker Factory Member Since2022Active Ads12"
+  },
+  {
+   "x": 142,
+   "y": 868,
+   "width": 110,
+   "height": 27,
+   "kind": "button",
+   "label": "Report this ad"
+  },
+  {
+   "x": 16,
+   "y": 979,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/snooker-tables-by-ma-snooker-factory-iid-1119884005",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 979,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/snooker-table-rasson-iid-1119854294",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 979,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/snooker-table-customised-at-whole-sale-iid-1119647803",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 979,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/snooker-table-resson-strong-for-sale-iid-1119243547",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 979,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/star-snooker-table-for-sale-iid-1119243666",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 3528,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 199,
+   "y": 3528,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 162,
+   "y": 1622,
+   "width": 220,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gulberg_g7/billiards-snooker-equipment_c708047",
+   "label": "Billiards & Snooker Equipment in Gulberg"
+  },
+  {
+   "x": -80,
+   "y": 1622,
+   "width": 212,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/billiards-snooker-equipment_c708047",
+   "label": "Billiards & Snooker Equipment in Lahore"
+  },
+  {
+   "x": -270,
+   "y": 1622,
+   "width": 160,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/billiards-snooker-equipment_c708047",
+   "label": "Billiards & Snooker Equipment"
+  },
+  {
+   "x": -394,
+   "y": 1622,
+   "width": 94,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sports-equipment_c100",
+   "label": "Sports Equipment"
+  },
+  {
+   "x": -553,
+   "y": 1622,
+   "width": 129,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/books-sports-hobbies_c767",
+   "label": "Books, Sports & Hobbies"
+  },
+  {
+   "x": -615,
+   "y": 1622,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 1988,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 2055,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 2055,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 2055,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 2055,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}

@@ -1,0 +1,880 @@
+{
+ "id": "cat-fashion",
+ "title": "Fashion & Beauty",
+ "viewport": "mobile",
+ "url": "https://www.olx.com.pk/fashion-beauty_c87",
+ "finalUrl": "https://www.olx.com.pk/fashion-beauty_c87?page=1",
+ "width": 390,
+ "height": 6853,
+ "dpr": 2,
+ "overlay": false,
+ "captured": "2026-09-29T12:57:46.994Z",
+ "sections": [
+  {
+   "file": "01-header",
+   "name": "Header",
+   "rect": {
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 139
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "02-listings",
+   "name": "Listings",
+   "rect": {
+    "x": 0,
+    "y": 155,
+    "width": 390,
+    "height": 4490
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+  },
+  {
+   "file": "03-got-something-to-sell-post-in-3-simple-s",
+   "name": "Got Something to Sell? · Post in 3 Simple Steps ",
+   "rect": {
+    "x": 16,
+    "y": 4656,
+    "width": 358,
+    "height": 198
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-1-dafa-use-hua-hai-achi-condition-main-h",
+   "name": "1 Dafa use hua hai achi condition main h",
+   "rect": {
+    "x": 0,
+    "y": 4865,
+    "width": 390,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "05-retry",
+   "name": "Retry",
+   "rect": {
+    "x": 0,
+    "y": 5023,
+    "width": 390,
+    "height": 49
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "06-popular-watches-price-in-pakistan",
+   "name": "Popular Watches Price in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 5087,
+    "width": 390,
+    "height": 1027
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+  },
+  {
+   "file": "07-fashion-and-beauty-products-in-pakistan",
+   "name": "Fashion & Beauty Products in Pakistan",
+   "rect": {
+    "x": 0,
+    "y": 6129,
+    "width": 390,
+    "height": 86
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "08-popular-searches",
+   "name": "Popular Searches",
+   "rect": {
+    "x": 0,
+    "y": 6214,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "09-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 6260,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "10-location",
+   "name": "Location",
+   "rect": {
+    "x": 0,
+    "y": 6306,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "11-filters",
+   "name": "Filters",
+   "rect": {
+    "x": 0,
+    "y": 6352,
+    "width": 390,
+    "height": 47
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "12-footer",
+   "name": "Footer",
+   "rect": {
+    "x": 0,
+    "y": 6398,
+    "width": 390,
+    "height": 455
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "13-sell",
+   "name": "SELL",
+   "rect": {
+    "x": 0,
+    "y": 6784,
+    "width": 390,
+    "height": 45
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  }
+ ],
+ "hotspots": [
+  {
+   "x": 10,
+   "y": 20,
+   "width": 20,
+   "height": 24,
+   "kind": "button",
+   "label": "Back button"
+  },
+  {
+   "x": 352,
+   "y": 12,
+   "width": 32,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 64,
+   "width": 42,
+   "height": 28,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 104,
+   "width": 358,
+   "height": 23,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 104,
+   "width": 390,
+   "height": 35,
+   "kind": "button",
+   "label": "Buy withDeliveryNew"
+  },
+  {
+   "x": 0,
+   "y": 155,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/watch-buyer-rolex-cartier-omega-hublot-tudor-chopard-rado-tag-heuer-iid-1116691529",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 296,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/rolex-buyer-omega-cartier-hublot-tudor-chopard-rado-tag-heuer-zenith-iid-1113425312",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 438,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/i-buy-rolex-omega-cartiar-tag-heuer-longines-rado-tudor-ap-iwc-iid-1116337404",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 580,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/used-watches-buyer-rolex-cartier-omega-hublot-chopard-rado-tag-heuer-iid-1117828472",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 722,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/face-wash-whitening-brightening-deep-cleansing-smooth-skin-iid-1119557219",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 864,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/we-buy-rolex-cartier-omega-hublot-chopard-breitling-rado-tag-heuer-iwc-iid-1103605992",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1079,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/yardlie-brown-hair-color-shampoo-uk-formula-sachet-pack-of-10-iid-ev252487-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1079,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/2pcs-flower-pattern-hollow-out-tattoo-stencil-set-for-hand-body-face-and-hairline-iid-ev508751-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1350,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/kemei-km-531-ionic-hair-straightener-with-adjustable-temperature-and-ceramic-plates-for-smooth-styling-iid-ev368548-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1350,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/handmade-3-piece-dress-set-with-oil-paint-design-iid-ev399837-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1621,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/classic-rhinestone-pendant-link-chain-necklace-for-men-bold-stylish-jewelry-iid-ev437854-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1621,
+   "width": 173,
+   "height": 259,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/punjabi-paranda-hair-extension-with-black-tassels-parandi-iid-ev555497-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 1891,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/promise-rings-for-couples-silver-bands-with-copper-zircon-stones-adjustable-iid-ev438058-1",
+   "label": "Listing"
+  },
+  {
+   "x": 201,
+   "y": 1891,
+   "width": 173,
+   "height": 260,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/6-piece-ear-wax-cleaning-kit-portable-easy-to-use-iid-ev427072-1",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 2167,
+   "width": 358,
+   "height": 41,
+   "kind": "button",
+   "label": "View All Items with Delivery"
+  },
+  {
+   "x": 0,
+   "y": 2219,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/workers-uniform-office-boy-industrial-uniform-construction-uniform-iid-1118797255",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2361,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dyson-airwrap-multi-styler-complete-long-model-hs05-iid-1119411640",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2503,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/watch-purchaser-rolex-gmt-master-ll-omega-seamaster-cartier-rado-iwc-iid-1118875765",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2657,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/shien-bag-iid-1119894102",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2799,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/beautiful-wedding-dress-premium-designer-bridal-wear-iid-1118633607",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 2941,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/farsi-lawn-sky-blue-ma-crown-fabrics-25-meter-shirt-iid-1119894069",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3083,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/chiffon-kam-wali-maxy-iid-1119894042",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3225,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/watches-iid-1119894002",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3367,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/luxury-silver-gray-bridal-walima-maxi-heavy-embroidery-iid-1119893955",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3509,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/seiko-5-and-cityzen-original-automatic-pre-owned-watches-for-sale-iid-1119893928",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3651,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/get-cash-your-watch-rolex-oyster-perpetual-jacob-co-cartier-iid-1119893924",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3792,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/frank-maxy-iid-1119893919",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3934,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/whitening-cream-iid-1119893911",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4076,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/gharara-with-overcoat-iid-1116997510",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4218,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/sherwani-for-groom-iid-1106946679",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4372,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/we-buy-used-vintage-watches-rolex-omega-cartier-patek-philippe-rado-iid-1090899518",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4514,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/womens-winter-collection-iid-1119893904",
+   "label": "Listing"
+  },
+  {
+   "x": 29,
+   "y": 4796,
+   "width": 332,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell Now"
+  },
+  {
+   "x": 0,
+   "y": 4865,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/1-dafa-use-hua-hai-achi-condition-main-hai-iid-1119893871",
+   "label": "Listing"
+  },
+  {
+   "x": 144,
+   "y": 5023,
+   "width": 102,
+   "height": 49,
+   "kind": "button",
+   "label": "Retry"
+  },
+  {
+   "x": 21,
+   "y": 5207,
+   "width": 53,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/smart-watches_c1458",
+   "label": "Smart Watches Price"
+  },
+  {
+   "x": 110,
+   "y": 5207,
+   "width": 54,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-digital-watches",
+   "label": "Digital Watches Price"
+  },
+  {
+   "x": 190,
+   "y": 5207,
+   "width": 54,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-watches-sports",
+   "label": "Sports Watches Price"
+  },
+  {
+   "x": 270,
+   "y": 5218,
+   "width": 87,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-chronograph-watches",
+   "label": "Chronograph Watches Price"
+  },
+  {
+   "x": 21,
+   "y": 5280,
+   "width": 63,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-automatic-watches",
+   "label": "Automatic Watches Price"
+  },
+  {
+   "x": 110,
+   "y": 5280,
+   "width": 54,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-luxury-watch",
+   "label": "Luxury Watches Price"
+  },
+  {
+   "x": 190,
+   "y": 5280,
+   "width": 54,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-pocket-watches",
+   "label": "Pocket Watches Price"
+  },
+  {
+   "x": 270,
+   "y": 5291,
+   "width": 87,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-fitness-watch",
+   "label": "Fitness Watches Price"
+  },
+  {
+   "x": 21,
+   "y": 5353,
+   "width": 61,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-analog-watch",
+   "label": "Analogue Watches Price"
+  },
+  {
+   "x": 110,
+   "y": 5353,
+   "width": 54,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-couple-watches",
+   "label": "Couple Watches Price"
+  },
+  {
+   "x": 190,
+   "y": 5353,
+   "width": 54,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-ceramic-watch",
+   "label": "Ceramic Watches Price"
+  },
+  {
+   "x": 270,
+   "y": 5364,
+   "width": 87,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-ladies-watches",
+   "label": "Lady Watches Price"
+  },
+  {
+   "x": 21,
+   "y": 5426,
+   "width": 53,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-stop-watch",
+   "label": "Stop Watches Price"
+  },
+  {
+   "x": 110,
+   "y": 5426,
+   "width": 54,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-kids-watches",
+   "label": "Kids Watches Price"
+  },
+  {
+   "x": 21,
+   "y": 5632,
+   "width": 39,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-seiko-watch",
+   "label": "Seiko Watch Price"
+  },
+  {
+   "x": 102,
+   "y": 5642,
+   "width": 73,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970/q-rolex",
+   "label": "Rolex Watch Price"
+  },
+  {
+   "x": 185,
+   "y": 5642,
+   "width": 77,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-rado-watch",
+   "label": "Rado Watch Price"
+  },
+  {
+   "x": 279,
+   "y": 5642,
+   "width": 73,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-hugo-boss-watches",
+   "label": "Hugo Boss Watch Price"
+  },
+  {
+   "x": 21,
+   "y": 5705,
+   "width": 39,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-casio-watch",
+   "label": "Casio Watch Price"
+  },
+  {
+   "x": 102,
+   "y": 5715,
+   "width": 73,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-citizen-watches",
+   "label": "Citizen Watch Price"
+  },
+  {
+   "x": 185,
+   "y": 5715,
+   "width": 73,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-swatch-watches",
+   "label": "Swatch Watch Price"
+  },
+  {
+   "x": 279,
+   "y": 5715,
+   "width": 80,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-michael-kors-watch",
+   "label": "Michael Kors Watch Price"
+  },
+  {
+   "x": 21,
+   "y": 5778,
+   "width": 39,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-fossil-watch",
+   "label": "Fossil Watch Price"
+  },
+  {
+   "x": 102,
+   "y": 5788,
+   "width": 73,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-timex-watch",
+   "label": "Timex Watch Price"
+  },
+  {
+   "x": 185,
+   "y": 5788,
+   "width": 81,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/watches_c1970/q-diesel",
+   "label": "Diesel Watch Price"
+  },
+  {
+   "x": 279,
+   "y": 5788,
+   "width": 86,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-swiss-watches",
+   "label": "Swiss Legend Watch Price"
+  },
+  {
+   "x": 21,
+   "y": 5851,
+   "width": 39,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-tissot-watch",
+   "label": "Tissot Watch Price"
+  },
+  {
+   "x": 102,
+   "y": 5861,
+   "width": 73,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-invicta-watches",
+   "label": "Invicta Watch Price"
+  },
+  {
+   "x": 185,
+   "y": 5861,
+   "width": 73,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-movado-watches",
+   "label": "Movado Watch Price"
+  },
+  {
+   "x": 279,
+   "y": 5851,
+   "width": 71,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-watches-raymond-weil",
+   "label": "Raymond Weil Watch Price"
+  },
+  {
+   "x": 21,
+   "y": 5924,
+   "width": 56,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-star-wars",
+   "label": "Star Wars Watch Price"
+  },
+  {
+   "x": 102,
+   "y": 5934,
+   "width": 73,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-rebel",
+   "label": "Rebel Watch Price"
+  },
+  {
+   "x": 185,
+   "y": 5934,
+   "width": 73,
+   "height": 40,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-west-end-watch",
+   "label": "West End Watch Price"
+  },
+  {
+   "x": 279,
+   "y": 5924,
+   "width": 87,
+   "height": 61,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/items/q-emporio-armani-watches",
+   "label": "Emporio Armani Watch Price"
+  },
+  {
+   "x": 143,
+   "y": 6784,
+   "width": 104,
+   "height": 45,
+   "kind": "button",
+   "label": "Sell"
+  },
+  {
+   "x": 16,
+   "y": 6184,
+   "width": 32,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/",
+   "label": "Home"
+  },
+  {
+   "x": 16,
+   "y": 6697,
+   "width": 84,
+   "height": 33,
+   "kind": "link",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "label": ""
+  },
+  {
+   "x": 113,
+   "y": 6764,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://twitter.com/OLX_Pakistan",
+   "label": ""
+  },
+  {
+   "x": 157,
+   "y": 6764,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.facebook.com/olxpakistan",
+   "label": ""
+  },
+  {
+   "x": 201,
+   "y": 6764,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
+   "label": ""
+  },
+  {
+   "x": 245,
+   "y": 6764,
+   "width": 32,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.instagram.com/olx.pakistan/",
+   "label": ""
+  }
+ ]
+}
