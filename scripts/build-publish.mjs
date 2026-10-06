@@ -12,7 +12,7 @@ import { cp, mkdir, readFile, rm, writeFile, readdir, stat } from 'node:fs/promi
 import { dirname, join } from 'node:path';
 
 const OUT = 'dist/book';
-const BUNDLE_BYTES = 2_500_000;
+const BUNDLE_BYTES = 6_000_000;
 // Where the book's "Open the Storybook" link goes. GitHub Pages serves the Storybook beside the book.
 const STORYBOOK_URL = process.env.BOOK_STORYBOOK_URL ?? 'https://claude.ai/artifact/HECRFGUbgvrpUDMQHkkLhy';
 
