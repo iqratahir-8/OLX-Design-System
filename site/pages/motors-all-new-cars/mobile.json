@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=sedan",
  "finalUrl": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=sedan",
  "width": 390,
- "height": 1834,
+ "height": 1903,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:50:34.040Z",
+ "captured": "2026-10-07T14:23:37.521Z",
  "sections": [
   {
    "file": "01-header",
@@ -23,13 +23,13 @@
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "02-filters",
-   "name": "Filters",
+   "file": "02-filters-sedan-reset",
+   "name": "Filters · Sedan · Reset",
    "rect": {
     "x": 0,
     "y": 80,
     "width": 390,
-    "height": 43
+    "height": 46
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
   },
@@ -38,7 +38,7 @@
    "name": "Proton Saga ACE",
    "rect": {
     "x": 16,
-    "y": 153,
+    "y": 156,
     "width": 358,
     "height": 1111
    },
@@ -49,7 +49,7 @@
    "name": "1 · 2 · 3",
    "rect": {
     "x": 16,
-    "y": 1263,
+    "y": 1266,
     "width": 358,
     "height": 90
    },
@@ -60,7 +60,7 @@
    "name": "Popular Used Cars",
    "rect": {
     "x": 16,
-    "y": 1403,
+    "y": 1406,
     "width": 358,
     "height": 134
    },
@@ -71,9 +71,9 @@
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 1568,
+    "y": 1571,
     "width": 390,
-    "height": 266
+    "height": 332
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3)"
   }
@@ -81,15 +81,31 @@
  "hotspots": [
   {
    "x": 14,
-   "y": 80,
-   "width": 77,
-   "height": 32,
+   "y": 81,
+   "width": 78,
+   "height": 33,
    "kind": "button",
    "label": "Filters"
   },
   {
+   "x": 168,
+   "y": 90,
+   "width": 15,
+   "height": 15,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 207,
+   "y": 80,
+   "width": 38,
+   "height": 35,
+   "kind": "button",
+   "label": "Reset"
+  },
+  {
    "x": 16,
-   "y": 153,
+   "y": 156,
    "width": 358,
    "height": 112,
    "kind": "link",
@@ -98,7 +114,7 @@
   },
   {
    "x": 16,
-   "y": 264,
+   "y": 267,
    "width": 358,
    "height": 112,
    "kind": "link",
@@ -107,7 +123,7 @@
   },
   {
    "x": 16,
-   "y": 375,
+   "y": 378,
    "width": 358,
    "height": 112,
    "kind": "link",
@@ -116,7 +132,7 @@
   },
   {
    "x": 16,
-   "y": 486,
+   "y": 489,
    "width": 358,
    "height": 112,
    "kind": "link",
@@ -125,7 +141,7 @@
   },
   {
    "x": 16,
-   "y": 597,
+   "y": 600,
    "width": 358,
    "height": 112,
    "kind": "link",
@@ -134,7 +150,7 @@
   },
   {
    "x": 16,
-   "y": 708,
+   "y": 711,
    "width": 358,
    "height": 112,
    "kind": "link",
@@ -143,7 +159,7 @@
   },
   {
    "x": 16,
-   "y": 819,
+   "y": 822,
    "width": 358,
    "height": 112,
    "kind": "link",
@@ -152,7 +168,7 @@
   },
   {
    "x": 16,
-   "y": 930,
+   "y": 933,
    "width": 358,
    "height": 112,
    "kind": "link",
@@ -161,7 +177,7 @@
   },
   {
    "x": 16,
-   "y": 1041,
+   "y": 1044,
    "width": 358,
    "height": 112,
    "kind": "link",
@@ -170,7 +186,7 @@
   },
   {
    "x": 16,
-   "y": 1152,
+   "y": 1155,
    "width": 358,
    "height": 112,
    "kind": "link",
@@ -179,7 +195,7 @@
   },
   {
    "x": 71,
-   "y": 1295,
+   "y": 1298,
    "width": 32,
    "height": 26,
    "kind": "link",
@@ -188,8 +204,8 @@
   },
   {
    "x": 104,
-   "y": 1295,
-   "width": 22,
+   "y": 1298,
+   "width": 23,
    "height": 26,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=sedan&page=1",
@@ -197,7 +213,7 @@
   },
   {
    "x": 127,
-   "y": 1295,
+   "y": 1298,
    "width": 26,
    "height": 26,
    "kind": "link",
@@ -206,8 +222,8 @@
   },
   {
    "x": 154,
-   "y": 1295,
-   "width": 25,
+   "y": 1298,
+   "width": 26,
    "height": 26,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=sedan&page=3",
@@ -215,8 +231,8 @@
   },
   {
    "x": 180,
-   "y": 1295,
-   "width": 26,
+   "y": 1298,
+   "width": 27,
    "height": 26,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=sedan&page=4",
@@ -224,17 +240,17 @@
   },
   {
    "x": 207,
-   "y": 1295,
-   "width": 25,
+   "y": 1298,
+   "width": 26,
    "height": 26,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=sedan&page=5",
    "label": "Page 5"
   },
   {
-   "x": 233,
-   "y": 1295,
-   "width": 27,
+   "x": 234,
+   "y": 1298,
+   "width": 26,
    "height": 26,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=sedan&page=6",
@@ -242,7 +258,7 @@
   },
   {
    "x": 261,
-   "y": 1295,
+   "y": 1298,
    "width": 25,
    "height": 26,
    "kind": "link",
@@ -251,7 +267,7 @@
   },
   {
    "x": 287,
-   "y": 1295,
+   "y": 1298,
    "width": 32,
    "height": 26,
    "kind": "link",
@@ -260,8 +276,8 @@
   },
   {
    "x": 16,
-   "y": 1352,
-   "width": 32,
+   "y": 1355,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -269,17 +285,17 @@
   },
   {
    "x": 76,
-   "y": 1352,
-   "width": 37,
+   "y": 1355,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
    "label": "Motors"
   },
   {
-   "x": 141,
-   "y": 1352,
-   "width": 51,
+   "x": 142,
+   "y": 1355,
+   "width": 52,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/",
@@ -287,25 +303,25 @@
   },
   {
    "x": 16,
-   "y": 1437,
+   "y": 1439,
    "width": 173,
-   "height": 17,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/lahore_g4060673/",
    "label": "Find Cars Lahore"
   },
   {
    "x": 201,
-   "y": 1437,
+   "y": 1439,
    "width": 173,
-   "height": 17,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/karachi_g4060695/",
    "label": "Find Cars Karachi"
   },
   {
    "x": 16,
-   "y": 1465,
+   "y": 1468,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -314,7 +330,7 @@
   },
   {
    "x": 201,
-   "y": 1465,
+   "y": 1468,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -323,7 +339,7 @@
   },
   {
    "x": 16,
-   "y": 1494,
+   "y": 1497,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -332,7 +348,7 @@
   },
   {
    "x": 201,
-   "y": 1494,
+   "y": 1497,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -341,24 +357,32 @@
   },
   {
    "x": 16,
-   "y": 1511,
-   "width": 59,
+   "y": 1514,
+   "width": 60,
    "height": 26,
    "kind": "button",
    "label": "View More"
   },
   {
    "x": 16,
-   "y": 1684,
+   "y": 1687,
    "width": 358,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 1761,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 1754,
+   "y": 1823,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -367,7 +391,7 @@
   },
   {
    "x": 157,
-   "y": 1754,
+   "y": 1823,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -376,7 +400,7 @@
   },
   {
    "x": 201,
-   "y": 1754,
+   "y": 1823,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -385,7 +409,7 @@
   },
   {
    "x": 245,
-   "y": 1754,
+   "y": 1823,
    "width": 32,
    "height": 37,
    "kind": "link",

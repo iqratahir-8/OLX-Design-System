@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/auction-sheet-verification/",
  "finalUrl": "https://www.olx.com.pk/motors/auction-sheet-verification/",
  "width": 1440,
- "height": 2204,
+ "height": 2229,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:54:18.632Z",
+ "captured": "2026-10-07T14:32:55.661Z",
  "sections": [
   {
    "file": "01-header",
@@ -40,7 +40,7 @@
     "x": 80,
     "y": 652,
     "width": 1280,
-    "height": 202
+    "height": 227
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
@@ -49,7 +49,7 @@
    "name": "Explore OLX Motors",
    "rect": {
     "x": 80,
-    "y": 885,
+    "y": 910,
     "width": 1280,
     "height": 191
    },
@@ -60,9 +60,9 @@
    "name": "Frequently Asked Questions",
    "rect": {
     "x": 80,
-    "y": 1107,
+    "y": 1132,
     "width": 1280,
-    "height": 531
+    "height": 532
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
@@ -71,9 +71,9 @@
    "name": "Find amazing deals on the go.Download OL",
    "rect": {
     "x": 0,
-    "y": 1685,
+    "y": 1711,
     "width": 1440,
-    "height": 519
+    "height": 518
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(3)"
   }
@@ -91,24 +91,32 @@
   {
    "x": 141,
    "y": 24,
-   "width": 159,
+   "width": 144,
    "height": 24,
    "kind": "link",
-   "href": "https://www.olx.com.pk/motors/",
+   "href": "https://www.olx.com.pk/motors",
    "label": "Motors"
   },
   {
-   "x": 300,
+   "x": 284,
    "y": 24,
-   "width": 191,
+   "width": 139,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
    "label": "Property"
   },
   {
+   "x": 1196,
+   "y": 20,
+   "width": 40,
+   "height": 24,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
    "x": 1256,
-   "y": 12,
+   "y": 40,
    "width": 104,
    "height": 20,
    "kind": "link",
@@ -118,7 +126,7 @@
   {
    "x": 80,
    "y": 78,
-   "width": 63,
+   "width": 64,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
@@ -127,7 +135,7 @@
   {
    "x": 185,
    "y": 78,
-   "width": 60,
+   "width": 61,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/",
@@ -136,7 +144,7 @@
   {
    "x": 287,
    "y": 78,
-   "width": 101,
+   "width": 102,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/compare/",
@@ -145,23 +153,23 @@
   {
    "x": 430,
    "y": 78,
-   "width": 77,
+   "width": 79,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-reviews/",
    "label": "Car Reviews"
   },
   {
-   "x": 549,
+   "x": 550,
    "y": 78,
-   "width": 72,
+   "width": 73,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-finance/",
    "label": "Car Finance"
   },
   {
-   "x": 663,
+   "x": 664,
    "y": 78,
    "width": 91,
    "height": 18,
@@ -170,9 +178,9 @@
    "label": "Car Inspection"
   },
   {
-   "x": 796,
+   "x": 797,
    "y": 78,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-insurance/",
@@ -181,7 +189,7 @@
   {
    "x": 46,
    "y": 137,
-   "width": 32,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -190,7 +198,7 @@
   {
    "x": 106,
    "y": 137,
-   "width": 37,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
@@ -230,7 +238,7 @@
   },
   {
    "x": 80,
-   "y": 930,
+   "y": 955,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -239,7 +247,7 @@
   },
   {
    "x": 345,
-   "y": 930,
+   "y": 955,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -248,7 +256,7 @@
   },
   {
    "x": 610,
-   "y": 930,
+   "y": 955,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -257,7 +265,7 @@
   },
   {
    "x": 875,
-   "y": 930,
+   "y": 955,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -266,7 +274,7 @@
   },
   {
    "x": 1140,
-   "y": 930,
+   "y": 955,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -275,7 +283,7 @@
   },
   {
    "x": 1405,
-   "y": 930,
+   "y": 955,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -284,7 +292,7 @@
   },
   {
    "x": 1670,
-   "y": 930,
+   "y": 955,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -293,7 +301,7 @@
   },
   {
    "x": 1935,
-   "y": 930,
+   "y": 955,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -302,7 +310,7 @@
   },
   {
    "x": 2200,
-   "y": 930,
+   "y": 955,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -310,8 +318,16 @@
    "label": "Car BatteriesFind car batteries in Pakistan"
   },
   {
+   "x": 1340,
+   "y": 1008,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
+  },
+  {
    "x": 1303,
-   "y": 1175,
+   "y": 1201,
    "width": 32,
    "height": 33,
    "kind": "button",
@@ -319,7 +335,7 @@
   },
   {
    "x": 1303,
-   "y": 1256,
+   "y": 1282,
    "width": 32,
    "height": 33,
    "kind": "button",
@@ -327,7 +343,7 @@
   },
   {
    "x": 1303,
-   "y": 1337,
+   "y": 1363,
    "width": 32,
    "height": 33,
    "kind": "button",
@@ -335,7 +351,7 @@
   },
   {
    "x": 1303,
-   "y": 1418,
+   "y": 1444,
    "width": 32,
    "height": 33,
    "kind": "button",
@@ -343,7 +359,7 @@
   },
   {
    "x": 1303,
-   "y": 1499,
+   "y": 1525,
    "width": 32,
    "height": 33,
    "kind": "button",
@@ -351,7 +367,7 @@
   },
   {
    "x": 1303,
-   "y": 1580,
+   "y": 1606,
    "width": 32,
    "height": 33,
    "kind": "button",
@@ -359,7 +375,7 @@
   },
   {
    "x": 960,
-   "y": 1768,
+   "y": 1794,
    "width": 128,
    "height": 39,
    "kind": "link",
@@ -368,7 +384,7 @@
   },
   {
    "x": 1096,
-   "y": 1768,
+   "y": 1794,
    "width": 128,
    "height": 39,
    "kind": "link",
@@ -377,7 +393,7 @@
   },
   {
    "x": 1232,
-   "y": 1768,
+   "y": 1794,
    "width": 128,
    "height": 39,
    "kind": "link",
@@ -386,8 +402,8 @@
   },
   {
    "x": 80,
-   "y": 1962,
-   "width": 271,
+   "y": 1987,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/cars_c84/",
@@ -395,8 +411,8 @@
   },
   {
    "x": 80,
-   "y": 1994,
-   "width": 271,
+   "y": 2019,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/apartments-flats_c1723/",
@@ -404,124 +420,124 @@
   },
   {
    "x": 80,
-   "y": 2026,
-   "width": 271,
+   "y": 2051,
+   "width": 238,
    "height": 25,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/",
    "label": "Mobile Phones"
   },
   {
    "x": 80,
-   "y": 2058,
-   "width": 271,
+   "y": 2083,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4/",
    "label": "Jobs"
   },
   {
-   "x": 351,
-   "y": 1962,
-   "width": 271,
+   "x": 317,
+   "y": 1987,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81/",
    "label": "Bikes"
   },
   {
-   "x": 351,
-   "y": 1994,
-   "width": 271,
+   "x": 317,
+   "y": 2019,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/watches_c1970/",
    "label": "Watches"
   },
   {
-   "x": 351,
-   "y": 2026,
-   "width": 271,
+   "x": 317,
+   "y": 2051,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/items/q-books/",
    "label": "Books"
   },
   {
-   "x": 351,
-   "y": 2058,
-   "width": 271,
+   "x": 317,
+   "y": 2083,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/items/q-dogs/",
    "label": "Dogs"
   },
   {
-   "x": 622,
-   "y": 1962,
-   "width": 271,
+   "x": 555,
+   "y": 1987,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
    "label": "OLX Blog"
   },
   {
-   "x": 622,
-   "y": 1994,
-   "width": 271,
+   "x": 555,
+   "y": 2019,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/requests/new",
    "label": "Contact Us"
   },
   {
-   "x": 622,
-   "y": 2026,
-   "width": 271,
+   "x": 555,
+   "y": 2051,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
    "label": "OLX for Businesses"
   },
   {
-   "x": 893,
-   "y": 1962,
-   "width": 271,
+   "x": 792,
+   "y": 1987,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
    "label": "Help"
   },
   {
-   "x": 893,
-   "y": 1994,
-   "width": 271,
+   "x": 792,
+   "y": 2019,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/sitemap/most-popular",
    "label": "Sitemap"
   },
   {
-   "x": 893,
-   "y": 2026,
-   "width": 271,
+   "x": 792,
+   "y": 2051,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
    "label": "Terms of use"
   },
   {
-   "x": 893,
-   "y": 2058,
-   "width": 271,
+   "x": 792,
+   "y": 2083,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
    "label": "Privacy Policy"
   },
   {
-   "x": 1164,
-   "y": 1962,
+   "x": 1030,
+   "y": 1987,
    "width": 40,
    "height": 45,
    "kind": "link",
@@ -529,8 +545,8 @@
    "label": ""
   },
   {
-   "x": 1216,
-   "y": 1962,
+   "x": 1082,
+   "y": 1987,
    "width": 40,
    "height": 45,
    "kind": "link",
@@ -538,8 +554,8 @@
    "label": ""
   },
   {
-   "x": 1268,
-   "y": 1962,
+   "x": 1134,
+   "y": 1987,
    "width": 40,
    "height": 45,
    "kind": "link",
@@ -547,13 +563,21 @@
    "label": ""
   },
   {
-   "x": 1320,
-   "y": 1962,
+   "x": 1186,
+   "y": 1987,
    "width": 40,
    "height": 45,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
+  },
+  {
+   "x": 1030,
+   "y": 2047,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
   }
  ]
 }

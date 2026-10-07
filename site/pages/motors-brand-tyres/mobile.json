@@ -5,20 +5,20 @@
  "url": "https://www.olx.com.pk/motors/car-tyres/toyota/",
  "finalUrl": "https://www.olx.com.pk/motors/car-tyres/toyota/",
  "width": 390,
- "height": 1257,
+ "height": 1184,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:54:41.089Z",
+ "captured": "2026-10-07T14:34:01.385Z",
  "sections": [
   {
-   "file": "01-no-results-found-we-couldn-t-find-any-re",
-   "name": "No Results Found · We couldn’t find any results ",
+   "file": "01-page-not-found",
+   "name": "Page not Found",
    "rect": {
     "x": 0,
     "y": 0,
     "width": 390,
-    "height": 886
+    "height": 786
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1)"
   },
@@ -27,9 +27,9 @@
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 925,
+    "y": 786,
     "width": 390,
-    "height": 332
+    "height": 398
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
   },
@@ -38,7 +38,7 @@
    "name": "Home · Chat · Sell",
    "rect": {
     "x": 0,
-    "y": 1198,
+    "y": 995,
     "width": 390,
     "height": 59
    },
@@ -48,7 +48,7 @@
  "hotspots": [
   {
    "x": 0,
-   "y": 1206,
+   "y": 1003,
    "width": 72,
    "height": 44,
    "kind": "link",
@@ -57,7 +57,7 @@
   },
   {
    "x": 79,
-   "y": 1206,
+   "y": 1003,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -66,7 +66,7 @@
   },
   {
    "x": 159,
-   "y": 1204,
+   "y": 1001,
    "width": 72,
    "height": 47,
    "kind": "link",
@@ -75,7 +75,7 @@
   },
   {
    "x": 238,
-   "y": 1206,
+   "y": 1003,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -83,25 +83,33 @@
    "label": "My Ads"
   },
   {
-   "x": 331,
-   "y": 1206,
-   "width": 46,
+   "x": 332,
+   "y": 1003,
+   "width": 45,
    "height": 44,
    "kind": "button",
    "label": "Account"
   },
   {
    "x": 16,
-   "y": 1041,
+   "y": 902,
    "width": 358,
    "height": 32,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 976,
+   "width": 330,
+   "height": 40,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 1111,
+   "y": 1038,
    "width": 32,
    "height": 36,
    "kind": "link",
@@ -110,7 +118,7 @@
   },
   {
    "x": 157,
-   "y": 1111,
+   "y": 1038,
    "width": 32,
    "height": 36,
    "kind": "link",
@@ -119,7 +127,7 @@
   },
   {
    "x": 201,
-   "y": 1111,
+   "y": 1038,
    "width": 32,
    "height": 36,
    "kind": "link",
@@ -128,7 +136,7 @@
   },
   {
    "x": 245,
-   "y": 1111,
+   "y": 1038,
    "width": 32,
    "height": 36,
    "kind": "link",

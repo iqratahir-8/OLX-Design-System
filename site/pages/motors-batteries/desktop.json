@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/car-batteries/",
  "finalUrl": "https://www.olx.com.pk/motors/car-batteries/",
  "width": 1440,
- "height": 2821,
+ "height": 3336,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:54:53.258Z",
+ "captured": "2026-10-07T14:34:38.574Z",
  "sections": [
   {
    "file": "01-header",
@@ -38,73 +38,84 @@
    "name": "Car Batteries by Capacity",
    "rect": {
     "x": 80,
-    "y": 652,
+    "y": 684,
     "width": 1280,
-    "height": 198
+    "height": 174
    },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
   },
   {
    "file": "04-featured-dealers",
    "name": "Featured Dealers",
    "rect": {
     "x": 80,
-    "y": 881,
+    "y": 889,
     "width": 1280,
     "height": 150
    },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
    "file": "05-batteries-for-popular-cars",
    "name": "Batteries for Popular Cars",
    "rect": {
     "x": 80,
-    "y": 1062,
+    "y": 1070,
     "width": 1280,
     "height": 240
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
-  },
-  {
-   "file": "06-explore-olx-motors",
-   "name": "Explore OLX Motors",
-   "rect": {
-    "x": 80,
-    "y": 1333,
-    "width": 1280,
-    "height": 191
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "07-frequently-asked-questions",
-   "name": "Frequently Asked Questions",
+   "file": "06-car-batteries-on-olx",
+   "name": "Car Batteries on Olx",
    "rect": {
     "x": 80,
-    "y": 1555,
+    "y": 1341,
     "width": 1280,
-    "height": 451
+    "height": 477
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "08-batteries-for-sale-on-olx",
-   "name": "Batteries For Sale On Olx",
+   "file": "07-explore-olx-motors",
+   "name": "Explore OLX Motors",
    "rect": {
     "x": 80,
-    "y": 2037,
+    "y": 1849,
     "width": 1280,
-    "height": 185
+    "height": 190
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "09-find-amazing-deals-on-the-go-download-ol",
+   "file": "08-frequently-asked-questions",
+   "name": "Frequently Asked Questions",
+   "rect": {
+    "x": 80,
+    "y": 2070,
+    "width": 1280,
+    "height": 451
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "09-batteries-for-sale-on-olx",
+   "name": "Batteries For Sale On Olx",
+   "rect": {
+    "x": 80,
+    "y": 2552,
+    "width": 1280,
+    "height": 185
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "10-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go.Download OL",
    "rect": {
     "x": 0,
-    "y": 2303,
+    "y": 2818,
     "width": 1440,
     "height": 518
    },
@@ -124,24 +135,32 @@
   {
    "x": 141,
    "y": 24,
-   "width": 159,
+   "width": 144,
    "height": 24,
    "kind": "link",
-   "href": "https://www.olx.com.pk/motors/",
+   "href": "https://www.olx.com.pk/motors",
    "label": "Motors"
   },
   {
-   "x": 300,
+   "x": 284,
    "y": 24,
-   "width": 191,
+   "width": 139,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
    "label": "Property"
   },
   {
+   "x": 1196,
+   "y": 20,
+   "width": 40,
+   "height": 24,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
    "x": 1256,
-   "y": 12,
+   "y": 40,
    "width": 104,
    "height": 20,
    "kind": "link",
@@ -151,7 +170,7 @@
   {
    "x": 80,
    "y": 78,
-   "width": 63,
+   "width": 64,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
@@ -160,7 +179,7 @@
   {
    "x": 185,
    "y": 78,
-   "width": 60,
+   "width": 61,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/",
@@ -169,7 +188,7 @@
   {
    "x": 287,
    "y": 78,
-   "width": 101,
+   "width": 102,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/compare/",
@@ -178,23 +197,23 @@
   {
    "x": 430,
    "y": 78,
-   "width": 77,
+   "width": 79,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-reviews/",
    "label": "Car Reviews"
   },
   {
-   "x": 549,
+   "x": 550,
    "y": 78,
-   "width": 72,
+   "width": 73,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-finance/",
    "label": "Car Finance"
   },
   {
-   "x": 663,
+   "x": 664,
    "y": 78,
    "width": 91,
    "height": 18,
@@ -203,9 +222,9 @@
    "label": "Car Inspection"
   },
   {
-   "x": 796,
+   "x": 797,
    "y": 78,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-insurance/",
@@ -214,7 +233,7 @@
   {
    "x": 46,
    "y": 137,
-   "width": 32,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -223,7 +242,7 @@
   {
    "x": 106,
    "y": 137,
-   "width": 37,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
@@ -247,7 +266,301 @@
   },
   {
    "x": 80,
-   "y": 926,
+   "y": 737,
+   "width": 113,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/45-ah/",
+   "label": "45 Ah"
+  },
+  {
+   "x": 208,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/62-ah/",
+   "label": "62 Ah"
+  },
+  {
+   "x": 337,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/44-ah/",
+   "label": "44 Ah"
+  },
+  {
+   "x": 466,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/40-ah/",
+   "label": "40 Ah"
+  },
+  {
+   "x": 595,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/95-ah/",
+   "label": "95 Ah"
+  },
+  {
+   "x": 724,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/38-ah/",
+   "label": "38 Ah"
+  },
+  {
+   "x": 853,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/35-ah/",
+   "label": "35 Ah"
+  },
+  {
+   "x": 982,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/90-ah/",
+   "label": "90 Ah"
+  },
+  {
+   "x": 1111,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/70-ah/",
+   "label": "70 Ah"
+  },
+  {
+   "x": 1240,
+   "y": 737,
+   "width": 113,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/50-ah/",
+   "label": "50 Ah"
+  },
+  {
+   "x": 80,
+   "y": 793,
+   "width": 113,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/60-ah/",
+   "label": "60 Ah"
+  },
+  {
+   "x": 208,
+   "y": 793,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/47-ah/",
+   "label": "47 Ah"
+  },
+  {
+   "x": 337,
+   "y": 793,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/210-ah/",
+   "label": "210 Ah"
+  },
+  {
+   "x": 466,
+   "y": 793,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/180-ah/",
+   "label": "180 Ah"
+  },
+  {
+   "x": 595,
+   "y": 793,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/130-ah/",
+   "label": "130 Ah"
+  },
+  {
+   "x": 724,
+   "y": 793,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/160-ah/",
+   "label": "160 Ah"
+  },
+  {
+   "x": 853,
+   "y": 793,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/100-ah/",
+   "label": "100 Ah"
+  },
+  {
+   "x": 982,
+   "y": 793,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/150-ah/",
+   "label": "150 Ah"
+  },
+  {
+   "x": 1111,
+   "y": 793,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/200-ah/",
+   "label": "200 Ah"
+  },
+  {
+   "x": 1240,
+   "y": 793,
+   "width": 113,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/225-ah/",
+   "label": "225 Ah"
+  },
+  {
+   "x": 1375,
+   "y": 737,
+   "width": 113,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/65-ah/",
+   "label": "65 Ah"
+  },
+  {
+   "x": 1503,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/85-ah/",
+   "label": "85 Ah"
+  },
+  {
+   "x": 1632,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/190-ah/",
+   "label": "190 Ah"
+  },
+  {
+   "x": 1761,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/215-ah/",
+   "label": "215 Ah"
+  },
+  {
+   "x": 1890,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/32-ah/",
+   "label": "32 Ah"
+  },
+  {
+   "x": 2019,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/55-ah/",
+   "label": "55 Ah"
+  },
+  {
+   "x": 2148,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/145-ah/",
+   "label": "145 Ah"
+  },
+  {
+   "x": 2277,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/105-ah/",
+   "label": "105 Ah"
+  },
+  {
+   "x": 2406,
+   "y": 737,
+   "width": 114,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/175-ah/",
+   "label": "175 Ah"
+  },
+  {
+   "x": 2535,
+   "y": 737,
+   "width": 113,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-batteries/140-ah/",
+   "label": "140 Ah"
+  },
+  {
+   "x": 1340,
+   "y": 765,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 702,
+   "y": 849,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 720,
+   "y": 849,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 80,
+   "y": 934,
    "width": 226,
    "height": 105,
    "kind": "link",
@@ -256,7 +569,7 @@
   },
   {
    "x": 321,
-   "y": 926,
+   "y": 934,
    "width": 227,
    "height": 105,
    "kind": "link",
@@ -265,7 +578,7 @@
   },
   {
    "x": 563,
-   "y": 926,
+   "y": 934,
    "width": 227,
    "height": 105,
    "kind": "link",
@@ -274,7 +587,7 @@
   },
   {
    "x": 805,
-   "y": 926,
+   "y": 934,
    "width": 226,
    "height": 105,
    "kind": "link",
@@ -283,7 +596,7 @@
   },
   {
    "x": 1046,
-   "y": 926,
+   "y": 934,
    "width": 227,
    "height": 105,
    "kind": "link",
@@ -292,7 +605,7 @@
   },
   {
    "x": 1288,
-   "y": 926,
+   "y": 934,
    "width": 227,
    "height": 105,
    "kind": "link",
@@ -301,7 +614,7 @@
   },
   {
    "x": 1530,
-   "y": 926,
+   "y": 934,
    "width": 227,
    "height": 105,
    "kind": "link",
@@ -310,7 +623,7 @@
   },
   {
    "x": 1772,
-   "y": 926,
+   "y": 934,
    "width": 226,
    "height": 105,
    "kind": "link",
@@ -319,7 +632,7 @@
   },
   {
    "x": 2013,
-   "y": 926,
+   "y": 934,
    "width": 227,
    "height": 105,
    "kind": "link",
@@ -328,7 +641,7 @@
   },
   {
    "x": 2255,
-   "y": 926,
+   "y": 934,
    "width": 227,
    "height": 105,
    "kind": "link",
@@ -337,7 +650,7 @@
   },
   {
    "x": 2497,
-   "y": 926,
+   "y": 934,
    "width": 226,
    "height": 105,
    "kind": "link",
@@ -346,7 +659,7 @@
   },
   {
    "x": 2738,
-   "y": 926,
+   "y": 934,
    "width": 227,
    "height": 105,
    "kind": "link",
@@ -355,7 +668,7 @@
   },
   {
    "x": 2980,
-   "y": 926,
+   "y": 934,
    "width": 227,
    "height": 105,
    "kind": "link",
@@ -364,7 +677,7 @@
   },
   {
    "x": 3222,
-   "y": 926,
+   "y": 934,
    "width": 227,
    "height": 105,
    "kind": "link",
@@ -372,98 +685,132 @@
    "label": ""
   },
   {
+   "x": 1340,
+   "y": 966,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
+  },
+  {
    "x": 80,
-   "y": 1106,
+   "y": 1115,
    "width": 326,
-   "height": 196,
+   "height": 195,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-batteries/honda/civic/2022-2026/",
    "label": "Honda Civic2022 - 2026"
   },
   {
    "x": 425,
-   "y": 1106,
+   "y": 1115,
    "width": 326,
-   "height": 196,
+   "height": 195,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-batteries/toyota/corolla/2014-2026/",
    "label": "Toyota Corolla2014 - 2026"
   },
   {
    "x": 770,
-   "y": 1106,
+   "y": 1115,
    "width": 326,
-   "height": 196,
+   "height": 195,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-batteries/toyota/yaris/2020-2026/",
    "label": "Toyota Yaris2020 - 2026"
   },
   {
    "x": 1115,
-   "y": 1106,
+   "y": 1115,
    "width": 327,
-   "height": 196,
+   "height": 195,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-batteries/suzuki/alto/2024-2026/",
    "label": "Suzuki Alto2024 - 2026"
   },
   {
    "x": 1461,
-   "y": 1106,
+   "y": 1115,
    "width": 326,
-   "height": 196,
+   "height": 195,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-batteries/honda/city/2021-2026/",
    "label": "Honda City2021 - 2026"
   },
   {
    "x": 1806,
-   "y": 1106,
+   "y": 1115,
    "width": 326,
-   "height": 196,
+   "height": 195,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-batteries/kia/sportage/2019-2026/",
    "label": "KIA Sportage2019 - 2026"
   },
   {
    "x": 2151,
-   "y": 1106,
+   "y": 1115,
    "width": 327,
-   "height": 196,
+   "height": 195,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-batteries/suzuki/swift/2022-2026/",
    "label": "Suzuki Swift2022 - 2026"
   },
   {
    "x": 2497,
-   "y": 1106,
+   "y": 1115,
    "width": 326,
-   "height": 196,
+   "height": 195,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-batteries/hyundai/elantra/2025-2026/",
    "label": "Hyundai Elantra2025 - 2026"
   },
   {
    "x": 2842,
-   "y": 1106,
+   "y": 1115,
    "width": 326,
-   "height": 196,
+   "height": 195,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-batteries/changan/oshan-x7/2022-2026/",
    "label": "Changan Oshan X72022 - 2026"
   },
   {
    "x": 3187,
-   "y": 1106,
+   "y": 1115,
    "width": 327,
-   "height": 196,
+   "height": 195,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-batteries/hyundai/tucson/2020-2026/",
    "label": "Hyundai Tucson2020 - 2026"
   },
   {
+   "x": 1340,
+   "y": 1192,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 1290,
+   "y": 1352,
+   "width": 70,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars-accessories_c2027/q-battery/",
+   "label": "View More"
+  },
+  {
    "x": 80,
-   "y": 1378,
+   "y": 1386,
+   "width": 313,
+   "height": 432,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/car-gps-tracker-with-mobile-app-in-low-prices-iid-1119717014/",
+   "label": "FEATUREDRs 10.50 ThousandsCar GPS Tracker with Mobile App in Low PricesMalir, Ka"
+  },
+  {
+   "x": 80,
+   "y": 1893,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -472,7 +819,7 @@
   },
   {
    "x": 345,
-   "y": 1378,
+   "y": 1893,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -481,7 +828,7 @@
   },
   {
    "x": 610,
-   "y": 1378,
+   "y": 1893,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -490,7 +837,7 @@
   },
   {
    "x": 875,
-   "y": 1378,
+   "y": 1893,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -499,7 +846,7 @@
   },
   {
    "x": 1140,
-   "y": 1378,
+   "y": 1893,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -508,7 +855,7 @@
   },
   {
    "x": 1405,
-   "y": 1378,
+   "y": 1893,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -517,7 +864,7 @@
   },
   {
    "x": 1670,
-   "y": 1378,
+   "y": 1893,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -526,7 +873,7 @@
   },
   {
    "x": 1935,
-   "y": 1378,
+   "y": 1893,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -535,7 +882,7 @@
   },
   {
    "x": 2200,
-   "y": 1378,
+   "y": 1893,
    "width": 249,
    "height": 146,
    "kind": "link",
@@ -543,8 +890,16 @@
    "label": "Car TyresFind car tyres in Pakistan"
   },
   {
+   "x": 1340,
+   "y": 1946,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
+  },
+  {
    "x": 1303,
-   "y": 1624,
+   "y": 2139,
    "width": 32,
    "height": 33,
    "kind": "button",
@@ -552,7 +907,7 @@
   },
   {
    "x": 1303,
-   "y": 1705,
+   "y": 2220,
    "width": 32,
    "height": 33,
    "kind": "button",
@@ -560,7 +915,7 @@
   },
   {
    "x": 1303,
-   "y": 1786,
+   "y": 2301,
    "width": 32,
    "height": 33,
    "kind": "button",
@@ -568,7 +923,7 @@
   },
   {
    "x": 1303,
-   "y": 1867,
+   "y": 2382,
    "width": 32,
    "height": 33,
    "kind": "button",
@@ -576,7 +931,7 @@
   },
   {
    "x": 1303,
-   "y": 1948,
+   "y": 2463,
    "width": 32,
    "height": 33,
    "kind": "button",
@@ -584,115 +939,115 @@
   },
   {
    "x": 80,
-   "y": 2082,
+   "y": 2597,
    "width": 204,
-   "height": 39,
+   "height": 40,
    "kind": "link",
    "href": "https://www.olx.com.pk/lahore_g4060673/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Lahore"
   },
   {
    "x": 295,
-   "y": 2082,
+   "y": 2597,
    "width": 204,
-   "height": 39,
+   "height": 40,
    "kind": "link",
    "href": "https://www.olx.com.pk/karachi_g4060695/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Karachi"
   },
   {
    "x": 510,
-   "y": 2082,
+   "y": 2597,
    "width": 204,
-   "height": 39,
+   "height": 40,
    "kind": "link",
    "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Rawalpindi"
   },
   {
    "x": 725,
-   "y": 2082,
+   "y": 2597,
    "width": 205,
-   "height": 39,
+   "height": 40,
    "kind": "link",
    "href": "https://www.olx.com.pk/islamabad_g4060615/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Islamabad"
   },
   {
    "x": 941,
-   "y": 2082,
+   "y": 2597,
    "width": 204,
-   "height": 39,
+   "height": 40,
    "kind": "link",
    "href": "https://www.olx.com.pk/faisalabad_g4060660/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Faisalabad"
   },
   {
    "x": 1156,
-   "y": 2082,
+   "y": 2597,
    "width": 204,
-   "height": 39,
+   "height": 40,
    "kind": "link",
    "href": "https://www.olx.com.pk/gujranwala_g4060662/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Gujranwala"
   },
   {
    "x": 80,
-   "y": 2132,
+   "y": 2648,
    "width": 204,
-   "height": 40,
+   "height": 39,
    "kind": "link",
    "href": "https://www.olx.com.pk/mardan_g4060623/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Mardan"
   },
   {
    "x": 295,
-   "y": 2132,
+   "y": 2648,
    "width": 204,
-   "height": 40,
+   "height": 39,
    "kind": "link",
    "href": "https://www.olx.com.pk/peshawar_g4060643/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Peshawar"
   },
   {
    "x": 510,
-   "y": 2132,
+   "y": 2648,
    "width": 204,
-   "height": 40,
+   "height": 39,
    "kind": "link",
    "href": "https://www.olx.com.pk/multan_g4060675/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Multan"
   },
   {
    "x": 725,
-   "y": 2132,
+   "y": 2648,
    "width": 205,
-   "height": 40,
+   "height": 39,
    "kind": "link",
    "href": "https://www.olx.com.pk/sialkot_g4060686/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Sialkot"
   },
   {
    "x": 941,
-   "y": 2132,
+   "y": 2648,
    "width": 204,
-   "height": 40,
+   "height": 39,
    "kind": "link",
    "href": "https://www.olx.com.pk/bahawalpur_g4060653/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Bahawalpur"
   },
   {
    "x": 1156,
-   "y": 2132,
+   "y": 2648,
    "width": 204,
-   "height": 40,
+   "height": 39,
    "kind": "link",
    "href": "https://www.olx.com.pk/gujrat_g4060663/cars-accessories_c2027/q-car-battery",
    "label": "Batteries for sale in Gujrat"
   },
   {
    "x": 80,
-   "y": 2183,
+   "y": 2698,
    "width": 204,
    "height": 39,
    "kind": "link",
@@ -701,7 +1056,7 @@
   },
   {
    "x": 295,
-   "y": 2183,
+   "y": 2698,
    "width": 204,
    "height": 39,
    "kind": "link",
@@ -710,7 +1065,7 @@
   },
   {
    "x": 510,
-   "y": 2183,
+   "y": 2698,
    "width": 204,
    "height": 39,
    "kind": "link",
@@ -719,7 +1074,7 @@
   },
   {
    "x": 725,
-   "y": 2183,
+   "y": 2698,
    "width": 205,
    "height": 39,
    "kind": "link",
@@ -728,7 +1083,7 @@
   },
   {
    "x": 941,
-   "y": 2183,
+   "y": 2698,
    "width": 204,
    "height": 39,
    "kind": "link",
@@ -737,7 +1092,7 @@
   },
   {
    "x": 960,
-   "y": 2386,
+   "y": 2901,
    "width": 128,
    "height": 39,
    "kind": "link",
@@ -746,7 +1101,7 @@
   },
   {
    "x": 1096,
-   "y": 2386,
+   "y": 2901,
    "width": 128,
    "height": 39,
    "kind": "link",
@@ -755,7 +1110,7 @@
   },
   {
    "x": 1232,
-   "y": 2386,
+   "y": 2901,
    "width": 128,
    "height": 39,
    "kind": "link",
@@ -764,8 +1119,8 @@
   },
   {
    "x": 80,
-   "y": 2579,
-   "width": 271,
+   "y": 3094,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/cars_c84/",
@@ -773,8 +1128,8 @@
   },
   {
    "x": 80,
-   "y": 2611,
-   "width": 271,
+   "y": 3126,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/apartments-flats_c1723/",
@@ -782,156 +1137,164 @@
   },
   {
    "x": 80,
-   "y": 2643,
-   "width": 271,
+   "y": 3158,
+   "width": 238,
    "height": 25,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/",
    "label": "Mobile Phones"
   },
   {
    "x": 80,
-   "y": 2675,
-   "width": 271,
+   "y": 3190,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4/",
    "label": "Jobs"
   },
   {
-   "x": 351,
-   "y": 2579,
-   "width": 271,
+   "x": 317,
+   "y": 3094,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81/",
    "label": "Bikes"
   },
   {
-   "x": 351,
-   "y": 2611,
-   "width": 271,
+   "x": 317,
+   "y": 3126,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/watches_c1970/",
    "label": "Watches"
   },
   {
-   "x": 351,
-   "y": 2643,
-   "width": 271,
+   "x": 317,
+   "y": 3158,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/items/q-books/",
    "label": "Books"
   },
   {
-   "x": 351,
-   "y": 2675,
-   "width": 271,
+   "x": 317,
+   "y": 3190,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/items/q-dogs/",
    "label": "Dogs"
   },
   {
-   "x": 622,
-   "y": 2579,
-   "width": 271,
+   "x": 555,
+   "y": 3094,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
    "label": "OLX Blog"
   },
   {
-   "x": 622,
-   "y": 2611,
-   "width": 271,
+   "x": 555,
+   "y": 3126,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/requests/new",
    "label": "Contact Us"
   },
   {
-   "x": 622,
-   "y": 2643,
-   "width": 271,
+   "x": 555,
+   "y": 3158,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
    "label": "OLX for Businesses"
   },
   {
-   "x": 893,
-   "y": 2579,
-   "width": 271,
+   "x": 792,
+   "y": 3094,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
    "label": "Help"
   },
   {
-   "x": 893,
-   "y": 2611,
-   "width": 271,
+   "x": 792,
+   "y": 3126,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/sitemap/most-popular",
    "label": "Sitemap"
   },
   {
-   "x": 893,
-   "y": 2643,
-   "width": 271,
+   "x": 792,
+   "y": 3158,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
    "label": "Terms of use"
   },
   {
-   "x": 893,
-   "y": 2675,
-   "width": 271,
+   "x": 792,
+   "y": 3190,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
    "label": "Privacy Policy"
   },
   {
-   "x": 1164,
-   "y": 2579,
+   "x": 1030,
+   "y": 3094,
    "width": 40,
-   "height": 45,
+   "height": 46,
    "kind": "link",
    "href": "https://twitter.com/OLX_Pakistan",
    "label": ""
   },
   {
-   "x": 1216,
-   "y": 2579,
+   "x": 1082,
+   "y": 3094,
    "width": 40,
-   "height": 45,
+   "height": 46,
    "kind": "link",
    "href": "https://www.facebook.com/olxpakistan",
    "label": ""
   },
   {
-   "x": 1268,
-   "y": 2579,
+   "x": 1134,
+   "y": 3094,
    "width": 40,
-   "height": 45,
+   "height": 46,
    "kind": "link",
    "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
    "label": ""
   },
   {
-   "x": 1320,
-   "y": 2579,
+   "x": 1186,
+   "y": 3094,
    "width": 40,
-   "height": 45,
+   "height": 46,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
+  },
+  {
+   "x": 1030,
+   "y": 3155,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
   }
  ]
 }

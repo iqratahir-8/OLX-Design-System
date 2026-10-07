@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/",
  "finalUrl": "https://www.olx.com.pk/motors/",
  "width": 390,
- "height": 2029,
+ "height": 86464,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:50:14.047Z",
+ "captured": "2026-10-07T13:40:56.947Z",
  "sections": [
   {
    "file": "01-header",
@@ -26,52 +26,30 @@
    "file": "02-find-cars-for-sale-in-pakistan",
    "name": "Find Cars for Sale In Pakistan",
    "rect": {
-    "x": 0,
+    "x": 16,
     "y": 170,
-    "width": 390,
-    "height": 282
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
-  },
-  {
-   "file": "03-explore-olx-motors",
-   "name": "Explore OLX Motors",
-   "rect": {
-    "x": 16,
-    "y": 471,
     "width": 358,
-    "height": 282
+    "height": 3053
    },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "04-buy-used-cars-for-sale-in-pakistan",
-   "name": "Buy Used Cars for Sale in Pakistan",
-   "rect": {
-    "x": 16,
-    "y": 792,
-    "width": 358,
-    "height": 886
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
-  },
-  {
-   "file": "05-get-the-olx-app",
+   "file": "03-get-the-olx-app",
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 1697,
+    "y": 17312,
     "width": 390,
-    "height": 332
+    "height": 398
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
   },
   {
-   "file": "06-home-chat-sell",
+   "file": "04-home-chat-sell",
    "name": "Home · Chat · Sell",
    "rect": {
     "x": 0,
-    "y": 1970,
+    "y": 43173,
     "width": 390,
     "height": 59
    },
@@ -116,7 +94,203 @@
   },
   {
    "x": 16,
-   "y": 505,
+   "y": 263,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/suzuki-cars_c84?filter=make_eq_cars-suzuki%2Cnew_used_eq_used",
+   "label": "Suzuki"
+  },
+  {
+   "x": 88,
+   "y": 263,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/toyota-cars_c84?filter=make_eq_toyota%2Cnew_used_eq_used",
+   "label": "Toyota"
+  },
+  {
+   "x": 161,
+   "y": 263,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/honda-cars_c84?filter=make_eq_cars-honda%2Cnew_used_eq_used",
+   "label": "Honda"
+  },
+  {
+   "x": 233,
+   "y": 263,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/daihatsu-cars_c84?filter=make_eq_daihatsu%2Cnew_used_eq_used",
+   "label": "Daihatsu"
+  },
+  {
+   "x": 306,
+   "y": 263,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/nissan-cars_c84?filter=make_eq_nissan%2Cnew_used_eq_used",
+   "label": "Nissan"
+  },
+  {
+   "x": 16,
+   "y": 355,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mitsubishi-cars_c84?filter=make_eq_mitsubishi%2Cnew_used_eq_used",
+   "label": "Mitsubishi"
+  },
+  {
+   "x": 88,
+   "y": 355,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hyundai-cars_c84?filter=make_eq_hyundai%2Cnew_used_eq_used",
+   "label": "Hyundai"
+  },
+  {
+   "x": 161,
+   "y": 355,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kia-cars_c84?filter=make_eq_kia%2Cnew_used_eq_used",
+   "label": "KIA"
+  },
+  {
+   "x": 233,
+   "y": 355,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/changan-cars_c84?filter=make_eq_changan%2Cnew_used_eq_used",
+   "label": "Changan"
+  },
+  {
+   "x": 306,
+   "y": 355,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mercedes-cars_c84?filter=make_eq_mercedes%2Cnew_used_eq_used",
+   "label": "Mercedes"
+  },
+  {
+   "x": 379,
+   "y": 263,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chevrolet-cars_c84?filter=make_eq_chevrolet%2Cnew_used_eq_used",
+   "label": "Chevrolet"
+  },
+  {
+   "x": 451,
+   "y": 263,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/faw-cars_c84?filter=make_eq_faw%2Cnew_used_eq_used",
+   "label": "FAW"
+  },
+  {
+   "x": 524,
+   "y": 263,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/prince-cars_c84?filter=make_eq_prince%2Cnew_used_eq_used",
+   "label": "Prince"
+  },
+  {
+   "x": 596,
+   "y": 263,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mazda-cars_c84?filter=make_eq_mazda%2Cnew_used_eq_used",
+   "label": "Mazda"
+  },
+  {
+   "x": 669,
+   "y": 263,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bmw-cars_c84?filter=make_eq_bmw%2Cnew_used_eq_used",
+   "label": "BMW"
+  },
+  {
+   "x": 379,
+   "y": 355,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/audi-cars_c84?filter=make_eq_audi%2Cnew_used_eq_used",
+   "label": "Audi"
+  },
+  {
+   "x": 451,
+   "y": 355,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/daewoo-cars_c84?filter=make_eq_daewoo%2Cnew_used_eq_used",
+   "label": "Daewoo"
+  },
+  {
+   "x": 524,
+   "y": 355,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/isuzu-cars_c84?filter=make_eq_cars-isuzu%2Cnew_used_eq_used",
+   "label": "Isuzu"
+  },
+  {
+   "x": 596,
+   "y": 355,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/subaru-cars_c84?filter=make_eq_subaru%2Cnew_used_eq_used",
+   "label": "Subaru"
+  },
+  {
+   "x": 669,
+   "y": 355,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/united-cars_c84?filter=make_eq_cars-united%2Cnew_used_eq_used",
+   "label": "United"
+  },
+  {
+   "x": 177,
+   "y": 449,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 195,
+   "y": 449,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 511,
    "width": 173,
    "height": 141,
    "kind": "link",
@@ -125,7 +299,7 @@
   },
   {
    "x": 201,
-   "y": 505,
+   "y": 511,
    "width": 173,
    "height": 65,
    "kind": "link",
@@ -134,7 +308,7 @@
   },
   {
    "x": 201,
-   "y": 581,
+   "y": 587,
    "width": 173,
    "height": 65,
    "kind": "link",
@@ -143,7 +317,7 @@
   },
   {
    "x": 16,
-   "y": 657,
+   "y": 663,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -152,7 +326,7 @@
   },
   {
    "x": 164,
-   "y": 657,
+   "y": 663,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -161,7 +335,7 @@
   },
   {
    "x": 312,
-   "y": 657,
+   "y": 663,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -170,7 +344,7 @@
   },
   {
    "x": 460,
-   "y": 657,
+   "y": 663,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -179,7 +353,7 @@
   },
   {
    "x": 608,
-   "y": 657,
+   "y": 663,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -188,7 +362,7 @@
   },
   {
    "x": 756,
-   "y": 657,
+   "y": 663,
    "width": 138,
    "height": 96,
    "kind": "link",
@@ -196,8 +370,331 @@
    "label": "Car Batteries"
   },
   {
+   "x": 313,
+   "y": 803,
+   "width": 61,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/",
+   "label": "View More"
+  },
+  {
+   "x": 16,
+   "y": 831,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/hyundai-santro-executive-2003-iid-1120139695/",
+   "label": "FEATUREDRs 13 LacsHyundai Santro Executive 2003227397 KM2003Buch Executive Villa"
+  },
+  {
+   "x": 244,
+   "y": 831,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/suzuki-vitara-2017-iid-1120197238/",
+   "label": "FEATUREDRs 46 LacsSuzuki Vitara 2017136328 KM2017Shadman 1, Shadman Town, Lahore"
+  },
+  {
+   "x": 473,
+   "y": 831,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/hyundai-elantra-2021-iid-1119007648/",
+   "label": "FEATUREDRs 53.75 LacsHyundai Elantra 202179000 KM2021Jail Road, Lahore, Punjab, "
+  },
+  {
+   "x": 702,
+   "y": 831,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/suzuki-alto-2010-iid-1120165096/",
+   "label": "FEATUREDRs 13 LacsSuzuki Alto 2010135000 KM2010G-15, Islamabad, Islamabad Capita"
+  },
+  {
+   "x": 931,
+   "y": 831,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-2013-iid-1120196919/",
+   "label": "FEATUREDRs 28 LacsToyota Corolla GLI 201354000 KM2013Allama Iqbal Town - Huma Bl"
+  },
+  {
+   "x": 1159,
+   "y": 831,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-automatic-transmissions-2019-model-iid-1120194971/",
+   "label": "FEATUREDRs 47.50 LacsToyota Corolla GLI Automatic transmissions 2019 Model55700 "
+  },
+  {
+   "x": 1388,
+   "y": 831,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/suzuki-cultus-iid-1120125371/",
+   "label": "FEATUREDRs 8.50 LacsSuzuki Cultus100000 KM2006I-8 Markaz, I-8, Islamabad, Islama"
+  },
+  {
+   "x": 1617,
+   "y": 831,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/suzuki-cultus-vxl-20202021-iid-1120196633/",
+   "label": "FEATUREDRs 31.50 LacsSuzuki Cultus VXL 2020/202167000 KM2020Jail Road, Lahore, P"
+  },
+  {
+   "x": 1846,
+   "y": 831,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-yaris-15-x-ativ-2021-full-original-iid-1120196542/",
+   "label": "FEATUREDRs 43 LacsToyota Yaris 1.5 X Ativ 2021 Full original50000 KM2021Khalid B"
+  },
+  {
+   "x": 2074,
+   "y": 831,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/suzuki-cultus-vxl-2024-total-genuine-paint-iid-1120196522/",
+   "label": "FEATUREDRs 40 LacsSuzuki Cultus VXL 2024 total genuine paint20000 KM2024Jail Roa"
+  },
+  {
+   "x": 16,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-6372",
+   "label": ""
+  },
+  {
+   "x": 160,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-6403",
+   "label": ""
+  },
+  {
+   "x": 304,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-5805",
+   "label": ""
+  },
+  {
+   "x": 448,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-5241",
+   "label": ""
+  },
+  {
+   "x": 592,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-5258",
+   "label": ""
+  },
+  {
+   "x": 736,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-5747",
+   "label": ""
+  },
+  {
+   "x": 880,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-7929",
+   "label": ""
+  },
+  {
+   "x": 1024,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-6351",
+   "label": ""
+  },
+  {
+   "x": 1168,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-7572",
+   "label": ""
+  },
+  {
+   "x": 1312,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-6292",
+   "label": ""
+  },
+  {
+   "x": 1456,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-5334",
+   "label": ""
+  },
+  {
+   "x": 1600,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-5238",
+   "label": ""
+  },
+  {
+   "x": 1744,
+   "y": 1256,
+   "width": 132,
+   "height": 74,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/companies/agency-5446",
+   "label": ""
+  },
+  {
+   "x": 313,
+   "y": 1365,
+   "width": 61,
+   "height": 35,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/category/autos",
+   "label": "View More"
+  },
+  {
+   "x": 16,
+   "y": 1614,
+   "width": 358,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/petrol-price-in-pakistan/",
+   "label": "Petrol Price in Pakistan Increased for the Fourth Time in a Row"
+  },
+  {
+   "x": 118,
+   "y": 1748,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/super-power-launches-petrol-bikes-and-electric-two-wheelers/",
+   "label": "Super Power Launches Petrol Bikes and Electric Two-Wheelers"
+  },
+  {
+   "x": 118,
+   "y": 1883,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/jolta-launches-je-125l-electric-motorcycle/",
+   "label": "Jolta Launches JE-125L Electric Motorcycle"
+  },
+  {
+   "x": 118,
+   "y": 2017,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/kia-showcased-its-latest-lineup-at-paps-2026/",
+   "label": "Kia Showcased Its Newest Models at Pakistan Auto Show 2026"
+  },
+  {
+   "x": 16,
+   "y": 2184,
+   "width": 173,
+   "height": 35,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-toyota-corolla?filter=new_used_eq_used",
+   "label": "Used Toyota Corolla for Sale"
+  },
+  {
+   "x": 201,
+   "y": 2184,
+   "width": 173,
+   "height": 35,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-honda-city?filter=new_used_eq_used",
+   "label": "Used Honda City for Sale"
+  },
+  {
+   "x": 16,
+   "y": 2230,
+   "width": 173,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-toyota-prado?filter=new_used_eq_used",
+   "label": "Used Toyota Prado for Sale"
+  },
+  {
+   "x": 201,
+   "y": 2230,
+   "width": 173,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-honda-civic?filter=new_used_eq_used",
+   "label": "Used Honda Civic for Sale"
+  },
+  {
+   "x": 16,
+   "y": 2258,
+   "width": 173,
+   "height": 35,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-suzuki-mehran?filter=new_used_eq_used",
+   "label": "Used Suzuki Mehran for Sale"
+  },
+  {
+   "x": 201,
+   "y": 2258,
+   "width": 173,
+   "height": 35,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-suzuki-cultus?filter=new_used_eq_used",
+   "label": "Used Suzuki Cultus for Sale"
+  },
+  {
+   "x": 16,
+   "y": 2292,
+   "width": 60,
+   "height": 26,
+   "kind": "button",
+   "label": "View More"
+  },
+  {
    "x": 0,
-   "y": 1978,
+   "y": 43181,
    "width": 72,
    "height": 44,
    "kind": "link",
@@ -206,7 +703,7 @@
   },
   {
    "x": 79,
-   "y": 1978,
+   "y": 43181,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -215,7 +712,7 @@
   },
   {
    "x": 159,
-   "y": 1976,
+   "y": 43179,
    "width": 72,
    "height": 47,
    "kind": "link",
@@ -224,7 +721,7 @@
   },
   {
    "x": 238,
-   "y": 1978,
+   "y": 43181,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -232,25 +729,33 @@
    "label": "My Ads"
   },
   {
-   "x": 331,
-   "y": 1978,
-   "width": 46,
+   "x": 332,
+   "y": 43181,
+   "width": 45,
    "height": 44,
    "kind": "button",
    "label": "Account"
   },
   {
    "x": 16,
-   "y": 1813,
+   "y": 17428,
    "width": 358,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 17502,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 1883,
+   "y": 17564,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -259,7 +764,7 @@
   },
   {
    "x": 157,
-   "y": 1883,
+   "y": 17564,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -268,7 +773,7 @@
   },
   {
    "x": 201,
-   "y": 1883,
+   "y": 17564,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -277,12 +782,54 @@
   },
   {
    "x": 245,
-   "y": 1883,
+   "y": 17564,
    "width": 32,
    "height": 37,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
+  },
+  {
+   "x": 38,
+   "y": 43244,
+   "width": 340,
+   "height": 40,
+   "kind": "input",
+   "label": "Search Used Cars"
+  },
+  {
+   "x": 16,
+   "y": 43312,
+   "width": 358,
+   "height": 41,
+   "kind": "button",
+   "label": "Advanced Search"
+  },
+  {
+   "x": 16,
+   "y": 43312,
+   "width": 358,
+   "height": 40,
+   "kind": "input",
+   "label": "Search Location"
+  },
+  {
+   "x": 16,
+   "y": 43368,
+   "width": 150,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "Use Current Location"
+  },
+  {
+   "x": 263,
+   "y": 43368,
+   "width": 111,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/",
+   "label": "See all in Pakistan"
   }
  ]
 }

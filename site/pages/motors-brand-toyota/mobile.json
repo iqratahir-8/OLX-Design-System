@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/new-cars/toyota/",
  "finalUrl": "https://www.olx.com.pk/motors/new-cars/toyota/",
  "width": 390,
- "height": 3731,
+ "height": 2507,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T09:30:22.390Z",
+ "captured": "2026-10-07T14:25:27.205Z",
  "sections": [
   {
    "file": "01-toyota",
@@ -56,220 +56,66 @@
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "05-started-by-kiichiro-toyoda-the-toyota-mo",
-   "name": "Started by Kiichiro Toyoda, the Toyota Motor Cor",
+   "file": "05-used-toyota-for-sale",
+   "name": "Used Toyota for Sale",
    "rect": {
     "x": 16,
-    "y": 1217,
+    "y": 1186,
     "width": 358,
-    "height": 85
+    "height": 389
    },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "06-in-pakistan-the-indus-motor-company-limi",
-   "name": "In Pakistan, the Indus Motor Company Limited (IM",
+   "file": "06-toyota-overview",
+   "name": "Toyota Overview",
    "rect": {
     "x": 16,
-    "y": 1339,
+    "y": 1606,
     "width": 358,
-    "height": 127
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
-  },
-  {
-   "file": "07-toyota-s-journey-in-pakistan-has-been-sl",
-   "name": "Toyota’s journey in Pakistan has been slow but s",
-   "rect": {
-    "x": 16,
-    "y": 1486,
-    "width": 358,
-    "height": 106
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
-  },
-  {
-   "file": "08-in-the-passenger-car-category-various-va",
-   "name": "In the passenger car category, various variants ",
-   "rect": {
-    "x": 16,
-    "y": 1628,
-    "width": 358,
-    "height": 106
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(6)"
-  },
-  {
-   "file": "09-toyota-corolla-is-one-of-the-best-sellin",
-   "name": "Toyota Corolla is one of the best selling cars i",
-   "rect": {
-    "x": 16,
-    "y": 1754,
-    "width": 358,
-    "height": 85
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(7)"
-  },
-  {
-   "file": "10-1st-generation-1966-1970-launched-in-196",
-   "name": "1st generation: (1966-1970) - Launched in 1966, ",
-   "rect": {
-    "x": 16,
-    "y": 1876,
-    "width": 358,
-    "height": 85
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(9)"
-  },
-  {
-   "file": "11-2nd-generation-1970-1974-this-gen-was-la",
-   "name": "2nd generation: (1970-1974) - This gen was launc",
-   "rect": {
-    "x": 16,
-    "y": 1981,
-    "width": 358,
-    "height": 106
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(10)"
-  },
-  {
-   "file": "12-3rd-generation-1974-1979-in-this-generat",
-   "name": "3rd generation: (1974-1979) - In this generation",
-   "rect": {
-    "x": 16,
-    "y": 2107,
-    "width": 358,
-    "height": 64
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(11)"
-  },
-  {
-   "file": "13-4th-generation-1979-1983-in-this-generat",
-   "name": "4th generation: (1979-1983) - In this generation",
-   "rect": {
-    "x": 16,
-    "y": 2191,
-    "width": 358,
-    "height": 148
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(12)"
-  },
-  {
-   "file": "14-6th-generation-1987-1991-in-this-generat",
-   "name": "6th generation: (1987-1991) - In this generation",
-   "rect": {
-    "x": 16,
-    "y": 2359,
-    "width": 358,
-    "height": 64
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(13)"
-  },
-  {
-   "file": "15-7th-generation-1992-1997-in-this-generat",
-   "name": "7th generation: (1992-1997) - In this generation",
-   "rect": {
-    "x": 16,
-    "y": 2443,
-    "width": 358,
-    "height": 64
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(14)"
-  },
-  {
-   "file": "16-8th-generation-1997-2001-in-this-generat",
-   "name": "8th generation: (1997-2001) - In this generation",
-   "rect": {
-    "x": 16,
-    "y": 2527,
-    "width": 358,
-    "height": 85
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(15)"
-  },
-  {
-   "file": "17-9th-generation-2000-2006-in-this-generat",
-   "name": "9th generation: (2000-2006) - In this generation",
-   "rect": {
-    "x": 16,
-    "y": 2632,
-    "width": 358,
-    "height": 85
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(16)"
-  },
-  {
-   "file": "18-10th-generation-2007-2012-in-this-genera",
-   "name": "10th generation: (2007-2012) - In this generatio",
-   "rect": {
-    "x": 16,
-    "y": 2737,
-    "width": 358,
-    "height": 85
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(17)"
-  },
-  {
-   "file": "19-11th-generation-2013-2018-the-present-ge",
-   "name": "11th generation: (2013-2018) - The present gener",
-   "rect": {
-    "x": 16,
-    "y": 2842,
-    "width": 358,
-    "height": 64
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(18)"
-  },
-  {
-   "file": "20-in-future-toyota-is-expected-to-retain-i",
-   "name": "In future, Toyota is expected to retain its Big ",
-   "rect": {
-    "x": 16,
-    "y": 2926,
-    "width": 358,
-    "height": 43
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5) > :nth-child(1) > :nth-child(2) > :nth-child(19)"
-  },
-  {
-   "file": "21-toyota-2026-faqs",
-   "name": "Toyota 2026 FAQs",
-   "rect": {
-    "x": 16,
-    "y": 3034,
-    "width": 358,
-    "height": 175
+    "height": 107
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "22-find-new-and-used-toyota-cars-by-city",
+   "file": "07-toyota-2026-faqs",
+   "name": "Toyota 2026 FAQs",
+   "rect": {
+    "x": 16,
+    "y": 1744,
+    "width": 358,
+    "height": 175
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "08-find-new-and-used-toyota-cars-by-city",
    "name": "Find New & Used Toyota Cars By City",
    "rect": {
     "x": 16,
-    "y": 3292,
+    "y": 2002,
     "width": 358,
     "height": 134
    },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
   },
   {
-   "file": "23-get-the-olx-app",
+   "file": "09-get-the-olx-app",
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 3465,
+    "y": 2175,
     "width": 390,
-    "height": 266
+    "height": 332
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(3)"
   }
  ],
  "hotspots": [
   {
-   "x": 329,
+   "x": 328,
    "y": 282,
-   "width": 45,
+   "width": 46,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?make=toyota&&sort_by=popularity",
@@ -303,9 +149,9 @@
    "label": "Rs 1.54 CroresToyota Hilux"
   },
   {
-   "x": 329,
+   "x": 328,
    "y": 624,
-   "width": 45,
+   "width": 46,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?make=toyota&&sort_by=imported_cars",
@@ -339,9 +185,9 @@
    "label": "Toyota Aqua"
   },
   {
-   "x": 329,
+   "x": 328,
    "y": 965,
-   "width": 45,
+   "width": 46,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/compare/",
@@ -357,24 +203,123 @@
    "label": "View Comparison"
   },
   {
+   "x": 313,
+   "y": 1191,
+   "width": 61,
+   "height": 15,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-toyota/",
+   "label": "View More"
+  },
+  {
    "x": 16,
-   "y": 2984,
-   "width": 84,
+   "y": 1219,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-altis-grande-2022-iid-1119964859/",
+   "label": "FEATUREDRs 66 LacsToyota Altis Grande 202265000 KM2022Talagang Road, Chakwal, Pu"
+  },
+  {
+   "x": 244,
+   "y": 1219,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-altis-grande-2023toyotaaltisgrande2023-iid-1119954546/",
+   "label": "FEATUREDRs 68.50 LacsToyota Altis Grande 2023,Toyota,Altis,grande,202360000 KM20"
+  },
+  {
+   "x": 473,
+   "y": 1219,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-raize-2020-iid-1119954457/",
+   "label": "FEATUREDRs 61 LacsToyota Raize 202012345 KM2020F-11/1, F-11, Islamabad, Islamaba"
+  },
+  {
+   "x": 702,
+   "y": 1219,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-camry-2013toyotacamry2013-iid-1119954411/",
+   "label": "FEATUREDRs 71.50 LacsToyota Camry 2013,Toyota,camry,201312345 KM2013F-11 Markaz,"
+  },
+  {
+   "x": 931,
+   "y": 1219,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/2010-model-xli-face-uplift-to-2011-iid-1119952174/",
+   "label": "FEATUREDRs 23.80 Lacs2010 model xli face uplift to 2011150000 KM2010Hayatabad Ph"
+  },
+  {
+   "x": 1159,
+   "y": 1219,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-passo-2021-iid-1119954242/",
+   "label": "FEATUREDRs 41 LacsToyota Passo 202112345 KM2021F-11/1, F-11, Islamabad, Islamaba"
+  },
+  {
+   "x": 1388,
+   "y": 1219,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-vitz-10-model-20016-iid-1119952048/",
+   "label": "FEATUREDRs 17.75 LacsToyota Vitz 1.0 Model 2001/6158000 KM2001Others, Karachi, S"
+  },
+  {
+   "x": 1617,
+   "y": 1219,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-land-cruiser-20112016-iid-1119949078/",
+   "label": "FEATUREDRs 2.25 CroresToyota Land Cruiser 2011/201692000 KM2011Falcon Complex Fa"
+  },
+  {
+   "x": 1846,
+   "y": 1219,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-aqua-201821-s-push-iid-1119949027/",
+   "label": "FEATUREDRs 53 LacsToyota Aqua 2018/21 S Push117000 KM2018Gulshan-e-Iqbal, Gulsha"
+  },
+  {
+   "x": 2074,
+   "y": 1219,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-2012-iid-1119948008/",
+   "label": "FEATUREDRs 28.50 LacsToyota Corolla GLI 2012158000 KM20129th Avenue, Islamabad, "
+  },
+  {
+   "x": 16,
+   "y": 1694,
+   "width": 93,
    "height": 19,
    "kind": "button",
-   "label": "Show less"
+   "label": "Show more"
   },
   {
    "x": 350,
-   "y": 3090,
+   "y": 1801,
    "width": 24,
-   "height": 25,
+   "height": 24,
    "kind": "button",
    "label": ""
   },
   {
    "x": 350,
-   "y": 3161,
+   "y": 1871,
    "width": 24,
    "height": 25,
    "kind": "button",
@@ -382,8 +327,8 @@
   },
   {
    "x": 16,
-   "y": 3240,
-   "width": 32,
+   "y": 1950,
+   "width": 33,
    "height": 21,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -391,17 +336,17 @@
   },
   {
    "x": 76,
-   "y": 3240,
-   "width": 37,
+   "y": 1950,
+   "width": 39,
    "height": 21,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
    "label": "Motors"
   },
   {
-   "x": 141,
-   "y": 3240,
-   "width": 51,
+   "x": 142,
+   "y": 1950,
+   "width": 52,
    "height": 21,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/",
@@ -409,7 +354,7 @@
   },
   {
    "x": 16,
-   "y": 3325,
+   "y": 2035,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -418,7 +363,7 @@
   },
   {
    "x": 201,
-   "y": 3325,
+   "y": 2035,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -427,7 +372,7 @@
   },
   {
    "x": 16,
-   "y": 3354,
+   "y": 2064,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -436,7 +381,7 @@
   },
   {
    "x": 201,
-   "y": 3354,
+   "y": 2064,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -445,7 +390,7 @@
   },
   {
    "x": 16,
-   "y": 3383,
+   "y": 2093,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -454,7 +399,7 @@
   },
   {
    "x": 201,
-   "y": 3383,
+   "y": 2093,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -463,53 +408,61 @@
   },
   {
    "x": 16,
-   "y": 3400,
-   "width": 59,
-   "height": 25,
+   "y": 2110,
+   "width": 60,
+   "height": 26,
    "kind": "button",
    "label": "View More"
   },
   {
    "x": 16,
-   "y": 3581,
+   "y": 2291,
    "width": 358,
-   "height": 32,
+   "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 2365,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 3651,
+   "y": 2427,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://twitter.com/OLX_Pakistan",
    "label": ""
   },
   {
    "x": 157,
-   "y": 3651,
+   "y": 2427,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://www.facebook.com/olxpakistan",
    "label": ""
   },
   {
    "x": 201,
-   "y": 3651,
+   "y": 2427,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
    "label": ""
   },
   {
    "x": 245,
-   "y": 3651,
+   "y": 2427,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
