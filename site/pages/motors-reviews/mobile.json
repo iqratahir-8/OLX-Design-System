@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/car-reviews/",
  "finalUrl": "https://www.olx.com.pk/motors/car-reviews/",
  "width": 390,
- "height": 1282,
+ "height": 20328,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:52:56.573Z",
+ "captured": "2026-10-07T14:28:50.799Z",
  "sections": [
   {
    "file": "01-header",
@@ -29,7 +29,7 @@
     "x": 16,
     "y": 112,
     "width": 358,
-    "height": 798
+    "height": 1992
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
@@ -38,9 +38,9 @@
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 949,
+    "y": 4105,
     "width": 390,
-    "height": 333
+    "height": 398
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
   },
@@ -49,7 +49,7 @@
    "name": "Home · Chat · Sell",
    "rect": {
     "x": 0,
-    "y": 1223,
+    "y": 10105,
     "width": 390,
     "height": 59
    },
@@ -68,7 +68,7 @@
   {
    "x": 29,
    "y": 183,
-   "width": 120,
+   "width": 121,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-reviews/write-a-review/",
@@ -77,7 +77,7 @@
   {
    "x": 29,
    "y": 171,
-   "width": 120,
+   "width": 121,
    "height": 43,
    "kind": "button",
    "label": "Write a Review"
@@ -254,9 +254,153 @@
    "label": "Car Batteries"
   },
   {
+   "x": 313,
+   "y": 742,
+   "width": 61,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/",
+   "label": "View More"
+  },
+  {
    "x": 16,
-   "y": 737,
-   "width": 32,
+   "y": 771,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/changan-oshan-x7-2025-iid-1119960856/",
+   "label": "FEATUREDRs 76 LacsChangan Oshan X7 2025120000 KM2025Manga Mandi, Lahore, Punjab,"
+  },
+  {
+   "x": 244,
+   "y": 771,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/suzuki-margalla-1993-iid-1119988766/",
+   "label": "FEATUREDRs 12.50 LacsSuzuki Margalla 199375000 KM1993Allama Iqbal Town, Lahore, "
+  },
+  {
+   "x": 473,
+   "y": 771,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/hyundai-tucson-2026-signature-awd-iid-1119986354/",
+   "label": "FEATUREDRs 1.24 CroresHyundai Tucson 2026 Signature AWD1 KM2026Neka Pura, Sialko"
+  },
+  {
+   "x": 702,
+   "y": 771,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-automatic-16-model-2020-iid-1119984295/",
+   "label": "FEATUREDRs 48.75 LacsTOYOTA COROLLA ALTIS AUTOMATIC 1.6 MODEL 202080000 KM2020PE"
+  },
+  {
+   "x": 931,
+   "y": 771,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/honda-n-box-2021-iid-1119982738/",
+   "label": "FEATUREDRs 31 LacsHonda N Box 202185000 KM2021PECHS, Jamshed Town, Karachi, Sind"
+  },
+  {
+   "x": 1159,
+   "y": 771,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-2013-iid-1119982385/",
+   "label": "FEATUREDRs 31.50 LacsToyota Corolla GLI 2013130000 KM2013PECHS, Jamshed Town, Ka"
+  },
+  {
+   "x": 1388,
+   "y": 771,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-special-edition-2021-iid-1119982157/",
+   "label": "FEATUREDRs 53.50 LacsToyota Corolla Altis special edition 202190000 KM2021Gulist"
+  },
+  {
+   "x": 1617,
+   "y": 771,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-vitz-2010-iid-1119981954/",
+   "label": "FEATUREDRs 24 LacsToyota Vitz 2010163004 KM2010Gulistan-e-Jauhar - Block 16-A, G"
+  },
+  {
+   "x": 1846,
+   "y": 771,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/kia-sportage-2023-iid-1119981576/",
+   "label": "FEATUREDRs 70 LacsKIA Sportage 20231 KM2023Al-Hilal Society, Karachi, Sindh, Pak"
+  },
+  {
+   "x": 2074,
+   "y": 771,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-2011-iid-1119761019/",
+   "label": "FEATUREDRs 36.90 LacsToyota Corolla Altis 2011149600 KM2011Ghauri Town, Rawalpin"
+  },
+  {
+   "x": 313,
+   "y": 1146,
+   "width": 61,
+   "height": 34,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/category/autos",
+   "label": "View More"
+  },
+  {
+   "x": 16,
+   "y": 1395,
+   "width": 358,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/petrol-price-in-pakistan/",
+   "label": "Petrol Price in Pakistan Increased for the Fourth Time in a Row"
+  },
+  {
+   "x": 118,
+   "y": 1529,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/super-power-launches-petrol-bikes-and-electric-two-wheelers/",
+   "label": "Super Power Launches Petrol Bikes and Electric Two-Wheelers"
+  },
+  {
+   "x": 118,
+   "y": 1663,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/jolta-launches-je-125l-electric-motorcycle/",
+   "label": "Jolta Launches JE-125L Electric Motorcycle"
+  },
+  {
+   "x": 118,
+   "y": 1798,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/kia-showcased-its-latest-lineup-at-paps-2026/",
+   "label": "Kia Showcased Its Newest Models at Pakistan Auto Show 2026"
+  },
+  {
+   "x": 16,
+   "y": 1931,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -264,8 +408,8 @@
   },
   {
    "x": 76,
-   "y": 737,
-   "width": 37,
+   "y": 1931,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
@@ -273,7 +417,7 @@
   },
   {
    "x": 16,
-   "y": 810,
+   "y": 2004,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -282,7 +426,7 @@
   },
   {
    "x": 201,
-   "y": 810,
+   "y": 2004,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -291,7 +435,7 @@
   },
   {
    "x": 16,
-   "y": 839,
+   "y": 2033,
    "width": 173,
    "height": 17,
    "kind": "link",
@@ -300,7 +444,7 @@
   },
   {
    "x": 201,
-   "y": 839,
+   "y": 2033,
    "width": 173,
    "height": 17,
    "kind": "link",
@@ -309,7 +453,7 @@
   },
   {
    "x": 16,
-   "y": 867,
+   "y": 2061,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -318,7 +462,7 @@
   },
   {
    "x": 201,
-   "y": 867,
+   "y": 2061,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -327,15 +471,15 @@
   },
   {
    "x": 16,
-   "y": 884,
-   "width": 59,
+   "y": 2078,
+   "width": 60,
    "height": 26,
    "kind": "button",
    "label": "View More"
   },
   {
    "x": 0,
-   "y": 1231,
+   "y": 10113,
    "width": 72,
    "height": 44,
    "kind": "link",
@@ -344,7 +488,7 @@
   },
   {
    "x": 79,
-   "y": 1231,
+   "y": 10113,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -353,7 +497,7 @@
   },
   {
    "x": 159,
-   "y": 1229,
+   "y": 10111,
    "width": 72,
    "height": 47,
    "kind": "link",
@@ -362,7 +506,7 @@
   },
   {
    "x": 238,
-   "y": 1231,
+   "y": 10113,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -370,25 +514,33 @@
    "label": "My Ads"
   },
   {
-   "x": 331,
-   "y": 1231,
-   "width": 46,
+   "x": 332,
+   "y": 10113,
+   "width": 45,
    "height": 44,
    "kind": "button",
    "label": "Account"
   },
   {
    "x": 16,
-   "y": 1065,
+   "y": 4221,
    "width": 358,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 4295,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 1135,
+   "y": 4357,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -397,7 +549,7 @@
   },
   {
    "x": 157,
-   "y": 1135,
+   "y": 4357,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -406,7 +558,7 @@
   },
   {
    "x": 201,
-   "y": 1135,
+   "y": 4357,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -415,12 +567,20 @@
   },
   {
    "x": 245,
-   "y": 1135,
+   "y": 4357,
    "width": 32,
    "height": 37,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
+  },
+  {
+   "x": 38,
+   "y": 10176,
+   "width": 340,
+   "height": 40,
+   "kind": "input",
+   "label": "Search car reviews"
   }
  ]
 }

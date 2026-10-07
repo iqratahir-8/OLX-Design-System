@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/lahore_g4060673/land-plots_c40",
  "finalUrl": "https://www.olx.com.pk/lahore_g4060673/land-plots_c40?page=1",
  "width": 390,
- "height": 12132,
+ "height": 23062,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-30T07:25:19.388Z",
+ "captured": "2026-10-07T14:51:23.426Z",
  "sections": [
   {
    "file": "01-header",
@@ -29,104 +29,93 @@
     "x": 0,
     "y": 120,
     "width": 390,
-    "height": 10768
+    "height": 14352
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "03-retry",
-   "name": "Retry",
+   "file": "03-got-something-to-sell-post-in-3-simple-s",
+   "name": "Got Something to Sell? · Post in 3 Simple Steps ",
    "rect": {
-    "x": 0,
-    "y": 10904,
-    "width": 390,
-    "height": 48
+    "x": 16,
+    "y": 14484,
+    "width": 358,
+    "height": 197
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "04-plots-for-sale-in-other-cities",
-   "name": "Plots for Sale in Other Cities",
+   "file": "04-listings",
+   "name": "Listings",
    "rect": {
     "x": 0,
-    "y": 10968,
+    "y": 14693,
     "width": 390,
-    "height": 425
+    "height": 7218
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "05-pakistan-free-classifieds",
-   "name": "Pakistan Free classifieds",
+   "file": "05-land-and-plots-for-sale-in-lahore",
+   "name": "Land & Plots for Sale in Lahore",
    "rect": {
     "x": 0,
-    "y": 11408,
+    "y": 21959,
     "width": 390,
     "height": 86
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "06-popular-searches",
-   "name": "Popular Searches",
+   "file": "06-categories",
+   "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 11493,
+    "y": 22044,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "07-categories",
-   "name": "Categories",
+   "file": "07-location",
+   "name": "Location",
    "rect": {
     "x": 0,
-    "y": 11539,
+    "y": 22090,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "08-location",
-   "name": "Location",
+   "file": "08-filters",
+   "name": "Filters",
    "rect": {
     "x": 0,
-    "y": 11585,
+    "y": 22136,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "09-filters",
-   "name": "Filters",
+   "file": "09-footer",
+   "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 11631,
+    "y": 22182,
     "width": 390,
-    "height": 47
+    "height": 456
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
   },
   {
-   "file": "10-footer",
-   "name": "Footer",
-   "rect": {
-    "x": 0,
-    "y": 11677,
-    "width": 390,
-    "height": 455
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
-  },
-  {
-   "file": "11-sell",
+   "file": "10-sell",
    "name": "SELL",
    "rect": {
     "x": 0,
-    "y": 12063,
+    "y": 22993,
     "width": 390,
     "height": 45
    },
@@ -156,727 +145,43 @@
    "width": 42,
    "height": 28,
    "kind": "button",
-   "label": ""
+   "label": "2"
   },
   {
-   "x": 16,
-   "y": 120,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/prime-location-1-kanal-residential-plot-in-beautiful-location-of-lake-city-meadows-phase-1-block-a-in-lahore-iid-1119286875",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 495,
-   "width": 158,
-   "height": 40,
+   "x": 239,
+   "y": 64,
+   "width": 69,
+   "height": 28,
    "kind": "button",
-   "label": "Call"
+   "label": "Price Quick Filter"
   },
   {
-   "x": 199,
-   "y": 495,
-   "width": 158,
-   "height": 40,
+   "x": 315,
+   "y": 64,
+   "width": 67,
+   "height": 28,
    "kind": "button",
-   "label": "Chat"
+   "label": "Area size Quick Filter"
   },
   {
-   "x": 16,
-   "y": 568,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/prime-investment-opportunity-3-marla-affordable-residential-plot-phase-3-block-c-iid-1118317154",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 943,
-   "width": 158,
-   "height": 40,
+   "x": 389,
+   "y": 64,
+   "width": 93,
+   "height": 28,
    "kind": "button",
-   "label": "Call"
+   "label": "Area Unit Quick Filter"
   },
   {
-   "x": 199,
-   "y": 943,
-   "width": 158,
-   "height": 40,
+   "x": 489,
+   "y": 64,
+   "width": 72,
+   "height": 28,
    "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 1016,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/4-marla-commercial-plot-fully-paid-with-ruda-paid-for-sale-in-rose-block-park-view-city-lahore-iid-1118450422",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 1391,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 1391,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 1464,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/8-marla-plot-for-sale-in-bahria-orchard-phase-2-block-d-lahore-iid-1119492557",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 1839,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 1839,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 1912,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/get-in-touch-now-to-buy-a-on-excellent-location-residential-plot-in-lahore-iid-1119287488",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 2287,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 2287,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 2360,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/2-to-14-kanal-land-for-sale-15-km-from-dolmen-mall-ideal-for-farmhouse-iid-1119340110",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 2735,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 2735,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 2808,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-corner-plot-for-sale-ideal-location-high-investment-potential-iid-1118569545",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 3183,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 3183,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 3256,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/dha-phase-10-lahore-5-marla-affidavit-plot-file-gold-investment-time-now-iid-1119739808",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 3631,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 3631,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 3704,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/dha-phase-10-lahore-8-marla-commercial-affidavit-plot-file-available-iid-1119161897",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 4079,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 4079,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 4168,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offers-prime-location-corner-50-fit-road-plot-available-for-sale-in-i-block-near-to-gate-no-4-saggian-bypass-al-rehman-garden-phase-2-fileregistry-iid-1119919834",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 4543,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 4543,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 4616,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offers-prime-location-plot-available-for-sale-reasonable-price-in-b-block-near-to-park-alnoor-orchard-iid-1119919820",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 4991,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 4991,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 5064,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/22-marla-premium-residential-plot-for-sale-prime-location-valencia-town-lahore-iid-1119919815",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 5439,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 5439,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 5512,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/prime-location-10-marla-plot-for-sale-in-d-block-central-park-lahore-iid-1119606162",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 5887,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 5887,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 5960,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/ideal-location-5-marla-plot-for-sale-in-bb-block-central-park-lahore-iid-1119353930",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 6335,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 6335,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 6408,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/ideal-location-10-marla-plot-for-sale-in-a1-block-central-park-lahore-iid-1119344489",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 6783,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 6783,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 6856,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offers-prime-location-plot-available-for-sale-reasonable-price-in-alnoor-orchard-iid-1119919799",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 7231,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 7231,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 7304,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offers-prime-location-plot-available-for-sale-reasonable-price-in-al-jalil-garden-iid-1119919794",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 7679,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 7679,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 7752,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offer-prime-location-plot-available-for-sale-reasonable-price-in-al-jalil-garden-iid-1119919788",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 8127,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 8127,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 8200,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offer-prime-location-plot-available-for-sale-reasonable-price-in-al-jalil-garden-iid-1119919784",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 8575,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 8575,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 8648,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offer-prime-location-plot-available-for-sale-reasonable-price-in-al-jalil-garden-iid-1119919781",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 9023,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 9023,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 9096,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offer-prime-location-plot-available-for-sale-reasonable-price-in-g-block-al-jalil-garden-iid-1119919779",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 9471,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 9471,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 9560,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offer-prime-location-plot-file-available-for-sale-reasonable-price-in-r-block-al-rehman-garden-phase-2-iid-1119919769",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 9935,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 9935,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 10008,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-commerical-plot-available-on-installment-in-midcity-centrum-lahore-iid-1119877821",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 10383,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 10383,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 10456,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/10-marla-residential-possession-plot-for-sale-in-midcity-iid-1119571790",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 10831,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 10831,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 144,
-   "y": 10904,
-   "width": 102,
-   "height": 48,
-   "kind": "button",
-   "label": "Retry"
-  },
-  {
-   "x": 21,
-   "y": 11057,
-   "width": 50,
-   "height": 61,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/multan_g4060675/land-plots_c40",
-   "label": "Plots for Sale in Multan"
-  },
-  {
-   "x": 100,
-   "y": 11067,
-   "width": 80,
-   "height": 40,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/karachi_g4060695/land-plots_c40",
-   "label": "Plots for Sale in Karachi"
-  },
-  {
-   "x": 193,
-   "y": 11067,
-   "width": 80,
-   "height": 40,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad_g4060615/land-plots_c40",
-   "label": "Plots for Sale in Islamabad"
-  },
-  {
-   "x": 289,
-   "y": 11057,
-   "width": 80,
-   "height": 61,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/rawalpindi_g4060681/land-plots_c40",
-   "label": "Plots for Sale in Rawalpindi"
-  },
-  {
-   "x": 21,
-   "y": 11130,
-   "width": 50,
-   "height": 61,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/sialkot_g4060686/land-plots_c40",
-   "label": "Plots for Sale in Sialkot"
-  },
-  {
-   "x": 100,
-   "y": 11130,
-   "width": 80,
-   "height": 61,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/hyderabad_g4060693/land-plots_c40",
-   "label": "Plots for Sale in Hyderabad"
-  },
-  {
-   "x": 193,
-   "y": 11130,
-   "width": 80,
-   "height": 61,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/abbottabad_g4060640/land-plots_c40",
-   "label": "Plots for Sale in Abbottabad"
-  },
-  {
-   "x": 289,
-   "y": 11130,
-   "width": 80,
-   "height": 61,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/faisalabad_g4060660/land-plots_c40",
-   "label": "Plots for Sale in Faisalabad"
-  },
-  {
-   "x": 21,
-   "y": 11203,
-   "width": 58,
-   "height": 61,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/peshawar_g4060643/land-plots_c40",
-   "label": "Plots for Sale in Peshawar"
-  },
-  {
-   "x": 100,
-   "y": 11203,
-   "width": 80,
-   "height": 61,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/bahawalpur_g4060653/land-plots_c40",
-   "label": "Plots for Sale in Bahawalpur"
-  },
-  {
-   "x": 193,
-   "y": 11213,
-   "width": 80,
-   "height": 40,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/gwadar_g4060597/land-plots_c40",
-   "label": "Plots for Sale in Gwadar"
-  },
-  {
-   "x": 289,
-   "y": 11203,
-   "width": 80,
-   "height": 61,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/gujranwala_g4060662/land-plots_c40",
-   "label": "Plots for Sale in Gujranwala"
+   "label": "Type Quick Filter"
   },
   {
    "x": 143,
-   "y": 12063,
+   "y": 22993,
    "width": 104,
    "height": 45,
    "kind": "button",
@@ -884,16 +189,34 @@
   },
   {
    "x": 16,
-   "y": 11463,
-   "width": 32,
+   "y": 22016,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
    "label": "Home"
   },
   {
+   "x": 78,
+   "y": 22016,
+   "width": 88,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2",
+   "label": "Property for Sale"
+  },
+  {
+   "x": 195,
+   "y": 22016,
+   "width": 114,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/land-plots_c40",
+   "label": "Land & Plots in Lahore"
+  },
+  {
    "x": 16,
-   "y": 11976,
+   "y": 22482,
    "width": 84,
    "height": 33,
    "kind": "link",
@@ -902,7 +225,7 @@
   },
   {
    "x": 113,
-   "y": 12043,
+   "y": 22548,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -911,7 +234,7 @@
   },
   {
    "x": 157,
-   "y": 12043,
+   "y": 22548,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -920,7 +243,7 @@
   },
   {
    "x": 201,
-   "y": 12043,
+   "y": 22548,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -929,7 +252,7 @@
   },
   {
    "x": 245,
-   "y": 12043,
+   "y": 22548,
    "width": 32,
    "height": 41,
    "kind": "link",
