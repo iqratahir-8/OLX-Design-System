@@ -87,7 +87,9 @@ async function fetchRemote(url) {
 }
 
 const settle = `
-  *, *::before, *::after { animation: none !important; transition: none !important; caret-color: transparent !important; }
+  /* Jump every animation to its end state (fade-ins, slide-ins) instead of removing it,
+     which would leave popups at their invisible first frame. */
+  *, *::before, *::after { animation-duration: 0s !important; animation-delay: 0s !important; animation-iteration-count: 1 !important; animation-fill-mode: both !important; transition: none !important; caret-color: transparent !important; }
 `;
 
 async function render(t) {
@@ -128,7 +130,9 @@ async function render(t) {
       .map((i) => { const r = i.getBoundingClientRect(); return [r.x + scrollX, r.y + scrollY, r.width, r.height]; }));
     if (t.element) {
       const el = page.locator('body > *').first();
-      return await el.screenshot({ animations: 'disabled' });
+      const box = await el.boundingBox();
+      if (box) t.photos = t.photos.map(([x, y, w, h]) => [x - box.x, y - box.y, w, h]);
+      return await el.screenshot({ animations: 'disabled', timeout: 60_000 });
     }
     if (t.fullPage) await page.setViewportSize({ width: t.width, height: Math.max(1, t.height) });
     return await page.screenshot({ fullPage: false, animations: 'disabled' });
@@ -183,7 +187,7 @@ for (const [i, t] of todo.entries()) {
   let r;
   try {
     const shot = await render(t);
-    const mask = process.env.MASK_PHOTOS && !t.element ? (t.photos ?? []).map((r) => r.map((v) => Math.round(v * t.dpr))) : [];
+    const mask = process.env.MASK_PHOTOS ? (t.photos ?? []).map((r) => r.map((v) => Math.round(v * t.dpr))) : [];
     const c = compare(await readFile(t.png), shot, mask);
     const verdict = c.ratio <= MATCH ? 'match' : c.ratio <= CLOSE ? 'close' : 'mismatch';
     if (verdict !== 'match') {
