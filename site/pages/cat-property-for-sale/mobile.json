@@ -5,10 +5,11 @@
  "url": "https://www.olx.com.pk/property-for-sale_c2",
  "finalUrl": "https://www.olx.com.pk/property-for-sale_c2?page=1",
  "width": 390,
- "height": 11727,
+ "height": 22735,
  "dpr": 2,
  "overlay": false,
- "captured": "2026-09-29T12:51:40.567Z",
+ "scrolled": false,
+ "captured": "2026-10-07T13:45:42.150Z",
  "sections": [
   {
    "file": "01-header",
@@ -22,356 +23,433 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
   },
   {
-   "file": "02-featured-rs-74-lacs-3-weeks-ago",
-   "name": "Featured · Rs 74 Lacs · 3 weeks ago",
+   "file": "02-prime-commercial-property-for-sale-fro",
+   "name": "PRIME COMMERCIAL PROPERTY FOR SALE — FRO",
    "rect": {
     "x": 16,
     "y": 120,
     "width": 358,
-    "height": 432
+    "height": 521
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "03-featured-rs-2-60-crore-5-days-ago",
-   "name": "Featured · Rs 2.60 Crore · 5 days ago",
+   "file": "03-featured-rs-2-29-crore-4-days-ago",
+   "name": "Featured · Rs 2.29 Crore · 4 days ago",
    "rect": {
     "x": 16,
-    "y": 568,
+    "y": 665,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "04-featured-rs-1-72-crore-4-days-ago",
-   "name": "Featured · Rs 1.72 Crore · 4 days ago",
+   "file": "04-featured-rs-9-50-crore-1-day-ago",
+   "name": "Featured · Rs 9.50 Crore · 1 day ago",
    "rect": {
     "x": 16,
-    "y": 1016,
+    "y": 1113,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "05-featured-rs-4-84-crore-1-day-ago",
-   "name": "Featured · Rs 4.84 Crore · 1 day ago",
+   "file": "05-featured-rs-2-25-crore-1-hour-ago",
+   "name": "Featured · Rs 2.25 Crore · 1 hour ago",
    "rect": {
     "x": 16,
-    "y": 1464,
+    "y": 1561,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "06-featured-rs-13-50-crore-6-days-ago",
-   "name": "Featured · Rs 13.50 Crore · 6 days ago",
+   "file": "06-featured-rs-1-45-crore-5-days-ago",
+   "name": "Featured · Rs 1.45 Crore · 5 days ago",
    "rect": {
     "x": 16,
-    "y": 1912,
+    "y": 2009,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "07-featured-rs-150-crore-1-day-ago",
-   "name": "Featured · Rs 150 Crore · 1 day ago",
+   "file": "07-featured-rs-2-85-crore-5-days-ago",
+   "name": "Featured · Rs 2.85 Crore · 5 days ago",
    "rect": {
     "x": 16,
-    "y": 2360,
+    "y": 2457,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "08-featured-rs-80-lacs-3-days-ago",
-   "name": "Featured · Rs 80 Lacs · 3 days ago",
+   "file": "08-featured-rs-3-55-crore-6-days-ago",
+   "name": "Featured · Rs 3.55 Crore · 6 days ago",
    "rect": {
     "x": 16,
-    "y": 2808,
-    "width": 358,
-    "height": 432
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
-  },
-  {
-   "file": "09-featured-rs-85-lacs-3-days-ago",
-   "name": "Featured · Rs 85 Lacs · 3 days ago",
-   "rect": {
-    "x": 16,
-    "y": 3256,
-    "width": 358,
-    "height": 432
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
-  },
-  {
-   "file": "10-featured-rs-4-09-crore-3-weeks-ago",
-   "name": "Featured · Rs 4.09 Crore · 3 weeks ago",
-   "rect": {
-    "x": 16,
-    "y": 3704,
-    "width": 358,
-    "height": 432
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
-  },
-  {
-   "file": "11-rs-1-68-crore-2-minutes-ago-10-marla-pri",
-   "name": "Rs 1.68 Crore · 2 minutes ago · 10 MARLA PRIME L",
-   "rect": {
-    "x": 16,
-    "y": 4168,
-    "width": 358,
-    "height": 432
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
-  },
-  {
-   "file": "12-rs-74-lacs-1-minute-ago-5-marla-prime-lo",
-   "name": "Rs 74 Lacs · 1 minute ago · 5 Marla Prime Locati",
-   "rect": {
-    "x": 16,
-    "y": 4616,
+    "y": 2905,
     "width": 358,
     "height": 450
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "13-rs-1-59-crore-1-minute-ago-10-marla-plot",
-   "name": "Rs 1.59 Crore · 1 minute ago · 10 Marla Plot Ava",
+   "file": "09-featured-rs-2-crore-2-weeks-ago",
+   "name": "Featured · Rs 2 Crore · 2 weeks ago",
    "rect": {
     "x": 16,
-    "y": 5082,
+    "y": 3371,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "14-rs-59-lacs-1-minute-ago-5-marla-possessi",
-   "name": "Rs 59 Lacs · 1 minute ago · 5 Marla Possession P",
+   "file": "10-featured-rs-2-13-crore-2-days-ago",
+   "name": "Featured · Rs 2.13 Crore · 2 days ago",
    "rect": {
     "x": 16,
-    "y": 5530,
+    "y": 3819,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(8)"
   },
   {
-   "file": "15-rs-1-12-crore-2-minutes-ago-5-marla-lowe",
-   "name": "Rs 1.12 Crore · 2 minutes ago · 5 Marla Lowest P",
+   "file": "11-featured-rs-5-85-crore-4-days-ago",
+   "name": "Featured · Rs 5.85 Crore · 4 days ago",
    "rect": {
     "x": 16,
-    "y": 5978,
+    "y": 4267,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(9)"
   },
   {
-   "file": "16-rs-88-lacs-3-minutes-ago-10-marla-plot-f",
-   "name": "Rs 88 Lacs · 3 minutes ago · 10 Marla Plot For S",
+   "file": "12-rs-3-75-crore-1-minute-ago-21-marla-poss",
+   "name": "Rs 3.75 Crore · 1 minute ago · 21 Marla Possessi",
    "rect": {
     "x": 16,
-    "y": 6426,
+    "y": 4731,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(16)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(11)"
   },
   {
-   "file": "17-rs-50-crore-4-minutes-ago-prime-investme",
-   "name": "Rs 50 Crore · 4 minutes ago · *Prime Investment ",
+   "file": "13-rs-85-lacs-3-minutes-ago-hot-location-5-",
+   "name": "Rs 85 Lacs · 3 minutes ago · Hot Location 5-Marl",
    "rect": {
     "x": 16,
-    "y": 6874,
+    "y": 5179,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(17)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(12)"
   },
   {
-   "file": "18-rs-6-crore-4-minutes-ago-4-bed-dd-luxury",
-   "name": "Rs 6 Crore · 4 minutes ago · 4 Bed DD Luxury Lik",
+   "file": "14-rs-38-75-lacs-4-minutes-ago-smart-studio",
+   "name": "Rs 38.75 Lacs · 4 minutes ago · Smart Studio Apa",
    "rect": {
     "x": 16,
-    "y": 7322,
+    "y": 5627,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(18)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(13)"
   },
   {
-   "file": "19-rs-3-55-crore-7-minutes-ago-plot-no-170-",
-   "name": "Rs 3.55 Crore · 7 minutes ago · plot no 170 E ma",
+   "file": "15-rs-85-lacs-4-minutes-ago-10-marla-plot-f",
+   "name": "Rs 85 Lacs · 4 minutes ago · 10 MARLA PLOT FOR S",
    "rect": {
     "x": 16,
-    "y": 7770,
+    "y": 6075,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(19)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(14)"
   },
   {
-   "file": "20-rs-50-lacs-12-minutes-ago-dha-phase-10-l",
-   "name": "Rs 50 Lacs · 12 minutes ago · DHA Phase 10 Lahor",
+   "file": "16-rs-40-lacs-4-minutes-ago-250-sq-ft-studi",
+   "name": "Rs 40 Lacs · 4 minutes ago · 250 Sq Ft Studio Ap",
    "rect": {
     "x": 16,
-    "y": 8218,
+    "y": 6523,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(20)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(15)"
   },
   {
-   "file": "21-rs-1-75-crore-12-minutes-ago-house-for-s",
-   "name": "Rs 1.75 Crore · 12 minutes ago · House for sale ",
+   "file": "17-rs-3-50-crore-6-minutes-ago-corner-plot-",
+   "name": "Rs 3.50 Crore · 6 minutes ago · Corner Plot for ",
    "rect": {
     "x": 16,
-    "y": 8666,
+    "y": 6971,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(21)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(16)"
   },
   {
-   "file": "22-rs-8-50-crore-12-minutes-ago-20-marla-mo",
-   "name": "Rs 8.50 Crore · 12 minutes ago · 20 Marla Modern",
+   "file": "18-rs-2-29-crore-8-minutes-ago-1-kanal-resi",
+   "name": "Rs 2.29 Crore · 8 minutes ago · 1 Kanal Resident",
    "rect": {
     "x": 16,
-    "y": 9114,
+    "y": 7419,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(22)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(17)"
   },
   {
-   "file": "23-rs-140-crore-14-minutes-ago-g-10-corner-",
-   "name": "Rs 140 Crore · 14 minutes ago · G-10 Corner Plaz",
+   "file": "19-rs-1-65-crore-8-minutes-ago-10-marla-res",
+   "name": "Rs 1.65 Crore · 8 minutes ago · 10 Marla Residen",
    "rect": {
     "x": 16,
-    "y": 9578,
+    "y": 7867,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(24)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(18)"
   },
   {
-   "file": "24-rs-57-lacs-14-minutes-ago-3-marla-plot-f",
-   "name": "Rs 57 Lacs · 14 minutes ago · 3 Marla plot For s",
+   "file": "20-rs-3-25-crore-8-minutes-ago-1-kanal-poss",
+   "name": "Rs 3.25 Crore · 8 minutes ago · 1 Kanal Possessi",
    "rect": {
     "x": 16,
-    "y": 10026,
+    "y": 8315,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(25)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(19)"
   },
   {
-   "file": "25-rs-3-20-crore-20-minutes-ago-13-5-marla-",
-   "name": "Rs 3.20 Crore · 20 minutes ago · 13.5 Marla Corn",
+   "file": "21-rs-58-lacs-9-minutes-ago-5-marla-prime-l",
+   "name": "Rs 58 Lacs · 9 minutes ago · 5 MARLA PRIME LOCAT",
    "rect": {
     "x": 16,
-    "y": 10474,
+    "y": 8763,
     "width": 358,
     "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(26)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(20)"
   },
   {
-   "file": "26-retry",
-   "name": "Retry",
+   "file": "22-rs-55-lacs-9-minutes-ago-10-marla-plot-f",
+   "name": "Rs 55 Lacs · 9 minutes ago · 10 MARLA PLOT FOR S",
+   "rect": {
+    "x": 16,
+    "y": 9211,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(21)"
+  },
+  {
+   "file": "23-rs-45-lacs-9-minutes-ago-low-range-5-mar",
+   "name": "Rs 45 Lacs · 9 minutes ago · LOW RANGE 5 MARLA P",
+   "rect": {
+    "x": 16,
+    "y": 9659,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(22)"
+  },
+  {
+   "file": "24-rs-3-20-crore-11-minutes-ago-house-for-i",
+   "name": "Rs 3.20 Crore · 11 minutes ago · House For In Se",
+   "rect": {
+    "x": 16,
+    "y": 10123,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(24)"
+  },
+  {
+   "file": "25-rs-2-10-crore-12-minutes-ago-10-marla-re",
+   "name": "Rs 2.10 Crore · 12 minutes ago · 10 Marla Reside",
+   "rect": {
+    "x": 16,
+    "y": 10571,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(25)"
+  },
+  {
+   "file": "26-rs-4-50-crore-12-minutes-ago-10-marla-ho",
+   "name": "Rs 4.50 Crore · 12 minutes ago · 10 Marla House ",
+   "rect": {
+    "x": 16,
+    "y": 11019,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(26)"
+  },
+  {
+   "file": "27-featured-rs-4-15-crore-4-days-ago",
+   "name": "Featured · Rs 4.15 Crore · 4 days ago",
+   "rect": {
+    "x": 16,
+    "y": 11467,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(27)"
+  },
+  {
+   "file": "28-featured-rs-2-40-crore-6-hours-ago",
+   "name": "Featured · Rs 2.40 Crore · 6 hours ago",
+   "rect": {
+    "x": 16,
+    "y": 11915,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(28)"
+  },
+  {
+   "file": "29-featured-rs-3-95-crore-2-hours-ago",
+   "name": "Featured · Rs 3.95 Crore · 2 hours ago",
+   "rect": {
+    "x": 16,
+    "y": 12363,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(29)"
+  },
+  {
+   "file": "30-featured-rs-3-crore-4-days-ago",
+   "name": "Featured · Rs 3 Crore · 4 days ago",
+   "rect": {
+    "x": 16,
+    "y": 12811,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(30)"
+  },
+  {
+   "file": "31-featured-rs-85-lacs-4-days-ago",
+   "name": "Featured · Rs 85 Lacs · 4 days ago",
+   "rect": {
+    "x": 16,
+    "y": 13259,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(31)"
+  },
+  {
+   "file": "32-featured-rs-6-crore-4-weeks-ago",
+   "name": "Featured · Rs 6 Crore · 4 weeks ago",
+   "rect": {
+    "x": 16,
+    "y": 13707,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(32)"
+  },
+  {
+   "file": "33-featured-rs-95-50-lacs-14-hours-ago",
+   "name": "Featured · Rs 95.50 Lacs · 14 hours ago",
+   "rect": {
+    "x": 16,
+    "y": 14155,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(33)"
+  },
+  {
+   "file": "34-featured-rs-1-55-crore-2-days-ago",
+   "name": "Featured · Rs 1.55 Crore · 2 days ago",
+   "rect": {
+    "x": 16,
+    "y": 14603,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(34)"
+  },
+  {
+   "file": "35-got-something-to-sell-post-in-3-simple-s",
+   "name": "Got Something to Sell? · Post in 3 Simple Steps ",
+   "rect": {
+    "x": 16,
+    "y": 15047,
+    "width": 358,
+    "height": 197
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "36-listings",
+   "name": "Listings",
    "rect": {
     "x": 0,
-    "y": 10922,
+    "y": 15256,
     "width": 390,
-    "height": 48
+    "height": 6752
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
   },
   {
-   "file": "27-properties-for-sale-in-pakistan",
+   "file": "37-properties-for-sale-in-pakistan",
    "name": "Properties for Sale in Pakistan",
    "rect": {
     "x": 0,
-    "y": 11002,
+    "y": 22056,
     "width": 390,
     "height": 86
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "28-popular-searches",
-   "name": "Popular Searches",
+   "file": "38-categories",
+   "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 11087,
+    "y": 22141,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "29-categories",
-   "name": "Categories",
+   "file": "39-location",
+   "name": "Location",
    "rect": {
     "x": 0,
-    "y": 11133,
+    "y": 22187,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "30-location",
-   "name": "Location",
+   "file": "40-filters",
+   "name": "Filters",
    "rect": {
     "x": 0,
-    "y": 11179,
+    "y": 22233,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
-  },
-  {
-   "file": "31-filters",
-   "name": "Filters",
-   "rect": {
-    "x": 0,
-    "y": 11225,
-    "width": 390,
-    "height": 47
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
-  },
-  {
-   "file": "32-footer",
-   "name": "Footer",
-   "rect": {
-    "x": 0,
-    "y": 11271,
-    "width": 390,
-    "height": 456
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
-  },
-  {
-   "file": "33-sell",
-   "name": "SELL",
-   "rect": {
-    "x": 0,
-    "y": 11658,
-    "width": 390,
-    "height": 45
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
   }
  ],
  "hotspots": [
@@ -397,619 +475,27 @@
    "width": 42,
    "height": 28,
    "kind": "button",
-   "label": ""
+   "label": "1"
   },
   {
-   "x": 16,
-   "y": 120,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/chance-deal-urjent-sale-residential-plot-for-sale-sector-4c-iid-1118917134",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 495,
-   "width": 158,
-   "height": 40,
+   "x": 219,
+   "y": 64,
+   "width": 69,
+   "height": 28,
    "kind": "button",
-   "label": "Call"
+   "label": "Price Quick Filter"
   },
   {
-   "x": 199,
-   "y": 495,
-   "width": 158,
+   "x": 34,
+   "y": 583,
+   "width": 322,
    "height": 40,
    "kind": "button",
    "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 568,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/dha-rahber-sector-5-ex-kemc-iid-1119699041",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 943,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 943,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 1016,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/pha-apartment-for-sale-like-new-iid-1119367791",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 1391,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 1391,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 1464,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-bed-houses-for-sale-in-i-112-islamabad-inverter-acs-included-iid-1119838662",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 1839,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 1839,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 1912,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/1-kanal-fully-furnished-luxury-house-for-sale-in-lake-city-lahore-near-grand-mosque-lake-city-mall-prime-location-iid-1118062021",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 2287,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 2287,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 2360,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/corner-ideal-house-on-sale-for-good-return-in-f-7-islamabad-iid-1119852487",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 2735,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 2735,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 2808,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/luxurious-furnished-penthouse-with-eiffle-view-or-private-pool-for-sale-on-instalments-iid-1118775260",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 3183,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 3183,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 3256,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/plot-for-sale-sector-i-154-iid-1119692479",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 3631,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 3631,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 3704,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/prime-location-plot-iid-1119022247",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 4079,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 4079,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 4168,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/10-marla-prime-location-plot-available-for-sale-in-canal-garden-near-bahria-town-lahore-iid-1119893832",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 4543,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 4543,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 4616,
-   "width": 358,
-   "height": 450,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-prime-location-plot-available-for-sale-in-postal-employee-iid-1119819942",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 5009,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 5009,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 5082,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/10-marla-plot-available-for-sale-in-canal-valley-near-bahria-town-lahore-iid-1119819939",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 5457,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 5457,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 5530,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-possession-paid-plot-available-for-sale-iid-1119291665",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 5905,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 5905,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 5978,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-lowest-price-top-location-plot-for-sale-in-dha-lahore-phase-9-prism-k-block-iid-1119893817",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 6353,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 6353,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 6426,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/10-marla-plot-for-sale-at-icon-valley-mardan-block-d-iid-1118928637",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 6801,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 6801,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 6874,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/prime-investment-opportunity-plaza-for-sale-in-g-10-islamabad-location-g-10-islamabad-size-60-x-80-iid-1119893750",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 7249,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 7249,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 7322,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/4-bed-dd-luxury-like-new-apartment-for-sale-roshan-residency-sana-residency-ayesha-pride-laiba-homes-faizan-sky-tower-al-sadiq-tower-qutba-corner-apartments-avanti-terrace-al-ghafoor-chalet-faisal-heaven-apartments-iid-1119893748",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 7697,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 7697,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 7770,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/plot-no-170-e-main-150-fit-road-cornal-and-facing-park-8-marla-commercial-available-for-sale-ideal-location-for-plot-iid-1119893645",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 8145,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 8145,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 8218,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/dha-phase-10-lahore-10-marla-affidavit-file-available-gold-investment-iid-1119893477",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 8593,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 8593,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 8666,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/house-for-sale-in-main-boulevard-defence-opposite-adil-hospital-iid-1119893468",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 9041,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 9041,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 9114,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/20-marla-modern-house-for-sale-slightly-used-well-maintained-valencia-town-iid-1119893459",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 9489,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 9489,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 9578,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/g-10-corner-plaza-for-sale-60x80-6-story-iid-1119893398",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 9953,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 9953,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 10026,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/3-marla-plot-for-sale-available-in-al-kabir-town-iid-1119893381",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 10401,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 10401,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 16,
-   "y": 10474,
-   "width": 358,
-   "height": 432,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/135-marla-corner-house-in-c2-township-lahore-iid-1119893182",
-   "label": "Listing"
-  },
-  {
-   "x": 33,
-   "y": 10849,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 199,
-   "y": 10849,
-   "width": 158,
-   "height": 40,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 144,
-   "y": 10922,
-   "width": 102,
-   "height": 48,
-   "kind": "button",
-   "label": "Retry"
   },
   {
    "x": 143,
-   "y": 11658,
+   "y": 22666,
    "width": 104,
    "height": 45,
    "kind": "button",
@@ -1017,8 +503,8 @@
   },
   {
    "x": 16,
-   "y": 11059,
-   "width": 32,
+   "y": 22113,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -1026,7 +512,7 @@
   },
   {
    "x": 16,
-   "y": 11571,
+   "y": 22579,
    "width": 84,
    "height": 33,
    "kind": "link",
@@ -1035,7 +521,7 @@
   },
   {
    "x": 113,
-   "y": 11637,
+   "y": 22645,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -1044,7 +530,7 @@
   },
   {
    "x": 157,
-   "y": 11637,
+   "y": 22645,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -1053,7 +539,7 @@
   },
   {
    "x": 201,
-   "y": 11637,
+   "y": 22645,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -1062,7 +548,7 @@
   },
   {
    "x": 245,
-   "y": 11637,
+   "y": 22645,
    "width": 32,
    "height": 41,
    "kind": "link",

@@ -2,14 +2,14 @@
  "id": "ad-online-jobs",
  "title": "Ad: Online Jobs",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1118864547",
- "finalUrl": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1118864547",
+ "url": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1120185284",
+ "finalUrl": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1120185284",
  "width": 390,
- "height": 2099,
+ "height": 2241,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:10:51.314Z",
+ "captured": "2026-10-07T14:17:49.149Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -51,16 +51,16 @@
     "x": 0,
     "y": 509,
     "width": 390,
-    "height": 315
+    "height": 247
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
    "file": "05-description",
-   "name": "Description · خوشخبری! آن لائن اور آفس ورک کا بہ",
+   "name": "Description · گھر بیٹھے آن لائن کام اور ڈیجیٹل ا",
    "rect": {
     "x": 0,
-    "y": 844,
+    "y": 776,
     "width": 390,
     "height": 121
    },
@@ -71,7 +71,7 @@
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 0,
-    "y": 985,
+    "y": 917,
     "width": 390,
     "height": 181
    },
@@ -82,51 +82,62 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1225,
+    "y": 1117,
     "width": 390,
     "height": 236
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
   },
   {
-   "file": "08-online-jobs-in-jaranwala-online-jobs-in-",
-   "name": "Online Jobs in Jaranwala · Online Jobs in Faisal",
+   "file": "08-div",
+   "name": "div",
+   "rect": {
+    "x": 0,
+    "y": 1372,
+    "width": 390,
+    "height": 251
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "09-online-jobs-in-allama-iqbal-intl-airport",
+   "name": "Online Jobs in Allama Iqbal Intl Airport · Onlin",
    "rect": {
     "x": 8,
-    "y": 1508,
+    "y": 1650,
     "width": 374,
     "height": 26
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "09-categories",
+   "file": "10-categories",
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1533,
+    "y": 1675,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "10-footer",
+   "file": "11-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1579,
+    "y": 1721,
     "width": 390,
     "height": 520
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "11-chat-call",
-   "name": "Chat · Call",
+   "file": "12-chat",
+   "name": "Chat",
    "rect": {
     "x": 0,
-    "y": 2034,
+    "y": 2176,
     "width": 390,
     "height": 65
    },
@@ -152,7 +163,7 @@
   },
   {
    "x": 171,
-   "y": 726,
+   "y": 650,
    "width": 190,
    "height": 21,
    "kind": "link",
@@ -160,16 +171,17 @@
    "label": "Entry Level"
   },
   {
-   "x": 143,
-   "y": 802,
-   "width": 104,
-   "height": 26,
-   "kind": "button",
-   "label": "View +1 more"
+   "x": 171,
+   "y": 726,
+   "width": 190,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-full-time",
+   "label": "Full-time"
   },
   {
    "x": 16,
-   "y": 944,
+   "y": 876,
    "width": 358,
    "height": 21,
    "kind": "button",
@@ -177,58 +189,50 @@
   },
   {
    "x": 20,
-   "y": 997,
+   "y": 929,
    "width": 354,
    "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/bcbbd13d-6df5-42e8-87ea-b7c50896af89",
-   "label": "Posted byshahzain Member Since2026Active Ads11"
+   "href": "https://www.olx.com.pk/profile/203219da-47e7-4a5e-bc4f-908d5cb384a3",
+   "label": "Posted bySeller nameMember Since2025Active Ads10"
   },
   {
-   "x": 142,
-   "y": 1129,
-   "width": 110,
+   "x": 141,
+   "y": 1061,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 2047,
-   "width": 175,
+   "y": 2189,
+   "width": 358,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 199,
-   "y": 2047,
-   "width": 175,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 252,
-   "y": 1512,
-   "width": 130,
+   "x": 184,
+   "y": 1654,
+   "width": 198,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/jaranwala_g4060665/online_c1737",
-   "label": "Online Jobs in Jaranwala"
+   "href": "https://www.olx.com.pk/allama-iqbal-intl-airport_g5000307/online_c1737",
+   "label": "Online Jobs in Allama Iqbal Intl Airport"
   },
   {
-   "x": 89,
-   "y": 1512,
-   "width": 133,
+   "x": 43,
+   "y": 1654,
+   "width": 112,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/faisalabad_g4060660/online_c1737",
-   "label": "Online Jobs in Faisalabad"
+   "href": "https://www.olx.com.pk/lahore_g4060673/online_c1737",
+   "label": "Online Jobs in Lahore"
   },
   {
-   "x": -3,
-   "y": 1512,
+   "x": -48,
+   "y": 1654,
    "width": 62,
    "height": 16,
    "kind": "link",
@@ -236,18 +240,18 @@
    "label": "Online Jobs"
   },
   {
-   "x": -56,
-   "y": 1512,
-   "width": 23,
+   "x": -102,
+   "y": 1654,
+   "width": 25,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
    "label": "Jobs"
   },
   {
-   "x": -118,
-   "y": 1512,
-   "width": 32,
+   "x": -164,
+   "y": 1654,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -255,16 +259,16 @@
   },
   {
    "x": 16,
-   "y": 1878,
+   "y": 2020,
    "width": 84,
    "height": 34,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
    "x": 113,
-   "y": 1945,
+   "y": 2087,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -273,7 +277,7 @@
   },
   {
    "x": 157,
-   "y": 1945,
+   "y": 2087,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -282,7 +286,7 @@
   },
   {
    "x": 201,
-   "y": 1945,
+   "y": 2087,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -291,7 +295,7 @@
   },
   {
    "x": 245,
-   "y": 1945,
+   "y": 2087,
    "width": 32,
    "height": 41,
    "kind": "link",

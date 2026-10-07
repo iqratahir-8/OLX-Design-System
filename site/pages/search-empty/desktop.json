@@ -5,10 +5,11 @@
  "url": "https://www.olx.com.pk/items/q-qzxqzxnothing",
  "finalUrl": "https://www.olx.com.pk/items/q-qzxqzxnothing",
  "width": 1440,
- "height": 1387,
+ "height": 1073,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T13:17:58.184Z",
+ "scrolled": false,
+ "captured": "2026-10-07T14:19:37.561Z",
  "sections": [
   {
    "file": "01-header",
@@ -33,26 +34,15 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "03-qzxqzxnothing-in-pakistan",
-   "name": "Qzxqzxnothing in Pakistan",
-   "rect": {
-    "x": 80,
-    "y": 193,
-    "width": 1280,
-    "height": 848
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1)"
-  },
-  {
-   "file": "04-footer",
-   "name": "Footer",
+   "file": "03-header",
+   "name": "Header",
    "rect": {
     "x": 0,
-    "y": 1041,
+    "y": 193,
     "width": 1440,
-    "height": 346
+    "height": 880
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(2)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   }
  ],
  "hotspots": [
@@ -77,7 +67,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -124,7 +114,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -133,7 +123,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -142,16 +132,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -160,7 +150,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -169,18 +159,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -188,7 +178,7 @@
   },
   {
    "x": 80,
-   "y": 476,
+   "y": 194,
    "width": 39,
    "height": 18,
    "kind": "link",
@@ -197,7 +187,7 @@
   },
   {
    "x": 97,
-   "y": 613,
+   "y": 331,
    "width": 270,
    "height": 21,
    "kind": "link",
@@ -206,7 +196,7 @@
   },
   {
    "x": 122,
-   "y": 729,
+   "y": 447,
    "width": 212,
    "height": 46,
    "kind": "input",
@@ -214,7 +204,7 @@
   },
   {
    "x": 97,
-   "y": 794,
+   "y": 512,
    "width": 270,
    "height": 18,
    "kind": "link",
@@ -223,7 +213,7 @@
   },
   {
    "x": 98,
-   "y": 899,
+   "y": 617,
    "width": 111,
    "height": 38,
    "kind": "input",
@@ -231,7 +221,7 @@
   },
   {
    "x": 255,
-   "y": 899,
+   "y": 617,
    "width": 111,
    "height": 38,
    "kind": "input",
@@ -239,7 +229,7 @@
   },
   {
    "x": 89,
-   "y": 948,
+   "y": 666,
    "width": 16,
    "height": 16,
    "kind": "button",
@@ -247,7 +237,7 @@
   },
   {
    "x": 359,
-   "y": 948,
+   "y": 666,
    "width": 16,
    "height": 16,
    "kind": "button",
@@ -255,23 +245,23 @@
   },
   {
    "x": 1075,
-   "y": 560,
-   "width": 36,
+   "y": 278,
+   "width": 37,
    "height": 36,
    "kind": "button",
    "label": ""
   },
   {
    "x": 1119,
-   "y": 560,
-   "width": 36,
+   "y": 278,
+   "width": 37,
    "height": 36,
    "kind": "button",
    "label": ""
   },
   {
    "x": 1188,
-   "y": 567,
+   "y": 285,
    "width": 172,
    "height": 22,
    "kind": "button",
@@ -279,7 +269,7 @@
   },
   {
    "x": 80,
-   "y": 1148,
+   "y": 834,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -288,7 +278,7 @@
   },
   {
    "x": 80,
-   "y": 1180,
+   "y": 866,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -297,7 +287,7 @@
   },
   {
    "x": 80,
-   "y": 1212,
+   "y": 898,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -306,8 +296,8 @@
   },
   {
    "x": 80,
-   "y": 1244,
-   "width": 33,
+   "y": 930,
+   "width": 32,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
@@ -315,8 +305,8 @@
   },
   {
    "x": 351,
-   "y": 1148,
-   "width": 36,
+   "y": 834,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -324,7 +314,7 @@
   },
   {
    "x": 351,
-   "y": 1180,
+   "y": 866,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -333,8 +323,8 @@
   },
   {
    "x": 351,
-   "y": 1212,
-   "width": 44,
+   "y": 898,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -342,7 +332,7 @@
   },
   {
    "x": 351,
-   "y": 1244,
+   "y": 930,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -351,8 +341,8 @@
   },
   {
    "x": 622,
-   "y": 1148,
-   "width": 66,
+   "y": 834,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -360,8 +350,8 @@
   },
   {
    "x": 622,
-   "y": 1180,
-   "width": 78,
+   "y": 866,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -369,8 +359,8 @@
   },
   {
    "x": 622,
-   "y": 1212,
-   "width": 134,
+   "y": 898,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -378,8 +368,8 @@
   },
   {
    "x": 893,
-   "y": 1148,
-   "width": 33,
+   "y": 834,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -387,7 +377,7 @@
   },
   {
    "x": 893,
-   "y": 1180,
+   "y": 866,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -396,8 +386,8 @@
   },
   {
    "x": 893,
-   "y": 1212,
-   "width": 90,
+   "y": 898,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -405,8 +395,8 @@
   },
   {
    "x": 893,
-   "y": 1244,
-   "width": 92,
+   "y": 930,
+   "width": 95,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
@@ -414,7 +404,7 @@
   },
   {
    "x": 1164,
-   "y": 1145,
+   "y": 831,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -423,7 +413,7 @@
   },
   {
    "x": 1216,
-   "y": 1145,
+   "y": 831,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -432,7 +422,7 @@
   },
   {
    "x": 1268,
-   "y": 1145,
+   "y": 831,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -441,7 +431,7 @@
   },
   {
    "x": 1320,
-   "y": 1145,
+   "y": 831,
    "width": 40,
    "height": 41,
    "kind": "link",

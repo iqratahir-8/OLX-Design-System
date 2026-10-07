@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/car-batteries/honda/civic/2022-2026/",
  "finalUrl": "https://www.olx.com.pk/motors/car-batteries/honda/civic/2022-2026/",
  "width": 390,
- "height": 826,
+ "height": 1274,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:55:13.943Z",
+ "captured": "2026-10-07T14:35:36.440Z",
  "sections": [
   {
    "file": "01-batteries-for-honda-civic-2022-2026",
@@ -18,7 +18,7 @@
     "x": 0,
     "y": 0,
     "width": 390,
-    "height": 455
+    "height": 837
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1)"
   },
@@ -27,9 +27,9 @@
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 494,
+    "y": 876,
     "width": 390,
-    "height": 332
+    "height": 398
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
   },
@@ -38,7 +38,7 @@
    "name": "Home · Chat · Sell",
    "rect": {
     "x": 0,
-    "y": 767,
+    "y": 1215,
     "width": 390,
     "height": 59
    },
@@ -47,9 +47,27 @@
  ],
  "hotspots": [
   {
+   "x": 313,
+   "y": 249,
+   "width": 61,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars-accessories_c2027/q-battery/",
+   "label": "View More"
+  },
+  {
    "x": 16,
-   "y": 244,
-   "width": 32,
+   "y": 278,
+   "width": 217,
+   "height": 325,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/car-gps-tracker-with-mobile-app-in-low-prices-iid-1119717014/",
+   "label": "FEATUREDRs 10.50 ThousandsCar GPS Tracker with Mobile App in Low PricesMalir, Ka"
+  },
+  {
+   "x": 16,
+   "y": 626,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -57,17 +75,17 @@
   },
   {
    "x": 76,
-   "y": 244,
-   "width": 37,
+   "y": 626,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
    "label": "Motors"
   },
   {
-   "x": 141,
-   "y": 244,
-   "width": 68,
+   "x": 142,
+   "y": 626,
+   "width": 66,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-batteries/",
@@ -75,7 +93,7 @@
   },
   {
    "x": 16,
-   "y": 321,
+   "y": 703,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -84,7 +102,7 @@
   },
   {
    "x": 201,
-   "y": 321,
+   "y": 703,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -93,7 +111,7 @@
   },
   {
    "x": 16,
-   "y": 350,
+   "y": 732,
    "width": 173,
    "height": 34,
    "kind": "link",
@@ -102,7 +120,7 @@
   },
   {
    "x": 201,
-   "y": 350,
+   "y": 732,
    "width": 173,
    "height": 34,
    "kind": "link",
@@ -111,7 +129,7 @@
   },
   {
    "x": 16,
-   "y": 395,
+   "y": 777,
    "width": 173,
    "height": 35,
    "kind": "link",
@@ -120,7 +138,7 @@
   },
   {
    "x": 201,
-   "y": 395,
+   "y": 777,
    "width": 173,
    "height": 35,
    "kind": "link",
@@ -129,15 +147,15 @@
   },
   {
    "x": 16,
-   "y": 429,
-   "width": 59,
+   "y": 811,
+   "width": 60,
    "height": 26,
    "kind": "button",
    "label": "View More"
   },
   {
    "x": 0,
-   "y": 775,
+   "y": 1223,
    "width": 72,
    "height": 44,
    "kind": "link",
@@ -146,7 +164,7 @@
   },
   {
    "x": 79,
-   "y": 775,
+   "y": 1223,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -155,7 +173,7 @@
   },
   {
    "x": 159,
-   "y": 773,
+   "y": 1221,
    "width": 72,
    "height": 47,
    "kind": "link",
@@ -164,7 +182,7 @@
   },
   {
    "x": 238,
-   "y": 775,
+   "y": 1223,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -172,25 +190,33 @@
    "label": "My Ads"
   },
   {
-   "x": 331,
-   "y": 775,
-   "width": 46,
+   "x": 332,
+   "y": 1223,
+   "width": 45,
    "height": 44,
    "kind": "button",
    "label": "Account"
   },
   {
    "x": 16,
-   "y": 610,
+   "y": 992,
    "width": 358,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 1066,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 680,
+   "y": 1128,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -199,7 +225,7 @@
   },
   {
    "x": 157,
-   "y": 680,
+   "y": 1128,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -208,7 +234,7 @@
   },
   {
    "x": 201,
-   "y": 680,
+   "y": 1128,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -217,7 +243,7 @@
   },
   {
    "x": 245,
-   "y": 680,
+   "y": 1128,
    "width": 32,
    "height": 37,
    "kind": "link",

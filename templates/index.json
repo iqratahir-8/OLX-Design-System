@@ -1,21 +1,21 @@
 {
   "source": "https://www.olx.com.pk",
-  "captured": "2026-09-29",
+  "captured": "2026-10-07",
   "templates": [
     {
       "page": "ad-detail",
       "viewport": "desktop",
-      "path": "/item/samsung-a07-464gb-available-on-easy-installment-plan-iid-1119658083",
+      "path": "/item/samsung-s25-pta-100-orignal-stock-iid-1112212726",
       "width": 1440,
-      "height": 3114,
+      "height": 2912,
       "dpr": 1
     },
     {
       "page": "ad-detail",
       "viewport": "mobile",
-      "path": "/item/samsung-a07-464gb-available-on-easy-installment-plan-iid-1119658083",
+      "path": "/item/samsung-s25-pta-100-orignal-stock-iid-1112212726",
       "width": 390,
-      "height": 2322,
+      "height": 2244,
       "dpr": 3
     },
     {
@@ -23,7 +23,7 @@
       "viewport": "desktop",
       "path": "/mobile-phones_c1453",
       "width": 1440,
-      "height": 9423,
+      "height": 9516,
       "dpr": 1
     },
     {
@@ -31,7 +31,7 @@
       "viewport": "mobile",
       "path": "/mobile-phones_c1453",
       "width": 390,
-      "height": 6174,
+      "height": 6326,
       "dpr": 3
     },
     {
@@ -39,7 +39,7 @@
       "viewport": "desktop",
       "path": "/",
       "width": 1440,
-      "height": 5754,
+      "height": 5526,
       "dpr": 1
     },
     {
@@ -47,7 +47,7 @@
       "viewport": "mobile",
       "path": "/",
       "width": 390,
-      "height": 4252,
+      "height": 4102,
       "dpr": 3
     },
     {
@@ -55,7 +55,7 @@
       "viewport": "mobile",
       "path": "/",
       "width": 390,
-      "height": 4252,
+      "height": 4102,
       "dpr": 3
     },
     {
@@ -63,7 +63,7 @@
       "viewport": "mobile",
       "path": "/",
       "width": 390,
-      "height": 4252,
+      "height": 11077,
       "dpr": 3
     },
     {
@@ -71,7 +71,7 @@
       "viewport": "desktop",
       "path": "/items/q-iphone",
       "width": 1440,
-      "height": 8980,
+      "height": 13252,
       "dpr": 1
     },
     {
@@ -79,7 +79,7 @@
       "viewport": "mobile",
       "path": "/items/q-iphone",
       "width": 390,
-      "height": 5828,
+      "height": 8502,
       "dpr": 3
     }
   ]

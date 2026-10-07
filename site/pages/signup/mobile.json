@@ -8,7 +8,8 @@
  "height": 664,
  "dpr": 2,
  "overlay": true,
- "captured": "2026-09-29T13:30:51.280Z",
+ "scrolled": false,
+ "captured": "2026-10-07T14:56:06.720Z",
  "sections": [
   {
    "file": "01-create-a-new-olx-account-join-with-googl",
@@ -60,17 +61,8 @@
    "label": ""
   },
   {
-   "x": 16,
-   "y": 192,
-   "width": 358,
-   "height": 151,
-   "kind": "link",
-   "href": "https://www.youtube.com/watch?v=8Ix-ekSoEdY",
-   "label": "A New Track on Coke StudioPlay This Song"
-  },
-  {
    "x": 306,
-   "y": 638,
+   "y": 488,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -79,7 +71,7 @@
   },
   {
    "x": 306,
-   "y": 1008,
+   "y": 858,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -88,7 +80,7 @@
   },
   {
    "x": 306,
-   "y": 1404,
+   "y": 1254,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -97,7 +89,7 @@
   },
   {
    "x": 306,
-   "y": 1774,
+   "y": 1624,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -106,7 +98,7 @@
   },
   {
    "x": 306,
-   "y": 2170,
+   "y": 2020,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -115,7 +107,7 @@
   },
   {
    "x": 306,
-   "y": 2540,
+   "y": 2390,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -124,7 +116,7 @@
   },
   {
    "x": 306,
-   "y": 2910,
+   "y": 2760,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -133,7 +125,7 @@
   },
   {
    "x": 306,
-   "y": 3280,
+   "y": 3130,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -185,16 +177,16 @@
   },
   {
    "x": 16,
-   "y": 4036,
+   "y": 3886,
    "width": 84,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
    "x": 113,
-   "y": 4102,
+   "y": 3952,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -203,7 +195,7 @@
   },
   {
    "x": 157,
-   "y": 4102,
+   "y": 3952,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -212,7 +204,7 @@
   },
   {
    "x": 201,
-   "y": 4102,
+   "y": 3952,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -221,7 +213,7 @@
   },
   {
    "x": 245,
-   "y": 4102,
+   "y": 3952,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -338,9 +330,9 @@
    "label": "Join with Phone"
   },
   {
-   "x": 68,
+   "x": 69,
    "y": 477,
-   "width": 283,
+   "width": 279,
    "height": 36,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -349,7 +341,7 @@
   {
    "x": 234,
    "y": 495,
-   "width": 88,
+   "width": 87,
    "height": 18,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",

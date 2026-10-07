@@ -2,14 +2,14 @@
  "id": "ad-furniture",
  "title": "Ad: Furniture & Home Decor",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/office-chairs-study-chairs-executive-chairs-computer-chairs-iid-1119242245",
- "finalUrl": "https://www.olx.com.pk/item/office-chairs-study-chairs-executive-chairs-computer-chairs-iid-1119242245",
+ "url": "https://www.olx.com.pk/item/6-seater-sofa-sofa-set-l-shape-sofa-corner-sofa-sofa-for-sale-iid-1120037099",
+ "finalUrl": "https://www.olx.com.pk/item/6-seater-sofa-sofa-set-l-shape-sofa-corner-sofa-sofa-for-sale-iid-1120037099",
  "width": 1440,
- "height": 3002,
+ "height": 2680,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:05:20.114Z",
+ "captured": "2026-10-07T14:13:47.745Z",
  "sections": [
   {
    "file": "01-header",
@@ -34,8 +34,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "03-home-furniture-and-home-decor-office-fur",
-   "name": "Home · Furniture & Home Decor · Office Furniture",
+   "file": "03-home-furniture-and-home-decor-sofa-and-c",
+   "name": "Home · Furniture & Home Decor · Sofa & Chairs",
    "rect": {
     "x": 80,
     "y": 193,
@@ -45,110 +45,99 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "04-div",
-   "name": "div",
-   "rect": {
-    "x": 80,
-    "y": 250,
-    "width": 1280,
-    "height": 251
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
-  },
-  {
-   "file": "05-gallery",
+   "file": "04-gallery",
    "name": "Gallery",
    "rect": {
     "x": 80,
-    "y": 532,
+    "y": 282,
     "width": 820,
     "height": 481
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "06-posted-by-seller-name-member-since",
+   "file": "05-posted-by-seller-name-member-since",
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 940,
-    "y": 532,
+    "y": 282,
     "width": 420,
-    "height": 491
+    "height": 375
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
   {
-   "file": "07-overview",
+   "file": "06-overview",
    "name": "Overview",
    "rect": {
     "x": 80,
-    "y": 1052,
+    "y": 802,
     "width": 820,
     "height": 116
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "08-details",
+   "file": "07-details",
    "name": "Details",
    "rect": {
     "x": 80,
-    "y": 1207,
+    "y": 957,
     "width": 820,
     "height": 80
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "09-description",
+   "file": "08-description",
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1326,
+    "y": 1076,
     "width": 820,
-    "height": 426
+    "height": 354
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "10-related-ads",
+   "file": "09-related-ads",
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 1791,
+    "y": 1469,
     "width": 820,
     "height": 459
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "11-your-safety-matters-to-us-only-meet-in-p",
+   "file": "10-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2289,
+    "y": 1967,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "12-find-amazing-deals-on-the-go-download-ol",
+   "file": "11-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2483,
+    "y": 2161,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "13-footer",
+   "file": "12-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2655,
+    "y": 2333,
     "width": 1440,
     "height": 347
    },
@@ -177,7 +166,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -224,7 +213,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -233,7 +222,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -242,16 +231,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -260,7 +249,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -269,18 +258,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -296,53 +285,62 @@
    "label": "Home"
   },
   {
-   "x": 149,
+   "x": 148,
    "y": 196,
-   "width": 151,
+   "width": 148,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/furniture-home-decor_c628",
    "label": "Furniture & Home Decor"
   },
   {
-   "x": 330,
+   "x": 325,
+   "y": 196,
+   "width": 81,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sofa-chairs_c1593",
+   "label": "Sofa & Chairs"
+  },
+  {
+   "x": 435,
+   "y": 196,
+   "width": 34,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sofas_c707116",
+   "label": "Sofas"
+  },
+  {
+   "x": 498,
+   "y": 196,
+   "width": 93,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/sofas_c707116",
+   "label": "Sofas in Lahore"
+  },
+  {
+   "x": 620,
+   "y": 196,
+   "width": 84,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cantt_g5000047/sofas_c707116",
+   "label": "Sofas in Cantt"
+  },
+  {
+   "x": 733,
    "y": 196,
    "width": 95,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/office-furniture_c2028",
-   "label": "Office Furniture"
-  },
-  {
-   "x": 455,
-   "y": 196,
-   "width": 78,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/office-chairs_c707154",
-   "label": "Office Chairs"
-  },
-  {
-   "x": 563,
-   "y": 196,
-   "width": 139,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/office-chairs_c707154",
-   "label": "Office Chairs in Lahore"
-  },
-  {
-   "x": 732,
-   "y": 196,
-   "width": 183,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/raiwind-road_g5000741/office-chairs_c707154",
-   "label": "Office Chairs in Raiwind Road"
+   "href": "https://www.olx.com.pk/saddar_g5000065/sofas_c707116",
+   "label": "Sofas in Saddar"
   },
   {
    "x": 832,
-   "y": 1228,
+   "y": 498,
    "width": 48,
    "height": 49,
    "kind": "button",
@@ -350,7 +348,7 @@
   },
   {
    "x": 80,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -358,7 +356,7 @@
   },
   {
    "x": 900,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -366,135 +364,7 @@
   },
   {
    "x": 1720,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2540,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3360,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4180,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5000,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5820,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6640,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 7460,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 8280,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 9100,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 9920,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 10740,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 11560,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 12380,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 13200,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 14020,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 14840,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -502,25 +372,25 @@
   },
   {
    "x": 249,
-   "y": 1257,
+   "y": 1007,
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/office-chairs_c707154/q-new-office-chairs",
+   "href": "https://www.olx.com.pk/sofas_c707116/q-new-sofas",
    "label": "New"
   },
   {
    "x": 659,
-   "y": 1257,
+   "y": 1007,
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/office-chairs_c707154/q-computer-chairs",
-   "label": "Computer Chairs"
+   "href": "https://www.olx.com.pk/sofas_c707116/q-sofa-set",
+   "label": "Sofa Set"
   },
   {
    "x": 60,
-   "y": 2021,
+   "y": 1699,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -528,142 +398,142 @@
   },
   {
    "x": 80,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/office-chair-revolving-chair-mesh-chair-computer-chair-iid-1087960886",
+   "href": "https://www.olx.com.pk/item/03XX-XXXXXXX-iid-1117197320",
    "label": "Listing"
   },
   {
    "x": 357,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/computer-chairs-call-center-chairs-staff-chairs-office-chairs-iid-1113318259",
+   "href": "https://www.olx.com.pk/item/i-sel-my-sofa-3-seater-black-colour-with-2-stool-pairs-iid-1120196289",
    "label": "Listing"
   },
   {
    "x": 634,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/staff-chairs-office-chairs-iid-1119832301",
+   "href": "https://www.olx.com.pk/item/sofa-set-sofas-6-seater-sofas-furniture-03XX-XXXXXXX-iid-1120196098",
    "label": "Listing"
   },
   {
    "x": 900,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/office-chairvisitor-chairoffice-furniturechairbedroom-chair-iid-1118177955",
+   "href": "https://www.olx.com.pk/item/home-sofa-set-3-2-2s-7-sesters-white-color-iid-1115127104",
    "label": "Listing"
   },
   {
    "x": 1177,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/computer-chairs-office-chairs-chairs-for-sale-staff-chairs-iid-1113106574",
+   "href": "https://www.olx.com.pk/item/elegant-6-seater-sofa-set-comfortable-stylish-iid-1120168572",
    "label": "Listing"
   },
   {
    "x": 1454,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/branded-revolving-office-chairs-iid-1119809318",
+   "href": "https://www.olx.com.pk/item/sofa-4-seater-iid-1120193417",
    "label": "Listing"
   },
   {
    "x": 1720,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/office-chairs-revolving-chairs-office-furniture-executive-chairs-iid-1106248363",
+   "href": "https://www.olx.com.pk/item/chanyoti-dewan-iid-1120192585",
    "label": "Listing"
   },
   {
    "x": 1997,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/chairs-and-table-iid-1119726478",
+   "href": "https://www.olx.com.pk/item/beautiful-color-neat-and-clean-sofa-set-iid-1120189842",
    "label": "Listing"
   },
   {
    "x": 2274,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/office-chairs-for-sale-iid-1118133172",
+   "href": "https://www.olx.com.pk/item/sofa-come-bed-multiform-ka-bana-whats-up-number-03XX-XXXXXXX-iid-1120169670",
    "label": "Listing"
   },
   {
    "x": 2540,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/office-chairs-and-tables-iid-1119448229",
+   "href": "https://www.olx.com.pk/item/32-seater-sofa-set-iid-1120170802",
    "label": "Listing"
   },
   {
    "x": 2817,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/computer-chairstudy-chairoffice-chairrevolving-chairvisitor-chairs-iid-1119020424",
+   "href": "https://www.olx.com.pk/item/cane-bamboo-sofa-set-5-seater-iid-1120188061",
    "label": "Listing"
   },
   {
    "x": 3094,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/chair-ok-ha-bas-set-thori-sy-poshish-honay-wali-ha-iid-1119639214",
+   "href": "https://www.olx.com.pk/item/8-seater-sofa-set-iid-1120187949",
    "label": "Listing"
   },
   {
    "x": 3360,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/office-chairs-iid-1119607158",
+   "href": "https://www.olx.com.pk/item/7-seater-l-shape-sofa-comfortable-stylish-iid-1120186612",
    "label": "Listing"
   },
   {
    "x": 3637,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/chairsofficechairsgamingchairsbosschairrevolvingchairschairs-iid-1107443429",
+   "href": "https://www.olx.com.pk/item/chocolate-brown-ring-couch-iid-1120172303",
    "label": "Listing"
   },
   {
    "x": 3914,
-   "y": 1833,
+   "y": 1511,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/office-chairstaff-chairsoffice-chairscomputer-chairs-iid-1119483449",
+   "href": "https://www.olx.com.pk/item/new-texture-design-6-seater-stylish-sofa-set-iid-1120175856",
    "label": "Listing"
   },
   {
    "x": 880,
-   "y": 2021,
+   "y": 1699,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -671,16 +541,16 @@
   },
   {
    "x": 940,
-   "y": 532,
+   "y": 282,
    "width": 420,
-   "height": 138,
+   "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/companies/agency-7596",
-   "label": "Posted byBADAR OFFICE FURNITURE Member Since2023Active Ads27"
+   "href": "https://www.olx.com.pk/profile/51c29bad-48f5-4893-8865-ebdeaaa71fdf",
+   "label": "Posted bySeller nameMember Since2018Active Ads28"
   },
   {
    "x": 940,
-   "y": 685,
+   "y": 439,
    "width": 420,
    "height": 49,
    "kind": "button",
@@ -688,7 +558,7 @@
   },
   {
    "x": 940,
-   "y": 749,
+   "y": 503,
    "width": 420,
    "height": 49,
    "kind": "button",
@@ -696,23 +566,23 @@
   },
   {
    "x": 940,
-   "y": 813,
+   "y": 567,
    "width": 420,
    "height": 49,
    "kind": "button",
    "label": "WhatsApp"
   },
   {
-   "x": 1236,
-   "y": 873,
-   "width": 124,
+   "x": 1235,
+   "y": 627,
+   "width": 125,
    "height": 30,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 960,
-   "y": 2565,
+   "y": 2243,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -721,7 +591,7 @@
   },
   {
    "x": 1096,
-   "y": 2565,
+   "y": 2243,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -730,7 +600,7 @@
   },
   {
    "x": 1232,
-   "y": 2565,
+   "y": 2243,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -739,7 +609,7 @@
   },
   {
    "x": 80,
-   "y": 2763,
+   "y": 2441,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -748,7 +618,7 @@
   },
   {
    "x": 80,
-   "y": 2795,
+   "y": 2473,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -757,7 +627,7 @@
   },
   {
    "x": 80,
-   "y": 2827,
+   "y": 2505,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -766,8 +636,8 @@
   },
   {
    "x": 80,
-   "y": 2859,
-   "width": 33,
+   "y": 2537,
+   "width": 32,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
@@ -775,8 +645,8 @@
   },
   {
    "x": 351,
-   "y": 2763,
-   "width": 36,
+   "y": 2441,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -784,7 +654,7 @@
   },
   {
    "x": 351,
-   "y": 2795,
+   "y": 2473,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -793,8 +663,8 @@
   },
   {
    "x": 351,
-   "y": 2827,
-   "width": 44,
+   "y": 2505,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -802,7 +672,7 @@
   },
   {
    "x": 351,
-   "y": 2859,
+   "y": 2537,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -811,8 +681,8 @@
   },
   {
    "x": 622,
-   "y": 2763,
-   "width": 66,
+   "y": 2441,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -820,8 +690,8 @@
   },
   {
    "x": 622,
-   "y": 2795,
-   "width": 78,
+   "y": 2473,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -829,8 +699,8 @@
   },
   {
    "x": 622,
-   "y": 2827,
-   "width": 134,
+   "y": 2505,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -838,8 +708,8 @@
   },
   {
    "x": 893,
-   "y": 2763,
-   "width": 33,
+   "y": 2441,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -847,7 +717,7 @@
   },
   {
    "x": 893,
-   "y": 2795,
+   "y": 2473,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -856,8 +726,8 @@
   },
   {
    "x": 893,
-   "y": 2827,
-   "width": 90,
+   "y": 2505,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -865,8 +735,8 @@
   },
   {
    "x": 893,
-   "y": 2859,
-   "width": 92,
+   "y": 2537,
+   "width": 95,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
@@ -874,7 +744,7 @@
   },
   {
    "x": 1164,
-   "y": 2760,
+   "y": 2438,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -883,7 +753,7 @@
   },
   {
    "x": 1216,
-   "y": 2760,
+   "y": 2438,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -892,7 +762,7 @@
   },
   {
    "x": 1268,
-   "y": 2760,
+   "y": 2438,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -901,7 +771,7 @@
   },
   {
    "x": 1320,
-   "y": 2760,
+   "y": 2438,
    "width": 40,
    "height": 41,
    "kind": "link",

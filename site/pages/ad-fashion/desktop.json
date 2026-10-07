@@ -2,14 +2,14 @@
  "id": "ad-fashion",
  "title": "Ad: Fashion & Beauty",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/elegant-heavily-embellished-goldchampagne-bridal-maxxi-front-open-iid-1119813312",
- "finalUrl": "https://www.olx.com.pk/item/elegant-heavily-embellished-goldchampagne-bridal-maxxi-front-open-iid-1119813312",
+ "url": "https://www.olx.com.pk/item/bridal-maxi-handmade-heavy-embroidered-formal-dress-one-time-used-iid-1118197666",
+ "finalUrl": "https://www.olx.com.pk/item/bridal-maxi-handmade-heavy-embroidered-formal-dress-one-time-used-iid-1118197666",
  "width": 1440,
- "height": 2864,
+ "height": 2758,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:06:04.806Z",
+ "captured": "2026-10-07T14:14:25.569Z",
  "sections": [
   {
    "file": "01-header",
@@ -45,112 +45,101 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "04-div",
-   "name": "div",
-   "rect": {
-    "x": 80,
-    "y": 250,
-    "width": 1280,
-    "height": 251
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
-  },
-  {
-   "file": "05-gallery",
+   "file": "04-gallery",
    "name": "Gallery",
    "rect": {
     "x": 80,
-    "y": 532,
+    "y": 282,
     "width": 820,
     "height": 481
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "06-posted-by-seller-name-member-since",
+   "file": "05-posted-by-seller-name-member-since",
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 940,
-    "y": 532,
+    "y": 282,
     "width": 420,
-    "height": 367
+    "height": 247
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
   {
-   "file": "07-overview",
+   "file": "06-overview",
    "name": "Overview",
    "rect": {
     "x": 80,
-    "y": 1052,
+    "y": 802,
     "width": 820,
     "height": 146
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "08-details",
+   "file": "07-details",
    "name": "Details",
    "rect": {
     "x": 80,
-    "y": 1237,
+    "y": 987,
     "width": 820,
     "height": 80
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "09-description",
+   "file": "08-description",
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1356,
+    "y": 1106,
     "width": 820,
-    "height": 258
+    "height": 402
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "10-related-ads",
+   "file": "09-related-ads",
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 1653,
+    "y": 1547,
     "width": 820,
-    "height": 460
+    "height": 459
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "11-your-safety-matters-to-us-only-meet-in-p",
+   "file": "10-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2152,
+    "y": 2045,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "12-find-amazing-deals-on-the-go-download-ol",
+   "file": "11-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2346,
+    "y": 2239,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "13-footer",
+   "file": "12-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2518,
+    "y": 2411,
     "width": 1440,
-    "height": 346
+    "height": 347
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   }
@@ -177,7 +166,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -224,7 +213,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -233,7 +222,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -242,16 +231,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -260,7 +249,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -269,18 +258,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -296,25 +285,25 @@
    "label": "Home"
   },
   {
-   "x": 149,
+   "x": 148,
    "y": 196,
-   "width": 107,
+   "width": 104,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/fashion-beauty_c87",
    "label": "Fashion & Beauty"
   },
   {
-   "x": 286,
+   "x": 282,
    "y": 196,
-   "width": 59,
+   "width": 57,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/wedding_c1971",
    "label": "Wedding"
   },
   {
-   "x": 375,
+   "x": 369,
    "y": 196,
    "width": 40,
    "height": 19,
@@ -323,18 +312,18 @@
    "label": "Bridals"
   },
   {
-   "x": 445,
+   "x": 438,
    "y": 196,
-   "width": 101,
+   "width": 100,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/lahore_g4060673/bridals_c706502",
    "label": "Bridals in Lahore"
   },
   {
-   "x": 576,
+   "x": 567,
    "y": 196,
-   "width": 143,
+   "width": 141,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/dha-defence_g9/bridals_c706502",
@@ -342,7 +331,7 @@
   },
   {
    "x": 832,
-   "y": 1228,
+   "y": 498,
    "width": 48,
    "height": 49,
    "kind": "button",
@@ -350,7 +339,7 @@
   },
   {
    "x": 80,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -358,23 +347,7 @@
   },
   {
    "x": 900,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 1720,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2540,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -382,7 +355,7 @@
   },
   {
    "x": 249,
-   "y": 1287,
+   "y": 1037,
    "width": 213,
    "height": 22,
    "kind": "link",
@@ -391,7 +364,7 @@
   },
   {
    "x": 60,
-   "y": 1883,
+   "y": 1777,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -399,142 +372,142 @@
   },
   {
    "x": 80,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/lehanga-chooli-for-sale-1010-iid-1119859876",
+   "href": "https://www.olx.com.pk/item/sana-safinaz-inspired-bridal-maxi-bridal-lehnga-weeding-dress-iid-1120196916",
    "label": "Listing"
   },
   {
    "x": 357,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/bridel-costumize-dresses-iid-1119850771",
+   "href": "https://www.olx.com.pk/item/bridal-dress-iid-1118986645",
    "label": "Listing"
   },
   {
    "x": 634,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/kanwal-malik-designer-bridal-lehenga-preloved-iid-1119850566",
+   "href": "https://www.olx.com.pk/item/bridal-lehnga-iid-1120162956",
    "label": "Listing"
   },
   {
    "x": 900,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/wedding-dress-bridal-dress-maxi-reception-dress-bridal-dress-iid-1119746323",
+   "href": "https://www.olx.com.pk/item/bridal-barat-lehnga-for-sale-iid-1116722273",
    "label": "Listing"
   },
   {
    "x": 1177,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/lehnga-barat-for-sale-iid-1119750517",
+   "href": "https://www.olx.com.pk/item/libas-e-khas-iid-1119779441",
    "label": "Listing"
   },
   {
    "x": 1454,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/bridal-maxi-iid-1119850479",
+   "href": "https://www.olx.com.pk/item/soraya-bridal-dress-for-sale-iid-1120162259",
    "label": "Listing"
   },
   {
    "x": 1720,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/bridal-maxi-walima-dress-pistta-green-new-look-iid-1119848258",
+   "href": "https://www.olx.com.pk/item/mohsin-naveed-ranjha-bridal-outfit-lehnga-choli-dupata-potli-iid-1120158627",
    "label": "Listing"
   },
   {
    "x": 1997,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/tail-maxi-strawberry-colour-iid-1118097451",
+   "href": "https://www.olx.com.pk/item/designer-walima-dress-mysie-tail-maxi-lehnga-dupata-iid-1120156486",
    "label": "Listing"
   },
   {
    "x": 2274,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/barat-bribal-dress-iid-1118984469",
+   "href": "https://www.olx.com.pk/item/walima-dress-walima-maxi-bridal-maxi-iid-1118197629",
    "label": "Listing"
   },
   {
    "x": 2540,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/bridal-lehenga-iid-1115835112",
+   "href": "https://www.olx.com.pk/item/brand-new-designer-bridal-dress-iid-1119861654",
    "label": "Listing"
   },
   {
    "x": 2817,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/walima-outfit-bridal-lehanga-reception-outfit-iid-1117115372",
+   "href": "https://www.olx.com.pk/item/lehnga-bridal-lehnga-lehnga-for-sale-branded-lehnga-iid-1105025572",
    "label": "Listing"
   },
   {
    "x": 3094,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/walima-maxy-walima-dress-bridal-dress-iid-1113935044",
+   "href": "https://www.olx.com.pk/item/barat-lehnga-iid-1117619291",
    "label": "Listing"
   },
   {
    "x": 3360,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/one-time-used-only-in-excellent-condition-iid-1118770955",
+   "href": "https://www.olx.com.pk/item/bridal-maxi-waleema-dress-party-wear-iid-1109573524",
    "label": "Listing"
   },
   {
    "x": 3637,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/bridal-maxi-just-like-new-iid-1119786907",
+   "href": "https://www.olx.com.pk/item/bridal-dress-customized-bridal-dress-demanding-artical-barat-iid-1118693487",
    "label": "Listing"
   },
   {
    "x": 3914,
-   "y": 1695,
+   "y": 1589,
    "width": 266,
-   "height": 416,
+   "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/wedding-dress-iid-1119787815",
+   "href": "https://www.olx.com.pk/item/bridal-dresses-for-walima-and-barat-iid-1102414444",
    "label": "Listing"
   },
   {
    "x": 880,
-   "y": 1883,
+   "y": 1777,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -542,32 +515,32 @@
   },
   {
    "x": 940,
-   "y": 532,
+   "y": 282,
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/d1bd7d72-2b87-4830-8940-3d44b0492edf",
-   "label": "Posted by Usman Member Since2023Active Ads5"
+   "href": "https://www.olx.com.pk/profile/f2d8ee9a-abb7-434d-bf16-cfca693d8a08",
+   "label": "Posted bySeller nameMember Since2022Active Ads1"
   },
   {
    "x": 940,
-   "y": 689,
+   "y": 439,
    "width": 420,
    "height": 49,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 1236,
-   "y": 749,
-   "width": 124,
+   "x": 1235,
+   "y": 499,
+   "width": 125,
    "height": 30,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 960,
-   "y": 2428,
+   "y": 2321,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -576,7 +549,7 @@
   },
   {
    "x": 1096,
-   "y": 2428,
+   "y": 2321,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -585,7 +558,7 @@
   },
   {
    "x": 1232,
-   "y": 2428,
+   "y": 2321,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -594,7 +567,7 @@
   },
   {
    "x": 80,
-   "y": 2625,
+   "y": 2519,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -603,7 +576,7 @@
   },
   {
    "x": 80,
-   "y": 2657,
+   "y": 2551,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -612,7 +585,7 @@
   },
   {
    "x": 80,
-   "y": 2689,
+   "y": 2583,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -621,8 +594,8 @@
   },
   {
    "x": 80,
-   "y": 2721,
-   "width": 33,
+   "y": 2615,
+   "width": 32,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
@@ -630,8 +603,8 @@
   },
   {
    "x": 351,
-   "y": 2625,
-   "width": 36,
+   "y": 2519,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -639,7 +612,7 @@
   },
   {
    "x": 351,
-   "y": 2657,
+   "y": 2551,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -648,8 +621,8 @@
   },
   {
    "x": 351,
-   "y": 2689,
-   "width": 44,
+   "y": 2583,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -657,7 +630,7 @@
   },
   {
    "x": 351,
-   "y": 2721,
+   "y": 2615,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -666,8 +639,8 @@
   },
   {
    "x": 622,
-   "y": 2625,
-   "width": 66,
+   "y": 2519,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -675,8 +648,8 @@
   },
   {
    "x": 622,
-   "y": 2657,
-   "width": 78,
+   "y": 2551,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -684,8 +657,8 @@
   },
   {
    "x": 622,
-   "y": 2689,
-   "width": 134,
+   "y": 2583,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -693,8 +666,8 @@
   },
   {
    "x": 893,
-   "y": 2625,
-   "width": 33,
+   "y": 2519,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -702,7 +675,7 @@
   },
   {
    "x": 893,
-   "y": 2657,
+   "y": 2551,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -711,8 +684,8 @@
   },
   {
    "x": 893,
-   "y": 2689,
-   "width": 90,
+   "y": 2583,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -720,8 +693,8 @@
   },
   {
    "x": 893,
-   "y": 2721,
-   "width": 92,
+   "y": 2615,
+   "width": 95,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
@@ -729,7 +702,7 @@
   },
   {
    "x": 1164,
-   "y": 2622,
+   "y": 2516,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -738,7 +711,7 @@
   },
   {
    "x": 1216,
-   "y": 2622,
+   "y": 2516,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -747,7 +720,7 @@
   },
   {
    "x": 1268,
-   "y": 2622,
+   "y": 2516,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -756,7 +729,7 @@
   },
   {
    "x": 1320,
-   "y": 2622,
+   "y": 2516,
    "width": 40,
    "height": 41,
    "kind": "link",

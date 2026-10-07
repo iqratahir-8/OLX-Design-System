@@ -2,14 +2,14 @@
  "id": "ad-books-sports",
  "title": "Ad: Books, Sports & Hobbies",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/snooker-table-for-sale-5x10-6x12-bismillah-snooker-factory-iid-1117496854",
- "finalUrl": "https://www.olx.com.pk/item/snooker-table-for-sale-5x10-6x12-bismillah-snooker-factory-iid-1117496854",
+ "url": "https://www.olx.com.pk/item/snooker-tables-for-sale-iid-1120122972",
+ "finalUrl": "https://www.olx.com.pk/item/snooker-tables-for-sale-iid-1120122972",
  "width": 1440,
- "height": 5968,
+ "height": 2079,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:06:54.077Z",
+ "captured": "2026-10-07T14:15:01.694Z",
  "sections": [
   {
    "file": "01-header",
@@ -45,121 +45,88 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "04-div",
-   "name": "div",
-   "rect": {
-    "x": 80,
-    "y": 250,
-    "width": 1280,
-    "height": 251
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
-  },
-  {
-   "file": "05-gallery",
+   "file": "04-gallery",
    "name": "Gallery",
    "rect": {
     "x": 80,
-    "y": 532,
+    "y": 282,
     "width": 820,
     "height": 481
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "06-posted-by-seller-name-member-since",
+   "file": "05-posted-by-seller-name-member-since",
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 940,
-    "y": 532,
+    "y": 282,
     "width": 420,
-    "height": 431
+    "height": 375
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
   {
-   "file": "07-overview",
+   "file": "06-overview",
    "name": "Overview",
    "rect": {
     "x": 80,
-    "y": 1052,
+    "y": 802,
     "width": 820,
     "height": 116
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "08-details",
+   "file": "07-details",
    "name": "Details",
    "rect": {
     "x": 80,
-    "y": 1207,
+    "y": 957,
     "width": 820,
-    "height": 80
+    "height": 121
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "09-description",
+   "file": "08-description",
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1326,
+    "y": 1117,
     "width": 820,
-    "height": 27
+    "height": 210
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "10-bismillah-snooker-factory",
-   "name": "--------------------Bismillah Snooker Factory---",
+   "file": "09-your-safety-matters-to-us-only-meet-in-p",
+   "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 1369,
-    "width": 447,
-    "height": 3346
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(1)"
-  },
-  {
-   "file": "11-related-ads",
-   "name": "Related Ads",
-   "rect": {
-    "x": 80,
-    "y": 4757,
+    "y": 1366,
     "width": 820,
-    "height": 459
+    "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "12-your-safety-matters-to-us-only-meet-in-p",
-   "name": "Your safety matters to us! · Only meet in public",
-   "rect": {
-    "x": 80,
-    "y": 5255,
-    "width": 820,
-    "height": 171
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(6)"
-  },
-  {
-   "file": "13-find-amazing-deals-on-the-go-download-ol",
+   "file": "10-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 5449,
+    "y": 1560,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "14-footer",
+   "file": "11-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 5621,
+    "y": 1732,
     "width": 1440,
     "height": 347
    },
@@ -188,7 +155,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -235,7 +202,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -244,7 +211,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -253,16 +220,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -271,7 +238,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -280,18 +247,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -307,53 +274,53 @@
    "label": "Home"
   },
   {
-   "x": 149,
+   "x": 148,
    "y": 196,
-   "width": 156,
+   "width": 151,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books-sports-hobbies_c767",
    "label": "Books, Sports & Hobbies"
   },
   {
-   "x": 335,
+   "x": 328,
    "y": 196,
-   "width": 111,
+   "width": 110,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/sports-equipment_c100",
    "label": "Sports Equipment"
   },
   {
-   "x": 476,
+   "x": 467,
    "y": 196,
-   "width": 187,
+   "width": 183,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/billiards-snooker-equipment_c708047",
    "label": "Billiards & Snooker Equipment"
   },
   {
-   "x": 693,
+   "x": 679,
    "y": 196,
-   "width": 248,
+   "width": 263,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/billiards-snooker-equipment_c708047",
-   "label": "Billiards & Snooker Equipment in Lahore"
+   "href": "https://www.olx.com.pk/islamabad_g4060615/billiards-snooker-equipment_c708047",
+   "label": "Billiards & Snooker Equipment in Islamabad"
   },
   {
    "x": 971,
    "y": 196,
-   "width": 257,
+   "width": 221,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/gulberg_g7/billiards-snooker-equipment_c708047",
-   "label": "Billiards & Snooker Equipment in Gulberg"
+   "href": "https://www.olx.com.pk/e-11_g5000966/billiards-snooker-equipment_c708047",
+   "label": "Billiards & Snooker Equipment in E-11"
   },
   {
    "x": 832,
-   "y": 1228,
+   "y": 498,
    "width": 48,
    "height": 49,
    "kind": "button",
@@ -361,7 +328,7 @@
   },
   {
    "x": 80,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -369,7 +336,7 @@
   },
   {
    "x": 900,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -377,95 +344,7 @@
   },
   {
    "x": 1720,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2540,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3360,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4180,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5000,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5820,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6640,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 7460,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 8280,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 9100,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 9920,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 10740,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -473,176 +352,34 @@
   },
   {
    "x": 249,
-   "y": 1257,
+   "y": 1007,
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/billiards-snooker-equipment_c708047/q-new",
-   "label": "New"
+   "href": "https://www.olx.com.pk/billiards-snooker-equipment_c708047/q-snooker-tables",
+   "label": "Snooker Tables"
   },
   {
-   "x": 60,
-   "y": 4987,
-   "width": 40,
-   "height": 41,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 80,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/snooker-table-rasson-iid-1119854294",
-   "label": "Listing"
-  },
-  {
-   "x": 357,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/snooker-tables-for-commercial-use-built-for-high-traffic-clubs-iid-1113579207",
-   "label": "Listing"
-  },
-  {
-   "x": 634,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/612-table-available-2-inch-marble-which-price-250000-each-iid-1119476862",
-   "label": "Listing"
-  },
-  {
-   "x": 900,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/new-snooker-club-opened-with-new-tables-for-sale-iid-1109498991",
-   "label": "Listing"
-  },
-  {
-   "x": 1177,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/snooker-table-for-sale-star-iid-1119243452",
-   "label": "Listing"
-  },
-  {
-   "x": 1454,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/612-table-2-inch-marble-available-which-price-250000-each-iid-1119476641",
-   "label": "Listing"
-  },
-  {
-   "x": 1720,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/two-snokar-tabal-612-size-urgent-for-sale-iid-1119373471",
-   "label": "Listing"
-  },
-  {
-   "x": 1997,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/brand-new-snooker-table-6x12-5x10-home-clubsnooker-table-for-iid-1119459765",
-   "label": "Listing"
-  },
-  {
-   "x": 2274,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/snooker-table-resson-strong-for-sale-iid-1119243547",
-   "label": "Listing"
-  },
-  {
-   "x": 2540,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/star-snooker-table-for-sale-iid-1119243666",
-   "label": "Listing"
-  },
-  {
-   "x": 2817,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/luxury-billiard-pool-table-new-custom-design-premium-pool-table-iid-1119459690",
-   "label": "Listing"
-  },
-  {
-   "x": 3094,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/premium-luxury-pool-table-home-club-use-luxury-pool-table-8x4-iid-1119459595",
-   "label": "Listing"
-  },
-  {
-   "x": 3360,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/premium-snooker-table-6x12-5x10-new-custom-made-iid-1119459543",
-   "label": "Listing"
-  },
-  {
-   "x": 3637,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/snooker-table-resson-golden-addiction-iid-1119244107",
-   "label": "Listing"
-  },
-  {
-   "x": 3914,
-   "y": 4799,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/snooker-table-resson-612-iid-1119244256",
-   "label": "Listing"
-  },
-  {
-   "x": 880,
-   "y": 4987,
-   "width": 40,
-   "height": 41,
-   "kind": "button",
-   "label": ""
+   "x": 249,
+   "y": 1048,
+   "width": 213,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/billiards-snooker-equipment_c708047/q-used",
+   "label": "Used"
   },
   {
    "x": 940,
-   "y": 532,
+   "y": 282,
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/82e56929-81df-466d-9c41-ae88801f5c1e",
-   "label": "Posted byBismillah Snooker Factory Member Since2022Active Ads12"
+   "href": "https://www.olx.com.pk/profile/676540ff-4eb3-4e42-80a0-d3efc7b90fed",
+   "label": "Posted bySeller nameMember Since2015Active Ads1"
   },
   {
    "x": 940,
-   "y": 689,
+   "y": 439,
    "width": 420,
    "height": 49,
    "kind": "button",
@@ -650,23 +387,31 @@
   },
   {
    "x": 940,
-   "y": 753,
+   "y": 503,
    "width": 420,
    "height": 49,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 1236,
-   "y": 813,
-   "width": 124,
+   "x": 940,
+   "y": 567,
+   "width": 420,
+   "height": 49,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
+   "x": 1235,
+   "y": 627,
+   "width": 125,
    "height": 30,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 960,
-   "y": 5531,
+   "y": 1642,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -675,7 +420,7 @@
   },
   {
    "x": 1096,
-   "y": 5531,
+   "y": 1642,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -684,7 +429,7 @@
   },
   {
    "x": 1232,
-   "y": 5531,
+   "y": 1642,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -693,7 +438,7 @@
   },
   {
    "x": 80,
-   "y": 5729,
+   "y": 1840,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -702,7 +447,7 @@
   },
   {
    "x": 80,
-   "y": 5761,
+   "y": 1872,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -711,7 +456,7 @@
   },
   {
    "x": 80,
-   "y": 5793,
+   "y": 1904,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -720,8 +465,8 @@
   },
   {
    "x": 80,
-   "y": 5825,
-   "width": 33,
+   "y": 1936,
+   "width": 32,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
@@ -729,8 +474,8 @@
   },
   {
    "x": 351,
-   "y": 5729,
-   "width": 36,
+   "y": 1840,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -738,7 +483,7 @@
   },
   {
    "x": 351,
-   "y": 5761,
+   "y": 1872,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -747,8 +492,8 @@
   },
   {
    "x": 351,
-   "y": 5793,
-   "width": 44,
+   "y": 1904,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -756,7 +501,7 @@
   },
   {
    "x": 351,
-   "y": 5825,
+   "y": 1936,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -765,8 +510,8 @@
   },
   {
    "x": 622,
-   "y": 5729,
-   "width": 66,
+   "y": 1840,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -774,8 +519,8 @@
   },
   {
    "x": 622,
-   "y": 5761,
-   "width": 78,
+   "y": 1872,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -783,8 +528,8 @@
   },
   {
    "x": 622,
-   "y": 5793,
-   "width": 134,
+   "y": 1904,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -792,8 +537,8 @@
   },
   {
    "x": 893,
-   "y": 5729,
-   "width": 33,
+   "y": 1840,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -801,7 +546,7 @@
   },
   {
    "x": 893,
-   "y": 5761,
+   "y": 1872,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -810,8 +555,8 @@
   },
   {
    "x": 893,
-   "y": 5793,
-   "width": 90,
+   "y": 1904,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -819,8 +564,8 @@
   },
   {
    "x": 893,
-   "y": 5825,
-   "width": 92,
+   "y": 1936,
+   "width": 95,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
@@ -828,7 +573,7 @@
   },
   {
    "x": 1164,
-   "y": 5726,
+   "y": 1837,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -837,7 +582,7 @@
   },
   {
    "x": 1216,
-   "y": 5726,
+   "y": 1837,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -846,7 +591,7 @@
   },
   {
    "x": 1268,
-   "y": 5726,
+   "y": 1837,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -855,7 +600,7 @@
   },
   {
    "x": 1320,
-   "y": 5726,
+   "y": 1837,
    "width": 40,
    "height": 41,
    "kind": "link",

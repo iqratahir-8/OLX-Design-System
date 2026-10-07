@@ -5,10 +5,11 @@
  "url": "https://www.olx.com.pk/mobile-phones_c1453",
  "finalUrl": "https://www.olx.com.pk/mobile-phones_c1453?page=1",
  "width": 1440,
- "height": 9619,
+ "height": 9516,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T12:59:37.673Z",
+ "scrolled": false,
+ "captured": "2026-10-07T13:58:15.456Z",
  "sections": [
   {
    "file": "01-header",
@@ -37,99 +38,374 @@
    "name": "Mobile Phones in Pakistan",
    "rect": {
     "x": 80,
-    "y": 475,
+    "y": 193,
     "width": 1280,
     "height": 70
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
   },
   {
    "file": "04-filters-list",
    "name": "Filters list",
    "rect": {
     "x": 80,
-    "y": 560,
+    "y": 278,
     "width": 304,
-    "height": 494
+    "height": 1638
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
   },
   {
    "file": "05-buy-with-delivery-new",
    "name": "Buy with · Delivery · New",
    "rect": {
     "x": 400,
-    "y": 560,
+    "y": 278,
     "width": 960,
     "height": 58
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
   },
   {
-   "file": "06-listings",
-   "name": "Listings",
+   "file": "06-iphone-infinix-tecno",
+   "name": "iPhone · Infinix · Tecno",
    "rect": {
     "x": 400,
-    "y": 641,
+    "y": 359,
     "width": 960,
-    "height": 7747
+    "height": 43
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "07-got-something-to-sell-post-in-3-simple-s",
+   "file": "07-apple-iphone-12-iphone-13-iphone-15",
+   "name": "Apple iPhone 12 | Iphone 13 | Iphone 15 ",
+   "rect": {
+    "x": 400,
+    "y": 417,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "08-iphone-11-128gb-pta-approved-89-batte",
+   "name": "iPhone 11 128GB PTA Approved | 89% Batte",
+   "rect": {
+    "x": 400,
+    "y": 669,
+    "width": 960,
+    "height": 238
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "09-15-pro-max-jv-simple-14-13-pro-max",
+   "name": "15 pro max jv | simple 14 | 13 pro max |",
+   "rect": {
+    "x": 400,
+    "y": 922,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "10-apple-iphone-17-pro-max-512gb-pta-approv",
+   "name": "Apple iPhone 17 Pro Max 512Gb PTA Approv",
+   "rect": {
+    "x": 400,
+    "y": 1174,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "11-apple-iphone-15-official-pta-approved",
+   "name": "Apple iPhone 15 Official Pta Approved",
+   "rect": {
+    "x": 400,
+    "y": 1426,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "12-xiaomi-redmi-turbo-4-pro-ram-16gb",
+   "name": "Xiaomi Redmi Turbo 4 Pro  RAM: 16GB",
+   "rect": {
+    "x": 400,
+    "y": 1678,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "13-infinix-hot-70-pro-5g",
+   "name": "Infinix HOT 70 Pro 5G",
+   "rect": {
+    "x": 400,
+    "y": 1930,
+    "width": 960,
+    "height": 1472
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "14-trending-mobiles-you-should-check-out-in",
+   "name": "Trending mobiles you should check out · Infinix ",
+   "rect": {
+    "x": 400,
+    "y": 3417,
+    "width": 960,
+    "height": 106
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "15-apple-iphone-15-pro-max-dual-physical-co",
+   "name": "Apple iPhone 15 pro max dual physical co",
+   "rect": {
+    "x": 400,
+    "y": 3538,
+    "width": 960,
+    "height": 238
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(10)"
+  },
+  {
+   "file": "16-iphone-13-pro-max-256gb-non-pta-10-10",
+   "name": "iPhone 13 Pro Max 256GB Non-PTA | 10/10 ",
+   "rect": {
+    "x": 400,
+    "y": 3791,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "17-oppo-a6c-4-64-mobile-7000-mah",
+   "name": "OPPO a6c 4/64 mobile 7000 mah",
+   "rect": {
+    "x": 400,
+    "y": 4043,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(12)"
+  },
+  {
+   "file": "18-iphone-14-pro",
+   "name": "IPhone 14 Pro",
+   "rect": {
+    "x": 400,
+    "y": 4295,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "19-one-plus-13t",
+   "name": "One Plus 13t",
+   "rect": {
+    "x": 400,
+    "y": 4547,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(14)"
+  },
+  {
+   "file": "20-apple-iphone-18-pro-max-burgandy-512-gb",
+   "name": "Apple iPhone 18 Pro Max Burgandy 512 GB",
+   "rect": {
+    "x": 400,
+    "y": 4799,
+    "width": 960,
+    "height": 238
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(15)"
+  },
+  {
+   "file": "21-check-out-the-latest-mobile-phones-iphon",
+   "name": "Check out the latest mobile phones · iPhone 18 P",
+   "rect": {
+    "x": 400,
+    "y": 5052,
+    "width": 960,
+    "height": 106
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(16)"
+  },
+  {
+   "file": "22-apple-iphone-14-jv-128gb-iphone-14-jv",
+   "name": "Apple iPhone 14 Jv 128GB , iphone 14 jv",
+   "rect": {
+    "x": 400,
+    "y": 5173,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(17)"
+  },
+  {
+   "file": "23-oppo-find-x9-pro-16-512-oppo-find-x9",
+   "name": "Oppo Find x9 pro , 16/512 , OPPO FIND X9",
+   "rect": {
+    "x": 400,
+    "y": 5425,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(18)"
+  },
+  {
+   "file": "24-vivo-iqoo-z11-turbo-with-box-16-256-gb",
+   "name": "Vivo iQOO Z11 Turbo with box 16/256 GB  ",
+   "rect": {
+    "x": 400,
+    "y": 5677,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(19)"
+  },
+  {
+   "file": "25-oneplus-ace-6-ultra-box-pack-one-plus",
+   "name": "OnePlus Ace 6 Ultra Box Pack , One Plus ",
+   "rect": {
+    "x": 400,
+    "y": 5929,
+    "width": 960,
+    "height": 238
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(20)"
+  },
+  {
+   "file": "26-apple-iphone-15-jv-128gb",
+   "name": "Apple iPhone 15 Jv 128gb,",
+   "rect": {
+    "x": 400,
+    "y": 6182,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(21)"
+  },
+  {
+   "file": "27-samsung-s24-pta-samsung-s24",
+   "name": "Samsung S24 PTA , SAMSUNG  S24",
+   "rect": {
+    "x": 400,
+    "y": 6434,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(22)"
+  },
+  {
+   "file": "28-explore-mobiles-in-different-cities-laho",
+   "name": "Explore mobiles in different cities · Lahore · K",
+   "rect": {
+    "x": 400,
+    "y": 6686,
+    "width": 960,
+    "height": 106
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(23)"
+  },
+  {
+   "file": "29-google-pixel-10-pro-10-10-condition-pt",
+   "name": "Google Pixel 10 pro (10/10) Condition PT",
+   "rect": {
+    "x": 400,
+    "y": 6807,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(24)"
+  },
+  {
+   "file": "30-iphone-15-pta-128-gb-wholesale-pri",
+   "name": "iphone 15 , PTA , 128 GB , Wholesale Pri",
+   "rect": {
+    "x": 400,
+    "y": 7059,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(25)"
+  },
+  {
+   "file": "31-samsung-s25-pta-100-orignal-stock",
+   "name": "Samsung S25 , PTA , 100% Orignal Stock",
+   "rect": {
+    "x": 400,
+    "y": 7311,
+    "width": 960,
+    "height": 238
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(26)"
+  },
+  {
+   "file": "32-oneplus-15-16-512-12-256-brand-new",
+   "name": "OnePlus 15 , 16/512 , 12/256 , Brand New",
+   "rect": {
+    "x": 400,
+    "y": 7564,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(27)"
+  },
+  {
+   "file": "33-oneplus-13t-13s-512gb-256gb-non",
+   "name": "Oneplus 13t , 13s , 512GB ,256GB, , NON ",
+   "rect": {
+    "x": 400,
+    "y": 7816,
+    "width": 960,
+    "height": 237
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(28)"
+  },
+  {
+   "file": "34-got-something-to-sell-post-in-3-simple-s",
    "name": "Got Something to Sell? · Post in 3 Simple Steps ",
    "rect": {
     "x": 400,
-    "y": 8411,
+    "y": 8076,
     "width": 960,
     "height": 132
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(2)"
   },
   {
-   "file": "08-apple-iphone-11-pro-max",
-   "name": "Apple iPhone 11 Pro Max",
+   "file": "35-iphone-15-pro-max-256gb-non-pta-canadi",
+   "name": "iPhone 15 Pro Max 256GB | Non PTA Canadi",
    "rect": {
     "x": 400,
-    "y": 8566,
+    "y": 8231,
     "width": 960,
-    "height": 253
+    "height": 907
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(3)"
   },
   {
-   "file": "09-retry",
-   "name": "Retry",
-   "rect": {
-    "x": 400,
-    "y": 8842,
-    "width": 960,
-    "height": 65
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
-  },
-  {
-   "file": "10-popular-searches-iphone-pro-max-iphone-p",
-   "name": "Popular Searches · iphone pro max · iphone pro",
-   "rect": {
-    "x": 80,
-    "y": 8938,
-    "width": 1280,
-    "height": 271
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
-  },
-  {
-   "file": "11-footer",
+   "file": "36-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 9272,
+    "y": 9169,
     "width": 1440,
     "height": 347
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(2)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   }
  ],
  "hotspots": [
@@ -154,7 +430,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -187,7 +463,7 @@
   {
    "x": 459,
    "y": 81,
-   "width": 791,
+   "width": 617,
    "height": 46,
    "kind": "input",
    "label": "Find Cars, Mobile Phones and more..."
@@ -201,7 +477,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -210,7 +486,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -219,16 +495,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -237,7 +513,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -246,18 +522,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -265,7 +541,7 @@
   },
   {
    "x": 80,
-   "y": 478,
+   "y": 196,
    "width": 39,
    "height": 19,
    "kind": "link",
@@ -273,8 +549,8 @@
    "label": "Home"
   },
   {
-   "x": 149,
-   "y": 478,
+   "x": 148,
+   "y": 196,
    "width": 50,
    "height": 19,
    "kind": "link",
@@ -283,7 +559,7 @@
   },
   {
    "x": 97,
-   "y": 613,
+   "y": 331,
    "width": 270,
    "height": 22,
    "kind": "link",
@@ -291,8 +567,61 @@
    "label": "All categories"
   },
   {
+   "x": 97,
+   "y": 360,
+   "width": 270,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobiles_c1411",
+   "label": "Mobiles"
+  },
+  {
+   "x": 97,
+   "y": 389,
+   "width": 270,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "label": "Mobile Phones(177,267)"
+  },
+  {
+   "x": 97,
+   "y": 418,
+   "width": 270,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/accessories_c1457",
+   "label": "Accessories(15,527)"
+  },
+  {
+   "x": 97,
+   "y": 447,
+   "width": 270,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/tablets_c1455",
+   "label": "Tablets(4,278)"
+  },
+  {
+   "x": 97,
+   "y": 476,
+   "width": 270,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/smart-watches_c1458",
+   "label": "Smart Watches(3,019)"
+  },
+  {
+   "x": 129,
+   "y": 506,
+   "width": 93,
+   "height": 19,
+   "kind": "button",
+   "label": "View more"
+  },
+  {
    "x": 122,
-   "y": 729,
+   "y": 613,
    "width": 212,
    "height": 47,
    "kind": "input",
@@ -300,409 +629,971 @@
   },
   {
    "x": 97,
-   "y": 794,
+   "y": 678,
    "width": 270,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/items",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453",
    "label": "Pakistan"
   },
   {
    "x": 113,
-   "y": 820,
+   "y": 704,
    "width": 254,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673",
-   "label": "Lahore(47,763)"
+   "href": "https://www.olx.com.pk/lahore_g4060673/mobile-phones_c1453",
+   "label": "Lahore(46,849)"
   },
   {
    "x": 113,
-   "y": 846,
+   "y": 730,
    "width": 254,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/karachi_g4060695",
-   "label": "Karachi(30,606)"
+   "href": "https://www.olx.com.pk/karachi_g4060695/mobile-phones_c1453",
+   "label": "Karachi(30,499)"
   },
   {
    "x": 113,
-   "y": 872,
+   "y": 756,
    "width": 254,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/rawalpindi_g4060681",
-   "label": "Rawalpindi(12,460)"
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/mobile-phones_c1453",
+   "label": "Rawalpindi(12,186)"
   },
   {
    "x": 113,
-   "y": 898,
+   "y": 782,
    "width": 254,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/faisalabad_g4060660",
-   "label": "Faisalabad(11,936)"
+   "href": "https://www.olx.com.pk/faisalabad_g4060660/mobile-phones_c1453",
+   "label": "Faisalabad(11,705)"
   },
   {
    "x": 113,
-   "y": 924,
+   "y": 808,
    "width": 254,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad_g4060615",
-   "label": "Islamabad(11,239)"
+   "href": "https://www.olx.com.pk/islamabad_g4060615/mobile-phones_c1453",
+   "label": "Islamabad(11,190)"
   },
   {
    "x": 113,
-   "y": 950,
+   "y": 834,
    "width": 254,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/multan_g4060675",
-   "label": "Multan(6,722)"
+   "href": "https://www.olx.com.pk/multan_g4060675/mobile-phones_c1453",
+   "label": "Multan(6,693)"
   },
   {
    "x": 113,
-   "y": 976,
+   "y": 860,
    "width": 254,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/gujranwala_g4060662",
-   "label": "Gujranwala(4,609)"
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/mobile-phones_c1453",
+   "label": "Gujranwala(4,687)"
   },
   {
    "x": 113,
-   "y": 1002,
+   "y": 886,
    "width": 254,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/sialkot_g4060686",
-   "label": "Sialkot(3,652)"
+   "href": "https://www.olx.com.pk/sialkot_g4060686/mobile-phones_c1453",
+   "label": "Sialkot(3,547)"
   },
   {
    "x": 113,
-   "y": 1028,
+   "y": 912,
    "width": 254,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/hyderabad_g4060693",
-   "label": "Hyderabad(3,376)"
+   "href": "https://www.olx.com.pk/hyderabad_g4060693/mobile-phones_c1453",
+   "label": "Hyderabad(3,305)"
   },
   {
    "x": 113,
-   "y": 1054,
+   "y": 938,
    "width": 254,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/peshawar_g4060643",
-   "label": "Peshawar(3,360)"
+   "href": "https://www.olx.com.pk/peshawar_g4060643/mobile-phones_c1453",
+   "label": "Peshawar(3,202)"
   },
   {
    "x": 113,
-   "y": 1080,
+   "y": 964,
    "width": 254,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/sargodha_g4060684",
-   "label": "Sargodha(2,701)"
+   "href": "https://www.olx.com.pk/sargodha_g4060684/mobile-phones_c1453",
+   "label": "Sargodha(2,654)"
   },
   {
    "x": 113,
+   "y": 990,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalpur_g4060653/mobile-phones_c1453",
+   "label": "Bahawalpur(2,142)"
+  },
+  {
+   "x": 113,
+   "y": 1016,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sahiwal_g4060683/mobile-phones_c1453",
+   "label": "Sahiwal(2,070)"
+  },
+  {
+   "x": 113,
+   "y": 1042,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/wah_g4060692/mobile-phones_c1453",
+   "label": "Wah(2,036)"
+  },
+  {
+   "x": 113,
+   "y": 1068,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sheikhupura_g4060685/mobile-phones_c1453",
+   "label": "Sheikhüpura(1,671)"
+  },
+  {
+   "x": 113,
+   "y": 1094,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/abbottabad_g4060640/mobile-phones_c1453",
+   "label": "Abbottabad(1,616)"
+  },
+  {
+   "x": 113,
+   "y": 1120,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujrat_g4060663/mobile-phones_c1453",
+   "label": "Gujrat(1,300)"
+  },
+  {
+   "x": 113,
+   "y": 1146,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rahimyar-khan_g4060680/mobile-phones_c1453",
+   "label": "Rahimyar Khan(1,116)"
+  },
+  {
+   "x": 113,
+   "y": 1172,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/okara_g4060678/mobile-phones_c1453",
+   "label": "Okara(1,111)"
+  },
+  {
+   "x": 113,
+   "y": 1198,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jhang_g1142/mobile-phones_c1453",
+   "label": "Jhang(996)"
+  },
+  {
+   "x": 113,
+   "y": 1224,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/kasur_g4060687/mobile-phones_c1453",
+   "label": "Kasur(989)"
+  },
+  {
+   "x": 113,
+   "y": 1250,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/attock_g4060651/mobile-phones_c1453",
+   "label": "Attock(968)"
+  },
+  {
+   "x": 113,
+   "y": 1276,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/jhelum_g4060668/mobile-phones_c1453",
+   "label": "Jhelum(907)"
+  },
+  {
+   "x": 113,
+   "y": 1302,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mandi-bahauddin_g4065538/mobile-phones_c1453",
+   "label": "Mandi Bahauddin(867)"
+  },
+  {
+   "x": 113,
+   "y": 1328,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/haripur_g4060631/mobile-phones_c1453",
+   "label": "Haripur(776)"
+  },
+  {
+   "x": 113,
+   "y": 1354,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/quetta_g4060602/mobile-phones_c1453",
+   "label": "Quetta(654)"
+  },
+  {
+   "x": 113,
+   "y": 1380,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sukkur_g4060702/mobile-phones_c1453",
+   "label": "Sukkur(647)"
+  },
+  {
+   "x": 113,
+   "y": 1406,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/burewala_g4060654/mobile-phones_c1453",
+   "label": "Burewala(627)"
+  },
+  {
+   "x": 113,
+   "y": 1432,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/taxila_g4065567/mobile-phones_c1453",
+   "label": "Taxila(614)"
+  },
+  {
+   "x": 113,
+   "y": 1458,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/dera-ghazi-khan_g4060658/mobile-phones_c1453",
+   "label": "Dera Ghazi Khan(588)"
+  },
+  {
+   "x": 113,
+   "y": 1484,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/toba-tek-singh_g4060689/mobile-phones_c1453",
+   "label": "Toba Tek singh(576)"
+  },
+  {
+   "x": 113,
+   "y": 1510,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/pakpattan_g4060679/mobile-phones_c1453",
+   "label": "Pakpattan(556)"
+  },
+  {
+   "x": 113,
+   "y": 1536,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/bahawalnagar_g4060652/mobile-phones_c1453",
+   "label": "Bahawalnagar(553)"
+  },
+  {
+   "x": 113,
+   "y": 1562,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mardan_g4060623/mobile-phones_c1453",
+   "label": "Mardan(544)"
+  },
+  {
+   "x": 113,
+   "y": 1588,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/chakwal_g4065543/mobile-phones_c1453",
+   "label": "Chakwal(539)"
+  },
+  {
+   "x": 113,
+   "y": 1614,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/arifwala_g4060650/mobile-phones_c1453",
+   "label": "Arifwala(522)"
+  },
+  {
+   "x": 113,
+   "y": 1640,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mansehra_g4060624/mobile-phones_c1453",
+   "label": "Mansehra(513)"
+  },
+  {
+   "x": 113,
+   "y": 1666,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/narowal_g4065557/mobile-phones_c1453",
+   "label": "Narowal(443)"
+  },
+  {
+   "x": 113,
+   "y": 1692,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/hafizabad_g4060664/mobile-phones_c1453",
+   "label": "Hafizabad(440)"
+  },
+  {
+   "x": 113,
+   "y": 1718,
+   "width": 254,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/daska_g4060657/mobile-phones_c1453",
+   "label": "Daska(420)"
+  },
+  {
+   "x": 98,
+   "y": 983,
+   "width": 111,
+   "height": 39,
+   "kind": "input",
+   "label": "Min"
+  },
+  {
+   "x": 255,
+   "y": 983,
+   "width": 111,
+   "height": 39,
+   "kind": "input",
+   "label": "Max"
+  },
+  {
+   "x": 89,
+   "y": 1032,
+   "width": 17,
+   "height": 17,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 359,
+   "y": 1032,
+   "width": 16,
+   "height": 17,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 97,
    "y": 1106,
-   "width": 254,
-   "height": 19,
+   "width": 270,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/bahawalpur_g4060653",
-   "label": "Bahawalpur(2,150)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453?filter=price_type_eq_requestable",
+   "label": "Call for price(18)"
   },
   {
-   "x": 113,
-   "y": 1132,
-   "width": 254,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/sahiwal_g4060683",
-   "label": "Sahiwal(2,138)"
+   "x": 128,
+   "y": 1213,
+   "width": 238,
+   "height": 47,
+   "kind": "input",
+   "label": "Select brand"
   },
   {
-   "x": 113,
-   "y": 1158,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1278,
+   "width": 83,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/wah_g4060692",
-   "label": "Wah(2,092)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone",
+   "label": "Apple iPhone"
   },
   {
-   "x": 113,
-   "y": 1184,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1306,
+   "width": 103,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/sheikhupura_g4060685",
-   "label": "Sheikhüpura(1,675)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-samsung-mobiles",
+   "label": "Samsung Mobile"
   },
   {
-   "x": 113,
-   "y": 1210,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1334,
+   "width": 36,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/abbottabad_g4060640",
-   "label": "Abbottabad(1,622)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-infinix-mobiles",
+   "label": "Infinix"
   },
   {
-   "x": 113,
-   "y": 1236,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1362,
+   "width": 47,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/gujrat_g4060663",
-   "label": "Gujrat(1,363)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-google-pixel",
+   "label": "Google"
   },
   {
-   "x": 113,
-   "y": 1262,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1390,
+   "width": 28,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/okara_g4060678",
-   "label": "Okara(1,147)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-vivo-mobiles",
+   "label": "Vivo"
   },
   {
-   "x": 113,
-   "y": 1288,
-   "width": 254,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/rahimyar-khan_g4060680",
-   "label": "Rahimyar Khan(1,069)"
-  },
-  {
-   "x": 113,
-   "y": 1314,
-   "width": 254,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/attock_g4060651",
-   "label": "Attock(1,019)"
-  },
-  {
-   "x": 113,
-   "y": 1340,
-   "width": 254,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/jhang_g1142",
-   "label": "Jhang(1,004)"
-  },
-  {
-   "x": 113,
-   "y": 1366,
-   "width": 254,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/kasur_g4060687",
-   "label": "Kasur(957)"
-  },
-  {
-   "x": 113,
-   "y": 1392,
-   "width": 254,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/jhelum_g4060668",
-   "label": "Jhelum(926)"
-  },
-  {
-   "x": 113,
+   "x": 97,
    "y": 1418,
-   "width": 254,
-   "height": 19,
+   "width": 43,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mandi-bahauddin_g4065538",
-   "label": "Mandi Bahauddin(849)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-xiaomi-mobiles",
+   "label": "Xiaomi"
   },
   {
-   "x": 113,
-   "y": 1444,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1446,
+   "width": 37,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/haripur_g4060631",
-   "label": "Haripur(803)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-oppo-mobiles",
+   "label": "OPPO"
   },
   {
-   "x": 113,
-   "y": 1470,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1474,
+   "width": 38,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/sukkur_g4060702",
-   "label": "Sukkur(708)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-tecno-mobiles",
+   "label": "Tecno"
   },
   {
-   "x": 113,
-   "y": 1496,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1502,
+   "width": 54,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/quetta_g4060602",
-   "label": "Quetta(650)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-oneplus-mobiles",
+   "label": "One Plus"
   },
   {
-   "x": 113,
-   "y": 1522,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1530,
+   "width": 46,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/taxila_g4065567",
-   "label": "Taxila(645)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-realme-mobiles",
+   "label": "Realme"
   },
   {
-   "x": 113,
-   "y": 1548,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1558,
+   "width": 57,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/burewala_g4060654",
-   "label": "Burewala(618)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-motorola-mobiles",
+   "label": "Motorola"
   },
   {
-   "x": 113,
-   "y": 1574,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1586,
+   "width": 19,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/toba-tek-singh_g4060689",
-   "label": "Toba Tek singh(578)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-itel-mobiles",
+   "label": "Itel"
   },
   {
-   "x": 113,
-   "y": 1600,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1614,
+   "width": 47,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/pakpattan_g4060679",
-   "label": "Pakpattan(569)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-huawei-mobiles",
+   "label": "Huawei"
   },
   {
-   "x": 113,
-   "y": 1626,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1642,
+   "width": 88,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/dera-ghazi-khan_g4060658",
-   "label": "Dera Ghazi Khan(562)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-other-mobiles",
+   "label": "Other Mobiles"
   },
   {
-   "x": 113,
-   "y": 1652,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1670,
+   "width": 36,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mardan_g4060623",
-   "label": "Mardan(558)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-nokia-mobiles",
+   "label": "Nokia"
   },
   {
-   "x": 113,
-   "y": 1678,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1698,
+   "width": 31,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/bahawalnagar_g4060652",
-   "label": "Bahawalnagar(554)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-sony-mobiles",
+   "label": "Sony"
   },
   {
-   "x": 113,
-   "y": 1704,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1726,
+   "width": 39,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/arifwala_g4060650",
-   "label": "Arifwala(544)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-honor-mobiles",
+   "label": "Honor"
   },
   {
-   "x": 113,
-   "y": 1730,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1754,
+   "width": 21,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/chakwal_g4065543",
-   "label": "Chakwal(527)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-zte-mobiles",
+   "label": "Zte"
   },
   {
-   "x": 113,
-   "y": 1756,
-   "width": 254,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mansehra_g4060624",
-   "label": "Mansehra(507)"
-  },
-  {
-   "x": 113,
+   "x": 97,
    "y": 1782,
-   "width": 254,
-   "height": 19,
+   "width": 17,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/hafizabad_g4060664",
-   "label": "Hafizabad(450)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-lg-mobiles",
+   "label": "LG"
   },
   {
-   "x": 113,
-   "y": 1808,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1810,
+   "width": 35,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/daska_g4060657",
-   "label": "Daska(439)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-sharp-mobiles",
+   "label": "Sharp"
   },
   {
-   "x": 113,
-   "y": 1834,
-   "width": 254,
-   "height": 19,
+   "x": 97,
+   "y": 1838,
+   "width": 35,
+   "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/narowal_g4065557",
-   "label": "Narowal(433)"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-sparx-mobiles",
+   "label": "Sparx"
+  },
+  {
+   "x": 97,
+   "y": 1866,
+   "width": 36,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-sego-mobiles",
+   "label": "SEGO"
+  },
+  {
+   "x": 97,
+   "y": 1894,
+   "width": 54,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-vgo-tel-mobiles",
+   "label": "VGO TEL"
+  },
+  {
+   "x": 97,
+   "y": 1922,
+   "width": 50,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-nothing-mobiles",
+   "label": "Nothing"
+  },
+  {
+   "x": 97,
+   "y": 1950,
+   "width": 38,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-gfive-mobiles",
+   "label": "G'Five"
+  },
+  {
+   "x": 97,
+   "y": 1978,
+   "width": 42,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-dcode-mobiles",
+   "label": "Dcode"
+  },
+  {
+   "x": 97,
+   "y": 2006,
+   "width": 40,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-calme-mobiles",
+   "label": "Calme"
+  },
+  {
+   "x": 97,
+   "y": 2034,
+   "width": 55,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-qmobile",
+   "label": "QMobile"
+  },
+  {
+   "x": 97,
+   "y": 2062,
+   "width": 64,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-blackberry-mobiles",
+   "label": "BlackBerry"
+  },
+  {
+   "x": 97,
+   "y": 2090,
+   "width": 42,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-villaon-mobiles",
+   "label": "Villaon"
+  },
+  {
+   "x": 97,
+   "y": 2118,
+   "width": 33,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-inew-mobiles",
+   "label": "iNew"
+  },
+  {
+   "x": 97,
+   "y": 2146,
+   "width": 29,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-acer-mobiles",
+   "label": "Acer"
+  },
+  {
+   "x": 97,
+   "y": 2174,
+   "width": 90,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-mobilink-jazzx-mobiles",
+   "label": "Mobilink JazzX"
+  },
+  {
+   "x": 97,
+   "y": 2202,
+   "width": 46,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-lenovo-mobiles",
+   "label": "Lenovo"
+  },
+  {
+   "x": 97,
+   "y": 2230,
+   "width": 29,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-asus-mobiles",
+   "label": "Asus"
+  },
+  {
+   "x": 97,
+   "y": 2258,
+   "width": 43,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-e-tachi-mobiles",
+   "label": "E-Tachi"
+  },
+  {
+   "x": 97,
+   "y": 2286,
+   "width": 31,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-hmd-mobiles",
+   "label": "HMD"
+  },
+  {
+   "x": 97,
+   "y": 2314,
+   "width": 83,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-sony-ericsson-mobiles",
+   "label": "Sony Ericsson"
+  },
+  {
+   "x": 97,
+   "y": 2342,
+   "width": 23,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-tcl-mobiles",
+   "label": "TCL"
+  },
+  {
+   "x": 97,
+   "y": 2370,
+   "width": 55,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-t-mobile",
+   "label": "T-Mobile"
+  },
+  {
+   "x": 97,
+   "y": 2398,
+   "width": 42,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-alcatel-mobiles",
+   "label": "Alcatel"
+  },
+  {
+   "x": 97,
+   "y": 2426,
+   "width": 27,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-htc-mobiles",
+   "label": "HTC"
+  },
+  {
+   "x": 97,
+   "y": 2454,
+   "width": 29,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-club-mobiles",
+   "label": "Club"
+  },
+  {
+   "x": 97,
+   "y": 2482,
+   "width": 39,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-faywa-mobiles",
+   "label": "Faywa"
+  },
+  {
+   "x": 97,
+   "y": 2510,
+   "width": 52,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-xmobile",
+   "label": "XMobile"
+  },
+  {
+   "x": 97,
+   "y": 2538,
+   "width": 67,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-me-mobile",
+   "label": "Me Mobile"
+  },
+  {
+   "x": 97,
+   "y": 2566,
+   "width": 44,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-xsmart-mobiles",
+   "label": "XSmart"
+  },
+  {
+   "x": 97,
+   "y": 2594,
+   "width": 39,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-voice-mobiles",
+   "label": "VOICE"
+  },
+  {
+   "x": 97,
+   "y": 2622,
+   "width": 22,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-s25-mobiles",
+   "label": "S25"
+  },
+  {
+   "x": 97,
+   "y": 2650,
+   "width": 24,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-blu-mobiles",
+   "label": "BLU"
+  },
+  {
+   "x": 97,
+   "y": 1588,
+   "width": 288,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-used-mobiles",
+   "label": "Used (137,091)"
+  },
+  {
+   "x": 97,
+   "y": 1620,
+   "width": 288,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-new-mobiles",
+   "label": "New (26,639)"
+  },
+  {
+   "x": 97,
+   "y": 1652,
+   "width": 288,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453?filter=new_used_eq_open-box",
+   "label": "Open Box (11,588)"
+  },
+  {
+   "x": 97,
+   "y": 1684,
+   "width": 288,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453?filter=new_used_eq_for-parts-or-not-working",
+   "label": "For Parts or Not Working (1,469)"
+  },
+  {
+   "x": 97,
+   "y": 1716,
+   "width": 288,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453?filter=new_used_eq_refurbished",
+   "label": "Refurbished (478)"
+  },
+  {
+   "x": 97,
+   "y": 1826,
+   "width": 270,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-pta-approved-mobiles",
+   "label": "PTA Approved(98,481)"
+  },
+  {
+   "x": 97,
+   "y": 1854,
+   "width": 270,
+   "height": 21,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-non-pta-mobiles",
+   "label": "Non PTA(63,936)"
   },
   {
    "x": 400,
-   "y": 560,
-   "width": 263,
+   "y": 278,
+   "width": 262,
    "height": 41,
    "kind": "link",
-   "href": "https://www.olx.com.pk/items",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453?filter=delivery_eq_yes",
    "label": "Buy withDeliveryNew"
   },
   {
    "x": 400,
-   "y": 560,
-   "width": 263,
+   "y": 278,
+   "width": 262,
    "height": 41,
    "kind": "button",
    "label": "Buy withDeliveryNew"
   },
   {
    "x": 1075,
-   "y": 562,
-   "width": 36,
+   "y": 280,
+   "width": 37,
    "height": 37,
    "kind": "button",
    "label": ""
   },
   {
    "x": 1119,
-   "y": 562,
-   "width": 36,
+   "y": 280,
+   "width": 37,
    "height": 37,
    "kind": "button",
    "label": ""
   },
   {
    "x": 1188,
-   "y": 570,
+   "y": 288,
    "width": 172,
    "height": 22,
    "kind": "button",
@@ -710,176 +1601,16 @@
   },
   {
    "x": 400,
-   "y": 641,
-   "width": 82,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone",
-   "label": "iPhone"
-  },
-  {
-   "x": 490,
-   "y": 641,
-   "width": 75,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-infinix-mobiles",
-   "label": "Infinix"
-  },
-  {
-   "x": 573,
-   "y": 641,
-   "width": 77,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-tecno-mobiles",
-   "label": "Tecno"
-  },
-  {
-   "x": 658,
-   "y": 641,
-   "width": 65,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-vivo-mobiles",
-   "label": "Vivo"
-  },
-  {
-   "x": 731,
-   "y": 641,
-   "width": 99,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-samsung-mobiles",
-   "label": "Samsung"
-  },
-  {
-   "x": 838,
-   "y": 641,
-   "width": 76,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-oppo-mobiles",
-   "label": "OPPO"
-  },
-  {
-   "x": 922,
-   "y": 641,
-   "width": 55,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-itel-mobiles",
-   "label": "Itel"
-  },
-  {
-   "x": 985,
-   "y": 641,
-   "width": 86,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-realme-mobiles",
-   "label": "Realme"
-  },
-  {
-   "x": 1079,
-   "y": 641,
-   "width": 87,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-huawei-mobiles",
-   "label": "Huawei"
-  },
-  {
-   "x": 1174,
-   "y": 641,
-   "width": 74,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-nokia-mobiles",
-   "label": "Nokia"
-  },
-  {
-   "x": 1256,
-   "y": 641,
-   "width": 96,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-oneplus-mobiles",
-   "label": "One Plus"
-  },
-  {
-   "x": 1360,
-   "y": 641,
-   "width": 95,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-t-mobile",
-   "label": "T-Mobile"
-  },
-  {
-   "x": 1463,
-   "y": 641,
-   "width": 96,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-qmobile",
-   "label": "QMobile"
-  },
-  {
-   "x": 1567,
-   "y": 641,
-   "width": 69,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-sony-mobiles",
-   "label": "Sony"
-  },
-  {
-   "x": 1644,
-   "y": 641,
-   "width": 96,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-vgo-tel-mobiles",
-   "label": "VGO TEL"
-  },
-  {
-   "x": 1748,
-   "y": 641,
-   "width": 76,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-gfive-mobiles",
-   "label": "G'Five"
-  },
-  {
-   "x": 1832,
-   "y": 641,
-   "width": 77,
-   "height": 43,
-   "kind": "button",
-   "label": "View All"
-  },
-  {
-   "x": 1328,
-   "y": 646,
-   "width": 32,
-   "height": 33,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 400,
-   "y": 699,
+   "y": 417,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-18-pro-max-256-gb-lla-model-e-esim-iid-1119893932",
+   "href": "https://www.olx.com.pk/item/apple-iphone-12-iphone-13-iphone-15-128gb-water-pack-iid-1120201847",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 878,
+   "y": 596,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -887,32 +1618,32 @@
   },
   {
    "x": 841,
-   "y": 878,
+   "y": 596,
    "width": 105,
    "height": 41,
    "kind": "button",
    "label": "Chat"
   },
   {
+   "x": 953,
+   "y": 596,
+   "width": 139,
+   "height": 41,
+   "kind": "button",
+   "label": "WhatsApp"
+  },
+  {
    "x": 400,
-   "y": 951,
+   "y": 669,
    "width": 960,
    "height": 238,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/iphone-18-pro-max-512gb-burgundy-lla-non-pta-iid-1119893879",
+   "href": "https://www.olx.com.pk/item/iphone-11-128gb-pta-approved-89-battery-box-face-id-iid-1120201300",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 1131,
-   "width": 105,
-   "height": 41,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 841,
-   "y": 1131,
+   "y": 849,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -920,33 +1651,16 @@
   },
   {
    "x": 400,
-   "y": 1204,
+   "y": 922,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/google-pixel-8-pro-iid-1119893586",
+   "href": "https://www.olx.com.pk/item/15-pro-max-jv-simple-14-13-pro-max-s22-ultra-approved-or-jv-iid-1120194793",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 1383,
-   "width": 105,
-   "height": 41,
-   "kind": "button",
-   "label": "Chat"
-  },
-  {
-   "x": 400,
-   "y": 1456,
-   "width": 960,
-   "height": 237,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/samsung-galaxy-s23-plus-8256gb-1010-condition-iid-1119893103",
-   "label": "Listing"
-  },
-  {
-   "x": 729,
-   "y": 1635,
+   "y": 1101,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -954,7 +1668,7 @@
   },
   {
    "x": 841,
-   "y": 1635,
+   "y": 1101,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -962,16 +1676,16 @@
   },
   {
    "x": 400,
-   "y": 1708,
+   "y": 1174,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/iphone-16-pro-max-256gb-pta-reg-93-battery-physical-sim-e-sim-iid-1116774372",
+   "href": "https://www.olx.com.pk/item/apple-iphone-17-pro-max-512gb-pta-approved-iid-1120200423",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 1887,
+   "y": 1353,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -979,7 +1693,7 @@
   },
   {
    "x": 841,
-   "y": 1887,
+   "y": 1353,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -987,16 +1701,16 @@
   },
   {
    "x": 400,
-   "y": 1960,
+   "y": 1426,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/honor-400-pro-512gb-1212gb-ram-dubai-import-iid-1119403447",
+   "href": "https://www.olx.com.pk/item/apple-iphone-15-official-pta-approved-iid-1119971011",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 2139,
+   "y": 1605,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1004,7 +1718,32 @@
   },
   {
    "x": 841,
-   "y": 2139,
+   "y": 1605,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Chat"
+  },
+  {
+   "x": 400,
+   "y": 1678,
+   "width": 960,
+   "height": 237,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/xiaomi-redmi-turbo-4-pro-ram-16gb-iid-1120192842",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 1857,
+   "width": 105,
+   "height": 41,
+   "kind": "button",
+   "label": "Call"
+  },
+  {
+   "x": 841,
+   "y": 1857,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1012,25 +1751,43 @@
   },
   {
    "x": 416,
-   "y": 2300,
+   "y": 2018,
    "width": 302,
    "height": 428,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/nokia-106-2019-model-premium-quality-keypad-feature-phone-pta-life-time-warranty-box-pack-iid-ev556358-1",
+   "href": "https://www.olx.com.pk/item/infinix-hot-70-pro-5g-iid-ev569832-1",
    "label": "Listing"
+  },
+  {
+   "x": 674,
+   "y": 2307,
+   "width": 25,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/visit-store/ev569832?surface=search_card",
+   "label": "Visit Store"
   },
   {
    "x": 729,
-   "y": 2300,
+   "y": 2018,
    "width": 302,
    "height": 428,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/nokia-3310-high-quality-mobile-phone-pta-life-time-warranty-long-battery-backup-keypad-phone-iid-ev543455-1",
+   "href": "https://www.olx.com.pk/item/iphone-18-pro-iid-ev569828-1",
    "label": "Listing"
   },
   {
+   "x": 987,
+   "y": 2307,
+   "width": 25,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/visit-store/ev569828?surface=search_card",
+   "label": "Visit Store"
+  },
+  {
    "x": 1042,
-   "y": 2300,
+   "y": 2018,
    "width": 302,
    "height": 428,
    "kind": "listing",
@@ -1039,34 +1796,7 @@
   },
   {
    "x": 416,
-   "y": 2739,
-   "width": 302,
-   "height": 448,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/kechaoda-a27-dual-sim-keypad-mobile-mp3-mp4-music-player-fm-radio-bluetooth-can-connect-wirelessly-like-a-smartwatch-pta-approved-box-packed-mobile-phone-iid-ev480174-1",
-   "label": "Listing"
-  },
-  {
-   "x": 729,
-   "y": 2739,
-   "width": 302,
-   "height": 448,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/bm10-mini-phone-biscuit-size-dual-sim-pta-life-time-warranty-iid-ev537143-1",
-   "label": "Listing"
-  },
-  {
-   "x": 1042,
-   "y": 2739,
-   "width": 302,
-   "height": 448,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/rxn-calme-m116-1-8-inch-dual-sim-slim-phone-with-auto-call-recording-pta-approved-1000mah-battery-and-1-year-warranty-iid-ev452000-1",
-   "label": "Listing"
-  },
-  {
-   "x": 416,
-   "y": 3198,
+   "y": 2457,
    "width": 302,
    "height": 427,
    "kind": "listing",
@@ -1075,202 +1805,78 @@
   },
   {
    "x": 729,
-   "y": 3198,
+   "y": 2457,
    "width": 302,
    "height": 427,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/google-pixel-8-pta-approved-10-10-waterproof-iid-ev567457-1",
+   "href": "https://www.olx.com.pk/item/nokia-130-feature-phone-dual-sim-support-long-battery-backup-bright-led-flashlight-2-4-inch-display-pta-life-time-warranty-imported-stock-iid-ev547469-1",
    "label": "Listing"
   },
   {
    "x": 1042,
-   "y": 3198,
+   "y": 2457,
    "width": 302,
    "height": 427,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/vgo-tel-vgotel-i104-feature-keypad-phone-official-pta-approved-typec-charging-iid-ev536891-1",
+   "href": "https://www.olx.com.pk/item/nokia-150-high-quality-new-model-box-pack-pta-life-time-warranty-iid-ev537142-1",
    "label": "Listing"
   },
   {
-   "x": 767,
-   "y": 3640,
-   "width": 226,
+   "x": 416,
+   "y": 2895,
+   "width": 302,
+   "height": 427,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/nokia-106-2019-model-premium-quality-keypad-feature-phone-pta-life-time-warranty-box-pack-iid-ev556358-1",
+   "label": "Listing"
+  },
+  {
+   "x": 729,
+   "y": 2895,
+   "width": 302,
+   "height": 427,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/samsung-galaxy-s26-ultra-iid-ev569831-1",
+   "label": "Listing"
+  },
+  {
+   "x": 987,
+   "y": 3183,
+   "width": 25,
+   "height": 25,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/visit-store/ev569831?surface=search_card",
+   "label": "Visit Store"
+  },
+  {
+   "x": 1042,
+   "y": 2895,
+   "width": 302,
+   "height": 427,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/bm10-mini-phone-biscuit-size-dual-sim-pta-life-time-warranty-iid-ev537143-1",
+   "label": "Listing"
+  },
+  {
+   "x": 768,
+   "y": 3337,
+   "width": 224,
    "height": 49,
    "kind": "button",
    "label": "View All Items with Delivery"
   },
   {
-   "x": 416,
-   "y": 3767,
-   "width": 153,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-infinix-hot-50-pro",
-   "label": "Infinix Hot 50 Pro"
-  },
-  {
-   "x": 577,
-   "y": 3767,
-   "width": 161,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-16-pro-max",
-   "label": "iPhone 16 Pro Max"
-  },
-  {
-   "x": 746,
-   "y": 3767,
-   "width": 136,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-infinix-note-40",
-   "label": "Infinix Note 40"
-  },
-  {
-   "x": 890,
-   "y": 3767,
-   "width": 160,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-17-pro-max",
-   "label": "iPhone 17 Pro Max"
-  },
-  {
-   "x": 1058,
-   "y": 3767,
-   "width": 99,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-17",
-   "label": "iPhone 17"
-  },
-  {
-   "x": 1165,
-   "y": 3767,
-   "width": 126,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-17-pro",
-   "label": "iPhone 17 Pro"
-  },
-  {
-   "x": 1299,
-   "y": 3767,
-   "width": 121,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-17-air",
-   "label": "iPhone 17 Air"
-  },
-  {
-   "x": 1428,
-   "y": 3767,
-   "width": 96,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-11",
-   "label": "iPhone 11"
-  },
-  {
-   "x": 1532,
-   "y": 3767,
-   "width": 146,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-realme-note-50",
-   "label": "Realme Note 50"
-  },
-  {
-   "x": 1686,
-   "y": 3767,
-   "width": 141,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-tecno-spark-20",
-   "label": "Tecno Spark 20"
-  },
-  {
-   "x": 1835,
-   "y": 3767,
-   "width": 104,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-vivo-y200",
-   "label": "Vivo Y200"
-  },
-  {
-   "x": 1947,
-   "y": 3767,
-   "width": 100,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-16",
-   "label": "iPhone 16"
-  },
-  {
-   "x": 2055,
-   "y": 3767,
-   "width": 132,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-infinix-smart-9",
-   "label": "Infinix Smart 9"
-  },
-  {
-   "x": 2195,
-   "y": 3767,
-   "width": 127,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-infinix-hot-40",
-   "label": "Infinix Hot 40"
-  },
-  {
-   "x": 2330,
-   "y": 3767,
-   "width": 132,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-infinix-smart-8",
-   "label": "Infinix Smart 8"
-  },
-  {
-   "x": 2470,
-   "y": 3767,
-   "width": 99,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-13",
-   "label": "iPhone 13"
-  },
-  {
-   "x": 2577,
-   "y": 3767,
-   "width": 77,
-   "height": 43,
-   "kind": "button",
-   "label": "View All"
-  },
-  {
-   "x": 1312,
-   "y": 3772,
-   "width": 32,
-   "height": 33,
-   "kind": "button",
-   "label": ""
-  },
-  {
    "x": 400,
-   "y": 3841,
+   "y": 3538,
    "width": 960,
    "height": 238,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-17-pro-max-iid-1119855926",
+   "href": "https://www.olx.com.pk/item/apple-iphone-15-pro-max-dual-physical-complete-box-iid-1119158724",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 4021,
+   "y": 3718,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1278,7 +1884,7 @@
   },
   {
    "x": 841,
-   "y": 4021,
+   "y": 3718,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1286,16 +1892,16 @@
   },
   {
    "x": 400,
-   "y": 4094,
+   "y": 3791,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-17-pro-256-gb-pta-approved-iid-1119820072",
+   "href": "https://www.olx.com.pk/item/iphone-13-pro-max-256gb-non-pta-1010-85-bh-box-cable-iid-1120198083",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 4273,
+   "y": 3970,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1303,7 +1909,7 @@
   },
   {
    "x": 841,
-   "y": 4273,
+   "y": 3970,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1311,24 +1917,16 @@
   },
   {
    "x": 400,
-   "y": 4346,
+   "y": 4043,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/nothing-phone-4a-full-sim-time-iid-1119890944",
+   "href": "https://www.olx.com.pk/item/oppo-a6c-464-mobile-7000-mah-iid-1120187592",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 4525,
-   "width": 105,
-   "height": 41,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 841,
-   "y": 4525,
+   "y": 4222,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1336,16 +1934,16 @@
   },
   {
    "x": 400,
-   "y": 4614,
+   "y": 4295,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-15-pro-max-iid-1119891849",
+   "href": "https://www.olx.com.pk/item/iphone-14-pro-iid-1119841110",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 4793,
+   "y": 4474,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1353,7 +1951,7 @@
   },
   {
    "x": 841,
-   "y": 4793,
+   "y": 4474,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1361,24 +1959,16 @@
   },
   {
    "x": 400,
-   "y": 4866,
+   "y": 4547,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-17-pro-max-iid-1119889758",
+   "href": "https://www.olx.com.pk/item/one-plus-13t-iid-1120196090",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 5045,
-   "width": 105,
-   "height": 41,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 841,
-   "y": 5045,
+   "y": 4726,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1386,16 +1976,16 @@
   },
   {
    "x": 400,
-   "y": 5118,
+   "y": 4799,
    "width": 960,
    "height": 238,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/samsung-a07-infinix-smart-20-tecno-spark-go3-easy-installment-iid-1119490055",
+   "href": "https://www.olx.com.pk/item/apple-iphone-18-pro-max-burgandy-512-gb-iid-1120198502",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 5298,
+   "y": 4979,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1403,184 +1993,24 @@
   },
   {
    "x": 841,
-   "y": 5298,
+   "y": 4979,
    "width": 105,
    "height": 41,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 416,
-   "y": 5418,
-   "width": 161,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-18-pro-max",
-   "label": "iPhone 18 Pro Max"
-  },
-  {
-   "x": 585,
-   "y": 5418,
-   "width": 127,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-18-pro",
-   "label": "iPhone 18 Pro"
-  },
-  {
-   "x": 720,
-   "y": 5418,
-   "width": 115,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-duo",
-   "label": "iPhone Duo"
-  },
-  {
-   "x": 843,
-   "y": 5418,
-   "width": 129,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-samsung-a57",
-   "label": "Samsung A57"
-  },
-  {
-   "x": 980,
-   "y": 5418,
-   "width": 161,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-nothing-phone-4a",
-   "label": "Nothing Phone 4a"
-  },
-  {
-   "x": 1149,
-   "y": 5418,
-   "width": 164,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-samsung-s26-ultra",
-   "label": "Samsung S26 Ultra"
-  },
-  {
-   "x": 1321,
-   "y": 5418,
-   "width": 128,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-samsung-s26",
-   "label": "Samsung S26"
-  },
-  {
-   "x": 1457,
-   "y": 5418,
-   "width": 159,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-samsung-s26-plus",
-   "label": "Samsung S26 Plus"
-  },
-  {
-   "x": 1624,
-   "y": 5418,
-   "width": 135,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-xiaomi-17-ultra",
-   "label": "Xiaomi 17 Ultra"
-  },
-  {
-   "x": 1767,
-   "y": 5418,
-   "width": 139,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-vivo-v70-fe-5g",
-   "label": "Vivo V70 FE 5G"
-  },
-  {
-   "x": 1914,
-   "y": 5418,
-   "width": 188,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-nothing-phone-4a-pro",
-   "label": "Nothing Phone 4a Pro"
-  },
-  {
-   "x": 2110,
-   "y": 5418,
-   "width": 105,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-vivo-y400",
-   "label": "Vivo Y400"
-  },
-  {
-   "x": 2223,
-   "y": 5418,
-   "width": 168,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-oppo-find-x9-ultra",
-   "label": "OPPO Find X9 Ultra"
-  },
-  {
-   "x": 2399,
-   "y": 5418,
-   "width": 108,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-17e",
-   "label": "iPhone 17e"
-  },
-  {
-   "x": 2515,
-   "y": 5418,
-   "width": 133,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-oppo-a6-max",
-   "label": "OPPO A6 Max"
-  },
-  {
-   "x": 2656,
-   "y": 5418,
-   "width": 141,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-vivo-x300-ultra",
-   "label": "Vivo X300 Ultra"
-  },
-  {
-   "x": 2805,
-   "y": 5418,
-   "width": 77,
-   "height": 43,
-   "kind": "button",
-   "label": "View All"
-  },
-  {
-   "x": 1312,
-   "y": 5423,
-   "width": 32,
-   "height": 33,
-   "kind": "button",
-   "label": ""
-  },
-  {
    "x": 400,
-   "y": 5492,
+   "y": 5173,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/iphone-14-plus-256gb-iid-1119089871",
+   "href": "https://www.olx.com.pk/item/apple-iphone-14-jv-128gb-iphone-14-jv-iid-1117850817",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 5671,
+   "y": 5352,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1588,7 +2018,7 @@
   },
   {
    "x": 841,
-   "y": 5671,
+   "y": 5352,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1596,16 +2026,16 @@
   },
   {
    "x": 400,
-   "y": 5744,
+   "y": 5425,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/iphone-12-pro-max-iphone-13-13-pro-14-15-17-pro-max-iphone-sale-iid-1119086909",
+   "href": "https://www.olx.com.pk/item/oppo-find-x9-pro-16512-oppo-find-x9-pro-iid-1114151633",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 5923,
+   "y": 5604,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1613,7 +2043,7 @@
   },
   {
    "x": 841,
-   "y": 5923,
+   "y": 5604,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1621,16 +2051,16 @@
   },
   {
    "x": 400,
-   "y": 5996,
+   "y": 5677,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/iphone-13-128gb-under-apple-warranty-iid-1118985240",
+   "href": "https://www.olx.com.pk/item/vivo-iqoo-z11-turbo-with-box-16256-gb-iqoo-z11-turbo-iid-1119737018",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 6175,
+   "y": 5856,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1638,7 +2068,7 @@
   },
   {
    "x": 841,
-   "y": 6175,
+   "y": 5856,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1646,16 +2076,16 @@
   },
   {
    "x": 400,
-   "y": 6248,
+   "y": 5929,
    "width": 960,
    "height": 238,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/samsung-galaxy-a52-8gb-128gb-complete-box-iid-1119891498",
+   "href": "https://www.olx.com.pk/item/oneplus-ace-6-ultra-box-pack-one-plus-ace-6-ultra-iid-1117915587",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 6428,
+   "y": 6109,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1663,7 +2093,7 @@
   },
   {
    "x": 841,
-   "y": 6428,
+   "y": 6109,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1671,16 +2101,16 @@
   },
   {
    "x": 400,
-   "y": 6501,
+   "y": 6182,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/iphone-15-plus-128-gb-non-pta-jv-iid-1119889138",
+   "href": "https://www.olx.com.pk/item/apple-iphone-15-jv-128gb-iid-1117850806",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 6680,
+   "y": 6361,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1688,7 +2118,7 @@
   },
   {
    "x": 841,
-   "y": 6680,
+   "y": 6361,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1696,16 +2126,16 @@
   },
   {
    "x": 400,
-   "y": 6753,
+   "y": 6434,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-16-pro-max-pta-approved-256gb-iid-1119879052",
+   "href": "https://www.olx.com.pk/item/samsung-s24-pta-samsung-s24-iid-1114009437",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 6932,
+   "y": 6613,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1713,184 +2143,24 @@
   },
   {
    "x": 841,
-   "y": 6932,
+   "y": 6613,
    "width": 105,
    "height": 41,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 416,
-   "y": 7052,
-   "width": 82,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/mobile-phones_c1453",
-   "label": "Lahore"
-  },
-  {
-   "x": 506,
-   "y": 7052,
-   "width": 84,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/karachi_g4060695/mobile-phones_c1453",
-   "label": "Karachi"
-  },
-  {
-   "x": 598,
-   "y": 7052,
-   "width": 110,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/rawalpindi_g4060681/mobile-phones_c1453",
-   "label": "Rawalpindi"
-  },
-  {
-   "x": 716,
-   "y": 7052,
-   "width": 106,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/faisalabad_g4060660/mobile-phones_c1453",
-   "label": "Faisalabad"
-  },
-  {
-   "x": 830,
-   "y": 7052,
-   "width": 106,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad_g4060615/mobile-phones_c1453",
-   "label": "Islamabad"
-  },
-  {
-   "x": 944,
-   "y": 7052,
-   "width": 82,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/multan_g4060675/mobile-phones_c1453",
-   "label": "Multan"
-  },
-  {
-   "x": 1034,
-   "y": 7052,
-   "width": 112,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/gujranwala_g4060662/mobile-phones_c1453",
-   "label": "Gujranwala"
-  },
-  {
-   "x": 1154,
-   "y": 7052,
-   "width": 79,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/sialkot_g4060686/mobile-phones_c1453",
-   "label": "Sialkot"
-  },
-  {
-   "x": 1241,
-   "y": 7052,
-   "width": 113,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/hyderabad_g4060693/mobile-phones_c1453",
-   "label": "Hyderabad"
-  },
-  {
-   "x": 1362,
-   "y": 7052,
-   "width": 101,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/peshawar_g4060643/mobile-phones_c1453",
-   "label": "Peshawar"
-  },
-  {
-   "x": 1471,
-   "y": 7052,
-   "width": 102,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/sargodha_g4060684/mobile-phones_c1453",
-   "label": "Sargodha"
-  },
-  {
-   "x": 1581,
-   "y": 7052,
-   "width": 116,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/bahawalpur_g4060653/mobile-phones_c1453",
-   "label": "Bahawalpur"
-  },
-  {
-   "x": 1705,
-   "y": 7052,
-   "width": 66,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/wah_g4060692/mobile-phones_c1453",
-   "label": "Wah"
-  },
-  {
-   "x": 1779,
-   "y": 7052,
-   "width": 86,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/sahiwal_g4060683/mobile-phones_c1453",
-   "label": "Sahiwal"
-  },
-  {
-   "x": 1873,
-   "y": 7052,
-   "width": 120,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/abbottabad_g4060640/mobile-phones_c1453",
-   "label": "Abbottabad"
-  },
-  {
-   "x": 2001,
-   "y": 7052,
-   "width": 121,
-   "height": 43,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/sheikhupura_g4060685/mobile-phones_c1453",
-   "label": "Sheikhüpura"
-  },
-  {
-   "x": 2130,
-   "y": 7052,
-   "width": 77,
-   "height": 43,
-   "kind": "button",
-   "label": "View All"
-  },
-  {
-   "x": 1312,
-   "y": 7057,
-   "width": 32,
-   "height": 33,
-   "kind": "button",
-   "label": ""
-  },
-  {
    "x": 400,
-   "y": 7126,
+   "y": 6807,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-17-pro-max-iid-1119875637",
+   "href": "https://www.olx.com.pk/item/google-pixel-10-pro-1010-condition-pta-google-pixel-10-pro-iid-1112571765",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 7305,
+   "y": 6986,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1898,7 +2168,7 @@
   },
   {
    "x": 841,
-   "y": 7305,
+   "y": 6986,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1906,16 +2176,16 @@
   },
   {
    "x": 400,
-   "y": 7378,
+   "y": 7059,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-17-pro-max-100-battery-health-sim-time-iid-1119888124",
+   "href": "https://www.olx.com.pk/item/iphone-15-pta-128-gb-wholesale-price-iid-1112571723",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 7557,
+   "y": 7238,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1923,7 +2193,7 @@
   },
   {
    "x": 841,
-   "y": 7557,
+   "y": 7238,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1931,16 +2201,16 @@
   },
   {
    "x": 400,
-   "y": 7630,
+   "y": 7311,
    "width": 960,
    "height": 238,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/samsung-mobile-a55-5g-iid-1119887891",
+   "href": "https://www.olx.com.pk/item/samsung-s25-pta-100-orignal-stock-iid-1112212726",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 7810,
+   "y": 7491,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1948,7 +2218,7 @@
   },
   {
    "x": 841,
-   "y": 7810,
+   "y": 7491,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1956,16 +2226,16 @@
   },
   {
    "x": 400,
-   "y": 7899,
+   "y": 7564,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-14-factory-unlock-256gb-1010-condition-no-repair-iid-1119524279",
+   "href": "https://www.olx.com.pk/item/oneplus-15-16512-12256-brand-new-non-ptanon-active-iid-1111585178",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 8078,
+   "y": 7743,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1973,7 +2243,7 @@
   },
   {
    "x": 841,
-   "y": 8078,
+   "y": 7743,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1981,16 +2251,16 @@
   },
   {
    "x": 400,
-   "y": 8151,
+   "y": 7816,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/google-pixel-8-official-approved_-brand-new-condition-iid-1118593595",
+   "href": "https://www.olx.com.pk/item/oneplus-13t-13s-512gb-256gb-non-pta-non-active-100-original-iid-1110831996",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 8330,
+   "y": 7995,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -1998,7 +2268,7 @@
   },
   {
    "x": 841,
-   "y": 8330,
+   "y": 7995,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -2006,7 +2276,7 @@
   },
   {
    "x": 1153,
-   "y": 8454,
+   "y": 8119,
    "width": 174,
    "height": 45,
    "kind": "button",
@@ -2014,16 +2284,16 @@
   },
   {
    "x": 400,
-   "y": 8566,
+   "y": 8231,
    "width": 960,
    "height": 237,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-11-pro-max-iid-1119888074",
+   "href": "https://www.olx.com.pk/item/iphone-15-pro-max-256gb-non-pta-canadian-iid-1118977351",
    "label": "Listing"
   },
   {
    "x": 729,
-   "y": 8745,
+   "y": 8410,
    "width": 105,
    "height": 41,
    "kind": "button",
@@ -2031,931 +2301,23 @@
   },
   {
    "x": 841,
-   "y": 8745,
+   "y": 8410,
    "width": 105,
    "height": 41,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 829,
-   "y": 8842,
-   "width": 102,
-   "height": 49,
-   "kind": "button",
-   "label": "Retry"
-  },
-  {
-   "x": 80,
-   "y": 8981,
-   "width": 127,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pro-max",
-   "label": "iphone pro max"
-  },
-  {
-   "x": 215,
-   "y": 8981,
-   "width": 97,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pro",
-   "label": "iphone pro"
-  },
-  {
-   "x": 320,
-   "y": 8981,
-   "width": 93,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-a",
-   "label": "samsung a"
-  },
-  {
-   "x": 421,
-   "y": 8981,
-   "width": 92,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-s",
-   "label": "samsung s"
-  },
-  {
-   "x": 521,
-   "y": 8981,
-   "width": 133,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-google-pixel-pro",
-   "label": "google pixel pro"
-  },
-  {
-   "x": 662,
-   "y": 8981,
-   "width": 122,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-s-ultra",
-   "label": "samsung s ultra"
-  },
-  {
-   "x": 792,
-   "y": 8981,
-   "width": 161,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pta-approved",
-   "label": "iphone pta approved"
-  },
-  {
-   "x": 961,
-   "y": 8981,
-   "width": 124,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-non-pta",
-   "label": "iphone non pta"
-  },
-  {
-   "x": 1093,
-   "y": 8981,
-   "width": 95,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-plu",
-   "label": "iphone plu"
-  },
-  {
-   "x": 80,
-   "y": 9020,
-   "width": 180,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pro-max-non-pta",
-   "label": "iphone pro max non pta"
-  },
-  {
-   "x": 268,
-   "y": 9020,
-   "width": 217,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pro-max-pta-approved",
-   "label": "iphone pro max pta approved"
-  },
-  {
-   "x": 493,
-   "y": 9020,
-   "width": 150,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pro-non-pta",
-   "label": "iphone pro non pta"
-  },
-  {
-   "x": 651,
-   "y": 9020,
-   "width": 85,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-jv",
-   "label": "iphone jv"
-  },
-  {
-   "x": 744,
-   "y": 9020,
-   "width": 71,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-oneplu",
-   "label": "oneplu"
-  },
-  {
-   "x": 823,
-   "y": 9020,
-   "width": 63,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-vivo-y",
-   "label": "vivo y"
-  },
-  {
-   "x": 894,
-   "y": 9020,
-   "width": 62,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-s-ultra",
-   "label": "s ultra"
-  },
-  {
-   "x": 964,
-   "y": 9020,
-   "width": 187,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pro-pta-approved",
-   "label": "iphone pro pta approved"
-  },
-  {
-   "x": 1159,
-   "y": 9020,
-   "width": 111,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pro-jv",
-   "label": "iphone pro jv"
-  },
-  {
-   "x": 80,
-   "y": 9059,
-   "width": 141,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pro-max-jv",
-   "label": "iphone pro max jv"
-  },
-  {
-   "x": 229,
-   "y": 9059,
-   "width": 63,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-vivo-v",
-   "label": "vivo v"
-  },
-  {
-   "x": 300,
-   "y": 9059,
-   "width": 118,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-google-pixel-a",
-   "label": "google pixel a"
-  },
-  {
-   "x": 426,
-   "y": 9059,
-   "width": 62,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-redmi",
-   "label": "redmi"
-  },
-  {
-   "x": 496,
-   "y": 9059,
-   "width": 73,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-oppo-a",
-   "label": "oppo a"
-  },
-  {
-   "x": 577,
-   "y": 9059,
-   "width": 69,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-khyber",
-   "label": "khyber"
-  },
-  {
-   "x": 654,
-   "y": 9059,
-   "width": 101,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-mini",
-   "label": "iphone mini"
-  },
-  {
-   "x": 763,
-   "y": 9059,
-   "width": 110,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-infinix-mobile",
-   "label": "infinix mobile"
-  },
-  {
-   "x": 881,
-   "y": 9059,
-   "width": 95,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-redmi-note",
-   "label": "redmi note"
-  },
-  {
-   "x": 984,
-   "y": 9059,
-   "width": 82,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-pixel-pro",
-   "label": "pixel pro"
-  },
-  {
-   "x": 1074,
-   "y": 9059,
-   "width": 116,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-s-plu",
-   "label": "samsung s plu"
-  },
-  {
-   "x": 1198,
-   "y": 9059,
-   "width": 131,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-motorola-mobile",
-   "label": "motorola mobile"
-  },
-  {
-   "x": 80,
-   "y": 9098,
-   "width": 75,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-one-plu",
-   "label": "one plu"
-  },
-  {
-   "x": 163,
-   "y": 9098,
-   "width": 97,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-oneplu-pro",
-   "label": "oneplu pro"
-  },
-  {
-   "x": 268,
-   "y": 9098,
-   "width": 162,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-used-iphone-pro-max",
-   "label": "used iphone pro max"
-  },
-  {
-   "x": 438,
-   "y": 9098,
-   "width": 100,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-vivo-mobile",
-   "label": "vivo mobile"
-  },
-  {
-   "x": 546,
-   "y": 9098,
-   "width": 113,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-infinix-hot-pro",
-   "label": "infinix hot pro"
-  },
-  {
-   "x": 667,
-   "y": 9098,
-   "width": 89,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-air",
-   "label": "iphone air"
-  },
-  {
-   "x": 764,
-   "y": 9098,
-   "width": 132,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-used-iphone-pro",
-   "label": "used iphone pro"
-  },
-  {
-   "x": 904,
-   "y": 9098,
-   "width": 157,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-used-samsung-s-ultra",
-   "label": "used samsung s ultra"
-  },
-  {
-   "x": 1069,
-   "y": 9098,
-   "width": 95,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pta",
-   "label": "iphone pta"
-  },
-  {
-   "x": 1172,
-   "y": 9098,
-   "width": 92,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-pro-max-jv",
-   "label": "pro max jv"
-  },
-  {
-   "x": 80,
-   "y": 9137,
-   "width": 131,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-i-phone-pro-max",
-   "label": "i phone pro max"
-  },
-  {
-   "x": 219,
-   "y": 9137,
-   "width": 94,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-infinix-hot-i",
-   "label": "infinix hot i"
-  },
-  {
-   "x": 321,
-   "y": 9137,
-   "width": 110,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-tecno-mobile",
-   "label": "tecno mobile"
-  },
-  {
-   "x": 439,
-   "y": 9137,
-   "width": 121,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-infinix-note-pro",
-   "label": "infinix note pro"
-  },
-  {
-   "x": 568,
-   "y": 9137,
-   "width": 101,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-i-phone-pro",
-   "label": "i phone pro"
-  },
-  {
-   "x": 677,
-   "y": 9137,
-   "width": 75,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-vivo-v-e",
-   "label": "vivo v e"
-  },
-  {
-   "x": 760,
-   "y": 9137,
-   "width": 70,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-oppo-f",
-   "label": "oppo f"
-  },
-  {
-   "x": 838,
-   "y": 9137,
-   "width": 145,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-note-ultra",
-   "label": "samsung note ultra"
-  },
-  {
-   "x": 991,
-   "y": 9137,
-   "width": 127,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-used-samsung-s",
-   "label": "used samsung s"
-  },
-  {
-   "x": 1126,
-   "y": 9137,
-   "width": 121,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-redmi-note-pro",
-   "label": "redmi note pro"
-  },
-  {
-   "x": 1255,
-   "y": 9137,
-   "width": 67,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-pixel-a",
-   "label": "pixel a"
-  },
-  {
-   "x": 80,
-   "y": 9176,
-   "width": 88,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-exchange",
-   "label": "exchange"
-  },
-  {
-   "x": 176,
-   "y": 9176,
-   "width": 73,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-redmi-c",
-   "label": "redmi c"
-  },
-  {
-   "x": 257,
-   "y": 9176,
-   "width": 121,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pro-pta",
-   "label": "iphone pro pta"
-  },
-  {
-   "x": 386,
-   "y": 9176,
-   "width": 191,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-mini-pta-approved",
-   "label": "iphone mini pta approved"
-  },
-  {
-   "x": 585,
-   "y": 9176,
-   "width": 79,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-oneplu-t",
-   "label": "oneplu t"
-  },
-  {
-   "x": 672,
-   "y": 9176,
-   "width": 185,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-plu-pta-approved",
-   "label": "iphone plu pta approved"
-  },
-  {
-   "x": 865,
-   "y": 9176,
-   "width": 135,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-tecno-camon-pro",
-   "label": "tecno camon pro"
-  },
-  {
-   "x": 1008,
-   "y": 9176,
+   "x": 953,
+   "y": 8410,
    "width": 139,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-note-plu",
-   "label": "samsung note plu"
-  },
-  {
-   "x": 1155,
-   "y": 9176,
-   "width": 145,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-exchange-possible",
-   "label": "exchange possible"
-  },
-  {
-   "x": 80,
-   "y": 9215,
-   "width": 79,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-realme-c",
-   "label": "realme c"
-  },
-  {
-   "x": 167,
-   "y": 9215,
-   "width": 110,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-oppo-mobile",
-   "label": "oppo mobile"
-  },
-  {
-   "x": 285,
-   "y": 9215,
-   "width": 62,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-pro-jv",
-   "label": "pro jv"
-  },
-  {
-   "x": 355,
-   "y": 9215,
-   "width": 175,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-s-ultra-non-pta",
-   "label": "samsung s ultra non pta"
-  },
-  {
-   "x": 538,
-   "y": 9215,
-   "width": 99,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-oppo-a-pro",
-   "label": "oppo a pro"
-  },
-  {
-   "x": 645,
-   "y": 9215,
-   "width": 137,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-infinix-hot-pro-plu",
-   "label": "infinix hot pro plu"
-  },
-  {
-   "x": 790,
-   "y": 9215,
-   "width": 147,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-google-pixel-pro-xl",
-   "label": "google pixel pro xl"
-  },
-  {
-   "x": 945,
-   "y": 9215,
-   "width": 128,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-used-samsung-a",
-   "label": "used samsung a"
-  },
-  {
-   "x": 1081,
-   "y": 9215,
-   "width": 69,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-battery",
-   "label": "battery"
-  },
-  {
-   "x": 1158,
-   "y": 9215,
-   "width": 62,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-vivo-s",
-   "label": "vivo s"
-  },
-  {
-   "x": 1228,
-   "y": 9215,
-   "width": 119,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-oneplu-mobile",
-   "label": "oneplu mobile"
-  },
-  {
-   "x": 80,
-   "y": 9254,
-   "width": 89,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-vivo-x-pro",
-   "label": "vivo x pro"
-  },
-  {
-   "x": 177,
-   "y": 9254,
-   "width": 101,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-one-plu-pro",
-   "label": "one plu pro"
-  },
-  {
-   "x": 286,
-   "y": 9254,
-   "width": 119,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-huawei-mobile",
-   "label": "huawei mobile"
-  },
-  {
-   "x": 413,
-   "y": 9254,
-   "width": 96,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-oppo-f-pro",
-   "label": "oppo f pro"
-  },
-  {
-   "x": 517,
-   "y": 9254,
-   "width": 121,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-google-mobile",
-   "label": "google mobile"
-  },
-  {
-   "x": 646,
-   "y": 9254,
-   "width": 212,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-s-ultra-pta-approved",
-   "label": "samsung s ultra pta approved"
-  },
-  {
-   "x": 866,
-   "y": 9254,
-   "width": 116,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-realme-mobile",
-   "label": "realme mobile"
-  },
-  {
-   "x": 990,
-   "y": 9254,
-   "width": 151,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-pro-max-pta",
-   "label": "iphone pro max pta"
-  },
-  {
-   "x": 1149,
-   "y": 9254,
-   "width": 54,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-itel-s",
-   "label": "itel s"
-  },
-  {
-   "x": 1211,
-   "y": 9254,
-   "width": 97,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-xiaomi-ultra",
-   "label": "xiaomi ultra"
-  },
-  {
-   "x": 80,
-   "y": 9293,
-   "width": 137,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-galaxy-a",
-   "label": "samsung galaxy a"
-  },
-  {
-   "x": 225,
-   "y": 9293,
-   "width": 108,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-s-fe",
-   "label": "samsung s fe"
-  },
-  {
-   "x": 341,
-   "y": 9293,
-   "width": 73,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-vivo-y-s",
-   "label": "vivo y s"
-  },
-  {
-   "x": 422,
-   "y": 9293,
-   "width": 105,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-infinix-gt-pro",
-   "label": "infinix gt pro"
-  },
-  {
-   "x": 535,
-   "y": 9293,
-   "width": 136,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-galaxy-s",
-   "label": "samsung galaxy s"
-  },
-  {
-   "x": 679,
-   "y": 9293,
-   "width": 103,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-a-s",
-   "label": "samsung a s"
-  },
-  {
-   "x": 790,
-   "y": 9293,
-   "width": 75,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-xiaomi-t",
-   "label": "xiaomi t"
-  },
-  {
-   "x": 873,
-   "y": 9293,
-   "width": 148,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-plu-non-pta",
-   "label": "iphone plu non pta"
-  },
-  {
-   "x": 1029,
-   "y": 9293,
-   "width": 56,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-s-plu",
-   "label": "s plu"
-  },
-  {
-   "x": 1093,
-   "y": 9293,
-   "width": 103,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-oppo-reno-f",
-   "label": "oppo reno f"
-  },
-  {
-   "x": 1204,
-   "y": 9293,
-   "width": 113,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-iphone-bypas",
-   "label": "iphone bypas"
-  },
-  {
-   "x": 80,
-   "y": 9332,
-   "width": 49,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-lg-v",
-   "label": "lg v"
-  },
-  {
-   "x": 137,
-   "y": 9332,
-   "width": 223,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-google-pixel-pro-pta-approved",
-   "label": "google pixel pro pta approved"
-  },
-  {
-   "x": 368,
-   "y": 9332,
-   "width": 45,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-olx",
-   "label": "olx"
-  },
-  {
-   "x": 421,
-   "y": 9332,
-   "width": 73,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-redmi-a",
-   "label": "redmi a"
-  },
-  {
-   "x": 502,
-   "y": 9332,
-   "width": 123,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-non-pta-mobile",
-   "label": "non pta mobile"
-  },
-  {
-   "x": 633,
-   "y": 9332,
-   "width": 73,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-redmi-k",
-   "label": "redmi k"
-  },
-  {
-   "x": 714,
-   "y": 9332,
-   "width": 166,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-xiaomi-redmi-note-pro",
-   "label": "xiaomi redmi note pro"
-  },
-  {
-   "x": 888,
-   "y": 9332,
-   "width": 105,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items/q-samsung-flip",
-   "label": "samsung flip"
-  },
-  {
-   "x": 670,
-   "y": 9184,
-   "width": 100,
-   "height": 25,
+   "height": 41,
    "kind": "button",
-   "label": "View More"
+   "label": "WhatsApp"
   },
   {
    "x": 80,
-   "y": 9380,
+   "y": 9277,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -2964,7 +2326,7 @@
   },
   {
    "x": 80,
-   "y": 9412,
+   "y": 9309,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -2973,7 +2335,7 @@
   },
   {
    "x": 80,
-   "y": 9444,
+   "y": 9341,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -2982,8 +2344,8 @@
   },
   {
    "x": 80,
-   "y": 9476,
-   "width": 33,
+   "y": 9373,
+   "width": 32,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
@@ -2991,8 +2353,8 @@
   },
   {
    "x": 351,
-   "y": 9380,
-   "width": 36,
+   "y": 9277,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -3000,7 +2362,7 @@
   },
   {
    "x": 351,
-   "y": 9412,
+   "y": 9309,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -3009,8 +2371,8 @@
   },
   {
    "x": 351,
-   "y": 9444,
-   "width": 44,
+   "y": 9341,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -3018,7 +2380,7 @@
   },
   {
    "x": 351,
-   "y": 9476,
+   "y": 9373,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -3027,8 +2389,8 @@
   },
   {
    "x": 622,
-   "y": 9380,
-   "width": 66,
+   "y": 9277,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -3036,8 +2398,8 @@
   },
   {
    "x": 622,
-   "y": 9412,
-   "width": 78,
+   "y": 9309,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -3045,8 +2407,8 @@
   },
   {
    "x": 622,
-   "y": 9444,
-   "width": 134,
+   "y": 9341,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -3054,8 +2416,8 @@
   },
   {
    "x": 893,
-   "y": 9380,
-   "width": 33,
+   "y": 9277,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -3063,7 +2425,7 @@
   },
   {
    "x": 893,
-   "y": 9412,
+   "y": 9309,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -3072,8 +2434,8 @@
   },
   {
    "x": 893,
-   "y": 9444,
-   "width": 90,
+   "y": 9341,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -3081,8 +2443,8 @@
   },
   {
    "x": 893,
-   "y": 9476,
-   "width": 92,
+   "y": 9373,
+   "width": 95,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
@@ -3090,7 +2452,7 @@
   },
   {
    "x": 1164,
-   "y": 9377,
+   "y": 9274,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -3099,7 +2461,7 @@
   },
   {
    "x": 1216,
-   "y": 9377,
+   "y": 9274,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -3108,7 +2470,7 @@
   },
   {
    "x": 1268,
-   "y": 9377,
+   "y": 9274,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -3117,7 +2479,7 @@
   },
   {
    "x": 1320,
-   "y": 9377,
+   "y": 9274,
    "width": 40,
    "height": 41,
    "kind": "link",

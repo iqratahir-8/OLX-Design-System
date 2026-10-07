@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-cvt-1-6/",
  "finalUrl": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/altis-cvt-1-6/",
  "width": 390,
- "height": 2978,
+ "height": 3116,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:52:13.509Z",
+ "captured": "2026-10-07T14:26:59.561Z",
  "sections": [
   {
    "file": "01-header",
@@ -29,7 +29,7 @@
     "x": 0,
     "y": 76,
     "width": 390,
-    "height": 640
+    "height": 690
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
   },
@@ -38,7 +38,7 @@
    "name": "Toyota Corolla Altis CVT 1.6 Key Features & Spec",
    "rect": {
     "x": 16,
-    "y": 739,
+    "y": 789,
     "width": 358,
     "height": 40
    },
@@ -49,7 +49,7 @@
    "name": "Dimensions · Overall Length · 15′ 2″",
    "rect": {
     "x": 0,
-    "y": 789,
+    "y": 839,
     "width": 390,
     "height": 613
    },
@@ -60,7 +60,7 @@
    "name": "Engine & Performance",
    "rect": {
     "x": 0,
-    "y": 1400,
+    "y": 1450,
     "width": 390,
     "height": 80
    },
@@ -71,7 +71,7 @@
    "name": "Suspension, Steering & Brakes",
    "rect": {
     "x": 0,
-    "y": 1478,
+    "y": 1528,
     "width": 390,
     "height": 80
    },
@@ -82,7 +82,7 @@
    "name": "Wheels & Tyres",
    "rect": {
     "x": 0,
-    "y": 1556,
+    "y": 1606,
     "width": 390,
     "height": 80
    },
@@ -93,7 +93,7 @@
    "name": "Fuel Consumptions",
    "rect": {
     "x": 0,
-    "y": 1634,
+    "y": 1684,
     "width": 390,
     "height": 80
    },
@@ -104,7 +104,7 @@
    "name": "Safety",
    "rect": {
     "x": 0,
-    "y": 1712,
+    "y": 1762,
     "width": 390,
     "height": 80
    },
@@ -115,7 +115,7 @@
    "name": "Exterior",
    "rect": {
     "x": 0,
-    "y": 1790,
+    "y": 1840,
     "width": 390,
     "height": 80
    },
@@ -126,7 +126,7 @@
    "name": "Entertainment & Communications",
    "rect": {
     "x": 0,
-    "y": 1868,
+    "y": 1918,
     "width": 390,
     "height": 80
    },
@@ -137,7 +137,7 @@
    "name": "Comfort & Convenience",
    "rect": {
     "x": 0,
-    "y": 1946,
+    "y": 1996,
     "width": 390,
     "height": 80
    },
@@ -148,7 +148,7 @@
    "name": "If you own a car, leave a review and let",
    "rect": {
     "x": 16,
-    "y": 2049,
+    "y": 2099,
     "width": 358,
     "height": 115
    },
@@ -159,7 +159,7 @@
    "name": "Other Recommended Cars",
    "rect": {
     "x": 16,
-    "y": 2187,
+    "y": 2237,
     "width": 358,
     "height": 233
    },
@@ -170,7 +170,7 @@
    "name": "Home · Motors · New Cars",
    "rect": {
     "x": 16,
-    "y": 2443,
+    "y": 2493,
     "width": 358,
     "height": 39
    },
@@ -181,9 +181,9 @@
    "name": "Find New & Used Toyota Corolla Cars By C",
    "rect": {
     "x": 16,
-    "y": 2505,
+    "y": 2555,
     "width": 358,
-    "height": 168
+    "height": 189
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(6)"
   },
@@ -192,18 +192,18 @@
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 2712,
+    "y": 2783,
     "width": 390,
-    "height": 266
+    "height": 333
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(3)"
   }
  ],
  "hotspots": [
   {
-   "x": 156,
-   "y": 415,
-   "width": 218,
+   "x": 160,
+   "y": 465,
+   "width": 214,
    "height": 15,
    "kind": "link",
    "href": "https://www.olx.com.pk/cars_c84/q-toyota-corolla-altis-cvt-1-6",
@@ -211,7 +211,7 @@
   },
   {
    "x": 339,
-   "y": 817,
+   "y": 867,
    "width": 22,
    "height": 23,
    "kind": "button",
@@ -219,7 +219,7 @@
   },
   {
    "x": 337,
-   "y": 1427,
+   "y": 1477,
    "width": 24,
    "height": 25,
    "kind": "button",
@@ -227,7 +227,7 @@
   },
   {
    "x": 337,
-   "y": 1505,
+   "y": 1555,
    "width": 24,
    "height": 25,
    "kind": "button",
@@ -235,7 +235,7 @@
   },
   {
    "x": 337,
-   "y": 1583,
+   "y": 1633,
    "width": 24,
    "height": 25,
    "kind": "button",
@@ -243,7 +243,7 @@
   },
   {
    "x": 337,
-   "y": 1661,
+   "y": 1711,
    "width": 24,
    "height": 25,
    "kind": "button",
@@ -251,7 +251,7 @@
   },
   {
    "x": 337,
-   "y": 1739,
+   "y": 1789,
    "width": 24,
    "height": 25,
    "kind": "button",
@@ -259,7 +259,7 @@
   },
   {
    "x": 337,
-   "y": 1817,
+   "y": 1867,
    "width": 24,
    "height": 25,
    "kind": "button",
@@ -267,7 +267,7 @@
   },
   {
    "x": 337,
-   "y": 1895,
+   "y": 1945,
    "width": 24,
    "height": 25,
    "kind": "button",
@@ -275,7 +275,7 @@
   },
   {
    "x": 337,
-   "y": 1973,
+   "y": 2023,
    "width": 24,
    "height": 25,
    "kind": "button",
@@ -283,8 +283,8 @@
   },
   {
    "x": 29,
-   "y": 2120,
-   "width": 120,
+   "y": 2170,
+   "width": 121,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-reviews/write-a-review/",
@@ -292,15 +292,15 @@
   },
   {
    "x": 29,
-   "y": 2108,
-   "width": 120,
+   "y": 2158,
+   "width": 121,
    "height": 43,
    "kind": "button",
    "label": "Write a Review"
   },
   {
    "x": 16,
-   "y": 2221,
+   "y": 2271,
    "width": 233,
    "height": 199,
    "kind": "link",
@@ -309,7 +309,7 @@
   },
   {
    "x": 262,
-   "y": 2221,
+   "y": 2271,
    "width": 234,
    "height": 199,
    "kind": "link",
@@ -318,7 +318,7 @@
   },
   {
    "x": 509,
-   "y": 2221,
+   "y": 2271,
    "width": 233,
    "height": 199,
    "kind": "link",
@@ -327,7 +327,7 @@
   },
   {
    "x": 755,
-   "y": 2221,
+   "y": 2271,
    "width": 234,
    "height": 199,
    "kind": "link",
@@ -336,7 +336,7 @@
   },
   {
    "x": 1002,
-   "y": 2221,
+   "y": 2271,
    "width": 234,
    "height": 199,
    "kind": "link",
@@ -345,7 +345,7 @@
   },
   {
    "x": 1249,
-   "y": 2221,
+   "y": 2271,
    "width": 233,
    "height": 199,
    "kind": "link",
@@ -354,8 +354,8 @@
   },
   {
    "x": 16,
-   "y": 2443,
-   "width": 32,
+   "y": 2493,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -363,35 +363,35 @@
   },
   {
    "x": 76,
-   "y": 2443,
-   "width": 37,
+   "y": 2493,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
    "label": "Motors"
   },
   {
-   "x": 141,
-   "y": 2443,
-   "width": 51,
+   "x": 142,
+   "y": 2493,
+   "width": 52,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/",
    "label": "New Cars"
   },
   {
-   "x": 220,
-   "y": 2443,
-   "width": 35,
+   "x": 221,
+   "y": 2493,
+   "width": 36,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/toyota/",
    "label": "Toyota"
   },
   {
-   "x": 283,
-   "y": 2443,
-   "width": 38,
+   "x": 284,
+   "y": 2493,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/",
@@ -399,7 +399,7 @@
   },
   {
    "x": 16,
-   "y": 2539,
+   "y": 2610,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -408,7 +408,7 @@
   },
   {
    "x": 201,
-   "y": 2539,
+   "y": 2610,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -417,60 +417,68 @@
   },
   {
    "x": 16,
-   "y": 2568,
+   "y": 2639,
    "width": 173,
-   "height": 34,
+   "height": 35,
    "kind": "link",
    "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84/q-toyota-corolla",
    "label": "Toyota Corolla in Rawalpindi"
   },
   {
    "x": 201,
-   "y": 2568,
+   "y": 2639,
    "width": 173,
-   "height": 34,
+   "height": 35,
    "kind": "link",
    "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84/q-toyota-corolla",
    "label": "Toyota Corolla in Islamabad"
   },
   {
    "x": 16,
-   "y": 2613,
+   "y": 2685,
    "width": 173,
-   "height": 35,
+   "height": 34,
    "kind": "link",
    "href": "https://www.olx.com.pk/faisalabad_g4060660/cars_c84/q-toyota-corolla",
    "label": "Toyota Corolla in Faisalabad"
   },
   {
    "x": 201,
-   "y": 2613,
+   "y": 2685,
    "width": 173,
-   "height": 35,
+   "height": 34,
    "kind": "link",
    "href": "https://www.olx.com.pk/gujranwala_g4060662/cars_c84/q-toyota-corolla",
    "label": "Toyota Corolla in Gujranwala"
   },
   {
    "x": 16,
-   "y": 2647,
-   "width": 59,
+   "y": 2718,
+   "width": 60,
    "height": 26,
    "kind": "button",
    "label": "View More"
   },
   {
    "x": 16,
-   "y": 2828,
+   "y": 2899,
    "width": 358,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 2973,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 2898,
+   "y": 3035,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -479,7 +487,7 @@
   },
   {
    "x": 157,
-   "y": 2898,
+   "y": 3035,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -488,7 +496,7 @@
   },
   {
    "x": 201,
-   "y": 2898,
+   "y": 3035,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -497,7 +505,7 @@
   },
   {
    "x": 245,
-   "y": 2898,
+   "y": 3035,
    "width": 32,
    "height": 37,
    "kind": "link",

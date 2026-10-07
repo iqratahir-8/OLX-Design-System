@@ -1,18 +1,18 @@
 {
   "source": "https://www.olx.com.pk",
-  "captured": "2026-09-29",
+  "captured": "2026-10-07",
   "components": [
     {
       "name": "ad-description",
       "page": "ad-detail",
       "viewport": "desktop",
       "width": 820,
-      "height": 497,
+      "height": 545,
       "rect": {
         "x": 80,
-        "y": 1367,
+        "y": 1117,
         "width": 820,
-        "height": 497
+        "height": 545
       }
     },
     {
@@ -23,7 +23,7 @@
       "height": 122,
       "rect": {
         "x": 0,
-        "y": 697,
+        "y": 673,
         "width": 390,
         "height": 122
       }
@@ -36,7 +36,7 @@
       "height": 121,
       "rect": {
         "x": 80,
-        "y": 1207,
+        "y": 957,
         "width": 820,
         "height": 121
       }
@@ -49,7 +49,7 @@
       "height": 189,
       "rect": {
         "x": 0,
-        "y": 489,
+        "y": 465,
         "width": 390,
         "height": 189
       }
@@ -62,7 +62,7 @@
       "height": 116,
       "rect": {
         "x": 80,
-        "y": 1052,
+        "y": 802,
         "width": 820,
         "height": 116
       }
@@ -72,12 +72,12 @@
       "page": "ad-detail",
       "viewport": "mobile",
       "width": 390,
-      "height": 146,
+      "height": 122,
       "rect": {
         "x": 0,
         "y": 294,
         "width": 390,
-        "height": 146
+        "height": 122
       }
     },
     {
@@ -88,7 +88,7 @@
       "height": 173,
       "rect": {
         "x": 80,
-        "y": 5236,
+        "y": 5008,
         "width": 1280,
         "height": 173
       }
@@ -97,26 +97,26 @@
       "name": "brand-chips",
       "page": "category-listing",
       "viewport": "desktop",
-      "width": 960,
-      "height": 43,
+      "width": 288,
+      "height": 233,
       "rect": {
-        "x": 400,
-        "y": 641,
-        "width": 960,
-        "height": 43
+        "x": 97,
+        "y": 1278,
+        "width": 288,
+        "height": 233
       }
     },
     {
       "name": "brand-chips",
       "page": "category-listing",
       "viewport": "mobile",
-      "width": 390,
-      "height": 31,
+      "width": 76,
+      "height": 28,
       "rect": {
-        "x": 0,
-        "y": 155,
-        "width": 390,
-        "height": 31
+        "x": 208,
+        "y": 64,
+        "width": 76,
+        "height": 28
       }
     },
     {
@@ -127,7 +127,7 @@
       "height": 26,
       "rect": {
         "x": 80,
-        "y": 475,
+        "y": 193,
         "width": 1280,
         "height": 26
       }
@@ -140,7 +140,7 @@
       "height": 27,
       "rect": {
         "x": 16,
-        "y": 5501,
+        "y": 9936,
         "width": 358,
         "height": 27
       }
@@ -150,12 +150,12 @@
       "page": "category-listing",
       "viewport": "desktop",
       "width": 304,
-      "height": 100,
+      "height": 266,
       "rect": {
         "x": 80,
-        "y": 560,
+        "y": 278,
         "width": 304,
-        "height": 100
+        "height": 266
       }
     },
     {
@@ -179,7 +179,7 @@
       "height": 117,
       "rect": {
         "x": 80,
-        "y": 453,
+        "y": 225,
         "width": 121,
         "height": 117
       }
@@ -188,12 +188,12 @@
       "name": "category-tile",
       "page": "home",
       "viewport": "mobile",
-      "width": 72,
+      "width": 70,
       "height": 92,
       "rect": {
         "x": 16,
-        "y": 362,
-        "width": 72,
+        "y": 212,
+        "width": 70,
         "height": 92
       }
     },
@@ -205,7 +205,7 @@
       "height": 300,
       "rect": {
         "x": 80,
-        "y": 453,
+        "y": 225,
         "width": 1280,
         "height": 300
       }
@@ -218,7 +218,7 @@
       "height": 234,
       "rect": {
         "x": 0,
-        "y": 362,
+        "y": 212,
         "width": 390,
         "height": 234
       }
@@ -231,7 +231,7 @@
       "height": 49,
       "rect": {
         "x": 940,
-        "y": 753,
+        "y": 509,
         "width": 420,
         "height": 49
       }
@@ -244,7 +244,7 @@
       "height": 64,
       "rect": {
         "x": 0,
-        "y": 2258,
+        "y": 2180,
         "width": 390,
         "height": 64
       }
@@ -257,7 +257,7 @@
       "height": 58,
       "rect": {
         "x": 0,
-        "y": 5696,
+        "y": 5468,
         "width": 1440,
         "height": 58
       }
@@ -270,7 +270,7 @@
       "height": 102,
       "rect": {
         "x": 0,
-        "y": 4090,
+        "y": 3940,
         "width": 390,
         "height": 102
       }
@@ -280,12 +280,12 @@
       "page": "category-listing",
       "viewport": "desktop",
       "width": 302,
-      "height": 449,
+      "height": 428,
       "rect": {
         "x": 416,
-        "y": 2300,
+        "y": 2018,
         "width": 302,
-        "height": 449
+        "height": 428
       }
     },
     {
@@ -293,12 +293,12 @@
       "page": "category-listing",
       "viewport": "mobile",
       "width": 173,
-      "height": 274,
+      "height": 260,
       "rect": {
         "x": 16,
         "y": 1122,
         "width": 173,
-        "height": 274
+        "height": 260
       }
     },
     {
@@ -306,12 +306,12 @@
       "page": "category-listing",
       "viewport": "desktop",
       "width": 304,
-      "height": 494,
+      "height": 1646,
       "rect": {
         "x": 80,
-        "y": 560,
+        "y": 278,
         "width": 304,
-        "height": 494
+        "height": 1646
       }
     },
     {
@@ -322,7 +322,7 @@
       "height": 346,
       "rect": {
         "x": 0,
-        "y": 5408,
+        "y": 5180,
         "width": 1440,
         "height": 346
       }
@@ -335,7 +335,7 @@
       "height": 562,
       "rect": {
         "x": 0,
-        "y": 3690,
+        "y": 3540,
         "width": 390,
         "height": 562
       }
@@ -348,7 +348,7 @@
       "height": 481,
       "rect": {
         "x": 80,
-        "y": 532,
+        "y": 282,
         "width": 820,
         "height": 481
       }
@@ -365,20 +365,6 @@
         "width": 390,
         "height": 294
       }
-    },
-    {
-      "name": "header",
-      "page": "home",
-      "viewport": "desktop",
-      "width": 1440,
-      "height": 143,
-      "rect": {
-        "x": 0,
-        "y": 0,
-        "width": 1440,
-        "height": 143
-      },
-      "state": "Default"
     },
     {
       "name": "header",
@@ -402,6 +388,19 @@
       "markup": "site/pages/ad-scrolled/sections/desktop/01-sticky-ad-info-header.html"
     },
     {
+      "name": "header",
+      "page": "home",
+      "viewport": "desktop",
+      "width": 1440,
+      "height": 143,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 143
+      }
+    },
+    {
       "name": "listing-card",
       "page": "home",
       "viewport": "desktop",
@@ -409,7 +408,7 @@
       "height": 461,
       "rect": {
         "x": 80,
-        "y": 836,
+        "y": 608,
         "width": 311,
         "height": 461
       }
@@ -422,7 +421,7 @@
       "height": 316,
       "rect": {
         "x": 16,
-        "y": 670,
+        "y": 520,
         "width": 215,
         "height": 316
       }
@@ -435,7 +434,7 @@
       "height": 237,
       "rect": {
         "x": 400,
-        "y": 699,
+        "y": 417,
         "width": 960,
         "height": 237
       }
@@ -461,7 +460,7 @@
       "height": 513,
       "rect": {
         "x": 80,
-        "y": 784,
+        "y": 556,
         "width": 1280,
         "height": 513
       }
@@ -474,7 +473,7 @@
       "height": 351,
       "rect": {
         "x": 0,
-        "y": 635,
+        "y": 485,
         "width": 390,
         "height": 351
       }
@@ -487,7 +486,7 @@
       "height": 37,
       "rect": {
         "x": 1030,
-        "y": 562,
+        "y": 280,
         "width": 330,
         "height": 37
       }
@@ -517,20 +516,6 @@
         "width": 40,
         "height": 24
       }
-    },
-    {
-      "name": "mobile-header",
-      "page": "home",
-      "viewport": "mobile",
-      "width": 390,
-      "height": 140,
-      "rect": {
-        "x": 0,
-        "y": 0,
-        "width": 390,
-        "height": 140
-      },
-      "state": "At the top"
     },
     {
       "name": "mobile-header",
@@ -594,6 +579,19 @@
       },
       "png": "site/pages/sub-mobile-phones/sections/mobile/01-header.png",
       "markup": "site/pages/sub-mobile-phones/sections/mobile/01-header.html"
+    },
+    {
+      "name": "mobile-header",
+      "page": "home",
+      "viewport": "mobile",
+      "width": 390,
+      "height": 140,
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 390,
+        "height": 140
+      }
     },
     {
       "name": "mobile-location-bar",
@@ -780,12 +778,12 @@
       "name": "page-title",
       "page": "category-listing",
       "viewport": "desktop",
-      "width": 380,
+      "width": 381,
       "height": 37,
       "rect": {
         "x": 80,
-        "y": 508,
-        "width": 380,
+        "y": 226,
+        "width": 381,
         "height": 37
       }
     },
@@ -797,7 +795,7 @@
       "height": 460,
       "rect": {
         "x": 80,
-        "y": 1903,
+        "y": 1701,
         "width": 820,
         "height": 460
       }
@@ -810,7 +808,7 @@
       "height": 351,
       "rect": {
         "x": 0,
-        "y": 1058,
+        "y": 1020,
         "width": 390,
         "height": 351
       }
@@ -823,7 +821,7 @@
       "height": 171,
       "rect": {
         "x": 80,
-        "y": 2402,
+        "y": 2200,
         "width": 820,
         "height": 171
       }
@@ -836,7 +834,7 @@
       "height": 236,
       "rect": {
         "x": 16,
-        "y": 1448,
+        "y": 1390,
         "width": 358,
         "height": 236
       }
@@ -888,7 +886,7 @@
       "height": 46,
       "rect": {
         "x": 159,
-        "y": 4200,
+        "y": 4050,
         "width": 72,
         "height": 46
       }
@@ -898,12 +896,12 @@
       "page": "ad-detail",
       "viewport": "desktop",
       "width": 420,
-      "height": 142,
+      "height": 148,
       "rect": {
         "x": 940,
-        "y": 532,
+        "y": 282,
         "width": 420,
-        "height": 142
+        "height": 148
       }
     },
     {
@@ -911,12 +909,12 @@
       "page": "ad-detail",
       "viewport": "mobile",
       "width": 386,
-      "height": 143,
+      "height": 149,
       "rect": {
         "x": 4,
-        "y": 838,
+        "y": 814,
         "width": 386,
-        "height": 143
+        "height": 149
       }
     },
     {
@@ -924,12 +922,12 @@
       "page": "ad-detail",
       "viewport": "desktop",
       "width": 420,
-      "height": 270,
+      "height": 276,
       "rect": {
         "x": 940,
-        "y": 532,
+        "y": 282,
         "width": 420,
-        "height": 270
+        "height": 276
       }
     },
     {
@@ -940,7 +938,7 @@
       "height": 49,
       "rect": {
         "x": 940,
-        "y": 689,
+        "y": 445,
         "width": 420,
         "height": 49
       }

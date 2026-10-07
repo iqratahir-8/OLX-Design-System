@@ -1,0 +1,3884 @@
+{
+ "checked": "2026-10-07T15:47:19.426Z",
+ "tolerance": 48,
+ "thresholds": {
+  "match": 0.005,
+  "close": 0.03
+ },
+ "fonts": "local Geomanist (npm run fetch-fonts)",
+ "results": [
+  {
+   "group": "components",
+   "id": "ad-description~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    820,
+    545
+   ],
+   "stored": [
+    820,
+    545
+   ]
+  },
+  {
+   "group": "components",
+   "id": "ad-description~mobile",
+   "verdict": "close",
+   "changed": 2.23,
+   "photosMasked": 0,
+   "live": [
+    1170,
+    366
+   ],
+   "stored": [
+    1170,
+    363
+   ]
+  },
+  {
+   "group": "components",
+   "id": "ad-details~desktop",
+   "verdict": "close",
+   "changed": 0.83,
+   "photosMasked": 0,
+   "live": [
+    820,
+    121
+   ],
+   "stored": [
+    820,
+    120
+   ]
+  },
+  {
+   "group": "components",
+   "id": "ad-details~mobile",
+   "verdict": "close",
+   "changed": 1.76,
+   "photosMasked": 0,
+   "live": [
+    1170,
+    567
+   ],
+   "stored": [
+    1170,
+    564
+   ]
+  },
+  {
+   "group": "components",
+   "id": "ad-overview~desktop",
+   "verdict": "close",
+   "changed": 0.86,
+   "photosMasked": 0,
+   "live": [
+    820,
+    116
+   ],
+   "stored": [
+    820,
+    115
+   ]
+  },
+  {
+   "group": "components",
+   "id": "ad-overview~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    1170,
+    366
+   ],
+   "stored": [
+    1170,
+    366
+   ]
+  },
+  {
+   "group": "components",
+   "id": "app-banner~desktop",
+   "verdict": "mismatch",
+   "changed": 26.59,
+   "photosMasked": 0,
+   "live": [
+    1280,
+    173
+   ],
+   "stored": [
+    1280,
+    147
+   ]
+  },
+  {
+   "group": "components",
+   "id": "brand-chips~desktop",
+   "verdict": "match",
+   "changed": 0.43,
+   "photosMasked": 0,
+   "live": [
+    288,
+    233
+   ],
+   "stored": [
+    288,
+    232
+   ]
+  },
+  {
+   "group": "components",
+   "id": "brand-chips~mobile",
+   "verdict": "mismatch",
+   "changed": 3.43,
+   "photosMasked": 0,
+   "live": [
+    228,
+    84
+   ],
+   "stored": [
+    225,
+    84
+   ]
+  },
+  {
+   "group": "components",
+   "id": "breadcrumb~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    1280,
+    26
+   ],
+   "stored": [
+    1280,
+    26
+   ]
+  },
+  {
+   "group": "components",
+   "id": "breadcrumb~mobile",
+   "verdict": "mismatch",
+   "changed": 98.72,
+   "photosMasked": 0,
+   "live": [
+    1074,
+    1
+   ],
+   "stored": [
+    1074,
+    78
+   ]
+  },
+  {
+   "group": "components",
+   "id": "categories-filter~desktop",
+   "verdict": "match",
+   "changed": 0.47,
+   "photosMasked": 0,
+   "live": [
+    304,
+    266
+   ],
+   "stored": [
+    304,
+    265
+   ]
+  },
+  {
+   "group": "components",
+   "id": "category-nav~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    50
+   ],
+   "stored": [
+    1440,
+    50
+   ]
+  },
+  {
+   "group": "components",
+   "id": "category-tile~desktop",
+   "verdict": "match",
+   "changed": 0.2,
+   "photosMasked": 0,
+   "live": [
+    121,
+    117
+   ],
+   "stored": [
+    121,
+    117
+   ]
+  },
+  {
+   "group": "components",
+   "id": "category-tile~mobile",
+   "verdict": "mismatch",
+   "changed": 3.97,
+   "photosMasked": 0,
+   "live": [
+    210,
+    276
+   ],
+   "stored": [
+    210,
+    273
+   ]
+  },
+  {
+   "group": "components",
+   "id": "category-tiles~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    1280,
+    300
+   ],
+   "stored": [
+    1280,
+    300
+   ]
+  },
+  {
+   "group": "components",
+   "id": "category-tiles~mobile",
+   "verdict": "close",
+   "changed": 2.15,
+   "photosMasked": 0,
+   "live": [
+    1170,
+    702
+   ],
+   "stored": [
+    1170,
+    699
+   ]
+  },
+  {
+   "group": "components",
+   "id": "chat-button~desktop",
+   "verdict": "close",
+   "changed": 2.04,
+   "photosMasked": 0,
+   "live": [
+    420,
+    49
+   ],
+   "stored": [
+    420,
+    48
+   ]
+  },
+  {
+   "group": "components",
+   "id": "contact-bar~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    1170,
+    192
+   ],
+   "stored": [
+    1170,
+    192
+   ]
+  },
+  {
+   "group": "components",
+   "id": "copyright-bar~desktop",
+   "verdict": "mismatch",
+   "changed": 3.45,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    58
+   ],
+   "stored": [
+    1440,
+    57
+   ]
+  },
+  {
+   "group": "components",
+   "id": "copyright-bar~mobile",
+   "verdict": "mismatch",
+   "changed": 5.91,
+   "photosMasked": 0,
+   "live": [
+    1170,
+    306
+   ],
+   "stored": [
+    1170,
+    303
+   ]
+  },
+  {
+   "group": "components",
+   "id": "delivery-card~desktop",
+   "verdict": "mismatch",
+   "changed": 17.69,
+   "photosMasked": 69.2,
+   "live": [
+    302,
+    428
+   ],
+   "stored": [
+    301,
+    406
+   ]
+  },
+  {
+   "group": "components",
+   "id": "delivery-card~mobile",
+   "verdict": "mismatch",
+   "changed": 23.74,
+   "photosMasked": 65,
+   "live": [
+    519,
+    780
+   ],
+   "stored": [
+    519,
+    723
+   ]
+  },
+  {
+   "group": "components",
+   "id": "filters-sidebar~desktop",
+   "verdict": "mismatch",
+   "changed": 54.98,
+   "photosMasked": 0,
+   "live": [
+    304,
+    1646
+   ],
+   "stored": [
+    304,
+    742
+   ]
+  },
+  {
+   "group": "components",
+   "id": "footer~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    346
+   ],
+   "stored": [
+    1440,
+    346
+   ]
+  },
+  {
+   "group": "components",
+   "id": "footer~mobile",
+   "verdict": "close",
+   "changed": 2.89,
+   "photosMasked": 0,
+   "live": [
+    1170,
+    1686
+   ],
+   "stored": [
+    1170,
+    1683
+   ]
+  },
+  {
+   "group": "components",
+   "id": "gallery~desktop",
+   "verdict": "match",
+   "changed": 100,
+   "photosMasked": 99.8,
+   "live": [
+    820,
+    481
+   ],
+   "stored": [
+    820,
+    480
+   ]
+  },
+  {
+   "group": "components",
+   "id": "gallery~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 100,
+   "live": [
+    1170,
+    882
+   ],
+   "stored": [
+    1170,
+    882
+   ]
+  },
+  {
+   "group": "components",
+   "id": "header~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    143
+   ],
+   "stored": [
+    1440,
+    143
+   ]
+  },
+  {
+   "group": "components",
+   "id": "listing-card~desktop",
+   "verdict": "close",
+   "changed": 0.65,
+   "photosMasked": 66.6,
+   "live": [
+    311,
+    461
+   ],
+   "stored": [
+    311,
+    460
+   ]
+  },
+  {
+   "group": "components",
+   "id": "listing-card~mobile",
+   "verdict": "mismatch",
+   "changed": 3.55,
+   "photosMasked": 66.8,
+   "live": [
+    645,
+    948
+   ],
+   "stored": [
+    645,
+    945
+   ]
+  },
+  {
+   "group": "components",
+   "id": "listing-row-featured~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 32.1,
+   "live": [
+    960,
+    237
+   ],
+   "stored": [
+    960,
+    237
+   ]
+  },
+  {
+   "group": "components",
+   "id": "listing-row-featured~mobile",
+   "verdict": "match",
+   "changed": 0.05,
+   "photosMasked": 26.7,
+   "live": [
+    1170,
+    390
+   ],
+   "stored": [
+    1170,
+    390
+   ]
+  },
+  {
+   "group": "components",
+   "id": "listing-section~desktop",
+   "verdict": "match",
+   "changed": 0.47,
+   "photosMasked": 58.2,
+   "live": [
+    1280,
+    513
+   ],
+   "stored": [
+    1280,
+    512
+   ]
+  },
+  {
+   "group": "components",
+   "id": "listing-section~mobile",
+   "verdict": "close",
+   "changed": 2.19,
+   "photosMasked": 55.9,
+   "live": [
+    1170,
+    1053
+   ],
+   "stored": [
+    1170,
+    1050
+   ]
+  },
+  {
+   "group": "components",
+   "id": "listing-toolbar~desktop",
+   "verdict": "mismatch",
+   "changed": 3.08,
+   "photosMasked": 0,
+   "live": [
+    330,
+    37
+   ],
+   "stored": [
+    329,
+    36
+   ]
+  },
+  {
+   "group": "components",
+   "id": "location-picker~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    362,
+    50
+   ],
+   "stored": [
+    362,
+    50
+   ]
+  },
+  {
+   "group": "components",
+   "id": "login-button~desktop",
+   "verdict": "mismatch",
+   "changed": 13.23,
+   "photosMasked": 0,
+   "live": [
+    40,
+    24
+   ],
+   "stored": [
+    40,
+    23
+   ]
+  },
+  {
+   "group": "components",
+   "id": "mobile-header~mobile",
+   "verdict": "match",
+   "changed": 0.3,
+   "photosMasked": 0,
+   "live": [
+    1170,
+    420
+   ],
+   "stored": [
+    1170,
+    420
+   ]
+  },
+  {
+   "group": "components",
+   "id": "mobile-location-bar~mobile",
+   "verdict": "mismatch",
+   "changed": 5.64,
+   "photosMasked": 0,
+   "live": [
+    1074,
+    75
+   ],
+   "stored": [
+    1074,
+    75
+   ]
+  },
+  {
+   "group": "components",
+   "id": "page-title~desktop",
+   "verdict": "mismatch",
+   "changed": 21.03,
+   "photosMasked": 0,
+   "live": [
+    381,
+    37
+   ],
+   "stored": [
+    381,
+    36
+   ]
+  },
+  {
+   "group": "components",
+   "id": "related-ads~desktop",
+   "verdict": "match",
+   "changed": 0.48,
+   "photosMasked": 55,
+   "live": [
+    820,
+    460
+   ],
+   "stored": [
+    820,
+    459
+   ]
+  },
+  {
+   "group": "components",
+   "id": "related-ads~mobile",
+   "verdict": "close",
+   "changed": 2.06,
+   "photosMasked": 55.9,
+   "live": [
+    1170,
+    1053
+   ],
+   "stored": [
+    1170,
+    1050
+   ]
+  },
+  {
+   "group": "components",
+   "id": "safety-tips~desktop",
+   "verdict": "close",
+   "changed": 0.58,
+   "photosMasked": 0,
+   "live": [
+    820,
+    171
+   ],
+   "stored": [
+    820,
+    170
+   ]
+  },
+  {
+   "group": "components",
+   "id": "safety-tips~mobile",
+   "verdict": "mismatch",
+   "changed": 3.82,
+   "photosMasked": 0,
+   "live": [
+    1074,
+    708
+   ],
+   "stored": [
+    1074,
+    705
+   ]
+  },
+  {
+   "group": "components",
+   "id": "search-bar~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    902,
+    50
+   ],
+   "stored": [
+    902,
+    50
+   ]
+  },
+  {
+   "group": "components",
+   "id": "search-row~desktop",
+   "verdict": "mismatch",
+   "changed": 3.73,
+   "photosMasked": 0,
+   "live": [
+    1280,
+    78
+   ],
+   "stored": [
+    1280,
+    78
+   ]
+  },
+  {
+   "group": "components",
+   "id": "sell-button~desktop",
+   "verdict": "error",
+   "error": "locator.screenshot: Timeout 59994.875ms exceeded."
+  },
+  {
+   "group": "components",
+   "id": "sell-button~mobile",
+   "verdict": "mismatch",
+   "changed": 16.28,
+   "photosMasked": 0,
+   "live": [
+    216,
+    138
+   ],
+   "stored": [
+    216,
+    138
+   ]
+  },
+  {
+   "group": "components",
+   "id": "seller-card-mobile~mobile",
+   "verdict": "close",
+   "changed": 0.6,
+   "photosMasked": 2.8,
+   "live": [
+    1158,
+    447
+   ],
+   "stored": [
+    1158,
+    447
+   ]
+  },
+  {
+   "group": "components",
+   "id": "seller-card~desktop",
+   "verdict": "mismatch",
+   "changed": 12.99,
+   "photosMasked": 4.6,
+   "live": [
+    420,
+    148
+   ],
+   "stored": [
+    420,
+    163
+   ]
+  },
+  {
+   "group": "components",
+   "id": "seller-sidebar~desktop",
+   "verdict": "match",
+   "changed": 0.37,
+   "photosMasked": 2.7,
+   "live": [
+    420,
+    276
+   ],
+   "stored": [
+    420,
+    275
+   ]
+  },
+  {
+   "group": "components",
+   "id": "show-phone-button~desktop",
+   "verdict": "mismatch",
+   "changed": 4.06,
+   "photosMasked": 0,
+   "live": [
+    420,
+    49
+   ],
+   "stored": [
+    420,
+    48
+   ]
+  },
+  {
+   "group": "components",
+   "id": "top-bar~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    64
+   ],
+   "stored": [
+    1440,
+    64
+   ]
+  },
+  {
+   "group": "site",
+   "id": "account-menu~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 38.2,
+   "live": [
+    780,
+    8204
+   ],
+   "stored": [
+    780,
+    8204
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-animals~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 26.4,
+   "live": [
+    1440,
+    2625
+   ],
+   "stored": [
+    1440,
+    2625
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-animals~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 21.8,
+   "live": [
+    780,
+    4536
+   ],
+   "stored": [
+    780,
+    4536
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-bikes~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 20.2,
+   "live": [
+    1440,
+    3192
+   ],
+   "stored": [
+    1440,
+    3192
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-bikes~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 21,
+   "live": [
+    780,
+    4676
+   ],
+   "stored": [
+    780,
+    4676
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-books-sports~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 21.8,
+   "live": [
+    1440,
+    2079
+   ],
+   "stored": [
+    1440,
+    2079
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-books-sports~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 16.1,
+   "live": [
+    780,
+    3660
+   ],
+   "stored": [
+    780,
+    3660
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-business~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 21.9,
+   "live": [
+    1440,
+    3159
+   ],
+   "stored": [
+    1440,
+    3159
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-business~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 24,
+   "live": [
+    780,
+    4120
+   ],
+   "stored": [
+    780,
+    4120
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-cars~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 22.9,
+   "live": [
+    1440,
+    4083
+   ],
+   "stored": [
+    1440,
+    4083
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-cars~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 20.7,
+   "live": [
+    780,
+    6630
+   ],
+   "stored": [
+    780,
+    6630
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-electronics~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 21.6,
+   "live": [
+    1440,
+    2988
+   ],
+   "stored": [
+    1440,
+    2988
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-electronics~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 22.4,
+   "live": [
+    780,
+    4372
+   ],
+   "stored": [
+    780,
+    4372
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-fashion~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 25.1,
+   "live": [
+    1440,
+    2758
+   ],
+   "stored": [
+    1440,
+    2758
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-fashion~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 22.6,
+   "live": [
+    780,
+    4344
+   ],
+   "stored": [
+    780,
+    4344
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-furniture~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 25.9,
+   "live": [
+    1440,
+    2680
+   ],
+   "stored": [
+    1440,
+    2680
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-furniture~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 22.4,
+   "live": [
+    780,
+    4372
+   ],
+   "stored": [
+    780,
+    4372
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-houses~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 24.5,
+   "live": [
+    1440,
+    2833
+   ],
+   "stored": [
+    1440,
+    2833
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-houses~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 22.5,
+   "live": [
+    780,
+    4396
+   ],
+   "stored": [
+    780,
+    4396
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-jobs~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 13.3,
+   "live": [
+    1440,
+    2051
+   ],
+   "stored": [
+    1440,
+    2051
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-jobs~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 14.8,
+   "live": [
+    780,
+    3982
+   ],
+   "stored": [
+    780,
+    3982
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-kids~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 23.4,
+   "live": [
+    1440,
+    2967
+   ],
+   "stored": [
+    1440,
+    2967
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-kids~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 22.9,
+   "live": [
+    780,
+    4308
+   ],
+   "stored": [
+    780,
+    4308
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-mobiles~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 24,
+   "live": [
+    1440,
+    2888
+   ],
+   "stored": [
+    1440,
+    2888
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-mobiles~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 22.7,
+   "live": [
+    780,
+    4560
+   ],
+   "stored": [
+    780,
+    4560
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-online-jobs~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 11.7,
+   "live": [
+    1440,
+    2332
+   ],
+   "stored": [
+    1440,
+    2332
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-online-jobs~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 13.1,
+   "live": [
+    780,
+    4482
+   ],
+   "stored": [
+    780,
+    4482
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-plots~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 19.2,
+   "live": [
+    1440,
+    3603
+   ],
+   "stored": [
+    1440,
+    3603
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-plots~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 21.2,
+   "live": [
+    780,
+    4624
+   ],
+   "stored": [
+    780,
+    4624
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-property-for-rent~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 21.5,
+   "live": [
+    1440,
+    3228
+   ],
+   "stored": [
+    1440,
+    3228
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-property-for-rent~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 19.9,
+   "live": [
+    780,
+    4930
+   ],
+   "stored": [
+    780,
+    4930
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-property-for-sale~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 19.2,
+   "live": [
+    1440,
+    3603
+   ],
+   "stored": [
+    1440,
+    3603
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-property-for-sale~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 21.2,
+   "live": [
+    780,
+    4624
+   ],
+   "stored": [
+    780,
+    4624
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-scrolled~desktop",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "ad-scrolled~mobile",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "ad-services~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 18.4,
+   "live": [
+    1440,
+    2469
+   ],
+   "stored": [
+    1440,
+    2469
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-services~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 17.7,
+   "live": [
+    780,
+    3372
+   ],
+   "stored": [
+    780,
+    3372
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-vehicles~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 24.8,
+   "live": [
+    1440,
+    3758
+   ],
+   "stored": [
+    1440,
+    3758
+   ]
+  },
+  {
+   "group": "site",
+   "id": "ad-vehicles~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 21.3,
+   "live": [
+    780,
+    6438
+   ],
+   "stored": [
+    780,
+    6438
+   ]
+  },
+  {
+   "group": "site",
+   "id": "brand-sheet~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 13.6,
+   "live": [
+    780,
+    1328
+   ],
+   "stored": [
+    780,
+    1328
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-animals~desktop",
+   "verdict": "mismatch",
+   "changed": 4.05,
+   "photosMasked": 22.1,
+   "live": [
+    1440,
+    16100
+   ],
+   "stored": [
+    1440,
+    16100
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-animals~mobile",
+   "verdict": "mismatch",
+   "changed": 6.43,
+   "photosMasked": 24.8,
+   "live": [
+    780,
+    11988
+   ],
+   "stored": [
+    780,
+    11988
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-bikes~desktop",
+   "verdict": "close",
+   "changed": 1.74,
+   "photosMasked": 18.6,
+   "live": [
+    1440,
+    13455
+   ],
+   "stored": [
+    1440,
+    13455
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-bikes~mobile",
+   "verdict": "mismatch",
+   "changed": 7.04,
+   "photosMasked": 19,
+   "live": [
+    780,
+    9338
+   ],
+   "stored": [
+    780,
+    9338
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-books-sports~desktop",
+   "verdict": "mismatch",
+   "changed": 6.46,
+   "photosMasked": 21.8,
+   "live": [
+    1440,
+    9427
+   ],
+   "stored": [
+    1440,
+    9427
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-books-sports~mobile",
+   "verdict": "close",
+   "changed": 2.04,
+   "photosMasked": 24.5,
+   "live": [
+    780,
+    20970
+   ],
+   "stored": [
+    780,
+    20970
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-business~desktop",
+   "verdict": "mismatch",
+   "changed": 3.34,
+   "photosMasked": 19.3,
+   "live": [
+    1440,
+    7757
+   ],
+   "stored": [
+    1440,
+    7757
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-business~mobile",
+   "verdict": "mismatch",
+   "changed": 5.22,
+   "photosMasked": 20.2,
+   "live": [
+    780,
+    9356
+   ],
+   "stored": [
+    780,
+    9356
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-electronics~desktop",
+   "verdict": "mismatch",
+   "changed": 3.23,
+   "photosMasked": 21.8,
+   "live": [
+    1440,
+    9074
+   ],
+   "stored": [
+    1440,
+    9074
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-electronics~mobile",
+   "verdict": "mismatch",
+   "changed": 6.98,
+   "photosMasked": 25,
+   "live": [
+    780,
+    11952
+   ],
+   "stored": [
+    780,
+    11952
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-fashion~desktop",
+   "verdict": "mismatch",
+   "changed": 3.98,
+   "photosMasked": 22.1,
+   "live": [
+    1440,
+    16100
+   ],
+   "stored": [
+    1440,
+    16100
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-fashion~mobile",
+   "verdict": "mismatch",
+   "changed": 6.79,
+   "photosMasked": 25,
+   "live": [
+    780,
+    20720
+   ],
+   "stored": [
+    780,
+    20720
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-furniture~desktop",
+   "verdict": "mismatch",
+   "changed": 3.91,
+   "photosMasked": 22.1,
+   "live": [
+    1440,
+    15928
+   ],
+   "stored": [
+    1440,
+    15928
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-furniture~mobile",
+   "verdict": "mismatch",
+   "changed": 7.48,
+   "photosMasked": 25.1,
+   "live": [
+    780,
+    21080
+   ],
+   "stored": [
+    780,
+    21080
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-jobs~desktop",
+   "verdict": "mismatch",
+   "changed": 3.03,
+   "photosMasked": 19.1,
+   "live": [
+    1440,
+    7424
+   ],
+   "stored": [
+    1440,
+    7424
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-jobs~mobile",
+   "verdict": "close",
+   "changed": 1.94,
+   "photosMasked": 19,
+   "live": [
+    780,
+    9052
+   ],
+   "stored": [
+    780,
+    9052
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-kids~desktop",
+   "verdict": "mismatch",
+   "changed": 3.81,
+   "photosMasked": 22,
+   "live": [
+    1440,
+    16121
+   ],
+   "stored": [
+    1440,
+    16121
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-kids~mobile",
+   "verdict": "mismatch",
+   "changed": 7.06,
+   "photosMasked": 24.4,
+   "live": [
+    780,
+    20750
+   ],
+   "stored": [
+    780,
+    20750
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-mobiles~desktop",
+   "verdict": "match",
+   "changed": 0.01,
+   "photosMasked": 16.4,
+   "live": [
+    1440,
+    7424
+   ],
+   "stored": [
+    1440,
+    7424
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-mobiles~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 14.7,
+   "live": [
+    780,
+    9052
+   ],
+   "stored": [
+    780,
+    9052
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-property-for-rent~desktop",
+   "verdict": "mismatch",
+   "changed": 4.53,
+   "photosMasked": 18.6,
+   "live": [
+    1440,
+    13455
+   ],
+   "stored": [
+    1440,
+    13455
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-property-for-rent~mobile",
+   "verdict": "mismatch",
+   "changed": 7.63,
+   "photosMasked": 47.2,
+   "live": [
+    780,
+    45700
+   ],
+   "stored": [
+    780,
+    45700
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-property-for-sale~desktop",
+   "verdict": "mismatch",
+   "changed": 4.27,
+   "photosMasked": 18.6,
+   "live": [
+    1440,
+    13426
+   ],
+   "stored": [
+    1440,
+    13426
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-property-for-sale~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 46.5,
+   "live": [
+    780,
+    45470
+   ],
+   "stored": [
+    780,
+    45470
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-services~desktop",
+   "verdict": "close",
+   "changed": 2.79,
+   "photosMasked": 18.6,
+   "live": [
+    1440,
+    13455
+   ],
+   "stored": [
+    1440,
+    13455
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-services~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 17.1,
+   "live": [
+    780,
+    16122
+   ],
+   "stored": [
+    780,
+    16122
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-vehicles~desktop",
+   "verdict": "mismatch",
+   "changed": 3.06,
+   "photosMasked": 21.3,
+   "live": [
+    1440,
+    9625
+   ],
+   "stored": [
+    1440,
+    9625
+   ]
+  },
+  {
+   "group": "site",
+   "id": "cat-vehicles~mobile",
+   "verdict": "mismatch",
+   "changed": 6.9,
+   "photosMasked": 24.4,
+   "live": [
+    780,
+    13350
+   ],
+   "stored": [
+    780,
+    13350
+   ]
+  },
+  {
+   "group": "site",
+   "id": "categories-menu~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 27.8,
+   "live": [
+    1440,
+    900
+   ],
+   "stored": [
+    1440,
+    900
+   ]
+  },
+  {
+   "group": "site",
+   "id": "category-scrolled~desktop",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "category-scrolled~mobile",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "city-category~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 18.8,
+   "live": [
+    1440,
+    9516
+   ],
+   "stored": [
+    1440,
+    9516
+   ]
+  },
+  {
+   "group": "site",
+   "id": "city-category~mobile",
+   "verdict": "mismatch",
+   "changed": 6.37,
+   "photosMasked": 24.5,
+   "live": [
+    780,
+    12688
+   ],
+   "stored": [
+    780,
+    12688
+   ]
+  },
+  {
+   "group": "site",
+   "id": "city~desktop",
+   "verdict": "mismatch",
+   "changed": 3.08,
+   "photosMasked": 21.9,
+   "live": [
+    1440,
+    9094
+   ],
+   "stored": [
+    1440,
+    9094
+   ]
+  },
+  {
+   "group": "site",
+   "id": "city~mobile",
+   "verdict": "mismatch",
+   "changed": 7.11,
+   "photosMasked": 24.4,
+   "live": [
+    780,
+    12228
+   ],
+   "stored": [
+    780,
+    12228
+   ]
+  },
+  {
+   "group": "site",
+   "id": "filters-sheet~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 13.6,
+   "live": [
+    780,
+    1328
+   ],
+   "stored": [
+    780,
+    1328
+   ]
+  },
+  {
+   "group": "site",
+   "id": "home-scrolled~desktop",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "home-scrolled~mobile",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "home~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 38.4,
+   "live": [
+    1440,
+    5526
+   ],
+   "stored": [
+    1440,
+    5526
+   ]
+  },
+  {
+   "group": "site",
+   "id": "home~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 38.2,
+   "live": [
+    780,
+    8204
+   ],
+   "stored": [
+    780,
+    8204
+   ]
+  },
+  {
+   "group": "site",
+   "id": "location-menu~desktop",
+   "verdict": "match",
+   "changed": 0.11,
+   "photosMasked": 27.8,
+   "live": [
+    1440,
+    900
+   ],
+   "stored": [
+    1440,
+    900
+   ]
+  },
+  {
+   "group": "site",
+   "id": "location-prompt~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 19.8,
+   "live": [
+    780,
+    1328
+   ],
+   "stored": [
+    780,
+    1328
+   ]
+  },
+  {
+   "group": "site",
+   "id": "location-select~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 19.8,
+   "live": [
+    780,
+    1328
+   ],
+   "stored": [
+    780,
+    1328
+   ]
+  },
+  {
+   "group": "site",
+   "id": "login-email~desktop",
+   "verdict": "match",
+   "changed": 0.16,
+   "photosMasked": 27.8,
+   "live": [
+    1440,
+    900
+   ],
+   "stored": [
+    1440,
+    900
+   ]
+  },
+  {
+   "group": "site",
+   "id": "login-email~mobile",
+   "verdict": "match",
+   "changed": 0.37,
+   "photosMasked": 19.8,
+   "live": [
+    780,
+    1328
+   ],
+   "stored": [
+    780,
+    1328
+   ]
+  },
+  {
+   "group": "site",
+   "id": "login-phone~desktop",
+   "verdict": "match",
+   "changed": 0.08,
+   "photosMasked": 27.8,
+   "live": [
+    1440,
+    900
+   ],
+   "stored": [
+    1440,
+    900
+   ]
+  },
+  {
+   "group": "site",
+   "id": "login-phone~mobile",
+   "verdict": "match",
+   "changed": 0.37,
+   "photosMasked": 19.8,
+   "live": [
+    780,
+    1328
+   ],
+   "stored": [
+    780,
+    1328
+   ]
+  },
+  {
+   "group": "site",
+   "id": "login~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 27.8,
+   "live": [
+    1440,
+    900
+   ],
+   "stored": [
+    1440,
+    900
+   ]
+  },
+  {
+   "group": "site",
+   "id": "login~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 19.8,
+   "live": [
+    780,
+    1328
+   ],
+   "stored": [
+    780,
+    1328
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-all-new-cars~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    2949
+   ],
+   "stored": [
+    1440,
+    2949
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-all-new-cars~mobile",
+   "verdict": "match",
+   "changed": 0.25,
+   "photosMasked": 0,
+   "live": [
+    780,
+    3806
+   ],
+   "stored": [
+    780,
+    3806
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-auction-sheet~desktop",
+   "verdict": "match",
+   "changed": 0.04,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    2229
+   ],
+   "stored": [
+    1440,
+    2229
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-auction-sheet~mobile",
+   "verdict": "match",
+   "changed": 0.26,
+   "photosMasked": 0,
+   "live": [
+    780,
+    3840
+   ],
+   "stored": [
+    780,
+    3840
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-batteries~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 2,
+   "live": [
+    1440,
+    3336
+   ],
+   "stored": [
+    1440,
+    3336
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-batteries~mobile",
+   "verdict": "match",
+   "changed": 0.05,
+   "photosMasked": 1.2,
+   "live": [
+    780,
+    19056
+   ],
+   "stored": [
+    780,
+    19056
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-brand-batteries~desktop",
+   "verdict": "match",
+   "changed": 0.04,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    2286
+   ],
+   "stored": [
+    1440,
+    2286
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-brand-batteries~mobile",
+   "verdict": "match",
+   "changed": 0.18,
+   "photosMasked": 0,
+   "live": [
+    780,
+    5520
+   ],
+   "stored": [
+    780,
+    5520
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-brand-toyota~desktop",
+   "verdict": "match",
+   "changed": 0.04,
+   "photosMasked": 8.6,
+   "live": [
+    1440,
+    3142
+   ],
+   "stored": [
+    1440,
+    3142
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-brand-toyota~mobile",
+   "verdict": "match",
+   "changed": 0.21,
+   "photosMasked": 7.9,
+   "live": [
+    780,
+    5014
+   ],
+   "stored": [
+    780,
+    5014
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-brand-tyres~desktop",
+   "verdict": "close",
+   "changed": 0.88,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    1123
+   ],
+   "stored": [
+    1440,
+    1123
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-brand-tyres~mobile",
+   "verdict": "match",
+   "changed": 0.24,
+   "photosMasked": 0,
+   "live": [
+    780,
+    2108
+   ],
+   "stored": [
+    780,
+    2108
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-brand~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 6.4,
+   "live": [
+    1440,
+    4181
+   ],
+   "stored": [
+    1440,
+    4181
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-brand~mobile",
+   "verdict": "match",
+   "changed": 0.15,
+   "photosMasked": 5.8,
+   "live": [
+    780,
+    6878
+   ],
+   "stored": [
+    780,
+    6878
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-compare-result-scrolled~desktop",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "motors-compare-result-scrolled~mobile",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "motors-compare-result~desktop",
+   "verdict": "match",
+   "changed": 0.01,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    9484
+   ],
+   "stored": [
+    1440,
+    9484
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-compare-result~mobile",
+   "verdict": "match",
+   "changed": 0.06,
+   "photosMasked": 0,
+   "live": [
+    780,
+    15622
+   ],
+   "stored": [
+    780,
+    15622
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-compare~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    2391
+   ],
+   "stored": [
+    1440,
+    2391
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-compare~mobile",
+   "verdict": "match",
+   "changed": 0.06,
+   "photosMasked": 0,
+   "live": [
+    780,
+    16984
+   ],
+   "stored": [
+    780,
+    16984
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-finance-bank~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    2982
+   ],
+   "stored": [
+    1440,
+    2982
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-finance-bank~mobile",
+   "verdict": "match",
+   "changed": 0.04,
+   "photosMasked": 0,
+   "live": [
+    780,
+    26192
+   ],
+   "stored": [
+    780,
+    26192
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-finance~desktop",
+   "verdict": "match",
+   "changed": 0.04,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    2725
+   ],
+   "stored": [
+    1440,
+    2725
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-finance~mobile",
+   "verdict": "match",
+   "changed": 0.05,
+   "photosMasked": 0,
+   "live": [
+    780,
+    18456
+   ],
+   "stored": [
+    780,
+    18456
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-inspection~desktop",
+   "verdict": "match",
+   "changed": 0.02,
+   "photosMasked": 4.5,
+   "live": [
+    1440,
+    5916
+   ],
+   "stored": [
+    1440,
+    5916
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-inspection~mobile",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 1,
+   "live": [
+    780,
+    40792
+   ],
+   "stored": [
+    780,
+    40792
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-insurance-tpl~desktop",
+   "verdict": "close",
+   "changed": 0.88,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    1123
+   ],
+   "stored": [
+    1440,
+    1123
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-insurance-tpl~mobile",
+   "verdict": "match",
+   "changed": 0.24,
+   "photosMasked": 0,
+   "live": [
+    780,
+    2108
+   ],
+   "stored": [
+    780,
+    2108
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-insurance~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    2969
+   ],
+   "stored": [
+    1440,
+    2969
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-insurance~mobile",
+   "verdict": "match",
+   "changed": 0.05,
+   "photosMasked": 0,
+   "live": [
+    780,
+    19680
+   ],
+   "stored": [
+    780,
+    19680
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-insurer~desktop",
+   "verdict": "match",
+   "changed": 0.04,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    2582
+   ],
+   "stored": [
+    1440,
+    2582
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-insurer~mobile",
+   "verdict": "match",
+   "changed": 0.05,
+   "photosMasked": 0,
+   "live": [
+    780,
+    21128
+   ],
+   "stored": [
+    780,
+    21128
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-model-batteries~desktop",
+   "verdict": "match",
+   "changed": 0.06,
+   "photosMasked": 4.1,
+   "live": [
+    1440,
+    1653
+   ],
+   "stored": [
+    1440,
+    1653
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-model-batteries~mobile",
+   "verdict": "match",
+   "changed": 0.42,
+   "photosMasked": 9.3,
+   "live": [
+    780,
+    2548
+   ],
+   "stored": [
+    780,
+    2548
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-model-corolla~desktop",
+   "verdict": "match",
+   "changed": 0.02,
+   "photosMasked": 4.7,
+   "live": [
+    1440,
+    5663
+   ],
+   "stored": [
+    1440,
+    5663
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-model-corolla~mobile",
+   "verdict": "match",
+   "changed": 0.11,
+   "photosMasked": 3.2,
+   "live": [
+    780,
+    12302
+   ],
+   "stored": [
+    780,
+    12302
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-model-reviews~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 7.9,
+   "live": [
+    1440,
+    3386
+   ],
+   "stored": [
+    1440,
+    3386
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-model-reviews~mobile",
+   "verdict": "match",
+   "changed": 0.29,
+   "photosMasked": 7.9,
+   "live": [
+    780,
+    5006
+   ],
+   "stored": [
+    780,
+    5006
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-model-scrolled~desktop",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "motors-model-scrolled~mobile",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "motors-model-tyres~desktop",
+   "verdict": "match",
+   "changed": 0.05,
+   "photosMasked": 3.4,
+   "live": [
+    1440,
+    1997
+   ],
+   "stored": [
+    1440,
+    1997
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-model-tyres~mobile",
+   "verdict": "match",
+   "changed": 0.27,
+   "photosMasked": 6.2,
+   "live": [
+    780,
+    3794
+   ],
+   "stored": [
+    780,
+    3794
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-model~desktop",
+   "verdict": "match",
+   "changed": 0.02,
+   "photosMasked": 5.6,
+   "live": [
+    1440,
+    4816
+   ],
+   "stored": [
+    1440,
+    4816
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-model~mobile",
+   "verdict": "match",
+   "changed": 0.1,
+   "photosMasked": 4,
+   "live": [
+    780,
+    9892
+   ],
+   "stored": [
+    780,
+    9892
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-new-cars-empty~desktop",
+   "verdict": "match",
+   "changed": 0.06,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    1668
+   ],
+   "stored": [
+    1440,
+    1668
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-new-cars-empty~mobile",
+   "verdict": "match",
+   "changed": 0.44,
+   "photosMasked": 0,
+   "live": [
+    780,
+    2248
+   ],
+   "stored": [
+    780,
+    2248
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-new-cars~desktop",
+   "verdict": "match",
+   "changed": 0.02,
+   "photosMasked": 5.7,
+   "live": [
+    1440,
+    4685
+   ],
+   "stored": [
+    1440,
+    4685
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-new-cars~mobile",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 1.3,
+   "live": [
+    780,
+    31384
+   ],
+   "stored": [
+    780,
+    31384
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-new-suvs~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    2949
+   ],
+   "stored": [
+    1440,
+    2949
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-new-suvs~mobile",
+   "verdict": "match",
+   "changed": 0.25,
+   "photosMasked": 0,
+   "live": [
+    780,
+    3806
+   ],
+   "stored": [
+    780,
+    3806
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-oil-grades~desktop",
+   "verdict": "match",
+   "changed": 0.09,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    1120
+   ],
+   "stored": [
+    1440,
+    1120
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-oil-grades~mobile",
+   "verdict": "match",
+   "changed": 0.24,
+   "photosMasked": 0,
+   "live": [
+    780,
+    2108
+   ],
+   "stored": [
+    780,
+    2108
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-review~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 8.2,
+   "live": [
+    1440,
+    3264
+   ],
+   "stored": [
+    1440,
+    3264
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-review~mobile",
+   "verdict": "match",
+   "changed": 0.21,
+   "photosMasked": 7.6,
+   "live": [
+    780,
+    5222
+   ],
+   "stored": [
+    780,
+    5222
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-reviews~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 8.5,
+   "live": [
+    1440,
+    3167
+   ],
+   "stored": [
+    1440,
+    3167
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-reviews~mobile",
+   "verdict": "match",
+   "changed": 0.05,
+   "photosMasked": 1.9,
+   "live": [
+    780,
+    20328
+   ],
+   "stored": [
+    780,
+    20328
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-scrolled~desktop",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "motors-scrolled~mobile",
+   "verdict": "skipped",
+   "note": "scroll state, not comparable from static HTML"
+  },
+  {
+   "group": "site",
+   "id": "motors-tyres~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 1.9,
+   "live": [
+    1440,
+    3510
+   ],
+   "stored": [
+    1440,
+    3510
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-tyres~mobile",
+   "verdict": "match",
+   "changed": 0.04,
+   "photosMasked": 1.1,
+   "live": [
+    780,
+    22504
+   ],
+   "stored": [
+    780,
+    22504
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-version~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    2944
+   ],
+   "stored": [
+    1440,
+    2944
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors-version~mobile",
+   "verdict": "match",
+   "changed": 0.16,
+   "photosMasked": 0,
+   "live": [
+    780,
+    6232
+   ],
+   "stored": [
+    780,
+    6232
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 9,
+   "live": [
+    1440,
+    3765
+   ],
+   "stored": [
+    1440,
+    3765
+   ]
+  },
+  {
+   "group": "site",
+   "id": "motors~mobile",
+   "verdict": "match",
+   "changed": 0.01,
+   "photosMasked": 0.6,
+   "live": [
+    780,
+    86464
+   ],
+   "stored": [
+    780,
+    86464
+   ]
+  },
+  {
+   "group": "site",
+   "id": "page-not-found~desktop",
+   "verdict": "match",
+   "changed": 0.09,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    1123
+   ],
+   "stored": [
+    1440,
+    1123
+   ]
+  },
+  {
+   "group": "site",
+   "id": "page-not-found~mobile",
+   "verdict": "match",
+   "changed": 0.24,
+   "photosMasked": 0,
+   "live": [
+    780,
+    2108
+   ],
+   "stored": [
+    780,
+    2108
+   ]
+  },
+  {
+   "group": "site",
+   "id": "price-sheet~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 13.6,
+   "live": [
+    780,
+    1328
+   ],
+   "stored": [
+    780,
+    1328
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-city-houses~desktop",
+   "verdict": "mismatch",
+   "changed": 4.68,
+   "photosMasked": 17.7,
+   "live": [
+    1440,
+    13786
+   ],
+   "stored": [
+    1440,
+    13786
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-city-houses~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 45.4,
+   "live": [
+    780,
+    46370
+   ],
+   "stored": [
+    780,
+    46370
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-city-plots~desktop",
+   "verdict": "mismatch",
+   "changed": 4.52,
+   "photosMasked": 17.1,
+   "live": [
+    1440,
+    13353
+   ],
+   "stored": [
+    1440,
+    13353
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-city-plots~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 42.7,
+   "live": [
+    780,
+    46124
+   ],
+   "stored": [
+    780,
+    46124
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-flats-sale~desktop",
+   "verdict": "mismatch",
+   "changed": 3.22,
+   "photosMasked": 17.7,
+   "live": [
+    1440,
+    8623
+   ],
+   "stored": [
+    1440,
+    8623
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-flats-sale~mobile",
+   "verdict": "mismatch",
+   "changed": 11.23,
+   "photosMasked": 47.2,
+   "live": [
+    780,
+    25736
+   ],
+   "stored": [
+    780,
+    25736
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-houses-rent~desktop",
+   "verdict": "close",
+   "changed": 0.6,
+   "photosMasked": 17.7,
+   "live": [
+    1440,
+    13786
+   ],
+   "stored": [
+    1440,
+    13786
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-houses-rent~mobile",
+   "verdict": "mismatch",
+   "changed": 10.64,
+   "photosMasked": 47.2,
+   "live": [
+    780,
+    25736
+   ],
+   "stored": [
+    780,
+    25736
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-plots~desktop",
+   "verdict": "mismatch",
+   "changed": 5.6,
+   "photosMasked": 19.2,
+   "live": [
+    1440,
+    8202
+   ],
+   "stored": [
+    1440,
+    8202
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-plots~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 43.7,
+   "live": [
+    780,
+    46366
+   ],
+   "stored": [
+    780,
+    46366
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-portions~desktop",
+   "verdict": "mismatch",
+   "changed": 3.58,
+   "photosMasked": 17.7,
+   "live": [
+    1440,
+    8623
+   ],
+   "stored": [
+    1440,
+    8623
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-portions~mobile",
+   "verdict": "mismatch",
+   "changed": 11.06,
+   "photosMasked": 47.2,
+   "live": [
+    780,
+    25736
+   ],
+   "stored": [
+    780,
+    25736
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-residential-plots~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 17.5,
+   "live": [
+    1440,
+    13455
+   ],
+   "stored": [
+    1440,
+    13455
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-residential-plots~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 43.7,
+   "live": [
+    780,
+    46366
+   ],
+   "stored": [
+    780,
+    46366
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-rooms~desktop",
+   "verdict": "close",
+   "changed": 0.62,
+   "photosMasked": 18.2,
+   "live": [
+    1440,
+    13394
+   ],
+   "stored": [
+    1440,
+    13394
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-rooms~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 48.1,
+   "live": [
+    780,
+    43718
+   ],
+   "stored": [
+    780,
+    43718
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-shops~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 18,
+   "live": [
+    1440,
+    13544
+   ],
+   "stored": [
+    1440,
+    13544
+   ]
+  },
+  {
+   "group": "site",
+   "id": "prop-shops~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 45.8,
+   "live": [
+    780,
+    45970
+   ],
+   "stored": [
+    780,
+    45970
+   ]
+  },
+  {
+   "group": "site",
+   "id": "property~desktop",
+   "verdict": "match",
+   "changed": 0.03,
+   "photosMasked": 12.6,
+   "live": [
+    1440,
+    4251
+   ],
+   "stored": [
+    1440,
+    4251
+   ]
+  },
+  {
+   "group": "site",
+   "id": "property~mobile",
+   "verdict": "match",
+   "changed": 0.01,
+   "photosMasked": 0.9,
+   "live": [
+    780,
+    86464
+   ],
+   "stored": [
+    780,
+    86464
+   ]
+  },
+  {
+   "group": "site",
+   "id": "search-empty~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    1073
+   ],
+   "stored": [
+    1440,
+    1073
+   ]
+  },
+  {
+   "group": "site",
+   "id": "search-empty~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    780,
+    2316
+   ],
+   "stored": [
+    780,
+    2316
+   ]
+  },
+  {
+   "group": "site",
+   "id": "search-results~desktop",
+   "verdict": "mismatch",
+   "changed": 3.92,
+   "photosMasked": 21.9,
+   "live": [
+    1440,
+    16228
+   ],
+   "stored": [
+    1440,
+    16228
+   ]
+  },
+  {
+   "group": "site",
+   "id": "search-results~mobile",
+   "verdict": "mismatch",
+   "changed": 5.93,
+   "photosMasked": 24.4,
+   "live": [
+    780,
+    20098
+   ],
+   "stored": [
+    780,
+    20098
+   ]
+  },
+  {
+   "group": "site",
+   "id": "search-suggestions~desktop",
+   "verdict": "match",
+   "changed": 0.2,
+   "photosMasked": 27.8,
+   "live": [
+    1440,
+    900
+   ],
+   "stored": [
+    1440,
+    900
+   ]
+  },
+  {
+   "group": "site",
+   "id": "search-suggestions~mobile",
+   "verdict": "match",
+   "changed": 0.36,
+   "photosMasked": 19.8,
+   "live": [
+    780,
+    1328
+   ],
+   "stored": [
+    780,
+    1328
+   ]
+  },
+  {
+   "group": "site",
+   "id": "signup~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 27.8,
+   "live": [
+    1440,
+    900
+   ],
+   "stored": [
+    1440,
+    900
+   ]
+  },
+  {
+   "group": "site",
+   "id": "signup~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 19.8,
+   "live": [
+    780,
+    1328
+   ],
+   "stored": [
+    780,
+    1328
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sitemap~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    1440,
+    1537
+   ],
+   "stored": [
+    1440,
+    1537
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sitemap~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 0,
+   "live": [
+    780,
+    3286
+   ],
+   "stored": [
+    780,
+    3286
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sort-menu~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 11.1,
+   "live": [
+    1440,
+    900
+   ],
+   "stored": [
+    1440,
+    900
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sorted-low-price~desktop",
+   "verdict": "mismatch",
+   "changed": 4.18,
+   "photosMasked": 17.3,
+   "live": [
+    1440,
+    15811
+   ],
+   "stored": [
+    1440,
+    15811
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-cars~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 18,
+   "live": [
+    1440,
+    14168
+   ],
+   "stored": [
+    1440,
+    14168
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-cars~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 45.5,
+   "live": [
+    780,
+    47644
+   ],
+   "stored": [
+    780,
+    47644
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-flats-for-rent~desktop",
+   "verdict": "mismatch",
+   "changed": 3.27,
+   "photosMasked": 17.7,
+   "live": [
+    1440,
+    14118
+   ],
+   "stored": [
+    1440,
+    14118
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-flats-for-rent~mobile",
+   "verdict": "close",
+   "changed": 1.18,
+   "photosMasked": 45.4,
+   "live": [
+    780,
+    46528
+   ],
+   "stored": [
+    780,
+    46528
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-houses~desktop",
+   "verdict": "mismatch",
+   "changed": 3.54,
+   "photosMasked": 17.7,
+   "live": [
+    1440,
+    8623
+   ],
+   "stored": [
+    1440,
+    8623
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-houses~mobile",
+   "verdict": "mismatch",
+   "changed": 10.75,
+   "photosMasked": 47.3,
+   "live": [
+    780,
+    25736
+   ],
+   "stored": [
+    780,
+    25736
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-laptops~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 18.7,
+   "live": [
+    1440,
+    13107
+   ],
+   "stored": [
+    1440,
+    13107
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-laptops~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 19.3,
+   "live": [
+    780,
+    9054
+   ],
+   "stored": [
+    780,
+    9054
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-mobile-phones~desktop",
+   "verdict": "mismatch",
+   "changed": 3.16,
+   "photosMasked": 20.8,
+   "live": [
+    1440,
+    9516
+   ],
+   "stored": [
+    1440,
+    9516
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-mobile-phones~mobile",
+   "verdict": "match",
+   "changed": 0.02,
+   "photosMasked": 20.2,
+   "live": [
+    780,
+    12616
+   ],
+   "stored": [
+    780,
+    12616
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-motorcycles~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 19.7,
+   "live": [
+    1440,
+    9539
+   ],
+   "stored": [
+    1440,
+    9539
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-motorcycles~mobile",
+   "verdict": "mismatch",
+   "changed": 7.79,
+   "photosMasked": 21.2,
+   "live": [
+    780,
+    11972
+   ],
+   "stored": [
+    780,
+    11972
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-online-jobs~desktop",
+   "verdict": "close",
+   "changed": 2.9,
+   "photosMasked": 18.4,
+   "live": [
+    1440,
+    7725
+   ],
+   "stored": [
+    1440,
+    7725
+   ]
+  },
+  {
+   "group": "site",
+   "id": "sub-online-jobs~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 12.8,
+   "live": [
+    780,
+    10400
+   ],
+   "stored": [
+    780,
+    10400
+   ]
+  },
+  {
+   "group": "templates",
+   "id": "ad-detail~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 23.8,
+   "live": [
+    1440,
+    2912
+   ],
+   "stored": [
+    1440,
+    2912
+   ]
+  },
+  {
+   "group": "templates",
+   "id": "ad-detail~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 22,
+   "live": [
+    1170,
+    6732
+   ],
+   "stored": [
+    1170,
+    6732
+   ]
+  },
+  {
+   "group": "templates",
+   "id": "category-listing~desktop",
+   "verdict": "mismatch",
+   "changed": 3.33,
+   "photosMasked": 20.9,
+   "live": [
+    1440,
+    9516
+   ],
+   "stored": [
+    1440,
+    9516
+   ]
+  },
+  {
+   "group": "templates",
+   "id": "category-listing~mobile",
+   "verdict": "mismatch",
+   "changed": 7.33,
+   "photosMasked": 24.1,
+   "live": [
+    1170,
+    18978
+   ],
+   "stored": [
+    1170,
+    18978
+   ]
+  },
+  {
+   "group": "templates",
+   "id": "home~desktop",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 38.4,
+   "live": [
+    1440,
+    5526
+   ],
+   "stored": [
+    1440,
+    5526
+   ]
+  },
+  {
+   "group": "templates",
+   "id": "home~mobile",
+   "verdict": "match",
+   "changed": 0.02,
+   "photosMasked": 38.2,
+   "live": [
+    1170,
+    12306
+   ],
+   "stored": [
+    1170,
+    12306
+   ]
+  },
+  {
+   "group": "templates",
+   "id": "location-prompt~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 38.2,
+   "live": [
+    1170,
+    12306
+   ],
+   "stored": [
+    1170,
+    12306
+   ]
+  },
+  {
+   "group": "templates",
+   "id": "location-select~mobile",
+   "verdict": "match",
+   "changed": 0,
+   "photosMasked": 14.2,
+   "live": [
+    1170,
+    33231
+   ],
+   "stored": [
+    1170,
+    33231
+   ]
+  },
+  {
+   "group": "templates",
+   "id": "search-results~desktop",
+   "verdict": "mismatch",
+   "changed": 4.28,
+   "photosMasked": 21.6,
+   "live": [
+    1440,
+    13252
+   ],
+   "stored": [
+    1440,
+    13252
+   ]
+  },
+  {
+   "group": "templates",
+   "id": "search-results~mobile",
+   "verdict": "mismatch",
+   "changed": 7.06,
+   "photosMasked": 25.3,
+   "live": [
+    1170,
+    25506
+   ],
+   "stored": [
+    1170,
+    25506
+   ]
+  }
+ ]
+}

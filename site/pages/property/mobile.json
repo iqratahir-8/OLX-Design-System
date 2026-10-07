@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/properties/",
  "finalUrl": "https://www.olx.com.pk/properties/",
  "width": 390,
- "height": 2453,
+ "height": 86464,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T09:54:35.589Z",
+ "captured": "2026-10-07T13:41:57.877Z",
  "sections": [
   {
    "file": "01-header",
@@ -51,7 +51,7 @@
     "x": 16,
     "y": 894,
     "width": 358,
-    "height": 179
+    "height": 201
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
@@ -60,9 +60,9 @@
    "name": "Properties for Rent",
    "rect": {
     "x": 16,
-    "y": 1092,
+    "y": 1114,
     "width": 358,
-    "height": 390
+    "height": 389
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
@@ -71,9 +71,9 @@
    "name": "Latest News",
    "rect": {
     "x": 16,
-    "y": 1501,
+    "y": 1522,
     "width": 358,
-    "height": 581
+    "height": 767
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
@@ -82,9 +82,9 @@
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 2121,
+    "y": 17332,
     "width": 390,
-    "height": 332
+    "height": 398
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
   },
@@ -93,7 +93,7 @@
    "name": "Home · Chat · Sell",
    "rect": {
     "x": 0,
-    "y": 2394,
+    "y": 43173,
     "width": 390,
     "height": 59
    },
@@ -137,9 +137,9 @@
    "label": "Search for properties"
   },
   {
-   "x": 16,
+   "x": 20,
    "y": 223,
-   "width": 72,
+   "width": 64,
    "height": 90,
    "kind": "link",
    "href": "https://www.olx.com.pk/houses_c1721/",
@@ -164,9 +164,9 @@
    "label": "Portions & Floors"
   },
   {
-   "x": 104,
+   "x": 108,
    "y": 342,
-   "width": 72,
+   "width": 64,
    "height": 90,
    "kind": "link",
    "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/?filter=type_eq_shop-sale",
@@ -209,72 +209,72 @@
    "label": "Agricultural Land"
   },
   {
-   "x": 368,
+   "x": 372,
    "y": 223,
-   "width": 72,
+   "width": 64,
    "height": 90,
    "kind": "link",
    "href": "https://www.olx.com.pk/files-land-plots_c40/?filter=type_eq_land-plots-files-sale",
    "label": "Files"
   },
   {
-   "x": 368,
+   "x": 372,
    "y": 342,
-   "width": 72,
+   "width": 64,
    "height": 90,
    "kind": "link",
    "href": "https://www.olx.com.pk/plot-form-land-plots_c40/?filter=type_eq_plot-form-sale",
    "label": "Plot Form"
   },
   {
-   "x": 456,
+   "x": 460,
    "y": 223,
-   "width": 72,
+   "width": 64,
    "height": 90,
    "kind": "link",
    "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/?filter=type_eq_shop-sale",
    "label": "Shops"
   },
   {
-   "x": 470,
+   "x": 460,
    "y": 342,
-   "width": 44,
+   "width": 64,
    "height": 90,
    "kind": "link",
    "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/?filter=type_eq_building-sale",
    "label": "Building"
   },
   {
-   "x": 563,
+   "x": 548,
    "y": 223,
-   "width": 34,
+   "width": 64,
    "height": 90,
    "kind": "link",
    "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/?filter=type_eq_office-sale",
    "label": "Office"
   },
   {
-   "x": 560,
+   "x": 548,
    "y": 342,
-   "width": 40,
+   "width": 64,
    "height": 90,
    "kind": "link",
    "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/?filter=type_eq_factory-sale",
    "label": "Factory"
   },
   {
-   "x": 637,
+   "x": 636,
    "y": 223,
-   "width": 62,
+   "width": 64,
    "height": 90,
    "kind": "link",
    "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/?filter=type_eq_warehouse-sale",
    "label": "Warehouse"
   },
   {
-   "x": 314,
+   "x": 313,
    "y": 491,
-   "width": 60,
+   "width": 61,
    "height": 15,
    "kind": "link",
    "href": "https://www.olx.com.pk/property-for-sale_c2",
@@ -286,20 +286,11 @@
    "width": 217,
    "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/10-marla-residential-plot-available-for-sale-in-bahria-enclave-sector-f1-iid-1118599101",
-   "label": "FEATUREDRs 1.75 Crores10 Marla Residential Plot available for sale in Bahria Enc"
-  },
-  {
-   "x": 244,
-   "y": 519,
-   "width": 218,
-   "height": 356,
-   "kind": "link",
    "href": "https://www.olx.com.pk/item/apartment-for-sale-iid-1119371124",
    "label": "FEATUREDRs 2.30 CroresApartment for sale0 beds1 baths1400 sqfeetDHA Phase 2 Exte"
   },
   {
-   "x": 473,
+   "x": 244,
    "y": 519,
    "width": 218,
    "height": 356,
@@ -308,49 +299,58 @@
    "label": "FEATUREDRs 95 LacsBasement for saleNazimabad 1, Nazimabad, Karachi, Sindh, Pakis"
   },
   {
-   "x": 702,
+   "x": 473,
    "y": 519,
-   "width": 217,
+   "width": 218,
    "height": 356,
    "kind": "link",
    "href": "https://www.olx.com.pk/item/brand-new-3bed-villa-near-entrance-available-in-precinct-31-iid-1118786891",
    "label": "FEATUREDRs 1.72 CroresBrand New 3Bed villa near entrance available in Precinct 3"
   },
   {
-   "x": 931,
+   "x": 702,
    "y": 519,
    "width": 217,
-   "height": 356,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/item/residential-plot-for-sale-situated-in-dha-city-sector-2d-iid-1119130193",
-   "label": "FEATUREDRs 1.70 CroresResidential Plot For sale Situated In DHA City - Sector 2D"
-  },
-  {
-   "x": 1159,
-   "y": 519,
-   "width": 218,
    "height": 356,
    "kind": "link",
    "href": "https://www.olx.com.pk/item/buy-a-residential-plot-of-125-square-yards-in-bahria-town-precinct-26-a-iid-1118937425",
    "label": "FEATUREDRs 27 LacsBuy A Residential Plot Of 125 Square Yards In Bahria Town - Pr"
   },
   {
-   "x": 1388,
+   "x": 931,
    "y": 519,
-   "width": 218,
+   "width": 217,
    "height": 356,
    "kind": "link",
    "href": "https://www.olx.com.pk/item/125-square-yards-residential-plot-in-central-dha-city-sector-3-for-sale-iid-1119130061",
    "label": "FEATUREDRs 40 Lacs125 Square Yards Residential Plot In Central DHA City - Sector"
   },
   {
+   "x": 1159,
+   "y": 519,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/5-marla-lower-apartment-for-sale-eden-lane-villas-2-iid-1119653117",
+   "label": "FEATUREDRs 73 Lacs5 Marla Lower Apartment For Sale Eden Lane Villas 22 beds2 bat"
+  },
+  {
+   "x": 1388,
+   "y": 519,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/commercial-shop-for-sale-eden-lane-villas-2-iid-1119239524",
+   "label": "FEATUREDRs 1.80 CroresCommercial Shop For Sale Eden Lane Villas 2Eden Lane Villa"
+  },
+  {
    "x": 1617,
    "y": 519,
    "width": 217,
    "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/shop-available-for-sale-running-polar-in-nazimabad-no2-iid-1119411685",
-   "label": "FEATUREDRs 1.10 CroresShop available for sale running polar in nazimabad No2Nazi"
+   "href": "https://www.olx.com.pk/item/10-marla-house-in-dha-defence-of-islamabad-is-available-for-sale-iid-1119694611",
+   "label": "FEATUREDRs 6.50 Crores10 Marla House In DHA Defence Of Islamabad Is Available Fo"
   },
   {
    "x": 1846,
@@ -358,8 +358,8 @@
    "width": 217,
    "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/4-bed-dd-brand-new-portion-available-for-sale-1st-floor-240gaz-west-open-kda-lease-in-gulshan-block-1-iid-1119407836",
-   "label": "FEATUREDRs 3 Crores4 bed dd Brand New Portion available for sale 1st floor 240ga"
+   "href": "https://www.olx.com.pk/item/shahjahan-heights-phase-1-flat-for-sale-in-falaknaz-dreams-iid-1119690461",
+   "label": "FEATUREDRs 60 LacsSHAHJAHAN HEIGHTS PHASE 1 Flat For Sale In Falaknaz Dreams2 be"
   },
   {
    "x": 2074,
@@ -367,120 +367,226 @@
    "width": 218,
    "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/house-for-sale-400gaz-west-open-kda-lease-in-juhar-block-158-iid-1119200047",
-   "label": "FEATUREDRs 10 CroresHouse For Sale 400gaz West Open Kda Lease In Juhar Block 158"
+   "href": "https://www.olx.com.pk/item/brand-new-3-rooms-apartment-for-sale-in-falaknaz-dreams-iid-1118633367",
+   "label": "FEATUREDRs 58 LacsBrand New 3 Rooms Apartment For Sale In Falaknaz Dreams2 beds2"
   },
   {
-   "x": 314,
-   "y": 1097,
-   "width": 60,
-   "height": 16,
+   "x": 16,
+   "y": 928,
+   "width": 109,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2?filter=price_max_500000",
+   "label": "Under 5 Lacs"
+  },
+  {
+   "x": 137,
+   "y": 928,
+   "width": 109,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2?sorting=asc-price&filter=price_between_500000_to_1000000",
+   "label": "5 - 10 Lacs"
+  },
+  {
+   "x": 258,
+   "y": 928,
+   "width": 109,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2?sorting=asc-price&filter=price_between_1000000_to_2000000",
+   "label": "10 - 20 Lacs"
+  },
+  {
+   "x": 16,
+   "y": 980,
+   "width": 109,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2?sorting=asc-price&filter=price_between_2000000_to_3500000",
+   "label": "20 - 35 Lacs"
+  },
+  {
+   "x": 137,
+   "y": 980,
+   "width": 109,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2?sorting=asc-price&filter=price_between_3500000_to_5000000",
+   "label": "35 - 50 Lacs"
+  },
+  {
+   "x": 258,
+   "y": 980,
+   "width": 109,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2?sorting=asc-price&filter=price_between_5000000_to_10000000",
+   "label": "50 Lacs - 1 Crore"
+  },
+  {
+   "x": 16,
+   "y": 1032,
+   "width": 109,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2?sorting=asc-price&filter=price_between_10000000_to_15000000",
+   "label": "1 - 1.5 Crore"
+  },
+  {
+   "x": 137,
+   "y": 1032,
+   "width": 109,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2?sorting=asc-price&filter=price_between_15000000_to_25000000",
+   "label": "1.5 - 2.5 Crore"
+  },
+  {
+   "x": 258,
+   "y": 1032,
+   "width": 109,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2?sorting=asc-price&filter=price_between_30000000_to_50000000",
+   "label": "3 - 5 Crore"
+  },
+  {
+   "x": 379,
+   "y": 928,
+   "width": 109,
+   "height": 41,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/property-for-sale_c2?filter=price_min_100000000",
+   "label": "10 Crore +"
+  },
+  {
+   "x": 177,
+   "y": 1086,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 195,
+   "y": 1086,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 313,
+   "y": 1119,
+   "width": 61,
+   "height": 15,
    "kind": "link",
    "href": "https://www.olx.com.pk/property-for-rent_c3",
    "label": "View More"
   },
   {
    "x": 16,
-   "y": 1125,
+   "y": 1147,
    "width": 217,
-   "height": 357,
+   "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/looking-for-a-house-in-karachi-iid-1119791185",
-   "label": "FEATUREDRs 2.50 LacsLooking For A House In Karachi4 beds4 baths100 sqyardsDHA Ph"
+   "href": "https://www.olx.com.pk/item/5-marla-house-for-rent-available-in-umar-block-bahria-town-lahore-iid-1118518861",
+   "label": "FEATUREDRs 80 Thousands5 Marla House For Rent Available In Umar Block Bahria Tow"
   },
   {
    "x": 244,
-   "y": 1125,
+   "y": 1147,
    "width": 218,
-   "height": 357,
+   "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/120-square-yard-double-storey-bungalow-for-rent-in-dha-phase-7-ext-with-full-basement-iid-1119510671",
-   "label": "FEATUREDRs 2.65 Lacs120 SQUARE YARD DOUBLE STOREY BUNGALOW FOR RENT IN DHA PHASE"
+   "href": "https://www.olx.com.pk/item/10-marla-house-for-rent-eden-executive-iid-1118874344",
+   "label": "FEATUREDRs 1.75 Lacs10 Marla House For Rent Eden Executive5 beds6 baths10 marlaE"
   },
   {
    "x": 473,
-   "y": 1125,
+   "y": 1147,
    "width": 218,
-   "height": 357,
+   "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/binaca-girls-hostel-near-murree-road-rawalpindi-iid-1119433092",
-   "label": "FEATUREDRs 13.50 ThousandsBINACA GIRLS HOSTEL near murree road rawalpindiSatelli"
+   "href": "https://www.olx.com.pk/item/120yards-double-story-bungalow-for-rent-in-dha-phase-7-ext-with-full-basement-iid-1119948853",
+   "label": "FEATUREDRs 2.10 Lacs120YARDS DOUBLE STORY BUNGALOW FOR RENT IN DHA PHASE 7 EXT W"
   },
   {
    "x": 702,
-   "y": 1125,
+   "y": 1147,
    "width": 217,
-   "height": 357,
+   "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/luxury-newly-furnished-1bed-flat-for-daily-basis-iid-1120061100",
-   "label": "FEATUREDRs 8 ThousandsLuxury Newly furnished 1Bed flat for Daily Basis1 beds1 ba"
+   "href": "https://www.olx.com.pk/item/7marla-fully-furnished-ground-portion-available-for-rent-iid-1119698820",
+   "label": "FEATUREDRs 1.50 Lacs7marla fully furnished ground portion available for rent2 be"
   },
   {
    "x": 931,
-   "y": 1125,
+   "y": 1147,
    "width": 217,
-   "height": 357,
+   "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/space-for-rent-ball-roomgym-restaurant-iid-1119877658",
-   "label": "FEATUREDRs 6 LacsSpace for rent ball room,gym, restaurant2 beds2 baths2500 sqyar"
+   "href": "https://www.olx.com.pk/item/rafi-block-5-marla-brand-fully-luxury-furnished-full-house-available-for-rent-in-bahria-town-rawalpindi-islamabad-iid-1119682561",
+   "label": "FEATUREDRs 1.50 LacsRafi Block 5 Marla Brand Fully Luxury Furnished Full House A"
   },
   {
    "x": 1159,
-   "y": 1125,
+   "y": 1147,
    "width": 218,
-   "height": 357,
+   "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/centrally-located-prime-location-house-in-dha-sector-a-rachna-villas-is-available-for-rent-iid-1119008149",
-   "label": "FEATUREDRs 43 ThousandsCentrally Located Prime Location House In DHA Sector A - "
+   "href": "https://www.olx.com.pk/item/brand-new-road-facing-flat-for-rent-iid-1120021088",
+   "label": "FEATUREDRs 74 ThousandsBrand New Road Facing Flat For Rent3 beds4 baths1700 sqfe"
   },
   {
    "x": 1388,
-   "y": 1125,
+   "y": 1147,
    "width": 218,
-   "height": 357,
+   "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/brand-new-building-for-rent-iid-1119114607",
-   "label": "FEATUREDRs 12 LacsBRAND NEW BUILDING FOR RENT0 beds2 baths5000 sqfeetCommercial "
+   "href": "https://www.olx.com.pk/item/one-bedroom-vip-apartment-available-on-daily-basis-in-bahria-town-lhr-iid-1119265701",
+   "label": "FEATUREDRs 6 ThousandsOne Bedroom Vip apartment available on daily basis in bahr"
   },
   {
    "x": 1617,
-   "y": 1125,
+   "y": 1147,
    "width": 217,
-   "height": 357,
+   "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/f-11-markaz-shop-for-rent-iid-1118993187",
-   "label": "FEATUREDRs 4.50 LacsF-11 MARKAZ SHOP FOR RENTF-11 Markaz, F-11, Islamabad, Islam"
+   "href": "https://www.olx.com.pk/item/2-bedroom-vip-apartment-available-on-daily-basis-in-bahria-town-lhr-iid-1119265292",
+   "label": "FEATUREDRs 10 Thousands2 Bedroom Vip apartment available on daily basis in bahri"
   },
   {
    "x": 1846,
-   "y": 1125,
+   "y": 1147,
    "width": 217,
-   "height": 357,
+   "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/e-11-shop-for-rent-iid-1119676649",
-   "label": "FEATUREDRs 4 LacsE-11 Shop For RentE-11, Islamabad, Islamabad Capital Territory,"
+   "href": "https://www.olx.com.pk/item/usman-block-7-marla-brand-new-designer-full-house-available-for-rent-in-bahira-town-rawalpindi-islamabad-iid-1120021119",
+   "label": "FEATUREDRs 85 ThousandsUsman Block 7 Marla Brand New Designer Full House Availab"
   },
   {
    "x": 2074,
-   "y": 1125,
+   "y": 1147,
    "width": 218,
-   "height": 357,
+   "height": 356,
    "kind": "link",
-   "href": "https://www.olx.com.pk/item/per-day-1bed-rom-full-furnished-apartments-safe-and-scour-100coupe-allow-iid-1120144423",
-   "label": "FEATUREDRs 5 ThousandsPer day 1bed ROM full furnished apartments safe and scour "
+   "href": "https://www.olx.com.pk/item/two-bed-furnished-apartment-available-for-rent-in-sector-c-bahria-town-lahore-iid-1118944803",
+   "label": "FEATUREDRs 65 ThousandsTwo Bed Furnished Apartment Available For Rent In Sector "
   },
   {
-   "x": 314,
-   "y": 1501,
-   "width": 60,
-   "height": 34,
+   "x": 313,
+   "y": 1522,
+   "width": 61,
+   "height": 35,
    "kind": "link",
    "href": "https://blog.olx.com.pk/category/properties/",
    "label": "View More"
   },
   {
    "x": 16,
-   "y": 1565,
+   "y": 1771,
    "width": 358,
    "height": 39,
    "kind": "link",
@@ -489,7 +595,7 @@
   },
   {
    "x": 118,
-   "y": 1699,
+   "y": 1906,
    "width": 256,
    "height": 39,
    "kind": "link",
@@ -498,7 +604,7 @@
   },
   {
    "x": 118,
-   "y": 1834,
+   "y": 2040,
    "width": 256,
    "height": 39,
    "kind": "link",
@@ -507,7 +613,7 @@
   },
   {
    "x": 118,
-   "y": 1968,
+   "y": 2174,
    "width": 256,
    "height": 39,
    "kind": "link",
@@ -516,7 +622,7 @@
   },
   {
    "x": 0,
-   "y": 2402,
+   "y": 43181,
    "width": 72,
    "height": 44,
    "kind": "link",
@@ -525,7 +631,7 @@
   },
   {
    "x": 79,
-   "y": 2402,
+   "y": 43181,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -534,7 +640,7 @@
   },
   {
    "x": 159,
-   "y": 2400,
+   "y": 43179,
    "width": 72,
    "height": 47,
    "kind": "link",
@@ -543,7 +649,7 @@
   },
   {
    "x": 238,
-   "y": 2402,
+   "y": 43181,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -551,25 +657,33 @@
    "label": "My Ads"
   },
   {
-   "x": 331,
-   "y": 2402,
-   "width": 46,
+   "x": 332,
+   "y": 43181,
+   "width": 45,
    "height": 44,
    "kind": "button",
    "label": "Account"
   },
   {
    "x": 16,
-   "y": 2237,
+   "y": 17448,
    "width": 358,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 17522,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 2307,
+   "y": 17584,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -578,7 +692,7 @@
   },
   {
    "x": 157,
-   "y": 2307,
+   "y": 17584,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -587,7 +701,7 @@
   },
   {
    "x": 201,
-   "y": 2307,
+   "y": 17584,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -596,12 +710,38 @@
   },
   {
    "x": 245,
-   "y": 2307,
+   "y": 17584,
    "width": 32,
    "height": 37,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
+  },
+  {
+   "x": 16,
+   "y": 43312,
+   "width": 358,
+   "height": 40,
+   "kind": "input",
+   "label": "Search Location"
+  },
+  {
+   "x": 16,
+   "y": 43368,
+   "width": 150,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "Use Current Location"
+  },
+  {
+   "x": 263,
+   "y": 43368,
+   "width": 111,
+   "height": 17,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/properties/",
+   "label": "See all in Pakistan"
   }
  ]
 }

@@ -48,6 +48,17 @@ jobs:
           mkdir -p dist/book/showcase/dist
           cp dist/tokens.js dist/book/showcase/dist/tokens.js
           touch dist/book/.nojekyll
+      - name: Redirect the local paths (/book/, /prototype/) to their published homes
+        run: |
+          redirect() { # $1 = directory to create, $2 = target relative to it
+            mkdir -p "dist/book/$1"
+            printf '%s\n' '<!doctype html><meta charset="utf-8"><title>Redirecting…</title>' \
+              "<meta http-equiv=\"refresh\" content=\"0; url=$2\"><link rel=\"canonical\" href=\"$2\">" \
+              "<script>location.replace('$2' + location.search + location.hash)</script>" \
+              "<a href=\"$2\">Continue</a>" > "dist/book/$1/index.html"
+          }
+          redirect book ../
+          redirect prototype ../proto/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

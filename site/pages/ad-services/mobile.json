@@ -2,14 +2,14 @@
  "id": "ad-services",
  "title": "Ad: Services",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/maids-in-islamabad-cook-chef-baby-sitter-filipino-patient-care-iid-1119887220",
- "finalUrl": "https://www.olx.com.pk/item/maids-in-islamabad-cook-chef-baby-sitter-filipino-patient-care-iid-1119887220",
+ "url": "https://www.olx.com.pk/item/maid-services-house-maid-cook-chef-helper-driver-couple-maids-iid-1120146808",
+ "finalUrl": "https://www.olx.com.pk/item/maid-services-house-maid-cook-chef-helper-driver-couple-maids-iid-1120146808",
  "width": 390,
- "height": 1740,
+ "height": 1686,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:03:26.929Z",
+ "captured": "2026-10-07T14:12:16.165Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -45,8 +45,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "04-description-welcome-to-care-nest-recurit",
-   "name": "Description · Welcome To \"Care Nest Recuriter Se",
+   "file": "04-description-professional-domestic-staff-",
+   "name": "Description · Professional Domestic Staff & Home",
    "rect": {
     "x": 0,
     "y": 485,
@@ -62,7 +62,7 @@
     "x": 0,
     "y": 626,
     "width": 390,
-    "height": 181
+    "height": 187
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
   },
@@ -71,18 +71,18 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 866,
+    "y": 832,
     "width": 390,
     "height": 236
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
   },
   {
-   "file": "07-maids-in-bahria-town-maids-in-islamabad-",
-   "name": "Maids in Bahria Town · Maids in Islamabad · Maid",
+   "file": "07-maids-in-bahria-town-phase-8-maids-in-ba",
+   "name": "Maids in Bahria Town Phase 8 · Maids in Bahria T",
    "rect": {
     "x": 8,
-    "y": 1149,
+    "y": 1095,
     "width": 374,
     "height": 26
    },
@@ -93,7 +93,7 @@
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1174,
+    "y": 1120,
     "width": 390,
     "height": 47
    },
@@ -104,7 +104,7 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1220,
+    "y": 1166,
     "width": 390,
     "height": 520
    },
@@ -115,7 +115,7 @@
    "name": "Chat · Call",
    "rect": {
     "x": 0,
-    "y": 1675,
+    "y": 1621,
     "width": 390,
     "height": 65
    },
@@ -175,65 +175,82 @@
    "x": 20,
    "y": 638,
    "width": 354,
-   "height": 119,
+   "height": 125,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/44994b2e-f950-436a-a479-ec554d45e932",
-   "label": "Posted byCare Nest recruiters Member Since2026Active Ads1"
+   "href": "https://www.olx.com.pk/profile/5e980f1d-2af0-415d-ac6f-6a389340e3ce",
+   "label": "Posted bySeller nameMember Since2026Active Ads1"
   },
   {
-   "x": 142,
-   "y": 770,
-   "width": 110,
+   "x": 141,
+   "y": 776,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 1688,
-   "width": 175,
+   "y": 1634,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 138,
+   "y": 1634,
+   "width": 114,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 199,
-   "y": 1688,
-   "width": 175,
+   "x": 260,
+   "y": 1634,
+   "width": 114,
    "height": 40,
    "kind": "button",
    "label": "Call"
   },
   {
-   "x": 270,
-   "y": 1153,
-   "width": 112,
+   "x": 229,
+   "y": 1099,
+   "width": 153,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/bahria-town_g5000925/maids_c707010",
-   "label": "Maids in Bahria Town"
+   "href": "https://www.olx.com.pk/rawalpindi-bahria-town-phase-8_g3048/maids_c707010",
+   "label": "Maids in Bahria Town Phase 8"
   },
   {
-   "x": 140,
-   "y": 1153,
-   "width": 100,
+   "x": 29,
+   "y": 1099,
+   "width": 171,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad_g4060615/maids_c707010",
-   "label": "Maids in Islamabad"
+   "href": "https://www.olx.com.pk/bahria-town-rawalpindi_g5001213/maids_c707010",
+   "label": "Maids in Bahria Town Rawalpindi"
   },
   {
-   "x": 79,
-   "y": 1153,
-   "width": 31,
+   "x": -104,
+   "y": 1099,
+   "width": 104,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/maids_c707010",
+   "label": "Maids in Rawalpindi"
+  },
+  {
+   "x": -165,
+   "y": 1099,
+   "width": 32,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/maids_c707010",
    "label": "Maids"
   },
   {
-   "x": -29,
-   "y": 1153,
+   "x": -272,
+   "y": 1099,
    "width": 78,
    "height": 16,
    "kind": "link",
@@ -241,8 +258,8 @@
    "label": "Domestic Help"
   },
   {
-   "x": -103,
-   "y": 1153,
+   "x": -345,
+   "y": 1099,
    "width": 44,
    "height": 16,
    "kind": "link",
@@ -250,9 +267,9 @@
    "label": "Services"
   },
   {
-   "x": -165,
-   "y": 1153,
-   "width": 32,
+   "x": -407,
+   "y": 1099,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -260,16 +277,16 @@
   },
   {
    "x": 16,
-   "y": 1519,
+   "y": 1465,
    "width": 84,
    "height": 34,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
    "x": 113,
-   "y": 1586,
+   "y": 1532,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -278,7 +295,7 @@
   },
   {
    "x": 157,
-   "y": 1586,
+   "y": 1532,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -287,7 +304,7 @@
   },
   {
    "x": 201,
-   "y": 1586,
+   "y": 1532,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -296,7 +313,7 @@
   },
   {
    "x": 245,
-   "y": 1586,
+   "y": 1532,
    "width": 32,
    "height": 41,
    "kind": "link",

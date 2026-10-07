@@ -2,14 +2,14 @@
  "id": "ad-property-for-rent",
  "title": "Ad: Property for Rent",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/co-working-space-for-rent-iid-1118368001",
- "finalUrl": "https://www.olx.com.pk/item/co-working-space-for-rent-iid-1118368001",
+ "url": "https://www.olx.com.pk/item/furnished-apartment-for-rent-daily-weekly-monthly-iid-1116645885",
+ "finalUrl": "https://www.olx.com.pk/item/furnished-apartment-for-rent-daily-weekly-monthly-iid-1116645885",
  "width": 1440,
- "height": 3639,
+ "height": 3228,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:00:16.323Z",
+ "captured": "2026-10-07T14:09:32.588Z",
  "sections": [
   {
    "file": "01-header",
@@ -34,143 +34,132 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "03-home-property-for-rent-shops-offices-com",
-   "name": "Home · Property for Rent · Shops - Offices - Com",
+   "file": "03-home-property-for-rent-apartments-and-fl",
+   "name": "Home · Property for Rent · Apartments & Flats",
    "rect": {
     "x": 80,
     "y": 193,
     "width": 1280,
-    "height": 52
+    "height": 26
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "04-div",
-   "name": "div",
-   "rect": {
-    "x": 80,
-    "y": 276,
-    "width": 1280,
-    "height": 251
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
-  },
-  {
-   "file": "05-gallery",
+   "file": "04-gallery",
    "name": "Gallery",
    "rect": {
     "x": 80,
-    "y": 558,
+    "y": 282,
     "width": 820,
     "height": 481
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "06-posted-by-seller-name-member-since",
+   "file": "05-posted-by-seller-name-member-since",
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 940,
-    "y": 558,
+    "y": 282,
     "width": 420,
-    "height": 431
+    "height": 311
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
   {
-   "file": "07-overview",
+   "file": "06-overview",
    "name": "Overview",
    "rect": {
     "x": 80,
-    "y": 1078,
+    "y": 802,
     "width": 820,
     "height": 116
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "08-type-office-bathrooms",
-   "name": "Type · Office · Bathrooms",
+   "file": "07-furnished-furnished-bedrooms",
+   "name": "Furnished · Furnished · Bedrooms",
    "rect": {
     "x": 80,
-    "y": 1233,
+    "y": 957,
     "width": 820,
     "height": 81
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "09-details",
+   "file": "08-details",
    "name": "Details",
    "rect": {
     "x": 80,
-    "y": 1353,
+    "y": 1077,
     "width": 820,
     "height": 80
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "10-features",
+   "file": "09-features",
    "name": "Features",
    "rect": {
     "x": 80,
-    "y": 1472,
+    "y": 1196,
     "width": 820,
     "height": 118
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "11-description",
+   "file": "10-description",
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1629,
+    "y": 1353,
     "width": 820,
-    "height": 760
+    "height": 593
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "12-related-ads",
+   "file": "11-related-ads",
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 2428,
+    "y": 1985,
     "width": 820,
-    "height": 460
+    "height": 492
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "13-your-safety-matters-to-us-only-meet-in-p",
+   "file": "12-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2927,
+    "y": 2516,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(8)"
   },
   {
-   "file": "14-find-amazing-deals-on-the-go-download-ol",
+   "file": "13-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 3121,
+    "y": 2710,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "15-footer",
+   "file": "14-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 3293,
+    "y": 2882,
     "width": 1440,
     "height": 346
    },
@@ -199,7 +188,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -246,7 +235,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -255,7 +244,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -264,16 +253,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -282,7 +271,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -291,18 +280,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -318,7 +307,7 @@
    "label": "Home"
   },
   {
-   "x": 149,
+   "x": 148,
    "y": 196,
    "width": 105,
    "height": 19,
@@ -327,53 +316,44 @@
    "label": "Property for Rent"
   },
   {
-   "x": 284,
+   "x": 282,
    "y": 196,
-   "width": 224,
+   "width": 115,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1731",
-   "label": "Shops - Offices - Commercial Space"
+   "href": "https://www.olx.com.pk/apartments-flats_c1723",
+   "label": "Apartments & Flats"
   },
   {
-   "x": 538,
+   "x": 426,
    "y": 196,
-   "width": 308,
+   "width": 195,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/faisalabad_g4060660/shops-offices-commercial-space_c1731",
-   "label": "Shops - Offices - Commercial Space in Faisalabad"
+   "href": "https://www.olx.com.pk/islamabad_g4060615/apartments-flats_c1723",
+   "label": "Apartments & Flats in Islamabad"
   },
   {
-   "x": 876,
+   "x": 650,
    "y": 196,
-   "width": 314,
+   "width": 159,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/canal-road_g1140/shops-offices-commercial-space_c1731",
-   "label": "Shops - Offices - Commercial Space in Canal Road"
+   "href": "https://www.olx.com.pk/g-13_g5001007/apartments-flats_c1723",
+   "label": "Apartments & Flats in G-13"
   },
   {
-   "x": 80,
-   "y": 221,
-   "width": 342,
+   "x": 838,
+   "y": 196,
+   "width": 171,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/faisalabad-east-canal-road_g9506/shops-offices-commercial-space_c1731",
-   "label": "Shops - Offices - Commercial Space in East Canal Road"
-  },
-  {
-   "x": 452,
-   "y": 221,
-   "width": 355,
-   "height": 19,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/faisalabad-abdullah-gardens_g4890/shops-offices-commercial-space_c1731",
-   "label": "Shops - Offices - Commercial Space in Abdullah Gardens"
+   "href": "https://www.olx.com.pk/islamabad-g-13-4_g3340/apartments-flats_c1723",
+   "label": "Apartments & Flats in G-13/4"
   },
   {
    "x": 832,
-   "y": 1254,
+   "y": 498,
    "width": 48,
    "height": 49,
    "kind": "button",
@@ -381,7 +361,7 @@
   },
   {
    "x": 80,
-   "y": 1038,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -389,7 +369,7 @@
   },
   {
    "x": 900,
-   "y": 1038,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -397,7 +377,7 @@
   },
   {
    "x": 1720,
-   "y": 1038,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -405,7 +385,7 @@
   },
   {
    "x": 2540,
-   "y": 1038,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -413,7 +393,7 @@
   },
   {
    "x": 3360,
-   "y": 1038,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -421,7 +401,7 @@
   },
   {
    "x": 4180,
-   "y": 1038,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -429,7 +409,7 @@
   },
   {
    "x": 5000,
-   "y": 1038,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -437,23 +417,7 @@
   },
   {
    "x": 5820,
-   "y": 1038,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6640,
-   "y": 1038,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 7460,
-   "y": 1038,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -461,16 +425,16 @@
   },
   {
    "x": 249,
-   "y": 1403,
+   "y": 1127,
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/shops-offices-commercial-space_c1733/q-2nd-floor-commercial",
-   "label": "2"
+   "href": "https://www.olx.com.pk/apartments-flats_c1723/q-1st-floor-apartments",
+   "label": "1"
   },
   {
    "x": 60,
-   "y": 2658,
+   "y": 2231,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -478,25 +442,159 @@
   },
   {
    "x": 80,
-   "y": 2470,
+   "y": 2027,
    "width": 266,
-   "height": 416,
+   "height": 448,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/co-work-space-for-rent-iid-1116461610",
+   "href": "https://www.olx.com.pk/item/per-day-apartment-available-luxury-furnished-in-e11-iid-1120133069",
    "label": "Listing"
   },
   {
-   "x": 940,
-   "y": 558,
-   "width": 420,
-   "height": 142,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/profile/d8c88f00-f447-46b6-803a-1b0a7a5f75bf",
-   "label": "Posted byGhulam Muhammad Member Since2021Active Ads2"
+   "x": 357,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-one-bed-fully-furnished-apartment-available-in-islamabad-iid-1120198186",
+   "label": "Listing"
+  },
+  {
+   "x": 634,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/daily-basisperdayshort-stay-apartmentflat-for-couples-and-families-iid-1098813631",
+   "label": "Listing"
+  },
+  {
+   "x": 900,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-one-bed-fully-furnished-apartment-available-in-islamabad-iid-1120174496",
+   "label": "Listing"
+  },
+  {
+   "x": 1177,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-one-bed-fully-furnished-apartment-available-in-islamabad-iid-1120174607",
+   "label": "Listing"
+  },
+  {
+   "x": 1454,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/luxury-1-2-bed-room-apartment-in-islamabad-iid-1119977915",
+   "label": "Listing"
+  },
+  {
+   "x": 1720,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-luxury-apartment-iid-1119977914",
+   "label": "Listing"
+  },
+  {
+   "x": 1997,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-1-bed-luxury-apartment-in-e11-iid-1119410265",
+   "label": "Listing"
+  },
+  {
+   "x": 2274,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-one-bed-fully-furnished-apartment-available-in-islamabad-iid-1120176395",
+   "label": "Listing"
+  },
+  {
+   "x": 2540,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-one-bed-fully-furnished-apartment-available-in-islamabad-iid-1120179444",
+   "label": "Listing"
+  },
+  {
+   "x": 2817,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/luxury-guest-house-or-apartment-for-families-iid-1119410248",
+   "label": "Listing"
+  },
+  {
+   "x": 3094,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/daily-rentals-apartments-rooms-studios-available-e-11-islamabad-iid-1120115817",
+   "label": "Listing"
+  },
+  {
+   "x": 3360,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-one-bed-fully-furnished-apartment-available-in-islamabad-iid-1120190732",
+   "label": "Listing"
+  },
+  {
+   "x": 3637,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/luxury-apartments-flats-rooms-available-daily-weekly-monthly-iid-1119836233",
+   "label": "Listing"
+  },
+  {
+   "x": 3914,
+   "y": 2027,
+   "width": 266,
+   "height": 448,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/per-day-one-bed-fully-furnished-apartment-available-in-islamabad-iid-1120181351",
+   "label": "Listing"
+  },
+  {
+   "x": 880,
+   "y": 2231,
+   "width": 40,
+   "height": 41,
+   "kind": "button",
+   "label": ""
   },
   {
    "x": 940,
-   "y": 715,
+   "y": 282,
+   "width": 420,
+   "height": 142,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/profile/969ed938-ed29-401e-b53f-ec4e438e3b82",
+   "label": "Posted bySeller nameMember Since2023Active Ads1"
+  },
+  {
+   "x": 940,
+   "y": 439,
    "width": 420,
    "height": 49,
    "kind": "button",
@@ -504,23 +602,23 @@
   },
   {
    "x": 940,
-   "y": 779,
+   "y": 503,
    "width": 420,
    "height": 49,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 1236,
-   "y": 839,
-   "width": 124,
+   "x": 1235,
+   "y": 563,
+   "width": 125,
    "height": 30,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 960,
-   "y": 3203,
+   "y": 2792,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -529,7 +627,7 @@
   },
   {
    "x": 1096,
-   "y": 3203,
+   "y": 2792,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -538,7 +636,7 @@
   },
   {
    "x": 1232,
-   "y": 3203,
+   "y": 2792,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -547,7 +645,7 @@
   },
   {
    "x": 80,
-   "y": 3400,
+   "y": 2989,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -556,7 +654,7 @@
   },
   {
    "x": 80,
-   "y": 3432,
+   "y": 3021,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -565,7 +663,7 @@
   },
   {
    "x": 80,
-   "y": 3464,
+   "y": 3053,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -574,8 +672,8 @@
   },
   {
    "x": 80,
-   "y": 3496,
-   "width": 33,
+   "y": 3085,
+   "width": 32,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
@@ -583,8 +681,8 @@
   },
   {
    "x": 351,
-   "y": 3400,
-   "width": 36,
+   "y": 2989,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -592,7 +690,7 @@
   },
   {
    "x": 351,
-   "y": 3432,
+   "y": 3021,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -601,8 +699,8 @@
   },
   {
    "x": 351,
-   "y": 3464,
-   "width": 44,
+   "y": 3053,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -610,7 +708,7 @@
   },
   {
    "x": 351,
-   "y": 3496,
+   "y": 3085,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -619,8 +717,8 @@
   },
   {
    "x": 622,
-   "y": 3400,
-   "width": 66,
+   "y": 2989,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -628,8 +726,8 @@
   },
   {
    "x": 622,
-   "y": 3432,
-   "width": 78,
+   "y": 3021,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -637,8 +735,8 @@
   },
   {
    "x": 622,
-   "y": 3464,
-   "width": 134,
+   "y": 3053,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -646,8 +744,8 @@
   },
   {
    "x": 893,
-   "y": 3400,
-   "width": 33,
+   "y": 2989,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -655,7 +753,7 @@
   },
   {
    "x": 893,
-   "y": 3432,
+   "y": 3021,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -664,8 +762,8 @@
   },
   {
    "x": 893,
-   "y": 3464,
-   "width": 90,
+   "y": 3053,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -673,8 +771,8 @@
   },
   {
    "x": 893,
-   "y": 3496,
-   "width": 92,
+   "y": 3085,
+   "width": 95,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
@@ -682,7 +780,7 @@
   },
   {
    "x": 1164,
-   "y": 3397,
+   "y": 2986,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -691,7 +789,7 @@
   },
   {
    "x": 1216,
-   "y": 3397,
+   "y": 2986,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -700,7 +798,7 @@
   },
   {
    "x": 1268,
-   "y": 3397,
+   "y": 2986,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -709,7 +807,7 @@
   },
   {
    "x": 1320,
-   "y": 3397,
+   "y": 2986,
    "width": 40,
    "height": 41,
    "kind": "link",

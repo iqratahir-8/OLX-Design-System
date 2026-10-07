@@ -5,10 +5,11 @@
  "url": "https://www.olx.com.pk/",
  "finalUrl": "https://www.olx.com.pk/",
  "width": 1440,
- "height": 5754,
+ "height": 5526,
  "dpr": 1,
  "overlay": false,
- "captured": "2026-09-29T12:46:28.202Z",
+ "scrolled": false,
+ "captured": "2026-10-07T13:39:42.407Z",
  "sections": [
   {
    "file": "01-header",
@@ -33,132 +34,121 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
   },
   {
-   "file": "03-a-new-track-on-coke-studio-play-this-son",
-   "name": "A New Track on Coke Studio · PLAY THIS SONG",
+   "file": "03-mobiles-vehicles-property-for-sale",
+   "name": "Mobiles · Vehicles · Property For Sale",
    "rect": {
     "x": 80,
     "y": 225,
     "width": 1280,
-    "height": 180
+    "height": 300
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
   },
   {
-   "file": "04-mobiles-vehicles-property-for-sale",
-   "name": "Mobiles · Vehicles · Property For Sale",
+   "file": "04-mobile-phones-view-more-rs-54-999",
+   "name": "Mobile Phones · View More · Rs 54,999",
    "rect": {
     "x": 80,
-    "y": 453,
-    "width": 1280,
-    "height": 300
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
-  },
-  {
-   "file": "05-mobile-phones-view-more-rs-77-000",
-   "name": "Mobile Phones · View More · Rs 77,000",
-   "rect": {
-    "x": 80,
-    "y": 784,
+    "y": 556,
     "width": 1280,
     "height": 513
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(2)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3) > :nth-child(2)"
   },
   {
-   "file": "06-cars-view-more-rs-26-60-lacs",
-   "name": "Cars · View More · Rs 26.60 Lacs",
+   "file": "05-cars-view-more-rs-21-lacs",
+   "name": "Cars · View More · Rs 21 Lacs",
    "rect": {
     "x": 80,
-    "y": 1360,
+    "y": 1132,
     "width": 1280,
     "height": 545
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(4)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3) > :nth-child(4)"
   },
   {
-   "file": "07-bikes-and-motorcycles-view-more-rs-1-20-",
-   "name": "Bikes & Motorcycles · View More · Rs 1.20 Lac",
+   "file": "06-bikes-and-motorcycles-view-more-rs-4-40-",
+   "name": "Bikes & Motorcycles · View More · Rs 4.40 Lac",
    "rect": {
     "x": 80,
-    "y": 1936,
+    "y": 1708,
     "width": 1280,
     "height": 513
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(5)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3) > :nth-child(5)"
   },
   {
-   "file": "08-houses-view-more-rs-3-50-crore",
-   "name": "Houses · View More · Rs 3.50 Crore",
+   "file": "07-houses-view-more-rs-21-crore",
+   "name": "Houses · View More · Rs 21 Crore",
    "rect": {
     "x": 80,
-    "y": 2480,
+    "y": 2252,
     "width": 1280,
     "height": 545
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(6)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3) > :nth-child(6)"
   },
   {
-   "file": "09-video-audios-view-more-rs-50-000",
-   "name": "Video-Audios · View More · Rs 50,000",
+   "file": "08-video-audios-view-more-rs-8-000",
+   "name": "Video-Audios · View More · Rs 8,000",
    "rect": {
     "x": 80,
-    "y": 3056,
+    "y": 2828,
     "width": 1280,
     "height": 513
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(7)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3) > :nth-child(7)"
   },
   {
-   "file": "10-tablets-view-more-rs-49-999",
-   "name": "Tablets · View More · Rs 49,999",
+   "file": "09-tablets-view-more-rs-74-995",
+   "name": "Tablets · View More · Rs 74,995",
    "rect": {
     "x": 80,
-    "y": 3600,
+    "y": 3372,
     "width": 1280,
     "height": 513
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(8)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3) > :nth-child(8)"
   },
   {
-   "file": "11-land-and-plots-view-more-rs-1-85-crore",
-   "name": "Land & Plots · View More · Rs 1.85 Crore",
+   "file": "10-land-and-plots-view-more-rs-1-30-crore",
+   "name": "Land & Plots · View More · Rs 1.30 Crore",
    "rect": {
     "x": 80,
-    "y": 4144,
+    "y": 3916,
     "width": 1280,
     "height": 513
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(9)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3) > :nth-child(9)"
   },
   {
-   "file": "12-jobs-view-more-order-booker-confectioner",
-   "name": "Jobs · View More · Order Booker confectionery",
+   "file": "11-jobs-view-more-full-time-part-time-home",
+   "name": "Jobs · View More · Full Time - Part Time - Home ",
    "rect": {
     "x": 80,
-    "y": 4688,
+    "y": 4460,
     "width": 1280,
     "height": 485
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4) > :nth-child(10)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3) > :nth-child(10)"
   },
   {
-   "file": "13-find-amazing-deals-on-the-go-download-ol",
+   "file": "12-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 5236,
+    "y": 5008,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "14-footer",
+   "file": "13-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 5408,
+    "y": 5180,
     "width": 1440,
     "height": 346
    },
@@ -187,7 +177,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -234,7 +224,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -243,7 +233,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -252,16 +242,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -270,7 +260,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -279,18 +269,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -299,15 +289,6 @@
   {
    "x": 80,
    "y": 225,
-   "width": 1280,
-   "height": 180,
-   "kind": "link",
-   "href": "https://www.youtube.com/watch?v=8Ix-ekSoEdY",
-   "label": "A New Track on Coke StudioPlay This Song"
-  },
-  {
-   "x": 80,
-   "y": 453,
    "width": 121,
    "height": 117,
    "kind": "link",
@@ -316,7 +297,7 @@
   },
   {
    "x": 224,
-   "y": 453,
+   "y": 225,
    "width": 122,
    "height": 117,
    "kind": "link",
@@ -325,7 +306,7 @@
   },
   {
    "x": 369,
-   "y": 453,
+   "y": 225,
    "width": 122,
    "height": 138,
    "kind": "link",
@@ -334,7 +315,7 @@
   },
   {
    "x": 514,
-   "y": 453,
+   "y": 225,
    "width": 122,
    "height": 138,
    "kind": "link",
@@ -343,7 +324,7 @@
   },
   {
    "x": 659,
-   "y": 453,
+   "y": 225,
    "width": 122,
    "height": 138,
    "kind": "link",
@@ -352,7 +333,7 @@
   },
   {
    "x": 804,
-   "y": 453,
+   "y": 225,
    "width": 122,
    "height": 117,
    "kind": "link",
@@ -361,7 +342,7 @@
   },
   {
    "x": 949,
-   "y": 453,
+   "y": 225,
    "width": 122,
    "height": 138,
    "kind": "link",
@@ -370,7 +351,7 @@
   },
   {
    "x": 1094,
-   "y": 453,
+   "y": 225,
    "width": 122,
    "height": 117,
    "kind": "link",
@@ -379,7 +360,7 @@
   },
   {
    "x": 1239,
-   "y": 453,
+   "y": 225,
    "width": 121,
    "height": 117,
    "kind": "link",
@@ -388,7 +369,7 @@
   },
   {
    "x": 80,
-   "y": 614,
+   "y": 386,
    "width": 121,
    "height": 118,
    "kind": "link",
@@ -397,7 +378,7 @@
   },
   {
    "x": 224,
-   "y": 614,
+   "y": 386,
    "width": 122,
    "height": 139,
    "kind": "link",
@@ -406,7 +387,7 @@
   },
   {
    "x": 369,
-   "y": 614,
+   "y": 386,
    "width": 122,
    "height": 139,
    "kind": "link",
@@ -415,7 +396,7 @@
   },
   {
    "x": 514,
-   "y": 614,
+   "y": 386,
    "width": 122,
    "height": 139,
    "kind": "link",
@@ -424,7 +405,7 @@
   },
   {
    "x": 659,
-   "y": 614,
+   "y": 386,
    "width": 122,
    "height": 118,
    "kind": "link",
@@ -433,7 +414,7 @@
   },
   {
    "x": 1270,
-   "y": 793,
+   "y": 565,
    "width": 90,
    "height": 25,
    "kind": "link",
@@ -442,7 +423,7 @@
   },
   {
    "x": 1270,
-   "y": 1369,
+   "y": 1141,
    "width": 90,
    "height": 25,
    "kind": "link",
@@ -451,7 +432,7 @@
   },
   {
    "x": 1270,
-   "y": 1945,
+   "y": 1717,
    "width": 90,
    "height": 25,
    "kind": "link",
@@ -460,7 +441,7 @@
   },
   {
    "x": 1270,
-   "y": 2489,
+   "y": 2261,
    "width": 90,
    "height": 25,
    "kind": "link",
@@ -469,7 +450,7 @@
   },
   {
    "x": 1270,
-   "y": 3065,
+   "y": 2837,
    "width": 90,
    "height": 25,
    "kind": "link",
@@ -478,7 +459,7 @@
   },
   {
    "x": 1270,
-   "y": 3609,
+   "y": 3381,
    "width": 90,
    "height": 25,
    "kind": "link",
@@ -487,7 +468,7 @@
   },
   {
    "x": 1270,
-   "y": 4153,
+   "y": 3925,
    "width": 90,
    "height": 25,
    "kind": "link",
@@ -496,7 +477,7 @@
   },
   {
    "x": 1270,
-   "y": 4697,
+   "y": 4469,
    "width": 90,
    "height": 25,
    "kind": "link",
@@ -505,7 +486,7 @@
   },
   {
    "x": 960,
-   "y": 5318,
+   "y": 5090,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -514,7 +495,7 @@
   },
   {
    "x": 1096,
-   "y": 5318,
+   "y": 5090,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -523,7 +504,7 @@
   },
   {
    "x": 1232,
-   "y": 5318,
+   "y": 5090,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -532,7 +513,7 @@
   },
   {
    "x": 80,
-   "y": 5516,
+   "y": 5288,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -541,7 +522,7 @@
   },
   {
    "x": 80,
-   "y": 5548,
+   "y": 5320,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -550,7 +531,7 @@
   },
   {
    "x": 80,
-   "y": 5579,
+   "y": 5351,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -559,8 +540,8 @@
   },
   {
    "x": 80,
-   "y": 5611,
-   "width": 33,
+   "y": 5383,
+   "width": 32,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
@@ -568,8 +549,8 @@
   },
   {
    "x": 351,
-   "y": 5516,
-   "width": 36,
+   "y": 5288,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -577,7 +558,7 @@
   },
   {
    "x": 351,
-   "y": 5548,
+   "y": 5320,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -586,8 +567,8 @@
   },
   {
    "x": 351,
-   "y": 5579,
-   "width": 44,
+   "y": 5351,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -595,7 +576,7 @@
   },
   {
    "x": 351,
-   "y": 5611,
+   "y": 5383,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -604,8 +585,8 @@
   },
   {
    "x": 622,
-   "y": 5516,
-   "width": 66,
+   "y": 5288,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -613,8 +594,8 @@
   },
   {
    "x": 622,
-   "y": 5548,
-   "width": 78,
+   "y": 5320,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -622,8 +603,8 @@
   },
   {
    "x": 622,
-   "y": 5579,
-   "width": 134,
+   "y": 5351,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -631,8 +612,8 @@
   },
   {
    "x": 893,
-   "y": 5516,
-   "width": 33,
+   "y": 5288,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -640,7 +621,7 @@
   },
   {
    "x": 893,
-   "y": 5548,
+   "y": 5320,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -649,8 +630,8 @@
   },
   {
    "x": 893,
-   "y": 5579,
-   "width": 90,
+   "y": 5351,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -658,8 +639,8 @@
   },
   {
    "x": 893,
-   "y": 5611,
-   "width": 92,
+   "y": 5383,
+   "width": 95,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
@@ -667,7 +648,7 @@
   },
   {
    "x": 1164,
-   "y": 5513,
+   "y": 5285,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -676,7 +657,7 @@
   },
   {
    "x": 1216,
-   "y": 5513,
+   "y": 5285,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -685,7 +666,7 @@
   },
   {
    "x": 1268,
-   "y": 5513,
+   "y": 5285,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -694,7 +675,7 @@
   },
   {
    "x": 1320,
-   "y": 5513,
+   "y": 5285,
    "width": 40,
    "height": 41,
    "kind": "link",

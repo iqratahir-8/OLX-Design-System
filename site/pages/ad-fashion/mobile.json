@@ -2,14 +2,14 @@
  "id": "ad-fashion",
  "title": "Ad: Fashion & Beauty",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/elegant-heavily-embellished-goldchampagne-bridal-maxxi-front-open-iid-1119813312",
- "finalUrl": "https://www.olx.com.pk/item/elegant-heavily-embellished-goldchampagne-bridal-maxxi-front-open-iid-1119813312",
+ "url": "https://www.olx.com.pk/item/bridal-maxi-handmade-heavy-embroidered-formal-dress-one-time-used-iid-1118197666",
+ "finalUrl": "https://www.olx.com.pk/item/bridal-maxi-handmade-heavy-embroidered-formal-dress-one-time-used-iid-1118197666",
  "width": 390,
- "height": 2232,
+ "height": 2172,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:06:26.011Z",
+ "captured": "2026-10-07T14:14:44.063Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -56,8 +56,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-description-selling-a-stunning-heavily-d",
-   "name": "Description · Selling a stunning, heavily detail",
+   "file": "05-description-elegant-handmade-bridal-maxi",
+   "name": "Description · Elegant Handmade Bridal Maxi in a ",
    "rect": {
     "x": 0,
     "y": 607,
@@ -78,11 +78,11 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
   },
   {
-   "file": "07-related-ads-rs-65-000-urgent-bridal-dres",
-   "name": "Related ads · Rs 65,000 · Urgent Bridal Dress fo",
+   "file": "07-related-ads-featured-rs-2-50-lac",
+   "name": "Related ads · Featured · Rs 2.50 Lac",
    "rect": {
     "x": 0,
-    "y": 968,
+    "y": 948,
     "width": 390,
     "height": 371
    },
@@ -93,7 +93,7 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1358,
+    "y": 1318,
     "width": 390,
     "height": 236
    },
@@ -104,7 +104,7 @@
    "name": "Bridals in DHA Defence · Bridals in Lahore · Bri",
    "rect": {
     "x": 8,
-    "y": 1641,
+    "y": 1581,
     "width": 374,
     "height": 27
    },
@@ -115,7 +115,7 @@
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1667,
+    "y": 1607,
     "width": 390,
     "height": 47
    },
@@ -126,7 +126,7 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1713,
+    "y": 1653,
     "width": 390,
     "height": 519
    },
@@ -137,7 +137,7 @@
    "name": "Chat",
    "rect": {
     "x": 0,
-    "y": 2167,
+    "y": 2107,
     "width": 390,
     "height": 65
    },
@@ -178,22 +178,6 @@
    "label": ""
   },
   {
-   "x": 780,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 1170,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
    "x": 171,
    "y": 557,
    "width": 190,
@@ -216,119 +200,119 @@
    "width": 354,
    "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/d1bd7d72-2b87-4830-8940-3d44b0492edf",
-   "label": "Posted by Usman Member Since2023Active Ads5"
+   "href": "https://www.olx.com.pk/profile/f2d8ee9a-abb7-434d-bf16-cfca693d8a08",
+   "label": "Posted bySeller nameMember Since2022Active Ads1"
   },
   {
-   "x": 142,
+   "x": 141,
    "y": 892,
-   "width": 110,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 1003,
+   "y": 983,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/urgent-bridal-dress-for-sale-4-piece-set-iid-1119864745",
+   "href": "https://www.olx.com.pk/item/sana-safinaz-inspired-bridal-maxi-bridal-lehnga-weeding-dress-iid-1120196916",
    "label": "Listing"
   },
   {
    "x": 243,
-   "y": 1003,
+   "y": 983,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/lehanga-chooli-for-sale-1010-iid-1119859876",
+   "href": "https://www.olx.com.pk/item/bridal-dress-iid-1118986645",
    "label": "Listing"
   },
   {
    "x": 470,
-   "y": 1003,
+   "y": 983,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/bridel-costumize-dresses-iid-1119850771",
+   "href": "https://www.olx.com.pk/item/bridal-lehnga-iid-1120162956",
    "label": "Listing"
   },
   {
    "x": 697,
-   "y": 1003,
+   "y": 983,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/lehnga-barat-for-sale-iid-1119750517",
+   "href": "https://www.olx.com.pk/item/bridal-barat-lehnga-for-sale-iid-1116722273",
    "label": "Listing"
   },
   {
    "x": 924,
-   "y": 1003,
+   "y": 983,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/barat-bribal-dress-iid-1118984469",
+   "href": "https://www.olx.com.pk/item/libas-e-khas-iid-1119779441",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2180,
+   "y": 2120,
    "width": 358,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 258,
-   "y": 1646,
-   "width": 124,
+   "x": 263,
+   "y": 1586,
+   "width": 119,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/dha-defence_g9/bridals_c706502",
    "label": "Bridals in DHA Defence"
   },
   {
-   "x": 141,
-   "y": 1646,
-   "width": 87,
+   "x": 148,
+   "y": 1586,
+   "width": 86,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/lahore_g4060673/bridals_c706502",
    "label": "Bridals in Lahore"
   },
   {
-   "x": 76,
-   "y": 1646,
-   "width": 35,
+   "x": 85,
+   "y": 1586,
+   "width": 34,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/bridals_c706502",
    "label": "Bridals"
   },
   {
-   "x": -3,
-   "y": 1646,
-   "width": 49,
+   "x": 6,
+   "y": 1586,
+   "width": 50,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/wedding_c1971",
    "label": "Wedding"
   },
   {
-   "x": -125,
-   "y": 1646,
-   "width": 92,
+   "x": -112,
+   "y": 1586,
+   "width": 89,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/fashion-beauty_c87",
    "label": "Fashion & Beauty"
   },
   {
-   "x": -187,
-   "y": 1646,
-   "width": 32,
+   "x": -174,
+   "y": 1586,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -336,16 +320,16 @@
   },
   {
    "x": 16,
-   "y": 2012,
+   "y": 1952,
    "width": 84,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
    "x": 113,
-   "y": 2079,
+   "y": 2019,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -354,7 +338,7 @@
   },
   {
    "x": 157,
-   "y": 2079,
+   "y": 2019,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -363,7 +347,7 @@
   },
   {
    "x": 201,
-   "y": 2079,
+   "y": 2019,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -372,7 +356,7 @@
   },
   {
    "x": 245,
-   "y": 2079,
+   "y": 2019,
    "width": 32,
    "height": 41,
    "kind": "link",

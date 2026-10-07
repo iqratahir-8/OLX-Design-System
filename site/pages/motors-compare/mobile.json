@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/new-cars/compare/",
  "finalUrl": "https://www.olx.com.pk/motors/new-cars/compare/",
  "width": 390,
- "height": 1289,
+ "height": 16984,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:52:21.845Z",
+ "captured": "2026-10-07T14:27:32.634Z",
  "sections": [
   {
    "file": "01-header",
@@ -29,7 +29,7 @@
     "x": 16,
     "y": 158,
     "width": 358,
-    "height": 420
+    "height": 403
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
@@ -38,29 +38,40 @@
    "name": "Explore OLX Motors",
    "rect": {
     "x": 16,
-    "y": 597,
+    "y": 580,
     "width": 358,
-    "height": 281
+    "height": 282
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "04-get-the-olx-app",
+   "file": "04-latest-news",
+   "name": "Latest News",
+   "rect": {
+    "x": 16,
+    "y": 881,
+    "width": 358,
+    "height": 766
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "05-get-the-olx-app",
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 957,
+    "y": 3436,
     "width": 390,
-    "height": 332
+    "height": 398
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
   },
   {
-   "file": "05-home-chat-sell",
+   "file": "06-home-chat-sell",
    "name": "Home · Chat · Sell",
    "rect": {
     "x": 0,
-    "y": 1230,
+    "y": 8433,
     "width": 390,
     "height": 59
    },
@@ -74,21 +85,21 @@
    "width": 130,
    "height": 17,
    "kind": "link",
-   "href": "https://www.olx.com.pk/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/",
-   "label": "View Comparison"
-  },
-  {
-   "x": 130,
-   "y": 508,
-   "width": 130,
-   "height": 18,
-   "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/compare/jaecoo-j7-vs-hyundai-tucson/",
    "label": "View Comparison"
   },
   {
+   "x": 130,
+   "y": 491,
+   "width": 130,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/kia-picanto-vs-suzuki-cultus/",
+   "label": "View Comparison"
+  },
+  {
    "x": 16,
-   "y": 552,
+   "y": 535,
    "width": 358,
    "height": 26,
    "kind": "button",
@@ -96,7 +107,7 @@
   },
   {
    "x": 16,
-   "y": 630,
+   "y": 614,
    "width": 173,
    "height": 141,
    "kind": "link",
@@ -105,7 +116,7 @@
   },
   {
    "x": 201,
-   "y": 630,
+   "y": 614,
    "width": 173,
    "height": 65,
    "kind": "link",
@@ -114,7 +125,7 @@
   },
   {
    "x": 201,
-   "y": 706,
+   "y": 690,
    "width": 173,
    "height": 65,
    "kind": "link",
@@ -123,7 +134,7 @@
   },
   {
    "x": 16,
-   "y": 782,
+   "y": 766,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -132,7 +143,7 @@
   },
   {
    "x": 164,
-   "y": 782,
+   "y": 766,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -141,7 +152,7 @@
   },
   {
    "x": 312,
-   "y": 782,
+   "y": 766,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -150,7 +161,7 @@
   },
   {
    "x": 460,
-   "y": 782,
+   "y": 766,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -159,7 +170,7 @@
   },
   {
    "x": 608,
-   "y": 782,
+   "y": 766,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -168,7 +179,7 @@
   },
   {
    "x": 756,
-   "y": 782,
+   "y": 766,
    "width": 138,
    "height": 96,
    "kind": "link",
@@ -176,35 +187,80 @@
    "label": "Car Batteries"
   },
   {
+   "x": 313,
+   "y": 881,
+   "width": 61,
+   "height": 34,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/category/autos",
+   "label": "View More"
+  },
+  {
    "x": 16,
-   "y": 897,
-   "width": 32,
-   "height": 21,
+   "y": 1130,
+   "width": 358,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/petrol-price-in-pakistan/",
+   "label": "Petrol Price in Pakistan Increased for the Fourth Time in a Row"
+  },
+  {
+   "x": 118,
+   "y": 1264,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/super-power-launches-petrol-bikes-and-electric-two-wheelers/",
+   "label": "Super Power Launches Petrol Bikes and Electric Two-Wheelers"
+  },
+  {
+   "x": 118,
+   "y": 1398,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/jolta-launches-je-125l-electric-motorcycle/",
+   "label": "Jolta Launches JE-125L Electric Motorcycle"
+  },
+  {
+   "x": 118,
+   "y": 1533,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/kia-showcased-its-latest-lineup-at-paps-2026/",
+   "label": "Kia Showcased Its Newest Models at Pakistan Auto Show 2026"
+  },
+  {
+   "x": 16,
+   "y": 1666,
+   "width": 33,
+   "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
    "label": "Home"
   },
   {
    "x": 76,
-   "y": 897,
-   "width": 37,
-   "height": 21,
+   "y": 1666,
+   "width": 39,
+   "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
    "label": "Motors"
   },
   {
-   "x": 141,
-   "y": 897,
-   "width": 51,
-   "height": 21,
+   "x": 142,
+   "y": 1666,
+   "width": 52,
+   "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/",
    "label": "New Cars"
   },
   {
    "x": 0,
-   "y": 1238,
+   "y": 8441,
    "width": 72,
    "height": 44,
    "kind": "link",
@@ -213,7 +269,7 @@
   },
   {
    "x": 79,
-   "y": 1238,
+   "y": 8441,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -222,7 +278,7 @@
   },
   {
    "x": 159,
-   "y": 1236,
+   "y": 8439,
    "width": 72,
    "height": 47,
    "kind": "link",
@@ -231,7 +287,7 @@
   },
   {
    "x": 238,
-   "y": 1238,
+   "y": 8441,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -239,57 +295,97 @@
    "label": "My Ads"
   },
   {
-   "x": 331,
-   "y": 1238,
-   "width": 46,
+   "x": 332,
+   "y": 8441,
+   "width": 45,
    "height": 44,
    "kind": "button",
    "label": "Account"
   },
   {
    "x": 16,
-   "y": 1073,
+   "y": 3552,
    "width": 358,
-   "height": 32,
+   "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 3626,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 1143,
+   "y": 3688,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://twitter.com/OLX_Pakistan",
    "label": ""
   },
   {
    "x": 157,
-   "y": 1143,
+   "y": 3688,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://www.facebook.com/olxpakistan",
    "label": ""
   },
   {
    "x": 201,
-   "y": 1143,
+   "y": 3688,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
    "label": ""
   },
   {
    "x": 245,
-   "y": 1143,
+   "y": 3688,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
+  },
+  {
+   "x": 38,
+   "y": 8504,
+   "width": 340,
+   "height": 40,
+   "kind": "input",
+   "label": "Search by Car Variant"
+  },
+  {
+   "x": 38,
+   "y": 8504,
+   "width": 340,
+   "height": 40,
+   "kind": "input",
+   "label": "Search by Car Variant"
+  },
+  {
+   "x": 38,
+   "y": 8504,
+   "width": 340,
+   "height": 40,
+   "kind": "input",
+   "label": "Search by Car Variant"
+  },
+  {
+   "x": 38,
+   "y": 8504,
+   "width": 340,
+   "height": 40,
+   "kind": "input",
+   "label": "Search by Car Variant"
   }
  ]
 }

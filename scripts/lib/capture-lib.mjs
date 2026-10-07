@@ -50,6 +50,13 @@ export function freezePage(origin) {
     }
   }
 
+  // Lazy-loaded photos keep their URL in data-src (or data-srcset) and get it as src
+  // only from OLX's script, which a static copy doesn't run: copy it over.
+  for (const img of document.querySelectorAll('img[data-src], img[data-srcset], source[data-srcset]')) {
+    if (img.dataset.src && !img.getAttribute('src')) img.setAttribute('src', img.currentSrc || img.dataset.src);
+    if (img.dataset.srcset && !img.getAttribute('srcset')) img.setAttribute('srcset', img.dataset.srcset);
+  }
+
   // Absolute URLs everywhere so the copy renders from any location.
   for (const el of document.querySelectorAll('[src], [href], [srcset], [poster]')) {
     for (const a of ['src', 'href', 'poster']) if (el.hasAttribute(a) && !el.getAttribute(a).startsWith('data:')) el.setAttribute(a, abs(el.getAttribute(a)));
@@ -95,8 +102,9 @@ export async function fontOverrides(page, fontsDir = '../../fonts') {
 
 export function cropPng(buffer, { x, y, width, height }, dpr) {
   const src = PNG.sync.read(buffer);
-  const sx = Math.max(0, x * dpr), sy = Math.max(0, y * dpr);
-  const w = Math.min(width * dpr, src.width - sx), h = Math.min(height * dpr, src.height - sy);
+  // Clamp to the screenshot: an element can stick out past the page edge.
+  const sx = Math.min(Math.max(0, Math.round(x * dpr)), src.width - 1), sy = Math.min(Math.max(0, Math.round(y * dpr)), src.height - 1);
+  const w = Math.max(1, Math.min(Math.round(width * dpr), src.width - sx)), h = Math.max(1, Math.min(Math.round(height * dpr), src.height - sy));
   const out = new PNG({ width: w, height: h });
   PNG.bitblt(src, out, sx, sy, w, h, 0, 0);
   return PNG.sync.write(out);

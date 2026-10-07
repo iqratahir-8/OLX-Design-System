@@ -9,7 +9,7 @@
  "dpr": 2,
  "overlay": false,
  "scrolled": true,
- "captured": "2026-09-29T13:41:27.840Z",
+ "captured": "2026-10-07T14:52:45.969Z",
  "sections": [
   {
    "file": "01-header-scrolled",
@@ -61,17 +61,8 @@
    "label": ""
   },
   {
-   "x": 16,
-   "y": -530,
-   "width": 358,
-   "height": 151,
-   "kind": "link",
-   "href": "https://www.youtube.com/watch?v=8Ix-ekSoEdY",
-   "label": "A New Track on Coke StudioPlay This Song"
-  },
-  {
    "x": 306,
-   "y": -84,
+   "y": -233,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -80,7 +71,7 @@
   },
   {
    "x": 306,
-   "y": 286,
+   "y": 137,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -89,7 +80,7 @@
   },
   {
    "x": 306,
-   "y": 682,
+   "y": 533,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -98,7 +89,7 @@
   },
   {
    "x": 306,
-   "y": 1052,
+   "y": 903,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -107,7 +98,7 @@
   },
   {
    "x": 306,
-   "y": 1448,
+   "y": 1299,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -116,7 +107,7 @@
   },
   {
    "x": 306,
-   "y": 1818,
+   "y": 1669,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -125,7 +116,7 @@
   },
   {
    "x": 306,
-   "y": 2188,
+   "y": 2039,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -134,7 +125,7 @@
   },
   {
    "x": 306,
-   "y": 2558,
+   "y": 2409,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -186,16 +177,16 @@
   },
   {
    "x": 16,
-   "y": 3314,
+   "y": 3165,
    "width": 84,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
    "x": 113,
-   "y": 3380,
+   "y": 3231,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -204,7 +195,7 @@
   },
   {
    "x": 157,
-   "y": 3380,
+   "y": 3231,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -213,7 +204,7 @@
   },
   {
    "x": 201,
-   "y": 3380,
+   "y": 3231,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -222,7 +213,7 @@
   },
   {
    "x": 245,
-   "y": 3380,
+   "y": 3231,
    "width": 32,
    "height": 41,
    "kind": "link",

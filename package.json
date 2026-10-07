@@ -31,7 +31,8 @@
     "build:publish": "node scripts/build-prototype.mjs && node scripts/extract-assets.mjs && node scripts/build-catalog.mjs && node scripts/build-publish.mjs",
     "assets": "node scripts/extract-assets.mjs",
     "import:kit": "node scripts/import-kit.mjs",
-    "catalog": "node scripts/build-catalog.mjs"
+    "catalog": "node scripts/build-catalog.mjs",
+    "verify:pixels": "node scripts/verify-pixels.mjs"
   },
   "license": "UNLICENSED",
   "devDependencies": {

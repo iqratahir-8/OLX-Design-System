@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=truck&make=honda&price_range=100000-200000",
  "finalUrl": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?body_type=truck&make=honda&price_range=100000-200000",
  "width": 390,
- "height": 1055,
+ "height": 1124,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:50:50.580Z",
+ "captured": "2026-10-07T14:24:22.140Z",
  "sections": [
   {
    "file": "01-header",
@@ -29,7 +29,7 @@
     "x": 16,
     "y": 80,
     "width": 358,
-    "height": 678
+    "height": 681
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
   },
@@ -38,9 +38,9 @@
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 789,
+    "y": 792,
     "width": 390,
-    "height": 266
+    "height": 332
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(3)"
   }
@@ -48,24 +48,48 @@
  "hotspots": [
   {
    "x": 14,
-   "y": 80,
-   "width": 77,
-   "height": 32,
+   "y": 81,
+   "width": 78,
+   "height": 33,
    "kind": "button",
    "label": "Filters"
   },
   {
-   "x": 113,
-   "y": 425,
-   "width": 164,
-   "height": 43,
+   "x": 163,
+   "y": 90,
+   "width": 15,
+   "height": 15,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 347,
+   "y": 90,
+   "width": 15,
+   "height": 15,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 386,
+   "y": 80,
+   "width": 37,
+   "height": 35,
+   "kind": "button",
+   "label": "Reset"
+  },
+  {
+   "x": 112,
+   "y": 427,
+   "width": 166,
+   "height": 44,
    "kind": "button",
    "label": "Search Again"
   },
   {
    "x": 16,
-   "y": 573,
-   "width": 32,
+   "y": 576,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -73,17 +97,17 @@
   },
   {
    "x": 76,
-   "y": 573,
-   "width": 37,
+   "y": 576,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
    "label": "Motors"
   },
   {
-   "x": 141,
-   "y": 573,
-   "width": 51,
+   "x": 142,
+   "y": 576,
+   "width": 52,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/",
@@ -91,25 +115,25 @@
   },
   {
    "x": 16,
-   "y": 658,
+   "y": 660,
    "width": 173,
-   "height": 17,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/lahore_g4060673/",
    "label": "Find Cars Lahore"
   },
   {
    "x": 201,
-   "y": 658,
+   "y": 660,
    "width": 173,
-   "height": 17,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/en/vehicles/cars-for-sale/karachi_g4060695/",
    "label": "Find Cars Karachi"
   },
   {
    "x": 16,
-   "y": 686,
+   "y": 689,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -118,7 +142,7 @@
   },
   {
    "x": 201,
-   "y": 686,
+   "y": 689,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -127,7 +151,7 @@
   },
   {
    "x": 16,
-   "y": 715,
+   "y": 718,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -136,7 +160,7 @@
   },
   {
    "x": 201,
-   "y": 715,
+   "y": 718,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -145,24 +169,32 @@
   },
   {
    "x": 16,
-   "y": 732,
-   "width": 59,
+   "y": 735,
+   "width": 60,
    "height": 26,
    "kind": "button",
    "label": "View More"
   },
   {
    "x": 16,
-   "y": 905,
+   "y": 908,
    "width": 358,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 982,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 975,
+   "y": 1044,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -171,7 +203,7 @@
   },
   {
    "x": 157,
-   "y": 975,
+   "y": 1044,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -180,7 +212,7 @@
   },
   {
    "x": 201,
-   "y": 975,
+   "y": 1044,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -189,7 +221,7 @@
   },
   {
    "x": 245,
-   "y": 975,
+   "y": 1044,
    "width": 32,
    "height": 37,
    "kind": "link",

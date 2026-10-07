@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/",
  "finalUrl": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/",
  "width": 390,
- "height": 1715,
+ "height": 2503,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:53:04.804Z",
+ "captured": "2026-10-07T14:29:13.745Z",
  "sections": [
   {
    "file": "01-header",
@@ -51,27 +51,38 @@
     "x": 0,
     "y": 857,
     "width": 390,
-    "height": 477
+    "height": 779
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "05-get-the-olx-app",
+   "file": "05-used-toyota-corolla-for-sale",
+   "name": "Used Toyota Corolla for Sale",
+   "rect": {
+    "x": 16,
+    "y": 1659,
+    "width": 358,
+    "height": 390
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "06-get-the-olx-app",
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 1448,
+    "y": 2171,
     "width": 390,
-    "height": 267
+    "height": 332
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(3)"
   }
  ],
  "hotspots": [
   {
-   "x": 275,
+   "x": 276,
    "y": 300,
-   "width": 99,
+   "width": 98,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/cars_c84/q-toyota-corolla",
@@ -88,7 +99,7 @@
   {
    "x": 29,
    "y": 781,
-   "width": 120,
+   "width": 121,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-reviews/write-a-review/",
@@ -97,7 +108,7 @@
   {
    "x": 29,
    "y": 769,
-   "width": 120,
+   "width": 121,
    "height": 44,
    "kind": "button",
    "label": "Write a Review"
@@ -111,17 +122,143 @@
    "label": "All"
   },
   {
-   "x": 124,
-   "y": 1233,
-   "width": 142,
-   "height": 43,
-   "kind": "button",
-   "label": "Write a Review"
+   "x": 16,
+   "y": 983,
+   "width": 358,
+   "height": 166,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/71/?version=2958,30",
+   "label": "Performance is very goodby User name for Toyota Corolla 1.8L Altis Grande X CVTi"
   },
   {
    "x": 16,
-   "y": 1357,
-   "width": 32,
+   "y": 1202,
+   "width": 358,
+   "height": 166,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/42/?version=2956,30",
+   "label": "Corolla is always a go to carby User name for Toyota Corolla 1.8L Altis X MT 202"
+  },
+  {
+   "x": 16,
+   "y": 1421,
+   "width": 358,
+   "height": 166,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/41/?version=2958,30",
+   "label": "Nice and funtasticby OLX User for Toyota Corolla 1.8L Altis Grande X CVTi 2022 o"
+  },
+  {
+   "x": 143,
+   "y": 1602,
+   "width": 104,
+   "height": 18,
+   "kind": "button",
+   "label": "View All Reviews"
+  },
+  {
+   "x": 313,
+   "y": 1664,
+   "width": 61,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-toyota-corolla/",
+   "label": "View More"
+  },
+  {
+   "x": 16,
+   "y": 1693,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-xli-2007-excellent-condition-biometric-available-iid-1119694167/",
+   "label": "FEATUREDRs 17.75 LacsToyota Corolla XLi 2007 | Excellent Condition | Biometric A"
+  },
+  {
+   "x": 244,
+   "y": 1693,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-2008-manual-excellent-condition-iid-1118768764/",
+   "label": "FEATUREDRs 26 LacsToyota Corolla GLi 2008 | Manual| Excellent Condition175000 KM"
+  },
+  {
+   "x": 473,
+   "y": 1693,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-grande-2019-1st-owner-52000-km-black-iid-1120202932/",
+   "label": "FEATUREDRs 46.50 LacsToyota Corolla Grande 2019 | 1st Owner | 52,000 KM | Black5"
+  },
+  {
+   "x": 702,
+   "y": 1693,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-axio-15-japanese-import-excellent-condition-iid-1118767612/",
+   "label": "FEATUREDRs 65 LacsToyota Corolla Axio 1.5 | Japanese Import | Excellent Conditio"
+  },
+  {
+   "x": 931,
+   "y": 1693,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-2018-model-excellent-condition-iid-1120112217/",
+   "label": "FEATUREDRs 48.50 LacsToyota Corolla GLi 2018 Model – Excellent Condition75000 KM"
+  },
+  {
+   "x": 1159,
+   "y": 1693,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-fielder-2014-registered-2018-iid-1118768000/",
+   "label": "FEATUREDRs 43 LacsToyota Corolla Fielder 2014 – Registered 2018118000 KM2014Fede"
+  },
+  {
+   "x": 1388,
+   "y": 1693,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-2018-total-genuine-paint-iid-1120129350/",
+   "label": "FEATUREDRs 41.75 LacsToyota Corolla GLI 2018 Total genuine paint66000 KM2018Jail"
+  },
+  {
+   "x": 1617,
+   "y": 1693,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-xli-2013-iid-1119915039/",
+   "label": "FEATUREDRs 29.75 LacsToyota Corolla XLI 2013206000 KM2013Bahria Town Phase 6, Ba"
+  },
+  {
+   "x": 1846,
+   "y": 1693,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-iid-1119706511/",
+   "label": "FEATUREDRs 50.95 LacsToyota Corolla Altis74000 KM2020Al Faisal Town, Lahore, Pun"
+  },
+  {
+   "x": 2074,
+   "y": 1693,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-2022-iid-1119882854/",
+   "label": "FEATUREDRs 57.90 LacsToyota Corolla Altis 202254000 KM2022Jail Road, Lahore, Pun"
+  },
+  {
+   "x": 16,
+   "y": 2080,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -129,17 +266,17 @@
   },
   {
    "x": 76,
-   "y": 1357,
-   "width": 37,
+   "y": 2080,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
    "label": "Motors"
   },
   {
-   "x": 141,
-   "y": 1357,
-   "width": 66,
+   "x": 142,
+   "y": 2080,
+   "width": 65,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-reviews/",
@@ -147,45 +284,53 @@
   },
   {
    "x": 16,
-   "y": 1565,
+   "y": 2287,
    "width": 358,
-   "height": 32,
+   "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 2361,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 1635,
+   "y": 2423,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://twitter.com/OLX_Pakistan",
    "label": ""
   },
   {
    "x": 157,
-   "y": 1635,
+   "y": 2423,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://www.facebook.com/olxpakistan",
    "label": ""
   },
   {
    "x": 201,
-   "y": 1635,
+   "y": 2423,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
    "label": ""
   },
   {
    "x": 245,
-   "y": 1635,
+   "y": 2423,
    "width": 32,
-   "height": 36,
+   "height": 37,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""

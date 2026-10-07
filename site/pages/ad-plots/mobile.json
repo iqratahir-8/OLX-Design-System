@@ -2,14 +2,14 @@
  "id": "ad-plots",
  "title": "Ad: Plot",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/saggian-main-corner-plot-for-sale-iid-1119059582",
- "finalUrl": "https://www.olx.com.pk/item/saggian-main-corner-plot-for-sale-iid-1119059582",
+ "url": "https://www.olx.com.pk/item/prime-commercial-property-for-sale-front-facing-iid-1118648385",
+ "finalUrl": "https://www.olx.com.pk/item/prime-commercial-property-for-sale-front-facing-iid-1118648385",
  "width": 390,
- "height": 2315,
+ "height": 2312,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-30T07:25:53.384Z",
+ "captured": "2026-10-07T14:52:01.022Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -29,16 +29,16 @@
     "x": 0,
     "y": 294,
     "width": 390,
-    "height": 154
+    "height": 178
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "03-type-industrial-land-area",
-   "name": "Type · Industrial Land · Area",
+   "file": "03-type-commercial-plots-area",
+   "name": "Type · Commercial Plots · Area",
    "rect": {
     "x": 0,
-    "y": 447,
+    "y": 471,
     "width": 390,
     "height": 61
    },
@@ -49,18 +49,18 @@
    "name": "div",
    "rect": {
     "x": 0,
-    "y": 527,
+    "y": 551,
     "width": 390,
     "height": 51
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-description-excellent-opportunity-to-buy",
-   "name": "Description · Excellent opportunity to buy a lar",
+   "file": "05-description-prime-commercial-property-fo",
+   "name": "Description · PRIME COMMERCIAL PROPERTY FOR SALE",
    "rect": {
     "x": 0,
-    "y": 577,
+    "y": 601,
     "width": 390,
     "height": 122
    },
@@ -71,9 +71,9 @@
    "name": "Features",
    "rect": {
     "x": 0,
-    "y": 718,
+    "y": 742,
     "width": 390,
-    "height": 94
+    "height": 127
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
   },
@@ -82,18 +82,18 @@
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 0,
-    "y": 831,
+    "y": 888,
     "width": 390,
     "height": 181
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(10)"
   },
   {
-   "file": "08-related-ads-rs-22-lacs-direct-deals-mark",
-   "name": "Related ads · Rs 22 Lacs · Direct Deals Marketin",
+   "file": "08-related-ads-rs-14-75-crore-prominently-l",
+   "name": "Related ads · Rs 14.75 Crore · Prominently-Locat",
    "rect": {
     "x": 0,
-    "y": 1051,
+    "y": 1088,
     "width": 390,
     "height": 371
    },
@@ -104,18 +104,18 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1441,
+    "y": 1458,
     "width": 390,
     "height": 236
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
   },
   {
-   "file": "10-land-and-plots-in-saggian-city-land-and-",
-   "name": "Land & Plots in Saggian City · Land & Plots in S",
+   "file": "10-land-and-plots-in-saddar-land-and-plots-",
+   "name": "Land & Plots in Saddar · Land & Plots in Saddar ",
    "rect": {
     "x": 8,
-    "y": 1724,
+    "y": 1721,
     "width": 374,
     "height": 26
    },
@@ -126,7 +126,7 @@
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1749,
+    "y": 1746,
     "width": 390,
     "height": 47
    },
@@ -137,18 +137,18 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1795,
+    "y": 1792,
     "width": 390,
     "height": 520
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "13-chat-call",
-   "name": "Chat · Call",
+   "file": "13-chat",
+   "name": "Chat",
    "rect": {
     "x": 0,
-    "y": 2250,
+    "y": 2247,
     "width": 390,
     "height": 65
    },
@@ -254,7 +254,7 @@
   },
   {
    "x": 16,
-   "y": 677,
+   "y": 701,
    "width": 358,
    "height": 22,
    "kind": "button",
@@ -262,112 +262,104 @@
   },
   {
    "x": 20,
-   "y": 843,
+   "y": 900,
    "width": 354,
    "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/e1ee5e43-bbaa-4fb3-85b7-687efc78a16c",
-   "label": "Posted byAbdul qadir Member Since2019Active Ads1"
+   "href": "https://www.olx.com.pk/profile/f7e3488e-cc3e-4bc9-8f82-70a68cde1e72",
+   "label": "Posted bySeller nameMember Since2016Active Ads1"
   },
   {
-   "x": 142,
-   "y": 975,
-   "width": 110,
+   "x": 141,
+   "y": 1032,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 1086,
+   "y": 1123,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offers-prime-location-plot-available-for-sale-reasonable-price-in-alnoor-orchard-iid-1119919799",
+   "href": "https://www.olx.com.pk/item/prominently-located-prime-location-residential-plot-available-in-dha-city-karachi-for-sale-iid-1120151437",
    "label": "Listing"
   },
   {
    "x": 243,
-   "y": 1086,
+   "y": 1123,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-good-location-plot-for-sale-in-t-prime-block-iid-1119645407",
+   "href": "https://www.olx.com.pk/item/near-bait-ul-mukarram-masjid-600-square-yards-open-residential-plot-iid-1120003263",
    "label": "Listing"
   },
   {
    "x": 470,
-   "y": 1086,
+   "y": 1123,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/3-marla-good-location-plot-for-sale-in-lahore-motorway-city-block-p-iid-1119645369",
+   "href": "https://www.olx.com.pk/item/residential-plot-sized-240-square-yards-in-kda-officers-society-iid-1119954146",
    "label": "Listing"
   },
   {
    "x": 697,
-   "y": 1086,
+   "y": 1123,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-residential-plot-situated-in-lahore-motorway-city-for-sale-iid-1119681182",
+   "href": "https://www.olx.com.pk/item/a-500-square-yards-residential-plot-is-up-for-grabs-in-dha-defence-iid-1119036220",
    "label": "Listing"
   },
   {
    "x": 924,
-   "y": 1086,
+   "y": 1123,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/a-well-designed-residential-plot-is-up-for-sale-in-an-ideal-location-in-lahore-motorway-city-iid-1119681183",
+   "href": "https://www.olx.com.pk/item/dha-phase-7-500-sq-yds-residential-plot-street-8-prime-location-ideal-for-luxury-home-investment-iid-1119095176",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2263,
-   "width": 175,
+   "y": 2260,
+   "width": 358,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 199,
-   "y": 2263,
-   "width": 175,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 236,
-   "y": 1729,
-   "width": 146,
+   "x": 267,
+   "y": 1726,
+   "width": 115,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore-saggian-city_g10569/land-plots_c40",
-   "label": "Land & Plots in Saggian City"
+   "href": "https://www.olx.com.pk/saddar_g1000000000000418/land-plots_c40",
+   "label": "Land & Plots in Saddar"
   },
   {
-   "x": 84,
-   "y": 1729,
-   "width": 122,
+   "x": 90,
+   "y": 1726,
+   "width": 148,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/saggian_g5000783/land-plots_c40",
-   "label": "Land & Plots in Saggian"
+   "href": "https://www.olx.com.pk/saddar-town_g5000238/land-plots_c40",
+   "label": "Land & Plots in Saddar Town"
   },
   {
-   "x": -62,
-   "y": 1729,
+   "x": -55,
+   "y": 1726,
    "width": 116,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/land-plots_c40",
-   "label": "Land & Plots in Lahore"
+   "href": "https://www.olx.com.pk/karachi_g4060695/land-plots_c40",
+   "label": "Land & Plots in Karachi"
   },
   {
-   "x": -156,
-   "y": 1729,
+   "x": -148,
+   "y": 1726,
    "width": 64,
    "height": 16,
    "kind": "link",
@@ -375,8 +367,8 @@
    "label": "Land & Plots"
   },
   {
-   "x": -274,
-   "y": 1729,
+   "x": -265,
+   "y": 1726,
    "width": 88,
    "height": 16,
    "kind": "link",
@@ -384,9 +376,9 @@
    "label": "Property for Sale"
   },
   {
-   "x": -336,
-   "y": 1729,
-   "width": 32,
+   "x": -328,
+   "y": 1726,
+   "width": 34,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -394,16 +386,16 @@
   },
   {
    "x": 16,
-   "y": 2095,
+   "y": 2092,
    "width": 84,
    "height": 33,
    "kind": "link",
-   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
    "label": ""
   },
   {
    "x": 113,
-   "y": 2161,
+   "y": 2158,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -412,7 +404,7 @@
   },
   {
    "x": 157,
-   "y": 2161,
+   "y": 2158,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -421,7 +413,7 @@
   },
   {
    "x": 201,
-   "y": 2161,
+   "y": 2158,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -430,7 +422,7 @@
   },
   {
    "x": 245,
-   "y": 2161,
+   "y": 2158,
    "width": 32,
    "height": 41,
    "kind": "link",

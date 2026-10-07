@@ -2,14 +2,14 @@
  "id": "ad-property-for-sale",
  "title": "Ad: Property for Sale",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
- "finalUrl": "https://www.olx.com.pk/item/1-kanal-house-motorway-city-lahoe-iid-1119614223",
+ "url": "https://www.olx.com.pk/item/prime-commercial-property-for-sale-front-facing-iid-1118648385",
+ "finalUrl": "https://www.olx.com.pk/item/prime-commercial-property-for-sale-front-facing-iid-1118648385",
  "width": 390,
- "height": 2468,
+ "height": 2312,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T13:59:54.656Z",
+ "captured": "2026-10-07T14:09:12.320Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -29,16 +29,16 @@
     "x": 0,
     "y": 294,
     "width": 390,
-    "height": 154
+    "height": 178
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "03-furnished-unfurnished-bedrooms",
-   "name": "Furnished · Unfurnished · Bedrooms",
+   "file": "03-type-commercial-plots-area",
+   "name": "Type · Commercial Plots · Area",
    "rect": {
     "x": 0,
-    "y": 447,
+    "y": 471,
     "width": 390,
     "height": 61
    },
@@ -49,121 +49,110 @@
    "name": "div",
    "rect": {
     "x": 0,
-    "y": 527,
+    "y": 551,
     "width": 390,
     "height": 51
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-details",
-   "name": "Details",
+   "file": "05-description-prime-commercial-property-fo",
+   "name": "Description · PRIME COMMERCIAL PROPERTY FOR SALE",
    "rect": {
     "x": 0,
-    "y": 577,
+    "y": 601,
     "width": 390,
-    "height": 75
+    "height": 122
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
   },
   {
-   "file": "06-description-1-kanal-house-for-sale-in-la",
-   "name": "Description · 1 Kanal House for Sale in Lahore M",
+   "file": "06-features",
+   "name": "Features",
    "rect": {
     "x": 0,
-    "y": 671,
+    "y": 742,
     "width": 390,
-    "height": 122
+    "height": 127
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
   },
   {
-   "file": "07-features",
-   "name": "Features",
+   "file": "07-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 0,
-    "y": 812,
+    "y": 888,
     "width": 390,
-    "height": 127
+    "height": 181
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(10)"
   },
   {
-   "file": "08-posted-by-seller-name-member-since",
-   "name": "Posted by · Seller name · Member Since",
+   "file": "08-related-ads-rs-14-75-crore-prominently-l",
+   "name": "Related ads · Rs 14.75 Crore · Prominently-Locat",
    "rect": {
     "x": 0,
-    "y": 958,
+    "y": 1088,
     "width": 390,
-    "height": 181
+    "height": 371
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
   },
   {
-   "file": "09-related-ads-rs-2-29-crore-5-marla-hosuse",
-   "name": "Related ads · Rs 2.29 Crore · 5 marla hosuse ful",
-   "rect": {
-    "x": 0,
-    "y": 1178,
-    "width": 390,
-    "height": 397
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
-  },
-  {
-   "file": "10-your-safety-matters-to-us-only-meet-in-p",
+   "file": "09-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1594,
+    "y": 1458,
     "width": 390,
     "height": 236
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
   },
   {
-   "file": "11-houses-in-lahore-motorway-city-block-p-h",
-   "name": "Houses in Lahore Motorway City - Block P · House",
+   "file": "10-land-and-plots-in-saddar-land-and-plots-",
+   "name": "Land & Plots in Saddar · Land & Plots in Saddar ",
    "rect": {
     "x": 8,
-    "y": 1877,
+    "y": 1721,
     "width": 374,
     "height": 26
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "12-categories",
+   "file": "11-categories",
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1902,
+    "y": 1746,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "13-footer",
+   "file": "12-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1948,
+    "y": 1792,
     "width": 390,
     "height": 520
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "14-chat-call",
-   "name": "Chat · Call",
+   "file": "13-chat",
+   "name": "Chat",
    "rect": {
     "x": 0,
-    "y": 2403,
+    "y": 2247,
     "width": 390,
     "height": 65
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(17)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(16)"
   }
  ],
  "hotspots": [
@@ -240,17 +229,32 @@
    "label": ""
   },
   {
-   "x": 171,
-   "y": 621,
-   "width": 190,
-   "height": 22,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/houses_c1721/q-finished-houses",
-   "label": "Finished"
+   "x": 2730,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3120,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3510,
+   "y": 0,
+   "width": 390,
+   "height": 294,
+   "kind": "button",
+   "label": ""
   },
   {
    "x": 16,
-   "y": 771,
+   "y": 701,
    "width": 358,
    "height": 22,
    "kind": "button",
@@ -258,121 +262,113 @@
   },
   {
    "x": 20,
-   "y": 970,
+   "y": 900,
    "width": 354,
    "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/77f0cec8-322f-49b5-83c5-24efb8f09f7a",
-   "label": "Posted byMalik Rizwan Member Since2020Active Ads1"
+   "href": "https://www.olx.com.pk/profile/f7e3488e-cc3e-4bc9-8f82-70a68cde1e72",
+   "label": "Posted bySeller nameMember Since2016Active Ads1"
   },
   {
-   "x": 142,
-   "y": 1102,
-   "width": 110,
+   "x": 141,
+   "y": 1032,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 1213,
+   "y": 1123,
    "width": 215,
-   "height": 342,
+   "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-hosuse-full-furnished-3-manzil-bana-huwa-ha-iid-1119756823",
+   "href": "https://www.olx.com.pk/item/prominently-located-prime-location-residential-plot-available-in-dha-city-karachi-for-sale-iid-1120151437",
    "label": "Listing"
   },
   {
    "x": 243,
-   "y": 1213,
+   "y": 1123,
    "width": 215,
-   "height": 342,
+   "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-triple-story-luxury-house-for-sale-al-rehman-garden-ph-2-block-i-lahore-iid-1119863194",
+   "href": "https://www.olx.com.pk/item/near-bait-ul-mukarram-masjid-600-square-yards-open-residential-plot-iid-1120003263",
    "label": "Listing"
   },
   {
    "x": 470,
-   "y": 1213,
+   "y": 1123,
    "width": 215,
-   "height": 342,
+   "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/1-kanal-double-story-house-for-sale-in-lahore-motorway-city-iid-1119850691",
+   "href": "https://www.olx.com.pk/item/residential-plot-sized-240-square-yards-in-kda-officers-society-iid-1119954146",
    "label": "Listing"
   },
   {
    "x": 697,
-   "y": 1213,
+   "y": 1123,
    "width": 215,
-   "height": 342,
+   "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/10-marla-brand-new-slightly-used-single-story-house-urgent-for-prime-location-al-rehman-garden-ph2-iid-1119008093",
+   "href": "https://www.olx.com.pk/item/a-500-square-yards-residential-plot-is-up-for-grabs-in-dha-defence-iid-1119036220",
    "label": "Listing"
   },
   {
    "x": 924,
-   "y": 1213,
+   "y": 1123,
    "width": 215,
-   "height": 342,
+   "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-furnished-luxury-house-for-sale-iid-1119556101",
+   "href": "https://www.olx.com.pk/item/dha-phase-7-500-sq-yds-residential-plot-street-8-prime-location-ideal-for-luxury-home-investment-iid-1119095176",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2416,
-   "width": 175,
+   "y": 2260,
+   "width": 358,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 199,
-   "y": 2416,
-   "width": 175,
-   "height": 40,
-   "kind": "button",
-   "label": "Call"
-  },
-  {
-   "x": 162,
-   "y": 1882,
-   "width": 220,
+   "x": 267,
+   "y": 1726,
+   "width": 115,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore-lahore-motorway-city-block-p_g15568/houses_c1721",
-   "label": "Houses in Lahore Motorway City - Block P"
+   "href": "https://www.olx.com.pk/saddar_g1000000000000418/land-plots_c40",
+   "label": "Land & Plots in Saddar"
   },
   {
-   "x": -40,
-   "y": 1882,
-   "width": 172,
+   "x": 90,
+   "y": 1726,
+   "width": 148,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore-motorway-city_g5000591/houses_c1721",
-   "label": "Houses in Lahore Motorway City"
+   "href": "https://www.olx.com.pk/saddar-town_g5000238/land-plots_c40",
+   "label": "Land & Plots in Saddar Town"
   },
   {
-   "x": -161,
-   "y": 1882,
-   "width": 91,
+   "x": -55,
+   "y": 1726,
+   "width": 116,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/houses_c1721",
-   "label": "Houses in Lahore"
+   "href": "https://www.olx.com.pk/karachi_g4060695/land-plots_c40",
+   "label": "Land & Plots in Karachi"
   },
   {
-   "x": -230,
-   "y": 1882,
-   "width": 39,
+   "x": -148,
+   "y": 1726,
+   "width": 64,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/houses_c1721",
-   "label": "Houses"
+   "href": "https://www.olx.com.pk/land-plots_c40",
+   "label": "Land & Plots"
   },
   {
-   "x": -348,
-   "y": 1882,
+   "x": -265,
+   "y": 1726,
    "width": 88,
    "height": 16,
    "kind": "link",
@@ -380,9 +376,9 @@
    "label": "Property for Sale"
   },
   {
-   "x": -410,
-   "y": 1882,
-   "width": 32,
+   "x": -328,
+   "y": 1726,
+   "width": 34,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -390,16 +386,16 @@
   },
   {
    "x": 16,
-   "y": 2248,
+   "y": 2092,
    "width": 84,
    "height": 33,
    "kind": "link",
-   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
+   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
    "label": ""
   },
   {
    "x": 113,
-   "y": 2314,
+   "y": 2158,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -408,7 +404,7 @@
   },
   {
    "x": 157,
-   "y": 2314,
+   "y": 2158,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -417,7 +413,7 @@
   },
   {
    "x": 201,
-   "y": 2314,
+   "y": 2158,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -426,7 +422,7 @@
   },
   {
    "x": 245,
-   "y": 2314,
+   "y": 2158,
    "width": 32,
    "height": 41,
    "kind": "link",

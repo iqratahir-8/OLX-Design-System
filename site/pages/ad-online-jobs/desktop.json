@@ -2,14 +2,14 @@
  "id": "ad-online-jobs",
  "title": "Ad: Online Jobs",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1118864547",
- "finalUrl": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1118864547",
+ "url": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1120185284",
+ "finalUrl": "https://www.olx.com.pk/item/typing-job-data-entry-job-assignment-job-online-job-part-time-iid-1120185284",
  "width": 1440,
- "height": 3139,
+ "height": 2332,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:10:28.298Z",
+ "captured": "2026-10-07T14:17:31.913Z",
  "sections": [
   {
    "file": "01-header",
@@ -45,123 +45,90 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "04-div",
-   "name": "div",
-   "rect": {
-    "x": 80,
-    "y": 250,
-    "width": 1280,
-    "height": 251
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
-  },
-  {
-   "file": "05-gallery",
+   "file": "04-gallery",
    "name": "Gallery",
    "rect": {
     "x": 80,
-    "y": 532,
+    "y": 282,
     "width": 820,
     "height": 481
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "06-posted-by-seller-name-member-since",
+   "file": "05-posted-by-seller-name-member-since",
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 940,
-    "y": 532,
+    "y": 282,
     "width": 420,
-    "height": 431
+    "height": 247
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
   {
-   "file": "07-overview",
+   "file": "06-overview",
    "name": "Overview",
    "rect": {
     "x": 80,
-    "y": 1052,
+    "y": 802,
     "width": 820,
     "height": 92
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "08-details",
+   "file": "07-details",
    "name": "Details",
    "rect": {
     "x": 80,
-    "y": 1183,
+    "y": 933,
     "width": 820,
-    "height": 213
+    "height": 183
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "09-description",
+   "file": "08-description",
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1435,
+    "y": 1155,
     "width": 820,
-    "height": 27
+    "height": 426
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "10-section",
-   "name": "خوشخبری! آن لائن اور آفس ورک کا بہترین موقع · گھ",
-   "rect": {
-    "x": 80,
-    "y": 1478,
-    "width": 433,
-    "height": 834
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(1)"
-  },
-  {
-   "file": "11-section",
-   "name": "گھر بیٹھے کام کریں، اپنے وقت کو قیمتی بنائیں اور",
-   "rect": {
-    "x": 80,
-    "y": 2363,
-    "width": 508,
-    "height": 21
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(3)"
-  },
-  {
-   "file": "12-your-safety-matters-to-us-only-meet-in-p",
+   "file": "09-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2426,
+    "y": 1620,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "13-find-amazing-deals-on-the-go-download-ol",
+   "file": "10-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2620,
+    "y": 1814,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "14-footer",
+   "file": "11-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2792,
+    "y": 1986,
     "width": 1440,
-    "height": 347
+    "height": 346
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   }
@@ -188,7 +155,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -235,7 +202,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -244,7 +211,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -253,16 +220,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -271,7 +238,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -280,18 +247,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -307,44 +274,44 @@
    "label": "Home"
   },
   {
-   "x": 149,
+   "x": 148,
    "y": 196,
-   "width": 29,
+   "width": 28,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
    "label": "Jobs"
   },
   {
-   "x": 208,
+   "x": 205,
    "y": 196,
-   "width": 74,
+   "width": 73,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/online_c1737",
    "label": "Online Jobs"
   },
   {
-   "x": 312,
+   "x": 307,
    "y": 196,
-   "width": 158,
+   "width": 132,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/faisalabad_g4060660/online_c1737",
-   "label": "Online Jobs in Faisalabad"
+   "href": "https://www.olx.com.pk/lahore_g4060673/online_c1737",
+   "label": "Online Jobs in Lahore"
   },
   {
-   "x": 500,
+   "x": 468,
    "y": 196,
-   "width": 152,
+   "width": 234,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/jaranwala_g4060665/online_c1737",
-   "label": "Online Jobs in Jaranwala"
+   "href": "https://www.olx.com.pk/allama-iqbal-intl-airport_g5000307/online_c1737",
+   "label": "Online Jobs in Allama Iqbal Intl Airport"
   },
   {
    "x": 80,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -352,7 +319,7 @@
   },
   {
    "x": 249,
-   "y": 1336,
+   "y": 1045,
    "width": 213,
    "height": 22,
    "kind": "link",
@@ -360,49 +327,42 @@
    "label": "Entry Level"
   },
   {
-   "x": 438,
-   "y": 1373,
-   "width": 104,
-   "height": 27,
-   "kind": "button",
-   "label": "View +1 more"
+   "x": 249,
+   "y": 1086,
+   "width": 213,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/online_c1737/q-full-time",
+   "label": "Full-time"
   },
   {
    "x": 940,
-   "y": 532,
+   "y": 282,
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/bcbbd13d-6df5-42e8-87ea-b7c50896af89",
-   "label": "Posted byshahzain Member Since2026Active Ads11"
+   "href": "https://www.olx.com.pk/profile/203219da-47e7-4a5e-bc4f-908d5cb384a3",
+   "label": "Posted bySeller nameMember Since2025Active Ads10"
   },
   {
    "x": 940,
-   "y": 689,
-   "width": 420,
-   "height": 49,
-   "kind": "button",
-   "label": "Show phone number"
-  },
-  {
-   "x": 940,
-   "y": 753,
+   "y": 439,
    "width": 420,
    "height": 49,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 1236,
-   "y": 813,
-   "width": 124,
+   "x": 1235,
+   "y": 499,
+   "width": 125,
    "height": 30,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 960,
-   "y": 2702,
+   "y": 1896,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -411,7 +371,7 @@
   },
   {
    "x": 1096,
-   "y": 2702,
+   "y": 1896,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -420,7 +380,7 @@
   },
   {
    "x": 1232,
-   "y": 2702,
+   "y": 1896,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -429,7 +389,7 @@
   },
   {
    "x": 80,
-   "y": 2900,
+   "y": 2094,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -438,7 +398,7 @@
   },
   {
    "x": 80,
-   "y": 2932,
+   "y": 2126,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -447,7 +407,7 @@
   },
   {
    "x": 80,
-   "y": 2964,
+   "y": 2158,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -456,8 +416,8 @@
   },
   {
    "x": 80,
-   "y": 2996,
-   "width": 33,
+   "y": 2189,
+   "width": 32,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
@@ -465,8 +425,8 @@
   },
   {
    "x": 351,
-   "y": 2900,
-   "width": 36,
+   "y": 2094,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -474,7 +434,7 @@
   },
   {
    "x": 351,
-   "y": 2932,
+   "y": 2126,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -483,8 +443,8 @@
   },
   {
    "x": 351,
-   "y": 2964,
-   "width": 44,
+   "y": 2158,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -492,7 +452,7 @@
   },
   {
    "x": 351,
-   "y": 2996,
+   "y": 2189,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -501,8 +461,8 @@
   },
   {
    "x": 622,
-   "y": 2900,
-   "width": 66,
+   "y": 2094,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -510,8 +470,8 @@
   },
   {
    "x": 622,
-   "y": 2932,
-   "width": 78,
+   "y": 2126,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -519,8 +479,8 @@
   },
   {
    "x": 622,
-   "y": 2964,
-   "width": 134,
+   "y": 2158,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -528,8 +488,8 @@
   },
   {
    "x": 893,
-   "y": 2900,
-   "width": 33,
+   "y": 2094,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -537,7 +497,7 @@
   },
   {
    "x": 893,
-   "y": 2932,
+   "y": 2126,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -546,8 +506,8 @@
   },
   {
    "x": 893,
-   "y": 2964,
-   "width": 90,
+   "y": 2158,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -555,8 +515,8 @@
   },
   {
    "x": 893,
-   "y": 2996,
-   "width": 92,
+   "y": 2189,
+   "width": 95,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
@@ -564,7 +524,7 @@
   },
   {
    "x": 1164,
-   "y": 2897,
+   "y": 2091,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -573,7 +533,7 @@
   },
   {
    "x": 1216,
-   "y": 2897,
+   "y": 2091,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -582,7 +542,7 @@
   },
   {
    "x": 1268,
-   "y": 2897,
+   "y": 2091,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -591,7 +551,7 @@
   },
   {
    "x": 1320,
-   "y": 2897,
+   "y": 2091,
    "width": 40,
    "height": 41,
    "kind": "link",

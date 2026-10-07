@@ -5,40 +5,84 @@
  "url": "https://www.olx.com.pk/motors/car-tyres/seres/3-1/2023-2026/",
  "finalUrl": "https://www.olx.com.pk/motors/car-tyres/seres/3-1/2023-2026/",
  "width": 390,
- "height": 1209,
+ "height": 1897,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:54:48.472Z",
+ "captured": "2026-10-07T14:34:23.017Z",
  "sections": [
   {
-   "file": "01-tyres-for-seres-3-2023-2026",
-   "name": "Tyres For Seres 3 2023-2026",
+   "file": "01-header",
+   "name": "Header",
    "rect": {
     "x": 0,
     "y": 0,
     "width": 390,
-    "height": 838
+    "height": 64
    },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "02-get-the-olx-app",
+   "file": "02-225-55-r18",
+   "name": "225/55/R18",
+   "rect": {
+    "x": 16,
+    "y": 78,
+    "width": 358,
+    "height": 143
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "03-car-tyres-on-olx",
+   "name": "Car Tyres on Olx",
+   "rect": {
+    "x": 16,
+    "y": 244,
+    "width": 358,
+    "height": 359
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "04-how-to-read-tyre-size",
+   "name": "How To Read Tyre Size",
+   "rect": {
+    "x": 16,
+    "y": 626,
+    "width": 358,
+    "height": 634
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "05-tyres-for-sale-on-olx",
+   "name": "Tyres For Sale On Olx",
+   "rect": {
+    "x": 16,
+    "y": 1326,
+    "width": 358,
+    "height": 134
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(5)"
+  },
+  {
+   "file": "06-get-the-olx-app",
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 877,
+    "y": 1499,
     "width": 390,
-    "height": 332
+    "height": 398
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
   },
   {
-   "file": "03-home-chat-sell",
+   "file": "07-home-chat-sell",
    "name": "Home · Chat · Sell",
    "rect": {
     "x": 0,
-    "y": 1150,
+    "y": 1838,
     "width": 390,
     "height": 59
    },
@@ -47,9 +91,27 @@
  ],
  "hotspots": [
   {
+   "x": 313,
+   "y": 249,
+   "width": 61,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars-accessories_c2027/q-tyres/",
+   "label": "View More"
+  },
+  {
    "x": 16,
-   "y": 661,
-   "width": 32,
+   "y": 278,
+   "width": 217,
+   "height": 325,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/honda-ciry-civic-freed-nbox-120-130-psi-tyre-air-compressor-iid-1113946604/",
+   "label": "FEATUREDRs 3.00 ThousandsHonda Ciry Civic Freed NBox 120 - 130 Psi - Tyre Air Co"
+  },
+  {
+   "x": 16,
+   "y": 1283,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -57,16 +119,16 @@
   },
   {
    "x": 76,
-   "y": 661,
-   "width": 37,
+   "y": 1283,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
    "label": "Motors"
   },
   {
-   "x": 141,
-   "y": 661,
+   "x": 142,
+   "y": 1283,
    "width": 49,
    "height": 20,
    "kind": "link",
@@ -75,25 +137,25 @@
   },
   {
    "x": 16,
-   "y": 738,
+   "y": 1359,
    "width": 173,
-   "height": 17,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/lahore_g4060673/cars-accessories_c2027/q-tyres",
    "label": "Tyres for sale in Lahore"
   },
   {
    "x": 201,
-   "y": 738,
+   "y": 1359,
    "width": 173,
-   "height": 17,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/karachi_g4060695/cars-accessories_c2027/q-tyres",
    "label": "Tyres for sale in Karachi"
   },
   {
    "x": 16,
-   "y": 766,
+   "y": 1388,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -102,7 +164,7 @@
   },
   {
    "x": 201,
-   "y": 766,
+   "y": 1388,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -111,7 +173,7 @@
   },
   {
    "x": 16,
-   "y": 795,
+   "y": 1417,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -120,7 +182,7 @@
   },
   {
    "x": 201,
-   "y": 795,
+   "y": 1417,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -129,15 +191,15 @@
   },
   {
    "x": 16,
-   "y": 812,
-   "width": 59,
+   "y": 1434,
+   "width": 60,
    "height": 26,
    "kind": "button",
    "label": "View More"
   },
   {
    "x": 0,
-   "y": 1158,
+   "y": 1846,
    "width": 72,
    "height": 44,
    "kind": "link",
@@ -146,7 +208,7 @@
   },
   {
    "x": 79,
-   "y": 1158,
+   "y": 1846,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -155,7 +217,7 @@
   },
   {
    "x": 159,
-   "y": 1156,
+   "y": 1844,
    "width": 72,
    "height": 47,
    "kind": "link",
@@ -164,7 +226,7 @@
   },
   {
    "x": 238,
-   "y": 1158,
+   "y": 1846,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -172,25 +234,33 @@
    "label": "My Ads"
   },
   {
-   "x": 331,
-   "y": 1158,
-   "width": 46,
+   "x": 332,
+   "y": 1846,
+   "width": 45,
    "height": 44,
    "kind": "button",
    "label": "Account"
   },
   {
    "x": 16,
-   "y": 993,
+   "y": 1615,
    "width": 358,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 1689,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 1063,
+   "y": 1751,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -199,7 +269,7 @@
   },
   {
    "x": 157,
-   "y": 1063,
+   "y": 1751,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -208,7 +278,7 @@
   },
   {
    "x": 201,
-   "y": 1063,
+   "y": 1751,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -217,7 +287,7 @@
   },
   {
    "x": 245,
-   "y": 1063,
+   "y": 1751,
    "width": 32,
    "height": 37,
    "kind": "link",

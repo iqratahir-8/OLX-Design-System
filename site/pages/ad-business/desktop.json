@@ -2,14 +2,14 @@
  "id": "ad-business",
  "title": "Ad: Business, Industrial & Agriculture",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
- "finalUrl": "https://www.olx.com.pk/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
+ "url": "https://www.olx.com.pk/item/sign-board-design-3d-sign-board-installation-acrylic-led-signs-iid-1114460739",
+ "finalUrl": "https://www.olx.com.pk/item/sign-board-design-3d-sign-board-installation-acrylic-led-signs-iid-1114460739",
  "width": 1440,
- "height": 3672,
+ "height": 3159,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:02:25.052Z",
+ "captured": "2026-10-07T14:11:22.079Z",
  "sections": [
   {
    "file": "01-header",
@@ -45,110 +45,99 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "04-div",
-   "name": "div",
-   "rect": {
-    "x": 80,
-    "y": 250,
-    "width": 1280,
-    "height": 251
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
-  },
-  {
-   "file": "05-gallery",
+   "file": "04-gallery",
    "name": "Gallery",
    "rect": {
     "x": 80,
-    "y": 532,
+    "y": 282,
     "width": 820,
     "height": 481
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "06-posted-by-seller-name-member-since",
+   "file": "05-posted-by-seller-name-member-since",
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 940,
-    "y": 532,
+    "y": 282,
     "width": 420,
-    "height": 495
+    "height": 501
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
   {
-   "file": "07-overview",
+   "file": "06-overview",
    "name": "Overview",
    "rect": {
     "x": 80,
-    "y": 1052,
+    "y": 802,
     "width": 820,
     "height": 116
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "08-description",
+   "file": "07-description",
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1207,
+    "y": 957,
     "width": 820,
     "height": 27
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3) > :nth-child(1)"
   },
   {
-   "file": "09-we-deal-in-all-kinds-of-racks-racks-type",
-   "name": "We deal in all kinds of Racks · Racks Types : · ",
+   "file": "08-ms-signs-customized-acrylic-led-sign-boa",
+   "name": "MS Signs , Customized Acrylic LED Sign Boards & ",
    "rect": {
     "x": 80,
-    "y": 1250,
-    "width": 756,
-    "height": 1169
+    "y": 1000,
+    "width": 822,
+    "height": 906
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3) > :nth-child(2) > :nth-child(1)"
   },
   {
-   "file": "10-related-ads",
+   "file": "09-related-ads",
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 2461,
+    "y": 1948,
     "width": 820,
     "height": 459
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "11-your-safety-matters-to-us-only-meet-in-p",
+   "file": "10-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2959,
+    "y": 2446,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "12-find-amazing-deals-on-the-go-download-ol",
+   "file": "11-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 3153,
+    "y": 2640,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "13-footer",
+   "file": "12-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 3325,
+    "y": 2812,
     "width": 1440,
     "height": 347
    },
@@ -177,7 +166,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -224,7 +213,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -233,7 +222,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -242,16 +231,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -260,7 +249,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -269,18 +258,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -296,44 +285,53 @@
    "label": "Home"
   },
   {
-   "x": 149,
+   "x": 148,
    "y": 196,
-   "width": 199,
+   "width": 196,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/business-industrial-agriculture_c1981",
    "label": "Business, Industrial & Agriculture"
   },
   {
-   "x": 378,
+   "x": 373,
    "y": 196,
-   "width": 158,
+   "width": 156,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/other-business-industry_c2000",
    "label": "Other Business & Industry"
   },
   {
-   "x": 566,
+   "x": 558,
    "y": 196,
-   "width": 219,
+   "width": 218,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/other-business-industry_c2000",
-   "label": "Other Business & Industry in Lahore"
+   "href": "https://www.olx.com.pk/karachi_g4060695/other-business-industry_c2000",
+   "label": "Other Business & Industry in Karachi"
   },
   {
-   "x": 815,
+   "x": 805,
    "y": 196,
-   "width": 237,
+   "width": 255,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/township_g5000078/other-business-industry_c2000",
-   "label": "Other Business & Industry in Township"
+   "href": "https://www.olx.com.pk/saddar-town_g5000238/other-business-industry_c2000",
+   "label": "Other Business & Industry in Saddar Town"
+  },
+  {
+   "x": 1089,
+   "y": 196,
+   "width": 217,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/saddar_g1000000000000418/other-business-industry_c2000",
+   "label": "Other Business & Industry in Saddar"
   },
   {
    "x": 832,
-   "y": 1228,
+   "y": 498,
    "width": 48,
    "height": 49,
    "kind": "button",
@@ -341,7 +339,7 @@
   },
   {
    "x": 80,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -349,7 +347,7 @@
   },
   {
    "x": 900,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -357,7 +355,7 @@
   },
   {
    "x": 1720,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -365,7 +363,7 @@
   },
   {
    "x": 2540,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -373,7 +371,7 @@
   },
   {
    "x": 3360,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -381,111 +379,7 @@
   },
   {
    "x": 4180,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5000,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5820,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6640,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 7460,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 8280,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 9100,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 9920,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 10740,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 11560,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 12380,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 13200,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 14020,
-   "y": 1012,
-   "width": 820,
-   "height": 481,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 14840,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -493,7 +387,7 @@
   },
   {
    "x": 60,
-   "y": 2691,
+   "y": 2178,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -501,142 +395,142 @@
   },
   {
    "x": 80,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/racks-pharmacy-rack-super-store-rack-wharehouse-rack-wall-rack-iid-1105138406",
+   "href": "https://www.olx.com.pk/item/dustbinwastebinstrash-binswheelbinwaste-trolley-at-wholesale-pric-iid-1116715066",
    "label": "Listing"
   },
   {
    "x": 357,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/display-rack-storage-rack-grocery-racks-pharmacy-racks-industrial-iid-1104886865",
+   "href": "https://www.olx.com.pk/item/durableseamless-plastic-palletslightweight-and-strong-plastic-palle-iid-1116781537",
    "label": "Listing"
   },
   {
    "x": 634,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/heavy-duity-rack-bulk-rack-industrial-rack-shopping-trolley-basket-iid-1101612327",
+   "href": "https://www.olx.com.pk/item/durableseamless-plastic-palletslightweight-and-strong-plastic-pallet-iid-1116736340",
    "label": "Listing"
   },
   {
    "x": 900,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/heavy-duty-rackstorage-rackangle-rackwarehouse-rackssteel-racks-iid-1102084269",
+   "href": "https://www.olx.com.pk/item/signboard-3dsignboard-acrylic-signboard-stainless-steel-signboard-iid-1117466523",
    "label": "Listing"
   },
   {
    "x": 1177,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/super-market-racks-pharmacy-racks-industry-racks-warehouse-racks-iid-1117581701",
+   "href": "https://www.olx.com.pk/item/3d-signboard-backlit-panaflex-signboard-neon-sign-sign-board-iid-1117468127",
    "label": "Listing"
   },
   {
    "x": 1454,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/display-rack-storage-rack-grocery-racks-pharmacy-racks-industrial-iid-1101484160",
+   "href": "https://www.olx.com.pk/item/export-quality-pallets-for-warehousing-logistics-and-shipping-iid-1115913574",
    "label": "Listing"
   },
   {
    "x": 1720,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/electric-fence-home-security-fence-wire-fence-fence-iid-1109922155",
+   "href": "https://www.olx.com.pk/item/industrial-warehouse-pallets-durable-wooden-plastic-types-iid-1115913564",
    "label": "Listing"
   },
   {
    "x": 1997,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/racks-dollar-shopmart-racks-store-racks-shelve-racks-storage-rack-iid-1111696185",
+   "href": "https://www.olx.com.pk/item/sign-board-iid-1071292972",
    "label": "Listing"
   },
   {
    "x": 2274,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/wall-rackspharmacy-racksgeneral-store-rackssteel-racksdisplay-rack-iid-1117584852",
+   "href": "https://www.olx.com.pk/item/3-cable-tie-red-color-iid-1119415678",
    "label": "Listing"
   },
   {
    "x": 2540,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/countersbakery-countersbakery-rackssweet-shop-counters-racks-iid-1117585169",
+   "href": "https://www.olx.com.pk/item/paper-towel-dispenser-wall-mounted-hand-towel-tissue-dispenser-iid-1118557553",
    "label": "Listing"
   },
   {
    "x": 2817,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/racks-storage-racks-adjustable-racks-mart-racks-pharmacy-racks-iid-1111661708",
+   "href": "https://www.olx.com.pk/item/dustbinwastebinstrash-binswheelbinwaste-trolley-at-wholesale-pric-iid-1116715138",
    "label": "Listing"
   },
   {
    "x": 3094,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/racksindustrial-warehouse-racksstorage-racksmart-racksstore-racks-iid-1100324754",
+   "href": "https://www.olx.com.pk/item/wooden-pallets-industrial-pallets-80x120-100x120-iid-1109182616",
    "label": "Listing"
   },
   {
    "x": 3360,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/warehouse-racks-heavy-racks-display-racks-wall-mounted-racks-file-iid-1113027591",
+   "href": "https://www.olx.com.pk/item/boundry-wall-rcc-pipe-karachi-block-rcc-pipe-works-iid-1113863299",
    "label": "Listing"
   },
   {
    "x": 3637,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/heavy-duty-racksstore-racksindustrial-racksracksracks-in-lahore-iid-1063535083",
+   "href": "https://www.olx.com.pk/item/karachi-pre-cast-boundary-wall--rcc-pipe-iid-1111473837",
    "label": "Listing"
   },
   {
    "x": 3914,
-   "y": 2503,
+   "y": 1990,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/adjustable-racks-grocery-racks-pharmacy-racks-pharmacy-steel-racks-iid-1064396422",
+   "href": "https://www.olx.com.pk/item/boundry-wall-rcc-pipe-karachi-block-rcc-pipe-works-iid-1111473838",
    "label": "Listing"
   },
   {
    "x": 880,
-   "y": 2691,
+   "y": 2178,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -644,16 +538,16 @@
   },
   {
    "x": 940,
-   "y": 532,
+   "y": 282,
    "width": 420,
-   "height": 142,
+   "height": 148,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/0b0e3e3b-4888-48c0-8d0f-81d341bc3e10",
-   "label": "Posted bySalman Racks Shop Member Since2022Active Ads15"
+   "href": "https://www.olx.com.pk/profile/7492d659-863e-4548-8e0a-327234f1070a",
+   "label": "Posted bySeller nameMember Since2021Active Ads1"
   },
   {
    "x": 940,
-   "y": 689,
+   "y": 445,
    "width": 420,
    "height": 49,
    "kind": "button",
@@ -661,7 +555,7 @@
   },
   {
    "x": 940,
-   "y": 753,
+   "y": 509,
    "width": 420,
    "height": 49,
    "kind": "button",
@@ -669,23 +563,23 @@
   },
   {
    "x": 940,
-   "y": 817,
+   "y": 573,
    "width": 420,
    "height": 49,
    "kind": "button",
    "label": "WhatsApp"
   },
   {
-   "x": 1236,
-   "y": 877,
-   "width": 124,
+   "x": 1235,
+   "y": 633,
+   "width": 125,
    "height": 30,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 960,
-   "y": 3235,
+   "y": 2722,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -694,7 +588,7 @@
   },
   {
    "x": 1096,
-   "y": 3235,
+   "y": 2722,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -703,7 +597,7 @@
   },
   {
    "x": 1232,
-   "y": 3235,
+   "y": 2722,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -712,7 +606,7 @@
   },
   {
    "x": 80,
-   "y": 3433,
+   "y": 2920,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -721,7 +615,7 @@
   },
   {
    "x": 80,
-   "y": 3465,
+   "y": 2952,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -730,7 +624,7 @@
   },
   {
    "x": 80,
-   "y": 3497,
+   "y": 2984,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -739,8 +633,8 @@
   },
   {
    "x": 80,
-   "y": 3529,
-   "width": 33,
+   "y": 3016,
+   "width": 32,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
@@ -748,8 +642,8 @@
   },
   {
    "x": 351,
-   "y": 3433,
-   "width": 36,
+   "y": 2920,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -757,7 +651,7 @@
   },
   {
    "x": 351,
-   "y": 3465,
+   "y": 2952,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -766,8 +660,8 @@
   },
   {
    "x": 351,
-   "y": 3497,
-   "width": 44,
+   "y": 2984,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -775,7 +669,7 @@
   },
   {
    "x": 351,
-   "y": 3529,
+   "y": 3016,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -784,8 +678,8 @@
   },
   {
    "x": 622,
-   "y": 3433,
-   "width": 66,
+   "y": 2920,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -793,8 +687,8 @@
   },
   {
    "x": 622,
-   "y": 3465,
-   "width": 78,
+   "y": 2952,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -802,8 +696,8 @@
   },
   {
    "x": 622,
-   "y": 3497,
-   "width": 134,
+   "y": 2984,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -811,8 +705,8 @@
   },
   {
    "x": 893,
-   "y": 3433,
-   "width": 33,
+   "y": 2920,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -820,7 +714,7 @@
   },
   {
    "x": 893,
-   "y": 3465,
+   "y": 2952,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -829,8 +723,8 @@
   },
   {
    "x": 893,
-   "y": 3497,
-   "width": 90,
+   "y": 2984,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -838,8 +732,8 @@
   },
   {
    "x": 893,
-   "y": 3529,
-   "width": 92,
+   "y": 3016,
+   "width": 95,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
@@ -847,7 +741,7 @@
   },
   {
    "x": 1164,
-   "y": 3430,
+   "y": 2917,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -856,7 +750,7 @@
   },
   {
    "x": 1216,
-   "y": 3430,
+   "y": 2917,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -865,7 +759,7 @@
   },
   {
    "x": 1268,
-   "y": 3430,
+   "y": 2917,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -874,7 +768,7 @@
   },
   {
    "x": 1320,
-   "y": 3430,
+   "y": 2917,
    "width": 40,
    "height": 41,
    "kind": "link",

@@ -2,14 +2,14 @@
  "id": "ad-kids",
  "title": "Ad: Kids",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/kids-jeep-4x4kids-carsbaby-carskids-electric-jeepspolice-jeep-iid-1116753440",
- "finalUrl": "https://www.olx.com.pk/item/kids-jeep-4x4kids-carsbaby-carskids-electric-jeepspolice-jeep-iid-1116753440",
+ "url": "https://www.olx.com.pk/item/baby-walkerskids-walkersbaby-pusherchildren-walkerinfant-walker-iid-1120013761",
+ "finalUrl": "https://www.olx.com.pk/item/baby-walkerskids-walkersbaby-pusherchildren-walkerinfant-walker-iid-1120013761",
  "width": 390,
- "height": 4231,
+ "height": 2154,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:08:22.882Z",
+ "captured": "2026-10-07T14:15:55.062Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -56,8 +56,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-description-humari-shop-par-aap-ko-bacho",
-   "name": "Description · Humari shop par aap ko bachon ki m",
+   "file": "05-description-bilkul-delivery-wali-line-ad",
+   "name": "Description · Bilkul, delivery wali line add kar",
    "rect": {
     "x": 0,
     "y": 583,
@@ -73,16 +73,16 @@
     "x": 0,
     "y": 724,
     "width": 390,
-    "height": 181
+    "height": 187
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
   },
   {
-   "file": "07-related-ads-rs-23-000-baby-electric-car",
-   "name": "Related ads · Rs 23,000 · baby electric car",
+   "file": "07-related-ads-rs-5-000-imported-kids-stall",
+   "name": "Related ads · Rs 5,000 · Imported kids Staller.",
    "rect": {
     "x": 0,
-    "y": 944,
+    "y": 930,
     "width": 390,
     "height": 371
    },
@@ -93,18 +93,18 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1334,
+    "y": 1300,
     "width": 390,
     "height": 236
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
   },
   {
-   "file": "09-kids-cars-in-7-wonder-city-kids-cars-in-",
-   "name": "Kids Cars in 7 Wonder City · Kids Cars in Islama",
+   "file": "09-prams-and-walkers-in-pwd-colony-prams-an",
+   "name": "Prams & Walkers in PWD Colony · Prams & Walkers ",
    "rect": {
     "x": 8,
-    "y": 1617,
+    "y": 1563,
     "width": 374,
     "height": 27
    },
@@ -115,7 +115,7 @@
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1643,
+    "y": 1589,
     "width": 390,
     "height": 47
    },
@@ -126,7 +126,7 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1689,
+    "y": 1635,
     "width": 390,
     "height": 519
    },
@@ -137,7 +137,7 @@
    "name": "Chat · Call",
    "rect": {
     "x": 0,
-    "y": 4166,
+    "y": 2089,
     "width": 390,
     "height": 65
    },
@@ -234,92 +234,12 @@
    "label": ""
   },
   {
-   "x": 3510,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3900,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4290,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4680,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5070,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5460,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5850,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6240,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6630,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 7020,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
    "x": 171,
    "y": 533,
    "width": 190,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/kids-cars_c707090/q-new-kids-cars",
+   "href": "https://www.olx.com.pk/prams-walkers_c516/q-new-prams-walkers",
    "label": "New"
   },
   {
@@ -334,101 +254,129 @@
    "x": 20,
    "y": 736,
    "width": 354,
-   "height": 119,
+   "height": 125,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/62acdd66-e4ad-4930-9cd6-17354be49264",
-   "label": "Posted byHK Juniours Member Since2025Active Ads15"
+   "href": "https://www.olx.com.pk/profile/7282cd7f-ff8b-4b76-82e2-c6fbf2cc32eb",
+   "label": "Posted bySeller nameMember Since2018Active Ads4"
   },
   {
-   "x": 142,
-   "y": 868,
-   "width": 110,
+   "x": 141,
+   "y": 874,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 979,
+   "y": 965,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/baby-electric-car-iid-1117574686",
+   "href": "https://www.olx.com.pk/item/imported-kids-staller-iid-1120202441",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 965,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/pram-in-reasonable-price-iid-1115984857",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 965,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/imported-kids-staller-iid-1120049304",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 965,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toddlerbaby-walking-support-belt-baby-walker-belt-iid-1119140744",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 965,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/baby-bouncer-iid-1119248212",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 4179,
-   "width": 114,
-   "height": 40,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 138,
-   "y": 4179,
-   "width": 114,
+   "y": 2102,
+   "width": 175,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 260,
-   "y": 4179,
-   "width": 114,
+   "x": 199,
+   "y": 2102,
+   "width": 175,
    "height": 40,
    "kind": "button",
    "label": "Call"
   },
   {
-   "x": 242,
-   "y": 1622,
-   "width": 140,
+   "x": 216,
+   "y": 1568,
+   "width": 166,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/7-wonder-city_g18841/kids-cars_c707090",
-   "label": "Kids Cars in 7 Wonder City"
+   "href": "https://www.olx.com.pk/pwd-colony_g5001394/prams-walkers_c516",
+   "label": "Prams & Walkers in PWD Colony"
   },
   {
-   "x": 95,
-   "y": 1622,
-   "width": 117,
+   "x": 29,
+   "y": 1568,
+   "width": 158,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad_g4060615/kids-cars_c707090",
-   "label": "Kids Cars in Islamabad"
+   "href": "https://www.olx.com.pk/rawalpindi_g4060681/prams-walkers_c516",
+   "label": "Prams & Walkers in Rawalpindi"
   },
   {
-   "x": 17,
-   "y": 1622,
-   "width": 48,
+   "x": -86,
+   "y": 1568,
+   "width": 86,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/kids-cars_c707090",
-   "label": "Kids Cars"
+   "href": "https://www.olx.com.pk/prams-walkers_c516",
+   "label": "Prams & Walkers"
   },
   {
-   "x": -84,
-   "y": 1622,
-   "width": 71,
+   "x": -170,
+   "y": 1568,
+   "width": 55,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/kids-vehicles_c1979",
-   "label": "Kids Vehicles"
+   "href": "https://www.olx.com.pk/baby-gear_c707086",
+   "label": "Baby Gear"
   },
   {
-   "x": -136,
-   "y": 1622,
-   "width": 22,
+   "x": -222,
+   "y": 1568,
+   "width": 23,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/kids_c88",
    "label": "Kids"
   },
   {
-   "x": -198,
-   "y": 1622,
-   "width": 32,
+   "x": -284,
+   "y": 1568,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -436,7 +384,7 @@
   },
   {
    "x": 16,
-   "y": 1988,
+   "y": 1934,
    "width": 84,
    "height": 33,
    "kind": "link",
@@ -445,7 +393,7 @@
   },
   {
    "x": 113,
-   "y": 2055,
+   "y": 2001,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -454,7 +402,7 @@
   },
   {
    "x": 157,
-   "y": 2055,
+   "y": 2001,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -463,7 +411,7 @@
   },
   {
    "x": 201,
-   "y": 2055,
+   "y": 2001,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -472,7 +420,7 @@
   },
   {
    "x": 245,
-   "y": 2055,
+   "y": 2001,
    "width": 32,
    "height": 41,
    "kind": "link",

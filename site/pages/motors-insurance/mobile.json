@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/car-insurance/",
  "finalUrl": "https://www.olx.com.pk/motors/car-insurance/",
  "width": 390,
- "height": 2406,
+ "height": 19680,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:53:55.858Z",
+ "captured": "2026-10-07T14:31:36.333Z",
  "sections": [
   {
    "file": "01-find-the-best-car-insurance-plans",
@@ -29,104 +29,27 @@
     "x": 16,
     "y": 250,
     "width": 358,
-    "height": 109
+    "height": 1773
    },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "03-popular-insured-cars-in-pakistan",
-   "name": "Popular Insured Cars In Pakistan",
-   "rect": {
-    "x": 16,
-    "y": 378,
-    "width": 358,
-    "height": 233
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2)"
-  },
-  {
-   "file": "04-featured-insurance-partners",
-   "name": "Featured Insurance Partners",
-   "rect": {
-    "x": 0,
-    "y": 630,
-    "width": 390,
-    "height": 135
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(3)"
-  },
-  {
-   "file": "05-explore-olx-motors",
-   "name": "Explore OLX Motors",
-   "rect": {
-    "x": 16,
-    "y": 784,
-    "width": 358,
-    "height": 282
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(4)"
-  },
-  {
-   "file": "06-benefits-of-insurance",
-   "name": "Benefits of Insurance",
-   "rect": {
-    "x": 16,
-    "y": 1085,
-    "width": 358,
-    "height": 541
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(5)"
-  },
-  {
-   "file": "07-find-new-and-used-cars-by-city",
-   "name": "Find New & Used Cars By City",
-   "rect": {
-    "x": 16,
-    "y": 1645,
-    "width": 358,
-    "height": 134
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(6)"
-  },
-  {
-   "file": "08-why-choose-olx",
-   "name": "Why Choose OLX?",
-   "rect": {
-    "x": 0,
-    "y": 1798,
-    "width": 390,
-    "height": 198
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(7)"
-  },
-  {
-   "file": "09-get-the-olx-app",
+   "file": "03-get-the-olx-app",
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 2074,
+    "y": 3976,
     "width": 390,
-    "height": 332
+    "height": 398
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(3)"
   },
   {
-   "file": "10-home-chat-sell",
+   "file": "04-home-chat-sell",
    "name": "Home · Chat · Sell",
    "rect": {
     "x": 0,
-    "y": 2347,
-    "width": 390,
-    "height": 59
-   },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(9)"
-  },
-  {
-   "file": "11-home-chat-sell",
-   "name": "Home · Chat · Sell",
-   "rect": {
-    "x": 0,
-    "y": 2347,
+    "y": 9781,
     "width": 390,
     "height": 59
    },
@@ -889,7 +812,7 @@
   },
   {
    "x": 16,
-   "y": 1678,
+   "y": 1662,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -898,7 +821,7 @@
   },
   {
    "x": 201,
-   "y": 1678,
+   "y": 1662,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -907,25 +830,25 @@
   },
   {
    "x": 16,
-   "y": 1707,
+   "y": 1691,
    "width": 173,
-   "height": 18,
+   "height": 17,
    "kind": "link",
    "href": "https://www.olx.com.pk/rawalpindi_g4060681/cars_c84/",
    "label": "Find Cars in Rawalpindi"
   },
   {
    "x": 201,
-   "y": 1707,
+   "y": 1691,
    "width": 173,
-   "height": 18,
+   "height": 17,
    "kind": "link",
    "href": "https://www.olx.com.pk/islamabad_g4060615/cars_c84/",
    "label": "Find Cars in Islamabad"
   },
   {
    "x": 16,
-   "y": 1736,
+   "y": 1719,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -934,7 +857,7 @@
   },
   {
    "x": 201,
-   "y": 1736,
+   "y": 1719,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -943,16 +866,48 @@
   },
   {
    "x": 16,
-   "y": 1753,
-   "width": 59,
+   "y": 1736,
+   "width": 60,
    "height": 26,
    "kind": "button",
    "label": "View More"
   },
   {
+   "x": 159,
+   "y": 1961,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 177,
+   "y": 1961,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 195,
+   "y": 1961,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 213,
+   "y": 1961,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
    "x": 16,
-   "y": 2015,
-   "width": 32,
+   "y": 2003,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -960,8 +915,8 @@
   },
   {
    "x": 76,
-   "y": 2015,
-   "width": 37,
+   "y": 2003,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
@@ -969,7 +924,7 @@
   },
   {
    "x": 0,
-   "y": 2355,
+   "y": 9789,
    "width": 72,
    "height": 44,
    "kind": "link",
@@ -978,7 +933,7 @@
   },
   {
    "x": 79,
-   "y": 2355,
+   "y": 9789,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -987,7 +942,7 @@
   },
   {
    "x": 159,
-   "y": 2353,
+   "y": 9787,
    "width": 72,
    "height": 47,
    "kind": "link",
@@ -996,7 +951,7 @@
   },
   {
    "x": 238,
-   "y": 2355,
+   "y": 9789,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -1004,16 +959,16 @@
    "label": "My Ads"
   },
   {
-   "x": 331,
-   "y": 2355,
-   "width": 46,
+   "x": 332,
+   "y": 9789,
+   "width": 45,
    "height": 44,
    "kind": "button",
    "label": "Account"
   },
   {
    "x": 0,
-   "y": 2355,
+   "y": 9789,
    "width": 72,
    "height": 44,
    "kind": "link",
@@ -1022,7 +977,7 @@
   },
   {
    "x": 79,
-   "y": 2355,
+   "y": 9789,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -1031,7 +986,7 @@
   },
   {
    "x": 159,
-   "y": 2353,
+   "y": 9787,
    "width": 72,
    "height": 47,
    "kind": "link",
@@ -1040,7 +995,7 @@
   },
   {
    "x": 238,
-   "y": 2355,
+   "y": 9789,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -1048,57 +1003,73 @@
    "label": "My Ads"
   },
   {
-   "x": 331,
-   "y": 2355,
-   "width": 46,
+   "x": 332,
+   "y": 9789,
+   "width": 45,
    "height": 44,
    "kind": "button",
    "label": "Account"
   },
   {
    "x": 16,
-   "y": 2190,
+   "y": 4092,
    "width": 358,
-   "height": 33,
+   "height": 32,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 4166,
+   "width": 330,
+   "height": 40,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 2260,
+   "y": 4228,
    "width": 32,
-   "height": 37,
+   "height": 36,
    "kind": "link",
    "href": "https://twitter.com/OLX_Pakistan",
    "label": ""
   },
   {
    "x": 157,
-   "y": 2260,
+   "y": 4228,
    "width": 32,
-   "height": 37,
+   "height": 36,
    "kind": "link",
    "href": "https://www.facebook.com/olxpakistan",
    "label": ""
   },
   {
    "x": 201,
-   "y": 2260,
+   "y": 4228,
    "width": 32,
-   "height": 37,
+   "height": 36,
    "kind": "link",
    "href": "https://www.youtube.com/channel/UCARDDjJnW7IRBpo_AP7WTHQ?sub_confirmation=1",
    "label": ""
   },
   {
    "x": 245,
-   "y": 2260,
+   "y": 4228,
    "width": 32,
-   "height": 37,
+   "height": 36,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
+  },
+  {
+   "x": 38,
+   "y": 9852,
+   "width": 340,
+   "height": 40,
+   "kind": "input",
+   "label": "Search by Car Variant"
   }
  ]
 }
