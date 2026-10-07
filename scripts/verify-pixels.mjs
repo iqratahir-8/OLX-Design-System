@@ -42,6 +42,9 @@ if (want('site')) {
     const base = `site/pages/${p.id}/${p.viewport}`;
     if (!existsSync(`${base}.html`) || !existsSync(`${base}.png`)) continue;
     const meta = JSON.parse(await readFile(`${base}.json`, 'utf8'));
+    // "Scrolled" captures are the screen after scrolling (sticky headers); the static
+    // HTML can't be put back in that scroll state, so they aren't compared.
+    if (meta.scrolled) { targets.push({ group: 'site', id: `${p.id}~${p.viewport}`, skip: 'scroll state, not comparable from static HTML' }); continue; }
     targets.push({ group: 'site', id: `${p.id}~${p.viewport}`, html: `${base}.html`, png: `${base}.png`, width: meta.width, height: meta.height, dpr: meta.dpr ?? 1, fullPage: !meta.overlay });
   }
 }
@@ -134,7 +137,13 @@ async function render(t) {
       if (box) t.photos = t.photos.map(([x, y, w, h]) => [x - box.x, y - box.y, w, h]);
       return await el.screenshot({ animations: 'disabled', timeout: 60_000 });
     }
-    if (t.fullPage) await page.setViewportSize({ width: t.width, height: Math.max(1, t.height) });
+    // Use the window size the live screenshot was taken at (its PNG size / dpr), not the
+    // measured page height: pages sized in vh units grow with the window, so the two differ.
+    if (t.fullPage) {
+      const { height } = PNG.sync.read(await readFile(t.png));
+      await page.setViewportSize({ width: t.width, height: Math.max(1, Math.round(height / t.dpr)) });
+      await page.waitForTimeout(300);
+    }
     return await page.screenshot({ fullPage: false, animations: 'disabled' });
   } finally { await ctx.close(); }
 }
@@ -185,6 +194,7 @@ await mkdir(DIFFS, { recursive: true });
 const results = [];
 for (const [i, t] of todo.entries()) {
   let r;
+  if (t.skip) { r = { group: t.group, id: t.id, verdict: 'skipped', note: t.skip }; results.push(r); console.log(`${String(i + 1).padStart(3)}/${todo.length} skipped  -\t${t.group}/${t.id}`); continue; }
   try {
     const shot = await render(t);
     const mask = process.env.MASK_PHOTOS ? (t.photos ?? []).map((r) => r.map((v) => Math.round(v * t.dpr))) : [];
@@ -224,15 +234,15 @@ const lines = [
   '',
   `**match** ≤ ${MATCH * 100}% of pixels changed · **close** ≤ ${CLOSE * 100}% · **mismatch** above that. Listing photos are user content and can change or disappear on OLX, so a small share of changes in photo areas is expected.`,
   '',
-  '| Group | Match | Close | Mismatch | Error |',
-  '| --- | --- | --- | --- | --- |',
-  ...['site', 'templates', 'components'].map((g) => `| ${g} | ${count(g, 'match')} | ${count(g, 'close')} | ${count(g, 'mismatch')} | ${count(g, 'error')} |`),
+  '| Group | Match | Close | Mismatch | Error | Skipped |',
+  '| --- | --- | --- | --- | --- | --- |',
+  ...['site', 'templates', 'components'].map((g) => `| ${g} | ${count(g, 'match')} | ${count(g, 'close')} | ${count(g, 'mismatch')} | ${count(g, 'error')} | ${count(g, 'skipped')} |`),
   '',
   '## Not matching',
   '',
   '| Capture | Verdict | Changed | Live size | Rendered size |',
   '| --- | --- | --- | --- | --- |',
-  ...all.filter((r) => r.verdict !== 'match').sort((a, b) => (b.changed ?? 101) - (a.changed ?? 101))
+  ...all.filter((r) => !['match', 'skipped'].includes(r.verdict)).sort((a, b) => (b.changed ?? 101) - (a.changed ?? 101))
     .map((r) => `| ${r.group}/${r.id} | ${r.verdict} | ${r.changed ?? '-'}% | ${r.live?.join('×') ?? '-'} | ${r.stored?.join('×') ?? r.error ?? '-'} |`),
   '',
 ];
