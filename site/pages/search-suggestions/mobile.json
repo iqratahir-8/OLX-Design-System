@@ -8,18 +8,19 @@
  "height": 664,
  "dpr": 2,
  "overlay": true,
- "captured": "2026-09-29T13:31:50.734Z",
+ "scrolled": false,
+ "captured": "2026-10-07T14:56:52.912Z",
  "sections": [
   {
-   "file": "01-popular-categories-mobile-phones-tablets",
-   "name": "Popular Categories · Mobile Phones · Tablets",
+   "file": "01-iphone-mobile-phones-for-sale-iphone-all",
+   "name": "iphone · Mobile Phones for Sale · iphone all",
    "rect": {
-    "x": 16,
-    "y": 64,
-    "width": 358,
-    "height": 157
+    "x": 0,
+    "y": 0,
+    "width": 390,
+    "height": 664
    },
-   "selector": "body > :nth-child(1) > :nth-child(12) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(12) > :nth-child(1) > :nth-child(1)"
   }
  ],
  "hotspots": [
@@ -60,17 +61,8 @@
    "label": ""
   },
   {
-   "x": 16,
-   "y": 192,
-   "width": 358,
-   "height": 151,
-   "kind": "link",
-   "href": "https://www.youtube.com/watch?v=8Ix-ekSoEdY",
-   "label": "A New Track on Coke StudioPlay This Song"
-  },
-  {
    "x": 306,
-   "y": 638,
+   "y": 488,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -79,7 +71,7 @@
   },
   {
    "x": 306,
-   "y": 1008,
+   "y": 858,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -88,7 +80,7 @@
   },
   {
    "x": 306,
-   "y": 1404,
+   "y": 1254,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -97,7 +89,7 @@
   },
   {
    "x": 306,
-   "y": 1774,
+   "y": 1624,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -106,7 +98,7 @@
   },
   {
    "x": 306,
-   "y": 2170,
+   "y": 2020,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -115,7 +107,7 @@
   },
   {
    "x": 306,
-   "y": 2540,
+   "y": 2390,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -124,7 +116,7 @@
   },
   {
    "x": 306,
-   "y": 2910,
+   "y": 2760,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -133,7 +125,7 @@
   },
   {
    "x": 306,
-   "y": 3280,
+   "y": 3130,
    "width": 68,
    "height": 22,
    "kind": "link",
@@ -185,16 +177,16 @@
   },
   {
    "x": 16,
-   "y": 4036,
+   "y": 3886,
    "width": 84,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
    "x": 113,
-   "y": 4102,
+   "y": 3952,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -203,7 +195,7 @@
   },
   {
    "x": 157,
-   "y": 4102,
+   "y": 3952,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -212,7 +204,7 @@
   },
   {
    "x": 201,
-   "y": 4102,
+   "y": 3952,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -221,7 +213,7 @@
   },
   {
    "x": 245,
-   "y": 4102,
+   "y": 3952,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -238,75 +230,163 @@
   },
   {
    "x": 16,
-   "y": 109,
-   "width": 128,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453",
-   "label": "Mobile Phones"
-  },
-  {
-   "x": 152,
-   "y": 109,
-   "width": 78,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/tablets_c1455",
-   "label": "Tablets"
-  },
-  {
-   "x": 238,
-   "y": 109,
-   "width": 60,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/cars_c84",
-   "label": "Cars"
+   "y": 64,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: iphone"
   },
   {
    "x": 16,
-   "y": 149,
-   "width": 110,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/land-plots_c40",
-   "label": "Land & Plots"
-  },
-  {
-   "x": 134,
-   "y": 149,
-   "width": 81,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/houses_c1721",
-   "label": "Houses"
-  },
-  {
-   "x": 223,
-   "y": 149,
-   "width": 121,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/tv-video-audio_c729",
-   "label": "Video-Audios"
+   "y": 117,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: iphone all"
   },
   {
    "x": 16,
-   "y": 189,
-   "width": 159,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/motorcycles_c81",
-   "label": "Bikes & Motorcycles"
+   "y": 170,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: first iphone"
   },
   {
-   "x": 183,
-   "y": 189,
-   "width": 63,
-   "height": 32,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/jobs_c4",
-   "label": "Jobs"
+   "x": 16,
+   "y": 223,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: mobile iphone"
+  },
+  {
+   "x": 16,
+   "y": 276,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: need iphone"
+  },
+  {
+   "x": 16,
+   "y": 329,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: iphone old"
+  },
+  {
+   "x": 16,
+   "y": 382,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: old iphone"
+  },
+  {
+   "x": 16,
+   "y": 435,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: iphone phones"
+  },
+  {
+   "x": 16,
+   "y": 488,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: iphone mobile"
+  },
+  {
+   "x": 16,
+   "y": 541,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: apple iphone"
+  },
+  {
+   "x": 16,
+   "y": 594,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: pta iphone"
+  },
+  {
+   "x": 16,
+   "y": 647,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: non pta iphone"
+  },
+  {
+   "x": 16,
+   "y": 700,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: used iphone"
+  },
+  {
+   "x": 16,
+   "y": 753,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: iphone non pta"
+  },
+  {
+   "x": 16,
+   "y": 806,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: iphone battery"
+  },
+  {
+   "x": 16,
+   "y": 859,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: apple iphone battery"
+  },
+  {
+   "x": 16,
+   "y": 912,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: iphone 10"
+  },
+  {
+   "x": 16,
+   "y": 965,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: iphone pro"
+  },
+  {
+   "x": 16,
+   "y": 1018,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: iphone pro non pta"
+  },
+  {
+   "x": 16,
+   "y": 1071,
+   "width": 358,
+   "height": 53,
+   "kind": "button",
+   "label": "Suggestion: iphone max"
   }
  ]
 }

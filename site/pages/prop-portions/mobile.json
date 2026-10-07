@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/portions-floors_c41",
  "finalUrl": "https://www.olx.com.pk/portions-floors_c41?page=1",
  "width": 390,
- "height": 12056,
+ "height": 12868,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-30T07:22:41.659Z",
+ "captured": "2026-10-07T14:43:11.349Z",
  "sections": [
   {
    "file": "01-header",
@@ -20,106 +20,403 @@
     "width": 390,
     "height": 104
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "02-listings",
-   "name": "Listings",
+   "file": "02-furnished-unfurnished",
+   "name": "Furnished · Unfurnished",
    "rect": {
-    "x": 0,
+    "x": 16,
     "y": 120,
-    "width": 390,
-    "height": 11115
+    "width": 358,
+    "height": 31
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "03-retry",
-   "name": "Retry",
+   "file": "03-featured-rs-1-14-crore-5-days-ago",
+   "name": "Featured · Rs 1.14 Crore · 5 days ago",
    "rect": {
-    "x": 0,
-    "y": 11251,
-    "width": 390,
-    "height": 48
+    "x": 16,
+    "y": 167,
+    "width": 358,
+    "height": 432
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "04-portions-for-sale-in-pakistan",
+   "file": "04-featured-rs-1-20-crore-1-week-ago",
+   "name": "Featured · Rs 1.20 Crore · 1 week ago",
+   "rect": {
+    "x": 16,
+    "y": 615,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "05-featured-rs-1-20-crore-1-week-ago",
+   "name": "Featured · Rs 1.20 Crore · 1 week ago",
+   "rect": {
+    "x": 16,
+    "y": 1063,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "06-featured-rs-48-50-lacs-3-days-ago",
+   "name": "Featured · Rs 48.50 Lacs · 3 days ago",
+   "rect": {
+    "x": 16,
+    "y": 1511,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "07-featured-rs-95-lacs-7-hours-ago",
+   "name": "Featured · Rs 95 Lacs · 7 hours ago",
+   "rect": {
+    "x": 16,
+    "y": 1959,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "08-featured-rs-4-40-crore-3-hours-ago",
+   "name": "Featured · Rs 4.40 Crore · 3 hours ago",
+   "rect": {
+    "x": 16,
+    "y": 2407,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "09-pick-your-floor-level-1-2",
+   "name": "Pick Your Floor Level · 1 · 2",
+   "rect": {
+    "x": 16,
+    "y": 2855,
+    "width": 358,
+    "height": 84
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "10-featured-rs-3-55-crore-3-weeks-ago",
+   "name": "Featured · Rs 3.55 Crore · 3 weeks ago",
+   "rect": {
+    "x": 16,
+    "y": 2955,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "11-featured-rs-4-75-crore-1-week-ago",
+   "name": "Featured · Rs 4.75 Crore · 1 week ago",
+   "rect": {
+    "x": 16,
+    "y": 3403,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(10)"
+  },
+  {
+   "file": "12-featured-rs-3-25-crore-4-weeks-ago",
+   "name": "Featured · Rs 3.25 Crore · 4 weeks ago",
+   "rect": {
+    "x": 16,
+    "y": 3851,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "13-rs-12-22-crore-1-hour-ago-10-marla-upper",
+   "name": "Rs 12.22 Crore · 1 hour ago · 10 marla upper por",
+   "rect": {
+    "x": 16,
+    "y": 4299,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
+  },
+  {
+   "file": "14-rs-1-14-crore-2-hours-ago-3-bed-dd-porti",
+   "name": "Rs 1.14 Crore · 2 hours ago · 3 BED DD PORTION F",
+   "rect": {
+    "x": 16,
+    "y": 4747,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "15-rs-1-75-crore-5-hours-ago-brand-new-west",
+   "name": "Rs 1.75 Crore · 5 hours ago · Brand New West Ope",
+   "rect": {
+    "x": 16,
+    "y": 5195,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
+  },
+  {
+   "file": "16-how-many-bedrooms-studio-1",
+   "name": "How Many Bedrooms? · Studio · 1",
+   "rect": {
+    "x": 16,
+    "y": 5643,
+    "width": 358,
+    "height": 84
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  },
+  {
+   "file": "17-rs-1-75-crore-5-hours-ago-brand-new-west",
+   "name": "Rs 1.75 Crore · 5 hours ago · Brand New West Ope",
+   "rect": {
+    "x": 16,
+    "y": 5743,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(16)"
+  },
+  {
+   "file": "18-rs-1-30-crore-5-hours-ago-ready-to-move-",
+   "name": "Rs 1.30 Crore · 5 hours ago · Ready to Move Port",
+   "rect": {
+    "x": 16,
+    "y": 6191,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(17)"
+  },
+  {
+   "file": "19-rs-1-50-crore-5-hours-ago-ready-to-move-",
+   "name": "Rs 1.50 Crore · 5 hours ago · Ready To Move Port",
+   "rect": {
+    "x": 16,
+    "y": 6639,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(18)"
+  },
+  {
+   "file": "20-rs-1-90-crore-7-hours-ago-portion-for-sa",
+   "name": "Rs 1.90 Crore · 7 hours ago · *PORTION FOR SALE*",
+   "rect": {
+    "x": 16,
+    "y": 7087,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(19)"
+  },
+  {
+   "file": "21-rs-4-crore-10-hours-ago-brand-new-240yrd",
+   "name": "Rs 4 Crore · 10 hours ago · Brand New 240yrds 4 ",
+   "rect": {
+    "x": 16,
+    "y": 7535,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(20)"
+  },
+  {
+   "file": "22-rs-3-40-crore-11-hours-ago-brand-new-250",
+   "name": "Rs 3.40 Crore · 11 hours ago · Brand New 250yrds",
+   "rect": {
+    "x": 16,
+    "y": 7983,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(21)"
+  },
+  {
+   "file": "23-how-many-bathrooms-3-2",
+   "name": "How Many Bathrooms? · 3 · 2",
+   "rect": {
+    "x": 16,
+    "y": 8431,
+    "width": 358,
+    "height": 84
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(22)"
+  },
+  {
+   "file": "24-rs-3-25-crore-11-hours-ago-brand-new-240",
+   "name": "Rs 3.25 Crore · 11 hours ago · Brand New 240 Yar",
+   "rect": {
+    "x": 16,
+    "y": 8531,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(23)"
+  },
+  {
+   "file": "25-rs-5-lac-18-hours-ago-dha-phase-7-block-",
+   "name": "Rs 5 Lac · 18 hours ago · DHA Phase 7, Block W, ",
+   "rect": {
+    "x": 16,
+    "y": 8979,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(24)"
+  },
+  {
+   "file": "26-rs-95-lacs-19-hours-ago-2-bed-dd-1st-flo",
+   "name": "Rs 95 Lacs · 19 hours ago · 2 bed dd 1st floor w",
+   "rect": {
+    "x": 16,
+    "y": 9427,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(25)"
+  },
+  {
+   "file": "27-rs-85-lacs-19-hours-ago-2-bed-dd-portion",
+   "name": "Rs 85 Lacs · 19 hours ago · 2 bed dd portion ava",
+   "rect": {
+    "x": 16,
+    "y": 9875,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(26)"
+  },
+  {
+   "file": "28-rs-5-lac-20-hours-ago-4-marla-graond-flo",
+   "name": "Rs 5 Lac · 20 hours ago · 4 Marla Graond Floor P",
+   "rect": {
+    "x": 16,
+    "y": 10323,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(27)"
+  },
+  {
+   "file": "29-rs-5-lac-1-day-ago-upper-portion-for-ren",
+   "name": "Rs 5 Lac · 1 day ago · Upper Portion for Rent in",
+   "rect": {
+    "x": 16,
+    "y": 10771,
+    "width": 358,
+    "height": 432
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(28)"
+  },
+  {
+   "file": "30-li",
+   "name": "li",
+   "rect": {
+    "x": 16,
+    "y": 11219,
+    "width": 358,
+    "height": 461
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(29)"
+  },
+  {
+   "file": "31-li",
+   "name": "li",
+   "rect": {
+    "x": 16,
+    "y": 11696,
+    "width": 358,
+    "height": 461
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(30)"
+  },
+  {
+   "file": "32-portions-for-sale-in-pakistan",
    "name": "Portions for Sale in Pakistan",
    "rect": {
     "x": 0,
-    "y": 11331,
+    "y": 12189,
     "width": 390,
     "height": 86
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "33-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 12274,
+    "width": 390,
+    "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "05-popular-searches",
-   "name": "Popular Searches",
+   "file": "34-location",
+   "name": "Location",
    "rect": {
     "x": 0,
-    "y": 11416,
+    "y": 12320,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "06-categories",
-   "name": "Categories",
+   "file": "35-filters",
+   "name": "Filters",
    "rect": {
     "x": 0,
-    "y": 11462,
+    "y": 12366,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "07-location",
-   "name": "Location",
+   "file": "36-footer",
+   "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 11508,
+    "y": 12412,
     "width": 390,
-    "height": 47
+    "height": 456
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "08-filters",
-   "name": "Filters",
-   "rect": {
-    "x": 0,
-    "y": 11554,
-    "width": 390,
-    "height": 47
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
-  },
-  {
-   "file": "09-footer",
-   "name": "Footer",
-   "rect": {
-    "x": 0,
-    "y": 11600,
-    "width": 390,
-    "height": 456
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
-  },
-  {
-   "file": "10-sell",
+   "file": "37-sell",
    "name": "SELL",
    "rect": {
     "x": 0,
-    "y": 11987,
+    "y": 12799,
     "width": 390,
     "height": 45
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   }
  ],
  "hotspots": [
@@ -145,7 +442,31 @@
    "width": 42,
    "height": 28,
    "kind": "button",
-   "label": ""
+   "label": "1"
+  },
+  {
+   "x": 268,
+   "y": 64,
+   "width": 69,
+   "height": 28,
+   "kind": "button",
+   "label": "Price Quick Filter"
+  },
+  {
+   "x": 344,
+   "y": 64,
+   "width": 67,
+   "height": 28,
+   "kind": "button",
+   "label": "Area size Quick Filter"
+  },
+  {
+   "x": 418,
+   "y": 64,
+   "width": 93,
+   "height": 28,
+   "kind": "button",
+   "label": "Area Unit Quick Filter"
   },
   {
    "x": 16,
@@ -153,7 +474,7 @@
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/old-but-new-renovated-1st-floor-available-for-sale-at-bhadarabad-iid-1118717530",
+   "href": "https://www.olx.com.pk/item/portion-for-sale-sub-lease-iid-1119644889",
    "label": "Listing"
   },
   {
@@ -178,7 +499,7 @@
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/brand-new-1st-floor-portion-available-for-sale-iid-1119511792",
+   "href": "https://www.olx.com.pk/item/portion-available-for-sale-iid-1119416415",
    "label": "Listing"
   },
   {
@@ -203,7 +524,7 @@
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/upper-portion-for-sale-near-airport-malir-halt-iid-1118479013",
+   "href": "https://www.olx.com.pk/item/3-bed-dd-portion-available-for-sale-iid-1119416414",
    "label": "Listing"
   },
   {
@@ -228,7 +549,7 @@
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/portion-for-sale-sub-lease-iid-1119644889",
+   "href": "https://www.olx.com.pk/item/portion-for-sale-in-allah-wala-town-nearest-darussalam-society-makhdoom-bilawal-society-best-location-iid-1119813801",
    "label": "Listing"
   },
   {
@@ -253,7 +574,7 @@
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/next-to-main-shara-e-qaideen-pechs-block-2-back-side-hassan-zai-koila-karahi-200-sq-yards-ground-floor-portion-iid-1118062145",
+   "href": "https://www.olx.com.pk/item/2nd-floor-smr-center-upto-htc-fabric-shop-3-bad-attach-bathroom-comane-open-kitchen-125-square-sweet-water-daily-demand-95-lakhcode16723-iid-1119078795",
    "label": "Listing"
   },
   {
@@ -278,7 +599,7 @@
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/portion-for-sale-in-allah-wala-town-nearest-darussalam-society-makhdoom-bilawal-society-best-location-iid-1119813801",
+   "href": "https://www.olx.com.pk/item/brand-new-portion-4-bed-dd-1st-floor-in-gulshan-block-7-iid-1120193983",
    "label": "Listing"
   },
   {
@@ -303,7 +624,7 @@
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/2nd-floor-smr-center-upto-htc-fabric-shop-3-bad-attach-bathroom-comane-open-kitchen-125-square-sweet-water-daily-demand-95-lakhcode16723-iid-1119078795",
+   "href": "https://www.olx.com.pk/item/old-but-new-renovated-1st-floor-available-for-sale-at-bhadarabad-iid-1118717530",
    "label": "Listing"
   },
   {
@@ -328,7 +649,7 @@
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/4-bed-dd-brand-new-portion-available-for-sale-1st-floor-240gaz-west-open-kda-lease-in-gulshan-block-1-iid-1119407836",
+   "href": "https://www.olx.com.pk/item/brand-new-1st-floor-portion-available-for-sale-iid-1119511792",
    "label": "Listing"
   },
   {
@@ -353,7 +674,7 @@
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/ground-floor-portion-for-sale-in-nazimabad-no-1-iid-1119727177",
+   "href": "https://www.olx.com.pk/item/next-to-main-shara-e-qaideen-pechs-block-2-back-side-hassan-zai-koila-karahi-200-sq-yards-ground-floor-portion-iid-1118062145",
    "label": "Listing"
   },
   {
@@ -374,16 +695,16 @@
   },
   {
    "x": 16,
-   "y": 4315,
+   "y": 4299,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/leased-2-bed-dd-3rd-floor-portion-available-for-sale-iid-1119731194",
+   "href": "https://www.olx.com.pk/item/10-marla-upper-portion-available-for-rent-with-gas-iid-1120200456",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 4690,
+   "y": 4674,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -391,7 +712,7 @@
   },
   {
    "x": 199,
-   "y": 4690,
+   "y": 4674,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -399,16 +720,16 @@
   },
   {
    "x": 16,
-   "y": 4763,
+   "y": 4747,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/beautiful-2-bed-dd-flat-with-loft-for-sale-at-rafi-pride-2-malir-iid-1119731091",
+   "href": "https://www.olx.com.pk/item/3-bed-dd-portion-for-sale-2nd-floor-road-facing-2-balconies-khatm-e-nabuwat-chowk-opposite-county-garden-iid-1120199573",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 5138,
+   "y": 5122,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -416,7 +737,7 @@
   },
   {
    "x": 199,
-   "y": 5138,
+   "y": 5122,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -424,16 +745,16 @@
   },
   {
    "x": 16,
-   "y": 5211,
+   "y": 5195,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/2-bed-lounge-new-al-ghaffar-nagor-near-gohar-green-city-malir-iid-1119918775",
+   "href": "https://www.olx.com.pk/item/brand-new-west-open-3-bed-dd-with-roof-car-parking-fb-area-block-09-iid-1120192529",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 5586,
+   "y": 5570,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -441,7 +762,7 @@
   },
   {
    "x": 199,
-   "y": 5586,
+   "y": 5570,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -449,16 +770,16 @@
   },
   {
    "x": 16,
-   "y": 5759,
+   "y": 5743,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/10-marla-brand-new-second-floor-available-for-rent-in-jubilee-town-a-block-lahore-iid-1119916403",
+   "href": "https://www.olx.com.pk/item/brand-new-west-open-3-bed-dd-with-roof-car-parking-fb-area-block-09-iid-1120192262",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 6134,
+   "y": 6118,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -466,7 +787,7 @@
   },
   {
    "x": 199,
-   "y": 6134,
+   "y": 6118,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -474,16 +795,16 @@
   },
   {
    "x": 16,
-   "y": 6207,
+   "y": 6191,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/2-bed-dd-flat-for-sale-iid-1119894662",
+   "href": "https://www.olx.com.pk/item/ready-to-move-portion-available-iid-1119984990",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 6582,
+   "y": 6566,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -491,7 +812,7 @@
   },
   {
    "x": 199,
-   "y": 6582,
+   "y": 6566,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -499,16 +820,16 @@
   },
   {
    "x": 16,
-   "y": 6655,
+   "y": 6639,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/prime-1st-floor-portion-for-sale-200-sqyd-gulistan-e-johar-block-13-iid-1119915840",
+   "href": "https://www.olx.com.pk/item/ready-to-move-portion-available-iid-1119302009",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 7030,
+   "y": 7014,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -516,7 +837,7 @@
   },
   {
    "x": 199,
-   "y": 7030,
+   "y": 7014,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -524,16 +845,16 @@
   },
   {
    "x": 16,
-   "y": 7103,
+   "y": 7087,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/brand-new-4-bhk-upper-ground-floor-apartment-prime-location-in-pechs-block-2-karachi-iid-1119915375",
+   "href": "https://www.olx.com.pk/item/portion-for-sale200-sq-yds-ground-floor-3-bedrooms-with-attached-baths-drawing-room-tv-lounge-washing-area-car-porch-pictures-available-demand-190-location-kaneez-fatima-block-2-behind-of-dhaba-express-scheme-33-near-gate-1-code16836-iid-1120070600",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 7478,
+   "y": 7462,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -541,7 +862,7 @@
   },
   {
    "x": 199,
-   "y": 7478,
+   "y": 7462,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -549,16 +870,16 @@
   },
   {
    "x": 16,
-   "y": 7551,
+   "y": 7535,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/1st-floor-portion-corner-120-sq-yard-iid-1119585476",
+   "href": "https://www.olx.com.pk/item/brand-new-240yrds-4-bed-2nd-floor-with-roof-for-sale-in-gulshan-block-1-iid-1120180198",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 7926,
+   "y": 7910,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -566,7 +887,7 @@
   },
   {
    "x": 199,
-   "y": 7926,
+   "y": 7910,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -574,16 +895,16 @@
   },
   {
    "x": 16,
-   "y": 7999,
+   "y": 7983,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/2-bed-dd-with-roof-iid-1119585270",
+   "href": "https://www.olx.com.pk/item/brand-new-250yrds-ground-floor-3-bed-dd-for-sale-in-gulshan-block-1-iid-1120179973",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 8374,
+   "y": 8358,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -591,7 +912,7 @@
   },
   {
    "x": 199,
-   "y": 8374,
+   "y": 8358,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -599,16 +920,16 @@
   },
   {
    "x": 16,
-   "y": 8547,
+   "y": 8531,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/stunning-and-affordable-upper-portion-available-for-sale-in-gulshan-e-iqbal-block-13-iid-1119914214",
+   "href": "https://www.olx.com.pk/item/brand-new-240-yards-1st-floor-4-bed-dd-portion-for-sale-in-gulshan-block-1-iid-1120179708",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 8922,
+   "y": 8906,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -616,7 +937,7 @@
   },
   {
    "x": 199,
-   "y": 8922,
+   "y": 8906,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -624,16 +945,16 @@
   },
   {
    "x": 16,
-   "y": 8995,
+   "y": 8979,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/like-new-portion-for-sale-2-bed-dd-leased-1st-floor-fully-tiled-3-rooms-2-bath-rooms-american-kitchen-adjacent-to-gohar-green-city-bondary-wall-gated-society-43-lacs-iid-1118798978",
+   "href": "https://www.olx.com.pk/item/dha-phase-7-block-w-01-kanal-03-bed-luxurious-upper-portion-for-rent-original-pictures-attached-iid-1120041966",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 9370,
+   "y": 9354,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -641,7 +962,7 @@
   },
   {
    "x": 199,
-   "y": 9370,
+   "y": 9354,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -649,16 +970,16 @@
   },
   {
    "x": 16,
-   "y": 9443,
+   "y": 9427,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/portion-for-sale-2bed-dd-corner-leased-1st-floor-west-open-fully-tiled-best-door-aluminum-windows-bathroom-doors-american-kitchen-like-new-leased-boundary-wall-gatted-society-nagori-city-near-gohar-green-city-intercom-iid-1118798972",
+   "href": "https://www.olx.com.pk/item/2-bed-dd-1st-floor-west-open-kda-lease-portion-available-for-sale-in-nazimabad-no2-iid-1119381376",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 9818,
+   "y": 9802,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -666,7 +987,7 @@
   },
   {
    "x": 199,
-   "y": 9818,
+   "y": 9802,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -674,16 +995,16 @@
   },
   {
    "x": 16,
-   "y": 9907,
+   "y": 9875,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/80-sy-portion-for-sale-makkah-city-like-brand-new-adjacent-to-al-ghaffar-nagori-city-gohar-green-city-survey-property-builder-transfer-ke-gas-meter-present-2-bed-rooms-with-attached-bath-rooms-washing-area-false-sealing-ground-iid-1118798958",
+   "href": "https://www.olx.com.pk/item/2-bed-dd-portion-available-for-sale-in-federal-b-area-block-15-iid-1120174413",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 10282,
+   "y": 10250,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -691,7 +1012,7 @@
   },
   {
    "x": 199,
-   "y": 10282,
+   "y": 10250,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -699,16 +1020,16 @@
   },
   {
    "x": 16,
-   "y": 10355,
+   "y": 10323,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/portion-for-sale-block-14-iid-1119610754",
+   "href": "https://www.olx.com.pk/item/4-marla-graond-floor-portion-available-for-rent-in-h2-block-near-canal-road-and-epmorium-mall-lahore-iid-1120172655",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 10730,
+   "y": 10698,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -716,7 +1037,7 @@
   },
   {
    "x": 199,
-   "y": 10730,
+   "y": 10698,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -724,16 +1045,16 @@
   },
   {
    "x": 16,
-   "y": 10803,
+   "y": 10771,
    "width": 358,
    "height": 432,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/160-sqy-1st-floor-portion-block-3a-iid-1119906371",
+   "href": "https://www.olx.com.pk/item/upper-portion-for-rent-in-dha-phase-3-sector-b-iid-1120161810",
    "label": "Listing"
   },
   {
    "x": 33,
-   "y": 11178,
+   "y": 11146,
    "width": 158,
    "height": 40,
    "kind": "button",
@@ -741,23 +1062,15 @@
   },
   {
    "x": 199,
-   "y": 11178,
+   "y": 11146,
    "width": 158,
    "height": 40,
    "kind": "button",
    "label": "Chat"
-  },
-  {
-   "x": 144,
-   "y": 11251,
-   "width": 102,
-   "height": 48,
-   "kind": "button",
-   "label": "Retry"
   },
   {
    "x": 143,
-   "y": 11987,
+   "y": 12799,
    "width": 104,
    "height": 45,
    "kind": "button",
@@ -765,8 +1078,8 @@
   },
   {
    "x": 16,
-   "y": 11388,
-   "width": 32,
+   "y": 12246,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -774,7 +1087,7 @@
   },
   {
    "x": 78,
-   "y": 11388,
+   "y": 12246,
    "width": 88,
    "height": 16,
    "kind": "link",
@@ -783,16 +1096,16 @@
   },
   {
    "x": 16,
-   "y": 11900,
+   "y": 12712,
    "width": 84,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
    "x": 113,
-   "y": 11966,
+   "y": 12778,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -801,7 +1114,7 @@
   },
   {
    "x": 157,
-   "y": 11966,
+   "y": 12778,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -810,7 +1123,7 @@
   },
   {
    "x": 201,
-   "y": 11966,
+   "y": 12778,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -819,7 +1132,7 @@
   },
   {
    "x": 245,
-   "y": 11966,
+   "y": 12778,
    "width": 32,
    "height": 41,
    "kind": "link",
