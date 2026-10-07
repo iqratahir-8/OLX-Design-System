@@ -2,14 +2,14 @@
  "id": "ad-bikes",
  "title": "Ad: Bikes",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/suzuki-inazuma-250-complete-touring-panniers-box-setup-kallar-syed-iid-1119678756",
- "finalUrl": "https://www.olx.com.pk/item/suzuki-inazuma-250-complete-touring-panniers-box-setup-kallar-syed-iid-1119678756",
+ "url": "https://www.olx.com.pk/item/ztr-super-trike-250cc-2024-batman-style-call-0332-8483256-iid-1114514827",
+ "finalUrl": "https://www.olx.com.pk/item/ztr-super-trike-250cc-2024-batman-style-call-0332-8483256-iid-1114514827",
  "width": 390,
- "height": 2428,
+ "height": 2338,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:02:00.398Z",
+ "captured": "2026-10-07T14:11:03.278Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -51,16 +51,16 @@
     "x": 0,
     "y": 489,
     "width": 390,
-    "height": 295
+    "height": 265
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-description-suzuki-inazuma-gw250-2023-mo",
-   "name": "Description · Suzuki Inazuma GW250 (2023 Model) ",
+   "file": "05-description-ztr-super-trike-250cc-2024-b",
+   "name": "Description · ZTR Super Trike 250CC 2024 – Batma",
    "rect": {
     "x": 0,
-    "y": 803,
+    "y": 773,
     "width": 390,
     "height": 122
    },
@@ -71,18 +71,18 @@
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 0,
-    "y": 944,
+    "y": 914,
     "width": 390,
     "height": 181
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
   },
   {
-   "file": "07-related-ads-featured-rs-15-50-lacs",
-   "name": "Related ads · Featured · Rs 15.50 Lacs",
+   "file": "07-related-ads-rs-12-lacs-200cc-4x4-buggy-c",
+   "name": "Related ads · Rs 12 Lacs · 200cc 4x4 buggy (chec",
    "rect": {
     "x": 0,
-    "y": 1164,
+    "y": 1114,
     "width": 390,
     "height": 371
    },
@@ -93,18 +93,18 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1554,
+    "y": 1484,
     "width": 390,
     "height": 236
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
   },
   {
-   "file": "09-inazuma-in-kallar-syedan-suzuki-in-kalla",
-   "name": "Inazuma in Kallar Syedan · Suzuki in Kallar Syed",
+   "file": "09-chinese-bikes-in-dha-phase-6-atv-and-qua",
+   "name": "Chinese Bikes in DHA Phase 6 · ATV & Quads in DH",
    "rect": {
     "x": 8,
-    "y": 1837,
+    "y": 1747,
     "width": 374,
     "height": 27
    },
@@ -115,7 +115,7 @@
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1863,
+    "y": 1773,
     "width": 390,
     "height": 47
    },
@@ -126,7 +126,7 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1909,
+    "y": 1819,
     "width": 390,
     "height": 519
    },
@@ -137,7 +137,7 @@
    "name": "Chat · Call",
    "rect": {
     "x": 0,
-    "y": 2363,
+    "y": 2273,
     "width": 390,
     "height": 65
    },
@@ -194,120 +194,8 @@
    "label": ""
   },
   {
-   "x": 1560,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 1950,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2340,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2730,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3120,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3510,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3900,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4290,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4680,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5070,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5460,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5850,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6240,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 142,
-   "y": 761,
-   "width": 106,
-   "height": 27,
-   "kind": "button",
-   "label": "View +3 more"
-  },
-  {
    "x": 16,
-   "y": 903,
+   "y": 873,
    "width": 358,
    "height": 22,
    "kind": "button",
@@ -315,113 +203,139 @@
   },
   {
    "x": 20,
-   "y": 956,
+   "y": 926,
    "width": 354,
    "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/be368175-f657-4bdf-8943-887aab746225",
-   "label": "Posted byZershan Naveed Member Since2020Active Ads2"
+   "href": "https://www.olx.com.pk/profile/f6285b33-2af2-463a-89e7-bc97d26058bc",
+   "label": "Posted bySeller nameMember Since2016Active Ads2"
   },
   {
-   "x": 142,
-   "y": 1088,
-   "width": 110,
+   "x": 141,
+   "y": 1058,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 1199,
+   "y": 1149,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/suzuki-inazuma-250-twin-2023-pearl-white-hard-side-boxes-top-t-iid-1119678611",
+   "href": "https://www.olx.com.pk/item/200cc-4x4-buggy-check-description-iid-1120061410",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 1149,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/ztr-super-trike-250cc-2024-model-batman-style-call-03XX-XXXXXXX-iid-1119855398",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 1149,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/quad-bike-iid-1119861703",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 1149,
+   "width": 215,
+   "height": 316,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/premium-automatic-250cc-atv-quad-extreme-off-road-machine-iid-1114225259",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2376,
-   "width": 175,
+   "y": 2286,
+   "width": 114,
+   "height": 40,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 138,
+   "y": 2286,
+   "width": 114,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 199,
-   "y": 2376,
-   "width": 175,
+   "x": 260,
+   "y": 2286,
+   "width": 114,
    "height": 40,
    "kind": "button",
    "label": "Call"
   },
   {
-   "x": 250,
-   "y": 1842,
-   "width": 132,
-   "height": 16,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/kallar-syedan_g5001326/suzuki-bikes-standard_c707032?filter=make_eq_suzuki%2Cmodel_eq_inazuma",
-   "label": "Inazuma in Kallar Syedan"
-  },
-  {
-   "x": 98,
-   "y": 1842,
-   "width": 122,
-   "height": 16,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/kallar-syedan_g5001326/suzuki-bikes-standard_c707032?filter=make_eq_suzuki",
-   "label": "Suzuki in Kallar Syedan"
-  },
-  {
-   "x": -97,
-   "y": 1842,
-   "width": 165,
-   "height": 16,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/kallar-syedan_g5001326/bikes-standard_c707032",
-   "label": "Standard Bikes in Kallar Syedan"
-  },
-  {
-   "x": -280,
-   "y": 1842,
+   "x": 229,
+   "y": 1752,
    "width": 153,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/rawalpindi_g4060681/bikes-standard_c707032",
-   "label": "Standard Bikes in Rawalpindi"
+   "href": "https://www.olx.com.pk/dha-phase-6_g5000018/chinese-bikes-atv-quads_c1953?filter=make_eq_atv-and-quads-make-chinese-bikes",
+   "label": "Chinese Bikes in DHA Phase 6"
   },
   {
-   "x": -388,
-   "y": 1842,
-   "width": 78,
+   "x": 50,
+   "y": 1752,
+   "width": 150,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/bikes-standard_c707032",
-   "label": "Standard Bikes"
+   "href": "https://www.olx.com.pk/dha-phase-6_g5000018/atv-quads_c1953",
+   "label": "ATV & Quads in DHA Phase 6"
   },
   {
-   "x": -525,
-   "y": 1842,
-   "width": 107,
+   "x": -134,
+   "y": 1752,
+   "width": 155,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/motorcycles_c81",
-   "label": "Bikes & Motorcycles"
+   "href": "https://www.olx.com.pk/dha-defence_g9/atv-quads_c1953",
+   "label": "ATV & Quads in DHA Defence"
   },
   {
-   "x": -583,
-   "y": 1842,
-   "width": 28,
+   "x": -283,
+   "y": 1752,
+   "width": 120,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/atv-quads_c1953",
+   "label": "ATV & Quads in Lahore"
+  },
+  {
+   "x": -381,
+   "y": 1752,
+   "width": 69,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/atv-quads_c1953",
+   "label": "ATV & Quads"
+  },
+  {
+   "x": -437,
+   "y": 1752,
+   "width": 27,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/bikes_c1898",
    "label": "Bikes"
   },
   {
-   "x": -645,
-   "y": 1842,
-   "width": 32,
+   "x": -500,
+   "y": 1752,
+   "width": 34,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -429,16 +343,16 @@
   },
   {
    "x": 16,
-   "y": 2208,
+   "y": 2118,
    "width": 84,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
    "x": 113,
-   "y": 2275,
+   "y": 2185,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -447,7 +361,7 @@
   },
   {
    "x": 157,
-   "y": 2275,
+   "y": 2185,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -456,7 +370,7 @@
   },
   {
    "x": 201,
-   "y": 2275,
+   "y": 2185,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -465,7 +379,7 @@
   },
   {
    "x": 245,
-   "y": 2275,
+   "y": 2185,
    "width": 32,
    "height": 41,
    "kind": "link",

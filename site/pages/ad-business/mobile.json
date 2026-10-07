@@ -2,14 +2,14 @@
  "id": "ad-business",
  "title": "Ad: Business, Industrial & Agriculture",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
- "finalUrl": "https://www.olx.com.pk/item/rackspharmacy-racks-cash-counter-wall-rack-store-rack-trolleys-iid-1110435560",
+ "url": "https://www.olx.com.pk/item/sign-board-design-3d-sign-board-installation-acrylic-led-signs-iid-1114460739",
+ "finalUrl": "https://www.olx.com.pk/item/sign-board-design-3d-sign-board-installation-acrylic-led-signs-iid-1114460739",
  "width": 390,
- "height": 2114,
+ "height": 2060,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:02:47.563Z",
+ "captured": "2026-10-07T14:11:41.423Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -45,8 +45,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "04-description-we-deal-in-all-kinds-of-rack",
-   "name": "Description · We deal in all kinds of Racks · Ra",
+   "file": "04-description-ms-signs-customized-acrylic-",
+   "name": "Description · MS Signs , Customized Acrylic LED ",
    "rect": {
     "x": 0,
     "y": 489,
@@ -62,16 +62,16 @@
     "x": 0,
     "y": 630,
     "width": 390,
-    "height": 181
+    "height": 187
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
   },
   {
-   "file": "06-related-ads-rs-8-500-racks-pharmacy-rack",
-   "name": "Related ads · Rs 8,500 · Racks/ Pharmacy rack/ S",
+   "file": "06-related-ads-rs-1-900-dustbin-wastebins-t",
+   "name": "Related ads · Rs 1,900 · Dustbin/wastebins/Trash",
    "rect": {
     "x": 0,
-    "y": 850,
+    "y": 836,
     "width": 390,
     "height": 371
    },
@@ -82,18 +82,18 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1240,
+    "y": 1206,
     "width": 390,
     "height": 236
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
   },
   {
-   "file": "08-other-business-and-industry-in-township-",
-   "name": "Other Business & Industry in Township · Other Bu",
+   "file": "08-other-business-and-industry-in-saddar-ot",
+   "name": "Other Business & Industry in Saddar · Other Busi",
    "rect": {
     "x": 8,
-    "y": 1523,
+    "y": 1469,
     "width": 374,
     "height": 27
    },
@@ -104,7 +104,7 @@
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1549,
+    "y": 1495,
     "width": 390,
     "height": 47
    },
@@ -115,7 +115,7 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1595,
+    "y": 1541,
     "width": 390,
     "height": 519
    },
@@ -126,7 +126,7 @@
    "name": "Chat · Call",
    "rect": {
     "x": 0,
-    "y": 2049,
+    "y": 1995,
     "width": 390,
     "height": 65
    },
@@ -199,110 +199,6 @@
    "label": ""
   },
   {
-   "x": 2340,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2730,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3120,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3510,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3900,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4290,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4680,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5070,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5460,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5850,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6240,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6630,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 7020,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
    "x": 16,
    "y": 589,
    "width": 358,
@@ -314,67 +210,67 @@
    "x": 20,
    "y": 642,
    "width": 354,
-   "height": 119,
+   "height": 125,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/0b0e3e3b-4888-48c0-8d0f-81d341bc3e10",
-   "label": "Posted bySalman Racks Shop Member Since2022Active Ads15"
+   "href": "https://www.olx.com.pk/profile/7492d659-863e-4548-8e0a-327234f1070a",
+   "label": "Posted bySeller nameMember Since2021Active Ads1"
   },
   {
-   "x": 142,
-   "y": 774,
-   "width": 110,
+   "x": 141,
+   "y": 780,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 885,
+   "y": 871,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/racks-pharmacy-rack-super-store-rack-wharehouse-rack-wall-rack-iid-1105138406",
+   "href": "https://www.olx.com.pk/item/dustbinwastebinstrash-binswheelbinwaste-trolley-at-wholesale-pric-iid-1116715066",
    "label": "Listing"
   },
   {
    "x": 243,
-   "y": 885,
+   "y": 871,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/display-rack-storage-rack-grocery-racks-pharmacy-racks-industrial-iid-1104886865",
+   "href": "https://www.olx.com.pk/item/durableseamless-plastic-palletslightweight-and-strong-plastic-palle-iid-1116781537",
    "label": "Listing"
   },
   {
    "x": 470,
-   "y": 885,
+   "y": 871,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/heavy-duity-rack-bulk-rack-industrial-rack-shopping-trolley-basket-iid-1101612327",
+   "href": "https://www.olx.com.pk/item/durableseamless-plastic-palletslightweight-and-strong-plastic-pallet-iid-1116736340",
    "label": "Listing"
   },
   {
    "x": 697,
-   "y": 885,
+   "y": 871,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/heavy-duty-rackstorage-rackangle-rackwarehouse-rackssteel-racks-iid-1102084269",
+   "href": "https://www.olx.com.pk/item/signboard-3dsignboard-acrylic-signboard-stainless-steel-signboard-iid-1117466523",
    "label": "Listing"
   },
   {
    "x": 924,
-   "y": 885,
+   "y": 871,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/super-market-racks-pharmacy-racks-industry-racks-warehouse-racks-iid-1117581701",
+   "href": "https://www.olx.com.pk/item/3d-signboard-backlit-panaflex-signboard-neon-sign-sign-board-iid-1117468127",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2062,
+   "y": 2008,
    "width": 114,
    "height": 40,
    "kind": "button",
@@ -382,7 +278,7 @@
   },
   {
    "x": 138,
-   "y": 2062,
+   "y": 2008,
    "width": 114,
    "height": 40,
    "kind": "button",
@@ -390,52 +286,61 @@
   },
   {
    "x": 260,
-   "y": 2062,
+   "y": 2008,
    "width": 114,
    "height": 40,
    "kind": "button",
    "label": "Call"
   },
   {
-   "x": 178,
-   "y": 1528,
-   "width": 204,
+   "x": 198,
+   "y": 1474,
+   "width": 184,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/township_g5000078/other-business-industry_c2000",
-   "label": "Other Business & Industry in Township"
+   "href": "https://www.olx.com.pk/saddar_g1000000000000418/other-business-industry_c2000",
+   "label": "Other Business & Industry in Saddar"
   },
   {
-   "x": -41,
-   "y": 1528,
-   "width": 189,
+   "x": -47,
+   "y": 1474,
+   "width": 216,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/other-business-industry_c2000",
-   "label": "Other Business & Industry in Lahore"
+   "href": "https://www.olx.com.pk/saddar-town_g5000238/other-business-industry_c2000",
+   "label": "Other Business & Industry in Saddar Town"
   },
   {
-   "x": -208,
-   "y": 1528,
-   "width": 137,
+   "x": -262,
+   "y": 1474,
+   "width": 186,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/other-business-industry_c2000",
+   "label": "Other Business & Industry in Karachi"
+  },
+  {
+   "x": -424,
+   "y": 1474,
+   "width": 133,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/other-business-industry_c2000",
    "label": "Other Business & Industry"
   },
   {
-   "x": -413,
-   "y": 1528,
-   "width": 175,
+   "x": -619,
+   "y": 1474,
+   "width": 166,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/business-industrial-agriculture_c1981",
    "label": "Business, Industrial & Agriculture"
   },
   {
-   "x": -475,
-   "y": 1528,
-   "width": 32,
+   "x": -682,
+   "y": 1474,
+   "width": 34,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -443,7 +348,7 @@
   },
   {
    "x": 16,
-   "y": 1894,
+   "y": 1840,
    "width": 84,
    "height": 33,
    "kind": "link",
@@ -452,7 +357,7 @@
   },
   {
    "x": 113,
-   "y": 1961,
+   "y": 1907,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -461,7 +366,7 @@
   },
   {
    "x": 157,
-   "y": 1961,
+   "y": 1907,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -470,7 +375,7 @@
   },
   {
    "x": 201,
-   "y": 1961,
+   "y": 1907,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -479,7 +384,7 @@
   },
   {
    "x": 245,
-   "y": 1961,
+   "y": 1907,
    "width": 32,
    "height": 41,
    "kind": "link",

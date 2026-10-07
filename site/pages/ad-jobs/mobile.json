@@ -2,14 +2,14 @@
  "id": "ad-jobs",
  "title": "Ad: Jobs",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/expert-auto-transport-dispatcher-pkr-40000-commission-iid-1119702932",
- "finalUrl": "https://www.olx.com.pk/item/expert-auto-transport-dispatcher-pkr-40000-commission-iid-1119702932",
+ "url": "https://www.olx.com.pk/item/sales-executive-iid-1120136260",
+ "finalUrl": "https://www.olx.com.pk/item/sales-executive-iid-1120136260",
  "width": 390,
- "height": 2136,
+ "height": 1991,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:04:08.053Z",
+ "captured": "2026-10-07T14:12:51.464Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -29,7 +29,7 @@
     "x": 0,
     "y": 294,
     "width": 390,
-    "height": 141
+    "height": 117
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
@@ -38,7 +38,7 @@
    "name": "div",
    "rect": {
     "x": 0,
-    "y": 435,
+    "y": 411,
     "width": 390,
     "height": 50
    },
@@ -49,18 +49,18 @@
    "name": "Details",
    "rect": {
     "x": 0,
-    "y": 485,
+    "y": 461,
     "width": 390,
     "height": 315
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-description-autech-enterprises-is-hiring",
-   "name": "Description · AUtech Enterprises is Hiring! · We",
+   "file": "05-description-we-are-looking-to-hire-a-sal",
+   "name": "Description · We are looking to hire a sales exe",
    "rect": {
     "x": 0,
-    "y": 820,
+    "y": 796,
     "width": 390,
     "height": 121
    },
@@ -71,7 +71,7 @@
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 0,
-    "y": 961,
+    "y": 937,
     "width": 390,
     "height": 181
    },
@@ -82,18 +82,18 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1201,
+    "y": 1137,
     "width": 390,
     "height": 236
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
   },
   {
-   "file": "08-customer-service-jobs-in-pak-arab-housin",
-   "name": "Customer Service Jobs in Pak Arab Housing Societ",
+   "file": "08-sales-jobs-in-federal-b-area-block-16-sa",
+   "name": "Sales Jobs in Federal B Area - Block 16 · Sales ",
    "rect": {
     "x": 8,
-    "y": 1484,
+    "y": 1400,
     "width": 374,
     "height": 26
    },
@@ -104,7 +104,7 @@
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1509,
+    "y": 1425,
     "width": 390,
     "height": 47
    },
@@ -115,18 +115,18 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1555,
+    "y": 1471,
     "width": 390,
     "height": 520
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "11-chat",
-   "name": "Chat",
+   "file": "11-chat-call",
+   "name": "Chat · Call",
    "rect": {
     "x": 0,
-    "y": 2071,
+    "y": 1926,
     "width": 390,
     "height": 65
    },
@@ -152,24 +152,24 @@
   },
   {
    "x": 171,
-   "y": 740,
+   "y": 678,
    "width": 190,
    "height": 21,
    "kind": "link",
-   "href": "https://www.olx.com.pk/customer-service_c164/q-mid-senior-level-customer-service",
+   "href": "https://www.olx.com.pk/sales_c62/q-mid-senior-level-sales",
    "label": "Mid-Senior Level"
   },
   {
-   "x": 142,
-   "y": 778,
-   "width": 106,
+   "x": 143,
+   "y": 754,
+   "width": 104,
    "height": 26,
    "kind": "button",
-   "label": "View +3 more"
+   "label": "View +2 more"
   },
   {
    "x": 16,
-   "y": 920,
+   "y": 896,
    "width": 358,
    "height": 21,
    "kind": "button",
@@ -177,69 +177,86 @@
   },
   {
    "x": 20,
-   "y": 973,
+   "y": 949,
    "width": 354,
    "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/7be29f86-4cdf-4185-8c10-76c437cf1bb0",
-   "label": "Posted byAhmad Qaisar Member Since2018Active Ads1"
+   "href": "https://www.olx.com.pk/profile/3068bfea-83f4-4b91-8f87-92bc300a7597",
+   "label": "Posted bySeller nameMember Since2018Active Ads1"
   },
   {
-   "x": 142,
-   "y": 1105,
-   "width": 110,
+   "x": 141,
+   "y": 1081,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 2084,
-   "width": 358,
+   "y": 1939,
+   "width": 175,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 111,
-   "y": 1488,
-   "width": 271,
-   "height": 16,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/pak-arab-housing-society_g5000701/customer-service_c164",
-   "label": "Customer Service Jobs in Pak Arab Housing Society"
+   "x": 199,
+   "y": 1939,
+   "width": 175,
+   "height": 40,
+   "kind": "button",
+   "label": "Call"
   },
   {
-   "x": -91,
-   "y": 1488,
-   "width": 172,
+   "x": 187,
+   "y": 1404,
+   "width": 195,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/customer-service_c164",
-   "label": "Customer Service Jobs in Lahore"
+   "href": "https://www.olx.com.pk/karachi-federal-b-area-block-16_g6700/sales_c62",
+   "label": "Sales Jobs in Federal B Area - Block 16"
   },
   {
-   "x": -241,
-   "y": 1488,
-   "width": 120,
+   "x": 15,
+   "y": 1404,
+   "width": 143,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/customer-service_c164",
-   "label": "Customer Service Jobs"
+   "href": "https://www.olx.com.pk/federal-b-area_g5001513/sales_c62",
+   "label": "Sales Jobs in Federal B Area"
   },
   {
-   "x": -294,
-   "y": 1488,
-   "width": 23,
+   "x": -121,
+   "y": 1404,
+   "width": 107,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/sales_c62",
+   "label": "Sales Jobs in Karachi"
+  },
+  {
+   "x": -204,
+   "y": 1404,
+   "width": 54,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sales_c62",
+   "label": "Sales Jobs"
+  },
+  {
+   "x": -258,
+   "y": 1404,
+   "width": 25,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
    "label": "Jobs"
   },
   {
-   "x": -356,
-   "y": 1488,
-   "width": 32,
+   "x": -320,
+   "y": 1404,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -247,7 +264,7 @@
   },
   {
    "x": 16,
-   "y": 1854,
+   "y": 1770,
    "width": 84,
    "height": 34,
    "kind": "link",
@@ -256,7 +273,7 @@
   },
   {
    "x": 113,
-   "y": 1921,
+   "y": 1837,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -265,7 +282,7 @@
   },
   {
    "x": 157,
-   "y": 1921,
+   "y": 1837,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -274,7 +291,7 @@
   },
   {
    "x": 201,
-   "y": 1921,
+   "y": 1837,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -283,7 +300,7 @@
   },
   {
    "x": 245,
-   "y": 1921,
+   "y": 1837,
    "width": 32,
    "height": 41,
    "kind": "link",

@@ -2,14 +2,14 @@
  "id": "ad-electronics",
  "title": "Ad: Electronics & Home Appliances",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/hp-elitebook-ryzen-7-4750u-16gb-512gb-nvme-fhd-ips-fingerprint-iid-1119799864",
- "finalUrl": "https://www.olx.com.pk/item/hp-elitebook-ryzen-7-4750u-16gb-512gb-nvme-fhd-ips-fingerprint-iid-1119799864",
+ "url": "https://www.olx.com.pk/item/gaming-pc-i5-12400frtx-3060-ti-8gb24gb-ram-1tb-nvme-z690-wifi-iid-1119617909",
+ "finalUrl": "https://www.olx.com.pk/item/gaming-pc-i5-12400frtx-3060-ti-8gb24gb-ram-1tb-nvme-z690-wifi-iid-1119617909",
  "width": 1440,
- "height": 4040,
+ "height": 2988,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:00:59.541Z",
+ "captured": "2026-10-07T14:10:07.684Z",
  "sections": [
   {
    "file": "01-header",
@@ -34,145 +34,112 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "03-home-electronics-and-home-appliances-lap",
-   "name": "Home · Electronics & Home Appliances · Laptops",
+   "file": "03-home-electronics-and-home-appliances-com",
+   "name": "Home · Electronics & Home Appliances · Computers",
    "rect": {
     "x": 80,
     "y": 193,
     "width": 1280,
-    "height": 26
+    "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "04-div",
-   "name": "div",
-   "rect": {
-    "x": 80,
-    "y": 250,
-    "width": 1280,
-    "height": 251
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
-  },
-  {
-   "file": "05-gallery",
+   "file": "04-gallery",
    "name": "Gallery",
    "rect": {
     "x": 80,
-    "y": 532,
+    "y": 303,
     "width": 820,
     "height": 481
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "06-posted-by-seller-name-member-since",
+   "file": "05-posted-by-seller-name-member-since",
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 940,
-    "y": 532,
+    "y": 303,
     "width": 420,
-    "height": 495
+    "height": 311
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
   {
-   "file": "07-overview",
+   "file": "06-overview",
    "name": "Overview",
    "rect": {
     "x": 80,
-    "y": 1052,
+    "y": 823,
     "width": 820,
     "height": 116
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "08-details",
+   "file": "07-details",
    "name": "Details",
    "rect": {
     "x": 80,
-    "y": 1207,
+    "y": 978,
     "width": 820,
-    "height": 162
+    "height": 80
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "09-description",
+   "file": "08-description",
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1408,
+    "y": 1097,
     "width": 820,
-    "height": 27
+    "height": 641
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "10-hp-elitebook-ryzen-7-pro-8-core-performa",
-   "name": "**HP ELITEBOOK RYZEN 7 PRO — 8-CORE PERFORMANCE!",
-   "rect": {
-    "x": 80,
-    "y": 1451,
-    "width": 777,
-    "height": 1217
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(1)"
-  },
-  {
-   "file": "11-more-pictures-and-videos-available-visit",
-   "name": "**More Pictures & Videos Available** · Visit the",
-   "rect": {
-    "x": 80,
-    "y": 2695,
-    "width": 463,
-    "height": 93
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(3)"
-  },
-  {
-   "file": "12-related-ads",
+   "file": "09-related-ads",
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 2830,
+    "y": 1777,
     "width": 820,
     "height": 459
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "13-your-safety-matters-to-us-only-meet-in-p",
+   "file": "10-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 3328,
+    "y": 2275,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "14-find-amazing-deals-on-the-go-download-ol",
+   "file": "11-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 3522,
+    "y": 2469,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "15-footer",
+   "file": "12-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 3694,
+    "y": 2641,
     "width": 1440,
-    "height": 346
+    "height": 347
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   }
@@ -199,7 +166,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -246,7 +213,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -255,7 +222,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -264,16 +231,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -282,7 +249,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -291,18 +258,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -318,53 +285,71 @@
    "label": "Home"
   },
   {
-   "x": 149,
+   "x": 148,
    "y": 196,
-   "width": 195,
+   "width": 191,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/electronics-home-appliances_c99",
    "label": "Electronics & Home Appliances"
   },
   {
-   "x": 374,
+   "x": 368,
    "y": 196,
-   "width": 50,
+   "width": 158,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/laptops_c708203",
-   "label": "Laptops"
+   "href": "https://www.olx.com.pk/computers-accessories_c443",
+   "label": "Computers & Accessories"
   },
   {
-   "x": 454,
+   "x": 555,
    "y": 196,
-   "width": 132,
+   "width": 75,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad_g4060615/laptops_c708203",
-   "label": "Laptops in Islamabad"
+   "href": "https://www.olx.com.pk/gaming-pcs_c708202",
+   "label": "Gaming PCs"
   },
   {
-   "x": 616,
+   "x": 659,
    "y": 196,
-   "width": 95,
+   "width": 162,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/h-13_g5001031/laptops_c708203",
-   "label": "Laptops in H-13"
+   "href": "https://www.olx.com.pk/gujranwala_g4060662/gaming-pcs_c708202",
+   "label": "Gaming PCs in Gujranwala"
   },
   {
-   "x": 741,
+   "x": 850,
    "y": 196,
-   "width": 95,
+   "width": 191,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/h-13_g5001031/laptops_c708203",
-   "label": "Laptops in H-13"
+   "href": "https://www.olx.com.pk/eminabad-more_g10072/gaming-pcs_c708202",
+   "label": "Gaming PCs in Eminabad More"
+  },
+  {
+   "x": 1070,
+   "y": 196,
+   "width": 186,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala-royal-palm-city_g11297/gaming-pcs_c708202",
+   "label": "Gaming PCs in Royal Palm City"
+  },
+  {
+   "x": 80,
+   "y": 219,
+   "width": 135,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gujranwala-royal-palm-city_g11297/msi-gaming-pcs_c708202?filter=brand_eq_msi",
+   "label": "MSI in Royal Palm City"
   },
   {
    "x": 832,
-   "y": 1228,
+   "y": 519,
    "width": 48,
    "height": 49,
    "kind": "button",
@@ -372,7 +357,7 @@
   },
   {
    "x": 80,
-   "y": 1012,
+   "y": 303,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -380,7 +365,7 @@
   },
   {
    "x": 900,
-   "y": 1012,
+   "y": 303,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -388,15 +373,73 @@
   },
   {
    "x": 1720,
-   "y": 1012,
+   "y": 303,
    "width": 820,
    "height": 481,
    "kind": "button",
    "label": ""
   },
   {
+   "x": 2540,
+   "y": 303,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 3360,
+   "y": 303,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 4180,
+   "y": 303,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5000,
+   "y": 303,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 5820,
+   "y": 303,
+   "width": 820,
+   "height": 481,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 249,
+   "y": 1028,
+   "width": 213,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gaming-pcs_c708202/q-msi-gaming-pcs",
+   "label": "MSI"
+  },
+  {
+   "x": 659,
+   "y": 1028,
+   "width": 213,
+   "height": 22,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/gaming-pcs_c708202/q-used-gaming-pcs",
+   "label": "Used"
+  },
+  {
    "x": 60,
-   "y": 3060,
+   "y": 2007,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -404,142 +447,43 @@
   },
   {
    "x": 80,
-   "y": 2872,
+   "y": 1819,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/think-pad-t490-iid-1116038443",
+   "href": "https://www.olx.com.pk/item/gaming-pc-i5-12400frtx-3060-ti-8gb24gb-ram-1tb-nvme-z690-wifi-iid-1119616837",
    "label": "Listing"
   },
   {
    "x": 357,
-   "y": 2872,
+   "y": 1819,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/dell-latitude-7420-14-fhd-core-i7-11th-gen-16512gb-iid-1119865842",
+   "href": "https://www.olx.com.pk/item/gaming-pc-i5-12400frtx-3060-ti-8gb24gb-ram-1tb-nvme-z690-wifi-iid-1119613993",
    "label": "Listing"
   },
   {
    "x": 634,
-   "y": 2872,
+   "y": 1819,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/hp-15s-fq5xxx-series-core-i7-12th-gen-16gb-ram-512gb-ssd-154-iid-1119863907",
+   "href": "https://www.olx.com.pk/item/full-high-end-rgb-gaming-setup-gaming-pc-with-3080-and-ryzen-5-5600x-iid-1119582425",
    "label": "Listing"
   },
   {
    "x": 900,
-   "y": 2872,
+   "y": 1819,
    "width": 266,
    "height": 415,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-t14-i7-10th-gen-16gb-ram-256gb-ssd-ips-touch-screen-iid-1116074186",
-   "label": "Listing"
-  },
-  {
-   "x": 1177,
-   "y": 2872,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/laptop-dell-xps-laptop13-9365-2-in-1core-i5-7y758gb-ram256gb-iid-1094454657",
-   "label": "Listing"
-  },
-  {
-   "x": 1454,
-   "y": 2872,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/laptop-hp-z-book-firefly-14-iid-1119860982",
-   "label": "Listing"
-  },
-  {
-   "x": 1720,
-   "y": 2872,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/laptop-hp-840-g6-iid-1119860851",
-   "label": "Listing"
-  },
-  {
-   "x": 1997,
-   "y": 2872,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/hp-probook-450-g7-core-i5-10th-generation-iid-1119856727",
-   "label": "Listing"
-  },
-  {
-   "x": 2274,
-   "y": 2872,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/hp-elite-book-840-g6-core-i5-8th-generation-iid-1117427070",
-   "label": "Listing"
-  },
-  {
-   "x": 2540,
-   "y": 2872,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/dell-5330-i5-12th-16256-iid-1119837495",
-   "label": "Listing"
-  },
-  {
-   "x": 2817,
-   "y": 2872,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/microsoft-surface-laptop-4-core-i7-11th-gen-16gb-256gb-iid-1119856355",
-   "label": "Listing"
-  },
-  {
-   "x": 3094,
-   "y": 2872,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/lenovo-t14s-1010-iid-1119856316",
-   "label": "Listing"
-  },
-  {
-   "x": 3360,
-   "y": 2872,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/asus-rog-strix-g17-gaming-beast-laptopwhatsapp-03XX-XXXXXXX-iid-1119855392",
-   "label": "Listing"
-  },
-  {
-   "x": 3637,
-   "y": 2872,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/laptop-dell-precision-3540-iid-1119842135",
-   "label": "Listing"
-  },
-  {
-   "x": 3914,
-   "y": 2872,
-   "width": 266,
-   "height": 415,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/hp-zbook-g8-firefly-i5-11th-gen-1010-new-iid-1119845488",
+   "href": "https://www.olx.com.pk/item/4k-high-end-gaming-pc-rtx-3080-with-mini-led-ryzen-5-5600x-iid-1118129567",
    "label": "Listing"
   },
   {
    "x": 880,
-   "y": 3060,
+   "y": 2007,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -547,16 +491,16 @@
   },
   {
    "x": 940,
-   "y": 532,
+   "y": 303,
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/9824fee9-aefd-4104-ba4a-9b524df52862",
-   "label": "Posted byCAPTECH LAPTOP STORE Member Since2025Active Ads57"
+   "href": "https://www.olx.com.pk/profile/0b3b8e46-0794-4a0f-877c-0b2dfa1d3598",
+   "label": "Posted bySeller nameMember Since2017Active Ads4"
   },
   {
    "x": 940,
-   "y": 689,
+   "y": 460,
    "width": 420,
    "height": 49,
    "kind": "button",
@@ -564,31 +508,23 @@
   },
   {
    "x": 940,
-   "y": 753,
+   "y": 524,
    "width": 420,
    "height": 49,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 940,
-   "y": 817,
-   "width": 420,
-   "height": 49,
-   "kind": "button",
-   "label": "WhatsApp"
-  },
-  {
-   "x": 1236,
-   "y": 877,
-   "width": 124,
+   "x": 1235,
+   "y": 584,
+   "width": 125,
    "height": 30,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 960,
-   "y": 3604,
+   "y": 2551,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -597,7 +533,7 @@
   },
   {
    "x": 1096,
-   "y": 3604,
+   "y": 2551,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -606,7 +542,7 @@
   },
   {
    "x": 1232,
-   "y": 3604,
+   "y": 2551,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -615,7 +551,7 @@
   },
   {
    "x": 80,
-   "y": 3802,
+   "y": 2749,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -624,7 +560,7 @@
   },
   {
    "x": 80,
-   "y": 3834,
+   "y": 2781,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -633,7 +569,7 @@
   },
   {
    "x": 80,
-   "y": 3866,
+   "y": 2813,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -642,8 +578,8 @@
   },
   {
    "x": 80,
-   "y": 3898,
-   "width": 33,
+   "y": 2845,
+   "width": 32,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
@@ -651,8 +587,8 @@
   },
   {
    "x": 351,
-   "y": 3802,
-   "width": 36,
+   "y": 2749,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -660,7 +596,7 @@
   },
   {
    "x": 351,
-   "y": 3834,
+   "y": 2781,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -669,8 +605,8 @@
   },
   {
    "x": 351,
-   "y": 3866,
-   "width": 44,
+   "y": 2813,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -678,7 +614,7 @@
   },
   {
    "x": 351,
-   "y": 3898,
+   "y": 2845,
    "width": 37,
    "height": 19,
    "kind": "link",
@@ -687,8 +623,8 @@
   },
   {
    "x": 622,
-   "y": 3802,
-   "width": 66,
+   "y": 2749,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -696,8 +632,8 @@
   },
   {
    "x": 622,
-   "y": 3834,
-   "width": 78,
+   "y": 2781,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -705,8 +641,8 @@
   },
   {
    "x": 622,
-   "y": 3866,
-   "width": 134,
+   "y": 2813,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -714,8 +650,8 @@
   },
   {
    "x": 893,
-   "y": 3802,
-   "width": 33,
+   "y": 2749,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -723,7 +659,7 @@
   },
   {
    "x": 893,
-   "y": 3834,
+   "y": 2781,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -732,8 +668,8 @@
   },
   {
    "x": 893,
-   "y": 3866,
-   "width": 90,
+   "y": 2813,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -741,8 +677,8 @@
   },
   {
    "x": 893,
-   "y": 3898,
-   "width": 92,
+   "y": 2845,
+   "width": 95,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
@@ -750,7 +686,7 @@
   },
   {
    "x": 1164,
-   "y": 3799,
+   "y": 2746,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -759,7 +695,7 @@
   },
   {
    "x": 1216,
-   "y": 3799,
+   "y": 2746,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -768,7 +704,7 @@
   },
   {
    "x": 1268,
-   "y": 3799,
+   "y": 2746,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -777,7 +713,7 @@
   },
   {
    "x": 1320,
-   "y": 3799,
+   "y": 2746,
    "width": 40,
    "height": 41,
    "kind": "link",

@@ -2,14 +2,14 @@
  "id": "ad-furniture",
  "title": "Ad: Furniture & Home Decor",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/office-chairs-study-chairs-executive-chairs-computer-chairs-iid-1119242245",
- "finalUrl": "https://www.olx.com.pk/item/office-chairs-study-chairs-executive-chairs-computer-chairs-iid-1119242245",
+ "url": "https://www.olx.com.pk/item/6-seater-sofa-sofa-set-l-shape-sofa-corner-sofa-sofa-for-sale-iid-1120037099",
+ "finalUrl": "https://www.olx.com.pk/item/6-seater-sofa-sofa-set-l-shape-sofa-corner-sofa-sofa-for-sale-iid-1120037099",
  "width": 390,
- "height": 2258,
+ "height": 2186,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:05:43.464Z",
+ "captured": "2026-10-07T14:14:06.358Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -56,8 +56,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-description-chairs-price-starting-from-5",
-   "name": "Description · Chairs price starting from 5500 Rs",
+   "file": "05-description-6-seater-sofa-set-seats-in-m",
+   "name": "Description · 6 seater sofa set · seats in Maste",
    "rect": {
     "x": 0,
     "y": 621,
@@ -73,16 +73,16 @@
     "x": 0,
     "y": 762,
     "width": 390,
-    "height": 193
+    "height": 181
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
   },
   {
-   "file": "07-related-ads-rs-6-800-office-chair-revolv",
-   "name": "Related ads · Rs 6,800 · Office Chair, Revolving",
+   "file": "07-related-ads-rs-33-000-03xx-xxxxxxx",
+   "name": "Related ads · Rs 33,000 · 03XX-XXXXXXX",
    "rect": {
     "x": 0,
-    "y": 994,
+    "y": 962,
     "width": 390,
     "height": 371
    },
@@ -93,18 +93,18 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1384,
+    "y": 1332,
     "width": 390,
     "height": 236
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
   },
   {
-   "file": "09-office-chairs-in-raiwind-road-office-cha",
-   "name": "Office Chairs in Raiwind Road · Office Chairs in",
+   "file": "09-sofas-in-saddar-sofas-in-cantt-sofas-in-",
+   "name": "Sofas in Saddar · Sofas in Cantt · Sofas in Laho",
    "rect": {
     "x": 8,
-    "y": 1667,
+    "y": 1595,
     "width": 374,
     "height": 27
    },
@@ -115,7 +115,7 @@
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1693,
+    "y": 1621,
     "width": 390,
     "height": 47
    },
@@ -126,7 +126,7 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1739,
+    "y": 1667,
     "width": 390,
     "height": 519
    },
@@ -137,7 +137,7 @@
    "name": "Chat · Call",
    "rect": {
     "x": 0,
-    "y": 2193,
+    "y": 2121,
     "width": 390,
     "height": 65
    },
@@ -186,140 +186,12 @@
    "label": ""
   },
   {
-   "x": 1170,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 1560,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 1950,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2340,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2730,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3120,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3510,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3900,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4290,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 4680,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5070,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5460,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 5850,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6240,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 6630,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 7020,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
    "x": 171,
    "y": 533,
    "width": 190,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/office-chairs_c707154/q-new-office-chairs",
+   "href": "https://www.olx.com.pk/sofas_c707116/q-new-sofas",
    "label": "New"
   },
   {
@@ -328,8 +200,8 @@
    "width": 190,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/office-chairs_c707154/q-computer-chairs",
-   "label": "Computer Chairs"
+   "href": "https://www.olx.com.pk/sofas_c707116/q-sofa-set",
+   "label": "Sofa Set"
   },
   {
    "x": 16,
@@ -343,67 +215,67 @@
    "x": 20,
    "y": 774,
    "width": 354,
-   "height": 131,
+   "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/companies/agency-7596",
-   "label": "Posted byBADAR OFFICE FURNITURE Member Since2023Active Ads27"
+   "href": "https://www.olx.com.pk/profile/51c29bad-48f5-4893-8865-ebdeaaa71fdf",
+   "label": "Posted bySeller nameMember Since2018Active Ads28"
   },
   {
-   "x": 142,
-   "y": 918,
-   "width": 110,
+   "x": 141,
+   "y": 906,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 1029,
+   "y": 997,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/office-chair-revolving-chair-mesh-chair-computer-chair-iid-1087960886",
+   "href": "https://www.olx.com.pk/item/03XX-XXXXXXX-iid-1117197320",
    "label": "Listing"
   },
   {
    "x": 243,
-   "y": 1029,
+   "y": 997,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/computer-chairs-call-center-chairs-staff-chairs-office-chairs-iid-1113318259",
+   "href": "https://www.olx.com.pk/item/i-sel-my-sofa-3-seater-black-colour-with-2-stool-pairs-iid-1120196289",
    "label": "Listing"
   },
   {
    "x": 470,
-   "y": 1029,
+   "y": 997,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/staff-chairs-office-chairs-iid-1119832301",
+   "href": "https://www.olx.com.pk/item/sofa-set-sofas-6-seater-sofas-furniture-03XX-XXXXXXX-iid-1120196098",
    "label": "Listing"
   },
   {
    "x": 697,
-   "y": 1029,
+   "y": 997,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/computer-chairs-office-chairs-chairs-for-sale-staff-chairs-iid-1113106574",
+   "href": "https://www.olx.com.pk/item/home-sofa-set-3-2-2s-7-sesters-white-color-iid-1115127104",
    "label": "Listing"
   },
   {
    "x": 924,
-   "y": 1029,
+   "y": 997,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/office-chairs-for-sale-iid-1118133172",
+   "href": "https://www.olx.com.pk/item/elegant-6-seater-sofa-set-comfortable-stylish-iid-1120168572",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2206,
+   "y": 2134,
    "width": 114,
    "height": 40,
    "kind": "button",
@@ -411,7 +283,7 @@
   },
   {
    "x": 138,
-   "y": 2206,
+   "y": 2134,
    "width": 114,
    "height": 40,
    "kind": "button",
@@ -419,61 +291,70 @@
   },
   {
    "x": 260,
-   "y": 2206,
+   "y": 2134,
    "width": 114,
    "height": 40,
    "kind": "button",
    "label": "Call"
   },
   {
-   "x": 224,
-   "y": 1672,
-   "width": 158,
+   "x": 302,
+   "y": 1600,
+   "width": 80,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/raiwind-road_g5000741/office-chairs_c707154",
-   "label": "Office Chairs in Raiwind Road"
+   "href": "https://www.olx.com.pk/saddar_g5000065/sofas_c707116",
+   "label": "Sofas in Saddar"
   },
   {
-   "x": 73,
-   "y": 1672,
-   "width": 121,
+   "x": 202,
+   "y": 1600,
+   "width": 71,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/office-chairs_c707154",
-   "label": "Office Chairs in Lahore"
+   "href": "https://www.olx.com.pk/cantt_g5000047/sofas_c707116",
+   "label": "Sofas in Cantt"
   },
   {
-   "x": -26,
-   "y": 1672,
+   "x": 94,
+   "y": 1600,
+   "width": 79,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/sofas_c707116",
+   "label": "Sofas in Lahore"
+  },
+  {
+   "x": 36,
+   "y": 1600,
+   "width": 29,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/sofas_c707116",
+   "label": "Sofas"
+  },
+  {
+   "x": -62,
+   "y": 1600,
    "width": 69,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/office-chairs_c707154",
-   "label": "Office Chairs"
+   "href": "https://www.olx.com.pk/sofa-chairs_c1593",
+   "label": "Sofa & Chairs"
   },
   {
-   "x": -141,
-   "y": 1672,
-   "width": 85,
-   "height": 16,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/office-furniture_c2028",
-   "label": "Office Furniture"
-  },
-  {
-   "x": -301,
-   "y": 1672,
-   "width": 130,
+   "x": -218,
+   "y": 1600,
+   "width": 127,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/furniture-home-decor_c628",
    "label": "Furniture & Home Decor"
   },
   {
-   "x": -363,
-   "y": 1672,
-   "width": 32,
+   "x": -280,
+   "y": 1600,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -481,7 +362,7 @@
   },
   {
    "x": 16,
-   "y": 2038,
+   "y": 1966,
    "width": 84,
    "height": 33,
    "kind": "link",
@@ -490,7 +371,7 @@
   },
   {
    "x": 113,
-   "y": 2105,
+   "y": 2033,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -499,7 +380,7 @@
   },
   {
    "x": 157,
-   "y": 2105,
+   "y": 2033,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -508,7 +389,7 @@
   },
   {
    "x": 201,
-   "y": 2105,
+   "y": 2033,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -517,7 +398,7 @@
   },
   {
    "x": 245,
-   "y": 2105,
+   "y": 2033,
    "width": 32,
    "height": 41,
    "kind": "link",

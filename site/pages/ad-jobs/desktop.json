@@ -2,14 +2,14 @@
  "id": "ad-jobs",
  "title": "Ad: Jobs",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/expert-auto-transport-dispatcher-pkr-40000-commission-iid-1119702932",
- "finalUrl": "https://www.olx.com.pk/item/expert-auto-transport-dispatcher-pkr-40000-commission-iid-1119702932",
+ "url": "https://www.olx.com.pk/item/sales-executive-iid-1120136260",
+ "finalUrl": "https://www.olx.com.pk/item/sales-executive-iid-1120136260",
  "width": 1440,
- "height": 3569,
+ "height": 2051,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T14:03:47.714Z",
+ "captured": "2026-10-07T14:12:34.565Z",
  "sections": [
   {
    "file": "01-header",
@@ -34,8 +34,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "03-home-jobs-customer-service-jobs",
-   "name": "Home · Jobs · Customer Service Jobs",
+   "file": "03-home-jobs-sales-jobs",
+   "name": "Home · Jobs · Sales Jobs",
    "rect": {
     "x": 80,
     "y": 193,
@@ -45,132 +45,88 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "04-div",
-   "name": "div",
-   "rect": {
-    "x": 80,
-    "y": 250,
-    "width": 1280,
-    "height": 251
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
-  },
-  {
-   "file": "05-gallery",
+   "file": "04-gallery",
    "name": "Gallery",
    "rect": {
     "x": 80,
-    "y": 532,
+    "y": 282,
     "width": 820,
     "height": 481
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "06-posted-by-seller-name-member-since",
+   "file": "05-posted-by-seller-name-member-since",
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 940,
-    "y": 532,
+    "y": 282,
     "width": 420,
-    "height": 367
+    "height": 311
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
   {
-   "file": "07-overview",
+   "file": "06-overview",
    "name": "Overview",
    "rect": {
     "x": 80,
-    "y": 1052,
+    "y": 802,
     "width": 820,
     "height": 92
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "08-details",
+   "file": "07-details",
    "name": "Details",
    "rect": {
     "x": 80,
-    "y": 1183,
+    "y": 933,
     "width": 820,
     "height": 213
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "09-description",
+   "file": "08-description",
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1435,
+    "y": 1185,
     "width": 820,
-    "height": 27
+    "height": 115
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "10-autech-enterprises-is-hiring-we-are-look",
-   "name": "AUtech Enterprises is Hiring! · We are looking f",
-   "rect": {
-    "x": 80,
-    "y": 1478,
-    "width": 746,
-    "height": 1289
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(1)"
-  },
-  {
-   "file": "11-chat-with-seller",
-   "name": "(Chat with seller)",
-   "rect": {
-    "x": 147,
-    "y": 2746,
-    "width": 92,
-    "height": 21
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(2)"
-  },
-  {
-   "file": "12-join-autech-enterprises-and-build-your-c",
-   "name": "Join AUtech Enterprises and build your career wi",
-   "rect": {
-    "x": 80,
-    "y": 2794,
-    "width": 377,
-    "height": 21
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4) > :nth-child(2) > :nth-child(3)"
-  },
-  {
-   "file": "13-your-safety-matters-to-us-only-meet-in-p",
+   "file": "09-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2857,
+    "y": 1339,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "14-find-amazing-deals-on-the-go-download-ol",
+   "file": "10-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 3051,
+    "y": 1533,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "15-footer",
+   "file": "11-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 3223,
+    "y": 1705,
     "width": 1440,
     "height": 346
    },
@@ -199,7 +155,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -246,7 +202,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -255,7 +211,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -264,16 +220,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -282,7 +238,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -291,18 +247,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -318,94 +274,111 @@
    "label": "Home"
   },
   {
-   "x": 149,
+   "x": 148,
    "y": 196,
-   "width": 29,
+   "width": 28,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
    "label": "Jobs"
   },
   {
-   "x": 208,
+   "x": 205,
    "y": 196,
-   "width": 141,
+   "width": 64,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/customer-service_c164",
-   "label": "Customer Service Jobs"
+   "href": "https://www.olx.com.pk/sales_c62",
+   "label": "Sales Jobs"
   },
   {
-   "x": 379,
+   "x": 298,
    "y": 196,
-   "width": 202,
+   "width": 125,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/customer-service_c164",
-   "label": "Customer Service Jobs in Lahore"
+   "href": "https://www.olx.com.pk/karachi_g4060695/sales_c62",
+   "label": "Sales Jobs in Karachi"
   },
   {
-   "x": 611,
+   "x": 452,
    "y": 196,
-   "width": 320,
+   "width": 169,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/pak-arab-housing-society_g5000701/customer-service_c164",
-   "label": "Customer Service Jobs in Pak Arab Housing Society"
+   "href": "https://www.olx.com.pk/federal-b-area_g5001513/sales_c62",
+   "label": "Sales Jobs in Federal B Area"
+  },
+  {
+   "x": 650,
+   "y": 196,
+   "width": 230,
+   "height": 19,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi-federal-b-area-block-16_g6700/sales_c62",
+   "label": "Sales Jobs in Federal B Area - Block 16"
   },
   {
    "x": 80,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
    "label": ""
   },
   {
-   "x": 659,
-   "y": 1336,
+   "x": 249,
+   "y": 1086,
    "width": 213,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/customer-service_c164/q-mid-senior-level-customer-service",
+   "href": "https://www.olx.com.pk/sales_c62/q-mid-senior-level-sales",
    "label": "Mid-Senior Level"
   },
   {
-   "x": 437,
-   "y": 1373,
-   "width": 106,
+   "x": 438,
+   "y": 1123,
+   "width": 104,
    "height": 27,
    "kind": "button",
-   "label": "View +3 more"
+   "label": "View +2 more"
   },
   {
    "x": 940,
-   "y": 532,
+   "y": 282,
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/7be29f86-4cdf-4185-8c10-76c437cf1bb0",
-   "label": "Posted byAhmad Qaisar Member Since2018Active Ads1"
+   "href": "https://www.olx.com.pk/profile/3068bfea-83f4-4b91-8f87-92bc300a7597",
+   "label": "Posted bySeller nameMember Since2018Active Ads1"
   },
   {
    "x": 940,
-   "y": 689,
+   "y": 439,
+   "width": 420,
+   "height": 49,
+   "kind": "button",
+   "label": "Show phone number"
+  },
+  {
+   "x": 940,
+   "y": 503,
    "width": 420,
    "height": 49,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 1236,
-   "y": 749,
-   "width": 124,
+   "x": 1235,
+   "y": 563,
+   "width": 125,
    "height": 30,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 960,
-   "y": 3133,
+   "y": 1615,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -414,7 +387,7 @@
   },
   {
    "x": 1096,
-   "y": 3133,
+   "y": 1615,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -423,7 +396,7 @@
   },
   {
    "x": 1232,
-   "y": 3133,
+   "y": 1615,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -432,7 +405,7 @@
   },
   {
    "x": 80,
-   "y": 3331,
+   "y": 1813,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -441,7 +414,7 @@
   },
   {
    "x": 80,
-   "y": 3363,
+   "y": 1845,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -450,7 +423,7 @@
   },
   {
    "x": 80,
-   "y": 3394,
+   "y": 1877,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -459,17 +432,17 @@
   },
   {
    "x": 80,
-   "y": 3426,
-   "width": 33,
-   "height": 19,
+   "y": 1909,
+   "width": 32,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
    "label": "Jobs"
   },
   {
    "x": 351,
-   "y": 3331,
-   "width": 36,
+   "y": 1813,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -477,7 +450,7 @@
   },
   {
    "x": 351,
-   "y": 3363,
+   "y": 1845,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -486,8 +459,8 @@
   },
   {
    "x": 351,
-   "y": 3394,
-   "width": 44,
+   "y": 1877,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -495,17 +468,17 @@
   },
   {
    "x": 351,
-   "y": 3426,
+   "y": 1909,
    "width": 37,
-   "height": 19,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/dogs_c139",
    "label": "Dogs"
   },
   {
    "x": 622,
-   "y": 3331,
-   "width": 66,
+   "y": 1813,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -513,8 +486,8 @@
   },
   {
    "x": 622,
-   "y": 3363,
-   "width": 78,
+   "y": 1845,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -522,8 +495,8 @@
   },
   {
    "x": 622,
-   "y": 3394,
-   "width": 134,
+   "y": 1877,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -531,8 +504,8 @@
   },
   {
    "x": 893,
-   "y": 3331,
-   "width": 33,
+   "y": 1813,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -540,7 +513,7 @@
   },
   {
    "x": 893,
-   "y": 3363,
+   "y": 1845,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -549,8 +522,8 @@
   },
   {
    "x": 893,
-   "y": 3394,
-   "width": 90,
+   "y": 1877,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -558,16 +531,16 @@
   },
   {
    "x": 893,
-   "y": 3426,
-   "width": 92,
-   "height": 19,
+   "y": 1909,
+   "width": 95,
+   "height": 18,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
    "label": "Privacy Policy"
   },
   {
    "x": 1164,
-   "y": 3328,
+   "y": 1810,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -576,7 +549,7 @@
   },
   {
    "x": 1216,
-   "y": 3328,
+   "y": 1810,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -585,7 +558,7 @@
   },
   {
    "x": 1268,
-   "y": 3328,
+   "y": 1810,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -594,7 +567,7 @@
   },
   {
    "x": 1320,
-   "y": 3328,
+   "y": 1810,
    "width": 40,
    "height": 41,
    "kind": "link",
