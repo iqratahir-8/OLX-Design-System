@@ -1,0 +1,52 @@
+{
+ "id": "account",
+ "title": "Log in or sign up",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "home",
+   "title": "Home",
+   "caption": "Tap Login (on mobile, the Account tab).",
+   "next": "Login",
+   "desktop": "site/pages/home/desktop.html",
+   "mobile": "site/pages/home/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "account-menu",
+   "title": "Account (logged out)",
+   "caption": "On mobile, the Account tab asks you to sign in.",
+   "next": "Login or Sign up",
+   "desktop": null,
+   "mobile": "site/pages/account-menu/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "login",
+   "title": "Login options",
+   "caption": "Choose how to log in.",
+   "next": "Login with Email",
+   "desktop": "site/pages/login/desktop.html",
+   "mobile": "site/pages/login/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "login-email",
+   "title": "Login with email",
+   "caption": "Log in with email.",
+   "next": null,
+   "desktop": "site/pages/login-email/desktop.html",
+   "mobile": "site/pages/login-email/mobile.html"
+  },
+  {
+   "step": 5,
+   "page": "signup",
+   "title": "Create an account",
+   "caption": "Or create an account.",
+   "next": null,
+   "desktop": "site/pages/signup/desktop.html",
+   "mobile": "site/pages/signup/mobile.html"
+  }
+ ]
+}

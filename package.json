@@ -28,12 +28,15 @@
     "capture:site": "node scripts/capture-site.mjs",
     "capture:logged-in": "node scripts/capture-logged-in.mjs",
     "prototype": "node scripts/build-prototype.mjs && echo 'Open http://localhost:6006/prototype/' && npx --yes serve -l 6006 .",
-    "build:publish": "node scripts/build-prototype.mjs && node scripts/extract-assets.mjs && node scripts/build-publish.mjs",
-    "assets": "node scripts/extract-assets.mjs"
+    "build:publish": "node scripts/build-prototype.mjs && node scripts/extract-assets.mjs && node scripts/build-catalog.mjs && node scripts/build-publish.mjs",
+    "assets": "node scripts/extract-assets.mjs",
+    "import:kit": "node scripts/import-kit.mjs",
+    "catalog": "node scripts/build-catalog.mjs"
   },
   "license": "UNLICENSED",
   "devDependencies": {
     "playwright": "^1.56.1",
-    "pngjs": "^7.0.0"
+    "pngjs": "^7.0.0",
+    "simple-icons": "^16.34.0"
   }
 }

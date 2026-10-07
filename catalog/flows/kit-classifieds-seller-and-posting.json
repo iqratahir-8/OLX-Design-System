@@ -1,0 +1,34 @@
+{
+ "id": "kit-classifieds-seller-and-posting",
+ "title": "Classifieds: Seller and posting",
+ "source": "design-kit",
+ "steps": [
+  {
+   "step": 1,
+   "page": "kit-classifieds-ad-detail",
+   "title": "Classifieds: Ad detail",
+   "caption": "Ad detail",
+   "next": "Seller profile (public)",
+   "desktop": "storybook/design-kit/templates/classifieds/desktop/ad-detail.html",
+   "mobile": "storybook/design-kit/templates/classifieds/mobile/ad-detail.html"
+  },
+  {
+   "step": 2,
+   "page": "kit-classifieds-seller-profile",
+   "title": "Classifieds: Seller profile (public)",
+   "caption": "Seller profile (public)",
+   "next": "Post an ad",
+   "desktop": "storybook/design-kit/templates/classifieds/desktop/seller-profile.html",
+   "mobile": "storybook/design-kit/templates/classifieds/mobile/seller-profile.html"
+  },
+  {
+   "step": 3,
+   "page": "kit-classifieds-post-ad",
+   "title": "Classifieds: Post an ad",
+   "caption": "Post an ad",
+   "next": null,
+   "desktop": "storybook/design-kit/templates/classifieds/desktop/post-ad.html",
+   "mobile": "storybook/design-kit/templates/classifieds/mobile/post-ad.html"
+  }
+ ]
+}

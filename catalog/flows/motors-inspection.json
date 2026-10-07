@@ -1,0 +1,16 @@
+{
+ "id": "motors-inspection",
+ "title": "Motors: book a car inspection",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors-inspection",
+   "title": "Motors: Car inspection",
+   "caption": "Book an OLX car inspection (the booking form is not submitted).",
+   "next": null,
+   "desktop": "site/pages/motors-inspection/desktop.html",
+   "mobile": "site/pages/motors-inspection/mobile.html"
+  }
+ ]
+}

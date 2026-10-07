@@ -1,0 +1,52 @@
+{
+ "id": "property-plots",
+ "title": "Property: find a plot in Lahore",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "property",
+   "title": "Property",
+   "caption": "The Property landing page.",
+   "next": null,
+   "desktop": "site/pages/property/desktop.html",
+   "mobile": "site/pages/property/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "prop-plots",
+   "title": "Property: Land & plots",
+   "caption": "Land and plots across Pakistan.",
+   "next": null,
+   "desktop": "site/pages/prop-plots/desktop.html",
+   "mobile": "site/pages/prop-plots/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "prop-residential-plots",
+   "title": "Property: Residential plots",
+   "caption": "Residential plots only.",
+   "next": null,
+   "desktop": "site/pages/prop-residential-plots/desktop.html",
+   "mobile": "site/pages/prop-residential-plots/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "prop-city-plots",
+   "title": "Property: Plots in Lahore",
+   "caption": "Plots in Lahore.",
+   "next": null,
+   "desktop": "site/pages/prop-city-plots/desktop.html",
+   "mobile": "site/pages/prop-city-plots/mobile.html"
+  },
+  {
+   "step": 5,
+   "page": "ad-plots",
+   "title": "Ad: Plot",
+   "caption": "A plot ad.",
+   "next": null,
+   "desktop": "site/pages/ad-plots/desktop.html",
+   "mobile": "site/pages/ad-plots/mobile.html"
+  }
+ ]
+}

@@ -12,7 +12,7 @@ import { cp, mkdir, readFile, rm, writeFile, readdir, stat } from 'node:fs/promi
 import { dirname, join } from 'node:path';
 
 const OUT = 'dist/book';
-const BUNDLE_BYTES = 2_500_000;
+const BUNDLE_BYTES = 6_000_000;
 // Where the book's "Open the Storybook" link goes. GitHub Pages serves the Storybook beside the book.
 const STORYBOOK_URL = process.env.BOOK_STORYBOOK_URL ?? 'https://claude.ai/artifact/HECRFGUbgvrpUDMQHkkLhy';
 
@@ -47,11 +47,12 @@ for (const f of [...(await walk('components')), ...(await walk('templates'))]) {
 const components = JSON.parse(await readFile('components/index.json', 'utf8'));
 for (const c of components.components) for (const f of [c.frame?.html, c.png, c.markup]) if (f) await copy(f);
 
-// Every captured screen: page HTML and screenshot, shared CSS, section bundles.
+// Every captured screen: screenshot, page HTML and section bundles, shared CSS.
 const data = JSON.parse(await readFile('prototype/data.json', 'utf8'));
 const css = new Set();
 let bundle = {}, bundleSize = 0, bundleNo = 0;
 const bundleFiles = [];
+let kitAssets = false;
 async function flush() {
   if (!bundleSize) return;
   const name = `site/sections/sections-${String(++bundleNo).padStart(2, '0')}.json`;
@@ -60,10 +61,38 @@ async function flush() {
   bundleFiles.push(name);
   bundle = {}; bundleSize = 0;
 }
+// Page HTML is packed into bundles as well, except pages the book renders as
+// component-state frames (it loads those by URL).
+const frames = new Set(components.components.map((c) => c.frame?.html).filter(Boolean));
+let pageBundle = {}, pageBundleSize = 0, pageBundleNo = 0;
+async function flushPages() {
+  if (!pageBundleSize) return;
+  const name = `site/pages-${String(++pageBundleNo).padStart(2, '0')}.json`;
+  await writeFile(join(OUT, name), JSON.stringify(pageBundle));
+  bundleFiles.push(name);
+  pageBundle = {}; pageBundleSize = 0;
+}
 for (const s of Object.values(data.pages)) {
-  const html = s.html.replace('../', ''), png = s.image.replace('../', '');
-  await copy(html); await copy(png);
-  for (const m of (await readFile(html, 'utf8')).matchAll(/href="(?:\.\.\/)+css\/([0-9a-f]+\.css)"/g)) css.add(m[1]);
+  const html = s.html.replace('../', '');
+  if (s.kit) {
+    // Design-kit pages stay files (their links between pages work as-is), with the
+    // kit's shared CSS and icons. Its fonts are licensed and not in the repo.
+    await copy(html);
+    if (!kitAssets) {
+      for (const f of await walk('storybook/design-kit/templates/_assets')) if (!f.includes('/fonts/')) await copy(f);
+      kitAssets = true;
+    }
+    continue;
+  }
+  await copy(s.image.replace('../', ''));
+  const pageText = await readFile(html, 'utf8');
+  if (frames.has(html)) await copy(html);
+  else {
+    if (pageBundleSize + pageText.length > BUNDLE_BYTES) await flushPages();
+    pageBundle[s.html] = pageText; pageBundleSize += pageText.length;
+    s.pageBundle = `../site/pages-${String(pageBundleNo + 1).padStart(2, '0')}.json`;
+  }
+  for (const m of pageText.matchAll(/href="(?:\.\.\/)+css\/([0-9a-f]+\.css)"/g)) css.add(m[1]);
   let size = 0;
   const secs = {};
   for (const sec of s.sections) {
@@ -76,6 +105,7 @@ for (const s of Object.values(data.pages)) {
   s.bundle = `../site/sections/sections-${String(bundleNo + 1).padStart(2, '0')}.json`;
 }
 await flush();
+await flushPages();
 for (const f of css) await copy(`site/css/${f}`);
 
 // Icons, illustrations and images: one bundle of data URIs (the repo keeps them as separate files).

@@ -43,11 +43,43 @@ export interface PageFrameProps {
   origin?: string;
 }
 
+// The page at its real width, scaled down to fit the canvas when it is narrower;
+// it scrolls inside its own frame, like the real page.
+function FullStage({ url, width, title }: { url: string; width: number; title: string }) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [box, setBox] = useState({ w: width, h: 800 });
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return undefined;
+    const update = () => setBox({ w: el.clientWidth, h: el.clientHeight });
+    update();
+    const ro = new ResizeObserver(update);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
+  const scale = Math.min(1, box.w / width);
+  return (
+    <div className={styles.fullStage} ref={ref}>
+      <iframe className={styles.fullFrame} title={title} src={url}
+        style={{ width, height: box.h / scale, transform: `scale(${scale})`, transformOrigin: 'top center' }} />
+    </div>
+  );
+}
+
 export function PageFrame({ site, name, label, path, device = 'desktop', devices = ['desktop', 'mobile'], capturedAt, origin = 'https://www.olx.com.pk' }: PageFrameProps) {
   const { width, height } = SIZES[device];
   const { hostRef, scale } = useFitScale(width);
   const exists = devices.includes(device);
   const url = templateUrl(site, device, name);
+  // Full page opens over the canvas, not in a new tab: a new tab can't reach the
+  // file when Storybook is hosted inside another page (a published artifact).
+  const [full, setFull] = useState(false);
+  useEffect(() => {
+    if (!full) return undefined;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setFull(false); };
+    addEventListener('keydown', onKey);
+    return () => removeEventListener('keydown', onKey);
+  }, [full]);
 
   return (
     <div className={styles.root} ref={hostRef}>
@@ -57,7 +89,7 @@ export function PageFrame({ site, name, label, path, device = 'desktop', devices
         {path && <code className={styles.path}>{path}</code>}
         <span className={styles.spacer} />
         {capturedAt && <span>captured {capturedAt}</span>}
-        {exists && <a className={styles.link} href={url} target="_blank" rel="noreferrer">Open full page ↗</a>}
+        {exists && <button type="button" className={styles.linkButton} onClick={() => setFull(true)}>Full page ⤢</button>}
         {path && <a className={styles.link} href={origin + path} target="_blank" rel="noreferrer">Live page ↗</a>}
       </div>
       {!exists ? (
@@ -69,6 +101,18 @@ export function PageFrame({ site, name, label, path, device = 'desktop', devices
           </div>
           <p className={styles.hint}>Links to other pages in this kit work inside the frame; everything else opens the live site. Forms are inert — nothing can be submitted.</p>
         </>
+      )}
+      {full && exists && (
+        <div className={styles.full} role="dialog" aria-modal="true" aria-label={`${label ?? name}, full page`}>
+          <div className={styles.fullBar}>
+            <strong className={styles.title}>{label ?? name}</strong>
+            <span className={styles.badge} data-site={site}>{site}</span>
+            <span>{device} · {width}px wide</span>
+            <span className={styles.spacer} />
+            <button type="button" className={styles.linkButton} onClick={() => setFull(false)} autoFocus>Close (Esc)</button>
+          </div>
+          <FullStage url={url} width={width} title={`${label ?? name} — ${device}, full page`} />
+        </div>
       )}
     </div>
   );

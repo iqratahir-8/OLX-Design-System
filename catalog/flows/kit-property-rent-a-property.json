@@ -1,0 +1,34 @@
+{
+ "id": "kit-property-rent-a-property",
+ "title": "Property: Rent a property",
+ "source": "design-kit",
+ "steps": [
+  {
+   "step": 1,
+   "page": "property",
+   "title": "Property",
+   "caption": "Property",
+   "next": "Property for Rent",
+   "desktop": "site/pages/property/desktop.html",
+   "mobile": "site/pages/property/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "cat-property-for-rent",
+   "title": "Property for Rent",
+   "caption": "Property for Rent",
+   "next": "Property detail — rent",
+   "desktop": "site/pages/cat-property-for-rent/desktop.html",
+   "mobile": "site/pages/cat-property-for-rent/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "kit-property-property-detail-rent",
+   "title": "Property: Property detail — rent",
+   "caption": "Property detail — rent",
+   "next": null,
+   "desktop": "storybook/design-kit/templates/property/desktop/property-detail-rent.html",
+   "mobile": "storybook/design-kit/templates/property/mobile/property-detail-rent.html"
+  }
+ ]
+}

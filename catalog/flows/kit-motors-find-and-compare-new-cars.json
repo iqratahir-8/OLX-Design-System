@@ -1,0 +1,70 @@
+{
+ "id": "kit-motors-find-and-compare-new-cars",
+ "title": "Motors: Find and compare new cars",
+ "source": "design-kit",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors",
+   "title": "Motors",
+   "caption": "Motors",
+   "next": "New cars",
+   "desktop": "site/pages/motors/desktop.html",
+   "mobile": "site/pages/motors/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-new-cars",
+   "title": "Motors: New cars",
+   "caption": "New cars",
+   "next": "New sedans",
+   "desktop": "site/pages/motors-new-cars/desktop.html",
+   "mobile": "site/pages/motors-new-cars/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "motors-all-new-cars",
+   "title": "Motors: New sedans",
+   "caption": "New sedans",
+   "next": "Toyota Corolla",
+   "desktop": "site/pages/motors-all-new-cars/desktop.html",
+   "mobile": "site/pages/motors-all-new-cars/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "motors-model-corolla",
+   "title": "Motors: Toyota Corolla",
+   "caption": "Toyota Corolla",
+   "next": "Corolla Altis CVT 1.6",
+   "desktop": "site/pages/motors-model-corolla/desktop.html",
+   "mobile": "site/pages/motors-model-corolla/mobile.html"
+  },
+  {
+   "step": 5,
+   "page": "motors-version",
+   "title": "Motors: Corolla Altis CVT 1.6",
+   "caption": "Corolla Altis CVT 1.6",
+   "next": "Car comparison",
+   "desktop": "site/pages/motors-version/desktop.html",
+   "mobile": "site/pages/motors-version/mobile.html"
+  },
+  {
+   "step": 6,
+   "page": "motors-compare",
+   "title": "Motors: Car comparison",
+   "caption": "Car comparison",
+   "next": "Jaecoo J7 vs Kia Sportage",
+   "desktop": "site/pages/motors-compare/desktop.html",
+   "mobile": "site/pages/motors-compare/mobile.html"
+  },
+  {
+   "step": 7,
+   "page": "motors-compare-result",
+   "title": "Motors: Jaecoo J7 vs Kia Sportage",
+   "caption": "Jaecoo J7 vs Kia Sportage",
+   "next": null,
+   "desktop": "site/pages/motors-compare-result/desktop.html",
+   "mobile": "site/pages/motors-compare-result/mobile.html"
+  }
+ ]
+}

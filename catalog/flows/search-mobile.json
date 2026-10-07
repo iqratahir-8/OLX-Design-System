@@ -1,0 +1,43 @@
+{
+ "id": "search-mobile",
+ "title": "Filter on mobile",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "sub-mobile-phones",
+   "title": "Mobile Phones",
+   "caption": "Mobile Phones on a phone.",
+   "next": "Make Quick Filter",
+   "desktop": "site/pages/sub-mobile-phones/desktop.html",
+   "mobile": "site/pages/sub-mobile-phones/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "brand-sheet",
+   "title": "Brand filter",
+   "caption": "Filter by brand.",
+   "next": null,
+   "desktop": null,
+   "mobile": "site/pages/brand-sheet/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "price-sheet",
+   "title": "Price filter",
+   "caption": "Filter by price.",
+   "next": null,
+   "desktop": null,
+   "mobile": "site/pages/price-sheet/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "filters-sheet",
+   "title": "Filters",
+   "caption": "All filters.",
+   "next": null,
+   "desktop": null,
+   "mobile": "site/pages/filters-sheet/mobile.html"
+  }
+ ]
+}

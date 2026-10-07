@@ -1,0 +1,52 @@
+{
+ "id": "headers",
+ "title": "Header states while scrolling",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "home",
+   "title": "Home",
+   "caption": "The header at the top of the home page.",
+   "next": null,
+   "desktop": "site/pages/home/desktop.html",
+   "mobile": "site/pages/home/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "home-scrolled",
+   "title": "Home, scrolled (compact header)",
+   "caption": "After scrolling, the header stays on screen (compact on mobile).",
+   "next": null,
+   "desktop": "site/pages/home-scrolled/desktop.html",
+   "mobile": "site/pages/home-scrolled/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "category-scrolled",
+   "title": "Mobile Phones, scrolled",
+   "caption": "On a listing page the header and filters stay on screen.",
+   "next": null,
+   "desktop": "site/pages/category-scrolled/desktop.html",
+   "mobile": "site/pages/category-scrolled/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "ad-mobiles",
+   "title": "Ad: Mobiles",
+   "caption": "An ad at the top: the gallery fills the screen.",
+   "next": null,
+   "desktop": "site/pages/ad-mobiles/desktop.html",
+   "mobile": "site/pages/ad-mobiles/mobile.html"
+  },
+  {
+   "step": 5,
+   "page": "ad-scrolled",
+   "title": "Ad, scrolled (sticky ad header)",
+   "caption": "After scrolling an ad, a sticky header shows the price, contact buttons and section tabs.",
+   "next": null,
+   "desktop": "site/pages/ad-scrolled/desktop.html",
+   "mobile": "site/pages/ad-scrolled/mobile.html"
+  }
+ ]
+}

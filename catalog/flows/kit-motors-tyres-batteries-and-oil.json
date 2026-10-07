@@ -1,0 +1,52 @@
+{
+ "id": "kit-motors-tyres-batteries-and-oil",
+ "title": "Motors: Tyres, batteries and oil",
+ "source": "design-kit",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors",
+   "title": "Motors",
+   "caption": "Motors",
+   "next": "Car tyres",
+   "desktop": "site/pages/motors/desktop.html",
+   "mobile": "site/pages/motors/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-tyres",
+   "title": "Motors: Car tyres",
+   "caption": "Car tyres",
+   "next": "Seres 3 tyres",
+   "desktop": "site/pages/motors-tyres/desktop.html",
+   "mobile": "site/pages/motors-tyres/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "motors-model-tyres",
+   "title": "Motors: Seres 3 tyres",
+   "caption": "Seres 3 tyres",
+   "next": "Car batteries",
+   "desktop": "site/pages/motors-model-tyres/desktop.html",
+   "mobile": "site/pages/motors-model-tyres/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "motors-batteries",
+   "title": "Motors: Car batteries",
+   "caption": "Car batteries",
+   "next": "Engine oil grades",
+   "desktop": "site/pages/motors-batteries/desktop.html",
+   "mobile": "site/pages/motors-batteries/mobile.html"
+  },
+  {
+   "step": 5,
+   "page": "motors-oil-grades",
+   "title": "Motors: Engine oil grades",
+   "caption": "Engine oil grades",
+   "next": null,
+   "desktop": "site/pages/motors-oil-grades/desktop.html",
+   "mobile": "site/pages/motors-oil-grades/mobile.html"
+  }
+ ]
+}

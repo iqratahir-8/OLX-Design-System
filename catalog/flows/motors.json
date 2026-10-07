@@ -1,0 +1,34 @@
+{
+ "id": "motors",
+ "title": "Motors: find a used car",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors",
+   "title": "Motors",
+   "caption": "The Motors landing page.",
+   "next": null,
+   "desktop": "site/pages/motors/desktop.html",
+   "mobile": "site/pages/motors/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "sub-cars",
+   "title": "Cars",
+   "caption": "Cars for sale, with car filters.",
+   "next": null,
+   "desktop": "site/pages/sub-cars/desktop.html",
+   "mobile": "site/pages/sub-cars/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "ad-cars",
+   "title": "Ad: Cars",
+   "caption": "A car ad with its specifications.",
+   "next": null,
+   "desktop": "site/pages/ad-cars/desktop.html",
+   "mobile": "site/pages/ad-cars/mobile.html"
+  }
+ ]
+}

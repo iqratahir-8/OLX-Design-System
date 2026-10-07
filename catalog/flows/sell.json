@@ -1,0 +1,34 @@
+{
+ "id": "sell",
+ "title": "Start selling",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "home",
+   "title": "Home",
+   "caption": "Tap Sell.",
+   "next": "Sell",
+   "desktop": "site/pages/home/desktop.html",
+   "mobile": "site/pages/home/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "login",
+   "title": "Login options",
+   "caption": "Posting an ad needs an account.",
+   "next": "Login with Phone",
+   "desktop": "site/pages/login/desktop.html",
+   "mobile": "site/pages/login/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "login-phone",
+   "title": "Login with phone",
+   "caption": "Log in with a phone number.",
+   "next": null,
+   "desktop": "site/pages/login-phone/desktop.html",
+   "mobile": "site/pages/login-phone/mobile.html"
+  }
+ ]
+}

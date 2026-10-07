@@ -1,8 +1,8 @@
-// Import Motors pages from a design-kit build (the `local-build` branch:
-// design-kit/templates/) into site/, as if they had been captured live.
+// Import Motors pages from a design-kit build (storybook/design-kit/templates/)
+// into site/, as if they had been captured live.
 //
-//   git worktree add ../olx-local-build local-build   # or any checkout of it
-//   node scripts/import-motors.mjs ../olx-local-build/design-kit/templates
+//   (cd storybook && npm run localize)   # once: the kit's fonts, which are not in git
+//   node scripts/import-motors.mjs storybook/design-kit/templates
 //   node scripts/import-motors.mjs <templates> motors-compare motors-finance   # only these ids
 //
 // The kit's templates are the Motors server HTML with scripts stripped and
@@ -11,11 +11,15 @@
 // CDN address, and goes through the same capture as the rest of site/
 // (screenshot, sections, hotspots, redaction). The saved HTML therefore points
 // at the real CDNs, like every other capture. Images the kit did not save
-// (car photos, banners) are left out of the screenshots.
+// (car photos, banners) are left out of the screenshots, except make logos:
+// the empty logo box on a make page gets that make's Simple Icons logo (CC0),
+// marked data-stand-in, until the real logos can be fetched.
 import { chromium } from 'playwright';
-import { readFile, writeFile, mkdir, copyFile, access } from 'node:fs/promises';
-import { basename, join } from 'node:path';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { join } from 'node:path';
+import * as simpleIcons from 'simple-icons';
 import { capture, ORIGIN, OUT, MOTORS } from './capture-site.mjs';
+import { kitAssets } from './lib/kit-assets.mjs';
 
 // Kit page name -> site page id ('home' is the Motors landing page).
 const NAMES = {
@@ -43,41 +47,32 @@ for (const [id, name] of SCROLLED) DEFS[id].path = DEFS[NAMES[name]].path;
 const [dir, ...only] = process.argv.slice(2);
 if (!dir) { console.error('usage: node scripts/import-motors.mjs <design-kit/templates> [ids...]'); process.exit(1); }
 const kit = JSON.parse(await readFile(join(dir, 'templates.json'), 'utf8'));
-const assets = JSON.parse(await readFile(join(dir, '_assets/manifest.json'), 'utf8'));
-const original = Object.fromEntries(Object.entries(assets).map(([url, file]) => [file, url]));
-const saved = Object.fromEntries(Object.entries(assets).map(([url, file]) => [url, join(dir, '_assets', file)]));
+const assets = await kitAssets(dir);
 
 // Every page in the kit, by its file, so rewritten links can point back at live URLs.
 const livePath = {};
 for (const [product, site] of Object.entries(kit.sites)) {
   for (const [name, p] of Object.entries(site.pages)) livePath[`${product}/${name}`] = p.path;
 }
-const unrewrite = (html) => html
-  .replace(/(["'(])(?:\.\.\/\.\.\/)?_assets\/((?:css|fonts|icons)\/[\w.-]+)/g, (m, q, file) => (original[file] ? q + original[file] : m))
+const unrewrite = (html) => assets.unrewriteHtml(html)
   .replace(/href="(?:\.\.\/\.\.\/(\w+)\/(?:desktop|mobile)\/)?([\w-]+)\.html([^"]*)"/g, (m, product, name, rest) => {
     const path = livePath[`${product ?? 'motors'}/${name}`];
     return path ? `href="${ORIGIN}${path}${rest}"` : m;
   });
-// Saved stylesheets refer to their fonts and icons relatively (../fonts/x.woff2).
-const unrewriteCss = (css) => css.replace(/url\((['"]?)\.\.\/((?:fonts|icons|css)\/[\w.-]+)\1\)/g, (m, q, file) => (original[file] ? `url(${q}${original[file]}${q})` : m));
-
-// Serve saved assets at their CDN URLs; nothing else leaves the machine.
-const route = async (r) => {
-  const url = r.request().url().split('#')[0];
-  const file = saved[url];
-  if (!file) return r.abort();
-  const body = await readFile(file);
-  const type = /\.css$/.test(file) ? 'text/css' : /\.svg$/.test(file) ? 'image/svg+xml' : /\.woff2$/.test(file) ? 'font/woff2' : /\.woff$/.test(file) ? 'font/woff' : 'application/octet-stream';
-  return r.fulfill({ body: type === 'text/css' ? unrewriteCss(body.toString()) : body, contentType: type, headers: { 'access-control-allow-origin': '*' } });
+// Make logos are drawn client-side, so a make page's logo box is empty. Fill it
+// with the make's logo from Simple Icons, in the make's colour.
+const EMPTY_LOGO = /(<div class="logo-banner_makeLogo__\w+">)<span class="" style="display:inline-block;width:100%;height:100%"><\/span>/g;
+const makeLogo = (html, path) => {
+  const make = path.match(/^\/motors\/new-cars\/([^/?]+)\/$/)?.[1];
+  const icon = make && simpleIcons[`si${make[0].toUpperCase()}${make.slice(1).replace(/-./g, (c) => c[1].toUpperCase())}`];
+  if (!icon) return html;
+  const svg = icon.svg.replace('<svg ', `<svg fill="#${icon.hex}" `);
+  const img = `<img data-stand-in="Simple Icons (CC0), not the logo OLX shows" alt="${icon.title}" src="data:image/svg+xml;base64,${Buffer.from(svg).toString('base64')}" style="width:var(--logo-size);height:var(--logo-size);object-fit:contain">`;
+  return html.replace(EMPTY_LOGO, `$1<span style="display:flex;align-items:center;justify-content:center;width:100%;height:100%">${img}</span>`);
 };
-
-// The capture prefers fonts in fonts/ (git-ignored) by file name; put the saved Motors fonts there.
-await mkdir('fonts', { recursive: true });
-for (const [url, file] of Object.entries(saved)) {
-  if (!/\.woff2?$/.test(url)) continue;
-  const to = `fonts/${basename(new URL(url).pathname)}`;
-  if (!(await access(to).then(() => true, () => false))) await copyFile(file, to);
-}
+// Serve saved assets at their CDN URLs; nothing else leaves the machine.
+const route = assets.route();
+await assets.copyFonts();
 
 await mkdir(`${OUT}/css`, { recursive: true });
 const index = JSON.parse(await readFile(`${OUT}/index.json`, 'utf8'));
@@ -90,9 +85,11 @@ for (const [name, id] of [...Object.entries(NAMES), ...SCROLLED.map(([id, name])
     let html;
     try { html = await readFile(join(dir, `motors/${vp}/${name}.html`), 'utf8'); } catch { console.error(`skip ${id}/${vp}: no ${name}.html in the kit`); continue; }
     try {
-      await capture(browser, def, def.path, vp, { html: unrewrite(html), route });
+      await capture(browser, def, def.path, vp, { html: makeLogo(unrewrite(html), def.path), route });
       const entry = { id, title: def.title, viewport: vp, path: def.path, overlay: !!def.scrolled, flows: def.flows };
-      index.pages = index.pages.filter((p) => !(p.id === id && p.viewport === vp)).concat(entry);
+      // Replace in place, so re-importing keeps the order of screens (and of the publish bundles).
+      const at = index.pages.findIndex((p) => p.id === id && p.viewport === vp);
+      if (at >= 0) index.pages[at] = entry; else index.pages.push(entry);
       done++;
     } catch (err) {
       console.error(`failed ${id}/${vp}: ${err.message.split('\n')[0]}`);

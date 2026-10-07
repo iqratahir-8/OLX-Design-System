@@ -1,0 +1,43 @@
+{
+ "id": "location",
+ "title": "Browse by location",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "home",
+   "title": "Home",
+   "caption": "Open the location picker.",
+   "next": "Location input",
+   "desktop": "site/pages/home/desktop.html",
+   "mobile": "site/pages/home/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "location-menu",
+   "title": "Location menu",
+   "caption": "Choose a city.",
+   "next": null,
+   "desktop": "site/pages/location-menu/desktop.html",
+   "mobile": null
+  },
+  {
+   "step": 3,
+   "page": "city",
+   "title": "City: Lahore",
+   "caption": "Everything in Lahore.",
+   "next": null,
+   "desktop": "site/pages/city/desktop.html",
+   "mobile": "site/pages/city/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "city-category",
+   "title": "Mobile Phones in Lahore",
+   "caption": "Mobile Phones in Lahore.",
+   "next": null,
+   "desktop": "site/pages/city-category/desktop.html",
+   "mobile": "site/pages/city-category/mobile.html"
+  }
+ ]
+}

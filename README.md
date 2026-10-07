@@ -125,6 +125,15 @@ npm run snapshot -- ad-detail   # one page
 
 Scripts, ad slots and iframes are removed, links are made inert, and personal data (seller names and photos, phone numbers in ad text) is redacted. Listing photos load from images.olx.com.pk.
 
+## For developers: catalog, flows and integration
+
+- **`catalog/index.json`** indexes everything: 123 pages (236 page and viewport captures, each with its HTML, screenshot, size and sections), 24 end-to-end flows, components, assets and tokens. Paths are relative to the repo root.
+- **`catalog/flows/<id>.json`** has one file per flow: each step's page, what happens, the control used next, and the desktop and mobile HTML. **`docs/FLOWS.md`** is the same list, readable.
+- **`docs/INTEGRATION.md`** explains how to use the tokens, components, pages, flows and assets in product code, how to publish the kit as a package, and how to keep it current.
+- **`examples/flows.spec.mjs`** turns any flow into a Playwright visual test against your app.
+
+`npm run import:kit` measures the design-kit pages for the prototype and book. `npm run catalog` rebuilds the catalog.
+
 ## Storybook and design kit (`storybook/`)
 
 `storybook/` is the design kit built on the Mac and imported from the `local-build` branch: tokens and `olx-*` CSS components, React wrappers, and 48 captured pages (Classifieds 9, Property 10, Motors 29) on desktop and mobile with 8 flows, plus the raw Motors server HTML in `storybook/motors-html/`. See `storybook/MERGE.md`.
@@ -172,7 +181,7 @@ node scripts/import-motors.mjs ../olx-local-build/design-kit/templates
 npm run prototype
 ```
 
-Each saved page is loaded at its live URL with the kit's saved CSS, fonts and icons served at their original CDN addresses, then captured like every other page (screenshots, sections, hotspots, redaction, including reviewer names). Car photos and banners the kit did not save are blank in the screenshots and load from the CDN in Live HTML. The saved pages have no scripts, so menus, dialogs, calculators and form errors on Motors pages are not captured; with network access to `*.olx.com.pk`, `npm run capture:site -- motors-compare` captures any of them live instead.
+Each saved page is loaded at its live URL with the kit's saved CSS, fonts and icons served at their original CDN addresses, then captured like every other page (screenshots, sections, hotspots, redaction, including reviewer names). Car photos and banners the kit did not save are blank in the screenshots and load from the CDN in Live HTML. The logo box on the Honda and Toyota make pages, which the site fills client-side, holds that make's logo from [Simple Icons](https://simpleicons.org) (CC0, the `simple-icons` dev dependency) as a stand-in, marked `data-stand-in` in the HTML. The saved pages have no scripts, so menus, dialogs, calculators and form errors on Motors pages are not captured; with network access to `*.olx.com.pk`, `npm run capture:site -- motors-compare` captures any of them live instead.
 
 Crawling follows robots.txt, so nothing under `/post/`, `/chat/`, `/profile/` or `/account` is visited. To add logged-in screens, run this on your own computer:
 

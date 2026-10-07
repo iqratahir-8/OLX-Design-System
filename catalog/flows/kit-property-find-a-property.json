@@ -1,0 +1,43 @@
+{
+ "id": "kit-property-find-a-property",
+ "title": "Property: Find a property",
+ "source": "design-kit",
+ "steps": [
+  {
+   "step": 1,
+   "page": "property",
+   "title": "Property",
+   "caption": "Property",
+   "next": "Property for Sale",
+   "desktop": "site/pages/property/desktop.html",
+   "mobile": "site/pages/property/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "cat-property-for-sale",
+   "title": "Property for Sale",
+   "caption": "Property for Sale",
+   "next": "Houses for Sale",
+   "desktop": "site/pages/cat-property-for-sale/desktop.html",
+   "mobile": "site/pages/cat-property-for-sale/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "sub-houses",
+   "title": "Houses for Sale",
+   "caption": "Houses for Sale",
+   "next": "Property detail — sale",
+   "desktop": "site/pages/sub-houses/desktop.html",
+   "mobile": "site/pages/sub-houses/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "kit-property-property-detail-sale",
+   "title": "Property: Property detail — sale",
+   "caption": "Property detail — sale",
+   "next": null,
+   "desktop": "storybook/design-kit/templates/property/desktop/property-detail-sale.html",
+   "mobile": "storybook/design-kit/templates/property/mobile/property-detail-sale.html"
+  }
+ ]
+}

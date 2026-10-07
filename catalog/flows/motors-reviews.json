@@ -1,0 +1,34 @@
+{
+ "id": "motors-reviews",
+ "title": "Motors: read car reviews",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors-reviews",
+   "title": "Motors: Car reviews",
+   "caption": "Owner reviews by make and model.",
+   "next": "Toyota Corolla",
+   "desktop": "site/pages/motors-reviews/desktop.html",
+   "mobile": "site/pages/motors-reviews/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-model-reviews",
+   "title": "Motors: Toyota Corolla reviews",
+   "caption": "Reviews of the Toyota Corolla.",
+   "next": null,
+   "desktop": "site/pages/motors-model-reviews/desktop.html",
+   "mobile": "site/pages/motors-model-reviews/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "motors-review",
+   "title": "Motors: A Corolla owner review",
+   "caption": "One owner review in full.",
+   "next": null,
+   "desktop": "site/pages/motors-review/desktop.html",
+   "mobile": "site/pages/motors-review/mobile.html"
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "motors-browse-new",
+ "title": "Motors: browse new cars",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors-new-cars",
+   "title": "Motors: New cars",
+   "caption": "Browse every new car.",
+   "next": "View More",
+   "desktop": "site/pages/motors-new-cars/desktop.html",
+   "mobile": "site/pages/motors-new-cars/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-all-new-cars",
+   "title": "Motors: New sedans",
+   "caption": "All new sedans, with filters.",
+   "next": null,
+   "desktop": "site/pages/motors-all-new-cars/desktop.html",
+   "mobile": "site/pages/motors-all-new-cars/mobile.html"
+  },
+  {
+   "step": 3,
+   "page": "motors-new-suvs",
+   "title": "Motors: New SUVs",
+   "caption": "All new SUVs.",
+   "next": null,
+   "desktop": "site/pages/motors-new-suvs/desktop.html",
+   "mobile": "site/pages/motors-new-suvs/mobile.html"
+  },
+  {
+   "step": 4,
+   "page": "motors-new-cars-empty",
+   "title": "Motors: New cars, no results",
+   "caption": "Filters that match no cars.",
+   "next": null,
+   "desktop": "site/pages/motors-new-cars-empty/desktop.html",
+   "mobile": "site/pages/motors-new-cars-empty/mobile.html"
+  },
+  {
+   "step": 5,
+   "page": "motors-brand-toyota",
+   "title": "Motors: New Toyota cars",
+   "caption": "New Toyota cars.",
+   "next": "Toyota Corolla",
+   "desktop": "site/pages/motors-brand-toyota/desktop.html",
+   "mobile": "site/pages/motors-brand-toyota/mobile.html"
+  },
+  {
+   "step": 6,
+   "page": "motors-model-corolla",
+   "title": "Motors: Toyota Corolla",
+   "caption": "The Toyota Corolla.",
+   "next": null,
+   "desktop": "site/pages/motors-model-corolla/desktop.html",
+   "mobile": "site/pages/motors-model-corolla/mobile.html"
+  },
+  {
+   "step": 7,
+   "page": "motors-brand",
+   "title": "Motors: New Honda cars",
+   "caption": "New Honda cars.",
+   "next": "Honda Civic",
+   "desktop": "site/pages/motors-brand/desktop.html",
+   "mobile": "site/pages/motors-brand/mobile.html"
+  },
+  {
+   "step": 8,
+   "page": "motors-model",
+   "title": "Motors: Honda Civic",
+   "caption": "The Honda Civic.",
+   "next": null,
+   "desktop": "site/pages/motors-model/desktop.html",
+   "mobile": "site/pages/motors-model/mobile.html"
+  }
+ ]
+}

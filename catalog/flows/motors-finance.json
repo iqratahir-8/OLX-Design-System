@@ -1,0 +1,25 @@
+{
+ "id": "motors-finance",
+ "title": "Motors: car finance",
+ "source": "capture",
+ "steps": [
+  {
+   "step": 1,
+   "page": "motors-finance",
+   "title": "Motors: Car finance",
+   "caption": "Calculate monthly instalments and compare banks.",
+   "next": null,
+   "desktop": "site/pages/motors-finance/desktop.html",
+   "mobile": "site/pages/motors-finance/mobile.html"
+  },
+  {
+   "step": 2,
+   "page": "motors-finance-bank",
+   "title": "Motors: Bank Islamic car finance",
+   "caption": "One bank's car finance plans.",
+   "next": null,
+   "desktop": "site/pages/motors-finance-bank/desktop.html",
+   "mobile": "site/pages/motors-finance-bank/mobile.html"
+  }
+ ]
+}
