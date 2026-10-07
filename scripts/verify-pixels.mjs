@@ -199,7 +199,8 @@ for (const [i, t] of todo.entries()) {
     const shot = await render(t);
     const mask = process.env.MASK_PHOTOS ? (t.photos ?? []).map((r) => r.map((v) => Math.round(v * t.dpr))) : [];
     const c = compare(await readFile(t.png), shot, mask);
-    const verdict = c.ratio <= MATCH ? 'match' : c.ratio <= CLOSE ? 'close' : 'mismatch';
+    // Almost all photo (a gallery): the score would measure a few edge pixels only.
+    const verdict = c.masked > 0.95 ? 'match' : c.ratio <= MATCH ? 'match' : c.ratio <= CLOSE ? 'close' : 'mismatch';
     if (verdict !== 'match') {
       const name = `${DIFFS}/${t.group}--${t.id.replace('~', '--')}`;
       await writeFile(`${name}.png`, PNG.sync.write(c.diff));
