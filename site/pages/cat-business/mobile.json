@@ -5,10 +5,11 @@
  "url": "https://www.olx.com.pk/business-industrial-agriculture_c1981",
  "finalUrl": "https://www.olx.com.pk/business-industrial-agriculture_c1981?page=1",
  "width": 390,
- "height": 4414,
+ "height": 4678,
  "dpr": 2,
  "overlay": false,
- "captured": "2026-09-29T12:54:25.336Z",
+ "scrolled": false,
+ "captured": "2026-10-07T13:49:24.301Z",
  "sections": [
   {
    "file": "01-header",
@@ -17,108 +18,86 @@
     "x": 0,
     "y": 0,
     "width": 390,
-    "height": 139
+    "height": 104
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
    "file": "02-listings",
    "name": "Listings",
    "rect": {
     "x": 0,
-    "y": 155,
+    "y": 120,
     "width": 390,
-    "height": 3439
+    "height": 3848
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "03-retry",
-   "name": "Retry",
+   "file": "03-business-industrial-and-agriculture-in-p",
+   "name": "Business, Industrial & Agriculture in Pa",
    "rect": {
     "x": 0,
-    "y": 3609,
-    "width": 390,
-    "height": 49
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
-  },
-  {
-   "file": "04-business-industrial-and-agriculture-esse",
-   "name": "Business, Industrial & Agriculture Essen",
-   "rect": {
-    "x": 0,
-    "y": 3689,
+    "y": 3999,
     "width": 390,
     "height": 86
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "04-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 4084,
+    "width": 390,
+    "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "05-popular-searches",
-   "name": "Popular Searches",
+   "file": "05-location",
+   "name": "Location",
    "rect": {
     "x": 0,
-    "y": 3774,
+    "y": 4130,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "06-categories",
-   "name": "Categories",
+   "file": "06-filters",
+   "name": "Filters",
    "rect": {
     "x": 0,
-    "y": 3820,
+    "y": 4176,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "07-location",
-   "name": "Location",
+   "file": "07-footer",
+   "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 3866,
+    "y": 4222,
     "width": 390,
-    "height": 47
+    "height": 456
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "08-filters",
-   "name": "Filters",
-   "rect": {
-    "x": 0,
-    "y": 3912,
-    "width": 390,
-    "height": 47
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
-  },
-  {
-   "file": "09-footer",
-   "name": "Footer",
-   "rect": {
-    "x": 0,
-    "y": 3958,
-    "width": 390,
-    "height": 456
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
-  },
-  {
-   "file": "10-sell",
+   "file": "08-sell",
    "name": "SELL",
    "rect": {
     "x": 0,
-    "y": 4345,
+    "y": 4609,
     "width": 390,
     "height": 45
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   }
  ],
  "hotspots": [
@@ -144,252 +123,235 @@
    "width": 42,
    "height": 28,
    "kind": "button",
-   "label": ""
+   "label": "1"
   },
   {
-   "x": 16,
-   "y": 104,
-   "width": 358,
-   "height": 23,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/items",
-   "label": "Buy withDeliveryNew"
-  },
-  {
-   "x": 0,
-   "y": 104,
-   "width": 390,
-   "height": 35,
+   "x": 314,
+   "y": 64,
+   "width": 69,
+   "height": 28,
    "kind": "button",
-   "label": "Buy withDeliveryNew"
+   "label": "Price Quick Filter"
   },
   {
    "x": 0,
-   "y": 155,
+   "y": 120,
    "width": 390,
-   "height": 130,
+   "height": 149,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/dough-blend-iid-1119750002",
+   "href": "https://www.olx.com.pk/item/used-chinese-and-japanes-ultrasound-machines-colour-dopplers-iid-1119661400",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 296,
-   "width": 390,
-   "height": 131,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/co2-fractional-laser-machine-iid-1111104898",
-   "label": "Listing"
-  },
-  {
-   "x": 0,
-   "y": 438,
+   "y": 280,
    "width": 390,
    "height": 150,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/heavy-duty-pallets-specifications-starting-price-2500-to-5000-iid-1102868702",
+   "href": "https://www.olx.com.pk/item/deep-fryer-deep-fryer-double-deep-fryer-machine-for-sale-iid-1111658638",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 599,
+   "y": 441,
    "width": 390,
-   "height": 131,
+   "height": 150,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/broucher-stand-beach-flag-stand-premium-exhibition-gear-iid-1094331789",
+   "href": "https://www.olx.com.pk/item/ice-cream-display-counter-freezer-new-ice-cream-counter-for-sale-iid-1112684238",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 741,
+   "y": 602,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/plastic-pallets-industrial-pallets-wooden-pallets-iron-pallets-iid-1104256975",
+   "href": "https://www.olx.com.pk/item/home-security-fence-electric-fence-electric-fence-material-iid-1114699499",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 883,
+   "y": 744,
    "width": 390,
-   "height": 131,
+   "height": 150,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/patient-bed-icu-bed-hospital-bed-electric-bed-usa-uk-imported-iid-1117867503",
+   "href": "https://www.olx.com.pk/item/fire-pump-fire-extinguisher-cylinder-smoke-detector-fire-alarm-iid-1110114349",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 1025,
+   "y": 905,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/km-mughal-125-ton-cement-silo-heavy-duty-cement-storage-solution-iid-1115701807",
+   "href": "https://www.olx.com.pk/item/pharmacy-racks-storage-racks-shop-racks-industrial-racks-iid-1111660658",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 1167,
+   "y": 1047,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/dustbins-trash-bins-plastic-bins-iid-1064618800",
+   "href": "https://www.olx.com.pk/item/heavy-duty-racks-super-mart-racks-super-store-racks-wall-racks-iid-1100473467",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 1309,
+   "y": 1189,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/soap-machine-for-salesoap-plant-foe-sale-soap-manual-making-machine-iid-1103808278",
+   "href": "https://www.olx.com.pk/item/hand-pallet-stacker-for-sale-new-quality-equipment-karachi-iid-1119210009",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 1463,
+   "y": 1331,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/lift-for-sale-iid-1119893846",
+   "href": "https://www.olx.com.pk/item/ladies-beauty-saloon-for-sale-iid-1119935903",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 1605,
+   "y": 1473,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/takbeer-chowk-attock-iid-1119893630",
+   "href": "https://www.olx.com.pk/item/container-bolt-seals-bolt-seals-plastic-seals-wire-seals-iid-1120201280",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 1747,
+   "y": 1615,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/prefabricated-house-portable-office-container-security-cabin-toilet-iid-1119893603",
+   "href": "https://www.olx.com.pk/item/digital-electronic-weighing-scales-precision-lab-balances-iid-1120008384",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 1889,
+   "y": 1757,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/portable-cabin-office-container-shipping-porta-cabin-portable-toilet-iid-1119893441",
+   "href": "https://www.olx.com.pk/item/heavy-duty-rack-storage-rack-angle-rack-warehouse-steel-racks-iid-1120008018",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 2031,
+   "y": 1899,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/brand-new-atta-chakki-channana-red-chilli-garam-masala-cutter-iid-1119893241",
+   "href": "https://www.olx.com.pk/item/rack-shelf-rack-storage-rack-warehouse-rack-steel-rack-racks-iid-1120007635",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 2173,
+   "y": 2041,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/helmet-iid-1119893178",
+   "href": "https://www.olx.com.pk/item/adjustable-racks-grocery-racks-pharmacy-racks-pharmacy-steel-racks-iid-1120004304",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 2315,
+   "y": 2183,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/ribbon-mixer-for-tile-bond-wanda-spices-detergent-powder-chemical-iid-1118400629",
+   "href": "https://www.olx.com.pk/item/indoor-coin-operated-token-rides-arcade-games-iid-1119810547",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 2457,
+   "y": 2325,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/stainless-steel-sajji-counter-4x4-commercial-kitchen-iid-1119893062",
+   "href": "https://www.olx.com.pk/item/industrial-vacuum-cleanerwet-dry-vacuum-machine-wet-dry-cleaner-iid-1119654882",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 2599,
+   "y": 2467,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/haderia-heavy-duty-industrial-machine-mechanical-gear-machine-iid-1119893032",
+   "href": "https://www.olx.com.pk/item/floor-cleaning-machinemarble-tile-cleaning-machinefloor-polishing-iid-1119654656",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 2741,
+   "y": 2609,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/office-container-site-office-container-portable-toilet-prefabricated-iid-1119893027",
+   "href": "https://www.olx.com.pk/item/forklift-spare-parts-available-high-quality-reliable-iid-1119654360",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 2883,
+   "y": 2751,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/temperature-controller-iid-1119892204",
+   "href": "https://www.olx.com.pk/item/industrial-automation-parts-temperature-controllers-etc-tested-lot-iid-1119643222",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 3025,
+   "y": 2893,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/external-vacuum-sealing-machine-brother-vc99-vertical-vacuum-sealer-iid-1073487469",
+   "href": "https://www.olx.com.pk/item/acoustic-panelssoundproofingacoustics-design-installation-iid-1119409804",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 3179,
+   "y": 3035,
    "width": 390,
-   "height": 131,
+   "height": 150,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/sealer-iid-1119892177",
+   "href": "https://www.olx.com.pk/item/brand-new-manual-hospital-bed-set-with-movable-side-rails-home-care-iid-1119208407",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 3321,
+   "y": 3196,
    "width": 390,
-   "height": 131,
+   "height": 150,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/100--iid-1119892083",
+   "href": "https://www.olx.com.pk/item/live-tandoor-gas-tandoor-portable-tandoor-iid-1119092295",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 3463,
+   "y": 3357,
    "width": 390,
-   "height": 131,
+   "height": 150,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/car-wash-lift-compress-complete-set-iid-1119891968",
+   "href": "https://www.olx.com.pk/item/rotating-tandoorroti-machineroti-plant-iid-1119092055",
    "label": "Listing"
   },
   {
-   "x": 144,
-   "y": 3609,
-   "width": 102,
-   "height": 49,
-   "kind": "button",
-   "label": "Retry"
+   "x": 0,
+   "y": 3518,
+   "width": 390,
+   "height": 150,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/live-tandoorgas-tandoorportable-tandoor-iid-1119091646",
+   "label": "Listing"
   },
   {
    "x": 143,
-   "y": 4345,
+   "y": 4609,
    "width": 104,
    "height": 45,
    "kind": "button",
@@ -397,8 +359,8 @@
   },
   {
    "x": 16,
-   "y": 3744,
-   "width": 32,
+   "y": 4054,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -406,16 +368,16 @@
   },
   {
    "x": 16,
-   "y": 4258,
+   "y": 4522,
    "width": 84,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
    "x": 113,
-   "y": 4324,
+   "y": 4588,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -424,7 +386,7 @@
   },
   {
    "x": 157,
-   "y": 4324,
+   "y": 4588,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -433,7 +395,7 @@
   },
   {
    "x": 201,
-   "y": 4324,
+   "y": 4588,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -442,7 +404,7 @@
   },
   {
    "x": 245,
-   "y": 4324,
+   "y": 4588,
    "width": 32,
    "height": 41,
    "kind": "link",

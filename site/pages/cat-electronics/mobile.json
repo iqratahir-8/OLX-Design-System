@@ -5,10 +5,11 @@
  "url": "https://www.olx.com.pk/electronics-home-appliances_c99",
  "finalUrl": "https://www.olx.com.pk/electronics-home-appliances_c99?page=1",
  "width": 390,
- "height": 5828,
+ "height": 5976,
  "dpr": 2,
  "overlay": false,
- "captured": "2026-09-29T12:53:14.671Z",
+ "scrolled": false,
+ "captured": "2026-10-07T13:48:04.006Z",
  "sections": [
   {
    "file": "01-header",
@@ -19,128 +20,359 @@
     "width": 390,
     "height": 139
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "02-listings",
-   "name": "Listings",
+   "file": "02-xiaomi-mijia-smart-air-purifier-max-li",
+   "name": "Xiaomi Mijia Smart Air Purifier Max – Li",
    "rect": {
     "x": 0,
     "y": 155,
     "width": 390,
-    "height": 4490
+    "height": 130
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "03-got-something-to-sell-post-in-3-simple-s",
+   "file": "03-apc-and-vertiv-ups-systems-650va-800kva",
+   "name": "APC & Vertiv UPS Systems 650VA–800KVA | ",
+   "rect": {
+    "x": 0,
+    "y": 296,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "04-apc-and-vertiv-ups-systems-available-fro",
+   "name": "APC & Vertiv UPS Systems available from ",
+   "rect": {
+    "x": 0,
+    "y": 438,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "05-apc-and-vertiv-ups-systems-650va-800kva-",
+   "name": "APC & Vertiv UPS Systems 650VA–800KVA. R",
+   "rect": {
+    "x": 0,
+    "y": 580,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "06-windows-11-professional-cd-license-key",
+   "name": "Windows 11 Professional CD License Key",
+   "rect": {
+    "x": 0,
+    "y": 722,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "07-4-camera-dahua-cctv-package-1080p-full",
+   "name": "4 Camera Dahua CCTV Package – 1080P Full",
+   "rect": {
+    "x": 0,
+    "y": 864,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "08-81007-ap-head-mounted-magnifier-glass-wi",
+   "name": "81007-AP Head-Mounted Magnifier Glass wi",
+   "rect": {
+    "x": 0,
+    "y": 1006,
+    "width": 390,
+    "height": 1184
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
+  },
+  {
+   "file": "09-ac-sale-and-purchase-in-karachi-new-and-",
+   "name": "AC Sale & Purchase in Karachi | New & Us",
+   "rect": {
+    "x": 0,
+    "y": 2201,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "10-lenovo-thinkpad-p15s-i7-10th-32gb-512ssd",
+   "name": "Lenovo Thinkpad P15s i7/10th 32gb/512SSD",
+   "rect": {
+    "x": 0,
+    "y": 2343,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
+  },
+  {
+   "file": "11-dji-air-3s-fly-more-combo-3-batteries-co",
+   "name": "dji air 3S Fly More Combo/3 Batteries Co",
+   "rect": {
+    "x": 0,
+    "y": 2485,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(10)"
+  },
+  {
+   "file": "12-lenovo-core-i5-13420h-13th-generation-la",
+   "name": "Lenovo Core i5 13420H 13th Generation La",
+   "rect": {
+    "x": 0,
+    "y": 2627,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
+  },
+  {
+   "file": "13-dell-core-i7-13th-gen-14-cores-20-threa",
+   "name": "DELL Core i7 13th Gen (14-Cores 20-Threa",
+   "rect": {
+    "x": 0,
+    "y": 2769,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
+  },
+  {
+   "file": "14-lenovo-thinkpad-e15-gen-3-ryzen-7-5700",
+   "name": "LENOVO ThinkPad E15 Gen 3 | Ryzen 7 5700",
+   "rect": {
+    "x": 0,
+    "y": 2911,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+  },
+  {
+   "file": "15-siemens",
+   "name": "جرمن امپورٹڈ Siemens ڈبل ڈور فریج برائے ",
+   "rect": {
+    "x": 0,
+    "y": 3053,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
+  },
+  {
+   "file": "16-ps4-fat-1tb-1-controller-7-games-play-s",
+   "name": "PS4 FAT 1TB–1 Controller +7 Games Play s",
+   "rect": {
+    "x": 0,
+    "y": 3195,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  },
+  {
+   "file": "17-lenovo-thinkpad-x390-core-i7-8th-gen-16g",
+   "name": "Lenovo ThinkPad X390 Core i7 8th Gen 16G",
+   "rect": {
+    "x": 0,
+    "y": 3337,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(16)"
+  },
+  {
+   "file": "18-playstation-4-slim",
+   "name": "Playstation 4 slim",
+   "rect": {
+    "x": 0,
+    "y": 3479,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(17)"
+  },
+  {
+   "file": "19-dell-latitude-i5-13th-generation-laptop",
+   "name": "Dell Latitude i5 13th Generation Laptop ",
+   "rect": {
+    "x": 0,
+    "y": 3621,
+    "width": 390,
+    "height": 130
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(18)"
+  },
+  {
+   "file": "20-haier-1-ton-split-ac-hsu-12cfcm-turb",
+   "name": "Haier 1 Ton Split AC (HSU-12CFCM) – Turb",
+   "rect": {
+    "x": 0,
+    "y": 3763,
+    "width": 390,
+    "height": 130
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(19)"
+  },
+  {
+   "file": "21-dawlance-chest-freezer-df-200es-r-600a",
+   "name": "Dawlance Chest Freezer DF-200ES | R-600a",
+   "rect": {
+    "x": 0,
+    "y": 3904,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(20)"
+  },
+  {
+   "file": "22-epson-ecotank-printer-ecotank-scanne",
+   "name": "Epson Ecotank Printer | Ecotank | Scanne",
+   "rect": {
+    "x": 0,
+    "y": 4046,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(21)"
+  },
+  {
+   "file": "23-dell-latitude-e5440-core-i5-4th-8gb-ram",
+   "name": "DELL LATITUDE E5440 core i5 4th 8GB ram ",
+   "rect": {
+    "x": 0,
+    "y": 4188,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(22)"
+  },
+  {
+   "file": "24-epson-printers-printer-all-in-one-wit",
+   "name": "Epson printers | printer All in one, wit",
+   "rect": {
+    "x": 0,
+    "y": 4330,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(23)"
+  },
+  {
+   "file": "25-core-i5-dell-latitude-e6420-e6430-2n",
+   "name": "CORE i5 Dell latitude e6420 / e6430 | 2n",
+   "rect": {
+    "x": 0,
+    "y": 4472,
+    "width": 390,
+    "height": 131
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(24)"
+  },
+  {
+   "file": "26-got-something-to-sell-post-in-3-simple-s",
    "name": "Got Something to Sell? · Post in 3 Simple Steps ",
    "rect": {
     "x": 16,
-    "y": 4656,
+    "y": 4614,
     "width": 358,
     "height": 198
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "04-55-inch-samsung-new-model-2026-fresh-st",
-   "name": "55. INCH SAMSUNG NEW MODEL 2026 FRESH ST",
+   "file": "27-epson-ecotank-printers-all-in-one-wit",
+   "name": "Epson Ecotank printers | All in one, wit",
    "rect": {
     "x": 0,
-    "y": 4865,
+    "y": 4823,
     "width": 390,
-    "height": 143
+    "height": 443
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "05-retry",
-   "name": "Retry",
-   "rect": {
-    "x": 0,
-    "y": 5023,
-    "width": 390,
-    "height": 49
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(2)"
-  },
-  {
-   "file": "06-electronics-and-home-appliances-in-pakis",
+   "file": "28-electronics-and-home-appliances-in-pakis",
    "name": "Electronics & Home Appliances in Pakista",
    "rect": {
     "x": 0,
-    "y": 5103,
+    "y": 5297,
     "width": 390,
     "height": 87
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+  },
+  {
+   "file": "29-categories",
+   "name": "Categories",
+   "rect": {
+    "x": 0,
+    "y": 5383,
+    "width": 390,
+    "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "07-popular-searches",
-   "name": "Popular Searches",
+   "file": "30-location",
+   "name": "Location",
    "rect": {
     "x": 0,
-    "y": 5189,
+    "y": 5429,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "08-categories",
-   "name": "Categories",
+   "file": "31-filters",
+   "name": "Filters",
    "rect": {
     "x": 0,
-    "y": 5235,
+    "y": 5475,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "09-location",
-   "name": "Location",
+   "file": "32-footer",
+   "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 5281,
+    "y": 5521,
     "width": 390,
-    "height": 47
+    "height": 455
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "10-filters",
-   "name": "Filters",
-   "rect": {
-    "x": 0,
-    "y": 5327,
-    "width": 390,
-    "height": 47
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(8)"
-  },
-  {
-   "file": "11-footer",
-   "name": "Footer",
-   "rect": {
-    "x": 0,
-    "y": 5373,
-    "width": 390,
-    "height": 455
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(9)"
-  },
-  {
-   "file": "12-sell",
+   "file": "33-sell",
    "name": "SELL",
    "rect": {
     "x": 0,
-    "y": 5759,
+    "y": 5907,
     "width": 390,
     "height": 45
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   }
  ],
  "hotspots": [
@@ -166,7 +398,15 @@
    "width": 42,
    "height": 28,
    "kind": "button",
-   "label": ""
+   "label": "1"
+  },
+  {
+   "x": 308,
+   "y": 64,
+   "width": 68,
+   "height": 28,
+   "kind": "button",
+   "label": "Price Quick Filter"
   },
   {
    "x": 16,
@@ -174,7 +414,7 @@
    "width": 358,
    "height": 23,
    "kind": "link",
-   "href": "https://www.olx.com.pk/items?sorting=desc-relevance",
+   "href": "https://www.olx.com.pk/electronics-home-appliances_c99?filter=delivery_eq_yes",
    "label": "Buy withDeliveryNew"
   },
   {
@@ -191,7 +431,7 @@
    "width": 390,
    "height": 130,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/dell-latitude-5490-core-i5-8th-gen-16gb-ram-256gb-nvme-ssd-iid-1119893302",
+   "href": "https://www.olx.com.pk/item/xiaomi-mijia-smart-air-purifier-max-like-new-6-days-used-iid-1120197755",
    "label": "Listing"
   },
   {
@@ -200,7 +440,7 @@
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/macbook-pro-2017-15-inch-for-sale-iid-1119892785",
+   "href": "https://www.olx.com.pk/item/apc-vertiv-ups-systems-650va800kva-commercial-industrial-ups-iid-1120007771",
    "label": "Listing"
   },
   {
@@ -209,7 +449,7 @@
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/hp-elite-book-laptop-for-sale-iid-1119892277",
+   "href": "https://www.olx.com.pk/item/apc-vertiv-ups-systems-available-from-650va-to-800kva-for-reliable-iid-1120007738",
    "label": "Listing"
   },
   {
@@ -218,7 +458,7 @@
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/all-iptv-subscriptions-avlible-lowest-discounted-rate-iid-1118817952",
+   "href": "https://www.olx.com.pk/item/apc-vertiv-ups-systems-650va800kva-reliable-power-backup-iid-1120006793",
    "label": "Listing"
   },
   {
@@ -227,7 +467,7 @@
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/location-tariq-road-karachi-3-kv-iid-1119892461",
+   "href": "https://www.olx.com.pk/item/windows-11-professional-cd-license-key-iid-1120004876",
    "label": "Listing"
   },
   {
@@ -236,7 +476,7 @@
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/air-compressor-iid-1119883850",
+   "href": "https://www.olx.com.pk/item/4-camera-dahua-cctv-package-1080p-full-hd-rs-38500-iid-1119411760",
    "label": "Listing"
   },
   {
@@ -245,7 +485,7 @@
    "width": 173,
    "height": 260,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/3-6v-mini-brushed-dc-motor-compact-toy-hobby-electric-motor-ff-030-iid-ev520273-1",
+   "href": "https://www.olx.com.pk/item/81007-ap-head-mounted-magnifier-glass-with-led-light-for-soldering-and-diy-iid-ev520111-1",
    "label": "Listing"
   },
   {
@@ -254,7 +494,7 @@
    "width": 173,
    "height": 260,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/high-class-ps4-wireless-rechargeable-controller-with-audio-jack-option-a-category-iid-ev562042-1",
+   "href": "https://www.olx.com.pk/item/hair-ac-inverter-remote-control-iid-ev526474-1",
    "label": "Listing"
   },
   {
@@ -263,7 +503,7 @@
    "width": 173,
    "height": 260,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/rn-mosquito-repellent-clip-badge-button-convenient-and-natural-insect-defense-iid-ev450754-1",
+   "href": "https://www.olx.com.pk/item/boya-by-mm1-compact-on-camera-video-microphone-with-1-year-official-warranty-original-boya-mic-iid-ev329477-1",
    "label": "Listing"
   },
   {
@@ -272,48 +512,48 @@
    "width": 173,
    "height": 260,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/micro-usb-2-0-mhl-to-hdmi-cable-1080p-for-android-samsung-htc-lg-hdmi-converter-mini-iid-ev552289-1",
+   "href": "https://www.olx.com.pk/item/laptop-side-sleeves-13-inch-black-iid-ev375300-1",
    "label": "Listing"
   },
   {
    "x": 16,
    "y": 1621,
    "width": 173,
-   "height": 259,
+   "height": 241,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/display-port-to-vga-converter-d-port-to-vga-convertor-iid-ev531635-1",
+   "href": "https://www.olx.com.pk/item/uyus-long-nose-pliers-6-inch-iid-ev564499-1",
    "label": "Listing"
   },
   {
    "x": 201,
    "y": 1621,
    "width": 173,
-   "height": 259,
+   "height": 241,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/bts-jungkook-kpop-stickers-for-laptop-car-bike-phone-stickers-iid-ev555271-1",
+   "href": "https://www.olx.com.pk/item/xl4016-dc-to-dc-buck-voltage-regulator-8a-module-xl4016e1-iid-ev520285-1",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 1891,
+   "y": 1873,
    "width": 173,
    "height": 260,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/10-pcs-400v-22-f-capacitor-high-voltage-electrolytic-capacitor-for-power-supply-industrial-circuits-iid-ev446570-1",
+   "href": "https://www.olx.com.pk/item/apkina-ap60-dual-wireless-microphone-system-for-clear-audio-capture-iid-ev305675-1",
    "label": "Listing"
   },
   {
    "x": 201,
-   "y": 1891,
+   "y": 1873,
    "width": 173,
    "height": 260,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/dimmable-led-selfie-ring-fill-light-for-photography-and-makeup-with-tripod-and-mobile-holder-iid-ev492732-1",
+   "href": "https://www.olx.com.pk/item/new-arrival-vegetable-fruit-peeler-knife-with-wooden-handle-suitable-for-peeling-fruits-and-shredding-scallions-iid-ev551552-1",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2167,
+   "y": 2149,
    "width": 358,
    "height": 41,
    "kind": "button",
@@ -321,106 +561,34 @@
   },
   {
    "x": 0,
-   "y": 2219,
+   "y": 2201,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/nikon-d5600-dslr-nikkor-af-s-18-200mm-lens-brand-new-condition-iid-1119692507",
+   "href": "https://www.olx.com.pk/item/ac-sale-purchase-in-karachi-new-used-ac-iid-1119211165",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 2361,
+   "y": 2343,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/panini-majestic-panini-grill-sandwich-press-3000w-made-in-france-iid-1119086918",
+   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-p15s-i710th-32gb512ssd-urgent-sale-iid-1119210550",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 2503,
+   "y": 2485,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/opplex-iptv-geo-iptv-b1g-netflix-premium-streaming-iid-1118887501",
+   "href": "https://www.olx.com.pk/item/dji-air-3s-fly-more-combo3-batteries-complete-accessoriesdjidrons-iid-1118798511",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 2657,
-   "width": 390,
-   "height": 131,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/hp-envy-16-i7-13th-gen-16gb-ddr5-1tb-ssd-rtx-4060-120hz-iid-1118885529",
-   "label": "Listing"
-  },
-  {
-   "x": 0,
-   "y": 2799,
-   "width": 390,
-   "height": 131,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/cctv-camera-24-package-complete-installation-in-karachi-iid-1116405439",
-   "label": "Listing"
-  },
-  {
-   "x": 0,
-   "y": 2941,
-   "width": 390,
-   "height": 131,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-e16-gen-2-core-ultra-5-16gb-ram-512gb-nvme-ssd-iid-1119891590",
-   "label": "Listing"
-  },
-  {
-   "x": 0,
-   "y": 3083,
-   "width": 390,
-   "height": 131,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-macbook-pro-16-inch-m4-pro-powerful-performance-iid-1119431140",
-   "label": "Listing"
-  },
-  {
-   "x": 0,
-   "y": 3225,
-   "width": 390,
-   "height": 131,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/dell-core-i5-12th-gen-10-core-12-thread-14inch-touchscreen-1080p-led-iid-1119579021",
-   "label": "Listing"
-  },
-  {
-   "x": 0,
-   "y": 3367,
-   "width": 390,
-   "height": 131,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/macbook-apple-macbook-air-m1-2020-8gb-16gb-ram-256gb-ssd-iid-1118165313",
-   "label": "Listing"
-  },
-  {
-   "x": 0,
-   "y": 3509,
-   "width": 390,
-   "height": 130,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/zotac-rtx-4080-super-16gb-perfect-condition-2-years-warranty-iid-1119551717",
-   "label": "Listing"
-  },
-  {
-   "x": 0,
-   "y": 3651,
-   "width": 390,
-   "height": 130,
-   "kind": "listing",
-   "href": "https://www.olx.com.pk/item/core-i-5-10th-gen-processor-good-condition-iid-1119195650",
-   "label": "Listing"
-  },
-  {
-   "x": 0,
-   "y": 3792,
+   "y": 2627,
    "width": 390,
    "height": 131,
    "kind": "listing",
@@ -429,52 +597,124 @@
   },
   {
    "x": 0,
-   "y": 3934,
+   "y": 2769,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/old-ac-buyerused-ac-purchaserwindow-split-inverterac-buyer-scrap-iid-1118609670",
+   "href": "https://www.olx.com.pk/item/dell-core-i7-13th-gen-14-cores-20-threads-24mb-cache-4gb-rtx-nvidia-iid-1119368963",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 4076,
+   "y": 2911,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/photocopierprintercopierscannerricohhpkonicatonerall-in-onehp-iid-1116320588",
+   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-e15-gen-3-ryzen-7-5700ucore-i7-12th-gen-156-led-iid-1119579021",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 4218,
+   "y": 3053,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/hp-elitedesk-800-g1-i5-4th-gen-16gb-ram-120gb-ssd-nvidia-2gb-iid-1119846076",
+   "href": "https://www.olx.com.pk/item/-siemens--iid-1119453767",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 4372,
+   "y": 3195,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-e16-ultra-5-iid-1119838878",
+   "href": "https://www.olx.com.pk/item/ps4-fat-1tb1-controller-7-games-play-station-iid-1120199971",
    "label": "Listing"
   },
   {
    "x": 0,
-   "y": 4514,
+   "y": 3337,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/43-inch-q-led-tv-new-box-pack-samsung-3-year-warranty-o3228o83o6o-iid-1115375016",
+   "href": "https://www.olx.com.pk/item/lenovo-thinkpad-x390-core-i7-8th-gen-16gb-512gb-ssd-fhd-iid-1120172743",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3479,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/playstation-4-slim-iid-1120168205",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3621,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-i5-13th-generation-laptop-with-512-gb-ssd-iid-1120137582",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3763,
+   "width": 390,
+   "height": 130,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/haier-1-ton-split-ac-hsu-12cfcm-turbo-cool-series-excellent-cond-iid-1120197835",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 3904,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dawlance-chest-freezer-df-200es-r-600a-genuine-condition-iid-1120197758",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4046,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/epson-ecotank-printer-ecotank-scanner-wi-fi-duplex-printing-iid-1118999044",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4188,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/dell-latitude-e5440-core-i5-4th-8gb-ram-320gb-hdd-fresh-stock-iid-1117718351",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4330,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/epson-printers-printer-all-in-one-with-scanner-and-wifi-fresh-stock-iid-1112800107",
+   "label": "Listing"
+  },
+  {
+   "x": 0,
+   "y": 4472,
+   "width": 390,
+   "height": 131,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/core-i5-dell-latitude-e6420-e6430-2nd-gen3rd-gen-fresh-stock-iid-1110789302",
    "label": "Listing"
   },
   {
    "x": 29,
-   "y": 4796,
+   "y": 4754,
    "width": 332,
    "height": 45,
    "kind": "button",
@@ -482,24 +722,16 @@
   },
   {
    "x": 0,
-   "y": 4865,
+   "y": 4823,
    "width": 390,
    "height": 131,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/55-inch-samsung-new-model-2026-fresh-stock-available-cal-o322i257237-iid-1107456780",
+   "href": "https://www.olx.com.pk/item/epson-ecotank-printers-all-in-one-with-scanner-and-wifi-fresh-stoc-iid-1119000022",
    "label": "Listing"
   },
   {
-   "x": 144,
-   "y": 5023,
-   "width": 102,
-   "height": 49,
-   "kind": "button",
-   "label": "Retry"
-  },
-  {
    "x": 143,
-   "y": 5759,
+   "y": 5907,
    "width": 104,
    "height": 45,
    "kind": "button",
@@ -507,8 +739,8 @@
   },
   {
    "x": 16,
-   "y": 5159,
-   "width": 32,
+   "y": 5353,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -516,7 +748,7 @@
   },
   {
    "x": 16,
-   "y": 5672,
+   "y": 5820,
    "width": 84,
    "height": 33,
    "kind": "link",
@@ -525,7 +757,7 @@
   },
   {
    "x": 113,
-   "y": 5739,
+   "y": 5887,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -534,7 +766,7 @@
   },
   {
    "x": 157,
-   "y": 5739,
+   "y": 5887,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -543,7 +775,7 @@
   },
   {
    "x": 201,
-   "y": 5739,
+   "y": 5887,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -552,7 +784,7 @@
   },
   {
    "x": 245,
-   "y": 5739,
+   "y": 5887,
    "width": 32,
    "height": 41,
    "kind": "link",
