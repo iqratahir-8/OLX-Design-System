@@ -5,15 +5,15 @@
  "url": "https://www.olx.com.pk/motors/car-finance/bank-islamic/",
  "finalUrl": "https://www.olx.com.pk/motors/car-finance/bank-islamic/",
  "width": 390,
- "height": 3229,
+ "height": 26192,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:53:33.708Z",
+ "captured": "2026-10-07T14:30:38.120Z",
  "sections": [
   {
-   "file": "01-div",
-   "name": "div",
+   "file": "01-null-logo",
+   "name": "null logo",
    "rect": {
     "x": 0,
     "y": 0,
@@ -62,7 +62,7 @@
     "x": 16,
     "y": 1493,
     "width": 358,
-    "height": 400
+    "height": 379
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
@@ -71,7 +71,7 @@
    "name": "Required Documents",
    "rect": {
     "x": 16,
-    "y": 1916,
+    "y": 1895,
     "width": 358,
     "height": 611
    },
@@ -82,7 +82,7 @@
    "name": "Eligibility",
    "rect": {
     "x": 16,
-    "y": 2550,
+    "y": 2529,
     "width": 358,
     "height": 225
    },
@@ -93,7 +93,7 @@
    "name": "Find New & Used Cars By City",
    "rect": {
     "x": 16,
-    "y": 2798,
+    "y": 2777,
     "width": 358,
     "height": 134
    },
@@ -104,9 +104,9 @@
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 2963,
+    "y": 5238,
     "width": 390,
-    "height": 266
+    "height": 332
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(3)"
   }
@@ -465,8 +465,8 @@
    "width": 173,
    "height": 218,
    "kind": "link",
-   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=chery&model=tiggo&tenure=3&down_payment=60&bank=bank-islamic&package_id=1",
-   "label": "Rs 69.99 – 95.85 LacsChery TiggoFinancing starts at 101,297"
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=toyota&model=corolla-cross&tenure=3&down_payment=65&bank=bank-islamic&package_id=1",
+   "label": "Rs 72.35 Lacs – 1.22 CroresToyota Corolla CrossFinancing starts at 91,623"
   },
   {
    "x": 6748,
@@ -474,8 +474,8 @@
    "width": 173,
    "height": 218,
    "kind": "link",
-   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=toyota&model=corolla-cross&tenure=3&down_payment=65&bank=bank-islamic&package_id=1",
-   "label": "Rs 72.35 Lacs – 1.22 CroresToyota Corolla CrossFinancing starts at 91,623"
+   "href": "https://www.olx.com.pk/motors/car-finance/packages/apply-now/?make=chery&model=tiggo&tenure=3&down_payment=60&bank=bank-islamic&package_id=1",
+   "label": "Rs 69.99 – 95.85 LacsChery TiggoFinancing starts at 101,297"
   },
   {
    "x": 6935,
@@ -578,7 +578,7 @@
   },
   {
    "x": 16,
-   "y": 2831,
+   "y": 2810,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -587,7 +587,7 @@
   },
   {
    "x": 201,
-   "y": 2831,
+   "y": 2810,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -596,7 +596,7 @@
   },
   {
    "x": 16,
-   "y": 2860,
+   "y": 2839,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -605,7 +605,7 @@
   },
   {
    "x": 201,
-   "y": 2860,
+   "y": 2839,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -614,7 +614,7 @@
   },
   {
    "x": 16,
-   "y": 2889,
+   "y": 2868,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -623,7 +623,7 @@
   },
   {
    "x": 201,
-   "y": 2889,
+   "y": 2868,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -632,24 +632,32 @@
   },
   {
    "x": 16,
-   "y": 2906,
-   "width": 59,
+   "y": 2885,
+   "width": 60,
    "height": 26,
    "kind": "button",
    "label": "View More"
   },
   {
    "x": 16,
-   "y": 3079,
+   "y": 5354,
    "width": 358,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 5428,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 3149,
+   "y": 5490,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -658,7 +666,7 @@
   },
   {
    "x": 157,
-   "y": 3149,
+   "y": 5490,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -667,7 +675,7 @@
   },
   {
    "x": 201,
-   "y": 3149,
+   "y": 5490,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -676,12 +684,20 @@
   },
   {
    "x": 245,
-   "y": 3149,
+   "y": 5490,
    "width": 32,
    "height": 37,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
+  },
+  {
+   "x": 38,
+   "y": 13108,
+   "width": 340,
+   "height": 40,
+   "kind": "input",
+   "label": "Search by Car Variant"
   }
  ]
 }

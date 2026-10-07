@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/car-insurance/igi-insurance/",
  "finalUrl": "https://www.olx.com.pk/motors/car-insurance/igi-insurance/",
  "width": 390,
- "height": 2575,
+ "height": 21128,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:54:14.331Z",
+ "captured": "2026-10-07T14:32:45.197Z",
  "sections": [
   {
    "file": "01-igi-insurance",
@@ -104,9 +104,9 @@
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 2309,
+    "y": 4225,
     "width": 390,
-    "height": 266
+    "height": 332
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(3)"
   }
@@ -850,23 +850,31 @@
   {
    "x": 16,
    "y": 2252,
-   "width": 59,
+   "width": 60,
    "height": 26,
    "kind": "button",
    "label": "View More"
   },
   {
    "x": 16,
-   "y": 2425,
+   "y": 4341,
    "width": 358,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 4415,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 2495,
+   "y": 4477,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -875,7 +883,7 @@
   },
   {
    "x": 157,
-   "y": 2495,
+   "y": 4477,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -884,7 +892,7 @@
   },
   {
    "x": 201,
-   "y": 2495,
+   "y": 4477,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -893,12 +901,20 @@
   },
   {
    "x": 245,
-   "y": 2495,
+   "y": 4477,
    "width": 32,
    "height": 37,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
+  },
+  {
+   "x": 38,
+   "y": 10576,
+   "width": 340,
+   "height": 40,
+   "kind": "input",
+   "label": "Search by Car Variant"
   }
  ]
 }

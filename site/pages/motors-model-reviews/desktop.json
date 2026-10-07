@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/",
  "finalUrl": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/",
  "width": 1440,
- "height": 1961,
+ "height": 3386,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:53:00.672Z",
+ "captured": "2026-10-07T14:29:03.113Z",
  "sections": [
   {
    "file": "01-header",
@@ -59,19 +59,85 @@
    "file": "05-consumer-reviews",
    "name": "Consumer Reviews",
    "rect": {
-    "x": 0,
-    "y": 760,
-    "width": 1440,
-    "height": 582
+    "x": 80,
+    "y": 784,
+    "width": 1280,
+    "height": 70
    },
-   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(4)"
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "06-find-amazing-deals-on-the-go-download-ol",
+   "file": "06-performance-is-very-good",
+   "name": "Performance is very good",
+   "rect": {
+    "x": 80,
+    "y": 869,
+    "width": 1280,
+    "height": 211
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
+  },
+  {
+   "file": "07-corolla-is-always-a-go-to-car",
+   "name": "Corolla is always a go to car",
+   "rect": {
+    "x": 80,
+    "y": 1144,
+    "width": 1280,
+    "height": 210
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(4)"
+  },
+  {
+   "file": "08-nice-and-funtastic",
+   "name": "Nice and funtastic",
+   "rect": {
+    "x": 80,
+    "y": 1418,
+    "width": 1280,
+    "height": 211
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
+  },
+  {
+   "file": "09-corolla-is-cash-because-of-high-demand-a",
+   "name": "Corolla is cash because of high demand a",
+   "rect": {
+    "x": 80,
+    "y": 1693,
+    "width": 1280,
+    "height": 211
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
+  },
+  {
+   "file": "10-most-reliable-sedan-in-pakistan",
+   "name": "Most reliable sedan in Pakistan",
+   "rect": {
+    "x": 80,
+    "y": 1968,
+    "width": 1280,
+    "height": 211
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(4) > :nth-child(1) > :nth-child(1) > :nth-child(10)"
+  },
+  {
+   "file": "11-used-toyota-corolla-for-sale",
+   "name": "Used Toyota Corolla for Sale",
+   "rect": {
+    "x": 80,
+    "y": 2234,
+    "width": 1280,
+    "height": 517
+   },
+   "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(2) > :nth-child(1) > :nth-child(5)"
+  },
+  {
+   "file": "12-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go.Download OL",
    "rect": {
     "x": 0,
-    "y": 1443,
+    "y": 2868,
     "width": 1440,
     "height": 518
    },
@@ -91,24 +157,32 @@
   {
    "x": 141,
    "y": 24,
-   "width": 159,
+   "width": 144,
    "height": 24,
    "kind": "link",
-   "href": "https://www.olx.com.pk/motors/",
+   "href": "https://www.olx.com.pk/motors",
    "label": "Motors"
   },
   {
-   "x": 300,
+   "x": 284,
    "y": 24,
-   "width": 191,
+   "width": 139,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
    "label": "Property"
   },
   {
+   "x": 1196,
+   "y": 20,
+   "width": 40,
+   "height": 24,
+   "kind": "button",
+   "label": "Login"
+  },
+  {
    "x": 1256,
-   "y": 12,
+   "y": 40,
    "width": 104,
    "height": 20,
    "kind": "link",
@@ -118,7 +192,7 @@
   {
    "x": 80,
    "y": 78,
-   "width": 63,
+   "width": 64,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
@@ -127,7 +201,7 @@
   {
    "x": 185,
    "y": 78,
-   "width": 60,
+   "width": 61,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/",
@@ -136,7 +210,7 @@
   {
    "x": 287,
    "y": 78,
-   "width": 101,
+   "width": 102,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/compare/",
@@ -145,23 +219,23 @@
   {
    "x": 430,
    "y": 78,
-   "width": 77,
+   "width": 79,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-reviews/",
    "label": "Car Reviews"
   },
   {
-   "x": 549,
+   "x": 550,
    "y": 78,
-   "width": 72,
+   "width": 73,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-finance/",
    "label": "Car Finance"
   },
   {
-   "x": 663,
+   "x": 664,
    "y": 78,
    "width": 91,
    "height": 18,
@@ -170,9 +244,9 @@
    "label": "Car Inspection"
   },
   {
-   "x": 796,
+   "x": 797,
    "y": 78,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-insurance/",
@@ -181,7 +255,7 @@
   {
    "x": 80,
    "y": 121,
-   "width": 32,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -190,25 +264,25 @@
   {
    "x": 140,
    "y": 121,
-   "width": 37,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
    "label": "Motors"
   },
   {
-   "x": 205,
+   "x": 206,
    "y": 121,
-   "width": 66,
+   "width": 65,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/car-reviews/",
    "label": "Car Reviews"
   },
   {
-   "x": 528,
+   "x": 530,
    "y": 257,
-   "width": 117,
+   "width": 115,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/cars_c84/q-toyota-corolla",
@@ -217,7 +291,7 @@
   {
    "x": 827,
    "y": 643,
-   "width": 171,
+   "width": 172,
    "height": 38,
    "kind": "button",
    "label": "Write a Review"
@@ -228,19 +302,163 @@
    "width": 162,
    "height": 20,
    "kind": "button",
-   "label": ".css-3sdpgz{padding:0;display:-webkit-box;display:-webkit-flex;display:-ms-flexb"
+   "label": "All"
   },
   {
-   "x": 607,
-   "y": 1221,
-   "width": 226,
-   "height": 49,
+   "x": 360,
+   "y": 869,
+   "width": 1000,
+   "height": 211,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/71/?version=2958,30",
+   "label": "Performance is very goodcomfortExcellentReliabilityExcellentperformanceExcellent"
+  },
+  {
+   "x": 360,
+   "y": 1144,
+   "width": 1000,
+   "height": 210,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/42/?version=2956,30",
+   "label": "Corolla is always a go to carcomfortNeutralReliabilityNeutralperformanceExcellen"
+  },
+  {
+   "x": 360,
+   "y": 1418,
+   "width": 1000,
+   "height": 211,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/41/?version=2958,30",
+   "label": "Nice and funtasticcomfortExcellentReliabilityGoodperformanceExcellentSafetyExcel"
+  },
+  {
+   "x": 360,
+   "y": 1693,
+   "width": 1000,
+   "height": 211,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/14/?version=126,30",
+   "label": "Corolla is cash because of high demand and acceptability in marketcomfortGoodRel"
+  },
+  {
+   "x": 360,
+   "y": 1968,
+   "width": 1000,
+   "height": 211,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/car-reviews/toyota/corolla/13/?version=126,30",
+   "label": "Most reliable sedan in PakistancomfortGoodReliabilityExcellentperformanceExcelle"
+  },
+  {
+   "x": 1290,
+   "y": 2245,
+   "width": 70,
+   "height": 18,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/q-toyota-corolla/",
+   "label": "View More"
+  },
+  {
+   "x": 80,
+   "y": 2279,
+   "width": 313,
+   "height": 472,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-xli-2007-excellent-condition-biometric-available-iid-1119694167/",
+   "label": "FEATUREDRs 17.75 LacsToyota Corolla XLi 2007 | Excellent Condition | Biometric A"
+  },
+  {
+   "x": 415,
+   "y": 2279,
+   "width": 313,
+   "height": 472,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-2008-manual-excellent-condition-iid-1118768764/",
+   "label": "FEATUREDRs 26 LacsToyota Corolla GLi 2008 | Manual| Excellent Condition175000 KM"
+  },
+  {
+   "x": 750,
+   "y": 2279,
+   "width": 313,
+   "height": 472,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-grande-2019-1st-owner-52000-km-black-iid-1120202932/",
+   "label": "FEATUREDRs 46.50 LacsToyota Corolla Grande 2019 | 1st Owner | 52,000 KM | Black5"
+  },
+  {
+   "x": 1085,
+   "y": 2279,
+   "width": 313,
+   "height": 472,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-axio-15-japanese-import-excellent-condition-iid-1118767612/",
+   "label": "FEATUREDRs 65 LacsToyota Corolla Axio 1.5 | Japanese Import | Excellent Conditio"
+  },
+  {
+   "x": 1420,
+   "y": 2279,
+   "width": 313,
+   "height": 472,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-2018-model-excellent-condition-iid-1120112217/",
+   "label": "FEATUREDRs 48.50 LacsToyota Corolla GLi 2018 Model – Excellent Condition75000 KM"
+  },
+  {
+   "x": 1755,
+   "y": 2279,
+   "width": 313,
+   "height": 472,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-fielder-2014-registered-2018-iid-1118768000/",
+   "label": "FEATUREDRs 43 LacsToyota Corolla Fielder 2014 – Registered 2018118000 KM2014Fede"
+  },
+  {
+   "x": 2090,
+   "y": 2279,
+   "width": 313,
+   "height": 472,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-iid-1119706511/",
+   "label": "FEATUREDRs 50.95 LacsToyota Corolla Altis74000 KM2020Al Faisal Town, Lahore, Pun"
+  },
+  {
+   "x": 2425,
+   "y": 2279,
+   "width": 313,
+   "height": 472,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-xli-2013-iid-1119915039/",
+   "label": "FEATUREDRs 29.75 LacsToyota Corolla XLI 2013206000 KM2013Bahria Town Phase 6, Ba"
+  },
+  {
+   "x": 2760,
+   "y": 2279,
+   "width": 313,
+   "height": 472,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-gli-2018-total-genuine-paint-iid-1120129350/",
+   "label": "FEATUREDRs 41.75 LacsToyota Corolla GLI 2018 Total genuine paint66000 KM2018Jail"
+  },
+  {
+   "x": 3095,
+   "y": 2279,
+   "width": 313,
+   "height": 472,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-2022-iid-1119882854/",
+   "label": "FEATUREDRs 57.90 LacsToyota Corolla Altis 202254000 KM2022Jail Road, Lahore, Pun"
+  },
+  {
+   "x": 1340,
+   "y": 2495,
+   "width": 40,
+   "height": 41,
    "kind": "button",
-   "label": "Write a Review"
+   "label": ""
   },
   {
    "x": 960,
-   "y": 1525,
+   "y": 2951,
    "width": 128,
    "height": 39,
    "kind": "link",
@@ -249,7 +467,7 @@
   },
   {
    "x": 1096,
-   "y": 1525,
+   "y": 2951,
    "width": 128,
    "height": 39,
    "kind": "link",
@@ -258,7 +476,7 @@
   },
   {
    "x": 1232,
-   "y": 1525,
+   "y": 2951,
    "width": 128,
    "height": 39,
    "kind": "link",
@@ -267,8 +485,8 @@
   },
   {
    "x": 80,
-   "y": 1719,
-   "width": 271,
+   "y": 3144,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/cars_c84/",
@@ -276,8 +494,8 @@
   },
   {
    "x": 80,
-   "y": 1751,
-   "width": 271,
+   "y": 3176,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/apartments-flats_c1723/",
@@ -285,124 +503,124 @@
   },
   {
    "x": 80,
-   "y": 1783,
-   "width": 271,
+   "y": 3208,
+   "width": 238,
    "height": 25,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453",
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/",
    "label": "Mobile Phones"
   },
   {
    "x": 80,
-   "y": 1815,
-   "width": 271,
+   "y": 3240,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4/",
    "label": "Jobs"
   },
   {
-   "x": 351,
-   "y": 1719,
-   "width": 271,
+   "x": 317,
+   "y": 3144,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81/",
    "label": "Bikes"
   },
   {
-   "x": 351,
-   "y": 1751,
-   "width": 271,
+   "x": 317,
+   "y": 3176,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/watches_c1970/",
    "label": "Watches"
   },
   {
-   "x": 351,
-   "y": 1783,
-   "width": 271,
+   "x": 317,
+   "y": 3208,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/items/q-books/",
    "label": "Books"
   },
   {
-   "x": 351,
-   "y": 1815,
-   "width": 271,
+   "x": 317,
+   "y": 3240,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/items/q-dogs/",
    "label": "Dogs"
   },
   {
-   "x": 622,
-   "y": 1719,
-   "width": 271,
+   "x": 555,
+   "y": 3144,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
    "label": "OLX Blog"
   },
   {
-   "x": 622,
-   "y": 1751,
-   "width": 271,
+   "x": 555,
+   "y": 3176,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/requests/new",
    "label": "Contact Us"
   },
   {
-   "x": 622,
-   "y": 1783,
-   "width": 271,
+   "x": 555,
+   "y": 3208,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
    "label": "OLX for Businesses"
   },
   {
-   "x": 893,
-   "y": 1719,
-   "width": 271,
+   "x": 792,
+   "y": 3144,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
    "label": "Help"
   },
   {
-   "x": 893,
-   "y": 1751,
-   "width": 271,
+   "x": 792,
+   "y": 3176,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://www.olx.com.pk/sitemap/most-popular",
    "label": "Sitemap"
   },
   {
-   "x": 893,
-   "y": 1783,
-   "width": 271,
+   "x": 792,
+   "y": 3208,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
    "label": "Terms of use"
   },
   {
-   "x": 893,
-   "y": 1815,
-   "width": 271,
+   "x": 792,
+   "y": 3240,
+   "width": 238,
    "height": 25,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
    "label": "Privacy Policy"
   },
   {
-   "x": 1164,
-   "y": 1719,
+   "x": 1030,
+   "y": 3144,
    "width": 40,
    "height": 45,
    "kind": "link",
@@ -410,8 +628,8 @@
    "label": ""
   },
   {
-   "x": 1216,
-   "y": 1719,
+   "x": 1082,
+   "y": 3144,
    "width": 40,
    "height": 45,
    "kind": "link",
@@ -419,8 +637,8 @@
    "label": ""
   },
   {
-   "x": 1268,
-   "y": 1719,
+   "x": 1134,
+   "y": 3144,
    "width": 40,
    "height": 45,
    "kind": "link",
@@ -428,13 +646,21 @@
    "label": ""
   },
   {
-   "x": 1320,
-   "y": 1719,
+   "x": 1186,
+   "y": 3144,
    "width": 40,
    "height": 45,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
+  },
+  {
+   "x": 1030,
+   "y": 3204,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
   }
  ]
 }

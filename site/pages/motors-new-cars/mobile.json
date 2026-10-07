@@ -5,11 +5,11 @@
  "url": "https://www.olx.com.pk/motors/new-cars/",
  "finalUrl": "https://www.olx.com.pk/motors/new-cars/",
  "width": 390,
- "height": 2657,
+ "height": 31384,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-10-06T08:50:24.966Z",
+ "captured": "2026-10-07T14:23:14.774Z",
  "sections": [
   {
    "file": "01-header",
@@ -29,7 +29,7 @@
     "x": 16,
     "y": 112,
     "width": 358,
-    "height": 2174
+    "height": 3374
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
@@ -38,9 +38,9 @@
    "name": "Get the OLX App",
    "rect": {
     "x": 0,
-    "y": 2325,
+    "y": 6316,
     "width": 390,
-    "height": 332
+    "height": 398
    },
    "selector": "body > :nth-child(1) > :nth-child(2) > :nth-child(4)"
   },
@@ -49,7 +49,7 @@
    "name": "Home · Chat · Sell",
    "rect": {
     "x": 0,
-    "y": 2598,
+    "y": 15633,
     "width": 390,
     "height": 59
    },
@@ -67,7 +67,568 @@
   },
   {
    "x": 16,
-   "y": 437,
+   "y": 196,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honda/",
+   "label": "Honda"
+  },
+  {
+   "x": 88,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/suzuki/",
+   "label": "Suzuki"
+  },
+  {
+   "x": 161,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/toyota/",
+   "label": "Toyota"
+  },
+  {
+   "x": 233,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/peugeot/",
+   "label": "Peugeot"
+  },
+  {
+   "x": 306,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/chery/",
+   "label": "Chery"
+  },
+  {
+   "x": 16,
+   "y": 288,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/kaiyi/",
+   "label": "KAIYI"
+  },
+  {
+   "x": 88,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/faw/",
+   "label": "FAW"
+  },
+  {
+   "x": 161,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/kia/",
+   "label": "KIA"
+  },
+  {
+   "x": 233,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/mg/",
+   "label": "MG"
+  },
+  {
+   "x": 306,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/baic/",
+   "label": "BAIC"
+  },
+  {
+   "x": 379,
+   "y": 196,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/porsche/",
+   "label": "Porsche"
+  },
+  {
+   "x": 451,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/bmw/",
+   "label": "BMW"
+  },
+  {
+   "x": 524,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/audi/",
+   "label": "Audi"
+  },
+  {
+   "x": 596,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/byd/",
+   "label": "BYD"
+  },
+  {
+   "x": 669,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/daihatsu/",
+   "label": "Daihatsu"
+  },
+  {
+   "x": 379,
+   "y": 288,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/isuzu/",
+   "label": "Isuzu"
+  },
+  {
+   "x": 451,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/mercedes-benz/",
+   "label": "Mercedes Benz"
+  },
+  {
+   "x": 524,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/mitsubishi/",
+   "label": "Mitsubishi"
+  },
+  {
+   "x": 596,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/pontiac/",
+   "label": "Pontiac"
+  },
+  {
+   "x": 669,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/scion/",
+   "label": "Scion"
+  },
+  {
+   "x": 742,
+   "y": 196,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/seres/",
+   "label": "Seres"
+  },
+  {
+   "x": 814,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/skoda/",
+   "label": "Skoda"
+  },
+  {
+   "x": 887,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/smart/",
+   "label": "Smart"
+  },
+  {
+   "x": 959,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/sogo-1/",
+   "label": "Sogo"
+  },
+  {
+   "x": 1032,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/sokon/",
+   "label": "Sokon"
+  },
+  {
+   "x": 742,
+   "y": 288,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/vauxhall/",
+   "label": "Vauxhall"
+  },
+  {
+   "x": 814,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/willys/",
+   "label": "Willys"
+  },
+  {
+   "x": 887,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/changan/",
+   "label": "Changan"
+  },
+  {
+   "x": 959,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/dfsk/",
+   "label": "DFSK"
+  },
+  {
+   "x": 1032,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/haval/",
+   "label": "Haval"
+  },
+  {
+   "x": 1105,
+   "y": 196,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/hyundai/",
+   "label": "Hyundai"
+  },
+  {
+   "x": 1177,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/proton/",
+   "label": "Proton"
+  },
+  {
+   "x": 1250,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/united/",
+   "label": "United"
+  },
+  {
+   "x": 1322,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/rolls-royce/",
+   "label": "Rolls Royce"
+  },
+  {
+   "x": 1395,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/chevrolet/",
+   "label": "Chevrolet"
+  },
+  {
+   "x": 1105,
+   "y": 288,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/deepal/",
+   "label": "Deepal"
+  },
+  {
+   "x": 1177,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/ford/",
+   "label": "Ford"
+  },
+  {
+   "x": 1250,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/honri/",
+   "label": "Honri"
+  },
+  {
+   "x": 1322,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/jaguar/",
+   "label": "Jaguar"
+  },
+  {
+   "x": 1395,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/lada/",
+   "label": "Lada"
+  },
+  {
+   "x": 1468,
+   "y": 196,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/lamborghini/",
+   "label": "Lamborghini"
+  },
+  {
+   "x": 1540,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/land-rover/",
+   "label": "Land Rover"
+  },
+  {
+   "x": 1613,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/lifan/",
+   "label": "Lifan"
+  },
+  {
+   "x": 1685,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/maserati/",
+   "label": "Maserati"
+  },
+  {
+   "x": 1758,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/mazda/",
+   "label": "Mazda"
+  },
+  {
+   "x": 1468,
+   "y": 288,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/mclaren/",
+   "label": "McLaren"
+  },
+  {
+   "x": 1540,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/mini/",
+   "label": "MINI"
+  },
+  {
+   "x": 1613,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/mushtaq/",
+   "label": "Mushtaq"
+  },
+  {
+   "x": 1685,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/nissan/",
+   "label": "Nissan"
+  },
+  {
+   "x": 1758,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/opel/",
+   "label": "Opel"
+  },
+  {
+   "x": 1831,
+   "y": 196,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/ora/",
+   "label": "ORA"
+  },
+  {
+   "x": 1903,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/range-rover/",
+   "label": "Range Rover"
+  },
+  {
+   "x": 1976,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/tesla/",
+   "label": "Tesla"
+  },
+  {
+   "x": 2048,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/volkswagen/",
+   "label": "Volkswagen"
+  },
+  {
+   "x": 2121,
+   "y": 196,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/zotye/",
+   "label": "ZOTYE"
+  },
+  {
+   "x": 1831,
+   "y": 288,
+   "width": 56,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/jaecoo/",
+   "label": "JAECOO"
+  },
+  {
+   "x": 1903,
+   "y": 288,
+   "width": 57,
+   "height": 57,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/motors/new-cars/omoda/",
+   "label": "OMODA"
+  },
+  {
+   "x": 141,
+   "y": 382,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 159,
+   "y": 382,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 177,
+   "y": 382,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 195,
+   "y": 382,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 213,
+   "y": 382,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 231,
+   "y": 382,
+   "width": 18,
+   "height": 5,
+   "kind": "button",
+   "label": ""
+  },
+  {
+   "x": 16,
+   "y": 443,
    "width": 173,
    "height": 141,
    "kind": "link",
@@ -76,7 +637,7 @@
   },
   {
    "x": 201,
-   "y": 437,
+   "y": 443,
    "width": 173,
    "height": 65,
    "kind": "link",
@@ -85,7 +646,7 @@
   },
   {
    "x": 201,
-   "y": 513,
+   "y": 519,
    "width": 173,
    "height": 65,
    "kind": "link",
@@ -94,7 +655,7 @@
   },
   {
    "x": 16,
-   "y": 589,
+   "y": 595,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -103,7 +664,7 @@
   },
   {
    "x": 164,
-   "y": 589,
+   "y": 595,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -112,7 +673,7 @@
   },
   {
    "x": 312,
-   "y": 589,
+   "y": 595,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -121,7 +682,7 @@
   },
   {
    "x": 460,
-   "y": 589,
+   "y": 595,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -130,7 +691,7 @@
   },
   {
    "x": 608,
-   "y": 589,
+   "y": 595,
    "width": 137,
    "height": 96,
    "kind": "link",
@@ -139,7 +700,7 @@
   },
   {
    "x": 756,
-   "y": 589,
+   "y": 595,
    "width": 138,
    "height": 96,
    "kind": "link",
@@ -147,9 +708,9 @@
    "label": "Car Batteries"
   },
   {
-   "x": 314,
-   "y": 709,
-   "width": 60,
+   "x": 313,
+   "y": 715,
+   "width": 61,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?sort_by=popularity",
@@ -157,394 +718,394 @@
   },
   {
    "x": 16,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/seres/3-1/",
    "label": "Rs 91.99 LacsSeres 3– Automatic"
   },
   {
    "x": 262,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/jaecoo/j5/",
    "label": "Rs 69.99 – 79.99 LacsJaecoo J51499 cc Automatic"
   },
   {
    "x": 509,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/",
    "label": "Rs 83.29 – 98.99 LacsHonda Civic1498 cc Automatic"
   },
   {
    "x": 755,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla/",
    "label": "Rs 75.49 LacsToyota Corolla1298 – 1800 cc"
   },
   {
    "x": 1002,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/omoda/e5/",
    "label": "Rs 89.90 LacsOmoda E5– Automatic"
   },
   {
    "x": 1249,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/jaecoo/j6/",
    "label": "Rs 87.99 Lacs – 1.08 CroresJaecoo J6– Automatic"
   },
   {
    "x": 1495,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/jaecoo/j7/",
    "label": "Rs 99.99 LacsJaecoo J71499 cc Automatic"
   },
   {
    "x": 1742,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/toyota/yaris/",
    "label": "Rs 44.79 – 64.69 LacsToyota Yaris1329 – 1496 cc"
   },
   {
    "x": 1989,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/alto/",
    "label": "Rs 23.31 – 33.26 LacsSuzuki Alto658 cc"
   },
   {
    "x": 2235,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/honda/city/",
    "label": "Rs 46.49 – 60.89 LacsHonda City1199 – 1497 cc"
   },
   {
    "x": 2482,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/kia/sportage/",
    "label": "Rs 73 Lacs – 1.33 CroresKIA Sportage1598 – 1999 cc Automatic"
   },
   {
    "x": 2729,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/swift/",
    "label": "Rs 34.50 – 47.19 LacsSuzuki Swift1197 cc"
   },
   {
    "x": 2975,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/hyundai/elantra/",
    "label": "Rs 63.99 – 97 LacsHyundai Elantra1580 – 1999 cc Automatic"
   },
   {
    "x": 3222,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/changan/oshan-x7/",
    "label": "Rs 82.99 – 90.99 LacsChangan Oshan X71500 cc Automatic"
   },
   {
    "x": 3469,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/changan/karvaan/",
    "label": "Rs 27.79 – 33.49 LacsChangan Karvaan999 – 1243 cc Manual"
   },
   {
    "x": 3715,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/hyundai/tucson/",
    "label": "Rs 73.15 Lacs – 1.33 CroresHyundai Tucson1598 – 1999 cc Automatic"
   },
   {
    "x": 3962,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/hyundai/sonata/",
    "label": "Rs 1.02 – 1.65 CroresHyundai Sonata1999 – 2497 cc Automatic"
   },
   {
    "x": 4209,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/peugeot/2008/",
    "label": "Rs 66 – 77.99 LacsPeugeot 20081199 cc Automatic"
   },
   {
    "x": 4455,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/baic/bj40-plus/",
    "label": "Rs 1.12 CroresBAIC BJ40 Plus2000 cc Automatic"
   },
   {
    "x": 4702,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/changan/alsvin/",
    "label": "Rs 37.99 – 45.49 LacsChangan Alsvin1370 – 1480 cc"
   },
   {
    "x": 4949,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/fronx/",
    "label": "Rs 60 – 64.75 LacsSuzuki Fronx1462 cc"
   },
   {
    "x": 5195,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/cultus/",
    "label": "Rs 38.58 – 45.46 LacsSuzuki Cultus998 cc"
   },
   {
    "x": 5442,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/toyota/hilux/",
    "label": "Rs 1.54 CroresToyota Hilux2393 – 2755 cc"
   },
   {
    "x": 5689,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/mg/4-ev/",
    "label": "Rs 1.30 CroresMG 4 EV– Automatic"
   },
   {
    "x": 5935,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/wagon-r/",
    "label": "Rs 32.14 – 37.41 LacsSuzuki Wagon R998 cc"
   },
   {
    "x": 6182,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/toyota/fortuner/",
    "label": "Rs 1.99 CroresToyota Fortuner2694 – 2755 cc Automatic"
   },
   {
    "x": 6429,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/audi/a3/",
    "label": "Rs 4.27 CroresAudi A31197 – 1984 cc Automatic"
   },
   {
    "x": 6675,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/audi/e-tron-gt/",
    "label": "Rs 2.12 – 2.96 CroresAudi e-tron GT– Automatic"
   },
   {
    "x": 6922,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/haval/h6/",
    "label": "Rs 89.24 Lacs – 1.29 CroresHaval H6– Automatic"
   },
   {
    "x": 7169,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/haval/jolion/",
    "label": "Rs 77.96 – 91.16 LacsHaval Jolion– Automatic"
   },
   {
    "x": 7415,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/honda/br-v/",
    "label": "Rs 28.75 – 62.99 LacsHonda BR-V1497 cc"
   },
   {
    "x": 7662,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/kia/sorento/",
    "label": "Rs 89.99 Lacs – 1.90 CroresKIA Sorento1598 – 3470 cc Automatic"
   },
   {
    "x": 7909,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/bolan/",
    "label": "Rs 14.15 – 19.44 LacsSuzuki Bolan796 cc Manual"
   },
   {
    "x": 8155,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/toyota/corolla-cross/",
    "label": "Rs 79.35 Lacs – 1.22 CroresToyota Corolla Cross1798 cc"
   },
   {
    "x": 8402,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/toyota/land-cruiser-1/",
    "label": "Rs 4.17 CroresToyota Land Cruiser4461 – 4608 cc"
   },
   {
    "x": 8648,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/hyundai/staria/",
    "label": "Rs 83.64 Lacs – 1.10 CroresHyundai Staria2200 – 3500 cc"
   },
   {
    "x": 8895,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/honda/hr-v/",
    "label": "Rs 75.49 Lacs – 1.04 CroresHonda HR-V1498 cc"
   },
   {
    "x": 9142,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/every/",
    "label": "Rs 26.95 – 27.49 LacsSuzuki Every658 cc Manual"
   },
   {
    "x": 9388,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/byd/seal/",
    "label": "Rs 1.48 – 1.70 CroresBYD Seal– Automatic"
   },
   {
    "x": 9635,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/byd/atto-3/",
    "label": "Rs 89.90 LacsBYD Atto 3– Automatic"
   },
   {
    "x": 9882,
-   "y": 738,
+   "y": 744,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/kia/sportage-l/",
    "label": "Rs 88.99 Lacs – 1.28 CroresKIA Sportage L1598 – 1999 cc Automatic"
   },
   {
    "x": 10128,
-   "y": 738,
+   "y": 744,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/mg/zs/",
    "label": "Rs 65.99 – 78.99 LacsMG ZS 1495 – 1498 cc"
   },
   {
-   "x": 314,
-   "y": 961,
-   "width": 60,
-   "height": 15,
+   "x": 313,
+   "y": 966,
+   "width": 61,
+   "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?make=toyota&&sort_by=popularity",
    "label": "View More"
   },
   {
    "x": 16,
-   "y": 989,
+   "y": 995,
    "width": 233,
    "height": 199,
    "kind": "link",
@@ -553,7 +1114,7 @@
   },
   {
    "x": 262,
-   "y": 989,
+   "y": 995,
    "width": 234,
    "height": 199,
    "kind": "link",
@@ -562,7 +1123,7 @@
   },
   {
    "x": 509,
-   "y": 989,
+   "y": 995,
    "width": 233,
    "height": 199,
    "kind": "link",
@@ -571,7 +1132,7 @@
   },
   {
    "x": 755,
-   "y": 989,
+   "y": 995,
    "width": 234,
    "height": 199,
    "kind": "link",
@@ -580,7 +1141,7 @@
   },
   {
    "x": 1002,
-   "y": 989,
+   "y": 995,
    "width": 234,
    "height": 199,
    "kind": "link",
@@ -589,7 +1150,7 @@
   },
   {
    "x": 1249,
-   "y": 989,
+   "y": 995,
    "width": 233,
    "height": 199,
    "kind": "link",
@@ -597,54 +1158,54 @@
    "label": "Rs 4.17 CroresToyota Land Cruiser4461 – 4608 cc"
   },
   {
-   "x": 314,
-   "y": 1212,
-   "width": 60,
-   "height": 16,
+   "x": 313,
+   "y": 1218,
+   "width": 61,
+   "height": 15,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?make=honda&&sort_by=popularity",
    "label": "View More"
   },
   {
    "x": 16,
-   "y": 1241,
+   "y": 1246,
    "width": 233,
-   "height": 198,
+   "height": 199,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/honda/civic/",
    "label": "Rs 83.29 – 98.99 LacsHonda Civic1498 cc Automatic"
   },
   {
    "x": 262,
-   "y": 1241,
+   "y": 1246,
    "width": 234,
-   "height": 198,
+   "height": 199,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/honda/city/",
    "label": "Rs 46.49 – 60.89 LacsHonda City1199 – 1497 cc"
   },
   {
    "x": 509,
-   "y": 1241,
+   "y": 1246,
    "width": 233,
-   "height": 198,
+   "height": 199,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/honda/hr-v/",
    "label": "Rs 75.49 Lacs – 1.04 CroresHonda HR-V1498 cc"
   },
   {
    "x": 755,
-   "y": 1241,
+   "y": 1246,
    "width": 234,
-   "height": 198,
+   "height": 199,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/honda/br-v/",
    "label": "Rs 28.75 – 62.99 LacsHonda BR-V1497 cc"
   },
   {
-   "x": 314,
-   "y": 1463,
-   "width": 60,
+   "x": 313,
+   "y": 1469,
+   "width": 61,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/all-new-cars/?make=suzuki&&sort_by=popularity",
@@ -652,88 +1213,88 @@
   },
   {
    "x": 16,
-   "y": 1492,
+   "y": 1498,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/alto/",
    "label": "Rs 23.31 – 33.26 LacsSuzuki Alto658 cc"
   },
   {
    "x": 262,
-   "y": 1492,
+   "y": 1498,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/swift/",
    "label": "Rs 34.50 – 47.19 LacsSuzuki Swift1197 cc"
   },
   {
    "x": 509,
-   "y": 1492,
+   "y": 1498,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/fronx/",
    "label": "Rs 60 – 64.75 LacsSuzuki Fronx1462 cc"
   },
   {
    "x": 755,
-   "y": 1492,
+   "y": 1498,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/cultus/",
    "label": "Rs 38.58 – 45.46 LacsSuzuki Cultus998 cc"
   },
   {
    "x": 1002,
-   "y": 1492,
+   "y": 1498,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/wagon-r/",
    "label": "Rs 32.14 – 37.41 LacsSuzuki Wagon R998 cc"
   },
   {
    "x": 1249,
-   "y": 1492,
+   "y": 1498,
    "width": 233,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/every/",
    "label": "Rs 26.95 – 27.49 LacsSuzuki Every658 cc Manual"
   },
   {
    "x": 1495,
-   "y": 1492,
+   "y": 1498,
    "width": 234,
-   "height": 199,
+   "height": 198,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/suzuki/bolan/",
    "label": "Rs 14.15 – 19.44 LacsSuzuki Bolan796 cc Manual"
   },
   {
-   "x": 329,
-   "y": 1715,
-   "width": 45,
-   "height": 15,
+   "x": 328,
+   "y": 1720,
+   "width": 46,
+   "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/new-cars/compare/",
    "label": "View All"
   },
   {
    "x": 130,
-   "y": 1871,
+   "y": 1877,
    "width": 130,
    "height": 18,
    "kind": "link",
-   "href": "https://www.olx.com.pk/motors/new-cars/compare/jaecoo-j7-vs-kia-sportage/",
+   "href": "https://www.olx.com.pk/motors/new-cars/compare/jaecoo-j7-vs-hyundai-tucson/",
    "label": "View Comparison"
   },
   {
    "x": 17,
-   "y": 1957,
+   "y": 1963,
    "width": 203,
    "height": 136,
    "kind": "link",
@@ -742,7 +1303,7 @@
   },
   {
    "x": 233,
-   "y": 1957,
+   "y": 1963,
    "width": 204,
    "height": 136,
    "kind": "link",
@@ -751,7 +1312,7 @@
   },
   {
    "x": 450,
-   "y": 1957,
+   "y": 1963,
    "width": 203,
    "height": 136,
    "kind": "link",
@@ -760,7 +1321,7 @@
   },
   {
    "x": 666,
-   "y": 1957,
+   "y": 1963,
    "width": 204,
    "height": 136,
    "kind": "link",
@@ -769,7 +1330,7 @@
   },
   {
    "x": 883,
-   "y": 1957,
+   "y": 1963,
    "width": 203,
    "height": 136,
    "kind": "link",
@@ -778,7 +1339,7 @@
   },
   {
    "x": 1099,
-   "y": 1957,
+   "y": 1963,
    "width": 204,
    "height": 136,
    "kind": "link",
@@ -787,7 +1348,7 @@
   },
   {
    "x": 1316,
-   "y": 1957,
+   "y": 1963,
    "width": 204,
    "height": 136,
    "kind": "link",
@@ -796,7 +1357,7 @@
   },
   {
    "x": 1533,
-   "y": 1957,
+   "y": 1963,
    "width": 203,
    "height": 136,
    "kind": "link",
@@ -805,7 +1366,7 @@
   },
   {
    "x": 1749,
-   "y": 1957,
+   "y": 1963,
    "width": 204,
    "height": 136,
    "kind": "link",
@@ -814,7 +1375,7 @@
   },
   {
    "x": 1966,
-   "y": 1957,
+   "y": 1963,
    "width": 203,
    "height": 136,
    "kind": "link",
@@ -822,9 +1383,153 @@
    "label": "Honda City9 reviews"
   },
   {
+   "x": 313,
+   "y": 2124,
+   "width": 61,
+   "height": 15,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84/",
+   "label": "View More"
+  },
+  {
    "x": 16,
-   "y": 2113,
-   "width": 32,
+   "y": 2152,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/suzuki-cultus-vxr-2013-iid-1118503662/",
+   "label": "FEATUREDRs 17.75 LacsSuzuki Cultus VXR 201312345 KM2013Bahadurabad, Gulshan-e-Iq"
+  },
+  {
+   "x": 244,
+   "y": 2152,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-vitz-2006-iid-1118503398/",
+   "label": "FEATUREDRs 20.50 LacsToyota Vitz 200612345 KM2006Guru Mandir Chorangi, Karachi, "
+  },
+  {
+   "x": 473,
+   "y": 2152,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/suzuki-cultus-vxr-2011-iid-1118580453/",
+   "label": "FEATUREDRs 15.25 LacsSuzuki Cultus VXR 2011120000 KM2011Ghauri Town, Islamabad, "
+  },
+  {
+   "x": 702,
+   "y": 2152,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/city-aspar-2015-iid-1119914185/",
+   "label": "FEATUREDRs 29.50 Lacscity aspar 2015110000 KM2015Burewala Vehari Road, Burewala,"
+  },
+  {
+   "x": 931,
+   "y": 2152,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/suzuki-cultus-vxr-2015-iid-1120026332/",
+   "label": "FEATUREDRs 15.90 LacsSuzuki Cultus VXR 2015115000 KM2015Mughalpura, Lahore, Punj"
+  },
+  {
+   "x": 1159,
+   "y": 2152,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/daihatsu-terios-kid-2014-iid-1119821224/",
+   "label": "FEATUREDRs 33 LacsDaihatsu Terios Kid 201490000 KM2014Shadbagh, Lahore, Punjab, "
+  },
+  {
+   "x": 1388,
+   "y": 2152,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-yaris-2023-hatchback-imported-g-led-2026-fresh-imported-iid-1120025741/",
+   "label": "FEATUREDRs 46.50 LacsToyota Yaris 2023 hatchback imported G LED 2026 fresh impor"
+  },
+  {
+   "x": 1617,
+   "y": 2152,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-altis-2021-16-x-1600cc-automatic-hardtop-iid-1120025711/",
+   "label": "FEATUREDRs 49.90 LacsToyota Corolla Altis 2021 1.6 X 1600cc automatic hardtop112"
+  },
+  {
+   "x": 1846,
+   "y": 2152,
+   "width": 217,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/haval-h6-15t-2026-total-geniune-iid-1118283190/",
+   "label": "FEATUREDRs 91 LacsHaval H6 1.5T 2026 Total Geniune15000 KM20267th Avenue, Islama"
+  },
+  {
+   "x": 2074,
+   "y": 2152,
+   "width": 218,
+   "height": 356,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/item/jaecoo-j5-premium-brand-new-direct-delivery-from-showroom-iid-1120023699/",
+   "label": "FEATUREDRs 84.50 LacsJaecoo J5 Premium brand new direct delivery from showroom1 "
+  },
+  {
+   "x": 313,
+   "y": 2527,
+   "width": 61,
+   "height": 35,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/category/autos",
+   "label": "View More"
+  },
+  {
+   "x": 16,
+   "y": 2776,
+   "width": 358,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/petrol-price-in-pakistan/",
+   "label": "Petrol Price in Pakistan Increased for the Fourth Time in a Row"
+  },
+  {
+   "x": 118,
+   "y": 2911,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/super-power-launches-petrol-bikes-and-electric-two-wheelers/",
+   "label": "Super Power Launches Petrol Bikes and Electric Two-Wheelers"
+  },
+  {
+   "x": 118,
+   "y": 3045,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/jolta-launches-je-125l-electric-motorcycle/",
+   "label": "Jolta Launches JE-125L Electric Motorcycle"
+  },
+  {
+   "x": 118,
+   "y": 3179,
+   "width": 256,
+   "height": 39,
+   "kind": "link",
+   "href": "https://blog.olx.com.pk/autos/kia-showcased-its-latest-lineup-at-paps-2026/",
+   "label": "Kia Showcased Its Newest Models at Pakistan Auto Show 2026"
+  },
+  {
+   "x": 16,
+   "y": 3313,
+   "width": 33,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -832,8 +1537,8 @@
   },
   {
    "x": 76,
-   "y": 2113,
-   "width": 37,
+   "y": 3313,
+   "width": 39,
    "height": 20,
    "kind": "link",
    "href": "https://www.olx.com.pk/motors/",
@@ -841,25 +1546,25 @@
   },
   {
    "x": 16,
-   "y": 2186,
+   "y": 3385,
    "width": 173,
-   "height": 17,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/lahore_g4060673/cars_c84",
    "label": "Find Cars in Lahore"
   },
   {
    "x": 201,
-   "y": 2186,
+   "y": 3385,
    "width": 173,
-   "height": 17,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84",
    "label": "Find Cars in Karachi"
   },
   {
    "x": 16,
-   "y": 2214,
+   "y": 3414,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -868,7 +1573,7 @@
   },
   {
    "x": 201,
-   "y": 2214,
+   "y": 3414,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -877,7 +1582,7 @@
   },
   {
    "x": 16,
-   "y": 2243,
+   "y": 3443,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -886,7 +1591,7 @@
   },
   {
    "x": 201,
-   "y": 2243,
+   "y": 3443,
    "width": 173,
    "height": 18,
    "kind": "link",
@@ -895,15 +1600,15 @@
   },
   {
    "x": 16,
-   "y": 2260,
-   "width": 59,
+   "y": 3460,
+   "width": 60,
    "height": 26,
    "kind": "button",
    "label": "View More"
   },
   {
    "x": 0,
-   "y": 2606,
+   "y": 15641,
    "width": 72,
    "height": 44,
    "kind": "link",
@@ -912,7 +1617,7 @@
   },
   {
    "x": 79,
-   "y": 2606,
+   "y": 15641,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -921,7 +1626,7 @@
   },
   {
    "x": 159,
-   "y": 2604,
+   "y": 15639,
    "width": 72,
    "height": 47,
    "kind": "link",
@@ -930,7 +1635,7 @@
   },
   {
    "x": 238,
-   "y": 2606,
+   "y": 15641,
    "width": 73,
    "height": 44,
    "kind": "link",
@@ -938,25 +1643,33 @@
    "label": "My Ads"
   },
   {
-   "x": 331,
-   "y": 2606,
-   "width": 46,
+   "x": 332,
+   "y": 15641,
+   "width": 45,
    "height": 44,
    "kind": "button",
    "label": "Account"
   },
   {
    "x": 16,
-   "y": 2441,
+   "y": 6432,
    "width": 358,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
+   "x": 30,
+   "y": 6506,
+   "width": 330,
+   "height": 41,
+   "kind": "button",
+   "label": "Add as preferred source on Google"
+  },
+  {
    "x": 113,
-   "y": 2511,
+   "y": 6568,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -965,7 +1678,7 @@
   },
   {
    "x": 157,
-   "y": 2511,
+   "y": 6568,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -974,7 +1687,7 @@
   },
   {
    "x": 201,
-   "y": 2511,
+   "y": 6568,
    "width": 32,
    "height": 37,
    "kind": "link",
@@ -983,12 +1696,28 @@
   },
   {
    "x": 245,
-   "y": 2511,
+   "y": 6568,
    "width": 32,
    "height": 37,
    "kind": "link",
    "href": "https://www.instagram.com/olx.pakistan/",
    "label": ""
+  },
+  {
+   "x": 38,
+   "y": 15704,
+   "width": 340,
+   "height": 40,
+   "kind": "input",
+   "label": "Search New Cars"
+  },
+  {
+   "x": 16,
+   "y": 15772,
+   "width": 358,
+   "height": 41,
+   "kind": "button",
+   "label": "Advanced Search"
   }
  ]
 }
