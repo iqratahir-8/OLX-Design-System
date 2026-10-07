@@ -2,14 +2,14 @@
  "id": "ad-mobiles",
  "title": "Ad: Mobiles",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/oneplus-12-16gb512gb-official-pta-approved-iid-1119888322",
- "finalUrl": "https://www.olx.com.pk/item/oneplus-12-16gb512gb-official-pta-approved-iid-1119888322",
+ "url": "https://www.olx.com.pk/item/google-pixel-pta-stock-6a-7-7a-8-8a-6a-7-7a-8-8a-128gb-official-pta-iid-1120201920",
+ "finalUrl": "https://www.olx.com.pk/item/google-pixel-pta-stock-6a-7-7a-8-8a-6a-7-7a-8-8a-128gb-official-pta-iid-1120201920",
  "width": 390,
- "height": 2322,
+ "height": 2280,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T13:58:34.060Z",
+ "captured": "2026-10-07T14:07:55.208Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -56,8 +56,8 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-description-oneplus-12-16gb-ram-512gb-st",
-   "name": "Description · OnePlus 12 – 16GB RAM / 512GB Stor",
+   "file": "05-description-google-pixel-series-official",
+   "name": "Description · Google Pixel Series – Official PTA",
    "rect": {
     "x": 0,
     "y": 697,
@@ -73,16 +73,16 @@
     "x": 0,
     "y": 838,
     "width": 390,
-    "height": 181
+    "height": 199
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
   },
   {
-   "file": "07-related-ads-rs-1-95-lac-apple-iphone-14-",
-   "name": "Related ads · Rs 1.95 Lac · Apple iPhone 14 Pro",
+   "file": "07-related-ads-featured-rs-47-999",
+   "name": "Related ads · Featured · Rs 47,999",
    "rect": {
     "x": 0,
-    "y": 1058,
+    "y": 1056,
     "width": 390,
     "height": 371
    },
@@ -93,18 +93,18 @@
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1448,
+    "y": 1426,
     "width": 390,
     "height": 236
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
   },
   {
-   "file": "09-one-plus-in-dha-defence-mobile-phones-in",
-   "name": "One Plus in DHA Defence · Mobile Phones in DHA D",
+   "file": "09-google-in-johar-town-phase-2-mobile-phon",
+   "name": "Google in Johar Town Phase 2 · Mobile Phones in ",
    "rect": {
     "x": 8,
-    "y": 1731,
+    "y": 1689,
     "width": 374,
     "height": 27
    },
@@ -115,7 +115,7 @@
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1757,
+    "y": 1715,
     "width": 390,
     "height": 47
    },
@@ -126,7 +126,7 @@
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1803,
+    "y": 1761,
     "width": 390,
     "height": 519
    },
@@ -137,7 +137,7 @@
    "name": "Chat · Call",
    "rect": {
     "x": 0,
-    "y": 2257,
+    "y": 2215,
     "width": 390,
     "height": 65
    },
@@ -202,45 +202,13 @@
    "label": ""
   },
   {
-   "x": 1950,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2340,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2730,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3120,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
    "x": 171,
    "y": 533,
    "width": 190,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-oneplus-mobiles",
-   "label": "One Plus"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-google-pixel",
+   "label": "Google"
   },
   {
    "x": 171,
@@ -248,8 +216,8 @@
    "width": 190,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-oneplus-12",
-   "label": "12"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-google-pixel-8",
+   "label": "Pixel 8"
   },
   {
    "x": 171,
@@ -281,67 +249,67 @@
    "x": 20,
    "y": 850,
    "width": 354,
-   "height": 119,
+   "height": 137,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/a086701d-05f9-480c-93b6-3413fe53445a",
-   "label": "Posted byAsad Member Since2022Active Ads3"
+   "href": "https://www.olx.com.pk/companies/agency-8043",
+   "label": "Posted bySeller nameMember Since2021Active Ads9"
   },
   {
-   "x": 142,
-   "y": 982,
-   "width": 110,
+   "x": 141,
+   "y": 1000,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 1093,
+   "y": 1091,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-14-pro-iid-1119896615",
+   "href": "https://www.olx.com.pk/item/google-pixel-6a-6gb-128gb-official-pta-approved-pixel-6a-iid-1120201684",
    "label": "Listing"
   },
   {
    "x": 243,
-   "y": 1093,
+   "y": 1091,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-13-pro-iid-1119896497",
+   "href": "https://www.olx.com.pk/item/infinix-smart-20-new-model-android-16-iid-1120202158",
    "label": "Listing"
   },
   {
    "x": 470,
-   "y": 1093,
+   "y": 1091,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/samsung-mobile-z-flip-6-12512gb-iid-1119896153",
+   "href": "https://www.olx.com.pk/item/apple-iphone-13-pro-iid-1120202134",
    "label": "Listing"
   },
   {
    "x": 697,
-   "y": 1093,
+   "y": 1091,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-15-pro-jv-92-battery-health-iid-1119602696",
+   "href": "https://www.olx.com.pk/item/apple-iphone-12-iid-1120200125",
    "label": "Listing"
   },
   {
    "x": 924,
-   "y": 1093,
+   "y": 1091,
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-13-pro-iid-1119880675",
+   "href": "https://www.olx.com.pk/item/one-plus-7-8gb-256gb-iid-1120200248",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2270,
+   "y": 2228,
    "width": 175,
    "height": 40,
    "kind": "button",
@@ -349,61 +317,70 @@
   },
   {
    "x": 199,
-   "y": 2270,
+   "y": 2228,
    "width": 175,
    "height": 40,
    "kind": "button",
    "label": "Call"
   },
   {
-   "x": 246,
-   "y": 1736,
-   "width": 136,
+   "x": 225,
+   "y": 1694,
+   "width": 157,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/dha-defence_g5000959/one-plus-mobile-phones_c1453?filter=make_eq_one-plus",
-   "label": "One Plus in DHA Defence"
+   "href": "https://www.olx.com.pk/lahore-johar-town-phase-2_g3961/google-mobile-phones_c1453?filter=make_eq_google",
+   "label": "Google in Johar Town Phase 2"
   },
   {
-   "x": 48,
-   "y": 1736,
-   "width": 168,
+   "x": 0,
+   "y": 1694,
+   "width": 196,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/dha-defence_g5000959/mobile-phones_c1453",
-   "label": "Mobile Phones in DHA Defence"
+   "href": "https://www.olx.com.pk/lahore-johar-town-phase-2_g3961/mobile-phones_c1453",
+   "label": "Mobile Phones in Johar Town Phase 2"
   },
   {
-   "x": -130,
-   "y": 1736,
-   "width": 148,
+   "x": -183,
+   "y": 1694,
+   "width": 154,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/islamabad_g4060615/mobile-phones_c1453",
-   "label": "Mobile Phones in Islamabad"
+   "href": "https://www.olx.com.pk/johar-town_g5000042/mobile-phones_c1453",
+   "label": "Mobile Phones in Johar Town"
   },
   {
-   "x": -239,
-   "y": 1736,
-   "width": 79,
+   "x": -341,
+   "y": 1694,
+   "width": 129,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/lahore_g4060673/mobile-phones_c1453",
+   "label": "Mobile Phones in Lahore"
+  },
+  {
+   "x": -448,
+   "y": 1694,
+   "width": 78,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/mobile-phones_c1453",
    "label": "Mobile Phones"
   },
   {
-   "x": -311,
-   "y": 1736,
-   "width": 42,
+   "x": -520,
+   "y": 1694,
+   "width": 43,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/mobiles_c1411",
    "label": "Mobiles"
   },
   {
-   "x": -373,
-   "y": 1736,
-   "width": 32,
+   "x": -582,
+   "y": 1694,
+   "width": 33,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -411,7 +388,7 @@
   },
   {
    "x": 16,
-   "y": 2102,
+   "y": 2060,
    "width": 84,
    "height": 33,
    "kind": "link",
@@ -420,7 +397,7 @@
   },
   {
    "x": 113,
-   "y": 2169,
+   "y": 2127,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -429,7 +406,7 @@
   },
   {
    "x": 157,
-   "y": 2169,
+   "y": 2127,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -438,7 +415,7 @@
   },
   {
    "x": 201,
-   "y": 2169,
+   "y": 2127,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -447,7 +424,7 @@
   },
   {
    "x": 245,
-   "y": 2169,
+   "y": 2127,
    "width": 32,
    "height": 41,
    "kind": "link",

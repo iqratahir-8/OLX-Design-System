@@ -2,14 +2,14 @@
  "id": "ad-plots",
  "title": "Ad: Plot",
  "viewport": "desktop",
- "url": "https://www.olx.com.pk/item/saggian-main-corner-plot-for-sale-iid-1119059582",
- "finalUrl": "https://www.olx.com.pk/item/saggian-main-corner-plot-for-sale-iid-1119059582",
+ "url": "https://www.olx.com.pk/item/prime-commercial-property-for-sale-front-facing-iid-1118648385",
+ "finalUrl": "https://www.olx.com.pk/item/prime-commercial-property-for-sale-front-facing-iid-1118648385",
  "width": 1440,
- "height": 2920,
+ "height": 3603,
  "dpr": 1,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-30T07:25:36.864Z",
+ "captured": "2026-10-07T14:51:43.049Z",
  "sections": [
   {
    "file": "01-header",
@@ -45,121 +45,143 @@
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "04-div",
-   "name": "div",
-   "rect": {
-    "x": 80,
-    "y": 250,
-    "width": 1280,
-    "height": 251
-   },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(2)"
-  },
-  {
-   "file": "05-gallery",
+   "file": "04-gallery",
    "name": "Gallery",
    "rect": {
     "x": 80,
-    "y": 532,
+    "y": 282,
     "width": 820,
     "height": 481
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1)"
   },
   {
-   "file": "06-posted-by-seller-name-member-since",
+   "file": "05-posted-by-seller-name-member-since",
    "name": "Posted by · Seller name · Member Since",
    "rect": {
     "x": 940,
-    "y": 532,
+    "y": 282,
     "width": 420,
-    "height": 431
+    "height": 247
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(2)"
   },
   {
-   "file": "07-overview",
+   "file": "06-overview",
    "name": "Overview",
    "rect": {
     "x": 80,
-    "y": 1052,
+    "y": 802,
     "width": 820,
     "height": 116
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "08-type-industrial-land-area",
-   "name": "Type · Industrial Land · Area",
+   "file": "07-type-commercial-plots-area",
+   "name": "Type · Commercial Plots · Area",
    "rect": {
     "x": 80,
-    "y": 1207,
+    "y": 957,
     "width": 820,
     "height": 81
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "09-features",
+   "file": "08-features",
    "name": "Features",
    "rect": {
     "x": 80,
-    "y": 1327,
+    "y": 1077,
     "width": 820,
     "height": 118
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "10-description",
+   "file": "09-description",
    "name": "Description",
    "rect": {
     "x": 80,
-    "y": 1484,
+    "y": 1234,
     "width": 820,
-    "height": 187
+    "height": 27
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5) > :nth-child(1)"
   },
   {
-   "file": "11-related-ads",
+   "file": "10-prime-commercial-property-for-sale-sarma",
+   "name": "PRIME COMMERCIAL PROPERTY FOR SALE · Sarmad Cent",
+   "rect": {
+    "x": 80,
+    "y": 1277,
+    "width": 626,
+    "height": 906
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5) > :nth-child(2) > :nth-child(1)"
+  },
+  {
+   "file": "11-chat-with-seller",
+   "name": "(Chat with seller)",
+   "rect": {
+    "x": 80,
+    "y": 2186,
+    "width": 88,
+    "height": 21
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5) > :nth-child(2) > :nth-child(2)"
+  },
+  {
+   "file": "12-brokers-strictly-not-required-offer-vali",
+   "name": "Brokers Strictly Not Required · ⏳ Offer Valid Un",
+   "rect": {
+    "x": 80,
+    "y": 2234,
+    "width": 612,
+    "height": 117
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(5) > :nth-child(2) > :nth-child(3)"
+  },
+  {
+   "file": "13-related-ads",
    "name": "Related Ads",
    "rect": {
     "x": 80,
-    "y": 1710,
+    "y": 2392,
     "width": 820,
-    "height": 459
+    "height": 460
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "12-your-safety-matters-to-us-only-meet-in-p",
+   "file": "14-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 80,
-    "y": 2208,
+    "y": 2891,
     "width": 820,
     "height": 171
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "13-find-amazing-deals-on-the-go-download-ol",
+   "file": "15-find-amazing-deals-on-the-go-download-ol",
    "name": "Find amazing deals on the go. · Download OLX app",
    "rect": {
     "x": 0,
-    "y": 2402,
+    "y": 3085,
     "width": 1440,
     "height": 173
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "14-footer",
+   "file": "16-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 2574,
+    "y": 3257,
     "width": 1440,
     "height": 346
    },
@@ -188,7 +210,7 @@
   {
    "x": 284,
    "y": 24,
-   "width": 139,
+   "width": 138,
    "height": 24,
    "kind": "link",
    "href": "https://www.olx.com.pk/properties/",
@@ -235,7 +257,7 @@
    "label": "Search"
   },
   {
-   "x": 229,
+   "x": 228,
    "y": 159,
    "width": 105,
    "height": 18,
@@ -244,7 +266,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": 358,
+   "x": 357,
    "y": 159,
    "width": 31,
    "height": 18,
@@ -253,16 +275,16 @@
    "label": "Cars"
   },
   {
-   "x": 413,
+   "x": 411,
    "y": 159,
-   "width": 87,
+   "width": 88,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
    "label": "Motorcycles"
   },
   {
-   "x": 524,
+   "x": 522,
    "y": 159,
    "width": 53,
    "height": 18,
@@ -271,7 +293,7 @@
    "label": "Houses"
   },
   {
-   "x": 601,
+   "x": 598,
    "y": 159,
    "width": 96,
    "height": 18,
@@ -280,18 +302,18 @@
    "label": "Video-Audios"
   },
   {
-   "x": 721,
+   "x": 717,
    "y": 159,
-   "width": 50,
+   "width": 51,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/tablets_c1455",
    "label": "Tablets"
   },
   {
-   "x": 795,
+   "x": 791,
    "y": 159,
-   "width": 85,
+   "width": 86,
    "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
@@ -307,53 +329,53 @@
    "label": "Home"
   },
   {
-   "x": 149,
+   "x": 148,
    "y": 196,
-   "width": 102,
+   "width": 103,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/property-for-sale_c2",
    "label": "Property for Sale"
   },
   {
-   "x": 281,
+   "x": 280,
    "y": 196,
-   "width": 76,
+   "width": 75,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/land-plots_c40",
    "label": "Land & Plots"
   },
   {
-   "x": 387,
+   "x": 384,
    "y": 196,
-   "width": 137,
+   "width": 138,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/land-plots_c40",
-   "label": "Land & Plots in Lahore"
+   "href": "https://www.olx.com.pk/karachi_g4060695/land-plots_c40",
+   "label": "Land & Plots in Karachi"
   },
   {
-   "x": 554,
+   "x": 551,
    "y": 196,
-   "width": 145,
+   "width": 173,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/saggian_g5000783/land-plots_c40",
-   "label": "Land & Plots in Saggian"
+   "href": "https://www.olx.com.pk/saddar-town_g5000238/land-plots_c40",
+   "label": "Land & Plots in Saddar Town"
   },
   {
-   "x": 729,
+   "x": 753,
    "y": 196,
-   "width": 172,
+   "width": 136,
    "height": 19,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore-saggian-city_g10569/land-plots_c40",
-   "label": "Land & Plots in Saggian City"
+   "href": "https://www.olx.com.pk/saddar_g1000000000000418/land-plots_c40",
+   "label": "Land & Plots in Saddar"
   },
   {
    "x": 832,
-   "y": 1228,
+   "y": 498,
    "width": 48,
    "height": 49,
    "kind": "button",
@@ -361,7 +383,7 @@
   },
   {
    "x": 80,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -369,7 +391,7 @@
   },
   {
    "x": 900,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -377,7 +399,7 @@
   },
   {
    "x": 1720,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -385,7 +407,7 @@
   },
   {
    "x": 2540,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -393,7 +415,7 @@
   },
   {
    "x": 3360,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -401,7 +423,7 @@
   },
   {
    "x": 4180,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -409,7 +431,7 @@
   },
   {
    "x": 5000,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -417,7 +439,7 @@
   },
   {
    "x": 5820,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -425,7 +447,7 @@
   },
   {
    "x": 6640,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -433,7 +455,7 @@
   },
   {
    "x": 7460,
-   "y": 1012,
+   "y": 282,
    "width": 820,
    "height": 481,
    "kind": "button",
@@ -441,7 +463,7 @@
   },
   {
    "x": 60,
-   "y": 1940,
+   "y": 2623,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -449,142 +471,142 @@
   },
   {
    "x": 80,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-good-location-plot-for-sale-in-t-prime-block-iid-1119645407",
+   "href": "https://www.olx.com.pk/item/prominently-located-prime-location-residential-plot-available-in-dha-city-karachi-for-sale-iid-1120151437",
    "label": "Listing"
   },
   {
    "x": 357,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/3-marla-good-location-plot-for-sale-in-lahore-motorway-city-block-p-iid-1119645369",
+   "href": "https://www.olx.com.pk/item/near-bait-ul-mukarram-masjid-600-square-yards-open-residential-plot-iid-1120003263",
    "label": "Listing"
   },
   {
    "x": 634,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-transfer-free-good-location-plot-sale-in-s-homes-block-iid-1119645356",
+   "href": "https://www.olx.com.pk/item/residential-plot-sized-240-square-yards-in-kda-officers-society-iid-1119954146",
    "label": "Listing"
   },
   {
    "x": 900,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-residential-plot-situated-in-lahore-motorway-city-for-sale-iid-1119681182",
+   "href": "https://www.olx.com.pk/item/a-500-square-yards-residential-plot-is-up-for-grabs-in-dha-defence-iid-1119036220",
    "label": "Listing"
   },
   {
    "x": 1177,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/a-well-designed-residential-plot-is-up-for-sale-in-an-ideal-location-in-lahore-motorway-city-iid-1119681183",
+   "href": "https://www.olx.com.pk/item/dha-phase-7-500-sq-yds-residential-plot-street-8-prime-location-ideal-for-luxury-home-investment-iid-1119095176",
    "label": "Listing"
   },
   {
    "x": 1454,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/affordable-residential-plot-for-sale-in-lahore-motorway-city-iid-1119645350",
+   "href": "https://www.olx.com.pk/item/600-square-yards-residential-plot-for-sale-in-beautiful-callachi-cooperative-housing-society-iid-1119958507",
    "label": "Listing"
   },
   {
    "x": 1720,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-residential-plot-is-available-for-sale-iid-1119679991",
+   "href": "https://www.olx.com.pk/item/open-plot-is-available-for-sale-iid-1119339888",
    "label": "Listing"
   },
   {
    "x": 1997,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-residential-plot-is-available-for-sale-iid-1119679981",
+   "href": "https://www.olx.com.pk/item/plot-for-sale-iid-1119167185",
    "label": "Listing"
   },
   {
    "x": 2274,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/a-2-marla-commercial-plot-located-in-lahore-motorway-city-is-available-for-sale-iid-1119681200",
+   "href": "https://www.olx.com.pk/item/darussalam-society-top-location-760-yards-corner-100-ft-double-roads-95-ft-front-residential-plot-best-for-the-commercial-use-school-iid-1119296598",
    "label": "Listing"
   },
   {
    "x": 2540,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/al-rehman-garden-phase-2-plot-file-sized-3-marla-is-available-iid-1119723308",
+   "href": "https://www.olx.com.pk/item/500-sq-yds-west-open-plot-most-demanding-vicinity-phase-5-dha-karachi-iid-1119374468",
    "label": "Listing"
   },
   {
    "x": 2817,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offers-prime-location-plot-available-for-sale-reasonable-price-in-alnoor-orchard-iid-1119657674",
+   "href": "https://www.olx.com.pk/item/ideally-located-residential-plot-of-800-square-yards-is-available-for-sale-in-karachi-iid-1119094409",
    "label": "Listing"
   },
   {
    "x": 3094,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/change-your-address-to-park-lane-city-lahore-for-a-reasonable-price-of-rs-1950000-iid-1119643658",
+   "href": "https://www.olx.com.pk/item/ready-to-buy-a-residential-plot-500-square-yards-in-dha-phase-5-iid-1119847953",
    "label": "Listing"
   },
   {
    "x": 3360,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/5-marla-residential-plot-for-sale-prime-location-easy-installments-iid-1119643644",
+   "href": "https://www.olx.com.pk/item/industrial-plot-available-for-sale-at-prime-location-of-korangi-industrial-area-karachi-near-vita-chowrangi-iid-1119770677",
    "label": "Listing"
   },
   {
    "x": 3637,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/direct-deals-marketing-offer-prime-location-plot-file-available-for-sale-reasonable-price-in-overseas-block-al-rehman-garden-phase-iid-1118552297",
+   "href": "https://www.olx.com.pk/item/prime-residential-west-open-plot-for-sale-off-kh-e-tanzeem-iid-1119445224",
    "label": "Listing"
   },
   {
    "x": 3914,
-   "y": 1752,
+   "y": 2434,
    "width": 266,
-   "height": 415,
+   "height": 416,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/3-marla-plot-booking-only-rs-200000-and-monthly-instalment-is-rs9500-grand-residencia-society-iid-1119809480",
+   "href": "https://www.olx.com.pk/item/in-bukhari-commercial-area-100-square-yards-commercial-plot-for-sale-iid-1119601646",
    "label": "Listing"
   },
   {
    "x": 880,
-   "y": 1940,
+   "y": 2623,
    "width": 40,
    "height": 41,
    "kind": "button",
@@ -592,40 +614,32 @@
   },
   {
    "x": 940,
-   "y": 532,
+   "y": 282,
    "width": 420,
    "height": 142,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/e1ee5e43-bbaa-4fb3-85b7-687efc78a16c",
-   "label": "Posted byAbdul qadir Member Since2019Active Ads1"
+   "href": "https://www.olx.com.pk/profile/f7e3488e-cc3e-4bc9-8f82-70a68cde1e72",
+   "label": "Posted bySeller nameMember Since2016Active Ads1"
   },
   {
    "x": 940,
-   "y": 689,
-   "width": 420,
-   "height": 49,
-   "kind": "button",
-   "label": "Show phone number"
-  },
-  {
-   "x": 940,
-   "y": 753,
+   "y": 439,
    "width": 420,
    "height": 49,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 1236,
-   "y": 813,
-   "width": 124,
+   "x": 1235,
+   "y": 499,
+   "width": 125,
    "height": 30,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 960,
-   "y": 2484,
+   "y": 3167,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -634,7 +648,7 @@
   },
   {
    "x": 1096,
-   "y": 2484,
+   "y": 3167,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -643,7 +657,7 @@
   },
   {
    "x": 1232,
-   "y": 2484,
+   "y": 3167,
    "width": 128,
    "height": 47,
    "kind": "link",
@@ -652,7 +666,7 @@
   },
   {
    "x": 80,
-   "y": 2682,
+   "y": 3365,
    "width": 31,
    "height": 19,
    "kind": "link",
@@ -661,7 +675,7 @@
   },
   {
    "x": 80,
-   "y": 2714,
+   "y": 3397,
    "width": 86,
    "height": 19,
    "kind": "link",
@@ -670,7 +684,7 @@
   },
   {
    "x": 80,
-   "y": 2746,
+   "y": 3429,
    "width": 105,
    "height": 19,
    "kind": "link",
@@ -679,17 +693,17 @@
   },
   {
    "x": 80,
-   "y": 2778,
-   "width": 33,
-   "height": 19,
+   "y": 3461,
+   "width": 32,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/jobs_c4",
    "label": "Jobs"
   },
   {
    "x": 351,
-   "y": 2682,
-   "width": 36,
+   "y": 3365,
+   "width": 35,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/motorcycles_c81",
@@ -697,7 +711,7 @@
   },
   {
    "x": 351,
-   "y": 2714,
+   "y": 3397,
    "width": 61,
    "height": 19,
    "kind": "link",
@@ -706,8 +720,8 @@
   },
   {
    "x": 351,
-   "y": 2746,
-   "width": 44,
+   "y": 3429,
+   "width": 43,
    "height": 19,
    "kind": "link",
    "href": "https://www.olx.com.pk/books_c707080",
@@ -715,17 +729,17 @@
   },
   {
    "x": 351,
-   "y": 2778,
+   "y": 3461,
    "width": 37,
-   "height": 19,
+   "height": 18,
    "kind": "link",
    "href": "https://www.olx.com.pk/dogs_c139",
    "label": "Dogs"
   },
   {
    "x": 622,
-   "y": 2682,
-   "width": 66,
+   "y": 3365,
+   "width": 65,
    "height": 19,
    "kind": "link",
    "href": "https://blog.olx.com.pk/",
@@ -733,8 +747,8 @@
   },
   {
    "x": 622,
-   "y": 2714,
-   "width": 78,
+   "y": 3397,
+   "width": 77,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4403042207631-How-can-you-contact-Us-",
@@ -742,8 +756,8 @@
   },
   {
    "x": 622,
-   "y": 2746,
-   "width": 134,
+   "y": 3429,
+   "width": 131,
    "height": 19,
    "kind": "link",
    "href": "https://www.surveygizmo.com/s3/4910980/WP-Business-Form?source=Website",
@@ -751,8 +765,8 @@
   },
   {
    "x": 893,
-   "y": 2682,
-   "width": 33,
+   "y": 3365,
+   "width": 34,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us",
@@ -760,7 +774,7 @@
   },
   {
    "x": 893,
-   "y": 2714,
+   "y": 3397,
    "width": 57,
    "height": 19,
    "kind": "link",
@@ -769,8 +783,8 @@
   },
   {
    "x": 893,
-   "y": 2746,
-   "width": 90,
+   "y": 3429,
+   "width": 89,
    "height": 19,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/articles/4402989977487-What-are-the-terms-of-use-",
@@ -778,16 +792,16 @@
   },
   {
    "x": 893,
-   "y": 2778,
-   "width": 92,
-   "height": 19,
+   "y": 3461,
+   "width": 95,
+   "height": 18,
    "kind": "link",
    "href": "https://help.olx.com.pk/hc/en-us/categories/4402989237007-Legal-Privacy-information",
    "label": "Privacy Policy"
   },
   {
    "x": 1164,
-   "y": 2679,
+   "y": 3362,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -796,7 +810,7 @@
   },
   {
    "x": 1216,
-   "y": 2679,
+   "y": 3362,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -805,7 +819,7 @@
   },
   {
    "x": 1268,
-   "y": 2679,
+   "y": 3362,
    "width": 40,
    "height": 41,
    "kind": "link",
@@ -814,7 +828,7 @@
   },
   {
    "x": 1320,
-   "y": 2679,
+   "y": 3362,
    "width": 40,
    "height": 41,
    "kind": "link",

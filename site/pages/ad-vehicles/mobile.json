@@ -2,14 +2,14 @@
  "id": "ad-vehicles",
  "title": "Ad: Vehicles",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/united-chingchi-rikshaw-for-sale-2025-model-iid-1119896387",
- "finalUrl": "https://www.olx.com.pk/item/united-chingchi-rikshaw-for-sale-2025-model-iid-1119896387",
+ "url": "https://www.olx.com.pk/item/suzuki-alto-vxr-for-sale-iid-1113927805",
+ "finalUrl": "https://www.olx.com.pk/item/suzuki-alto-vxr-for-sale-iid-1113927805",
  "width": 390,
- "height": 2348,
+ "height": 3219,
  "dpr": 2,
  "overlay": false,
  "scrolled": false,
- "captured": "2026-09-29T13:59:14.353Z",
+ "captured": "2026-10-07T14:08:35.411Z",
  "sections": [
   {
    "file": "01-gallery",
@@ -29,119 +29,163 @@
     "x": 0,
     "y": 294,
     "width": 390,
-    "height": 146
+    "height": 122
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(5)"
   },
   {
-   "file": "03-div",
-   "name": "div",
+   "file": "03-year-2012-km-s-driven",
+   "name": "Year · 2012 · KM's driven",
    "rect": {
     "x": 0,
-    "y": 439,
+    "y": 415,
     "width": 390,
-    "height": 51
+    "height": 61
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(6)"
   },
   {
-   "file": "04-details",
-   "name": "Details",
+   "file": "04-olx-car-inspection-buy-with-confidence-b",
+   "name": "OLX Car Inspection · Buy with confidence. Book i",
    "rect": {
     "x": 0,
-    "y": 489,
+    "y": 495,
     "width": 390,
-    "height": 189
+    "height": 241
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(7)"
   },
   {
-   "file": "05-description-united-chingchi-rikshaw-for-",
-   "name": "Description · united chingchi rikshaw for sale ·",
+   "file": "05-div",
+   "name": "div",
    "rect": {
     "x": 0,
-    "y": 697,
+    "y": 755,
     "width": 390,
-    "height": 122
+    "height": 51
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(8)"
   },
   {
-   "file": "06-posted-by-seller-name-member-since",
-   "name": "Posted by · Seller name · Member Since",
+   "file": "06-details",
+   "name": "Details",
    "rect": {
     "x": 0,
-    "y": 838,
+    "y": 805,
     "width": 390,
-    "height": 181
+    "height": 295
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(9)"
   },
   {
-   "file": "07-related-ads-rs-1-80-lac-new-asia-2017",
-   "name": "Related ads · Rs 1.80 Lac · new Asia 2017",
+   "file": "07-description-suzuki-alto-vxr-2012-model-g",
+   "name": "Description · Suzuki Alto VXR 2012 Model · Gari ",
    "rect": {
     "x": 0,
-    "y": 1058,
+    "y": 1119,
     "width": 390,
-    "height": 397
+    "height": 122
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(10)"
+  },
+  {
+   "file": "08-features",
+   "name": "Features",
+   "rect": {
+    "x": 0,
+    "y": 1260,
+    "width": 390,
+    "height": 94
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(11)"
   },
   {
-   "file": "08-your-safety-matters-to-us-only-meet-in-p",
+   "file": "09-posted-by-seller-name-member-since",
+   "name": "Posted by · Seller name · Member Since",
+   "rect": {
+    "x": 0,
+    "y": 1373,
+    "width": 390,
+    "height": 181
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(12)"
+  },
+  {
+   "file": "10-similar-cars-rs-11-70-lacs-suzuki-alto-2",
+   "name": "Similar cars · Rs 11.70 Lacs · Suzuki Alto 2012",
+   "rect": {
+    "x": 0,
+    "y": 1573,
+    "width": 390,
+    "height": 397
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(14)"
+  },
+  {
+   "file": "11-new-cars-for-similar-price-featured-rs-1",
+   "name": "New cars for similar price · Featured · Rs 12.30",
+   "rect": {
+    "x": 0,
+    "y": 1969,
+    "width": 390,
+    "height": 397
+   },
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+  },
+  {
+   "file": "12-your-safety-matters-to-us-only-meet-in-p",
    "name": "Your safety matters to us! · Only meet in public",
    "rect": {
     "x": 0,
-    "y": 1474,
+    "y": 2365,
     "width": 390,
     "height": 236
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(13)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(17)"
   },
   {
-   "file": "09-rickshaw-and-chingchi-in-jallo-rickshaw-",
-   "name": "Rickshaw & Chingchi in Jallo · Rickshaw & Chingc",
+   "file": "13-suzuki-alto-in-karachi-suzuki-in-karachi",
+   "name": "Suzuki Alto in Karachi · Suzuki in Karachi · Car",
    "rect": {
     "x": 8,
-    "y": 1757,
+    "y": 2628,
     "width": 374,
     "height": 27
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(2)"
   },
   {
-   "file": "10-categories",
+   "file": "14-categories",
    "name": "Categories",
    "rect": {
     "x": 0,
-    "y": 1783,
+    "y": 2654,
     "width": 390,
     "height": 47
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(3)"
   },
   {
-   "file": "11-footer",
+   "file": "15-footer",
    "name": "Footer",
    "rect": {
     "x": 0,
-    "y": 1829,
+    "y": 2700,
     "width": 390,
     "height": 519
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(4)"
   },
   {
-   "file": "12-chat-call",
+   "file": "16-chat-call",
    "name": "Chat · Call",
    "rect": {
     "x": 0,
-    "y": 2283,
+    "y": 3154,
     "width": 390,
     "height": 65
    },
-   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(15)"
+   "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(19)"
   }
  ],
  "hotspots": [
@@ -186,90 +230,24 @@
    "label": ""
   },
   {
-   "x": 1170,
-   "y": 0,
-   "width": 390,
-   "height": 294,
+   "x": 32,
+   "y": 663,
+   "width": 326,
+   "height": 41,
    "kind": "button",
-   "label": ""
+   "label": "Book Now"
   },
   {
-   "x": 1560,
-   "y": 0,
-   "width": 390,
-   "height": 294,
+   "x": 142,
+   "y": 1077,
+   "width": 106,
+   "height": 27,
    "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 1950,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2340,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 2730,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3120,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3510,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 3900,
-   "y": 0,
-   "width": 390,
-   "height": 294,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 171,
-   "y": 533,
-   "width": 190,
-   "height": 22,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/rickshaw-chingchi_c2026/q-chingchi-rickshaws",
-   "label": "Chingchi Rickshaws"
-  },
-  {
-   "x": 171,
-   "y": 647,
-   "width": 190,
-   "height": 22,
-   "kind": "link",
-   "href": "https://www.olx.com.pk/rickshaw-chingchi_c2026/q-used-rickshaw-chingchi",
-   "label": "Used"
+   "label": "View +4 more"
   },
   {
    "x": 16,
-   "y": 797,
+   "y": 1219,
    "width": 358,
    "height": 22,
    "kind": "button",
@@ -277,69 +255,114 @@
   },
   {
    "x": 20,
-   "y": 850,
+   "y": 1385,
    "width": 354,
    "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/feb12dc8-45be-47f4-a06e-e6dc21bf829b",
-   "label": "Posted byUser 6Cw67T Member Since2021Active Ads1"
+   "href": "https://www.olx.com.pk/profile/c5e0362f-aecc-4d03-8d7f-65083bdad257",
+   "label": "Posted bySeller nameMember Since2019Active Ads1"
   },
   {
-   "x": 142,
-   "y": 982,
-   "width": 110,
+   "x": 141,
+   "y": 1517,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
   },
   {
    "x": 16,
-   "y": 1093,
+   "y": 1608,
    "width": 215,
    "height": 342,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/new-asia-2017-iid-1119887103",
+   "href": "https://www.olx.com.pk/item/suzuki-alto-2012-iid-1120198012",
    "label": "Listing"
   },
   {
    "x": 243,
-   "y": 1093,
+   "y": 1608,
    "width": 215,
    "height": 342,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/new-asia-raksha-for-sale-03XX-XXXXXXX-iid-1119848033",
+   "href": "https://www.olx.com.pk/item/suzuki-alto-vxr-2011-iid-1120197318",
    "label": "Listing"
   },
   {
    "x": 470,
-   "y": 1093,
+   "y": 1608,
    "width": 215,
    "height": 342,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/rickshaw-for-sale-iid-1119847971",
+   "href": "https://www.olx.com.pk/item/suzuki-alto-2011-iid-1119487152",
    "label": "Listing"
   },
   {
    "x": 697,
-   "y": 1093,
+   "y": 1608,
    "width": 215,
    "height": 342,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/suzuki-sprinter-110-iid-1119645014",
+   "href": "https://www.olx.com.pk/item/suzuki-cultus-vxr-2012-iid-1120196644",
    "label": "Listing"
   },
   {
    "x": 924,
-   "y": 1093,
+   "y": 1608,
    "width": 215,
    "height": 342,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/loader-for-sale-03XX-XXXXXXX-iid-1119652467",
+   "href": "https://www.olx.com.pk/item/suzuki-cultus-vxr-2015-iid-1120196771",
    "label": "Listing"
   },
   {
    "x": 16,
-   "y": 2296,
+   "y": 2004,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/daihatsu-charade-1984-registered-1991-iid-1118402951",
+   "label": "Listing"
+  },
+  {
+   "x": 243,
+   "y": 2004,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/alto-vxrcng-2008-silver-100-original-behtreen-condition-iid-1120190070",
+   "label": "Listing"
+  },
+  {
+   "x": 470,
+   "y": 2004,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-baleno-2003-jxr-iid-1120185377",
+   "label": "Listing"
+  },
+  {
+   "x": 697,
+   "y": 2004,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/toyota-corolla-xe-1999-iid-1118365046",
+   "label": "Listing"
+  },
+  {
+   "x": 924,
+   "y": 2004,
+   "width": 215,
+   "height": 342,
+   "kind": "listing",
+   "href": "https://www.olx.com.pk/item/suzuki-mehran-vxr-2016-full-original-iid-1120100535",
+   "label": "Listing"
+  },
+  {
+   "x": 16,
+   "y": 3167,
    "width": 175,
    "height": 40,
    "kind": "button",
@@ -347,52 +370,79 @@
   },
   {
    "x": 199,
-   "y": 2296,
+   "y": 3167,
    "width": 175,
    "height": 40,
    "kind": "button",
    "label": "Call"
   },
   {
-   "x": 231,
-   "y": 1762,
-   "width": 151,
+   "x": 272,
+   "y": 2633,
+   "width": 110,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/jallo_g5000542/rickshaw-chingchi_c2026",
-   "label": "Rickshaw & Chingchi in Jallo"
+   "href": "https://www.olx.com.pk/karachi_g4060695/suzuki-cars_c84?filter=make_eq_cars-suzuki%2Cmodel_eq_cars-suzuki-1",
+   "label": "Suzuki Alto in Karachi"
   },
   {
-   "x": 37,
-   "y": 1762,
-   "width": 164,
+   "x": 157,
+   "y": 2633,
+   "width": 86,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/lahore_g4060673/rickshaw-chingchi_c2026",
-   "label": "Rickshaw & Chingchi in Lahore"
+   "href": "https://www.olx.com.pk/karachi_g4060695/suzuki-cars_c84?filter=make_eq_cars-suzuki",
+   "label": "Suzuki in Karachi"
   },
   {
-   "x": -105,
-   "y": 1762,
-   "width": 112,
+   "x": 22,
+   "y": 2633,
+   "width": 106,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/rickshaw-chingchi_c2026",
-   "label": "Rickshaw & Chingchi"
+   "href": "https://www.olx.com.pk/buffer-zone-1_g5000106/cars_c84",
+   "label": "Cars in Buffer Zone 1"
   },
   {
-   "x": -181,
-   "y": 1762,
-   "width": 46,
+   "x": -117,
+   "y": 2633,
+   "width": 110,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/north-karachi_g5001584/cars_c84",
+   "label": "Cars in North Karachi"
+  },
+  {
+   "x": -222,
+   "y": 2633,
+   "width": 76,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/karachi_g4060695/cars_c84",
+   "label": "Cars in Karachi"
+  },
+  {
+   "x": -275,
+   "y": 2633,
+   "width": 24,
+   "height": 16,
+   "kind": "link",
+   "href": "https://www.olx.com.pk/cars_c84",
+   "label": "Cars"
+  },
+  {
+   "x": -348,
+   "y": 2633,
+   "width": 44,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/vehicles_c5",
    "label": "Vehicles"
   },
   {
-   "x": -243,
-   "y": 1762,
-   "width": 32,
+   "x": -411,
+   "y": 2633,
+   "width": 34,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -400,7 +450,7 @@
   },
   {
    "x": 16,
-   "y": 2128,
+   "y": 2999,
    "width": 84,
    "height": 33,
    "kind": "link",
@@ -409,7 +459,7 @@
   },
   {
    "x": 113,
-   "y": 2195,
+   "y": 3066,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -418,7 +468,7 @@
   },
   {
    "x": 157,
-   "y": 2195,
+   "y": 3066,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -427,7 +477,7 @@
   },
   {
    "x": 201,
-   "y": 2195,
+   "y": 3066,
    "width": 32,
    "height": 41,
    "kind": "link",
@@ -436,7 +486,7 @@
   },
   {
    "x": 245,
-   "y": 2195,
+   "y": 3066,
    "width": 32,
    "height": 41,
    "kind": "link",

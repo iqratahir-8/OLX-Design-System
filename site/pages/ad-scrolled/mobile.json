@@ -2,14 +2,14 @@
  "id": "ad-scrolled",
  "title": "Ad, scrolled (sticky ad header)",
  "viewport": "mobile",
- "url": "https://www.olx.com.pk/item/iphone-18-pro-max-256gb-non-pta-available-on-easy-installment-plan-iid-1119761489",
- "finalUrl": "https://www.olx.com.pk/item/iphone-18-pro-max-256gb-non-pta-available-on-easy-installment-plan-iid-1119761489",
+ "url": "https://www.olx.com.pk/item/apple-iphone-16-pro-max-256-gb-pta-approved-gold-iid-1120083139",
+ "finalUrl": "https://www.olx.com.pk/item/apple-iphone-16-pro-max-256-gb-pta-approved-gold-iid-1120083139",
  "width": 390,
  "height": 664,
  "dpr": 2,
  "overlay": false,
  "scrolled": true,
- "captured": "2026-09-29T14:11:34.281Z",
+ "captured": "2026-10-07T14:53:56.550Z",
  "sections": [
   {
    "file": "01-header-scrolled",
@@ -18,7 +18,7 @@
     "x": 0,
     "y": 0,
     "width": 390,
-    "height": 166
+    "height": 113
    },
    "selector": "body > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1) > :nth-child(1)"
   }
@@ -26,40 +26,40 @@
  "hotspots": [
   {
    "x": 10,
-   "y": 52,
+   "y": 25,
    "width": 20,
-   "height": 20,
+   "height": 21,
    "kind": "button",
    "label": "Back button"
   },
   {
    "x": 0,
-   "y": 125,
+   "y": 72,
    "width": 72,
    "height": 41,
    "kind": "button",
    "label": "Details"
   },
   {
-   "x": 72,
-   "y": 125,
-   "width": 102,
+   "x": 71,
+   "y": 72,
+   "width": 103,
    "height": 41,
    "kind": "button",
    "label": "Description"
   },
   {
-   "x": 174,
-   "y": 125,
-   "width": 95,
+   "x": 173,
+   "y": 72,
+   "width": 94,
    "height": 41,
    "kind": "button",
    "label": "Posted by"
   },
   {
-   "x": 269,
-   "y": 125,
-   "width": 107,
+   "x": 266,
+   "y": 72,
+   "width": 108,
    "height": 41,
    "kind": "button",
    "label": "Related Ads"
@@ -119,8 +119,8 @@
    "width": 190,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-18-pro-max",
-   "label": "18 Pro Max"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-iphone-16-pro-max",
+   "label": "16 Pro Max"
   },
   {
    "x": 171,
@@ -128,8 +128,8 @@
    "width": 190,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-new-mobiles",
-   "label": "New"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-used-mobiles",
+   "label": "Used"
   },
   {
    "x": 171,
@@ -137,8 +137,8 @@
    "width": 190,
    "height": 22,
    "kind": "link",
-   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-non-pta-mobiles",
-   "label": "Non PTA"
+   "href": "https://www.olx.com.pk/mobile-phones_c1453/q-pta-approved-mobiles",
+   "label": "PTA Approved"
   },
   {
    "x": 16,
@@ -154,13 +154,13 @@
    "width": 354,
    "height": 119,
    "kind": "link",
-   "href": "https://www.olx.com.pk/profile/bd2cab1f-c4db-442e-a7a6-b78d3374b353",
-   "label": "Posted byAbdullah Member Since2023Active Ads2"
+   "href": "https://www.olx.com.pk/profile/4c747e39-10b6-4c64-86d8-993361bb454c",
+   "label": "Posted bySeller nameMember Since2020Active Ads1"
   },
   {
-   "x": 142,
+   "x": 141,
    "y": -18,
-   "width": 110,
+   "width": 112,
    "height": 27,
    "kind": "button",
    "label": "Report this ad"
@@ -171,7 +171,7 @@
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/apple-iphone-xs-max-iid-1119865431",
+   "href": "https://www.olx.com.pk/item/apple-iphone-18-pro-iid-1120203805",
    "label": "Listing"
   },
   {
@@ -180,7 +180,7 @@
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/tecno-spark-40-pro-plus-iid-1119865375",
+   "href": "https://www.olx.com.pk/item/apple-iphone-15-pro-max-256-gb-dual-sim-pta-iid-1120203415",
    "label": "Listing"
   },
   {
@@ -189,7 +189,7 @@
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/xiaomi-redmi-15c-6128-for-sell-iid-1119865274",
+   "href": "https://www.olx.com.pk/item/samsung-s26-ultra-1tb-non-pta-samsung-z-fold-8-ultra-256gb-non-pta-iid-1120203281",
    "label": "Listing"
   },
   {
@@ -198,7 +198,7 @@
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/tecno-camon-40-pro-8256gb-iid-1119864038",
+   "href": "https://www.olx.com.pk/item/apple-iphone-17-pro-max-iid-1120195599",
    "label": "Listing"
   },
   {
@@ -207,62 +207,54 @@
    "width": 215,
    "height": 316,
    "kind": "listing",
-   "href": "https://www.olx.com.pk/item/iphone-11-pro-max-64gb-pta-approved-exchange-possible-iid-1119864065",
+   "href": "https://www.olx.com.pk/item/apple-iphone-17-pro-max-silver-256gb-factory-unlocked-non-pta-iid-1120195934",
    "label": "Listing"
   },
   {
    "x": 16,
    "y": 612,
-   "width": 114,
-   "height": 40,
-   "kind": "button",
-   "label": ""
-  },
-  {
-   "x": 138,
-   "y": 612,
-   "width": 114,
+   "width": 175,
    "height": 40,
    "kind": "button",
    "label": "Chat"
   },
   {
-   "x": 260,
+   "x": 199,
    "y": 612,
-   "width": 114,
+   "width": 175,
    "height": 40,
    "kind": "button",
    "label": "Call"
   },
   {
-   "x": 226,
+   "x": 254,
    "y": 736,
-   "width": 156,
+   "width": 128,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/walton-road_g5000883/apple-mobile-phones_c1453?filter=make_eq_apple",
-   "label": "Apple iPhone in Walton Road"
+   "href": "https://www.olx.com.pk/gulberg_g7/apple-mobile-phones_c1453?filter=make_eq_apple",
+   "label": "Apple iPhone in Gulberg"
   },
   {
-   "x": 33,
+   "x": 88,
    "y": 736,
-   "width": 163,
+   "width": 137,
    "height": 16,
    "kind": "link",
-   "href": "https://www.olx.com.pk/walton-road_g5000883/mobile-phones_c1453",
-   "label": "Mobile Phones in Walton Road"
+   "href": "https://www.olx.com.pk/gulberg_g7/mobile-phones_c1453",
+   "label": "Mobile Phones in Gulberg"
   },
   {
-   "x": -128,
+   "x": -70,
    "y": 736,
-   "width": 131,
+   "width": 129,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/lahore_g4060673/mobile-phones_c1453",
    "label": "Mobile Phones in Lahore"
   },
   {
-   "x": -237,
+   "x": -178,
    "y": 736,
    "width": 79,
    "height": 16,
@@ -271,7 +263,7 @@
    "label": "Mobile Phones"
   },
   {
-   "x": -309,
+   "x": -249,
    "y": 736,
    "width": 42,
    "height": 16,
@@ -280,9 +272,9 @@
    "label": "Mobiles"
   },
   {
-   "x": -371,
+   "x": -312,
    "y": 736,
-   "width": 32,
+   "width": 34,
    "height": 16,
    "kind": "link",
    "href": "https://www.olx.com.pk/",
@@ -294,7 +286,7 @@
    "width": 84,
    "height": 33,
    "kind": "link",
-   "href": "https://play.google.com/store/apps/details?id=com.olx.pk",
+   "href": "https://apps.apple.com/pk/app/olx-pakistan/id1551315538",
    "label": ""
   },
   {
