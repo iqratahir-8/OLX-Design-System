@@ -39,7 +39,11 @@ jobs:
         working-directory: storybook
         run: |
           npm ci
-          npx storybook build --quiet -o ../dist/book/storybook
+          # Build into its own folder, then merge: Storybook empties its output folder,
+          # and the book already put the design-kit pages under storybook/design-kit/.
+          npx storybook build --quiet -o ../dist/storybook-static
+          mkdir -p ../dist/book/storybook
+          cp -r ../dist/storybook-static/. ../dist/book/storybook/
       - name: Add component showcase
         run: |
           mkdir -p dist/book/showcase
