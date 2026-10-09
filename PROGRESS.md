@@ -124,7 +124,7 @@ Newest first. One entry per change: date, what changed, why, and the PR. "Mac" m
   - The design kit's Geomanist files are committed. GE SS Two (Arabic) is not, because it has a different licence.
 - **Claude skill and `design-system.json` manifest** (#6). Added `.claude/skills/olx-design-system/SKILL.md` and `scripts/build-manifest.mjs` (`npm run manifest`). The manifest is published at `/design-system.json`.
 - **`PROGRESS.md` added** (#6): status, open work and hand-over steps for moving to another account.
-- **Change log and `CLAUDE.md` rule added**: update this file with every change.
+- **Change log and `CLAUDE.md` rule added** (#8): update this file with every change.
 
 ### 8 Oct 2026
 - **Fixed the 404 on the book's design-kit screens** (#5). The Storybook build emptied `storybook/`, deleting the kit pages the book had copied there. Storybook now builds separately and is merged in.
