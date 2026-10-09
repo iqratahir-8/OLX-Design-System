@@ -134,6 +134,17 @@ Scripts, ad slots and iframes are removed, links are made inert, and personal da
 
 `npm run import:kit` measures the design-kit pages for the prototype and book. `npm run catalog` rebuilds the catalog.
 
+## For Claude: skill and manifest
+
+- **`.claude/skills/olx-design-system/SKILL.md`** is the Claude skill. It covers how to design and build OLX screens with this system: the rules, a token and markup quick reference, content conventions and where everything is.
+  - Claude Code loads it automatically in this repo.
+  - On claude.ai, upload the folder as a skill.
+- **`design-system.json`** is the machine-readable index for Claude Design and other tools. It lists tokens with their light and dark values, CSS components, React wrappers, live component captures, templates, screens, flows, assets and quality results, all with file paths.
+  - Rebuild it with `npm run manifest` after changing tokens, CSS or captures.
+  - Published at https://iqratahir-8.github.io/OLX-Design-System/design-system.json.
+
+Status and open work: `PROGRESS.md`.
+
 ## Storybook and design kit (`storybook/`)
 
 `storybook/` is the design kit built on the Mac and imported from the `local-build` branch: tokens and `olx-*` CSS components, React wrappers, and 48 captured pages (Classifieds 9, Property 10, Motors 29) on desktop and mobile with 8 flows, plus the raw Motors server HTML in `storybook/motors-html/`. See `storybook/MERGE.md`.

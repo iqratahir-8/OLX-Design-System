@@ -52,6 +52,7 @@ jobs:
           mkdir -p dist/book/showcase/dist
           cp dist/tokens.js dist/book/showcase/dist/tokens.js
           touch dist/book/.nojekyll
+          cp design-system.json dist/book/design-system.json
       - name: Redirect the local paths (/book/, /prototype/) to their published homes
         run: |
           redirect() { # $1 = directory to create, $2 = target relative to it
