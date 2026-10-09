@@ -12,8 +12,7 @@
 //
 // The HTML keeps OLX's own class names and CSS, so it renders the same as the
 // live site. Images load from OLX's servers. Fonts load from ../../fonts/ first
-// (run `npm run fetch-fonts`; the folder is git-ignored because Geomanist is a
-// licensed font) and fall back to olx.com.pk.
+// (Geomanist, committed in fonts/) and fall back to olx.com.pk.
 import { chromium, devices } from 'playwright';
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
 import { freezePage, inlineStylesheets, fontOverrides, cropPng, docShell, scrollThrough, layoutFullHeight, pageParts } from './lib/capture-lib.mjs';

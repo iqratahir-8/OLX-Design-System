@@ -1,6 +1,7 @@
 // Download the web fonts referenced by the captured OLX templates into fonts/
-// so the static copies render pixel-for-pixel. fonts/ is git-ignored: Geomanist
-// is a licensed typeface, so keep these files local and don't redistribute them.
+// so the static copies render pixel-for-pixel. The files are committed (OLX holds the
+// Geomanist licence); run this only if OLX changes them. Only Regular, Book and
+// Medium are used: never add Geomanist Bold or Thin.
 //
 //   npm run fetch-fonts
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';

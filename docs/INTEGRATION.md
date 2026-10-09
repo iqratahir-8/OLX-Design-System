@@ -21,7 +21,7 @@ and tests can find anything without knowing the folder layout.
 
 ```css
 @import "olx-design-system/css/tokens.css";
-.price { color: var(--olx-color-petrol-900); font-size: var(--olx-font-size-xl); font-weight: var(--olx-font-weight-bold); }
+.price { color: var(--olx-color-petrol-900); font-size: var(--olx-font-size-xl); font-weight: var(--olx-font-weight-semibold); }
 ```
 
 ```js
@@ -89,8 +89,11 @@ pages it appears on. To use them:
   SVGR.
 - Load raster art from `assets/categories/` and `assets/images/` directly.
 
-Fonts (Geomanist, GE SS Two) are licensed and not in git. `npm run fetch-fonts`
-(root) and `npm run localize` (`storybook/`) download them for local use.
+Geomanist is committed (`fonts/`, and `storybook/fonts/` for Storybook) in three weights: Regular 400
+(`--olx-font-weight-regular`), Book 500 (`--olx-font-weight-medium`) and Medium 600
+(`--olx-font-weight-semibold`). Don't use Geomanist Bold or Thin; there is no token for them.
+`css/tokens.css` declares the `@font-face` rules. The Arabic font GE SS Two is not in git;
+`npm run localize` (`storybook/`) downloads it for local use.
 
 ## 5. Keeping it current
 

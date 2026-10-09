@@ -31,7 +31,8 @@ and asset, with file paths.
    - mobile is 390 wide;
    - the main layout breakpoint is 767px (`@media (max-width: 767px)`);
    - token breakpoints are xs 360, sm 480, md 768, lg 950, xl 1280.
-5. **Accessible by default.** Text contrast must be at least 4.5:1. Links and focus use `--olx-link` / `--olx-focus` (#2456d6), not the brand blue #3a77ff, which fails on white. Icon-only buttons need an `aria-label`. Respect `prefers-reduced-motion`.
+5. **Geomanist in three weights only.** Use Regular (400), Book (500) and Medium (600). **Never use Geomanist Bold or Thin**, and never `font-weight: 700`, `bold`, or anything under 400. For emphasis or headings use `--olx-font-weight-semibold` (600). `<strong>`/`<b>` already map to 600, and `font-synthesis: none` stops faked bold.
+6. **Accessible by default.** Text contrast must be at least 4.5:1. Links and focus use `--olx-link` / `--olx-focus` (#2456d6), not the brand blue #3a77ff, which fails on white. Icon-only buttons need an `aria-label`. Respect `prefers-reduced-motion`.
 
 ## Quick reference
 
@@ -66,9 +67,9 @@ The Sell button's tri-colour ring is `--olx-gradient-sell-ring`.
 
 | Group | Tokens |
 | --- | --- |
-| Font | `--olx-font-family-sans` (Geomanist, then Helvetica, Arial). Geomanist is licensed: `npm run fetch-fonts` for local use only. |
+| Font | `--olx-font-family-sans`: Geomanist (committed in `fonts/`, loaded by `css/tokens.css`), then Helvetica, Arial |
 | Font size | `--olx-font-size-xs`…`4xl` = 12 / 14 / 16 / 18 / 20 / 24 / 32 / 40px |
-| Font weight | `--olx-font-weight-regular` / `medium` / `semibold` / `bold` = 400 / 500 / 600 / 700 |
+| Font weight | `--olx-font-weight-regular` 400 (Geomanist Regular), `medium` 500 (Geomanist Book), `semibold` 600 (Geomanist Medium). These are the only three. |
 | Line height | `--olx-font-line-height-tight` 1.2, `--olx-font-line-height-normal` 1.5 |
 | Spacing | `--olx-space-1`…`8` = 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64px |
 | Radius | `--olx-radius-sm` 4, `field` 6, `md` 8, `lg` 16, `pill` 999 |

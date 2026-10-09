@@ -3,7 +3,6 @@
 // rendered in Chromium at its captured size and device pixel ratio, screenshotted,
 // and compared pixel by pixel with the PNG saved next to it.
 //
-//   npm run fetch-fonts                       # once: the licensed fonts, git-ignored
 //   node scripts/verify-pixels.mjs            # everything
 //   node scripts/verify-pixels.mjs templates  # or: site | templates | components
 //   ONLY=home node scripts/verify-pixels.mjs  # ids containing "home"
@@ -224,7 +223,7 @@ const merged = new Map(previous.map((r) => [key(r), r]));
 for (const r of results) merged.set(key(r), r);
 const all = [...merged.values()].sort((a, b) => key(a).localeCompare(key(b)));
 
-const fonts = existsSync('fonts') ? 'local Geomanist (npm run fetch-fonts)' : 'fallback (fonts/ missing: run npm run fetch-fonts first)';
+const fonts = existsSync('fonts') ? 'Geomanist (fonts/)' : 'fallback (fonts/ missing: run npm run fetch-fonts)';
 await writeFile('audit/pixel-report.json', JSON.stringify({ checked: new Date().toISOString(), tolerance: CHANNEL_TOLERANCE, thresholds: { match: MATCH, close: CLOSE }, fonts, results: all }, null, 1) + '\n');
 
 const count = (g, v) => all.filter((r) => r.group === g && r.verdict === v).length;

@@ -102,7 +102,7 @@ const manifest = {
     tokensJson: 'tokens/tokens.json',
     tokensJs: 'dist/tokens.js',
     theming: 'Light by default, follows prefers-color-scheme; force with <html data-theme="light|dark">. Components use semantic tokens (--olx-bg, --olx-text, --olx-primary, ...) only.',
-    fonts: 'Geomanist (licensed, not in git; npm run fetch-fonts for local use). Fallback: Helvetica, Arial, sans-serif.',
+    fonts: 'Geomanist, committed in fonts/ and loaded by css/tokens.css: Regular 400 (--olx-font-weight-regular), Book 500 (--olx-font-weight-medium), Medium 600 (--olx-font-weight-semibold). Never use Geomanist Bold or Thin: there is no token for them, <strong>/<b> use 600, and font-synthesis is off. Fallback: Helvetica, Arial, sans-serif.',
     docs: ['README.md', 'docs/INTEGRATION.md', 'docs/FLOWS.md', 'PROGRESS.md'],
   },
   tokens: { source: 'tokens/tokens.json', css: 'css/tokens.css', count: Object.keys(light).length, groups: tokens },
