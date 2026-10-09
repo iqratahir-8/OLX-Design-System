@@ -3,6 +3,9 @@
 Status as of **9 Oct 2026**. Written for whoever picks this up next, in another account or
 another Claude session. Read this first, then `README.md`.
 
+**Keep this file current.** Every change to the repo adds a dated entry at the top of the
+[change log](#change-log) and updates the sections above it. See `CLAUDE.md`.
+
 ## Where things are
 
 | What | Where |
@@ -50,14 +53,6 @@ Every push to `main` rebuilds and redeploys the site (`.github/workflows/pages.y
 
   - Screens and templates marked "off" are listing pages, 3–11% different. The cause is result counts and "x minutes ago" text that change after the screenshot.
   - "Not compared" are scroll states, which static HTML can't reproduce.
-
-### Pull requests (all merged)
-
-1. #1: tokens, base styles, components, docs page
-2. #2: GitHub Pages deploy; Storybook kit and Motors pages
-3. #3: design kit merged into the book; Storybook page index fixes
-4. #4: full re-capture, pixel check, `/book/` and `/prototype/` redirects
-5. #5: fix for the 404 on the book's design-kit screens
 
 ## What is not done (open work)
 
@@ -117,3 +112,47 @@ MASK_PHOTOS=1 npm run verify:pixels      # writes audit/pixel-report.md
 - **Pages sized to the window.** Motors uses `vh` units, so its page height depends on the window height. The pixel check sizes the window from the live screenshot, not from the saved page height.
 - **Pixel check and animations.** The checker jumps animations to their end state. Turning them off would leave fade-in popups invisible and make them look missing.
 - **Two sessions on one branch.** The Mac session and cloud sessions both pushed to `claude/olx-design-system-setup-1chba1`. Fetch before you push, and never force-push over the other session's work.
+
+## Change log
+
+Newest first. One entry per change: date, what changed, why, and the PR. "Mac" marks work done in the session on the Mac (`local-build`); the rest was done in cloud sessions.
+
+### 9 Oct 2026
+- **Geomanist bundled; Bold and Thin dropped** (iqratahir-8/OLX-Design-System#7).
+  - The font is committed and published in Regular 400, Book 500 and Medium 600, since OLX holds the licence. `css/tokens.css` loads it with `@font-face`.
+  - The bold token is removed, `<strong>` uses 600, and `font-synthesis: none` stops faked bold.
+  - The design kit's Geomanist files are committed. GE SS Two (Arabic) is not, because it has a different licence.
+- **Claude skill and `design-system.json` manifest** (#6). Added `.claude/skills/olx-design-system/SKILL.md` and `scripts/build-manifest.mjs` (`npm run manifest`). The manifest is published at `/design-system.json`.
+- **`PROGRESS.md` added** (#6): status, open work and hand-over steps for moving to another account.
+- **Change log and `CLAUDE.md` rule added** (#8): update this file with every change.
+
+### 8 Oct 2026
+- **Fixed the 404 on the book's design-kit screens** (#5). The Storybook build emptied `storybook/`, deleting the kit pages the book had copied there. Storybook now builds separately and is merged in.
+
+### 7 Oct 2026
+- **Full re-capture of olx.com.pk with photos** (#4).
+  - 196 public screens, 10 templates and 66 components.
+  - The previous screenshots had no listing photos, because the image server was unreachable when they were taken.
+  - 2,682 stale section files and 38 unused stylesheets were removed.
+- **Missing photos in stored HTML fixed** (#4). OLX keeps photo URLs in `data-src`, which a static copy never loads.
+  - `freezePage` now copies them into `src`.
+  - `scripts/fix-lazy-images.mjs` repaired 5,674 images.
+- **Pixel check added** (#4): `npm run verify:pixels` and `audit/pixel-report.md`.
+- **Redirects** (#4): `/book/` and `/prototype/` now redirect on Pages.
+
+### 6 Oct 2026
+- **Design kit merged into the book and prototype; developer catalog added** (#3, Mac).
+- **Storybook fixes** (#3, Mac): the page index opens pages through Storybook, and "Full page" opens over the canvas.
+- **Motors** (#3, Mac): logos filled with Simple Icons, and screen order kept on re-import.
+- **Property** (#3, Mac): landing and not-found pages recaptured with their CSS.
+- **GitHub Pages deploy for the book, prototype, showcase and Storybook** (#2).
+- **Storybook design kit and Motors HTML imported** (#2, Mac). The Motors pages were also merged into the prototype.
+
+### 29 Sep – 2 Oct 2026
+- **Initial design system** (#1, Mac): tokens, base styles, `olx-*` components and the showcase page.
+- **First captures and tools** (#1, Mac):
+  - live captures of olx.com.pk pages, sections and components;
+  - the design system book and the clickable prototype;
+  - the `maple` audit scaffolding;
+  - separate icon and image assets;
+  - Property pages and a guided capture for logged-in screens.
