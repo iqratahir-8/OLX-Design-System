@@ -1,0 +1,2038 @@
+{
+ "name": "OLX Pakistan Design System",
+ "version": "0.1.0",
+ "generated": "2026-10-09",
+ "source": {
+  "site": "https://www.olx.com.pk",
+  "codebase": "ZTechGroup/maple (private)"
+ },
+ "urls": {
+  "book": "https://iqratahir-8.github.io/OLX-Design-System/",
+  "storybook": "https://iqratahir-8.github.io/OLX-Design-System/storybook/",
+  "prototype": "https://iqratahir-8.github.io/OLX-Design-System/proto/",
+  "showcase": "https://iqratahir-8.github.io/OLX-Design-System/showcase/",
+  "manifest": "https://iqratahir-8.github.io/OLX-Design-System/design-system.json"
+ },
+ "skill": ".claude/skills/olx-design-system/SKILL.md",
+ "usage": {
+  "css": "css/olx.css",
+  "cssParts": [
+   "css/tokens.css",
+   "css/base.css",
+   "css/components.css"
+  ],
+  "tokensJson": "tokens/tokens.json",
+  "tokensJs": "dist/tokens.js",
+  "theming": "Light by default, follows prefers-color-scheme; force with <html data-theme=\"light|dark\">. Components use semantic tokens (--olx-bg, --olx-text, --olx-primary, ...) only.",
+  "fonts": "Geomanist (licensed, not in git; npm run fetch-fonts for local use). Fallback: Helvetica, Arial, sans-serif.",
+  "docs": [
+   "README.md",
+   "docs/INTEGRATION.md",
+   "docs/FLOWS.md",
+   "PROGRESS.md"
+  ]
+ },
+ "tokens": {
+  "source": "tokens/tokens.json",
+  "css": "css/tokens.css",
+  "count": 99,
+  "groups": {
+   "color": [
+    {
+     "name": "--olx-color-petrol-25",
+     "value": "#fafbfb"
+    },
+    {
+     "name": "--olx-color-petrol-50",
+     "value": "#f2f4f5"
+    },
+    {
+     "name": "--olx-color-petrol-75",
+     "value": "#e8ecec"
+    },
+    {
+     "name": "--olx-color-petrol-100",
+     "value": "#d8dfe0"
+    },
+    {
+     "name": "--olx-color-petrol-300",
+     "value": "#7f9799"
+    },
+    {
+     "name": "--olx-color-petrol-500",
+     "value": "#406367"
+    },
+    {
+     "name": "--olx-color-petrol-700",
+     "value": "#23494d"
+    },
+    {
+     "name": "--olx-color-petrol-900",
+     "value": "#002f34"
+    },
+    {
+     "name": "--olx-color-teal-100",
+     "value": "#ccfaf7"
+    },
+    {
+     "name": "--olx-color-teal-300",
+     "value": "#7ff0ea"
+    },
+    {
+     "name": "--olx-color-teal-500",
+     "value": "#23e5db"
+    },
+    {
+     "name": "--olx-color-teal-700",
+     "value": "#00a49f"
+    },
+    {
+     "name": "--olx-color-teal-900",
+     "value": "#006169"
+    },
+    {
+     "name": "--olx-color-yellow-100",
+     "value": "#fff5d6"
+    },
+    {
+     "name": "--olx-color-yellow-500",
+     "value": "#ffce32"
+    },
+    {
+     "name": "--olx-color-blue-100",
+     "value": "#ebf1ff"
+    },
+    {
+     "name": "--olx-color-blue-500",
+     "value": "#3a77ff"
+    },
+    {
+     "name": "--olx-color-blue-700",
+     "value": "#2456d6"
+    },
+    {
+     "name": "--olx-color-red-100",
+     "value": "#ffe6e1"
+    },
+    {
+     "name": "--olx-color-red-500",
+     "value": "#ff5636"
+    },
+    {
+     "name": "--olx-color-red-700",
+     "value": "#b83018"
+    },
+    {
+     "name": "--olx-color-green-100",
+     "value": "#dcf3e6"
+    },
+    {
+     "name": "--olx-color-green-500",
+     "value": "#1d9c5b"
+    },
+    {
+     "name": "--olx-color-green-700",
+     "value": "#157544"
+    },
+    {
+     "name": "--olx-color-white",
+     "value": "#ffffff"
+    },
+    {
+     "name": "--olx-color-black",
+     "value": "#000000"
+    }
+   ],
+   "font": [
+    {
+     "name": "--olx-font-family-sans",
+     "value": "Geomanist, Helvetica, Arial, sans-serif"
+    },
+    {
+     "name": "--olx-font-family-mono",
+     "value": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+    },
+    {
+     "name": "--olx-font-size-xs",
+     "value": "12px"
+    },
+    {
+     "name": "--olx-font-size-sm",
+     "value": "14px"
+    },
+    {
+     "name": "--olx-font-size-md",
+     "value": "16px"
+    },
+    {
+     "name": "--olx-font-size-lg",
+     "value": "18px"
+    },
+    {
+     "name": "--olx-font-size-xl",
+     "value": "20px"
+    },
+    {
+     "name": "--olx-font-size-2xl",
+     "value": "24px"
+    },
+    {
+     "name": "--olx-font-size-3xl",
+     "value": "32px"
+    },
+    {
+     "name": "--olx-font-size-4xl",
+     "value": "40px"
+    },
+    {
+     "name": "--olx-font-weight-regular",
+     "value": "400"
+    },
+    {
+     "name": "--olx-font-weight-medium",
+     "value": "500"
+    },
+    {
+     "name": "--olx-font-weight-semibold",
+     "value": "600"
+    },
+    {
+     "name": "--olx-font-weight-bold",
+     "value": "700"
+    },
+    {
+     "name": "--olx-font-line-height-tight",
+     "value": "1.2"
+    },
+    {
+     "name": "--olx-font-line-height-normal",
+     "value": "1.5"
+    }
+   ],
+   "space": [
+    {
+     "name": "--olx-space-0",
+     "value": "0"
+    },
+    {
+     "name": "--olx-space-1",
+     "value": "4px"
+    },
+    {
+     "name": "--olx-space-2",
+     "value": "8px"
+    },
+    {
+     "name": "--olx-space-3",
+     "value": "12px"
+    },
+    {
+     "name": "--olx-space-4",
+     "value": "16px"
+    },
+    {
+     "name": "--olx-space-5",
+     "value": "24px"
+    },
+    {
+     "name": "--olx-space-6",
+     "value": "32px"
+    },
+    {
+     "name": "--olx-space-7",
+     "value": "48px"
+    },
+    {
+     "name": "--olx-space-8",
+     "value": "64px"
+    }
+   ],
+   "radius": [
+    {
+     "name": "--olx-radius-sm",
+     "value": "4px"
+    },
+    {
+     "name": "--olx-radius-field",
+     "value": "6px"
+    },
+    {
+     "name": "--olx-radius-md",
+     "value": "8px"
+    },
+    {
+     "name": "--olx-radius-lg",
+     "value": "16px"
+    },
+    {
+     "name": "--olx-radius-pill",
+     "value": "999px"
+    }
+   ],
+   "shadow": [
+    {
+     "name": "--olx-shadow-sm",
+     "value": "0 1px 4px rgba(0, 0, 0, 0.1)"
+    },
+    {
+     "name": "--olx-shadow-md",
+     "value": "0 0 6px rgba(0, 0, 0, 0.12), 0 4px 20px rgba(0, 0, 0, 0.12)"
+    },
+    {
+     "name": "--olx-shadow-lg",
+     "value": "0 12px 32px rgba(0, 47, 52, 0.18)"
+    },
+    {
+     "name": "--olx-shadow-featured",
+     "value": "0 4px 12px rgba(0, 164, 159, 0.2)"
+    }
+   ],
+   "motion": [
+    {
+     "name": "--olx-motion-duration-fast",
+     "value": "120ms"
+    },
+    {
+     "name": "--olx-motion-duration-base",
+     "value": "200ms"
+    },
+    {
+     "name": "--olx-motion-easing-standard",
+     "value": "cubic-bezier(0.2, 0, 0, 1)"
+    }
+   ],
+   "gradient": [
+    {
+     "name": "--olx-gradient-sell-ring",
+     "value": "conic-gradient(from 200deg, #ffce32 0 30%, #23e5db 30% 62%, #3a77ff 62% 100%)"
+    },
+    {
+     "name": "--olx-gradient-promo",
+     "value": "linear-gradient(90.82deg, #26a69a 0.7%, #134e4a 310.85%)"
+    }
+   ],
+   "semantic": [
+    {
+     "name": "--olx-bg",
+     "value": "#ffffff",
+     "dark": "#001a1d"
+    },
+    {
+     "name": "--olx-bg-subtle",
+     "value": "#f2f4f5",
+     "dark": "#002f34"
+    },
+    {
+     "name": "--olx-surface",
+     "value": "#ffffff",
+     "dark": "#002f34"
+    },
+    {
+     "name": "--olx-text",
+     "value": "#002f34",
+     "dark": "#f2f4f5"
+    },
+    {
+     "name": "--olx-text-muted",
+     "value": "#406367",
+     "dark": "#7f9799"
+    },
+    {
+     "name": "--olx-text-inverse",
+     "value": "#ffffff",
+     "dark": "#002f34"
+    },
+    {
+     "name": "--olx-border",
+     "value": "#d8dfe0",
+     "dark": "#23494d"
+    },
+    {
+     "name": "--olx-border-strong",
+     "value": "#002f34",
+     "dark": "#f2f4f5"
+    },
+    {
+     "name": "--olx-primary",
+     "value": "#002f34",
+     "dark": "#23e5db"
+    },
+    {
+     "name": "--olx-primary-hover",
+     "value": "#23494d",
+     "dark": "#7ff0ea"
+    },
+    {
+     "name": "--olx-on-primary",
+     "value": "#ffffff",
+     "dark": "#002f34"
+    },
+    {
+     "name": "--olx-accent",
+     "value": "#23e5db"
+    },
+    {
+     "name": "--olx-on-accent",
+     "value": "#002f34"
+    },
+    {
+     "name": "--olx-highlight",
+     "value": "#ffce32"
+    },
+    {
+     "name": "--olx-link",
+     "value": "#2456d6",
+     "dark": "#8fb0ff"
+    },
+    {
+     "name": "--olx-info",
+     "value": "#2456d6",
+     "dark": "#8fb0ff"
+    },
+    {
+     "name": "--olx-info-bg",
+     "value": "#ebf1ff",
+     "dark": "#132a55"
+    },
+    {
+     "name": "--olx-success",
+     "value": "#157544",
+     "dark": "#5fd394"
+    },
+    {
+     "name": "--olx-success-bg",
+     "value": "#dcf3e6",
+     "dark": "#0f3a25"
+    },
+    {
+     "name": "--olx-warning",
+     "value": "#002f34",
+     "dark": "#ffce32"
+    },
+    {
+     "name": "--olx-warning-bg",
+     "value": "#fff5d6",
+     "dark": "#3d3310"
+    },
+    {
+     "name": "--olx-danger",
+     "value": "#b83018",
+     "dark": "#ff8a73"
+    },
+    {
+     "name": "--olx-danger-bg",
+     "value": "#ffe6e1",
+     "dark": "#4a1a11"
+    },
+    {
+     "name": "--olx-on-danger",
+     "value": "#ffffff",
+     "dark": "#002f34"
+    },
+    {
+     "name": "--olx-focus",
+     "value": "#2456d6",
+     "dark": "#23e5db"
+    },
+    {
+     "name": "--olx-border-subtle",
+     "value": "#e8ecec",
+     "dark": "#23494d"
+    },
+    {
+     "name": "--olx-featured",
+     "value": "#00a49f",
+     "dark": "#23e5db"
+    },
+    {
+     "name": "--olx-brand-bg",
+     "value": "#ebf1ff",
+     "dark": "#0b2530"
+    },
+    {
+     "name": "--olx-accent-bg",
+     "value": "#ccfaf7",
+     "dark": "#0d3d3b"
+    },
+    {
+     "name": "--olx-inverse-bg",
+     "value": "#002f34",
+     "dark": "#000f11"
+    },
+    {
+     "name": "--olx-on-inverse",
+     "value": "#ffffff",
+     "dark": "#f2f4f5"
+    },
+    {
+     "name": "--olx-media-bg",
+     "value": "#000000"
+    },
+    {
+     "name": "--olx-surface-subtle",
+     "value": "#fafbfb",
+     "dark": "#012a2e"
+    },
+    {
+     "name": "--olx-icon-brand",
+     "value": "#3a77ff",
+     "dark": "#8fb0ff"
+    }
+   ]
+  }
+ },
+ "components": {
+  "css": [
+   {
+    "name": "Button",
+    "classes": [
+     "olx-btn"
+    ],
+    "modifiers": [
+     "olx-btn--accent",
+     "olx-btn--block",
+     "olx-btn--danger",
+     "olx-btn--ghost",
+     "olx-btn--primary",
+     "olx-btn--secondary",
+     "olx-btn--sm"
+    ],
+    "elements": []
+   },
+   {
+    "name": "Form fields",
+    "classes": [
+     "olx-check",
+     "olx-field",
+     "olx-hint",
+     "olx-input",
+     "olx-label",
+     "olx-select",
+     "olx-textarea"
+    ],
+    "modifiers": [
+     "olx-field--error"
+    ],
+    "elements": []
+   },
+   {
+    "name": "Search bar",
+    "classes": [
+     "olx-search"
+    ],
+    "modifiers": [],
+    "elements": []
+   },
+   {
+    "name": "Badge / tag",
+    "classes": [
+     "olx-badge",
+     "olx-chip"
+    ],
+    "modifiers": [
+     "olx-badge--accent",
+     "olx-badge--danger",
+     "olx-badge--featured",
+     "olx-badge--info",
+     "olx-badge--success"
+    ],
+    "elements": []
+   },
+   {
+    "name": "Card / listing card",
+    "classes": [
+     "olx-card",
+     "olx-listing"
+    ],
+    "modifiers": [
+     "olx-card--elevated",
+     "olx-listing--featured"
+    ],
+    "elements": [
+     "olx-listing__badge",
+     "olx-listing__body",
+     "olx-listing__fav",
+     "olx-listing__media",
+     "olx-listing__meta",
+     "olx-listing__price",
+     "olx-listing__title"
+    ]
+   },
+   {
+    "name": "Alert",
+    "classes": [
+     "olx-alert"
+    ],
+    "modifiers": [
+     "olx-alert--danger",
+     "olx-alert--info",
+     "olx-alert--success",
+     "olx-alert--warning"
+    ],
+    "elements": []
+   },
+   {
+    "name": "Header",
+    "classes": [
+     "olx-header"
+    ],
+    "modifiers": [],
+    "elements": [
+     "olx-header__actions",
+     "olx-header__logo",
+     "olx-header__search"
+    ]
+   },
+   {
+    "name": "Layout helpers",
+    "classes": [
+     "olx-cluster",
+     "olx-container",
+     "olx-divider",
+     "olx-grid",
+     "olx-stack"
+    ],
+    "modifiers": [],
+    "elements": []
+   },
+   {
+    "name": "Top bar",
+    "note": "brand strip above the header (64px, logo tab + verticals)",
+    "classes": [
+     "olx-topbar"
+    ],
+    "modifiers": [],
+    "elements": [
+     "olx-topbar__actions",
+     "olx-topbar__inner",
+     "olx-topbar__link",
+     "olx-topbar__login",
+     "olx-topbar__logo"
+    ]
+   },
+   {
+    "name": "Sell button",
+    "note": "pill with the yellow/teal/blue ring",
+    "classes": [
+     "olx-sell"
+    ],
+    "modifiers": [],
+    "elements": []
+   },
+   {
+    "name": "Location picker",
+    "note": "300x46 field with pin + chevron",
+    "classes": [
+     "olx-location",
+     "olx-search",
+     "olx-searchbar"
+    ],
+    "modifiers": [
+     "olx-location--block"
+    ],
+    "elements": [
+     "olx-location__chevron",
+     "olx-location__pin",
+     "olx-location__value"
+    ]
+   },
+   {
+    "name": "Category nav",
+    "note": "\"All categories\" + quick links",
+    "classes": [
+     "olx-catnav"
+    ],
+    "modifiers": [],
+    "elements": [
+     "olx-catnav__all",
+     "olx-catnav__inner",
+     "olx-catnav__link"
+    ]
+   },
+   {
+    "name": "Category tiles (home)",
+    "note": "88px icon box + label",
+    "classes": [
+     "olx-cattile",
+     "olx-cattiles"
+    ],
+    "modifiers": [],
+    "elements": [
+     "olx-cattile__icon",
+     "olx-cattile__label"
+    ]
+   },
+   {
+    "name": "Section header",
+    "note": "\"Mobile Phones .... View more\"",
+    "classes": [
+     "olx-link-more",
+     "olx-section-header"
+    ],
+    "modifiers": [],
+    "elements": []
+   },
+   {
+    "name": "Breadcrumb",
+    "classes": [
+     "olx-breadcrumb",
+     "olx-page-title"
+    ],
+    "modifiers": [],
+    "elements": []
+   },
+   {
+    "name": "Filter panel (listing sidebar)",
+    "classes": [
+     "olx-filter",
+     "olx-input"
+    ],
+    "modifiers": [],
+    "elements": [
+     "olx-filter__count",
+     "olx-filter__item",
+     "olx-filter__list",
+     "olx-filter__more",
+     "olx-filter__range",
+     "olx-filter__title"
+    ]
+   },
+   {
+    "name": "Listing card, row (list view)",
+    "classes": [],
+    "modifiers": [
+     "olx-listing--featured",
+     "olx-listing--row"
+    ],
+    "elements": [
+     "olx-listing__actions",
+     "olx-listing__body",
+     "olx-listing__desc",
+     "olx-listing__fav",
+     "olx-listing__head",
+     "olx-listing__media",
+     "olx-listing__ribbon",
+     "olx-listing__title"
+    ]
+   },
+   {
+    "name": "Image gallery (ad detail)",
+    "classes": [
+     "olx-gallery"
+    ],
+    "modifiers": [],
+    "elements": [
+     "olx-gallery__count",
+     "olx-gallery__nav",
+     "olx-gallery__nav--next",
+     "olx-gallery__nav--prev",
+     "olx-gallery__stage",
+     "olx-gallery__thumb",
+     "olx-gallery__thumbs"
+    ]
+   },
+   {
+    "name": "Price tag / ad summary (ad detail)",
+    "classes": [
+     "olx-ad-summary",
+     "olx-details",
+     "olx-price"
+    ],
+    "modifiers": [
+     "olx-price--lg",
+     "olx-price--md"
+    ],
+    "elements": [
+     "olx-ad-summary__actions",
+     "olx-ad-summary__location",
+     "olx-ad-summary__meta",
+     "olx-ad-summary__title",
+     "olx-details__row"
+    ]
+   },
+   {
+    "name": "Seller card (ad detail sidebar)",
+    "classes": [
+     "olx-contact",
+     "olx-seller"
+    ],
+    "modifiers": [],
+    "elements": [
+     "olx-contact__foot",
+     "olx-contact__report",
+     "olx-seller__avatar",
+     "olx-seller__label",
+     "olx-seller__name",
+     "olx-seller__profile",
+     "olx-seller__stat",
+     "olx-seller__stat-icon",
+     "olx-seller__stats",
+     "olx-seller__who"
+    ]
+   },
+   {
+    "name": "Footer",
+    "classes": [
+     "olx-appbanner",
+     "olx-cattiles",
+     "olx-details",
+     "olx-footer",
+     "olx-location",
+     "olx-searchbar",
+     "olx-sell"
+    ],
+    "modifiers": [
+     "olx-price--lg"
+    ],
+    "elements": [
+     "olx-appbanner__inner",
+     "olx-appbanner__stores",
+     "olx-appbanner__title",
+     "olx-cattile__icon",
+     "olx-cattile__label",
+     "olx-footer__bar",
+     "olx-footer__bar-inner",
+     "olx-footer__cols",
+     "olx-footer__heading",
+     "olx-footer__links",
+     "olx-footer__social",
+     "olx-topbar__actions",
+     "olx-topbar__inner",
+     "olx-topbar__link",
+     "olx-topbar__logo"
+    ]
+   }
+  ],
+  "react": [
+   {
+    "name": "Alert",
+    "dir": "storybook/src/components/Alert"
+   },
+   {
+    "name": "Badge",
+    "dir": "storybook/src/components/Badge"
+   },
+   {
+    "name": "Breadcrumb",
+    "dir": "storybook/src/components/Breadcrumb"
+   },
+   {
+    "name": "Button",
+    "dir": "storybook/src/components/Button"
+   },
+   {
+    "name": "Chip",
+    "dir": "storybook/src/components/Chip"
+   },
+   {
+    "name": "Field",
+    "dir": "storybook/src/components/Field"
+   },
+   {
+    "name": "ListingCard",
+    "dir": "storybook/src/components/ListingCard"
+   }
+  ],
+  "live": [
+   {
+    "name": "ad-description",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/ad-description/desktop.html",
+      "png": "components/ad-description/desktop.png",
+      "width": 820,
+      "height": 545
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/ad-description/mobile.html",
+      "png": "components/ad-description/mobile.png",
+      "width": 390,
+      "height": 122
+     }
+    ]
+   },
+   {
+    "name": "ad-details",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/ad-details/desktop.html",
+      "png": "components/ad-details/desktop.png",
+      "width": 820,
+      "height": 121
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/ad-details/mobile.html",
+      "png": "components/ad-details/mobile.png",
+      "width": 390,
+      "height": 189
+     }
+    ]
+   },
+   {
+    "name": "ad-overview",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/ad-overview/desktop.html",
+      "png": "components/ad-overview/desktop.png",
+      "width": 820,
+      "height": 116
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/ad-overview/mobile.html",
+      "png": "components/ad-overview/mobile.png",
+      "width": 390,
+      "height": 122
+     }
+    ]
+   },
+   {
+    "name": "app-banner",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/app-banner/desktop.html",
+      "png": "components/app-banner/desktop.png",
+      "width": 1280,
+      "height": 173
+     }
+    ]
+   },
+   {
+    "name": "brand-chips",
+    "page": "category-listing",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/brand-chips/desktop.html",
+      "png": "components/brand-chips/desktop.png",
+      "width": 288,
+      "height": 233
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/brand-chips/mobile.html",
+      "png": "components/brand-chips/mobile.png",
+      "width": 76,
+      "height": 28
+     }
+    ]
+   },
+   {
+    "name": "breadcrumb",
+    "page": "category-listing",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/breadcrumb/desktop.html",
+      "png": "components/breadcrumb/desktop.png",
+      "width": 1280,
+      "height": 26
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/breadcrumb/mobile.html",
+      "png": "components/breadcrumb/mobile.png",
+      "width": 358,
+      "height": 27
+     }
+    ]
+   },
+   {
+    "name": "categories-filter",
+    "page": "category-listing",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/categories-filter/desktop.html",
+      "png": "components/categories-filter/desktop.png",
+      "width": 304,
+      "height": 266
+     }
+    ]
+   },
+   {
+    "name": "category-nav",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/category-nav/desktop.html",
+      "png": "components/category-nav/desktop.png",
+      "width": 1440,
+      "height": 50
+     }
+    ]
+   },
+   {
+    "name": "category-tile",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/category-tile/desktop.html",
+      "png": "components/category-tile/desktop.png",
+      "width": 121,
+      "height": 117
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/category-tile/mobile.html",
+      "png": "components/category-tile/mobile.png",
+      "width": 70,
+      "height": 92
+     }
+    ]
+   },
+   {
+    "name": "category-tiles",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/category-tiles/desktop.html",
+      "png": "components/category-tiles/desktop.png",
+      "width": 1280,
+      "height": 300
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/category-tiles/mobile.html",
+      "png": "components/category-tiles/mobile.png",
+      "width": 390,
+      "height": 234
+     }
+    ]
+   },
+   {
+    "name": "chat-button",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/chat-button/desktop.html",
+      "png": "components/chat-button/desktop.png",
+      "width": 420,
+      "height": 49
+     }
+    ]
+   },
+   {
+    "name": "contact-bar",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "mobile",
+      "html": "components/contact-bar/mobile.html",
+      "png": "components/contact-bar/mobile.png",
+      "width": 390,
+      "height": 64
+     }
+    ]
+   },
+   {
+    "name": "copyright-bar",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/copyright-bar/desktop.html",
+      "png": "components/copyright-bar/desktop.png",
+      "width": 1440,
+      "height": 58
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/copyright-bar/mobile.html",
+      "png": "components/copyright-bar/mobile.png",
+      "width": 390,
+      "height": 102
+     }
+    ]
+   },
+   {
+    "name": "delivery-card",
+    "page": "category-listing",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/delivery-card/desktop.html",
+      "png": "components/delivery-card/desktop.png",
+      "width": 302,
+      "height": 428
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/delivery-card/mobile.html",
+      "png": "components/delivery-card/mobile.png",
+      "width": 173,
+      "height": 260
+     }
+    ]
+   },
+   {
+    "name": "filters-sidebar",
+    "page": "category-listing",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/filters-sidebar/desktop.html",
+      "png": "components/filters-sidebar/desktop.png",
+      "width": 304,
+      "height": 1646
+     }
+    ]
+   },
+   {
+    "name": "footer",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/footer/desktop.html",
+      "png": "components/footer/desktop.png",
+      "width": 1440,
+      "height": 346
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/footer/mobile.html",
+      "png": "components/footer/mobile.png",
+      "width": 390,
+      "height": 562
+     }
+    ]
+   },
+   {
+    "name": "gallery",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/gallery/desktop.html",
+      "png": "components/gallery/desktop.png",
+      "width": 820,
+      "height": 481
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/gallery/mobile.html",
+      "png": "components/gallery/mobile.png",
+      "width": 390,
+      "height": 294
+     }
+    ]
+   },
+   {
+    "name": "header",
+    "page": "ad-scrolled",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "state": "On an ad, scrolled",
+      "html": "site/pages/ad-scrolled/sections/desktop/01-sticky-ad-info-header.html",
+      "png": "site/pages/ad-scrolled/sections/desktop/01-sticky-ad-info-header.png",
+      "page": "site/pages/ad-scrolled/desktop.html",
+      "width": 1440,
+      "height": 150
+     },
+     {
+      "viewport": "desktop",
+      "html": "components/header/desktop.html",
+      "png": "components/header/desktop.png",
+      "width": 1440,
+      "height": 143
+     }
+    ]
+   },
+   {
+    "name": "listing-card",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/listing-card/desktop.html",
+      "png": "components/listing-card/desktop.png",
+      "width": 311,
+      "height": 461
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/listing-card/mobile.html",
+      "png": "components/listing-card/mobile.png",
+      "width": 215,
+      "height": 316
+     }
+    ]
+   },
+   {
+    "name": "listing-row-featured",
+    "page": "category-listing",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/listing-row-featured/desktop.html",
+      "png": "components/listing-row-featured/desktop.png",
+      "width": 960,
+      "height": 237
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/listing-row-featured/mobile.html",
+      "png": "components/listing-row-featured/mobile.png",
+      "width": 390,
+      "height": 130
+     }
+    ]
+   },
+   {
+    "name": "listing-section",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/listing-section/desktop.html",
+      "png": "components/listing-section/desktop.png",
+      "width": 1280,
+      "height": 513
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/listing-section/mobile.html",
+      "png": "components/listing-section/mobile.png",
+      "width": 390,
+      "height": 351
+     }
+    ]
+   },
+   {
+    "name": "listing-toolbar",
+    "page": "category-listing",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/listing-toolbar/desktop.html",
+      "png": "components/listing-toolbar/desktop.png",
+      "width": 330,
+      "height": 37
+     }
+    ]
+   },
+   {
+    "name": "location-picker",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/location-picker/desktop.html",
+      "png": "components/location-picker/desktop.png",
+      "width": 362,
+      "height": 50
+     }
+    ]
+   },
+   {
+    "name": "login-button",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/login-button/desktop.html",
+      "png": "components/login-button/desktop.png",
+      "width": 40,
+      "height": 24
+     }
+    ]
+   },
+   {
+    "name": "mobile-header",
+    "page": "home-scrolled",
+    "captures": [
+     {
+      "viewport": "mobile",
+      "state": "Scrolled (compact)",
+      "html": "site/pages/home-scrolled/sections/mobile/01-header-scrolled.html",
+      "png": "site/pages/home-scrolled/sections/mobile/01-header-scrolled.png",
+      "page": "site/pages/home-scrolled/mobile.html",
+      "width": 390,
+      "height": 116
+     },
+     {
+      "viewport": "mobile",
+      "state": "On an ad, scrolled",
+      "html": "site/pages/ad-scrolled/sections/mobile/01-header-scrolled.html",
+      "png": "site/pages/ad-scrolled/sections/mobile/01-header-scrolled.png",
+      "page": "site/pages/ad-scrolled/mobile.html",
+      "width": 390,
+      "height": 166
+     },
+     {
+      "viewport": "mobile",
+      "state": "On a listing page",
+      "html": "site/pages/sub-mobile-phones/sections/mobile/01-header.html",
+      "png": "site/pages/sub-mobile-phones/sections/mobile/01-header.png",
+      "page": "site/pages/sub-mobile-phones/mobile.html",
+      "width": 390,
+      "height": 139
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/mobile-header/mobile.html",
+      "png": "components/mobile-header/mobile.png",
+      "width": 390,
+      "height": 140
+     }
+    ]
+   },
+   {
+    "name": "mobile-location-bar",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "mobile",
+      "html": "components/mobile-location-bar/mobile.html",
+      "png": "components/mobile-location-bar/mobile.png",
+      "width": 358,
+      "height": 25
+     }
+    ]
+   },
+   {
+    "name": "motors-header",
+    "page": "motors",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "state": "Default",
+      "html": "site/pages/motors/sections/desktop/01-header.html",
+      "png": "site/pages/motors/sections/desktop/01-header.png",
+      "page": "site/pages/motors/desktop.html",
+      "width": 1440,
+      "height": 111
+     },
+     {
+      "viewport": "desktop",
+      "state": "Scrolled (sticky)",
+      "html": "site/pages/motors-scrolled/sections/desktop/01-header-scrolled.html",
+      "png": "site/pages/motors-scrolled/sections/desktop/01-header-scrolled.png",
+      "page": "site/pages/motors-scrolled/desktop.html",
+      "width": 1440,
+      "height": 111
+     },
+     {
+      "viewport": "desktop",
+      "state": "On a car page, scrolled",
+      "html": "site/pages/motors-model-scrolled/sections/desktop/01-header-scrolled.html",
+      "png": "site/pages/motors-model-scrolled/sections/desktop/01-header-scrolled.png",
+      "page": "site/pages/motors-model-scrolled/desktop.html",
+      "width": 1440,
+      "height": 111
+     }
+    ]
+   },
+   {
+    "name": "motors-mobile-header",
+    "page": "motors",
+    "captures": [
+     {
+      "viewport": "mobile",
+      "state": "Motors landing page",
+      "html": "site/pages/motors/sections/mobile/01-header.html",
+      "png": "site/pages/motors/sections/mobile/01-header.png",
+      "page": "site/pages/motors/mobile.html",
+      "width": 390,
+      "height": 165
+     },
+     {
+      "viewport": "mobile",
+      "state": "Landing page, scrolled",
+      "html": "site/pages/motors-scrolled/sections/mobile/01-header-scrolled.html",
+      "png": "site/pages/motors-scrolled/sections/mobile/01-header-scrolled.png",
+      "page": "site/pages/motors-scrolled/mobile.html",
+      "width": 390,
+      "height": 165
+     },
+     {
+      "viewport": "mobile",
+      "state": "On a car page",
+      "html": "site/pages/motors-model/sections/mobile/01-header.html",
+      "png": "site/pages/motors-model/sections/mobile/01-header.png",
+      "page": "site/pages/motors-model/mobile.html",
+      "width": 390,
+      "height": 64
+     },
+     {
+      "viewport": "mobile",
+      "state": "On a car page, scrolled",
+      "html": "site/pages/motors-model-scrolled/sections/mobile/01-header-scrolled.html",
+      "png": "site/pages/motors-model-scrolled/sections/mobile/01-header-scrolled.png",
+      "page": "site/pages/motors-model-scrolled/mobile.html",
+      "width": 390,
+      "height": 64
+     },
+     {
+      "viewport": "mobile",
+      "state": "On a comparison, scrolled",
+      "html": "site/pages/motors-compare-result-scrolled/sections/mobile/01-header-scrolled.html",
+      "png": "site/pages/motors-compare-result-scrolled/sections/mobile/01-header-scrolled.png",
+      "page": "site/pages/motors-compare-result-scrolled/mobile.html",
+      "width": 390,
+      "height": 64
+     }
+    ]
+   },
+   {
+    "name": "page-title",
+    "page": "category-listing",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/page-title/desktop.html",
+      "png": "components/page-title/desktop.png",
+      "width": 381,
+      "height": 37
+     }
+    ]
+   },
+   {
+    "name": "related-ads",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/related-ads/desktop.html",
+      "png": "components/related-ads/desktop.png",
+      "width": 820,
+      "height": 460
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/related-ads/mobile.html",
+      "png": "components/related-ads/mobile.png",
+      "width": 390,
+      "height": 351
+     }
+    ]
+   },
+   {
+    "name": "safety-tips",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/safety-tips/desktop.html",
+      "png": "components/safety-tips/desktop.png",
+      "width": 820,
+      "height": 171
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/safety-tips/mobile.html",
+      "png": "components/safety-tips/mobile.png",
+      "width": 358,
+      "height": 236
+     }
+    ]
+   },
+   {
+    "name": "search-bar",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/search-bar/desktop.html",
+      "png": "components/search-bar/desktop.png",
+      "width": 902,
+      "height": 50
+     }
+    ]
+   },
+   {
+    "name": "search-row",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/search-row/desktop.html",
+      "png": "components/search-row/desktop.png",
+      "width": 1280,
+      "height": 78
+     }
+    ]
+   },
+   {
+    "name": "sell-button",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/sell-button/desktop.html",
+      "png": "components/sell-button/desktop.png",
+      "width": 104,
+      "height": 48
+     },
+     {
+      "viewport": "mobile",
+      "html": "components/sell-button/mobile.html",
+      "png": "components/sell-button/mobile.png",
+      "width": 72,
+      "height": 46
+     }
+    ]
+   },
+   {
+    "name": "seller-card",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/seller-card/desktop.html",
+      "png": "components/seller-card/desktop.png",
+      "width": 420,
+      "height": 148
+     }
+    ]
+   },
+   {
+    "name": "seller-card-mobile",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "mobile",
+      "html": "components/seller-card-mobile/mobile.html",
+      "png": "components/seller-card-mobile/mobile.png",
+      "width": 386,
+      "height": 149
+     }
+    ]
+   },
+   {
+    "name": "seller-sidebar",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/seller-sidebar/desktop.html",
+      "png": "components/seller-sidebar/desktop.png",
+      "width": 420,
+      "height": 276
+     }
+    ]
+   },
+   {
+    "name": "show-phone-button",
+    "page": "ad-detail",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/show-phone-button/desktop.html",
+      "png": "components/show-phone-button/desktop.png",
+      "width": 420,
+      "height": 49
+     }
+    ]
+   },
+   {
+    "name": "top-bar",
+    "page": "home",
+    "captures": [
+     {
+      "viewport": "desktop",
+      "html": "components/top-bar/desktop.html",
+      "png": "components/top-bar/desktop.png",
+      "width": 1440,
+      "height": 64
+     }
+    ]
+   }
+  ]
+ },
+ "templates": [
+  {
+   "name": "ad-detail",
+   "path": "/item/samsung-s25-pta-100-orignal-stock-iid-1112212726",
+   "viewports": {
+    "desktop": {
+     "html": "templates/ad-detail/desktop.html",
+     "png": "templates/ad-detail/desktop.png",
+     "width": 1440,
+     "height": 2912
+    },
+    "mobile": {
+     "html": "templates/ad-detail/mobile.html",
+     "png": "templates/ad-detail/mobile.png",
+     "width": 390,
+     "height": 2244
+    }
+   }
+  },
+  {
+   "name": "category-listing",
+   "path": "/mobile-phones_c1453",
+   "viewports": {
+    "desktop": {
+     "html": "templates/category-listing/desktop.html",
+     "png": "templates/category-listing/desktop.png",
+     "width": 1440,
+     "height": 9516
+    },
+    "mobile": {
+     "html": "templates/category-listing/mobile.html",
+     "png": "templates/category-listing/mobile.png",
+     "width": 390,
+     "height": 6326
+    }
+   }
+  },
+  {
+   "name": "home",
+   "path": "/",
+   "viewports": {
+    "desktop": {
+     "html": "templates/home/desktop.html",
+     "png": "templates/home/desktop.png",
+     "width": 1440,
+     "height": 5526
+    },
+    "mobile": {
+     "html": "templates/home/mobile.html",
+     "png": "templates/home/mobile.png",
+     "width": 390,
+     "height": 4102
+    }
+   }
+  },
+  {
+   "name": "location-prompt",
+   "path": "/",
+   "viewports": {
+    "mobile": {
+     "html": "templates/location-prompt/mobile.html",
+     "png": "templates/location-prompt/mobile.png",
+     "width": 390,
+     "height": 4102
+    }
+   }
+  },
+  {
+   "name": "location-select",
+   "path": "/",
+   "viewports": {
+    "mobile": {
+     "html": "templates/location-select/mobile.html",
+     "png": "templates/location-select/mobile.png",
+     "width": 390,
+     "height": 11077
+    }
+   }
+  },
+  {
+   "name": "search-results",
+   "path": "/items/q-iphone",
+   "viewports": {
+    "desktop": {
+     "html": "templates/search-results/desktop.html",
+     "png": "templates/search-results/desktop.png",
+     "width": 1440,
+     "height": 13252
+    },
+    "mobile": {
+     "html": "templates/search-results/mobile.html",
+     "png": "templates/search-results/mobile.png",
+     "width": 390,
+     "height": 8502
+    }
+   }
+  }
+ ],
+ "screens": {
+  "index": "site/index.json",
+  "count": 202,
+  "pages": 106,
+  "layout": "site/pages/<id>/<viewport>.{html,png,json} and site/pages/<id>/sections/<viewport>/NN-name.{html,png}",
+  "catalog": "catalog/index.json"
+ },
+ "flows": [
+  {
+   "id": "first-visit",
+   "title": "First visit on mobile",
+   "steps": [
+    "location-prompt",
+    "location-select",
+    "home"
+   ]
+  },
+  {
+   "id": "browse",
+   "title": "Browse a category to an ad",
+   "steps": [
+    "home",
+    "cat-mobiles",
+    "sub-mobile-phones",
+    "ad-mobiles",
+    "login"
+   ]
+  },
+  {
+   "id": "search",
+   "title": "Search, sort and open a result",
+   "steps": [
+    "home",
+    "search-suggestions",
+    "search-results",
+    "sort-menu",
+    "sorted-low-price",
+    "search-empty"
+   ]
+  },
+  {
+   "id": "search-mobile",
+   "title": "Filter on mobile",
+   "steps": [
+    "sub-mobile-phones",
+    "brand-sheet",
+    "price-sheet",
+    "filters-sheet"
+   ]
+  },
+  {
+   "id": "sell",
+   "title": "Start selling",
+   "steps": [
+    "home",
+    "login",
+    "login-phone"
+   ]
+  },
+  {
+   "id": "account",
+   "title": "Log in or sign up",
+   "steps": [
+    "home",
+    "account-menu",
+    "login",
+    "login-email",
+    "signup"
+   ]
+  },
+  {
+   "id": "location",
+   "title": "Browse by location",
+   "steps": [
+    "home",
+    "location-menu",
+    "city",
+    "city-category"
+   ]
+  },
+  {
+   "id": "headers",
+   "title": "Header states while scrolling",
+   "steps": [
+    "home",
+    "home-scrolled",
+    "category-scrolled",
+    "ad-mobiles",
+    "ad-scrolled"
+   ]
+  },
+  {
+   "id": "motors-research",
+   "title": "Motors: research a new car",
+   "steps": [
+    "motors",
+    "motors-new-cars",
+    "motors-model-corolla",
+    "motors-version"
+   ]
+  },
+  {
+   "id": "motors-browse-new",
+   "title": "Motors: browse new cars",
+   "steps": [
+    "motors-new-cars",
+    "motors-all-new-cars",
+    "motors-new-suvs",
+    "motors-new-cars-empty",
+    "motors-brand-toyota",
+    "motors-model-corolla",
+    "motors-brand",
+    "motors-model"
+   ]
+  },
+  {
+   "id": "motors-compare",
+   "title": "Motors: compare two cars",
+   "steps": [
+    "motors-compare",
+    "motors-compare-result"
+   ]
+  },
+  {
+   "id": "motors-reviews",
+   "title": "Motors: read car reviews",
+   "steps": [
+    "motors-reviews",
+    "motors-model-reviews",
+    "motors-review"
+   ]
+  },
+  {
+   "id": "motors-finance",
+   "title": "Motors: car finance",
+   "steps": [
+    "motors-finance",
+    "motors-finance-bank"
+   ]
+  },
+  {
+   "id": "motors-inspection",
+   "title": "Motors: book a car inspection",
+   "steps": [
+    "motors-inspection"
+   ]
+  },
+  {
+   "id": "motors-insurance",
+   "title": "Motors: car insurance",
+   "steps": [
+    "motors-insurance",
+    "motors-insurer",
+    "motors-insurance-tpl"
+   ]
+  },
+  {
+   "id": "motors-auction-sheet",
+   "title": "Motors: verify an auction sheet",
+   "steps": [
+    "motors-auction-sheet"
+   ]
+  },
+  {
+   "id": "motors-tyres",
+   "title": "Motors: find tyres",
+   "steps": [
+    "motors-tyres",
+    "motors-model-tyres",
+    "motors-brand-tyres"
+   ]
+  },
+  {
+   "id": "motors-batteries",
+   "title": "Motors: find a battery or oil",
+   "steps": [
+    "motors-batteries",
+    "motors-model-batteries",
+    "motors-brand-batteries",
+    "motors-oil-grades"
+   ]
+  },
+  {
+   "id": "motors-headers",
+   "title": "Motors: header states while scrolling",
+   "steps": [
+    "motors",
+    "motors-scrolled",
+    "motors-model",
+    "motors-model-scrolled",
+    "motors-compare-result-scrolled"
+   ]
+  },
+  {
+   "id": "motors",
+   "title": "Motors: find a used car",
+   "steps": [
+    "motors",
+    "sub-cars",
+    "ad-cars"
+   ]
+  },
+  {
+   "id": "property",
+   "title": "Property: find a house",
+   "steps": [
+    "property",
+    "sub-houses",
+    "ad-houses",
+    "sub-flats-for-rent"
+   ]
+  },
+  {
+   "id": "property-plots",
+   "title": "Property: find a plot in Lahore",
+   "steps": [
+    "property",
+    "prop-plots",
+    "prop-residential-plots",
+    "prop-city-plots",
+    "ad-plots"
+   ]
+  },
+  {
+   "id": "property-types",
+   "title": "Property: every property type",
+   "steps": [
+    "prop-flats-sale",
+    "sub-houses",
+    "prop-city-houses",
+    "prop-houses-rent",
+    "prop-portions",
+    "prop-rooms",
+    "prop-shops",
+    "page-not-found"
+   ]
+  },
+  {
+   "id": "jobs",
+   "title": "Jobs: find work",
+   "steps": [
+    "cat-jobs",
+    "sub-online-jobs",
+    "ad-online-jobs"
+   ]
+  },
+  {
+   "id": "kit-classifieds-browse-and-find-an-ad",
+   "title": "Classifieds: Browse and find an ad",
+   "steps": [
+    "home",
+    "sub-mobile-phones",
+    "search-results",
+    "kit-classifieds-ad-detail"
+   ]
+  },
+  {
+   "id": "kit-classifieds-seller-and-posting",
+   "title": "Classifieds: Seller and posting",
+   "steps": [
+    "kit-classifieds-ad-detail",
+    "kit-classifieds-seller-profile",
+    "kit-classifieds-post-ad"
+   ]
+  },
+  {
+   "id": "kit-property-find-a-property",
+   "title": "Property: Find a property",
+   "steps": [
+    "property",
+    "cat-property-for-sale",
+    "sub-houses",
+    "kit-property-property-detail-sale"
+   ]
+  },
+  {
+   "id": "kit-property-rent-a-property",
+   "title": "Property: Rent a property",
+   "steps": [
+    "property",
+    "cat-property-for-rent",
+    "kit-property-property-detail-rent"
+   ]
+  },
+  {
+   "id": "kit-motors-find-and-compare-new-cars",
+   "title": "Motors: Find and compare new cars",
+   "steps": [
+    "motors",
+    "motors-new-cars",
+    "motors-all-new-cars",
+    "motors-model-corolla",
+    "motors-version",
+    "motors-compare",
+    "motors-compare-result"
+   ]
+  },
+  {
+   "id": "kit-motors-finance-and-insurance",
+   "title": "Motors: Finance and insurance",
+   "steps": [
+    "motors",
+    "motors-finance",
+    "motors-finance-bank",
+    "motors-insurance",
+    "motors-insurer"
+   ]
+  },
+  {
+   "id": "kit-motors-tyres-batteries-and-oil",
+   "title": "Motors: Tyres, batteries and oil",
+   "steps": [
+    "motors",
+    "motors-tyres",
+    "motors-model-tyres",
+    "motors-batteries",
+    "motors-oil-grades"
+   ]
+  },
+  {
+   "id": "kit-motors-reviews-and-services",
+   "title": "Motors: Reviews and services",
+   "steps": [
+    "motors-reviews",
+    "motors-model-reviews",
+    "motors-review",
+    "motors-inspection",
+    "motors-auction-sheet"
+   ]
+  }
+ ],
+ "prototype": {
+  "data": "prototype/data.json",
+  "screens": 222,
+  "url": "https://iqratahir-8.github.io/OLX-Design-System/proto/"
+ },
+ "assets": {
+  "index": "assets/index.json",
+  "count": 237,
+  "kinds": {
+   "category": 14,
+   "css-icon": 46,
+   "icon": 133,
+   "illustration": 5,
+   "image": 31,
+   "logo": 8
+  }
+ },
+ "storybook": {
+  "dir": "storybook",
+  "components": "storybook/src/components",
+  "patterns": "storybook/src/patterns",
+  "pages": "storybook/design-kit/templates"
+ },
+ "quality": {
+  "report": "audit/pixel-report.md",
+  "checked": "2026-10-07T15:47:19.426Z",
+  "summary": {
+   "components": {
+    "match": 22,
+    "close": 12,
+    "mismatch": 19,
+    "error": 1
+   },
+   "site": {
+    "match": 141,
+    "skipped": 12,
+    "mismatch": 39,
+    "close": 10
+   },
+   "templates": {
+    "match": 6,
+    "mismatch": 4
+   }
+  }
+ },
+ "gaps": [
+  "Logged-in screens (post an ad, chat, profile, my ads) are not captured: templates/{chat,login,post-ad,profile} are empty. Run npm run capture:logged-in on a machine with an OLX login.",
+  "Components not yet reconciled with the maple codebase (see docs/inventory.md).",
+  "Some component captures need redoing; see audit/pixel-report.md."
+ ]
+}

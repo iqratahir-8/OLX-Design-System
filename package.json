@@ -32,7 +32,8 @@
     "assets": "node scripts/extract-assets.mjs",
     "import:kit": "node scripts/import-kit.mjs",
     "catalog": "node scripts/build-catalog.mjs",
-    "verify:pixels": "node scripts/verify-pixels.mjs"
+    "verify:pixels": "node scripts/verify-pixels.mjs",
+    "manifest": "node scripts/build-manifest.mjs"
   },
   "license": "UNLICENSED",
   "devDependencies": {

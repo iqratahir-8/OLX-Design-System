@@ -33,6 +33,12 @@ Every push to `main` rebuilds and redeploys the site (`.github/workflows/pages.y
 - **Design system book** (`book/`): foundations, components, templates and every captured screen, each with its live HTML, screenshot and source. It also includes the design-kit screens.
 - **Prototype** (`prototype/`): 222 screens and 32 guided flows, built from the captures.
 - **Catalog** (`catalog/`): a developer index of pages, flows, sections, components and assets.
+- **Claude skill.** `.claude/skills/olx-design-system/SKILL.md` gives the rules (look at the live screen first, tokens only, `olx-*` components first, both viewports, accessibility), plus a token and markup quick reference, OLX content conventions and where everything is.
+  - Claude Code loads it automatically in this repo.
+  - For claude.ai, upload the `olx-design-system` folder as a skill.
+- **Manifest for Claude Design and other tools.** `design-system.json` is one index of tokens (light and dark values), CSS components (classes, modifiers, elements), React wrappers, live components and their states, templates, screens, flows, assets, quality results and known gaps, all with file paths.
+  - Generated from the repo with `npm run manifest`.
+  - Published at https://iqratahir-8.github.io/OLX-Design-System/design-system.json.
 - **Pixel check.** `npm run verify:pixels` renders every stored capture and compares it with its live screenshot. The latest results are in `audit/pixel-report.md`:
 
   | | Match | Close | Off | Not compared |
@@ -54,18 +60,15 @@ Every push to `main` rebuilds and redeploys the site (`.github/workflows/pages.y
 
 ## What is not done (open work)
 
-1. **Claude skill and Claude Design link.** The original brief asked for a `SKILL.md` and a manifest, so the system can be used as a Claude skill and linked to Claude Design. Neither exists yet. Suggested shape:
-   - a `.claude/skills/olx-design-system/SKILL.md` that points to `tokens/tokens.json`, `css/olx.css`, `components/index.json` and `catalog/index.json`;
-   - a `design-system.json` manifest listing tokens, components and templates with their file paths.
-2. **Logged-in screens.** Post an ad, chat, profile and my ads can't be captured from the cloud, because they need your OLX login. Capture them on the Mac with `npm run capture:logged-in`, which opens a browser for you to log in.
-3. **Component captures to redo.** These capture or markup problems are known; see `audit/pixel-report.md`:
+1. **Logged-in screens.** Post an ad, chat, profile and my ads can't be captured from the cloud, because they need your OLX login. Capture them on the Mac with `npm run capture:logged-in`, which opens a browser for you to log in.
+2. **Component captures to redo.** These capture or markup problems are known; see `audit/pixel-report.md`:
    - the mobile breadcrumb was captured 1 px tall;
    - the filters sidebar was captured partly expanded;
    - the app banner and delivery card render shorter than live;
    - the desktop sell button times out in the checker.
-4. **Matching with `maple`.** `audit/comparisons/live-vs-repo.md` covers live versus this repo. Reconciling components with the `maple` source is still pending; `docs/inventory.md` marks it "specced".
-5. **Site size.** The published site is about 710 MB, against GitHub Pages' 1 GB limit, because the screenshots now include photos. Shrink the screenshots (WebP, or a lower scale on mobile) before adding much more.
-6. **Licensed fonts.** Geomanist isn't in git, so the published site uses a fallback font. Locally, `npm run fetch-fonts` downloads it into `fonts/`, which is git-ignored.
+3. **Matching with `maple`.** `audit/comparisons/live-vs-repo.md` covers live versus this repo. Reconciling components with the `maple` source is still pending; `docs/inventory.md` marks it "specced".
+4. **Site size.** The published site is about 710 MB, against GitHub Pages' 1 GB limit, because the screenshots now include photos. Shrink the screenshots (WebP, or a lower scale on mobile) before adding much more.
+5. **Licensed fonts.** Geomanist isn't in git, so the published site uses a fallback font. Locally, `npm run fetch-fonts` downloads it into `fonts/`, which is git-ignored.
 
 ## Moving to another account
 
@@ -78,6 +81,8 @@ Every push to `main` rebuilds and redeploys the site (`.github/workflows/pages.y
 2. **GitHub Pages.** In the new repo, set Settings → Pages → *Source* to **GitHub Actions**, not "Deploy from a branch". Then run the workflow once from the Actions tab.
 3. **Update the hard-coded URLs** to the new owner:
    - `README.md` (Pages links);
+   - `scripts/build-manifest.mjs` (the `BASE` constant), then run `npm run manifest`;
+   - `.claude/skills/olx-design-system/SKILL.md` (the published `design-system.json` link);
    - `scripts/build-publish.mjs` (the default `BOOK_STORYBOOK_URL`, a claude.ai artifact link that belongs to the old account; Pages overrides it, so it matters only for the claude.ai copy).
 4. **Claude access.** Install the Claude GitHub App on the account that **owns** the repo (https://github.com/apps/claude), then reconnect GitHub at claude.ai → Settings → Connectors. Earlier, the app was installed on `iqratahir` while the repo belonged to `iqratahir-8`, which caused 403s on every push.
 5. **Cloud environment.** In the Claude Code cloud environment, set Network access to **Full**, or allow these hosts: `www.olx.com.pk`, `images.olx.com.pk`, `<owner>.github.io`. Without them, captures and checks of the live site can't run.
