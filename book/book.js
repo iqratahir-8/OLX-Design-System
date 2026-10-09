@@ -236,7 +236,7 @@
     </div>`));
     p.append(el(`<div class="book-note">
       <p><strong>How renders work.</strong> A component is shown by cropping it out of its full page template, so it keeps the exact layout it has on the site. Each one also has its live screenshot and its HTML.</p>
-      <p><strong>Fonts.</strong> Geomanist is licensed, so the font files are not in the repo. Run <code>npm run fetch-fonts</code> locally for exact type; without them, text falls back to Helvetica.</p>
+      <p><strong>Fonts.</strong> Geomanist is bundled in three weights only: Regular (400), Book (500) and Medium (600). Bold and Thin are not used.</p>
       <p><strong>Photos.</strong> Listing photos load from images.olx.com.pk. Where that host is blocked, cards show alt text.</p>
     </div>`));
     for (const [g, names] of data.grouped) {
@@ -583,13 +583,14 @@
   }
   function typePage() {
     const f = data.tokens.font;
-    const p = page('Foundations', 'Typography', `Geomanist, with ${esc(f.family.sans.split(',').slice(1).join(',').trim())} as fallback. The site sets <code>html { font-size: 62.5% }</code>, so 1rem is 10px there. Body copy is 14px; the most used weight is 600.`);
+    const p = page('Foundations', 'Typography', `Geomanist, with ${esc(f.family.sans.split(',').slice(1).join(',').trim())} as fallback. The site sets <code>html { font-size: 62.5% }</code>, so 1rem is 10px there. Body copy is 14px; the most used weight is 600. Only three Geomanist weights are used: Regular 400, Book 500 and Medium 600. Bold and Thin are not used.`);
     const wrap = el('<div class="book-table-wrap"><table class="book-table"><thead><tr><th>Token</th><th>Size</th><th>Sample</th></tr></thead><tbody></tbody></table></div>');
     for (const [n, v] of Object.entries(f.size).reverse()) wrap.querySelector('tbody').append(el(`<tr><td><code>font-size-${esc(n)}</code></td><td>${esc(v)}</td><td style="font-size:${esc(v)};line-height:1.25">Mobile Phones in Pakistan</td></tr>`));
     p.append(wrap);
     p.append(el('<h2 class="book-h2">Weights</h2>'));
     const w = el('<div class="book-table-wrap"><table class="book-table"><tbody></tbody></table></div>');
-    for (const [n, v] of Object.entries(f.weight)) w.querySelector('tbody').append(el(`<tr><td><code>font-weight-${esc(n)}</code></td><td>${esc(v)}</td><td style="font-weight:${esc(v)};font-size:18px">Rs 4.75 Lac</td></tr>`));
+    const face = { 400: 'Geomanist Regular', 500: 'Geomanist Book', 600: 'Geomanist Medium' };
+    for (const [n, v] of Object.entries(f.weight)) w.querySelector('tbody').append(el(`<tr><td><code>font-weight-${esc(n)}</code></td><td>${esc(v)} · ${esc(face[v] ?? '')}</td><td style="font-weight:${esc(v)};font-size:18px">Rs 4.75 Lac</td></tr>`));
     p.append(w);
     return p;
   }

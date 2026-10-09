@@ -167,3 +167,7 @@ a.book-stat:hover { border-color: var(--olx-link); }
 .book-asset figcaption strong { font-size: var(--olx-font-size-sm); }
 .book-asset__actions { display: flex; gap: var(--olx-space-3); margin-top: var(--olx-space-1); }
 .book-asset__actions button { padding: 0; border: 0; background: none; color: var(--olx-link); font: inherit; text-decoration: underline; cursor: pointer; }
+
+/* Geomanist has Regular, Book and Medium only: emphasis uses Medium (600), never a faked bold. */
+html { font-synthesis: none; }
+b, strong { font-weight: var(--olx-font-weight-semibold); }

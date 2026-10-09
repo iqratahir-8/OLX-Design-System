@@ -30,7 +30,8 @@ scripts/import-motors.mjs  Imports Motors pages saved by the design kit (local-b
 scripts/capture-logged-in.mjs  Run locally: you log in, then capture logged-in screens into site/
 scripts/build-prototype.mjs  Wires captured links/buttons to captured screens -> prototype/data.json
 scripts/lib/capture-lib.mjs  Shared capture code (clean-up, redaction, CSS inlining, layout, cropping)
-scripts/fetch-fonts.mjs   Downloads the site fonts into fonts/ (git-ignored, licensed) for exact rendering
+fonts/                    Geomanist Regular, Book and Medium (committed; OLX holds the licence). No Bold or Thin.
+scripts/fetch-fonts.mjs   Re-downloads the Geomanist files into fonts/ from olx.com.pk
 scripts/capture.mjs       Playwright capture (screenshot, HTML, computed styles)
 scripts/inspect-components.mjs  Computed styles of key live components -> audit/live-snapshots/components.json
 docs/inventory.md         Template/component checklist and status
@@ -93,7 +94,6 @@ See `index.html` for live examples of each.
 
 ```sh
 npm install
-npm run fetch-fonts   # once: Geomanist into fonts/ (git-ignored)
 npm run book          # then open http://localhost:6006/book/
 ```
 
@@ -114,7 +114,7 @@ Every push to `main` deploys the book and the Storybook to https://iqratahir-8.g
 | `/storybook/` | Storybook (`storybook/`): components, 48 captured pages, 8 flows |
 | `/showcase/` | Component showcase (`index.html`) |
 
-The build needs no browser and never contacts olx.com.pk: it runs `build-prototype`, `build-publish` (with `BOOK_STORYBOOK_URL=storybook/`, so the book links to the Storybook beside it) and `storybook build`. Refresh captures locally and commit them, and the next push republishes. Licensed fonts are not in git, so the published copy uses fallback fonts; listing photos and some icons load from OLX's own servers. One-time setup: in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**. To redeploy without a push, run the workflow from the **Actions** tab.
+The build needs no browser and never contacts olx.com.pk: it runs `build-prototype`, `build-publish` (with `BOOK_STORYBOOK_URL=storybook/`, so the book links to the Storybook beside it) and `storybook build`. Refresh captures locally and commit them, and the next push republishes. One-time setup: in the repo's **Settings → Pages**, set **Source** to **GitHub Actions**. To redeploy without a push, run the workflow from the **Actions** tab.
 
 To refresh the captures from the live site:
 
@@ -152,7 +152,7 @@ Status and open work: `PROGRESS.md`.
 ```sh
 cd storybook
 npm install
-npm run localize   # once: downloads the fonts (not in git, they are licensed)
+npm run localize   # only for the Arabic font GE SS Two (not in git); Geomanist is committed
 npm run dev        # Storybook on http://localhost:6006
 ```
 
@@ -225,4 +225,4 @@ npm run preview   # serves the repo; open /index.html
 
 The generated files are committed so the CSS works without a build step. Text/background token pairs are chosen to meet WCAG AA contrast (4.5:1) in both themes.
 
-Token values are matched to the live site (see `audit/comparisons/live-vs-repo.md`). The font stack names Geomanist, OLX's typeface; it is licensed and not bundled, so pages fall back to Helvetica/Arial unless you load your own licensed copy.
+Token values are matched to the live site (see `audit/comparisons/live-vs-repo.md`). The font is Geomanist, OLX's typeface, committed in `fonts/` in three weights only: Regular (400), Book (500) and Medium (600). `css/tokens.css` loads them with `@font-face`. Bold and Thin are not used: there is no bold weight token, `<strong>`/`<b>` use Medium (600), and `font-synthesis: none` stops the browser from faking a bold.

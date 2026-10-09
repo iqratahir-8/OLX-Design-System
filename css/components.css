@@ -407,7 +407,7 @@
 .olx-details__row { display: grid; grid-template-columns: 40% 1fr; }
 .olx-details dt, .olx-details dd { margin: 0; padding: var(--olx-space-2) var(--olx-space-3); }
 .olx-details dt { background: var(--olx-bg-subtle); }
-.olx-details dd { background: var(--olx-surface-subtle); font-weight: var(--olx-font-weight-bold); }
+.olx-details dd { background: var(--olx-surface-subtle); font-weight: var(--olx-font-weight-semibold); }
 
 /* ---------- Seller card (ad detail sidebar) ---------- */
 .olx-seller { padding: var(--olx-space-3); border: 1px solid var(--olx-border-subtle); border-radius: var(--olx-radius-field); background: var(--olx-surface); }

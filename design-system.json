@@ -24,7 +24,7 @@
   "tokensJson": "tokens/tokens.json",
   "tokensJs": "dist/tokens.js",
   "theming": "Light by default, follows prefers-color-scheme; force with <html data-theme=\"light|dark\">. Components use semantic tokens (--olx-bg, --olx-text, --olx-primary, ...) only.",
-  "fonts": "Geomanist (licensed, not in git; npm run fetch-fonts for local use). Fallback: Helvetica, Arial, sans-serif.",
+  "fonts": "Geomanist, committed in fonts/ and loaded by css/tokens.css: Regular 400 (--olx-font-weight-regular), Book 500 (--olx-font-weight-medium), Medium 600 (--olx-font-weight-semibold). Never use Geomanist Bold or Thin: there is no token for them, <strong>/<b> use 600, and font-synthesis is off. Fallback: Helvetica, Arial, sans-serif.",
   "docs": [
    "README.md",
    "docs/INTEGRATION.md",
@@ -35,7 +35,7 @@
  "tokens": {
   "source": "tokens/tokens.json",
   "css": "css/tokens.css",
-  "count": 99,
+  "count": 98,
   "groups": {
    "color": [
     {
@@ -195,10 +195,6 @@
     {
      "name": "--olx-font-weight-semibold",
      "value": "600"
-    },
-    {
-     "name": "--olx-font-weight-bold",
-     "value": "700"
     },
     {
      "name": "--olx-font-line-height-tight",

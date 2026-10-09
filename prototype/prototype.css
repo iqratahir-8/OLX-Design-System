@@ -105,3 +105,7 @@ body { margin: 0; background: var(--olx-bg); color: var(--olx-text); font: 14px/
   .pt-screen { order: 10; flex-basis: 100%; }
 }
 @media (prefers-reduced-motion: reduce) { .pt-hot--next { animation: none; } .pt-section-mark { transition: none; } }
+
+/* Geomanist has Regular, Book and Medium only: emphasis uses Medium (600), never a faked bold. */
+html { font-synthesis: none; }
+b, strong { font-weight: var(--olx-font-weight-semibold); }

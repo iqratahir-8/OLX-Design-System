@@ -27,6 +27,9 @@ const bookHtml = (await readFile('book/index.html', 'utf8'))
 await writeFile(join(OUT, 'index.html'), bookHtml);
 for (const f of ['book/book.js', 'book/book.css']) await copy(f, f.slice(5));
 await copy('css/tokens.css');
+// Geomanist Regular, Book and Medium: tokens.css loads them from ../fonts/, and the
+// captured pages from fonts/ at the root (site/pages/<id>/ -> ../../../fonts/).
+for (const f of await readdir('fonts')) if (f.endsWith('.woff2')) await copy(`fonts/${f}`);
 await copy('tokens/tokens.json');
 
 // Components and templates the book renders (not their unused stylesheets or placeholders).
@@ -76,10 +79,10 @@ for (const s of Object.values(data.pages)) {
   const html = s.html.replace('../', '');
   if (s.kit) {
     // Design-kit pages stay files (their links between pages work as-is), with the
-    // kit's shared CSS and icons. Its fonts are licensed and not in the repo.
+    // kit's shared CSS, icons and Geomanist files (the Arabic GE SS Two font isn't in the repo).
     await copy(html);
     if (!kitAssets) {
-      for (const f of await walk('storybook/design-kit/templates/_assets')) if (!f.includes('/fonts/')) await copy(f);
+      for (const f of await walk('storybook/design-kit/templates/_assets')) await copy(f);
       kitAssets = true;
     }
     continue;

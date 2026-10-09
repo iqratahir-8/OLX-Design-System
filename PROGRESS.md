@@ -21,6 +21,7 @@ Every push to `main` rebuilds and redeploys the site (`.github/workflows/pages.y
 ## What is done
 
 - **Tokens.** `tokens/tokens.json` is the source of truth: colours, semantic light and dark theme, type, spacing, radius, shadow and motion. `npm run build` generates `css/tokens.css` and `dist/tokens.js`.
+- **Font.** Geomanist is committed and published, since OLX holds the licence, in three weights only: Regular 400, Book 500 and Medium 600. Bold and Thin are not used. There is no bold token, `<strong>` uses 600, and `font-synthesis: none` stops faked bold. The Arabic GE SS Two font is not in git.
 - **CSS components.** `css/components.css` holds the `olx-*` classes; the README has the list. The showcase is `index.html`.
 - **Live captures** from olx.com.pk, re-captured in one full pass on 7 Oct 2026 with photos:
   - `site/pages/`: 106 pages and states, 202 captures across desktop and mobile. Each has HTML, a screenshot, section crops and link hotspots.
@@ -68,7 +69,6 @@ Every push to `main` rebuilds and redeploys the site (`.github/workflows/pages.y
    - the desktop sell button times out in the checker.
 3. **Matching with `maple`.** `audit/comparisons/live-vs-repo.md` covers live versus this repo. Reconciling components with the `maple` source is still pending; `docs/inventory.md` marks it "specced".
 4. **Site size.** The published site is about 710 MB, against GitHub Pages' 1 GB limit, because the screenshots now include photos. Shrink the screenshots (WebP, or a lower scale on mobile) before adding much more.
-5. **Licensed fonts.** Geomanist isn't in git, so the published site uses a fallback font. Locally, `npm run fetch-fonts` downloads it into `fonts/`, which is git-ignored.
 
 ## Moving to another account
 
@@ -92,7 +92,6 @@ Every push to `main` rebuilds and redeploys the site (`.github/workflows/pages.y
 
 ```sh
 npm ci                      # Playwright, pngjs, simple-icons
-npm run fetch-fonts         # once, local only (licensed)
 npm run book                # book at http://localhost:6006/book/
 cd storybook && npm ci && npm run dev   # Storybook at http://localhost:6006
 ```
